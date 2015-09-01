@@ -8,12 +8,17 @@ Você poderá acompanhar toda a criação dele aqui nesse repositório e se quis
 
 ## Duração
 
-30 a 40 horas.
+** De 30 a 40 horas apenas o Be MEAN.**
+
+Caso o aluno doe para ganhar os outros cursos ele receberá além do certificado do **Be MEAN**, os certificados dos cursos adicionais.
 
 
-Se eu fosse cobrar me baseando nos valores atuais sairia algo em torno de **R$ 900/1000**, já que o meu de 20 horas custa R$ 600, mas como é muito caro e eu quero ensinar para o máximo de pessoas eu vou soltar ele como **CROWDFUNDING** então se atingirmos a meta, sim tem q ter meta aqui Dilma, o curso será dado online e ABERTO, todo conteúdo gerado e as aulas ao vivo QUALQUER UM poderá ver mesmo se não pagar, mas ele só sairá se conseguirmos atingir a meta.
 
 ## Ementa
+
+## Custo
+
+Se eu fosse cobrar me baseando nos valores atuais, meu Be MEAN custa R$ 600 e à vista R$500, logo sairia algo em torno de **R$ 1000/1200**, mas como **é muito caro e eu quero ensinar para o máximo de pessoas**, vou soltar ele como **CROWDFUNDING** então se atingirmos a meta, sim precisamos ter meta aqui Dilma, o curso será dado online e ABERTO, todo conteúdo gerado e as aulas ao vivo QUALQUER UM poderá ver mesmo se não pagar, mas ele só sairá se conseguirmos atingir a meta.
 
 ## Prêmios
 Prêmios para as doações são crescentes, ganha tudo o que os prêmios menores ganham e algo a mais.
@@ -27,7 +32,7 @@ Prêmios para as doações são crescentes, ganha tudo o que os prêmios menores
 
 **Só abriremos para doações 07/Setembro!!!**
 
-Quem doa terá acesso a um fórum exclusivo para tirar dúvidas e acesso ao nosso canal no Slack para tirar dúvidas em tempo real, além disse também receberá um **certificado de participação**. Algo muito importante para quem faz faculdade.
+Quem doa terá acesso a um fórum exclusivo para tirar dúvidas e acesso ao nosso canal no Slack, ou Rocket.chat, para tirar dúvidas em tempo real, além disse também receberá um **certificado de participação**. Algo muito importante para quem faz faculdade.
 
 ## Meta
 
@@ -64,35 +69,4 @@ Esse BE MEAN será feito especialmente para a galera das faculdades para eles ve
 Espero que você tenha gostado da proposta e possa colaborar, isso irá ajudar e muito nossa comunidade. <3
 
 
-# As doações só serão abertas em 1 de Setembro!!!
-
-# Desafio de DESIGN
-
-Estou abrindo esse desafio para alguém criar a arte final que iremos divulgar amplamente na internet e nas faculdades, terá impresso.
-
-## O Ganhador
-
-Quem votará será a comunidade e o ganhador ganhará uma camiseta do Be MEAN + adesivo do Be MEAN, MongoDB, Angular.js e Node.js, se você for interessado pode falar comigo diretamente via [inbox](https://www.facebook.com/suissa)
-
-## A Arte
-
-Deverá utilizar as seguintes especificações:
-
-- tamanho A3
-- 300dpis
-- .ai ou .psd ou .eps ou .pdf
-
-Deverá conter o logo do Be MEAN.
-
-![](http://webschool.io/bemean/images/logo.png)
-
-[Versão em vetor](https://cloudup.com/files/iYPROr4FML2/download)
-
-As artes devem ser zipadas com seu nome e enviada para algum Dropbox da vida e a URL você envia nesse [form](https://docs.google.com/forms/d/1RA3UgzTqks0LuhFX0fyuJXZbtR5c8fMnCZH9wfqM8JA/viewform).
-
-## Data limite
-
-Como as doações começarão apenas em 1/Setembro o limite será **25 de Agosto** para que fique para votação até dia **27 de Agosto**.
-
-
-Conto com a sua colaboração!
+# As doações só serão abertas em 7 de Setembro!!!
