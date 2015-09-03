@@ -26,7 +26,7 @@ Prêmios para as doações são crescentes, ganha tudo o que os prêmios menores
 - **R$ 50** - 1 adesivo do Workshop Be MEAN + 1 adesivo do MongoDB, 1 adesivo do Node.js e 1 adesivo do Angular (**ilimitado**)
 - **R$ 100** - o de cima + 1 camiseta do Be MEAN (**200 vagas**)
 - **R$ 200** - o de cima + 1 workshop de Geolocalização com MongoDB (**100 vagas**)
-- **R$ 300** - o de cima + 1 curso para transformar nosso sistema em um APP MOBILE com Ionic e Cordova (**100 vagas**)
+- **R$ 300** - o de cima + 1 curso para transformar nosso sistema em um APP MOBILE com Ionic e Cordova (**100 vagas**) *professor [Willian Ribeiro Angelo](https://github.com/movibe)*
 - **R$ 500** - o de cima + 1 curso para transformar nossa arquitetura em containers de Docker (**40 vagas**)
 
 **Só abriremos para doações 07/Setembro!!!**
