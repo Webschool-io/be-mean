@@ -29,7 +29,7 @@ Prêmios para as doações são crescentes, ganha tudo o que os prêmios menores
 - **R$ 300** - o de cima + 1 curso para transformar nossa arquitetura em containers de Docker (**100 vagas**) *professor [Thiago machado](https://github.com/dublado)*
 - **R$ 500** - o de cima + 1 curso para transformar nosso sistema em um APP MOBILE com Ionic e Cordova (**50 vagas**) *professor [Willian Ribeiro Angelo](https://github.com/movibe)*
 
-**Só abriremos para doações 07/Setembro!!!**
+##[Clique aqui para doar!](http://dagora.net/be-mean)
 
 Quem doa terá acesso a um fórum exclusivo para tirar dúvidas e acesso ao nosso canal no Slack, ou Rocket.chat, para tirar dúvidas em tempo real, além disse também receberá um **certificado de participação**. Algo muito importante para quem faz faculdade.
 
@@ -67,5 +67,4 @@ Esse BE MEAN será feito especialmente para a galera das faculdades para eles ve
 
 Espero que você tenha gostado da proposta e possa colaborar, isso irá ajudar e muito nossa comunidade. <3
 
-
-# As doações só serão abertas em 7 de Setembro!!!
+##[Clique aqui para doar!](http://dagora.net/be-mean)
