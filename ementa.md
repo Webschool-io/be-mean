@@ -53,6 +53,7 @@
     + Factory
     + Provider
   - Diretivas
+  - Testes
 - Front-end
   + Atomic Design
   + Stylus
