@@ -16,7 +16,9 @@ function testReturn(action, data) {
   console.log('action', action, data)
 };
 
-// save
+// Create: save
+// Verifica se veio como Object
+// Roda o teste primitivo para Object
 // Deve retornar o mesmo objeto do Schema acrescido de:
 // _id
 // __v
@@ -31,12 +33,13 @@ function testReturn(action, data) {
 //   description: "",
 //   name: "" }
 
-// save
-// { __v: 0,
-//   _id: 560b790c5747b5491c662170,
-//   created_at: Wed Sep 30 2015 02:54:20 GMT-0300 (BRT),
-//   category: 'pilsen',
-//   price: 3,
-//   alcohol: 4.5,
-//   description: 'Mijo de rato',
-//   name: 'Skol' }
+
+// Retrieve: find
+// armazena o count() da coleção
+// Verifica se veio como Array
+// Roda o teste primitivo para Array
+// Verifica a quantidade de registros retornados
+
+
+
+
