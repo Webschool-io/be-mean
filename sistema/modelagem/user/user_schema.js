@@ -1,5 +1,6 @@
 const ValidateEmail = require('./email_validate');
 const ValidatePassword = require('./password_validate');
+const mongoose = require('mongoose');
 
 const Schema = {
   name: {
@@ -14,14 +15,13 @@ const Schema = {
 , password: {
     type: String
   , default: ''
-  , validate: ValidatePassword
+  , validate: ValidatePassword 
   }
 , photos: [
     {
       photo_id: {
-        type: Schema.ObjectId
+        type: mongoose.Schema.ObjectId
       , ref: 'Photos' }
-      }
     }
   ]
 , created_at: {
