@@ -45,3 +45,7 @@ function testReturn(action, data) {
 // se retorno === 0 então não atualizou nada
 
 
+// Delete: remove
+// retorna um INTEIRO de quantos objetos foram removidos
+// se retorno === 0 então não removeu nada
+
