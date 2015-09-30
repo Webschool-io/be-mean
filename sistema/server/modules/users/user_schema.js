@@ -1,7 +1,10 @@
-const ValidateEmail = require('./email_validate');
-const ValidatePassword = require('./password_validate');
+const VALIDATORS_PATH = './../../validators/';
+const ValidateEmail = require(VALIDATORS_PATH + 'email_validate');
+const ValidatePassword = require(VALIDATORS_PATH + 'password_validate');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const Schema = {
+const _schema = {
   name: {
     type: String
   , default: ''
@@ -20,7 +23,7 @@ const Schema = {
     {
       photo_id: {
         type: Schema.ObjectId
-      , ref: 'Photos' }
+      , ref: 'Photos' 
       }
     }
   ]
@@ -31,4 +34,4 @@ const Schema = {
 }
 
 
-module.exports = Schema;
+module.exports = _schema;
