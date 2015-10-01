@@ -24,5 +24,10 @@
   ],
   "author": "Suissa",
   "license": "WTFPL",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "charlatan": "^1.0.0",
+    "superagent": "^1.4.0"
+  }
 }
