@@ -4,7 +4,7 @@ const Routes = require('./routes');
 
 function addRoute(route) {
   router[route.method](route.url, route.callback);
-  console.log(route.method, route.url, route.callback.toString());
+  // console.log(route.method, route.url, route.callback.toString());
 }
 
 Routes.forEach(addRoute);

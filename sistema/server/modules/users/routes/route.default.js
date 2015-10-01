@@ -1,10 +1,13 @@
 // route.default.js
 var Route = function(Action, RouteConfig) {
-  const ACTION = RouteConfig.action;
-  const METHOD = RouteConfig.method;
-  const URL = RouteConfig.url;
+  console.log('Action', Action.toString());
+  console.log('RouteConfig', RouteConfig);
+  var ACTION = RouteConfig.action;
+  var METHOD = RouteConfig.method;
+  var URL = RouteConfig.url;
   var CALLBACK = function(req, res) {
-    Action.ACTION(req, res);
+    console.log("route.default callback");
+    // Action[ACTION](req, res);
   }
   return {
       action: ACTION
@@ -13,4 +16,5 @@ var Route = function(Action, RouteConfig) {
     , callback: CALLBACK
   };
 }
+console.log('Route default', Route);
 module.exports = Route;
