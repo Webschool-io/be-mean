@@ -2,29 +2,14 @@
 
 require('./../fields/config.fields');
 
-let should = require('chai').should();
-let ch =  require('charlatan');
+const FIELD_NAME = 'name';
 
-describe('testing of users routes',() => {
-	let id = null;
-	let user = {
-		name : ch.Name.firstName(),
-		email : ch.Internet.email(ch.Name.name()),
-		password : ch.Number.number(6)
-	};
-	
-	it('should be create one user', done => {
-		 request
-      .post(url.resolve(ABS_URL,'users'))
-      .send(user)
-      .end((err , res) => {
-        res.should.be.exist;
-        res.body.should.be.a('Object');
-        res.body._id.should.exist;
-        res.status.should.be.eql(201);
-        id = res.body._id;
-        done();
-      });	
-	});
+let Suite = {
+  FIELD_NAME: FIELD_NAME
+, Field: require('./../fields/'+ FIELD_NAME +'.field')
+};
 
+describe('Teste do campo '+ FIELD_NAME,() => {
+  require('./field.'+ FIELD_NAME +'._correct.test')(Suite);
+  require('./field.'+ FIELD_NAME +'._incorrect.test')(Suite);
 });

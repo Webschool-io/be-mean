@@ -7,11 +7,8 @@ const Schema = mongoose.Schema;
 const _schema = {
   require('./fields/name.field')
 , require('./fields/email.field')
-, password: {
-    type: String
-  , default: ''
-  , validate: ValidatePassword
-  }
+, require('./fields/password.field')
+, require('./fields/created_at.field')
 , photos: [
     {
       photo_id: {
@@ -20,10 +17,6 @@ const _schema = {
       }
     }
   ]
-, created_at: {
-    type: Date
-  , default: Date.now
-  }
 }
 
 
