@@ -7,7 +7,7 @@ const field = 'password';
 
 var Validate = {
   validator:  function(pass) {
-    return (pass.length > 6 );
+    return (pass.length > 8 );
   },
   message: '{VALUE} não é um '+ field +' aceitável'
 };
