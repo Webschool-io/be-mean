@@ -9,6 +9,6 @@ ACTIONS.forEach(function(action) {
   const Route = require(ROUTES_FOLDER + 'route.default.js')(Action, Config);
   Routes.push(Route);
 });
-console.log(Routes);
+//console.log(Routes);
 
 module.exports = Routes;
