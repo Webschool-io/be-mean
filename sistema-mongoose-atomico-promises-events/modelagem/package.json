@@ -1,0 +1,31 @@
+{
+  "name": "modelagem",
+  "version": "0.0.1",
+  "description": "modelagem of models",
+  "main": "app.js",
+  "dependencies": {
+    "mongoose": "^4.1.9"
+  },
+  "devDependencies": {
+		"chai": "^3.3.0",
+    "charlatan": "^1.0.0",
+	},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webschool-io/be-mean-instagram.git"
+  },
+  "keywords": [
+    "instagem",
+    "node",
+    "tdd"
+  ],
+  "author": "Jean Carlos Nascimento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Webschool-io/be-mean-instagram/issues"
+  },
+  "homepage": "https://github.com/Webschool-io/be-mean-instagram#readme"
+}
