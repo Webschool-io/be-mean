@@ -23,6 +23,14 @@ Irei explicar um pouco dos seguintes grupos:
 - Grafo;
 - Coluna.
 
+Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problea específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL.
+
+#### Analogia
+
+Eu faço uma analogia interessante sobre bancos de dados relacionais serem as cervejas de milho que encontramos aqui pelo Brasil e as cervejas artesanais.
+
+As cervejas de milho você acha em qualquer boteco e qualquer um bebe, agora as cervejas artesanais apenas poucos com bom gosto o fazem, assim é com os bancos de daods ehhehheh.
+
 #### Chave/Valor
 
 ![Visualização de um tipo chave-valor](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.png)
