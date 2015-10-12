@@ -4,6 +4,8 @@ Primeiramente preciso explicar o que é um banco NoSQL, eu já me enveredo por e
 
 Desde lá para cá eu ja testei inúmeros bancos, porém o mais simples e adptável ao JavaScript, para mim, foi o MongoDB, por isso continuei trabalhando nele. Mas nunca deixando de estudar sempre as novidades, pior exemplo bancos de dados híbridos que são orientados tando a documento como grafo.
 
+E eu sempre evangelizo que não devemos usar apenas **1** banco de dados NoSQL e sim alguns, pois cada um resolve um problema diferente, explico melhor esse conceito nesse artigo [NoSQL - Arquitetura híbrida para uma rede social](http://nomadev.com.br/nosql-arquitetura-h%C3%ADbrida-para-uma-rede-social/).
+
 ### NoSQL
 
 Esse tipo de banco de dados já existe há um bom tempo, apenas não tinha essa nomenclatura, ela foi criada em 2009 em um evento sobre banco de dados não relacionais de código aberto e foi um enegnheiro do [Last.fm]() que cunhou, porém não siginifica que não podemos usar *SQL*, até porque alguns bancos NoSQL usam um *tipo* de *SQL*, então como ele deveria ser chamado?
