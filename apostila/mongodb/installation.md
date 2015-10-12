@@ -10,6 +10,8 @@ Depois basta descompactar e rodar.
 
 ### Linux
 
+![Meme do Linux](./images/meme-linux.md)
+
 Quem usa Linux do tipo Ubuntu da vida pode instalar via `apt-get` seguindo esses passos, primeiro garantir a autenticidade e consistencia dos pacotes do MongoDb:
 
 ```
@@ -32,6 +34,8 @@ Caso você use RedHat ou CentOS siga esses passos: [http://docs.mongodb.org/manu
 
 ### Mac
 
+![Meme do Mac](./images/meme-mac.md)
+
 Quem usa Mac pode instalar via [brew](http://brew.sh/) e para instalar o brew é bem fácil basta executar esse comando no seu terminal:
 
 ```
@@ -42,7 +46,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ### Windows
 
-![Meme do Windows](https://cldup.com/jULwuCNjkp-3000x3000.jpeg)
+![Meme do Mac](./images/meme-windows.md)
 
 Por incrível que pareça é bem simples no Windows, um aluno meu escreveu esse rtigo que pode lhe ajudar [https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/](https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/).
 
@@ -70,7 +74,7 @@ Caso ele de um erro falando sobre o `dbpath` é **muito simples** de resolver, b
 sudo chmod 777 -R /data
 ```
 
-*ps: **por favor nunca faça isso em produção**!*
+**ps: *por favor nunca faça isso em produção*!**
 
 Acredito que depois ele não dará mais problema.
 
