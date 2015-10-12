@@ -67,6 +67,10 @@ Bem simples esse conceito não? E como a maioria desses banco funciona operando 
 - [Riak](http://basho.com/products/riak-kv/)
 - [LevelDb](http://leveldb.org/)
 
+##### Para que usar?
+
+Cache.
+
 #### Documento
 
 ![Visualização de um tipo documento](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-document.png)
@@ -86,13 +90,25 @@ O tipo de documento em que o MongoDb é baseado é o JSON.
 - [MongoDB](https://www.mongodb.org/)
 - [CouchDB](http://couchdb.apache.org/)
 
+##### Para que usar?
+
+Modelagem complexa e buscas dinâmicas.
+
 #### Grafo
 
 ![Visualização de um grafo](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-relational-graph.png)
 
+Um banco de dados orientado a [grafos]() possui um base na teoria matemática dos grafos, mas que não é nada difícil, precisamos apenas pensar nas entidades como pontos(vértices) e que elas podem se relacionar com com outras entidaes a partir de relações(arestas), como mostrado na imagem acima.
+
+Esse tipo de banco é perfeito para redes sociais, caso você vá criar uma e não usar esse tipo de banco por favor **NUNCA DIGA QUE FOI MEU ALUNO**, LOL. Brincadeiras a parte, esse banco foi feito para isso.
+
 - [Neo4J](http://neo4j.com/)
 - [GraphDb](http://ontotext.com/products/ontotext-graphdb/graphdb-standard/)
 - [Levelgraph](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/)
+
+##### Para que usar?
+
+Dados inter-relacionados.
 
 #### Coluna
 
@@ -101,7 +117,15 @@ O tipo de documento em que o MongoDb é baseado é o JSON.
 - [Cassandra](http://cassandra.apache.org/)
 - [Hbase](http://hbase.apache.org/)
 
+##### Para que usar?
+
+BI.
+
 #### Híbridos
 
 - [ArangoDb](https://www.arangodb.com/)
 - [OrienteDB]()
+
+##### Para que usar?
+
+Modelagem complexa e interconectada.
