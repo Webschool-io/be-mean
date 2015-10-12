@@ -65,6 +65,18 @@ Bem simples esse conceito não? E como a maioria desses banco funciona operando 
 
 #### Documento
 
+Um banco baseado em documento se assemelha bastante ao chave/valor pois também possui aquela estrutura:
+
+```
+chave: valor
+```
+
+Porém desa vez também temos a busca pelos valores internos da nossa entidade persistida e para isso o MongoDB usa uma API bem simples e fácil de aprender que veremos a frente.
+
+O tipo de documento em que o MongoDb é baseado é o JSON.
+
+![meme Jason](http://memestorage.com/_nw/44/01601064.jpg)
+
 - [MongoDB]()
 - [CouchDB]()
 

@@ -64,7 +64,7 @@ Ou no `PowerShell`:
 .\mongod
 ```
 
-Caso ele de um erro falando sobre o `dbpath` é **muito siples** de resolver, basta criarmos uma pasta na sua raíz, C:\, com o nome `data` e dentro dela `db`, se usar Linux/Mac não esqueça de dar as permissões corretas, caso queira liberar geral basta um:
+Caso ele de um erro falando sobre o `dbpath` é **muito simples** de resolver, basta criarmos uma pasta na sua raíz, C:\, com o nome `data` e dentro dela `db`, se usar Linux/Mac não esqueça de dar as permissões corretas, caso queira liberar geral basta um:
 
 ```
 sudo chmod 777 -R /data
