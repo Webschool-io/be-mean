@@ -85,11 +85,28 @@ Depois de utilizarmos o MongoDB precisamos rodar seu cliente para que possamos i
 mongo
 ```
 
-Executando dessa forma ele irá se conectar em uma *database* chamada `test`, para que você execute o cliente diretamente em uma *database* específica, basta passaro nome dela logo após o comando:
+Executando dessa forma ele irá se conectar em uma *database* chamada `test`, para que você execute o cliente diretamente em uma *database* específica, basta passar o nome dela logo após o comando:
 
 ```
 mongo be-mean-instagram
 ```
 
+Nesse caso já entramos com a *database* `be-mean-instagram` que será a base utilizada em nosso *workshop*.
 
+## Versão
 
+Para você garantir que a verão 3 está instalada basta executar o seguinte comando:
+
+```
+mongod --version
+db version v3.0.6
+```
+
+E para o seu cliente:
+
+```
+mongo --version
+MongoDB shell version: 3.0.6
+```
+
+Agora estamos prontos para iniciar.
