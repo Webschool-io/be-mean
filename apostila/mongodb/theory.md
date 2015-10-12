@@ -21,6 +21,8 @@ Irei explicar um pouco dos seguintes grupos:
 
 #### Chave/Valor
 
+![Visualização de um tipo chave-valor](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.jpg)
+
 Esse tipo de banco de dados são utilizados em sua grande maioria para resolver o problema de cache, pois a estrutura que eles usam é bem simples, é a estrutura que temos em qualquer banco como **índice**.
 
 Sabe quando você vai criar umm índice na sua tabela de banco de dados para que ela tenha maior velocidade nas buscas?
@@ -59,11 +61,13 @@ undefined
 
 Bem simples esse conceito não? E como a maioria desses banco funciona operando apenas na RAM, para depois persistir, no caso de alguns, são largamente utilizados para **cache**, nesse meio contamos com nomes como:
 
-- [Redis]()
-- [Riak]()
-- [LevelDb]()
+- [Redis](http://redis.io/)
+- [Riak](http://basho.com/products/riak-kv/)
+- [LevelDb](http://leveldb.org/)
 
 #### Documento
+
+![Visualização de um tipo documento](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-relational-document.jpg)
 
 Um banco baseado em documento se assemelha bastante ao chave/valor pois também possui aquela estrutura:
 
@@ -75,20 +79,24 @@ Porém desa vez também temos a busca pelos valores internos da nossa entidade p
 
 O tipo de documento em que o MongoDb é baseado é o JSON.
 
-![meme Jason](http://memestorage.com/_nw/44/01601064.jpg)
+![meme Jason](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-jason.jpg)
 
-- [MongoDB]()
-- [CouchDB]()
+- [MongoDB](https://www.mongodb.org/)
+- [CouchDB](http://couchdb.apache.org/)
 
 #### Grafo
 
-- [Neo4J]()
-- [Hypergraph]()
-- [Levelgraph]()
+![Visualização de um grafo](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-relational-graph.jpg)
+
+- [Neo4J](http://neo4j.com/)
+- [GraphDb](http://ontotext.com/products/ontotext-graphdb/graphdb-standard/)
+- [Levelgraph](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/)
 
 #### Coluna
 
-- [Cassandra]()
+![Visualização de um tipo coluna](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-column.jpg)
+
+- [Cassandra](http://cassandra.apache.org/)
 - [Hadoop/Hbase]()
 
 #### Híbridos
