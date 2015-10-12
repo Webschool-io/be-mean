@@ -69,7 +69,7 @@ Bem simples esse conceito não? E como a maioria desses banco funciona operando 
 
 #### Documento
 
-![Visualização de um tipo documento](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-relational-document.jpg)
+![Visualização de um tipo documento](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-document.jpg)
 
 Um banco baseado em documento se assemelha bastante ao chave/valor pois também possui aquela estrutura:
 
