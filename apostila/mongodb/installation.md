@@ -68,13 +68,23 @@ Caso ele de um erro falando sobre o `dbpath` é **muito siples** de resolver, ba
 sudo chmod 777 -R /data
 ```
 
-*ps: **por favor nunca faça isso em produção!***
+*ps: **por favor nunca faça isso em produção**!*
 
 Acredito que depois ele não dará mais problema.
 
-
 ## MongoDB Cliente
 
-Depois de rodarmos o MongoDB precisamos rodar seu cliente para que possamos integragir com ele via linha de comando.
+Depois de utilizarmos o MongoDB precisamos rodar seu cliente para que possamos integragir com ele via linha de comando, para isso basta executar o comando `mongo` no seu terminal:
+
+```
+mongo
+```
+
+Executando dessa forma ele irá se conectar em uma *database* chamada `test`, para que você execute o cliente diretamente em uma *database* específica, basta passaro nome dela logo após o comando:
+
+```
+mongo be-mean-instagram
+```
+
 
 
