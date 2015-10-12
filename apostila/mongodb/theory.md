@@ -8,7 +8,7 @@ E eu sempre evangelizo que não devemos usar apenas **1** banco de dados NoSQL e
 
 ### NoSQL
 
-Esse tipo de banco de dados já existe há um bom tempo, apenas não tinha essa nomenclatura, ela foi criada em 2009 em um evento sobre banco de dados não relacionais de código aberto e foi um enegnheiro do [Last.fm]() que cunhou, porém não siginifica que não podemos usar *SQL*, até porque alguns bancos NoSQL usam um *tipo* de *SQL*, então como ele deveria ser chamado?
+Esse tipo de banco de dados já existe há um bom tempo, apenas não tinha essa nomenclatura, ela foi criada em 2009 em um evento sobre banco de dados não relacionais de código aberto, organizado por Johan Oskarsson da [Last.fm](Last.fm) e foi um funcionário do [Rackspace](http://www.rackspace.com/), Eric Evans, que cunhou o termo. Porém não siginifica que, não podemos usar *SQL*, até porque alguns bancos NoSQL usam um *tipo* de *SQL*, então como ele deveria ser chamado?
 
 > Bancos NoREL: Bancos Não Relacionais
 
@@ -23,13 +23,24 @@ Irei explicar um pouco dos seguintes grupos:
 - Grafo;
 - Coluna.
 
-Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problea específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL.
+Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problea específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL, bastante utilizados em projetos de [Business Inteligence](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial), pois neles você tem essas 4 características:
+
+- Velocidade de dados alta - lotes de dados que vêm muito rapidamente, possivelmente a partir de diferentes locais.
+- Variedade de dados - armazenamento de dados que está estruturado, semi-estruturado e não estruturado.
+- Volume de dados - dados que envolve muitos terabytes ou petabytes em tamanho.
+- A complexidade dos dados - os dados que são armazenados e gerenciados em diferentes locais ou centros de dados.
 
 #### Analogia
 
 Eu faço uma analogia interessante sobre bancos de dados relacionais serem as cervejas de milho que encontramos aqui pelo Brasil e as cervejas artesanais.
 
-As cervejas de milho você acha em qualquer boteco e qualquer um bebe, agora as cervejas artesanais apenas poucos com bom gosto o fazem, assim é com os bancos de daods ehhehheh.
+As cervejas de milho você acha em qualquer boteco e qualquer um bebe, agora as cervejas artesanais apenas poucos com bom gosto o fazem, assim é com os bancos de dados ehhehheh.
+
+
+#### Vantagens
+
+Normalmente as empresas utilizam os bancos NoSQL quando possuem um banco de dados em franco crescimento e precisam escalar horizontalmente com performante.
+
 
 #### Chave/Valor
 
