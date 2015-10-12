@@ -7,6 +7,7 @@ Nesse curso eu abordarei
 - **MongoDb**
   - [Teoria](./mongodb/theory.md)
   - [Instalação](./installation.md)
+  - [Cliente](./mongodb-client.md)
   - [CRUD](./mongodb/crud.md)
     - [insert](./mongodb/insert.md)
     - [save](./mongodb/save.md)
@@ -16,7 +17,7 @@ Nesse curso eu abordarei
     - [remove](./mongodb/remove.md)
     - [drop](./mongodb/drop.md)
     - [Paginação](./mongodb/paggination.md)
-  - [Agreggation Framework](./mongodb/aagreggation-framework.md)
+  - [Aggregation](./mongodb/agreggation.md)
   - [Replica](./mongodb/replica.md)
   - [Sharding](./mongodb/sharding.md)
   - [GridFs](./mongodb/gridFs.md)

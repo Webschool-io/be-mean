@@ -110,7 +110,9 @@ Modelagem complexa e buscas dinâmicas.
 
 Um banco de dados orientado a [grafos]() possui um base na teoria matemática dos grafos, mas que não é nada difícil, precisamos apenas pensar nas entidades como pontos(vértices) e que elas podem se relacionar com com outras entidaes a partir de relações(arestas), como mostrado na imagem acima.
 
-Esse tipo de banco é perfeito para redes sociais, caso você vá criar uma e não usar esse tipo de banco por favor **NUNCA DIGA QUE FOI MEU ALUNO**, LOL. Brincadeiras a parte, esse banco foi feito para isso.
+Esse tipo de banco é perfeito para redes sociais, caso você vá criar uma e não usar esse tipo de banco por favor **NUNCA DIGA QUE FOI MEU ALUNO**, LOL. Brincadeiras a parte, esse banco foi feito para isso, logo espero que o usem.
+
+Cso você queira conhecer um pouco mais de um banco de grafos feito em Node.js eu escrevi esse artigo há algum tempo atrás [Levelgraph - Um banco de dados de Grafos para Node.js - Parte 1](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/).
 
 - [Neo4J](http://neo4j.com/)
 - [GraphDb](http://ontotext.com/products/ontotext-graphdb/graphdb-standard/)
@@ -133,8 +135,10 @@ BI.
 
 #### Híbridos
 
+Depois dos 4 principais grupos ainda temos mais um que vem ganhando força, o dos bancos de dados híbridos, os 2 mais conhecidos são orientados por **documento e grafo**, o que os faz muito poderosos, pois a parte de relacionamento é o que peca no MongoDB e eu sempre aconselho a utilização de um banco de grafos para auxiliar nessa missão, agora você pode fazer as 2 coisas em 1 banco só, fiquem de olho pois são bem interessantes.
+
 - [ArangoDb](https://www.arangodb.com/)
-- [OrienteDB]()
+- [OrienteDB](http://orientdb.com/orientdb/)
 
 ##### Para que usar?
 
