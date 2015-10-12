@@ -23,7 +23,7 @@ Irei explicar um pouco dos seguintes grupos:
 
 #### Chave/Valor
 
-![Visualização de um tipo chave-valor](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.jpg)
+![Visualização de um tipo chave-valor](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.png)
 
 Esse tipo de banco de dados são utilizados em sua grande maioria para resolver o problema de cache, pois a estrutura que eles usam é bem simples, é a estrutura que temos em qualquer banco como **índice**.
 
@@ -69,7 +69,7 @@ Bem simples esse conceito não? E como a maioria desses banco funciona operando 
 
 #### Documento
 
-![Visualização de um tipo documento](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-document.jpg)
+![Visualização de um tipo documento](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-document.png)
 
 Um banco baseado em documento se assemelha bastante ao chave/valor pois também possui aquela estrutura:
 
@@ -88,7 +88,7 @@ O tipo de documento em que o MongoDb é baseado é o JSON.
 
 #### Grafo
 
-![Visualização de um grafo](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-relational-graph.jpg)
+![Visualização de um grafo](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-relational-graph.png)
 
 - [Neo4J](http://neo4j.com/)
 - [GraphDb](http://ontotext.com/products/ontotext-graphdb/graphdb-standard/)
@@ -96,7 +96,7 @@ O tipo de documento em que o MongoDb é baseado é o JSON.
 
 #### Coluna
 
-![Visualização de um tipo coluna](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-column.jpg)
+![Visualização de um tipo coluna](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-column.png)
 
 - [Cassandra](http://cassandra.apache.org/)
 - [Hbase](http://hbase.apache.org/)
