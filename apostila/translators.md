@@ -6,6 +6,15 @@ Para você contribuir com a tradução desse conteúdo basta mandar um **PULL RE
     - [facebook](https://www.facebook.com/kevinho)
     - [github](https://www.github.com/kevinho)
 
+## Tradução
+
+Para traduzir algo você deverá criar uma [issue]() falando para qual língua será traduzido e qual arquivo, nesse modelo:
+
+```
+Tradução - Javanes - mongodb/theory.md
+
+Tradução do arquivo mongodb/theory.md para o javanes, que foi precursor do javascriptnes.
+```
 
 ## Inglês
 
