@@ -82,7 +82,7 @@ undefined
 'Suissa'
 ```
 
-Bem simples esse conceito não? E como a maioria desses banco funciona operando apenas na RAM, para depois persistir, no caso de alguns, são largamente utilizados para **cache**, nesse meio contamos com nomes como:
+Bem simples esse conceito não? E como a maioria desses bancos funcionam operando apenas na RAM, para depois persistir, no caso de alguns, são largamente utilizados para **cache**, nesse meio contamos com nomes como:
 
 - [Redis](http://redis.io/)
 - [Riak](http://basho.com/products/riak-kv/)
