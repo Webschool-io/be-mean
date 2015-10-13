@@ -48,6 +48,10 @@ Claro que você colaborando com o nosso projeto também receberá algo em troca,
 
 ## Espanhol
 
+- Rodrigo Oler
+    - [facebook](https://www.facebook.com/oler.rodrigo)
+    - [github](https://github.com/RodrigoOler)
+    
 ## Sueco
 
 - Stenio Wagner
