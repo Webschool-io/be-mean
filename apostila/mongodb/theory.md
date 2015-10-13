@@ -48,7 +48,7 @@ Normalmente as empresas utilizam os bancos NoSQL quando possuem um banco de dado
 
 Esse tipo de banco de dados são utilizados em sua grande maioria para resolver o problema de cache, pois a estrutura que eles usam é bem simples, é a estrutura que temos em qualquer banco como **índice**.
 
-Sabe quando você vai criar umm índice na sua tabela de banco de dados para que ela tenha maior velocidade nas buscas?
+Sabe quando você vai criar um índice na sua tabela de banco de dados para que ela tenha maior velocidade nas buscas?
 
 Então é a mesma coisa aqui, a estrutura de uma *entidade* nesse tipo de banco segue a seguinte regra:
 
