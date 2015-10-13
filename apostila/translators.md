@@ -8,7 +8,7 @@ Para você contribuir com a tradução desse conteúdo basta mandar um **PULL RE
 
 ## Tradução
 
-Para traduzir algo você deverá criar uma [issue]() falando para qual língua será traduzido e qual arquivo, nesse modelo:
+Para traduzir algo você deverá criar uma [issue]() falando para qual língua será traduzido e qual arquivo, nesse modelo de título e mensagem:
 
 ```
 Tradução - Javanês - mongodb/theory.md
