@@ -11,10 +11,19 @@ Para você contribuir com a tradução desse conteúdo basta mandar um **PULL RE
 Para traduzir algo você deverá criar uma [issue]() falando para qual língua será traduzido e qual arquivo, nesse modelo:
 
 ```
-Tradução - Javanes - mongodb/theory.md
+Tradução - Javanês - mongodb/theory.md
 
-Tradução do arquivo mongodb/theory.md para o javanes, que foi precursor do javascriptnes.
+Tradução do arquivo mongodb/theory.md para o javanês, que foi precursor do javascriptnês.
 ```
+
+E o arquivo em que você irá traduzir deve ser salvo separadamente com o sufixo da sigla do idioma usado, por exemplo para inglês:
+
+```
+mongodb/theory-EN.md
+```
+
+Para conhecer a lista de siglas acesse [esse link](https://pt.wikipedia.org/wiki/ISO_639).
+
 
 ## Inglês
 
