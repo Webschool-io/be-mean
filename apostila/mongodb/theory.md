@@ -23,7 +23,7 @@ Irei explicar um pouco dos seguintes grupos:
 - Grafo;
 - Coluna.
 
-Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problea específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL, bastante utilizados em projetos de [Business Inteligence](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial), pois neles você tem essas 4 características:
+Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problema específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL, bastante utilizados em projetos de [Business Inteligence](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial), pois neles você tem essas 4 características:
 
 - Velocidade de dados alta - lotes de dados que vêm muito rapidamente, possivelmente a partir de diferentes locais.
 - Variedade de dados - armazenamento de dados que está estruturado, semi-estruturado e não estruturado.
