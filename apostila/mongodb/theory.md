@@ -71,7 +71,7 @@ undefined
 
 O que fiz foi criar um *array* vazio em `banco_chave_valor` e depois crio uma entidade chamada `valor` contendo o seguinte objeto: `{ name: 'Suissa', teacher: true }` e atribuo esse valor à minha chave `minha-chave-unica-malandrinha`.
 
-Agora caso estivermos em um banco de Chave/Valor nós só pode acessar os valores dessa entidade se buscarmos pela sua chave `minha-chave-unica-malandrinha` para depois acessar seus valores internamente:
+Agora caso estivermos em um banco de Chave/Valor nós só podemos acessar os valores dessa entidade se buscarmos pela sua chave `minha-chave-unica-malandrinha` para depois acessarmos seus valores internamente:
 
 ```js
 > var busca_entidade_malandrinha = banco_chave_valor['minha-chave-unica-malandrinha']
