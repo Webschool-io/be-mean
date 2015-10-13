@@ -29,8 +29,10 @@ Para conhecer a lista de siglas acesse [esse link](https://pt.wikipedia.org/wiki
 
 Claro que você colaborando com o nosso projeto também receberá algo em troca, por hora será o seguinte:
 
-- 2 arquivos = 1 adesivo
-- 20 arquivos = (10 adesivos que já ganhou) + **1 camiseta**
+- 2 arquivos = 1 adesivo;
+- 20 arquivos = (10 adesivos que já ganhou) + **1 camiseta**;
+- 20 arquivos = o anterior + **1 certificado do Workshop de Geolocalização com MongoDB**;
+- 50 arquivos = o anterior + **1 certificado do Workshop de Ionic**.
 
 
 ## Inglês
