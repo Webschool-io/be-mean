@@ -23,7 +23,7 @@ Irei explicar um pouco dos seguintes grupos:
 - Grafo;
 - Coluna.
 
-Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problea específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL, bastante utilizados em projetos de [Business Inteligence](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial), pois neles você tem essas 4 características:
+Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problema específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL, bastante utilizados em projetos de [Business Inteligence](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial), pois neles você tem essas 4 características:
 
 - Velocidade de dados alta - lotes de dados que vêm muito rapidamente, possivelmente a partir de diferentes locais.
 - Variedade de dados - armazenamento de dados que está estruturado, semi-estruturado e não estruturado.
@@ -48,7 +48,7 @@ Normalmente as empresas utilizam os bancos NoSQL quando possuem um banco de dado
 
 Esse tipo de banco de dados são utilizados em sua grande maioria para resolver o problema de cache, pois a estrutura que eles usam é bem simples, é a estrutura que temos em qualquer banco como **índice**.
 
-Sabe quando você vai criar umm índice na sua tabela de banco de dados para que ela tenha maior velocidade nas buscas?
+Sabe quando você vai criar um índice na sua tabela de banco de dados para que ela tenha maior velocidade nas buscas?
 
 Então é a mesma coisa aqui, a estrutura de uma *entidade* nesse tipo de banco segue a seguinte regra:
 
@@ -71,7 +71,7 @@ undefined
 
 O que fiz foi criar um *array* vazio em `banco_chave_valor` e depois crio uma entidade chamada `valor` contendo o seguinte objeto: `{ name: 'Suissa', teacher: true }` e atribuo esse valor à minha chave `minha-chave-unica-malandrinha`.
 
-Agora caso estivermos em um banco de Chave/Valor nós só pode acessar os valores dessa entidade se buscarmos pela sua chave `minha-chave-unica-malandrinha` para depois acessar seus valores internamente:
+Agora caso estivermos em um banco de Chave/Valor nós só podemos acessar os valores dessa entidade se buscarmos pela sua chave `minha-chave-unica-malandrinha` para depois acessarmos seus valores internamente:
 
 ```js
 > var busca_entidade_malandrinha = banco_chave_valor['minha-chave-unica-malandrinha']
@@ -82,7 +82,7 @@ undefined
 'Suissa'
 ```
 
-Bem simples esse conceito não? E como a maioria desses banco funciona operando apenas na RAM, para depois persistir, no caso de alguns, são largamente utilizados para **cache**, nesse meio contamos com nomes como:
+Bem simples esse conceito não? E como a maioria desses bancos funcionam operando apenas na RAM, para depois persistir, no caso de alguns, são largamente utilizados para **cache**, nesse meio contamos com nomes como:
 
 - [Redis](http://redis.io/)
 - [Riak](http://basho.com/products/riak-kv/)
