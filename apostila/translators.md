@@ -31,7 +31,7 @@ Claro que você colaborando com o nosso projeto também receberá algo em troca,
 
 - 2 arquivos = 1 adesivo;
 - 20 arquivos = (10 adesivos que já ganhou) + **1 camiseta**;
-- 20 arquivos = o anterior + **1 certificado do Workshop de Geolocalização com MongoDB**;
+- 30 arquivos = o anterior + **1 certificado do Workshop de Geolocalização com MongoDB**;
 - 50 arquivos = o anterior + **1 certificado do Workshop de Ionic**.
 
 
