@@ -41,6 +41,7 @@ Claro que você colaborando com o nosso projeto também receberá algo em troca,
     - [facebook](https://www.facebook.com/ctmachel)
 - Davi Carvalho
     - [facebook](https://www.facebook.com/davicfg)
+    - [github](https://github.com/davicfg)
 - Glaubert Stransky
     - [facebook](https://www.facebook.com/glaubertstransky)
 
