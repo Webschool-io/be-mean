@@ -149,7 +149,6 @@ A forma em que os dados são modelados lembra muito o relacional, porém mais co
 
 - Coluna: que é uma tupla composta por nome,timestamp e valor, onde os dados são realmente armazenados.
 
-
 - [Cassandra](http://cassandra.apache.org/)
 - [Hbase](http://hbase.apache.org/)
 
