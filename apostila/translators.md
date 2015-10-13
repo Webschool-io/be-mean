@@ -25,6 +25,14 @@ mongodb/theory-EN.md
 Para conhecer a lista de siglas acesse [esse link](https://pt.wikipedia.org/wiki/ISO_639).
 
 
+## Prêmios
+
+Claro que você colaborando com o nosso projeto também receberá algo em troca, por hora será o seguinte:
+
+- 2 arquivos = 1 adesivo
+- 20 arquivos = (10 adesivos que já ganhou) + **1 camiseta**
+
+
 ## Inglês
 
 - Carlos Machel

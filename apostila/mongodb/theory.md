@@ -139,7 +139,16 @@ Dados inter-relacionados.
 
 Esse é o tipo que tive menos contato, confesso, logo não posso falar muito sobre além o do que li.
 
-A forma em que os dados são modelados lembra muito o relacional, porém
+Esse modelo se tornou  popular através do paper BigTable do Google, com o objetivo de montar um sistema de armazenamento de dados distribuído, projetado para ter um alto grau de escalabilidade e de volume de dados
+
+A forma em que os dados são modelados lembra muito o relacional, porém mais complexo, é formado basicamente de 3 componentes:
+
+- Keyspace: tem como função agrupar um conjunto de Famílias de Colunas. Semelhante a um banco de dados relacional.
+
+- Família de Colunas:  organizas as colunas. faz o uso de uma chave única, que traz flexibilidade ao modelo sem poluir as linhas com colunas nulas. Semelhante a uma tabela no modelo relacional.
+
+- Coluna: que é uma tupla composta por nome,timestamp e valor, onde os dados são realmente armazenados.
+
 
 - [Cassandra](http://cassandra.apache.org/)
 - [Hbase](http://hbase.apache.org/)
