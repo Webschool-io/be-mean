@@ -39,6 +39,7 @@ Claro que você colaborando com o nosso projeto também receberá algo em troca,
 
 - Carlos Machel
     - [facebook](https://www.facebook.com/ctmachel)
+    - [github](https://github.com/carlosmachel)
 - Davi Carvalho
     - [facebook](https://www.facebook.com/davicfg)
 - Glaubert Stransky
