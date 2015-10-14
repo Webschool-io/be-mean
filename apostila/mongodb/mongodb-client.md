@@ -13,10 +13,12 @@ Para listarmos nossas *databases* precisamos apenas executar o seguinte comando 
 
 ```
 show dbs
-admin          (empty)
+local  0.078GB
 ```
 
 E aparecerá a listagem das *databases* existentes.
+
+Perceba que o banco vazio `local` já tem `0.078GB` pré-alocado, o que dá algo em torno de 80MBs, ele faz isso para melhorar a perfomance na hora da busca e sempre garantir um espaço sequencial para a persistência.
 
 Agora vamos criar o nosso banco para iniciar o nosso Instagram, execute o seguinte comando:
 
@@ -32,11 +34,28 @@ db
 be-mean-instagram
 ```
 
-
-
-
-
 perceba que o banco `database-test` que possuo já possui `0.078GB` de tamanho, porém não contém **nenhum** dado.
+
+#### dropDatabase
+
+Para apagarmos um banco de dados é bem simples, basta execurtarmos a função `dropDatabase()` após termos definido nosso banco com `use nome_do_banco`:
+
+```js
+use banco_a_remover
+switched to db banco_a_remover
+
+db.dropDatabase()
+
+{
+  "dropped": "banco_a_remover",
+  "ok": 1
+}
+
+```
+
+##### CUIDADO
+
+> Esse comando precisa de um *lock* de escrita **global** e irá bloquear outras operações até estar completa.
 
 ### Collection
 
