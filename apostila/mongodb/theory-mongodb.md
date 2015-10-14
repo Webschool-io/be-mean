@@ -48,3 +48,16 @@ fone: [http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine](http:/
 #### Modelagem
 
 #### MongoDb University
+
+Nossa querida [10gen]() criou uma "Universidade" online para aprender MongoDB, a [MongoDB University](https://university.mongodb.com/).
+
+Lá eles possuem cursos para:
+
+- Node.js
+- .Net
+- Java
+- DBAs
+
+Então tem para todos os gostos, se você quiser se aprofundar **mais**no MongoDb eu aconselho a você ver essas aulas, se souber inglês.
+
+
