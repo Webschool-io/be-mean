@@ -32,3 +32,19 @@ Once mapped, the relationship between file and memory allows MongoDB to interact
 
 
 fone: [http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine](http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine)
+
+
+
+#### Auto-sharding
+
+#### Replica
+
+#### Cluster
+
+#### GridFS
+
+#### Geolocation
+
+#### Modelagem
+
+#### MongoDb University
