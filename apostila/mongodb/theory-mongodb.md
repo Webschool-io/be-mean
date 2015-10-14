@@ -18,20 +18,20 @@ Existem 2 tipos de escalabilidade, nesse caso, a horizotal e a vertical. Qual su
 
 #### Memmory-mapped files
 
+O que são arquivos de memória mapeados ? 
 
-[AJUDA NA TRADUÇÃO PARA PORTUGUES]
-What are memory mapped files?
-A memory-mapped file is a file with data that the operating system places in memory by way of the mmap() system call. mmap() thus maps the file to a region of virtual memory. Memory-mapped files are the critical piece of the MMAPv1 storage engine in MongoDB. By using memory mapped files, MongoDB can treat the contents of its data files as if they were in memory. This provides MongoDB with an extremely fast and simple method for accessing and manipulating data.
+Um arquivo de memória mapeada é um arquivo com dados, que o sistema operacional coloca em memória através da chamada do mmap(). mmap() então mapeia o arquivo para uma região da memória virtual. Arquivos de memória mapeada são a peça fundamental do mecanismo de armazenamento 
+MMAPv1 no MongoDB. Ao usar arquivos de memória mapeada, o MongoDB consegue tratar os conteúdos dos arquivos como se eles estivessem em memória. Isso proporciona um método extremamente rápido e simples para acessar e manipular dados.
 
-How do memory mapped files work?
-MongoDB uses memory mapped files for managing and interacting with all data.
+Como funcionam os arquivos de memória mapeada?
 
-Memory mapping assigns files to a block of virtual memory with a direct byte-for-byte correlation. MongoDB memory maps data files to memory as it accesses documents. Unaccessed data is not mapped to memory.
+O MongoDB usa arquivos de memória mapeada para gerenciar e interagir com todos os dados.
 
-Once mapped, the relationship between file and memory allows MongoDB to interact with the data in the file as if it were memory.
+O mapeamento de memória atribui arquivos para um bloco de memória com uma correlação direta byte a byte. O MongoDB mapeia para os arquivos para a memória assim acessados os documentos. Dados não acessados não são mapeados para a memória.
 
+Uma vez mapeados, a relação entre arquivos e memória permite MongoDB para interagir com os dados no arquivo, como se fosse memória.
 
-fone: [http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine](http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine)
+fonte: [http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine](http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine)
 
 
 
