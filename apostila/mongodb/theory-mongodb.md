@@ -26,3 +26,6 @@ MongoDB uses memory mapped files for managing and interacting with all data.
 Memory mapping assigns files to a block of virtual memory with a direct byte-for-byte correlation. MongoDB memory maps data files to memory as it accesses documents. Unaccessed data is not mapped to memory.
 
 Once mapped, the relationship between file and memory allows MongoDB to interact with the data in the file as if it were memory.
+
+
+fone: [http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine](http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine)
