@@ -7,6 +7,9 @@ Acho que essa explicação da Wikipedia é bem clara e simples, porém também p
 
 #### Escalabilidade Horizontal
 
+Existem 2 tipos de escalabilidade, nesse caso, a horizotal e a vertical. Qual suas diferenças?
+
+É bem simples, normalmente quando você utiliza bancos de dados relacionais sua performance do banco aumenta quando você aumenta o **poder do servidor** como adicionar mais memória RAM, HDs SSD, etc. Nesse caso você faz ele crescer para cima.
 
 #### Schemaless
 
