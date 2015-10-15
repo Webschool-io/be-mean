@@ -62,10 +62,16 @@
             - Delete
 - **Aula 08**
     + Módulo Node.js
-    + 
+        * Promises
+            - Mongoose
+        * Eventos
+            - Mongoose
 - **Aula 09**
     + Módulo Node.js
-    + 
+        * Express
+            - Rotas
+            - CRUD
+                + Mongoose
 - **Aula 10**
     + Módulo Node.js
     + 
