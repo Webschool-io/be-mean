@@ -65,4 +65,4 @@ Lá eles possuem cursos para:
 - Java
 - DBAs
 
-Então tem para todos os gostos, se você quiser se aprofundar **mais**no MongoDb eu aconselho a você ver essas aulas, se souber inglês.
+Então tem para todos os gostos, se você quiser se aprofundar **mais** no MongoDb eu aconselho a você ver essas aulas, se souber inglês.
