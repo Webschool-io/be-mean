@@ -15,6 +15,15 @@ Existem 2 tipos de escalabilidade, nesse caso, a horizotal e a vertical. Qual su
 
 #### Capped Collection
 
+Capped Collection são coleções de tamanho fixo que suportam as operações de alto rendimento que inserem e recuperam documentos com base em ordem de inserção. Capped Collection trabalham de uma forma semelhante ao buffers circulares: uma vez que uma coleção preenche o seu espaço alocado, ele abre espaço para novos documentos, substituindo os documentos mais antigos na coleção.
+
+ - **Capped Collection tem os seguintes comportamentos:**
+
+     - Capped Collection garanti a preservação da ordem de inserção. Como resultado, as consultas não precisam de um índice para devolver os documentos em ordem de inserção. Sem essa sobrecarga de indexação, eles podem apoiar um maior rendimento de inserção.
+     - Capped Collection garanti que a ordem de inserção é idêntica à ordem no disco (ordem natural) e faz isso através da proibição de atualizações que aumentam o tamanho do documento. Capped Collection só permite atualizações que se encaixam no tamanho do documento original, o que garante que o documento não altere a sua localização no disco.
+     - Capped Collection remove automaticamente os documentos mais antigos da coleção sem a necessidade de scripts ou operações de remoção explícitas.
+
+fonte: [http://docs.mongodb.org/manual/core/capped-collections](http://docs.mongodb.org/manual/core/capped-collections)
 
 #### Memmory-mapped files
 
@@ -32,8 +41,6 @@ O mapeamento de memória atribui arquivos para um bloco de memória com uma corr
 Uma vez mapeados, a relação entre arquivos e memória permite MongoDB para interagir com os dados no arquivo, como se fosse memória.
 
 fonte: [http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine](http://docs.mongodb.org/manual/faq/storage/#mmapv1-storage-engine)
-
-
 
 #### Auto-sharding
 
@@ -59,5 +66,3 @@ Lá eles possuem cursos para:
 - DBAs
 
 Então tem para todos os gostos, se você quiser se aprofundar **mais**no MongoDb eu aconselho a você ver essas aulas, se souber inglês.
-
-
