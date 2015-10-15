@@ -37,19 +37,38 @@
         * Replica
         * Sharding
         * GridFs
+        * Robomongo
+
+##  Módulo Node.js
+
 - **Aula 05**
-    + 
+    + Módulo Node.js
 - **Aula 06**
-    + 
+    + Módulo Node.js
+        * Teoria
+            - Event Loop
+            - Single thread
+        * Servidor HTTP
+        * Rotas
+        * FileSystem
 - **Aula 07**
-    + 
+    + Módulo Node.js
+        * Eventos
+        * NPM
+        * Mongoose
+            - Create
+            - Retrieve
+            - Update
+            - Delete
 - **Aula 08**
+    + Módulo Node.js
     + 
 - **Aula 09**
+    + Módulo Node.js
     + 
 - **Aula 10**
+    + Módulo Node.js
     + 
-##  Módulo Node.js
 ##  Módulo Angular
 ##  Módulo Frontend
 ##  Módulo Redis
