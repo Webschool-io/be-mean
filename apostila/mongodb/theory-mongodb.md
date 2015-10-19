@@ -11,6 +11,8 @@ Existem 2 tipos de escalabilidade, nesse caso, a horizotal e a vertical. Qual su
 
 É bem simples, normalmente quando você utiliza bancos de dados relacionais sua performance do banco aumenta quando você aumenta o **poder do servidor** como adicionar mais memória RAM, HDs SSD, etc. Nesse caso você faz ele crescer para cima.
 
+Na escalabilidade horizontal há um ganho na distribuição de dados, pois quanto mais dados forem armazenados, o número de servidores aumentarão (podendo ser de baixa ou alta perfomance) e há uma otimização no armazenamento dos dados, já que eles serão divididos entre todos os servidores, facilitando o gerenciamento e o processamento dos dados, assim, reduzindo o volume dos mesmos.
+
 #### Schemaless
 
 #### Capped Collection
