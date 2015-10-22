@@ -22,10 +22,7 @@ Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que
 
 #### Analogia
 
-Eu faço uma analogia interessante sobre bancos de dados relacionais serem as cervejas de milho que encontramos aqui pelo Brasil e as cervejas artesanais.
-
-![Visualização de um tipo chave-valor](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.png)
-
+Eu faço uma analogia interessante sobre bancos de dados relacionais serem as cervejas de milho que encontramos aqui pelo Brasil e as cervejas artesanais serem os NoSQL.
 As cervejas de milho você acha em qualquer boteco e qualquer um bebe, agora as cervejas artesanais apenas poucos com bom gosto o fazem, assim é com os bancos de dados ehhehheh.
 
 
