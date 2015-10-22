@@ -4,15 +4,6 @@ Esse tipo de banco de dados já existe há um bom tempo, apenas não tinha essa 
 
 Mas foi um golpe de marketing assim como o JavaScript também tem esse nome apenas para ter pego carona no Java, quando foi lançado.
 
-Nesse universo de Banco de Dados NoSQL temos alguns grupos grandes com diversos bancos de dados e para as mais diversas finalidades, então vamos conhecer um pouco sobre eles para entender um pouco onde iremos nos enfiar. :p
-
-Irei explicar um pouco dos seguintes grupos:
-
-- Chave/Valor;
-- Documento;
-- Grafo;
-- Coluna.
-
 Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problema específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL, bastante utilizados em projetos de [Business Inteligence](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial), pois neles você tem essas 4 características:
 
 - Velocidade de dados alta - lotes de dados que vêm muito rapidamente, possivelmente a partir de diferentes locais.
@@ -28,8 +19,18 @@ As cervejas de milho você acha em qualquer boteco e qualquer um bebe, agora as 
 
 #### Vantagens
 
-Normalmente as empresas utilizam os bancos NoSQL quando possuem um banco de dados em franco crescimento e precisam escalar horizontalmente com performante.
+Normalmente as empresas utilizam os bancos NoSQL quando possuem um banco de dados em franco crescimento e precisam escalar horizontalmente com performance.
 
+#### Tipos
+
+Nesse universo de Banco de Dados NoSQL temos alguns grupos grandes com diversos bancos de dados e para as mais diversas finalidades, então vamos conhecer um pouco sobre eles para entender um pouco onde iremos nos enfiar. :p
+
+Irei explicar um pouco dos seguintes grupos:
+
+- Chave/Valor;
+- Documento;
+- Grafo;
+- Coluna.
 
 #### Chave/Valor
 
