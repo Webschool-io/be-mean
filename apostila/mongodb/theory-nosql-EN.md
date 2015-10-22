@@ -18,3 +18,16 @@ I'm going to explain a little about the following groups:
 
 As we know, relationals database have broad perspective, and everything that is generalist can't solve a specific problem in the best way possible. For this kind of specific problem we use NoSQL database, widely used in business intelligence projects,
 because NoSQL have 4 main characteristics.
+
+- High Speed Data: lots of data coming very quickly, possibly from different locations.
+- Different kind of data: data storage that is structured, semi-structured and unstructured.
+- Data Volume: data involving many terabytes or petabytes in size.
+- High Complexity of Data: Data is stored and managed in different locations or data centers.
+
+Analogy
+
+I do an interesting analogy about relationals database are the corn beer we find here in Brazil and handmade beers are the 
+NoSQL database. 
+
+Corn beer you find in any pub and anyone can drink, now the handmade beers only a few tastefully do, so it is with the databases. hehehehe.
+
