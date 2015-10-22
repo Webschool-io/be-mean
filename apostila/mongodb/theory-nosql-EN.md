@@ -7,15 +7,6 @@ It doesn't mean that we can't use SQL in NoSQL. Some NoSQL database uses a kind 
 
 Historically NoSql was a good term because gave visibility to this kind of database. It was a good marketing, as JavaScript named after Java. 
 
-Divisions inside NoSQL database is made by its core, how it handle the data. Let's learn about some of them to understand where we are getting into. :P
-
-I'm going to explain a little about the following groups:
-
-- Key/Value pair store
-- Documents store
-- Graph store
-- Collumn store
-
 As we know, relationals database have broad perspective, and everything that is generalist can't solve a specific problem in the best way possible. For this kind of specific problem we use NoSQL database, widely used in business intelligence projects,
 because NoSQL have 4 main characteristics.
 
@@ -24,10 +15,23 @@ because NoSQL have 4 main characteristics.
 - Data Volume: data involving many terabytes or petabytes in size.
 - High Complexity of Data: Data is stored and managed in different locations or data centers.
 
-Analogy
+#### Analogy
 
 I do an interesting analogy about relationals database are the corn beer we find here in Brazil and handmade beers are the 
 NoSQL database. 
-
 Corn beer you find in any pub and anyone can drink, now the handmade beers only a few tastefully do, so it is with the databases. hehehehe.
 
+#### Advantages 
+
+Usually companies use NoSQL when they have a database growing real fast and need to scale horizontally with perfomance.
+
+#### Groups
+
+Divisions inside NoSQL database is made by its core, how it handle the data. Let's learn about some of them to understand where we are getting into. :P
+
+I'm going to explain a little about the following groups:
+
+- Key/Value pair store
+- Documents store
+- Graph store
+- Collumn store
