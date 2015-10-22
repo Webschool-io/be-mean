@@ -7,11 +7,12 @@ It doesn't mean that we can't use SQL in NoSQL. Some NoSQL database uses a kind 
 
 Historically NoSql was a good term because gave visibility to this kind of database. It was a good marketing, as JavaScript named after Java. 
 
-In this NoSQL database we have some big groups with a diversity of database with a diferent objectives. Let's learn about some of them to understand where we are getting into. :P
+Divisions inside NoSQL database is made by its core, how it handle the data. Let's learn about some of them to understand where we are getting into. :P
 
 I'm going to explain a little about the following groups:
 
-- Key/Value pair
-- Documents
-- Graph
-- Collumn
+- Key/Value pair store
+- Documents store
+- Graph store
+- Collumn store
+
