@@ -16,3 +16,5 @@ I'm going to explain a little about the following groups:
 - Graph store
 - Collumn store
 
+As we know, relationals database have broad perspective, and everything that is generalist can't solve a specific problem in the best way possible. For this kind of specific problem we use NoSQL database, widely used in business intelligence projects,
+because NoSQL have 4 main characteristics.
