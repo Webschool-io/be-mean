@@ -35,3 +35,10 @@ I'm going to explain a little about the following groups:
 - Documents store
 - Graph store
 - Collumn store
+
+#### Key/Value Pair Store
+
+![image key-value type](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.png)
+
+This type of database is used mostly to solve cache problems, because the structure they use is so simple, is the structure we have in any database as **index**.
+
