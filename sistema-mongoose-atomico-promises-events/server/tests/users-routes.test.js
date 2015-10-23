@@ -6,7 +6,7 @@ let request =  require('superagent');
 let url = require('url');
 const ABS_URL = "http://localhost:3000/api/users";
 
-describe('testing of api/users routes',() => {
+describe('testing of api /users routes',() => {
 	let id = null;
 	let user = {
 		name : ch.Name.firstName(),
@@ -64,6 +64,5 @@ describe('testing of api/users routes',() => {
 				done();
 			});
 	});
-
 
 });
