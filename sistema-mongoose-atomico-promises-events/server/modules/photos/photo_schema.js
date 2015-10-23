@@ -1,6 +1,8 @@
 'use strict';
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const Schema = {
+const _schema = {
   user_id: {
     type: Schema.ObjectId
   , ref: 'User'
@@ -9,33 +11,18 @@ const Schema = {
     type: String
   , default: ''
   }
-, path: {
-    type: String
-  , default: ''
-  }
+, path: {type: String, default: '' }
 , likes: [
     {
-      user_id: {
-        type: Schema.ObjectId
-      , ref: 'User'
-			}
-     }
+      user_id: { type : Schema.ObjectId , ref: 'User'	}
+    }
   ]
 , comments: [
-    {
-      user_id: {
-        type: Schema.ObjectId
-      , ref: 'User' }
-      }
-    , comment: {
-        type: String
-      , default: ''
-      }
+    { user_id: { type: Schema.ObjectId , ref: 'User'	}
+    , comment: {  type: String , default: '' }
+		}
   ]
-, created_at: {
-    type: Date
-  , default: Date.now
-  }
+, created_at: { type: Date, default: Date.now }
 }
 
-module.exports = Schema;
+module.exports = _schema;
