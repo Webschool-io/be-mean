@@ -24,7 +24,7 @@ describe('testing of api /users routes',() => {
         id = res.body._id;
         res.status.should.be.eql(201);
         done();
-      });	
+      });
 	});
 	
 	it('should be get retrive all users', done => {
