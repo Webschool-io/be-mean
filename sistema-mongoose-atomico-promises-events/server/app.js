@@ -11,6 +11,7 @@ var users = require('./routes/users');
 
 // Modules
 var UsersAPI = require('./modules/users/routes_express');
+var PhotosAPI = require('./modules/photos/routes_express');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use('/users', users);
 
 // API JSON
 app.use('/api/users', UsersAPI);
+app.use('/api/photos', PhotosAPI);
 
 
 // catch 404 and forward to error handler
