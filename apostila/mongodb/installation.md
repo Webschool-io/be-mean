@@ -47,7 +47,17 @@ Quem usa Mac pode instalar via [brew](http://brew.sh/) e para instalar o brew é
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+Depois basta executar o comando de `update` do `brew`:
 
+```
+brew update
+```
+
+Depois mandar ele instalar o `mongodb`:
+
+```
+brew install mongodb
+```
 
 ### Windows
 
