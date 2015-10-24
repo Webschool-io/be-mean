@@ -1,6 +1,6 @@
 ## Installation
 
-Install MongoDb is easyer than pee lying down. LOL
+Install MongoDb is easier than pee lying down. LOL
 
 ![pee lying](https://cldup.com/N1L5PkCDOq-3000x3000.jpeg)
 
