@@ -111,3 +111,50 @@ Complex modelling and dinamic search.
 #### Graph
 
 ![image of graph](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-graph.png)
+
+A  graph oriented database  has a base in mathematical graph theory, but that is not at all difficult, we need only to think of entities as points (vertices) and that they can relate to others entities from relationships (edges) as shown in the image above.
+
+This kind of database is perfect for social network, if you will create one and don't use this kind of database please **NEVER SAY YOU WERE MY STUDENT**, Lol. Jokes aside, this database was made for this, so i hope you use it.
+
+If you want to know a little more about a graph dataase made in Node.js, I wrote this article some time ago  [Levelgraph - Um banco de dados de Grafos para Node.js - Parte 1](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/).
+
+- [Neo4J](http://neo4j.com/)
+- [GraphDb](http://ontotext.com/products/ontotext-graphdb/graphdb-standard/)
+- [Levelgraph](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/)
+
+##### What for?
+
+Interrelated data.
+
+#### Collumn Store
+
+![image collumn type](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-column.png)
+
+I confess that that's the kind I had less contact, so I can't say much about it.
+This model became popular through the Google BigTable paper aiming setting up a data storage distributed system, designed to have a high degree of scalability and data volume.
+
+The manner in which the data is modeled closely resembles the relational but more complex, it is basically formed of three components:
+
+- Keyspace: his function is to group a set of columns for Families. Similar to a relational database.
+
+- Collumns Family: you organize the columns. It makes use of a single key, which brings flexibility to the design without polluting the rows with zero columns. Similar to a table in the relational model.
+
+- Column: which is a tuple consisting of name, and timestamp value, where the data is actually stored.
+
+- [Cassandra](http://cassandra.apache.org/)
+- [Hbase](http://hbase.apache.org/)
+
+##### What for?
+
+BI.
+
+#### Hybrids
+
+After the four main groups still have another that has been gaining strength. Hybrid databases, the two best known are **document and graph** oriented. Which makes them very powerful, because the relationship part is the disadvantage in MongoDB and I always advise the use of a graph database to assist in this mission. Now you can do 2 things in one database alone, keep an eye because they are very interesting
+
+- [ArangoDb](https://www.arangodb.com/)
+- [OrienteDB](http://orientdb.com/orientdb/)
+
+##### What for?
+
+Complex and interconnected modeling.
