@@ -45,6 +45,8 @@ Claro que você colaborando com o nosso projeto também receberá algo em troca,
     - [github](https://github.com/davicfg)
 - Glaubert Stransky
     - [facebook](https://www.facebook.com/glaubertstransky)
+- Osvaldo Abel
+    - [github](https://github.com/kanguanda)
 
 ## Espanhol
 
