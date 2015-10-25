@@ -8,7 +8,7 @@ Nesse curso eu abordarei
   - [Teoria](./mongodb/theory.md)
     - [NoSQL](./mongodb/theory-nosql.md)
     - [MongoDB](./mongodb/theory-mongodb.md)
-  - [Instalação](./installation.md)
+  - [Instalação](./mongodb/installation.md)
   - [Cliente](./mongodb-client.md)
   - [CRUD](./mongodb/crud.md)
     - [insert](./mongodb/insert.md)
