@@ -43,15 +43,13 @@
 
 - **Aula 05**
     + Módulo Node.js
-- **Aula 06**
-    + Módulo Node.js
         * Teoria
             - Event Loop
             - Single thread
         * Servidor HTTP
         * Rotas
         * FileSystem
-- **Aula 07**
+- **Aula 06**
     + Módulo Node.js
         * Eventos
         * NPM
@@ -60,15 +58,22 @@
             - Retrieve
             - Update
             - Delete
+- **Aula 07**
+    + Módulo Node.js
+        * Promises
+            - Mongoose
+        * Eventos
+            - Mongoose
 - **Aula 08**
     + Módulo Node.js
-    + 
+        * Express
+            - Rotas
+            - CRUD
+                + Mongoose
 - **Aula 09**
     + Módulo Node.js
     + 
 - **Aula 10**
-    + Módulo Node.js
-    + 
 ##  Módulo Angular
 ##  Módulo Frontend
 ##  Módulo Redis
