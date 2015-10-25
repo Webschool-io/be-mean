@@ -1,14 +1,12 @@
-
 This kind of database exists for a while now, it just didn't have this name. The term was created in 2009 by Eric Evans, a former worker at [Rackspace](http://www.rackspace.com/), in an event organized by Johan Oskarsson from [Last.fm](Last.fm).
-
-It doesn't mean that we can't use SQL in NoSQL. Some NoSQL database uses a kind of SQL. So how should we called? NoSQL sometimes is called Not Just SQL. But a better term would be:
+It doesn't mean that we can't use *SQL* in NoSQL. Some NoSQL database uses a *kind* of *SQL*. So how should we call? A better term would be:
 
 > NoREL database: No Relational database
 
-Historically NoSql was a good term because gave visibility to this kind of database. It was a good marketing, as JavaScript named after Java.
+Historically NoSql was a good term because gave visibility to this kind of database. It was a good marketing, like JavaScript be named after Java.
 
-As we know, relationals database have broad perspective, and everything that is generalist can't solve a specific problem in the best way possible. For this kind of specific problem we use NoSQL database, widely used in business intelligence projects,
-because NoSQL have 4 main characteristics.
+As we know, relationals database have broad perspective, and everything that is generalist can't solve a specific problem in the best way possible. For this kind of specific problem we use NoSQL database, widely used in business intelligence projects.
+NoSQL have 4 main characteristics.
 
 - High Speed Data: lots of data coming very quickly, possibly from different locations.
 - Different kind of data: data storage that is structured, semi-structured and unstructured.
@@ -40,7 +38,7 @@ I'm going to explain a little about the following groups:
 
 ![image key-value type](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.png)
 
-This type of database is used mostly to solve cache problems, because the structure they use is so simple, is the structure we have in any database as **index**.
+This type of database is used mostly to solve cache problems, because the structure they use is so simple. Is the structure we have in any database as **index**.
 
 You know when when you will create an index in your database table so that it has greater speed in searches?
 So it's the same here! The rule of an *entity* in this kind of database follows the following rule:
@@ -74,7 +72,7 @@ undefined
 > get_my-unique-smartass-key.name
 'Suissa'
 ```
-Pretty simple this concept right? Most of this database operate only using RAM, only then they commit. In some cases they are widely used for **cache**.
+Pretty simple this concept right? Most of this database operate only using RAM, only then they persist. In some cases they are widely used for **cache**.
 
 Some examples:
 
@@ -114,7 +112,7 @@ Complex modelling and dinamic search.
 
 A  graph oriented database  has a base in mathematical graph theory, but that is not at all difficult, we need only to think of entities as points (vertices) and that they can relate to others entities from relationships (edges) as shown in the image above.
 
-This kind of database is perfect for social network, if you will create one and don't use this kind of database please **NEVER SAY YOU WERE MY STUDENT**, Lol. Jokes aside, this database was made for this, so i hope you use it.
+This kind of database is perfect for social network, if you will create one and don't use this kind of database please **NEVER SAY YOU WERE MY STUDENT**, Lol. Jokes aside, this database was made for this, so I hope you use it.
 
 If you want to know a little more about a graph dataase made in Node.js, I wrote this article some time ago  [Levelgraph - Um banco de dados de Grafos para Node.js - Parte 1](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/).
 
