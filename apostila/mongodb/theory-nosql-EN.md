@@ -114,7 +114,7 @@ A  graph oriented database  has a base in mathematical graph theory, but that is
 
 This kind of database is perfect for social network, if you will create one and don't use this kind of database please **NEVER SAY YOU WERE MY STUDENT**, Lol. Jokes aside, this database was made for this, so I hope you use it.
 
-If you want to know a little more about a graph dataase made in Node.js, I wrote this article some time ago  [Levelgraph - Um banco de dados de Grafos para Node.js - Parte 1](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/).
+If you want to know a little more about a graph database made in Node.js, I wrote this article some time ago (in Portuguese)[Levelgraph - Um banco de dados de Grafos para Node.js - Parte 1](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/).
 
 - [Neo4J](http://neo4j.com/)
 - [GraphDb](http://ontotext.com/products/ontotext-graphdb/graphdb-standard/)
@@ -128,8 +128,8 @@ Interrelated data.
 
 ![image collumn type](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-column.png)
 
-I confess that that's the kind I had less contact, so I can't say much about it.
-This model became popular through the Google BigTable paper aiming setting up a data storage distributed system, designed to have a high degree of scalability and data volume.
+I confess that's the kind I had less contact, so I can't say much about it.
+This model became popular through the Google BigTable paper aiming to setting up a data storage distributed system, designed to have a high degree of scalability and data volume.
 
 The manner in which the data is modeled closely resembles the relational but more complex, it is basically formed of three components:
 
