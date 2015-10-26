@@ -11,6 +11,7 @@ Depois basta descompactar e rodar.
 ### Linux
 
 ![Meme do Linux](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-linux.jpg)
+
 Quem usa Linux do tipo Ubuntu da vida pode instalar via `apt-get` seguindo esses passos, primeiro garantir a autenticidade e consistencia dos pacotes do MongoDb:
 
 ```
