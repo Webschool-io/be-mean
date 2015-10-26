@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose readDependencies loading dependencies from /home/caio/Labs/package.json
+5 error install Couldn't read dependencies
+6 verbose stack Error: ENOENT: no such file or directory, open '/home/caio/Labs/package.json'
+6 verbose stack     at Error (native)
+7 verbose cwd /home/caio/Labs/be-mean-instagram/sistema-autenticacao-basica
+8 error Linux 3.16.0-51-generic
+9 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+10 error node v4.2.1
+11 error npm  v2.14.7
+12 error path /home/caio/Labs/package.json
+13 error code ENOPACKAGEJSON
+14 error errno -2
+15 error syscall open
+16 error package.json ENOENT: no such file or directory, open '/home/caio/Labs/package.json'
+16 error package.json This is most likely not a problem with npm itself.
+16 error package.json npm can't find a package.json file in your current directory.
+17 verbose exit [ -2, true ]
