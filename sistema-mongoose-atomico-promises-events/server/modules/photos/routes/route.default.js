@@ -13,4 +13,5 @@ var Route = function(Action, RouteConfig) {
     , callback: CALLBACK
   };
 }
+
 module.exports = Route;
