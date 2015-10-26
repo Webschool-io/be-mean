@@ -1,3 +1,2 @@
-public/libs
-node_modules/
-
+node_modules
+public/libs/
