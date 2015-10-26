@@ -23,3 +23,5 @@ O que foi criado nesse projeto:
 Para roda o projeto, basta executar o seguinte comando:  
 
     grunt serve
+
+**ps: você tem que estar no diretório server do sistema-autenticação-básica para rodar estes comandos listados, caso contrário eles irão te retornar um erro.**
