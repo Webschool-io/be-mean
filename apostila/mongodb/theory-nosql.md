@@ -4,15 +4,6 @@ Esse tipo de banco de dados já existe há um bom tempo, apenas não tinha essa 
 
 Mas foi um golpe de marketing assim como o JavaScript também tem esse nome apenas para ter pego carona no Java, quando foi lançado.
 
-Nesse universo de Banco de Dados NoSQL temos alguns grupos grandes com diversos bancos de dados e para as mais diversas finalidades, então vamos conhecer um pouco sobre eles para entender um pouco onde iremos nos enfiar. :p
-
-Irei explicar um pouco dos seguintes grupos:
-
-- Chave/Valor;
-- Documento;
-- Grafo;
-- Coluna.
-
 Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que é muito generalista, não consegue resolver um problema específico da melhor forma, para isso nós resolvemo-os com os banco NoSQL, bastante utilizados em projetos de [Business Inteligence](https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_empresarial), pois neles você tem essas 4 características:
 
 - Velocidade de dados alta - lotes de dados que vêm muito rapidamente, possivelmente a partir de diferentes locais.
@@ -22,17 +13,24 @@ Como sabemos os bancos relacionais são de propósito geral e qualquer coisa que
 
 #### Analogia
 
-Eu faço uma analogia interessante sobre bancos de dados relacionais serem as cervejas de milho que encontramos aqui pelo Brasil e as cervejas artesanais.
-
-![Visualização de um tipo chave-valor](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-key-value.png)
-
+Eu faço uma analogia interessante sobre bancos de dados relacionais serem as cervejas de milho que encontramos aqui pelo Brasil e as cervejas artesanais serem os NoSQL.
 As cervejas de milho você acha em qualquer boteco e qualquer um bebe, agora as cervejas artesanais apenas poucos com bom gosto o fazem, assim é com os bancos de dados ehhehheh.
 
 
 #### Vantagens
 
-Normalmente as empresas utilizam os bancos NoSQL quando possuem um banco de dados em franco crescimento e precisam escalar horizontalmente com performante.
+Normalmente as empresas utilizam os bancos NoSQL quando possuem um banco de dados em franco crescimento e precisam escalar horizontalmente com performance.
 
+#### Tipos
+
+Nesse universo de Banco de Dados NoSQL temos alguns grupos grandes com diversos bancos de dados e para as mais diversas finalidades, então vamos conhecer um pouco sobre eles para entender um pouco onde iremos nos enfiar. :p
+
+Irei explicar um pouco dos seguintes grupos:
+
+- Chave/Valor;
+- Documento;
+- Grafo;
+- Coluna.
 
 #### Chave/Valor
 
