@@ -2,7 +2,7 @@
 
 ##  Módulo MongoDB
 
-- **Aula 01**
+- **Aula 00**
     + Apresentação do Be MEAN
         * Quem eu sou?
         * O que é a Webschool.io?
@@ -10,12 +10,18 @@
         * Como irão ser as aulas?
         * Quais módulos serão ensinados?
         * Qual a duração do Be MEAN?
+        * Quando e como serão enviados os brindes?
+        * Como serão os cursos dos prêmios?
+- **Aula 01**
     + Módulo MongoDB
         * Teoria
             - NoSQL
             - MongoDB
         * Instalação
         * Cliente
+            - use database
+            - show dbs
+            - show collections
 - **Aula 02**
     + Módulo MongoDB
         * CRUD
