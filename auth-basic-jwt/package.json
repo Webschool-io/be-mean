@@ -1,0 +1,61 @@
+{
+  "name": "rschool",
+  "version": "0.0.0",
+  "description": "\"A real time webschool with socket.io and meanstack\"",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "\"Real",
+    "time",
+    "webschool",
+    "node.js",
+    "express.js",
+    "socket.io\""
+  ],
+  "author": {
+    "name": "Caio Cutrim",
+    "email": "kaiocoutrim@gmail.com",
+    "url": "http://facebook.com/caio.cutrim.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "express-load": "^1.1.15",
+    "helmet": "^0.10.0",
+    "jwt-simple": "^0.3.1",
+    "method-override": "^2.3.5",
+    "moment": "^2.10.6",
+    "mongo-sanitize": "^1.0.0",
+    "mongodb": "^2.0.42",
+    "mongoose": "^4.1.6",
+    "mongoose-unique-validator": "^0.4.1",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.3.6"
+  },
+  "repository": "http://bitbucket.org/caio1989/rschool",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.1.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.12.1",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-nodemon": "^0.4.0",
+    "jasmine-core": "^2.3.2",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.3.2",
+    "mocha-mongoose": "^1.1.0",
+    "phantomjs": "^1.9.18",
+    "should": "^7.1.0",
+    "supertest": "^1.1.0"
+  }
+}
