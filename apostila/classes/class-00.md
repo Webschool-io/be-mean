@@ -10,7 +10,7 @@
 
 ## Quem eu sou?
 
-Me chamo Jean, mas sou mais conhecido como Suissa, trabalho profissionalmente com Web há uns 10 anos e apenas com JavaScript há 4. Inicie na Web com 15 anos quando ganhei um computador do meu pai e em 6 meses estava *hacekando* sites.
+Me chamo Jean, mas sou mais conhecido como Suissa, trabalho profissionalmente com Web há uns 10 anos e apenas com JavaScript há 4. Inicie na Web com 15 anos quando ganhei um computador do meu pai e em 6 meses estava *hackeando* sites.
 
 Antes era apenas um programador, depois que comecei a escrever artigos fui chamado para palestrar em uma faculdade para logo após iniciar como professor na mesma, isso foi 1 ano antes de ir para São Paulo e iniciar a vida de programador/palestrante, sendo que antes já era um programador que depois irou professor.
 
@@ -93,7 +93,7 @@ Vamos a eles:
         * Electron (8 horas)
     + UX & Animations (7 horas)
     + ES6 (5 horas)
-    + Deploy e Servidores (x horas)
+    + Deploy e Servidores (x horas) 
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
