@@ -72,19 +72,25 @@ Essa é uma ótima pergunta pois **eu adicionei** vários outros módulos e com 
 
 Vamos a eles:
 
-- Be MEAN (50 horas)
-    + MongoDB (5 horas)
-    + Node.js (15 horas)
-    + AngularJs (15 horas)
+- Be MEAN (100 horas)
+    + MEAN (50 hioras)
+        * MongoDB (5 horas)
+        * Node.js (15 horas)
+        * AngularJs (15 horas)
     + Frontend (15 horas)
+        * Atomic Design
+        * Stylus
+        * Gulp
+        * Mobile-first
+        * Offile-first
     + NoSQL (10 horas)
         * Redis (3 horas)
         * Neo4J (4 horas)
-        * ElasticSearch (3 horas fechando o professor)
+        * ElasticSearch (3 horas, fechando o professor)
     + Segurança (3 horas)
     + Desktop (10 horas)
-        * Node-webkit (5 horas)
-        * Electron (5 horas)
+        * Node-webkit (2 horas)
+        * Electron (8 horas)
     + UX & Animations (7 horas)
     + ES6 (5 horas)
     + Deploy e Servidores (x horas)
