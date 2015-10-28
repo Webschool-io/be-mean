@@ -94,7 +94,6 @@ Vamos a eles:
     + UX & Animations (7 horas)
     + ES6 (5 horas)
     + Deploy e Servidores (x horas)
-
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
