@@ -52,11 +52,66 @@ No início estava difícil de ver essa meta ser batida, então abaixei para R$ 4
 
 ## Como serão as aulas?
 
+O formato de aula seguirá [esse padrão de aula da Webschool, que já descrevi aqui](http://nomadev.com.br/webschool-io-formato-de-aula/).
 
+Serão aulas gravadas, de 1 hora no máximo, sendo publicadas as 20 horas de Segunda a Sexta.
+
+Eu ficarei disponível **ONLINE** durante a aula e pelo menos mais 15 minutos para debatermos e tirarmos dúvidas durante esse período.
 
 ### Exercícios diários
 
+Em **quase** todas as aulas teremos exercícios e para conseguir o certificado será necessário que o aluno faça todos.
+
+### Projetos finais
+
+Sim está no **plural** pois teremos **1 projeto final por módulo** para melhor fixação do conteúdo já que **não faremos provas**.
+
 ## Quais módulos serão ensinados?
+
+Essa é uma ótima pergunta pois **eu adicionei** vários outros módulos e com outros professores também!
+
+Vamos a eles:
+
+- Be MEAN (50 horas)
+    + MongoDB (5 horas)
+    + Node.js (15 horas)
+    + AngularJs (15 horas)
+    + Frontend (15 horas)
+    + NoSQL (10 horas)
+        * Redis (3 horas)
+        * Neo4J (4 horas)
+        * ElasticSearch (3 horas fechando o professor)
+    + Segurança (3 horas)
+    + Desktop (10 horas)
+        * Node-webkit (5 horas)
+        * Electron (5 horas)
+    + UX & Animations (7 horas)
+
+- Geolocation (8 horas)
+- Docker (4 horas)
+- Ionic (10 horas)
+
+
+**Cada módulo terá seu certificado!**.
+
+Por exemplo no módulo do Be MEAN você receberá 4 certificados, no de NoSQL 3 e assim por diante.
+
 ## Qual a duração do Be MEAN?
+
+A média de duração de cada aula será de 1 hora, logo somando todos os módulos citados anteriormente, temos 80 horas.
+
+O **início do Be MEAN é 9 de Novembro** e finaliza com seu Frontend no final de **Janeiro**.
+
+Isso apenas a ementa do Be MEAN que estava no site, porém adicionei a esse curso os módulos de:
+
+- NoSQL;
+- Segurança;
+- Desktop;
+- UX & Animations.
+
+Apenas esses módulos já adicionam 30 horas ao Be MEAN, ou seja mais 6 semanas iniciando em Fevereiro.
+
+Quem for acompanhar os cursos adicionais dos prêmios ainda terá um bom tempo pela frente.
+
 ## Quando e como serão enviados os brindes?
 ## Como serão os cursos dos prêmios?
