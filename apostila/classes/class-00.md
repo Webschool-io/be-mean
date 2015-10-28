@@ -109,6 +109,7 @@ Isso apenas a ementa do Be MEAN que estava no site, porém adicionei a esse curs
 - Segurança;
 - Desktop;
 - UX & Animations;
+- Deploy;
 - ES6.
 
 Apenas esses módulos já adicionam 30 horas ao Be MEAN, ou seja mais 6 semanas iniciando em Fevereiro.
@@ -128,3 +129,9 @@ Por hora eles ainda são exclusivos de quem apoiou, porém se cada curso fechar 
 
 Por isso tentem chamar seus amigos para que possamos deixar **TODO O CONTEÚDO FREE 4 EVER!**
 
+## Pré-requisitos
+
+1 - Ter o GIT na sua máquina, se for Windows pode ser o GIT BASH, e ver [esse vídeo](https://www.youtube.com/watch?v=TReVFOxhh7E)
+2 - Saber o básico de JavaScript vendo [esses vídeos do Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
+3 - Instalar o MongoDb e o Node.js https://github.com/…/master/apostila/mongodb/installation.md
+4 - Saber pesquisar na internet.
