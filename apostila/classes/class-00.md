@@ -87,15 +87,15 @@ Vamos a eles:
         * Electron (5 horas)
     + UX & Animations (7 horas)
     + ES6 (5 horas)
+    + Deploy e Servidores (x horas)
 
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
 
-
 **Cada módulo terá seu certificado!**.
 
-Por exemplo no módulo do Be MEAN você receberá 4 certificados, no de NoSQL 3 e assim por diante.
+Porém no módulo do Be MEAN você receberá **10 certificados**, com suas horas devidas. Mais os certificados dos cursos de Geolocation, Docker e Ionic.
 
 ## Qual a duração do Be MEAN?
 
