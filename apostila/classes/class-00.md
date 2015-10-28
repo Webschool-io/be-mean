@@ -2,7 +2,7 @@
     - Quem eu sou?
     - O que é a Webschool.io?
     - O que é o Be MEAN?
-    - Como irão ser as aulas?
+    - Como serão as aulas?
     - Quais módulos serão ensinados?
     - Qual a duração do Be MEAN?
     - Quando e como serão enviados os brindes?
