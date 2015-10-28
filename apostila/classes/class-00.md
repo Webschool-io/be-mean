@@ -36,7 +36,7 @@ Basicamente é uma escola que criará o máximo de conteúdo, de qualidade, poss
 
 O [Be MEAN](http://bemean.com.br) foi criado por mim há mais de 2 anos atrás, onde fui dar um workshop de MongoDB e Node.js que eu já conhecia há tempo, porém o organizador pediu se não rolaria um workshop de Angular.
 
-Porém na época eu ainda estava aprendendo Angular e o tempo de workshop era pequeno, então respondi que pdoderia no máximo adicionar ele no workshop que já havia criado.
+Porém na época eu ainda estava aprendendo Angular e o tempo de workshop era pequeno, então respondi que poderia no máximo adicionar ele no workshop que já havia criado.
 
 Foi assim que surgiu esse workshop porém foi se atualizando durante esse tempo, entretanto ele ainda era **muito básico**. Mesmo tendo 20 horas, sempre faltava tempo para eu passar tudo que eu queria mesmo sendo o básico. Já que não é do dia para noite que se aprende 3 áreas diferentes né (Banco de Dados, Backend, Frontend)?
 
@@ -48,7 +48,7 @@ Então pensei em inverter a conta e deixar que muitos pagassem pouco e deu tão 
 
 Mas não era R$50.000?
 
-No início estava difícil de ver essa meta ser batida, então abaixei para R$ 40.000 e a coisa começou a andar mais deperessa e deu muito certo em conjunto com umas tretas que ocorreram na reta final, vieram a calhar. :p
+No início estava difícil de ver essa meta ser batida, então abaixei para R$ 40.000 e a coisa começou a andar mais depressa e deu muito certo em conjunto com umas tretas que ocorreram na reta final, vieram a calhar. :p
 
 ## Como serão as aulas?
 
