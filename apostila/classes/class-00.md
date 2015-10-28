@@ -86,6 +86,7 @@ Vamos a eles:
         * Node-webkit (5 horas)
         * Electron (5 horas)
     + UX & Animations (7 horas)
+    + ES6 (5 horas)
 
 - Geolocation (8 horas)
 - Docker (4 horas)
@@ -107,11 +108,23 @@ Isso apenas a ementa do Be MEAN que estava no site, porém adicionei a esse curs
 - NoSQL;
 - Segurança;
 - Desktop;
-- UX & Animations.
+- UX & Animations;
+- ES6.
 
 Apenas esses módulos já adicionam 30 horas ao Be MEAN, ou seja mais 6 semanas iniciando em Fevereiro.
 
 Quem for acompanhar os cursos adicionais dos prêmios ainda terá um bom tempo pela frente.
 
 ## Quando e como serão enviados os brindes?
+
+Os adesivos serão enviados pela [Stickers Dev](https://www.facebook.com/stickersdevs) e as camisetas pela [Fabrica Do MERCH](https://www.facebook.com/fabricadomerch).
+
+Os brindes serão enviados após o início das aulas até o final de Novembro, mas isso dependerá dos fornecedores.
+
 ## Como serão os cursos dos prêmios?
+
+Os cursos serão feitos após o Be MEAN, ou seja, depois do início de Março. 
+Por hora eles ainda são exclusivos de quem apoiou, porém se cada curso fechar o número de alunos pré-determinado esse curso será OPEN e FREE para todos.
+
+Por isso tentem chamar seus amigos para que possamos deixar **TODO O CONTEÚDO FREE 4 EVER!**
+
