@@ -58,13 +58,21 @@ Serão aulas gravadas, de 1 hora no máximo, sendo publicadas as 20 horas de Seg
 
 Eu ficarei disponível **ONLINE** durante a aula e pelo menos mais 15 minutos para debatermos e tirarmos dúvidas durante esse período.
 
+**Caso aconteça algo que me indisponibilize no dia, a aula faltante será dada juntamente com a aula do próximo dia.**
+
 ### Exercícios diários
 
 Em **quase** todas as aulas teremos exercícios e para conseguir o certificado será necessário que o aluno faça todos.
 
+Eles serão os "testes unitários" de cada módulo.
+
 ### Projetos finais
 
 Sim está no **plural** pois teremos **1 projeto final por módulo** para melhor fixação do conteúdo já que **não faremos provas**.
+
+Esses projetos, na maioria das vezes, serão pequenos aplicativos que estarão utilizando tudo que foi aprendido até aquele momento e não o que foi aprendido apenas no módulo.
+
+Eles serão os "testes de integração" de cada módulo.
 
 ## Quais módulos serão ensinados?
 
