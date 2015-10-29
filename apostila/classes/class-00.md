@@ -80,6 +80,40 @@ Essa é uma ótima pergunta pois **eu adicionei** vários outros módulos e com 
 
 Vamos a eles:
 
+- Be MEAN
+    + MEAN
+        * MongoDB
+        * Node.js
+        * AngularJs
+    + Frontend
+        * Atomic Design
+        * Stylus
+        * Gulp
+        * Mobile-first
+        * Offile-first
+    + NoSQL
+        * Redis
+        * Neo4J
+        * ElasticSearch
+    + Segurança
+    + Desktop
+        * Node-webkit
+        * Electron
+    + UX & Animations
+    + ES6
+    + Deploy e Servidores
+- Geolocation
+- Docker
+- Ionic
+
+**Cada módulo terá seu certificado!**.
+
+Porém no módulo do Be MEAN você receberá **10 certificados**, com suas horas devidas. Mais os certificados dos cursos de Geolocation, Docker e Ionic.
+
+## Qual a duração do Be MEAN?
+
+A média de duração de cada aula será de 1 hora, logo somando todos os módulos citados anteriormente, temos 105 horas apenas de MEAN.
+
 - Be MEAN (105 horas)
     + MEAN (50 horas)
         * MongoDB (5 horas)
@@ -105,29 +139,6 @@ Vamos a eles:
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
-
-**Cada módulo terá seu certificado!**.
-
-Porém no módulo do Be MEAN você receberá **10 certificados**, com suas horas devidas. Mais os certificados dos cursos de Geolocation, Docker e Ionic.
-
-## Qual a duração do Be MEAN?
-
-A média de duração de cada aula será de 1 hora, logo somando todos os módulos citados anteriormente, temos 80 horas.
-
-O **início do Be MEAN é 9 de Novembro** e finaliza com seu Frontend no final de **Janeiro**.
-
-Isso apenas a ementa do Be MEAN que estava no site, porém adicionei a esse curso os módulos de:
-
-- NoSQL;
-- Segurança;
-- Desktop;
-- UX & Animations;
-- Deploy e Servidores;
-- ES6.
-
-Apenas esses módulos já adicionam 30 horas ao Be MEAN, ou seja mais 6 semanas iniciando em Fevereiro.
-
-Quem for acompanhar os cursos adicionais dos prêmios ainda terá um bom tempo pela frente.
 
 ## Quando e como serão enviados os brindes?
 
