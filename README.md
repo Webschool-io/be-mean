@@ -1,4 +1,31 @@
-# Roteiro aulas
+# Roteiro
+
+## Duração
+- Be MEAN (90 horas)
+    + MEAN (35 horas)
+        * MongoDB (5 horas)
+        * Node.js (15 horas)
+        * AngularJs (15 horas)
+    + Frontend (15 horas)
+        * Atomic Design
+        * Stylus
+        * Gulp
+        * Mobile-first
+        * Offile-first
+    + NoSQL (10 horas)
+        * Redis (3 horas)
+        * Neo4J (4 horas)
+        * ElasticSearch (3 horas, fechando o professor)
+    + Segurança (3 horas)
+    + Desktop (10 horas)
+        * Node-webkit (2 horas)
+        * Electron (8 horas)
+    + UX & Animations (7 horas)
+    + ES6 (5 horas)
+    + Deploy e Servidores (5 horas)
+- Geolocation (8 horas)
+- Docker (4 horas)
+- Ionic (10 horas)
 
 ##  Módulo MongoDB
 

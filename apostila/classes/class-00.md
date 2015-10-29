@@ -5,6 +5,7 @@
     - Como serão as aulas?
     - Quais módulos serão ensinados?
     - Qual a duração do Be MEAN?
+    - Certificados
     - Quando e como serão enviados os brindes?
     - Como serão os cursos dos prêmios?
 
@@ -106,16 +107,12 @@ Vamos a eles:
 - Docker
 - Ionic
 
-**Cada módulo terá seu certificado!**.
-
-Porém no módulo do Be MEAN você receberá **10 certificados**, com suas horas devidas. Mais os certificados dos cursos de Geolocation, Docker e Ionic.
-
 ## Qual a duração do Be MEAN?
 
 A média de duração de cada aula será de 1 hora, logo somando todos os módulos citados anteriormente, temos 105 horas apenas de MEAN.
 
-- Be MEAN (105 horas)
-    + MEAN (50 horas)
+- Be MEAN (90 horas)
+    + MEAN (35 horas)
         * MongoDB (5 horas)
         * Node.js (15 horas)
         * AngularJs (15 horas)
@@ -139,6 +136,12 @@ A média de duração de cada aula será de 1 hora, logo somando todos os módul
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
+
+## Certificados
+
+**Cada módulo terá seu certificado!**.
+
+Porém no módulo do Be MEAN você receberá **10 certificados**, com suas horas devidas. Mais os certificados dos cursos de Geolocation, Docker e Ionic.
 
 ## Quando e como serão enviados os brindes?
 
