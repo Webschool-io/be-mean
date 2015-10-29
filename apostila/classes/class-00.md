@@ -157,7 +157,9 @@ Por isso tentem chamar seus amigos para que possamos deixar **TODO O CONTEÚDO F
 
 **Nosso calendário de aulas começa em Novembro de 2015 e vai até Junho de 2016!**
 
-[Link para o calendário](https://calendar.google.com/calendar/embed?src=tts9unt80o1fa0pdtinui9eff8%40group.calendar.google.com&ctz=America/Sao_Paulo).
+[Link para o calendário no Google Agenda](https://calendar.google.com/calendar/embed?src=tts9unt80o1fa0pdtinui9eff8%40group.calendar.google.com&ctz=America/Sao_Paulo).
+
+[Link para o calendário em ical zipado](https://github.com/Webschool-io/be-mean-instagram/raw/master/calendar/be-mean-calendar.ical.zip).
 
 ## Pré-requisitos
 
