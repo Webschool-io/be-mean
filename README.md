@@ -7,11 +7,11 @@
         * Node.js (20 horas)
         * AngularJs (15 horas)
     + Frontend (15 horas)
-        * Atomic Design
-        * Stylus
-        * Gulp
-        * Mobile-first
-        * Offile-first
+        * Atomic Design (5 horas)
+        * Stylus (1 hora)
+        * Gulp (1 hora)
+        * Mobile-first (5 horas)
+        * Offile-first (3 horas)
     + NoSQL (10 horas)
         * Redis (3 horas)
         * Neo4J (4 horas)
