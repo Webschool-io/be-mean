@@ -144,7 +144,7 @@ Por isso tentem chamar seus amigos para que possamos deixar **TODO O CONTEÚDO F
 
 ## Pré-requisitos
 
-1 - Ter o GIT na sua máquina, se for Windows pode ser o GIT BASH, e ver [esse vídeo](https://www.youtube.com/watch?v=TReVFOxhh7E)
-2 - Saber o básico de JavaScript vendo [esses vídeos do Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
-3 - Instalar o MongoDb e o Node.js 
-4 - Saber pesquisar na internet.
+- 1 - Ter o GIT na sua máquina, se for Windows pode ser o GIT BASH, e ver [esse vídeo](https://www.youtube.com/watch?v=TReVFOxhh7E)
+- 2 - Saber o básico de JavaScript vendo [esses vídeos do Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
+- 3 - Instalar o MongoDb e o Node.js 
+- 4 - Saber pesquisar na internet.
