@@ -101,7 +101,7 @@ Vamos a eles:
         * Electron (8 horas)
     + UX & Animations (7 horas)
     + ES6 (5 horas)
-    + Deploy e Servidores (5 horas) 
+    + Deploy e Servidores (5 horas)
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
@@ -137,7 +137,7 @@ Os brindes serão enviados após o início das aulas até o final de Novembro, m
 
 ## Como serão os cursos dos prêmios?
 
-Os cursos serão feitos após o Be MEAN, ou seja, depois do início de Março. 
+Os cursos serão feitos após o Be MEAN, ou seja, depois do início de Março.
 Por hora eles ainda são exclusivos de quem apoiou, porém se cada curso fechar o número de alunos pré-determinado esse curso será OPEN e FREE para todos.
 
 Por isso tentem chamar seus amigos para que possamos deixar **TODO O CONTEÚDO FREE 4 EVER!**
