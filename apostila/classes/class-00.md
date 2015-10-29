@@ -157,11 +157,11 @@ Por isso tentem chamar seus amigos para que possamos deixar **TODO O CONTEÚDO F
 
 **Nosso calendário de aulas começa em Novembro de 2015 e vai até Junho de 2016!**
 
-<iframe src="https://calendar.google.com/calendar/embed?src=tts9unt80o1fa0pdtinui9eff8%40group.calendar.google.com&ctz=America/Sao_Paulo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+[Link para o calendário](https://calendar.google.com/calendar/embed?src=tts9unt80o1fa0pdtinui9eff8%40group.calendar.google.com&ctz=America/Sao_Paulo).
 
 ## Pré-requisitos
 
-1 - Ter o GIT na sua máquina, se for Windows pode ser o GIT BASH, e ver [esse vídeo](https://www.youtube.com/watch?v=TReVFOxhh7E)
-2 - Saber o básico de JavaScript vendo [esses vídeos do Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
-3 - Instalar o MongoDb e o Node.js 
-4 - Saber pesquisar na internet.
+1. Ter o GIT na sua máquina, se for Windows pode ser o GIT BASH, e ver [esse vídeo](https://www.youtube.com/watch?v=TReVFOxhh7E)
+2. Saber o básico de JavaScript vendo [esses vídeos do Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
+3. Instalar o MongoDb e o Node.js 
+4. Saber pesquisar na internet.
