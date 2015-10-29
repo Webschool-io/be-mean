@@ -107,8 +107,8 @@
     + Módulo Node.js
     + 
 - **Aula 10**
-##  Módulo Angular
-##  Módulo Frontend
-##  Módulo Redis
-##  Módulo Neo4J
-##  Módulo Segurança
+    +  Módulo Angular
+    +  Módulo Frontend
+    +  Módulo Redis
+    +  Módulo Neo4J
+    +  Módulo Segurança
