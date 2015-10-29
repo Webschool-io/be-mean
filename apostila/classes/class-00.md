@@ -111,10 +111,10 @@ Vamos a eles:
 
 A média de duração de cada aula será de 1 hora, logo somando todos os módulos citados anteriormente, temos 105 horas apenas de MEAN.
 
-- Be MEAN (90 horas)
-    + MEAN (35 horas)
+- Be MEAN (95 horas)
+    + MEAN (40 horas)
         * MongoDB (5 horas)
-        * Node.js (15 horas)
+        * Node.js (20 horas)
         * AngularJs (15 horas)
     + Frontend (15 horas)
         * Atomic Design

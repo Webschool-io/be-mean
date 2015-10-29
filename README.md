@@ -2,9 +2,9 @@
 
 ## Duração
 - Be MEAN (90 horas)
-    + MEAN (35 horas)
+    + MEAN (40 horas)
         * MongoDB (5 horas)
-        * Node.js (15 horas)
+        * Node.js (20 horas)
         * AngularJs (15 horas)
     + Frontend (15 horas)
         * Atomic Design
