@@ -1,6 +1,6 @@
 ## mongoexport
 
-Para exportarmos os dados de uma coleção no MongoDb usaremos o binário `mongoexport` da seguinte forma:
+Para exportarmos os dados de uma coleção no MongoDb usaremos o comando `mongoexport` da seguinte forma:
 
 ```
 mongoexport --db nome_do_database --collection nome_da_colecao --out minha_colecao.json
