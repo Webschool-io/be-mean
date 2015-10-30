@@ -1,4 +1,4 @@
-# Neo4J - Trabalhos
+# Neo4J - Exercício & Projeto Final
 
 ## Exercício
 
@@ -30,7 +30,7 @@ Nível:
 
 Esse exercício vai servir para o trabalho final que será um sistema de vagas de trabalho **APENAS** para os alunos desse workshop.
 
-## Trabalho
+## Projeto Final
 
 Criar um sistema de vagas de trabalho onde o **contratante** poderá:
 
