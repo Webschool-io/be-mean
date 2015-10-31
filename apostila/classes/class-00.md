@@ -96,6 +96,7 @@ Vamos a eles:
         * Redis
         * Neo4J
         * ElasticSearch
+        * OrientDB
     + Segurança
     + Desktop
         * Node-webkit
@@ -109,9 +110,9 @@ Vamos a eles:
 
 ## Qual a duração do Be MEAN?
 
-A média de duração de cada aula será de 1 hora, logo somando todos os módulos citados anteriormente, temos 105 horas apenas de MEAN.
+A média de duração de cada aula será de 1 hora, logo somando todos os módulos citados anteriormente, temos 98 horas apenas de MEAN.
 
-- Be MEAN (95 horas)
+- Be MEAN (100 horas)
     + MEAN (40 horas)
         * MongoDB (5 horas)
         * Node.js (20 horas)
@@ -126,6 +127,7 @@ A média de duração de cada aula será de 1 hora, logo somando todos os módul
         * Redis (3 horas)
         * Neo4J (4 horas)
         * ElasticSearch (3 horas, fechando o professor)
+        * OrientDB (3 horas)
     + Segurança (3 horas)
     + Desktop (10 horas)
         * Node-webkit (2 horas)
@@ -133,6 +135,7 @@ A média de duração de cada aula será de 1 hora, logo somando todos os módul
     + UX & Animations (7 horas)
     + ES6 (5 horas)
     + Deploy e Servidores (5 horas)
+    + Design Patterns (2 horas)
 - Geolocation (8 horas)
 - Docker (4 horas)
 - Ionic (10 horas)
