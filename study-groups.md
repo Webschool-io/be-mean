@@ -8,6 +8,8 @@ Começando pela quantidade máxima de alunos por grupo:
 
 E cada grupo terá algum professor da Webschool para coordenar.
 
+**Cada aluno poderá participar de no máximo 2 grupos AO MESMO TEMPO!**
+
 O grupo terá tarefas semanais que deverão ser dividas entre os membros do grupo para que ao final de **no máximo** 1 mês o grupo apresente seu projeto final para os demais alunos, para que esses possam avaliar os mesmos.
 
 Cada projeto final será pensado para ser utiliado pela Webschool, além de obviamente ficar OPEN.
