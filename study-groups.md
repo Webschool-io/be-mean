@@ -88,6 +88,9 @@ Professor: [Gustavo Salome]()
 
 ## Segurança
 
+### API com Node.js
+Professor: [William Bruno](https://github.com/wbruno)
+
 ## Deploy
 
 ## Vanilla
