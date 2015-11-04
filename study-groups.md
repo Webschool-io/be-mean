@@ -77,3 +77,8 @@ Professor: [Suissa](https://github.com/suissa)
 ## Segurança
 
 ## Deploy
+
+## Vanilla
+
+### Microserviços reativos e isomórficos
+Professor: [Suissa](https://github.com/suissa)
