@@ -77,6 +77,15 @@ Professor: [Suissa](https://github.com/suissa)
 
 ## NoSQL
 
+### ElasticSearch
+### Neo4J
+Professor: [Itacir Pompeu]()
+
+### OrientDB
+Professor: [Gustavo Salome]()
+
+### Redis
+
 ## Segurança
 
 ## Deploy
