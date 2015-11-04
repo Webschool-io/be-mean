@@ -75,14 +75,6 @@ autor: SEU NOME
 ```
 
 
-
-## Contando os restaurantes
-```
-
-
-mongoimport --db be-mean-teste --collection restaurantes --host 127.0.0.1 --port 27017 --drop --file restaurantes.json
-
-
 **CUIDADO**
 
 > Evite usar mongoimport e mongoexport para backups de instância de produção. Eles não preservarão de forma confiável todos os tipos de dados ricos do BSON, porque JSON só pode representar um subconjunto dos tipos suportados pelo BSON. Use mongodump e mongorestore como descrito em [MongoDB Backup Methods](https://docs.mongodb.org/manual/core/backups/) para esse tipo de funcionalidade.

@@ -21,9 +21,7 @@ Nesse curso eu abordarei
     - [drop](./mongodb/drop.md)
     - [Paginação](./mongodb/paggination.md)
   - [Aggregation](./mongodb/agreggation.md)
-  - [Replica](./mongodb/replica.md)
-  - [Sharding](./mongodb/sharding.md)
-  - [GridFs](./mongodb/gridFs.md)
+
 - **Node.js**
   - [Teoria](./mongodb/theory.md)
   - [Servidor HTTP](./mongodb/theory.md)
