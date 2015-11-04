@@ -41,11 +41,12 @@ Professor: [Suissa](https://github.com/suissa)
 Professor: [Suissa](https://github.com/suissa)
 
 ### Testes
+Professor: [Itacir Pompeu]()
 
 ## Angular
 
 ### Autenticação
-
+Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
 
 ### Módulos Reativos / Eventos
