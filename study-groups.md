@@ -31,9 +31,9 @@ Separei por alguns módulos iniciais, se alguém se interessar, favor adicionar 
 Caso tenha muitos interessados o professor responsável que irá escolher os alunos ou até criar um outro grupo, se o tópico tiver MUITA procura.
 
 ## MongoDb
-
+- [Lucas Moreira](https://github.com/fauker)
 ## Node.js
-
+- [Lucas Moreira](https://github.com/fauker)
 ### Autenticação
 Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
