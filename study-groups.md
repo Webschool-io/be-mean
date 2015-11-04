@@ -46,6 +46,8 @@ Professor: [Suissa](https://github.com/suissa)
 
 ### Autenticação
 
+Projeto final: Um serviço de autenticação igual ao do Facebook
+
 ### Módulos Reativos / Eventos
 
 ### Testes
