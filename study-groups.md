@@ -33,6 +33,13 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 ## Node.js
 
 ### Autenticação
+Professor: [Caio Cutrim]()
+Projeto final: Um serviço de autenticação igual ao do Facebook
+
+#### Identificação
+#### Autenticação
+#### Autorização
+#### 2-Factor
 
 ### Módulos Reativos / Eventos
 Professor: [Suissa](https://github.com/suissa)
@@ -48,8 +55,6 @@ Professor: [Itacir Pompeu]()
 ## Angular
 
 ### Autenticação
-Professor: [Caio Cutrim]()
-Projeto final: Um serviço de autenticação igual ao do Facebook
 
 ### Módulos Reativos / Eventos
 
