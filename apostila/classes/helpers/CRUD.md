@@ -1,6 +1,4 @@
-## MongoDb - Aula 02
-
-Continuando nossa a aula sobre MongoDb, continuaremos utilizando o `Terminal` e faremos as primeiras funções do nosso CRUD.
+## CRUD
 
 O [CRUD](https://pt.wikipedia.org/wiki/CRUD) é uma silga que significa as 4 operações básicas que qualquer entidade deve ter, para ser gerenciável, em um sistema:
 
@@ -8,5 +6,3 @@ O [CRUD](https://pt.wikipedia.org/wiki/CRUD) é uma silga que significa as 4 ope
 - Retrieve/Read: busca uma entidade existente;
 - Update: modifica uma entidade existente;
 - Delete: excluí uma entidade existente.
-
-Nessa aula aprenderemos como criar e buscar nossos registros.
