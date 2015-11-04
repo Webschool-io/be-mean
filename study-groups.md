@@ -43,6 +43,8 @@ Professor: [Suissa](https://github.com/suissa)
 ### Testes
 Professor: [Itacir Pompeu]()
 
+### Electron
+
 ## Angular
 
 ### Autenticação
