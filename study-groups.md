@@ -32,8 +32,10 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 
 ## MongoDb
 - [Lucas Moreira](https://github.com/fauker)
+
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
+
 ### Autenticação
 Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
