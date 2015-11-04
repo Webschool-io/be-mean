@@ -31,9 +31,13 @@ Separei por alguns módulos iniciais, se alguém se interessar, favor adicionar 
 Caso tenha muitos interessados o professor responsável que irá escolher os alunos ou até criar um outro grupo, se o tópico tiver MUITA procura.
 
 ## MongoDb
+
 - [gabrielcmendes](https://github.com/gabrielcmendes)
+
 ## Node.js
+
 - [gabrielcmendes](https://github.com/gabrielcmendes)
+
 ### Autenticação
 Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
