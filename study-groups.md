@@ -59,6 +59,7 @@ Professor: [Suissa](https://github.com/suissa)
 Professor: [Itacir Pompeu]()
 
 ### Electron
+Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
 
 - [Vinicius Reis](https://github.com/vinicius73)
 
