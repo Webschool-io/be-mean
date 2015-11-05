@@ -60,6 +60,8 @@ Professor: [Itacir Pompeu]()
 
 ### Electron
 
+- [Vinicius Reis](https://github.com/vinicius73)
+
 ## Angular
 
 ### Autenticação
