@@ -2,12 +2,13 @@
 
 let photo = require('../photo_model');
 const formidable = require('formidable')
-    , imagesDir = __dirname.replace('/modules/photos/actions/', '/public/images/')
+    , path = require('path')
     ;
 
 const Action = {
     create: function(req, res) {
-    debug('Action Create');
+      debug('Action Create');
+
       formParse(req, (err, result) => {
         let promise = photo.create(result);
         promise.then(succesHandler , errorHandler)
@@ -27,7 +28,7 @@ const Action = {
 
 function formParse(req , cb) {
   let form = new formidable.IncomingForm();
-  form.uploadDir = imagesDir;
+  form.uploadDir = path.resolve('./public/images/');
   form.parse(req, (err, fields, files) => {
     if(!err) {
       return cb(null, {
