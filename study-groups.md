@@ -44,6 +44,8 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
 
+- [Alison Monteiro](https://github.com/alisonmonteiro)
+
 #### Identificação
 #### Autenticação
 #### Autorização
@@ -57,6 +59,8 @@ Professor: [Suissa](https://github.com/suissa)
 
 ### Testes
 Professor: [Itacir Pompeu]()
+
+- [Alison Monteiro](https://github.com/alisonmonteiro)
 
 ### Electron
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
