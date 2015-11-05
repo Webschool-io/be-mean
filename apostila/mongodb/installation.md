@@ -11,6 +11,7 @@ Depois basta descompactar e rodar.
 ### Linux
 
 ![Meme do Linux](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-linux.jpg)
+
 Quem usa Linux do tipo Ubuntu da vida pode instalar via `apt-get` seguindo esses passos, primeiro garantir a autenticidade e consistencia dos pacotes do MongoDb:
 
 ```
@@ -47,7 +48,17 @@ Quem usa Mac pode instalar via [brew](http://brew.sh/) e para instalar o brew é
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+Depois basta executar o comando de `update` do `brew`:
 
+```
+brew update
+```
+
+Depois mandar ele instalar o `mongodb`:
+
+```
+brew install mongodb
+```
 
 ### Windows
 
