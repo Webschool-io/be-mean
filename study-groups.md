@@ -33,8 +33,12 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 ## MongoDb
 - [Lucas Moreira](https://github.com/fauker)
 
+- [gabrielcmendes](https://github.com/gabrielcmendes)
+
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
+
+- [gabrielcmendes](https://github.com/gabrielcmendes)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
