@@ -2,7 +2,7 @@
 
 var jwt = require("jwt-simple");
 var moment = require("moment");
-var secret = "I'm a rockstar, baby! and you don't will discover this";
+var secret = "I'm a rockstar, baby! and you will not discover this.";
 
 module.exports = function(app){
 	var User = app.models.users;
