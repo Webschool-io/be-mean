@@ -37,7 +37,7 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 
 - [Baltazar Parra](https://github.com/ravenNNN)
  
-- [Thiago Magalhães](https://github.com/Thiago-MagalhaesN)
+- [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
