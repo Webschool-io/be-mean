@@ -13,14 +13,30 @@ Guarde bem esse comando pois será necessário para o nosso exercício.
 mongoexport --db test --collection traffic --out traffic.json
 ```
 
+Onde:
+
+- --db ou -d: especifica a database a ser usada/criada;
+- --collection: especifica a coleção a ser usada/criada;
+- --out: especifica qual arquivo receberá os dados.
 
 ## mongoimport
 
+O `mongoimport` é o comando utilizado para importar dados para o MongoDb, para isso você deverá usar um arquivo: [Extended JSON](https://docs.mongodb.org/manual/reference/mongodb-extended-json/), CSV, ou TSV export criado pelo mongoexport.
+
 ```
-mongoimport --db test --collection restaurants --drop --file primer-dataset.json
+mongoimport --db database --collection collection --drop --file data.json
 ```
 
+Onde:
+
+- --db ou -d: especifica a database a ser usada/criada;
+- --collection: especifica a coleção a ser usada/criada;
+- --drop: apaga a coleção antes de inserir os novos dados;
+- --file: especifica o caminho do arquivo a ser importado.
+
 ## Exercício
+
+> Esse exercício se encontra no conteúdo da aula.
 
 Como ainda não temos muitos dados para usarmos o `mongoexport` iremos trabalhar apenas com o `mongoimport` nesse momento. Para fazermos isso primeiramente baixe [esse JSON](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/mongodb/data/restaurantes.json).
 
