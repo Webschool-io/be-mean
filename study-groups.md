@@ -31,12 +31,24 @@ Separei por alguns módulos iniciais, se alguém se interessar, favor adicionar 
 Caso tenha muitos interessados o professor responsável que irá escolher os alunos ou até criar um outro grupo, se o tópico tiver MUITA procura.
 
 ## MongoDb
+- [Lucas Moreira](https://github.com/fauker)
+
+- [gabrielcmendes](https://github.com/gabrielcmendes)
+
+- [Baltazar Parra](https://github.com/ravenNNN)
 
 ## Node.js
+- [Lucas Moreira](https://github.com/fauker)
+
+- [gabrielcmendes](https://github.com/gabrielcmendes)
+
+- [Baltazar Parra](https://github.com/ravenNNN)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
 Projeto final: Um serviço de autenticação igual ao do Facebook
+
+- [Alison Monteiro](https://github.com/alisonmonteiro)
 
 #### Identificação
 #### Autenticação
@@ -52,7 +64,12 @@ Professor: [Suissa](https://github.com/suissa)
 ### Testes
 Professor: [Itacir Pompeu]()
 
+- [Alison Monteiro](https://github.com/alisonmonteiro)
+
 ### Electron
+Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
+
+- [Vinicius Reis](https://github.com/vinicius73)
 
 ## Angular
 
