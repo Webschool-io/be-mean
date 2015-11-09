@@ -9,7 +9,7 @@ Nesse curso eu abordarei
     - [NoSQL](./mongodb/theory-nosql.md)
     - [MongoDB](./mongodb/theory-mongodb.md)
   - [Instalação](./mongodb/installation.md)
-  - [Cliente](./mongodb-client.md)
+  - [Cliente](./mongodb/mongodb-client.md)
     + Import & Export
   - [CRUD](./mongodb/crud.md)
     - [insert](./mongodb/insert.md)
@@ -20,7 +20,7 @@ Nesse curso eu abordarei
     - [remove](./mongodb/remove.md)
     - [drop](./mongodb/drop.md)
     - [Paginação](./mongodb/paggination.md)
-  - [Aggregation](./mongodb/agreggation.md)
+  - [Aggregation](./mongodb/aggregation.md)
 
 - **Node.js**
   - [Teoria](./mongodb/theory.md)
