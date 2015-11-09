@@ -89,6 +89,14 @@ autor: SEU NOME
 
 ```
 
+Você deverá criar repositório específico para esse módulo, chamando-o de:
+
+> be-mean-modulo-mongodb
+
+E é nesse repositório que você subirá **TODOS** seus exercícios, depois basta mandar seu link para mim via [EAD]().
+
+O prazo máximo não existe, porém você precisa entregar **TODOS** os exercícios para poder fazer o **Projeto Final** e participar do nosso futuro *hackathon* e sistema de vagas.
+
 
 **CUIDADO**
 

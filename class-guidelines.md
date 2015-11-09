@@ -12,6 +12,10 @@
 
 [https://github.com/Webschool-io/be-mean-instagram/tree/master/apostila/mongodb](https://github.com/Webschool-io/be-mean-instagram/tree/master/apostila/mongodb)
 
+## Slides do MongoDb
+
+[https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit#slide=id.p](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit#slide=id.p)
+
 ## Conteúdo Aula 01
 
 [https://github.com/Webschool-io/be-mean-instagram/blob/master/apostila/classes/mongodb/class-01.md](https://github.com/Webschool-io/be-mean-instagram/blob/master/apostila/classes/mongodb/class-01.md)
