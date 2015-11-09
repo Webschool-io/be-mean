@@ -58,6 +58,8 @@ Crie um repositório chamado `be-mean-instagram-mongodb` e dentro um arquivo `.m
 class-01-resolved.md
 ```
 
+E dar um **Pull Request** nesse repositório para adicionar seu nome na lista abaixo.
+
 ## Respostas dos alunos
 
 - [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)
