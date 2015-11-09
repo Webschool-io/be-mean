@@ -2,8 +2,11 @@
 
 Nessa primeira aula veremos um pouco sobre a teoria do MongoDb e sobre os bancos de dados NoSQL e o que essa sigla que tanto vemos significa.
 
-## Teoria
+## Slides
 
+[https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
+
+## Teoria
 
 ### NoSQL
 

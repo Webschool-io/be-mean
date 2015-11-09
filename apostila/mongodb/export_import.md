@@ -6,17 +6,16 @@ Para exportarmos os dados de uma coleção no MongoDb usaremos o comando `mongoe
 mongoexport --db nome_do_database --collection nome_da_colecao --out minha_colecao.json
 ```
 
-Guarde bem esse comando pois será necessário para o nosso exercício.
-
+Guarde bem esse comando pois será necessário futuramente:
 
 ```
-mongoexport --db test --collection traffic --out traffic.json
+mongoexport -db minha_db -c mihanha_colection --out saida_dos_dados.json
 ```
 
 Onde:
 
 - --db ou -d: especifica a database a ser usada/criada;
-- --collection: especifica a coleção a ser usada/criada;
+- --collection ou -c: especifica a coleção a ser usada/criada;
 - --out: especifica qual arquivo receberá os dados.
 
 ## mongoimport
@@ -30,7 +29,7 @@ mongoimport --db database --collection collection --drop --file data.json
 Onde:
 
 - --db ou -d: especifica a database a ser usada/criada;
-- --collection: especifica a coleção a ser usada/criada;
+- --collection ou -c: especifica a coleção a ser usada/criada;
 - --drop: apaga a coleção antes de inserir os novos dados;
 - --file: especifica o caminho do arquivo a ser importado.
 
