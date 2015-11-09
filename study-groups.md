@@ -61,10 +61,13 @@ Professor: [Suissa](https://github.com/suissa)
 ### SOA / Microservices
 Professor: [Suissa](https://github.com/suissa)
 
+- [Vinicius Borges](https://github.com/BX-L)
+
 ### Testes
 Professor: [Itacir Pompeu]()
 
 - [Alison Monteiro](https://github.com/alisonmonteiro)
+- [Vinicius Borges](https://github.com/BX-L)
 
 ### Electron
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
