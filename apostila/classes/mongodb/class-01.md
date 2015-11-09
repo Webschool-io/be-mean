@@ -19,9 +19,9 @@ Entrando na teoria do [MongoDB](./../../mongodb/theory-mongodb.md)
 Abrangendo:
 
 - [Instalação](./../../mongodb/installation.md)
--Cliente(./../../mongodb-client.md)
-  - Import(./../../mongodb/export_import.md)
-  - Export(./../../mongodb/export_import.md)
+- [Cliente](./../../mongodb-client.md)
+  - [Import](./../../mongodb/export_import.md)
+  - [Export](./../../mongodb/export_import.md)
 
 #### Exercício
 
