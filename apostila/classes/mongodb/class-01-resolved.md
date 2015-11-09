@@ -63,3 +63,4 @@ E dar um **Pull Request** nesse repositório para adicionar seu nome na lista ab
 ## Respostas dos alunos
 
 - [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)
+- [Denner Evaldt Machado](https://github.com/dennerevaldt/be-mean-instagram-mongodb/blob/master/mongodb-aula-01-exercicio.md)
