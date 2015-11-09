@@ -2,8 +2,11 @@
 
 Nessa primeira aula veremos um pouco sobre a teoria do MongoDb e sobre os bancos de dados NoSQL e o que essa sigla que tanto vemos significa.
 
-## Teoria
+## Slides
 
+[https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
+
+## Teoria
 
 ### NoSQL
 
@@ -75,3 +78,8 @@ autor: SEU NOME
 ```
 
 ## Explicar como funcionarão os exercícios e as aulas subsequentes.
+
+## Links
+
+- NoSQL - Arquitetura híbrida para uma rede social: [http://nomadev.com.br/nosql-arquitetura-h%C3%ADbrida-para-uma-rede-social/](http://nomadev.com.br/nosql-arquitetura-h%C3%ADbrida-para-uma-rede-social/)
+- MongoDb - Como mudar seu jeito relacional de pensar - Parte 1: [http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/](http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/)
