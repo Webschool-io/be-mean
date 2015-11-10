@@ -1,14 +1,7 @@
 # MongoDB - Aula 02 - Exercício
 autor: Douglas Hennrich
 
-## Crie uma databate chamada be-mean-pokemons
-
-```
-use be-mean-pokemons
-switched to db be-mean-pokemons
-```
-
-## Liste quais databases você possui nesse servidor
+## Listagem das databases (passo 2)
 ```
 MacBook-Pro-de-Douglas(mongod-3.0.6) be-mean-pokemons> show dbs
 be-mean-instagram  0.078GB
@@ -16,14 +9,18 @@ be-mean            0.078GB
 local              0.078GB
 ```
 
-## Insira pelo menos 5 pokemons **A SUA ESCOLHA** utilizando o mesmo padrão de campos utilizados: name, description, attack, defense e height
-```javascript
-var pokemons = [{ name: "Mew", description: "Because its battle abilities were raised to the ultimate level, it thinks only of de feating its foes.", attack: 100, defense: 100, height: 4}, { name: "Rhyhorn", description: "Strong, but not too bright, this Pokmon can shatter even a skyscraper with its charging Tackles.", attack: 85, defense: 95, height: 10}, { name: "Staryu", description: "As long as the center section is unharmed, it can grow back fully even if it is chopped to bits.", attack: 45, defense: 55, height: 8}, { name: "Gyarados", description: "It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets.", attack: 125, defense: 79, height: 65}, { name: "Kabuto", description: "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.", attack: 80, defense: 90, height: 5}]
+## Listagem das coleções (passo 3)
+```
+MacBook-Pro-de-Douglas(mongod-3.0.6) be-mean-pokemons> show collections
+system.indexes  0.000MB / 0.008MB
+```
 
-db.pokedex.insert(pokemons)
+## Cadastro dos pokemons (passo 4)
+```
+MacBook-Pro-de-Douglas(mongod-3.0.6) be-mean-pokemons> var pokemons = [{ name: "Mew", description: "Because its battle abilities were raised to the ultimate level, it thinks only of de feating its foes.", attack: 100, defense: 100, height: 4}, { name: "Rhyhorn", description: "Strong, but not too bright, this Pokmon can shatter even a skyscraper with its charging Tackles.", attack: 85, defense: 95, height: 10}, { name: "Staryu", description: "As long as the center section is unharmed, it can grow back fully even if it is chopped to bits.", attack: 45, defense: 55, height: 8}, { name: "Gyarados", description: "It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets.", attack: 125, defense: 79, height: 65}, { name: "Kabuto", description: "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.", attack: 80, defense: 90, height: 5}]
 
-db.pokedex.insert(pokemons)
-Inserted 1 record(s) in 426ms
+MacBook-Pro-de-Douglas(mongod-3.0.6) be-mean-pokemons> db.pokedex.insert(pokemons)
+Inserted 1 record(s) in 5ms
 BulkWriteResult({
   "writeErrors": [ ],
   "writeConcernErrors": [ ],
@@ -36,7 +33,7 @@ BulkWriteResult({
 })
 ```
 
-## Liste os pokemons existentes na sua coleção
+## Lista dos pokemons (passo 5)
 ```
 db.pokedex.find()
 {
@@ -82,14 +79,24 @@ db.pokedex.find()
 Fetched 5 record(s) in 23ms
 ```
 
-## Busque o pokemon a sua escolha, pelo nome, e armazene-o em uma variável chamada "poke"
+## Mew (passo 6)
 ```
 var q = { name: "Mew" }
 
 var poke = db.pokedex.findOne(q)
+
+MacBook-Pro-de-Douglas(mongod-3.0.6) be-mean-pokemons> poke
+{
+  "_id": ObjectId("56427e4e8c701b87518b7cf4"),
+  "name": "Mew",
+  "description": "Because its battle abilities were raised to the ultimate level, it thinks only of de feating its foes.",
+  "attack": 100,
+  "defense": 100,
+  "height": 4
+}
 ```
 
-## Modifique sua "description" e salvê-o
+## Atualização do Mew (passo 6)
 ```
 poke.description = "The Real pokemons only goes to 151!"
 
