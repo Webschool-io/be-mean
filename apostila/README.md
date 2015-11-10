@@ -8,8 +8,9 @@ Nesse curso eu abordarei
   - [Teoria](./mongodb/theory.md)
     - [NoSQL](./mongodb/theory-nosql.md)
     - [MongoDB](./mongodb/theory-mongodb.md)
-  - [Instalação](./installation.md)
+  - [Instalação](./mongodb/installation.md)
   - [Cliente](./mongodb-client.md)
+    + Import & Export
   - [CRUD](./mongodb/crud.md)
     - [insert](./mongodb/insert.md)
     - [save](./mongodb/save.md)
@@ -20,9 +21,7 @@ Nesse curso eu abordarei
     - [drop](./mongodb/drop.md)
     - [Paginação](./mongodb/paggination.md)
   - [Aggregation](./mongodb/agreggation.md)
-  - [Replica](./mongodb/replica.md)
-  - [Sharding](./mongodb/sharding.md)
-  - [GridFs](./mongodb/gridFs.md)
+
 - **Node.js**
   - [Teoria](./mongodb/theory.md)
   - [Servidor HTTP](./mongodb/theory.md)
