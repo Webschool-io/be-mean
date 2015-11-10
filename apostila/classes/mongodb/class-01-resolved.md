@@ -70,3 +70,4 @@ E dar um **Pull Request** nesse repositório para adicionar seu nome na lista ab
 - [Arthur Assuncao - arthurassuncao](https://github.com/ArthurAssuncao/be-mean-modulo-mongodb/blob/master/aula01/mongodb-aula-01-exercicio.md)-
 - [Arthur Ervas - arthurse](https://github.com/arthurse/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
 - [Elvisley Souza - @elvissp90](https://github.com/Elvisley/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)
+- [Baltazar Parra - ravenNNN](https://github.com/ravenNNN/be-mean-modulo-mongodb/blob/master/class-01-resolved.md)
