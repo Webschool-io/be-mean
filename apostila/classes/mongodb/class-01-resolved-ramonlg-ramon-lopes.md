@@ -1,6 +1,6 @@
 # MongoDB - Aula 01 - Exercício
 autor: Ramon Lopes da Graça
-- [ ramonlg](https://github.com/ramonlg/be-mean-instagram-mongodb/blob/master/class-01-resolved-ramonlg-ramon-lopes.md)-
+[ ramonlg](https://github.com/ramonlg/be-mean-instagram-mongodb/blob/master/class-01-resolved-ramonlg-ramon-lopes.md)
 
 ## Importando os restaurantes
 
