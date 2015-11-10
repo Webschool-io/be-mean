@@ -1,29 +1,4 @@
-## MongoDb - Aula 01
-
-Nessa primeira aula veremos um pouco sobre a teoria do MongoDb e sobre os bancos de dados NoSQL e o que essa sigla que tanto vemos significa.
-
-## Slides
-
-[https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
-
-## Teoria
-
-### NoSQL
-
-Falarei um pouco sobre a teoria de [NoSQL](./../../mongodb/theory-nosql.md).
-
-### MongoDb
-
-Entrando na teoria do [MongoDB](./../../mongodb/theory-mongodb.md)
-
-Abrangendo:
-
-- [Instalação](./../../mongodb/installation.md)
-- [Cliente](./../../mongodb-client.md)
-  - [Import](./../../mongodb/export_import.md)
-  - [Export](./../../mongodb/export_import.md)
-
-#### Exercício
+## MongoDb - Aula 01 - Exercício
 
 Como ainda não temos muitos dados para usarmos o `mongoexport` iremos trabalhar apenas com o `mongoimport` nesse momento. Para fazermos isso primeiramente baixe [esse JSON](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/mongodb/data/restaurantes.json).
 
@@ -77,9 +52,25 @@ autor: SEU NOME
 
 ```
 
-## Explicar como funcionarão os exercícios e as aulas subsequentes.
+Crie um repositório chamado `be-mean-instagram-mongodb` e dentro um arquivo `.md` nomeado dessa forma:
 
-## Links
+```
+class-01-resolved-githuser-nome.md
+// exemplo
+class-01-resolved-suissa-jean-nscimento.md
+```
 
-- NoSQL - Arquitetura híbrida para uma rede social: [http://nomadev.com.br/nosql-arquitetura-h%C3%ADbrida-para-uma-rede-social/](http://nomadev.com.br/nosql-arquitetura-h%C3%ADbrida-para-uma-rede-social/)
-- MongoDb - Como mudar seu jeito relacional de pensar - Parte 1: [http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/](http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/)
+E dar um **Pull Request** nesse repositório enviando seu arquivo resolvido para esse repositório, não esquecendo que o mesmo deve existir **no seu** repositório.
+
+## Respostas dos alunos
+
+Eu adicionarei os links a medida que eu veja os exercícios.
+
+- [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)-
+- [Jorge Rafael - Kurybr](https://github.com/kurybr/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
+- [Leandro Carlos - lcpereira](https://github.com/lcpereira/be-mean-instagram-mongodb/blob/master/mongodb-aula-01-exercicio.md)-
+- [Ademílson F. Tonato - FTonato](https://github.com/ftonato/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
+- [Janderson Martins - jandersonmartins](https://github.com/jandersonmartins/be-mean-instagram-mongodb/blob/master/class-01-resolved.md)
+- [Arthur Assuncao - arthurassuncao](https://github.com/ArthurAssuncao/be-mean-modulo-mongodb/blob/master/aula01/mongodb-aula-01-exercicio.md)-
+- [Arthur Ervas - arthurse](https://github.com/arthurse/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
+- [Elvisley Souza - @elvissp90](https://github.com/Elvisley/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)
