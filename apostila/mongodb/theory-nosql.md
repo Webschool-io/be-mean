@@ -109,11 +109,11 @@ Modelagem complexa e buscas dinâmicas.
 
 ![Visualização de um grafo](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-graph.png)
 
-Um banco de dados orientado a [grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) possui um base na teoria matemática dos grafos, mas que não é nada difícil, precisamos apenas pensar nas entidades como pontos(vértices) e que elas podem se relacionar com com outras entidaes a partir de relações(arestas), como mostrado na imagem acima.
+Um banco de dados orientado a [grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) possui um base na teoria matemática dos grafos, mas que não é nada difícil, precisamos apenas pensar nas entidades como pontos(vértices) e que elas podem se relacionar com outras entidades a partir de relações(arestas), como mostrado na imagem acima.
 
 Esse tipo de banco é perfeito para redes sociais, caso você vá criar uma e não usar esse tipo de banco por favor **NUNCA DIGA QUE FOI MEU ALUNO**, LOL. Brincadeiras a parte, esse banco foi feito para isso, logo espero que o usem.
 
-Cso você queira conhecer um pouco mais de um banco de grafos feito em Node.js eu escrevi esse artigo há algum tempo atrás [Levelgraph - Um banco de dados de Grafos para Node.js - Parte 1](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/).
+Caso você queira conhecer um pouco mais de um banco de grafos feito em Node.js, eu escrevi esse artigo há algum tempo atrás [Levelgraph - Um banco de dados de Grafos para Node.js - Parte 1](http://nomadev.com.br/levelgraph-um-banco-de-dados-de-grafos-para-node-js/).
 
 - [Neo4J](http://neo4j.com/)
 - [GraphDb](http://ontotext.com/products/ontotext-graphdb/graphdb-standard/)
