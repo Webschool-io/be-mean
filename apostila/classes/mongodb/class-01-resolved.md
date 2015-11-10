@@ -55,12 +55,16 @@ autor: SEU NOME
 Crie um repositório chamado `be-mean-instagram-mongodb` e dentro um arquivo `.md` nomeado dessa forma:
 
 ```
-class-01-resolved.md
+class-01-resolved-githuser-nome.md
+// exemplo
+class-01-resolved-suissa-jean-nscimento.md
 ```
 
-E dar um **Pull Request** nesse repositório para adicionar seu nome na lista abaixo.
+E dar um **Pull Request** nesse repositório enviando seu arquivo resolvido para esse repositório, não esquecendo que o mesmo deve existir **no seu** repositório.
 
 ## Respostas dos alunos
+
+Eu adicionarei os links a medida que eu veja os exercícios.
 
 - [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)-
 - [Jorge Rafael - Kurybr](https://github.com/kurybr/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
