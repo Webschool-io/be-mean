@@ -74,3 +74,4 @@ Eu adicionarei os links a medida que eu veja os exercícios.
 - [Arthur Assuncao - arthurassuncao](https://github.com/ArthurAssuncao/be-mean-modulo-mongodb/blob/master/aula01/mongodb-aula-01-exercicio.md)-
 - [Arthur Ervas - arthurse](https://github.com/arthurse/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
 - [Elvisley Souza - @elvissp90](https://github.com/Elvisley/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)
+- [Lucas Moreira - fauker](https://github.com/fauker/be-mean-instagram-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
