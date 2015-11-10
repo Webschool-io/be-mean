@@ -57,14 +57,27 @@ Crie um repositório chamado `be-mean-instagram-mongodb` e dentro um arquivo `.m
 ```
 class-01-resolved-githuser-nome.md
 // exemplo
-class-01-resolved-suissa-jean-nscimento.md
+class-01-resolved-suissa-jean-nascimento.md
 ```
 
 E dar um **Pull Request** nesse repositório enviando seu arquivo resolvido para esse repositório, não esquecendo que o mesmo deve existir **no seu** repositório.
 
+**NÃO ESQUEÇA DE NOMEAR A PORRA DO ARQUIVO DO JEITO CERTO!!!!**
+
+```
+class-01-resolved-suissa-jean-nascimento.md
+```
+
+E depois apenas COLOQUE esse arquivo na pasta `EXERCISES`, onde estão os arquivos `class-*.md`!
+
+**NÃO ESQUEÇA DE MANDAR NA PASTA EXERCISES O SEU ARQUIVO COM SEU NOME!!!!**
+
+
 ## Respostas dos alunos
 
 Eu adicionarei os links a medida que eu veja os exercícios.
+
+**NÃO ADICIONE SEU NOME AQUI CARALEOOOOOOOO!!!**
 
 - [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)-
 - [Jorge Rafael - Kurybr](https://github.com/kurybr/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
@@ -74,3 +87,4 @@ Eu adicionarei os links a medida que eu veja os exercícios.
 - [Arthur Assuncao - arthurassuncao](https://github.com/ArthurAssuncao/be-mean-modulo-mongodb/blob/master/aula01/mongodb-aula-01-exercicio.md)-
 - [Arthur Ervas - arthurse](https://github.com/arthurse/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
 - [Elvisley Souza - @elvissp90](https://github.com/Elvisley/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)
+- [Jefferson Daniel - jeffersondanielss](https://github.com/jeffersondanielss/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)-
