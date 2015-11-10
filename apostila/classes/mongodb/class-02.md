@@ -10,3 +10,15 @@ O [CRUD](https://pt.wikipedia.org/wiki/CRUD) é uma silga que significa as 4 ope
 - Delete: excluí uma entidade existente.
 
 Nessa aula aprenderemos como criar e buscar nossos registros.
+
+
+Falar que qnd subir o `mongod` pode subir escolhendo qual database irá usar, executando assim:
+
+`mongod nome_database`
+
+### Database
+
+`use`
+`show dbs`
+
+### Collections
