@@ -1,29 +1,4 @@
-## MongoDb - Aula 01
-
-Nessa primeira aula veremos um pouco sobre a teoria do MongoDb e sobre os bancos de dados NoSQL e o que essa sigla que tanto vemos significa.
-
-## Slides
-
-[https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
-
-## Teoria
-
-### NoSQL
-
-Falarei um pouco sobre a teoria de [NoSQL](./../../mongodb/theory-nosql.md).
-
-### MongoDb
-
-Entrando na teoria do [MongoDB](./../../mongodb/theory-mongodb.md)
-
-Abrangendo:
-
-- [Instalação](./../../mongodb/installation.md)
-- [Cliente](./../../mongodb-client.md)
-  - [Import](./../../mongodb/export_import.md)
-  - [Export](./../../mongodb/export_import.md)
-
-#### Exercício
+## MongoDb - Aula 01 - Exercício
 
 Como ainda não temos muitos dados para usarmos o `mongoexport` iremos trabalhar apenas com o `mongoimport` nesse momento. Para fazermos isso primeiramente baixe [esse JSON](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/mongodb/data/restaurantes.json).
 
@@ -77,9 +52,34 @@ autor: SEU NOME
 
 ```
 
-## Explicar como funcionarão os exercícios e as aulas subsequentes.
+Crie um repositório chamado `be-mean-instagram-mongodb` e dentro um arquivo `.md` nomeado dessa forma:
 
-## Links
+```
+class-01-resolved-githuser-nome.md
+// exemplo
+class-01-resolved-suissa-jean-nascimento.md
+```
 
-- NoSQL - Arquitetura híbrida para uma rede social: [http://nomadev.com.br/nosql-arquitetura-h%C3%ADbrida-para-uma-rede-social/](http://nomadev.com.br/nosql-arquitetura-h%C3%ADbrida-para-uma-rede-social/)
-- MongoDb - Como mudar seu jeito relacional de pensar - Parte 1: [http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/](http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/)
+E dar um **Pull Request** nesse repositório enviando seu arquivo resolvido para esse repositório, não esquecendo que o mesmo deve existir **no seu** repositório.
+
+**NÃO ESQUEÇA DE NOMEAR A PORRA DO ARQUIVO DO JEITO CERTO!!!!**
+
+```
+class-01-resolved-suissa-jean-nascimento.md
+```
+
+E depois apenas COLOQUE esse arquivo na pasta `EXERCISES`, onde estão os arquivos `class-*.md`!
+
+**NÃO ESQUEÇA DE MANDAR NA PASTA EXERCISES O SEU ARQUIVO COM SEU NOME!!!!**
+
+## Como enviar seu exercício passo-a-passo
+
+Quando você for enviar algum exrcício de qualquer módulo por favor siga os seguintes passos:
+
+1. Crie o repositório específico do módulo. Ex.: be-mean-instagram-mongodb
+2. Crie a solução do exercício localmente nesse repositório, usando sempre o padrão `class-x-resolved-githubuser-nome.md`
+3. Dê um `fork` no repositório oficial https://github.com/Webschool-io/be-mean-instagram/
+4. Vá até a pasta do módulo desejado e **COLE** seu arquivo na pasta `exercises`
+5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
+6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
+

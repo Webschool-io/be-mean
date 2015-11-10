@@ -1,7 +1,7 @@
 # Roteiro
 
 ## Duração
-- Be MEAN (90 horas)
+- Be MEAN (100 horas)
     + MEAN (40 horas)
         * MongoDB (5 horas)
         * Node.js (20 horas)
@@ -12,9 +12,10 @@
         * Gulp (1 hora)
         * Mobile-first (5 horas)
         * Offile-first (3 horas)
-    + NoSQL (10 horas)
+    + NoSQL (13 horas)
         * Redis (3 horas)
         * Neo4J (4 horas)
+        * OrientDb (3 horas)
         * ElasticSearch (3 horas, fechando o professor)
     + Segurança (3 horas)
     + Desktop (10 horas)

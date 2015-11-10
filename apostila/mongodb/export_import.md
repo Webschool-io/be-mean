@@ -6,21 +6,36 @@ Para exportarmos os dados de uma coleção no MongoDb usaremos o comando `mongoe
 mongoexport --db nome_do_database --collection nome_da_colecao --out minha_colecao.json
 ```
 
-Guarde bem esse comando pois será necessário para o nosso exercício.
-
+Guarde bem esse comando pois será necessário futuramente:
 
 ```
-mongoexport --db test --collection traffic --out traffic.json
+mongoexport -db minha_db -c mihanha_colection --out saida_dos_dados.json
 ```
 
+Onde:
+
+- --db ou -d: especifica a database a ser usada/criada;
+- --collection ou -c: especifica a coleção a ser usada/criada;
+- --out: especifica qual arquivo receberá os dados.
 
 ## mongoimport
 
+O `mongoimport` é o comando utilizado para importar dados para o MongoDb, para isso você deverá usar um arquivo: [Extended JSON](https://docs.mongodb.org/manual/reference/mongodb-extended-json/), CSV, ou TSV export criado pelo mongoexport.
+
 ```
-mongoimport --db test --collection restaurants --drop --file primer-dataset.json
+mongoimport --db database --collection collection --drop --file data.json
 ```
 
+Onde:
+
+- --db ou -d: especifica a database a ser usada/criada;
+- --collection ou -c: especifica a coleção a ser usada/criada;
+- --drop: apaga a coleção antes de inserir os novos dados;
+- --file: especifica o caminho do arquivo a ser importado.
+
 ## Exercício
+
+> Esse exercício se encontra no conteúdo da aula.
 
 Como ainda não temos muitos dados para usarmos o `mongoexport` iremos trabalhar apenas com o `mongoimport` nesse momento. Para fazermos isso primeiramente baixe [esse JSON](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/mongodb/data/restaurantes.json).
 
@@ -73,6 +88,14 @@ autor: SEU NOME
     ```
 
 ```
+
+Você deverá criar repositório específico para esse módulo, chamando-o de:
+
+> be-mean-modulo-mongodb
+
+E é nesse repositório que você subirá **TODOS** seus exercícios, depois basta mandar seu link para mim via [EAD](http://aprenda.dagora.net).
+
+O prazo máximo não existe, porém você precisa entregar **TODOS** os exercícios para poder fazer o **Projeto Final** e participar do nosso futuro *hackathon* e sistema de vagas.
 
 
 **CUIDADO**
