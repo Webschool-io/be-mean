@@ -1,5 +1,5 @@
 # MongoDB - Aula 01 - Exercício
-autor: Felipe Orlando B. Souza
+autor: Felipe Orlando Begliomini Souza
 
 ## Importando os restaurantes
 ```
