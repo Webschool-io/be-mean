@@ -1,0 +1,174 @@
+var pokemon1 = {'name':'Beedrill','description':'Abelha','type':'inseto','attack': 30 , 'height':0.3}
+var pokemon2 = {'name':'Pidgey','description':'Galinha caipira','type':'passaro','attack': 35 , 'height':0.4}
+var pokemon3 = {'name':'Pidgeotto','description':'Passaro voador','type':'passaro','attack': 40 , 'height':0.5}
+var pokemon4 = {'name':'Rattata','description':'Rato','type':'mouse','attack': 45 , 'height':0.6}
+var pokemon5 = {'name':'Raticate','description':'Ratinho','type':'mouse','attack': 50 , 'height':0.7}
+
+
+/**/
+
+Last login: Tue Nov 10 21:07:33 on ttys001
+MacBook-Pro-de-Elvisley:be-mean-instagram Elvisley$ mongo be-mean-pokemons
+MongoDB shell version: 2.6.0
+connecting to: be-mean-pokemons
+Mongo-Hacker 0.0.8
+Server has startup warnings:
+2015-11-10T20:02:53.927-0200 [initandlisten]
+2015-11-10T20:02:53.927-0200 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> show dbs
+be-mean-instagram  0.078GB
+be-mean            0.078GB
+local              0.078GB
+admin              (empty)
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> show collections
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> var pokemon1 = {'name':'Beedrill','description':'Abelha','type':'inseto','attack': 30 , 'height':0.3}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> var pokemon2 = {'name':'Pidgey','description':'Galinha caipira','type':'passaro','attack': 35 , 'height':0.4}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> pokemon1
+{
+  "name": "Beedrill",
+  "description": "Abelha",
+  "type": "inseto",
+  "attack": 30,
+  "height": 0.3
+}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> pokemon2
+{
+  "name": "Pidgey",
+  "description": "Galinha caipira",
+  "type": "passaro",
+  "attack": 35,
+  "height": 0.4
+}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> var pokemon3 = {'name':'Pidgeotto','description':'Passaro voador','type':'passaro','attack': 40 , 'height':0.5}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> var pokemon4 = {'name':'Rattata','description':'Rato','type':'mouse','attack': 45 , 'height':0.6}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> var pokemon5 = {'name':'Raticate','description':'Ratinho','type':'mouse','attack': 50 , 'height':0.7}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.save(pokemon1)
+Inserted 1 record(s) in 1287ms
+WriteResult({
+  "nInserted": 1
+})
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.save(pokemon2)
+Inserted 1 record(s) in 3ms
+WriteResult({
+  "nInserted": 1
+})
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.save(pokemon3)
+Inserted 1 record(s) in 3ms
+WriteResult({
+  "nInserted": 1
+})
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.save(pokemon4)
+Inserted 1 record(s) in 3ms
+WriteResult({
+  "nInserted": 1
+})
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.save(pokemon5)
+Inserted 1 record(s) in 3ms
+WriteResult({
+  "nInserted": 1
+})
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.find()
+{
+  "_id": ObjectId("56427a70d00be8bdf3d3ec6d"),
+  "name": "Beedrill",
+  "description": "Abelha",
+  "type": "inseto",
+  "attack": 30,
+  "height": 0.3
+}
+{
+  "_id": ObjectId("56427a77d00be8bdf3d3ec6e"),
+  "name": "Pidgey",
+  "description": "Galinha caipira",
+  "type": "passaro",
+  "attack": 35,
+  "height": 0.4
+}
+{
+  "_id": ObjectId("56427a7ad00be8bdf3d3ec6f"),
+  "name": "Pidgeotto",
+  "description": "Passaro voador",
+  "type": "passaro",
+  "attack": 40,
+  "height": 0.5
+}
+{
+  "_id": ObjectId("56427a7dd00be8bdf3d3ec70"),
+  "name": "Rattata",
+  "description": "Rato",
+  "type": "mouse",
+  "attack": 45,
+  "height": 0.6
+}
+{
+  "_id": ObjectId("56427a7fd00be8bdf3d3ec71"),
+  "name": "Raticate",
+  "description": "Ratinho",
+  "type": "mouse",
+  "attack": 50,
+  "height": 0.7
+}
+Fetched 5 record(s) in 3ms
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> var query = {name: "Pidgey"}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> var poke = db.pokemons.findOne(query)
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> poke
+{
+  "_id": ObjectId("56427a77d00be8bdf3d3ec6e"),
+  "name": "Pidgey",
+  "description": "Galinha caipira",
+  "type": "passaro",
+  "attack": 35,
+  "height": 0.4
+}
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> poke.description = "Galinha Normal "
+Galinha Normal
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.save(poke)
+Updated 1 existing record(s) in 4ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons> db.pokemons.find()
+{
+  "_id": ObjectId("56427a70d00be8bdf3d3ec6d"),
+  "name": "Beedrill",
+  "description": "Abelha",
+  "type": "inseto",
+  "attack": 30,
+  "height": 0.3
+}
+{
+  "_id": ObjectId("56427a77d00be8bdf3d3ec6e"),
+  "name": "Pidgey",
+  "description": "Galinha Normal ",
+  "type": "passaro",
+  "attack": 35,
+  "height": 0.4
+}
+{
+  "_id": ObjectId("56427a7ad00be8bdf3d3ec6f"),
+  "name": "Pidgeotto",
+  "description": "Passaro voador",
+  "type": "passaro",
+  "attack": 40,
+  "height": 0.5
+}
+{
+  "_id": ObjectId("56427a7dd00be8bdf3d3ec70"),
+  "name": "Rattata",
+  "description": "Rato",
+  "type": "mouse",
+  "attack": 45,
+  "height": 0.6
+}
+{
+  "_id": ObjectId("56427a7fd00be8bdf3d3ec71"),
+  "name": "Raticate",
+  "description": "Ratinho",
+  "type": "mouse",
+  "attack": 50,
+  "height": 0.7
+}
+Fetched 5 record(s) in 4ms
+MacBook-Pro-de-Elvisley(mongod-2.6.0) be-mean-pokemons>
