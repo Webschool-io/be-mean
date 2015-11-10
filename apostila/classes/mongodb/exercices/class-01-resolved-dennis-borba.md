@@ -11,4 +11,4 @@ dennis@Ubuntu-pc:~/projetos/be-mean/MongoDB/aula1$ mongoimport --db be-mean --co
 ##Contando os restaurantes
 
 Ubuntu-pc(mongod-3.0.7) be-mean> db.restaurantes.find({}).count()
-25359
+25359 
