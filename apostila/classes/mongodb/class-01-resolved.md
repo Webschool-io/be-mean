@@ -66,3 +66,4 @@ E dar um **Pull Request** nesse repositório para adicionar seu nome na lista ab
 - [Jorge Rafael - Kurybr](https://github.com/kurybr/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
 - [Leandro Carlos - lcpereira](https://github.com/lcpereira/be-mean-instagram-mongodb/blob/master/mongodb-aula-01-exercicio.md)-
 - [Ademílson F. Tonato - FTonato](https://github.com/ftonato/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
+- [Janderson Martins - jandersonmartins](https://github.com/jandersonmartins/be-mean-instagram-mongodb/blob/master/class-01-resolved.md)
