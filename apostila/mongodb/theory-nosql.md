@@ -1,4 +1,4 @@
-Esse tipo de banco de dados já existe há um bom tempo, apenas não tinha essa nomenclatura, ela foi criada em 2009 em um evento sobre banco de dados não relacionais de código aberto, organizado por Johan Oskarsson da [Last.fm](Last.fm) e foi um funcionário do [Rackspace](http://www.rackspace.com/), Eric Evans, que cunhou o termo. Porém não siginifica que, não podemos usar *SQL*, até porque alguns bancos NoSQL usam um *tipo* de *SQL*, então como ele deveria ser chamado?
+Esse tipo de banco de dados já existe há um bom tempo, apenas não tinha essa nomenclatura, ela foi criada em 2009 em um evento sobre banco de dados não relacionais de código aberto, organizado por Johan Oskarsson da [Last.fm](Last.fm) e foi um funcionário do [Rackspace](http://www.rackspace.com/), Eric Evans, que cunhou o termo. Porém não significa que, não podemos usar *SQL*, até porque alguns bancos NoSQL usam um *tipo* de *SQL*, então como ele deveria ser chamado?
 
 > Bancos NoREL: Bancos Não Relacionais
 
@@ -109,7 +109,7 @@ Modelagem complexa e buscas dinâmicas.
 
 ![Visualização de um grafo](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/nosql-type-graph.png)
 
-Um banco de dados orientado a [grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) possui um base na teoria matemática dos grafos, mas que não é nada difícil, precisamos apenas pensar nas entidades como pontos(vértices) e que elas podem se relacionar com com outras entidaes a partir de relações(arestas), como mostrado na imagem acima.
+Um banco de dados orientado a [grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) possui um base na teoria matemática dos grafos, mas que não é nada difícil, precisamos apenas pensar nas entidades como pontos(vértices) e que elas podem se relacionar com com outras entidades a partir de relações(arestas), como mostrado na imagem acima.
 
 Esse tipo de banco é perfeito para redes sociais, caso você vá criar uma e não usar esse tipo de banco por favor **NUNCA DIGA QUE FOI MEU ALUNO**, LOL. Brincadeiras a parte, esse banco foi feito para isso, logo espero que o usem.
 
@@ -137,7 +137,7 @@ A forma em que os dados são modelados lembra muito o relacional, porém mais co
 
 - Família de Colunas:  organizas as colunas. faz o uso de uma chave única, que traz flexibilidade ao modelo sem poluir as linhas com colunas nulas. Semelhante a uma tabela no modelo relacional.
 
-- Coluna: que é uma tupla composta por nome,timestamp e valor, onde os dados são realmente armazenados.
+- Coluna: que é uma tupla composta por nome, timestamp e valor, onde os dados são realmente armazenados.
 
 - [Cassandra](http://cassandra.apache.org/)
 - [Hbase](http://hbase.apache.org/)
