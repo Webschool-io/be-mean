@@ -28,7 +28,7 @@ Quando usamos o comando `use`, ele muda nosso database e o aponta para a variáv
 
 ```
 db
-be-mean
+be-mean-instagram
 
 ```
 
@@ -58,107 +58,100 @@ Você deve ter percebido esse campo após listarmos os objetos da nossa coleçã
 Para inserir um objeto no MongoDb podemos criá-lo em uma variável e depois passar como parâmetro para a função `insert` ou `save`:
 
 ```
-var product = {
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 12.00
-}
-
-suissacorp(mongod-2.4.8) be-mean> product
-{
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 12
-}
-
-suissacorp(mongod-2.4.8) be-mean> db.products.insert(product)
-Inserted 1 record(s) in 2ms
-
-suissacorp(mongod-2.4.8) be-mean> db.products.find()
-{
-  "_id": ObjectId("54614a0a5b9f2b586cb31d08"),
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 12
-}
-Fetched 1 record(s) in 1ms -- Index[none]
+var pokemon = {'name':'Pikachu','description':'Rato elétrico bem fofinho','type': 'electric', attack: 100, height: 0.4 }
+db.pokemons.insert(pokemon)
+Inserted 1 record(s) in 3ms
+WriteResult({
+  "nInserted": 1
+})
 ```
 
 Para inserir diversos registros de uma só vez podemos criar um array com nossos objetos como abaixo:
 
 ```
-var ps = [
-  {
-    "name":"Pinga",
-    "description":"da braba po tubão",
-    "price": 4.50
-  },
-  {
-    "name":"Uísque",
-    "description":"Pra preiboi toma com energético",
-    "price":80.00
-  },
-  {
-    "name":"Champagne",
-    "description":"só podia ser saopaulino",
-    "price":130.00
-  }
-]
+suissacorp(mongod-3.0.6) be-mean-instagram> var pokemons = [
+{'name':'Bulbassauro','description':'Chicote de trepadeira','type': 'grama', 'attack': 49, height: 0.4 }, {'name':'Charmander','description':'Esse é o cão chupando manga de fofinho','type': 'fogo', 'attack': 52, height: 0.6 }, {'name':'Squirtle','description':'Ejeta água que passarinho não bebe','type': 'água', 'attack': 48, height: 0.5 }]
 
-suissacorp(mongod-2.4.8) be-mean> ps
+suissacorp(mongod-3.0.6) be-mean-instagram> pokemons
 [
   {
-    "name": "Pinga",
-    "description": "da braba po tubão",
-    "price": 4.5
+    "name": "Bulbassauro",
+    "description": "Chicote de trepadeira",
+    "type": "grama",
+    "attack": 49,
+    "height": 0.4
   },
   {
-    "name": "Uísque",
-    "description": "Pra preiboi toma com energético",
-    "price": 80
+    "name": "Charmander",
+    "description": "Esse é o cão chupando manga de fofinho",
+    "type": "fogo",
+    "attack": 52,
+    "height": 0.6
   },
   {
-    "name": "Champagne",
-    "description": "só podia ser saopaulino",
-    "price": 130
+    "name": "Squirtle",
+    "description": "Ejeta água que passarinho não bebe",
+    "type": "água",
+    "attack": 48,
+    "height": 0.5
   }
 ]
 
+suissacorp(mongod-3.0.6) be-mean-instagram> db.pokemons.insert(pokemons)
+Inserted 1 record(s) in 1ms
+BulkWriteResult({
+  "writeErrors": [ ],
+  "writeConcernErrors": [ ],
+  "nInserted": 3,
+  "nUpserted": 0,
+  "nMatched": 0,
+  "nModified": 0,
+  "nRemoved": 0,
+  "upserted": [ ]
+})
+
 ```
 
 
 ```
-suissacorp(mongod-2.4.8) be-mean> db.products.find()
+ db.pokemons.find()
 {
-  "_id": ObjectId("54614a0a5b9f2b586cb31d08"),
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 12
+  "_id": ObjectId("564220f0613f89ac53a7b5d0"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 100,
+  "height": 0.4
 }
 {
-  "_id": ObjectId("54614d5c5b9f2b586cb31d09"),
-  "name": "Pinga",
-  "description": "da braba po tubão",
-  "price": 4.5
+  "_id": ObjectId("56422345613f89ac53a7b5d1"),
+  "name": "Bulbassauro",
+  "description": "Chicote de trepadeira",
+  "type": "grama",
+  "attack": 49,
+  "height": 0.4
 }
 {
-  "_id": ObjectId("54614d5c5b9f2b586cb31d0a"),
-  "name": "Uísque",
-  "description": "Pra preiboi toma com energético",
-  "price": 80
+  "_id": ObjectId("56422345613f89ac53a7b5d2"),
+  "name": "Charmander",
+  "description": "Esse é o cão chupando manga de fofinho",
+  "type": "fogo",
+  "attack": 52,
+  "height": 0.6
 }
 {
-  "_id": ObjectId("54614d5c5b9f2b586cb31d0b"),
-  "name": "Champagne",
-  "description": "só podia ser saopaulino",
-  "price": 130
+  "_id": ObjectId("56422345613f89ac53a7b5d3"),
+  "name": "Squirtle",
+  "description": "Ejeta água que passarinho não bebe",
+  "type": "água",
+  "attack": 48,
+  "height": 0.5
 }
-Fetched 4 record(s) in 1ms -- Index[none]
-
+Fetched 4 record(s) in 2ms
 ```
 
 **Dica**: quando utilizar o comando `find` ou `findOne` e não tiver o mongo-hacker, utilize no final a função `pretty()`.
 
 ```
-find().pretty()
+db.pokemons.find().pretty()
 ```
