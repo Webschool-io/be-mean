@@ -1,5 +1,3 @@
-# Arquivo copiado de resolved-brunoberte-danio-filho.md
-
 # MongoDB - Aula 01 - Exercício
 autor: Dânio Filho
 
