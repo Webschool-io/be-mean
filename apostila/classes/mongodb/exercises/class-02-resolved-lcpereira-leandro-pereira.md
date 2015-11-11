@@ -115,7 +115,7 @@ be-mean-pokemons> db.pokemons.find()
 }
 ```
 
-## Buscando um pokemon e armazemando na varoável "poke" (passo 6)
+## Buscando um pokemon e armazemando na variável "poke" (passo 6)
 
 ```
 be-mean-pokemons> var poke = db.pokemons.findOne({'name': 'Zapdos'})
