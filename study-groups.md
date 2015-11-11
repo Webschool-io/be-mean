@@ -41,6 +41,8 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 
 - [André Machado](https://github.com/andresmachado)
 
+- [Jean Silva](https://github.com/fjeansilva)
+
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
 
@@ -53,6 +55,8 @@ Caso tenha muitos interessados o professor responsável que irá escolher os alu
 - [Marcelo Santos](https://github.com/MarceSanto)
 
 - [André Machado](https://github.com/andresmachado)
+
+- [Jean Silva](https://github.com/fjeansilva)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
