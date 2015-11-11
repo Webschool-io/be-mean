@@ -1,58 +1,110 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i', '-g', 'n' ]
-2 info using npm@3.3.6
-3 info using node@v5.0.0
-4 silly loadCurrentTree Starting
-5 silly install loadCurrentTree
-6 silly install readGlobalPackageData
-7 silly fetchPackageMetaData n
-8 silly fetchNamedPackageData n
-9 silly mapToRegistry name n
-10 silly mapToRegistry using default registry
-11 silly mapToRegistry registry http://registry.npmjs.org/
-12 silly mapToRegistry uri http://registry.npmjs.org/n
-13 verbose request uri http://registry.npmjs.org/n
-14 verbose request no auth needed
-15 info attempt registry request try #1 at 6:12:03 PM
-16 verbose request id 40362f4ddd900a38
-17 http request GET http://registry.npmjs.org/n
-18 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND proxy.unioeste.br proxy.unioeste.br:8080
-19 info attempt registry request try #2 at 6:12:13 PM
-20 http request GET http://registry.npmjs.org/n
-21 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND proxy.unioeste.br proxy.unioeste.br:8080
-22 info attempt registry request try #3 at 6:13:13 PM
-23 http request GET http://registry.npmjs.org/n
-24 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND proxy.unioeste.br proxy.unioeste.br:8080
-24 silly fetchPackageMetaData     at errnoException (dns.js:26:10)
-24 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
-24 silly fetchPackageMetaData  error for n { [Error: getaddrinfo ENOTFOUND proxy.unioeste.br proxy.unioeste.br:8080]
-24 silly fetchPackageMetaData   code: 'ENOTFOUND',
-24 silly fetchPackageMetaData   errno: 'ENOTFOUND',
-24 silly fetchPackageMetaData   syscall: 'getaddrinfo',
-24 silly fetchPackageMetaData   hostname: 'proxy.unioeste.br',
-24 silly fetchPackageMetaData   host: 'proxy.unioeste.br',
-24 silly fetchPackageMetaData   port: '8080' }
-25 silly rollbackFailedOptional Starting
-26 silly rollbackFailedOptional Finishing
-27 silly runTopLevelLifecycles Starting
-28 silly runTopLevelLifecycles Finishing
-29 silly install printInstalled
-30 verbose stack Error: getaddrinfo ENOTFOUND proxy.unioeste.br proxy.unioeste.br:8080
-30 verbose stack     at errnoException (dns.js:26:10)
-30 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
-31 verbose cwd /Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial
-32 error Darwin 14.5.0
-33 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "n"
-34 error node v5.0.0
-35 error npm  v3.3.6
-36 error code ENOTFOUND
-37 error errno ENOTFOUND
-38 error syscall getaddrinfo
-39 error network getaddrinfo ENOTFOUND proxy.unioeste.br proxy.unioeste.br:8080
-39 error network This is most likely not a problem with npm itself
-39 error network and is related to network connectivity.
-39 error network In most cases you are behind a proxy or have bad network settings.
-39 error network
-39 error network If you are behind a proxy, please make sure that the
-39 error network 'proxy' config is set properly.  See: 'npm help config'
-40 verbose exit [ 1, true ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'mongo-hacker' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'mongo-hacker', null ]
+7 verbose cache add spec mongo-hacker
+8 silly cache add parsed spec { raw: 'mongo-hacker',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'mongo-hacker',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed mongo-hacker@*
+10 verbose addNamed "*" is a valid semver range for mongo-hacker
+11 silly addNameRange { name: 'mongo-hacker', range: '*', hasData: false }
+12 silly mapToRegistry name mongo-hacker
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/mongo-hacker
+16 verbose addNameRange registry:https://registry.npmjs.org/mongo-hacker not in flight; fetching
+17 verbose get https://registry.npmjs.org/mongo-hacker not expired, no request
+18 silly addNameRange number 2 { name: 'mongo-hacker', range: '*', hasData: true }
+19 silly addNameRange versions [ 'mongo-hacker', [ '0.0.3', '0.0.4', '0.0.5', '0.0.8' ] ]
+20 silly addNamed mongo-hacker@0.0.8
+21 verbose addNamed "0.0.8" is a plain semver version for mongo-hacker
+22 silly cache afterAdd mongo-hacker@0.0.8
+23 verbose afterAdd /Users/owner/.npm/mongo-hacker/0.0.8/package/package.json not in flight; writing
+24 verbose afterAdd /Users/owner/.npm/mongo-hacker/0.0.8/package/package.json written
+25 silly install resolved [ { name: 'mongo-hacker',
+25 silly install resolved     version: '0.0.8',
+25 silly install resolved     description: 'MongoDB Shell Enhancements for Hackers',
+25 silly install resolved     scripts:
+25 silly install resolved      { test: 'echo "Error: no test specified" && exit 1',
+25 silly install resolved        install: 'make install',
+25 silly install resolved        update: 'make install',
+25 silly install resolved        postuninstall: 'make uninstall' },
+25 silly install resolved     preferGlobal: true,
+25 silly install resolved     repository:
+25 silly install resolved      { type: 'git',
+25 silly install resolved        url: 'git+ssh://git@github.com/TylerBrock/mongo-hacker.git' },
+25 silly install resolved     keywords: [ 'mongodb', 'shell', 'hacks', 'tweaks' ],
+25 silly install resolved     author: { name: 'Tyler Brock', email: 'tyler.brock@gmail.com' },
+25 silly install resolved     homepage: 'http://tylerbrock.github.io/mongo-hacker/',
+25 silly install resolved     license: 'MIT',
+25 silly install resolved     bugs: { url: 'https://github.com/TylerBrock/mongo-hacker/issues' },
+25 silly install resolved     gitHead: '78f9412df818daff3f82ed6c5f25ac60f35e4ba8',
+25 silly install resolved     _id: 'mongo-hacker@0.0.8',
+25 silly install resolved     _shasum: 'affb7e7577b9e9b234432a868ba6d93e6d3411e5',
+25 silly install resolved     _from: 'mongo-hacker@*',
+25 silly install resolved     _npmVersion: '2.7.5',
+25 silly install resolved     _nodeVersion: '0.12.2',
+25 silly install resolved     _npmUser: { name: 'tylerbrock', email: 'tyler.brock@gmail.com' },
+25 silly install resolved     maintainers: [ [Object] ],
+25 silly install resolved     dist:
+25 silly install resolved      { shasum: 'affb7e7577b9e9b234432a868ba6d93e6d3411e5',
+25 silly install resolved        tarball: 'http://registry.npmjs.org/mongo-hacker/-/mongo-hacker-0.0.8.tgz' },
+25 silly install resolved     directories: {},
+25 silly install resolved     _resolved: 'https://registry.npmjs.org/mongo-hacker/-/mongo-hacker-0.0.8.tgz',
+25 silly install resolved     readme: 'ERROR: No README data found!' } ]
+26 info install mongo-hacker@0.0.8 into /usr/local/lib
+27 info installOne mongo-hacker@0.0.8
+28 verbose installOne of mongo-hacker to /usr/local/lib not in flight; installing
+29 verbose lock using /Users/owner/.npm/_locks/mongo-hacker-ad7f305baebeac6b.lock for /usr/local/lib/node_modules/mongo-hacker
+30 silly install write writing mongo-hacker 0.0.8 to /usr/local/lib/node_modules/mongo-hacker
+31 verbose unbuild lib/node_modules/mongo-hacker
+32 silly gentlyRm /usr/local/lib/node_modules/mongo-hacker is being purged from base /usr/local
+33 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo-hacker
+34 verbose tar unpack /Users/owner/.npm/mongo-hacker/0.0.8/package.tgz
+35 verbose tar unpacking to /usr/local/lib/node_modules/mongo-hacker
+36 silly gentlyRm /usr/local/lib/node_modules/mongo-hacker is being purged
+37 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo-hacker
+38 silly gunzTarPerm modes [ '755', '644' ]
+39 error tar.unpack untar error /Users/owner/.npm/mongo-hacker/0.0.8/package.tgz
+40 verbose unlock done using /Users/owner/.npm/_locks/mongo-hacker-ad7f305baebeac6b.lock for /usr/local/lib/node_modules/mongo-hacker
+41 verbose fstream_path /usr/local/lib/node_modules/mongo-hacker
+42 verbose fstream_type Directory
+43 verbose fstream_class DirWriter
+44 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/mongo-hacker'
+44 verbose stack     at Error (native)
+45 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+45 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+45 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+46 verbose cwd /Users/owner/Projetos/be-mean/be-mean-instagram
+47 error Darwin 15.0.0
+48 error argv "node" "/usr/local/bin/npm" "install" "-g" "mongo-hacker"
+49 error node v0.12.7
+50 error npm  v2.11.3
+51 error path /usr/local/lib/node_modules/mongo-hacker
+52 error code EACCES
+53 error errno -13
+54 error Error: EACCES, mkdir '/usr/local/lib/node_modules/mongo-hacker'
+54 error     at Error (native)
+54 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/mongo-hacker']
+54 error   errno: -13,
+54 error   code: 'EACCES',
+54 error   path: '/usr/local/lib/node_modules/mongo-hacker',
+54 error   fstream_type: 'Directory',
+54 error   fstream_path: '/usr/local/lib/node_modules/mongo-hacker',
+54 error   fstream_class: 'DirWriter',
+54 error   fstream_stack:
+54 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+54 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+54 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+55 error Please try running this command again as root/Administrator.
+56 verbose exit [ -13, true ]
+57 verbose unbuild lib/node_modules/mongo-hacker
+58 silly gentlyRm /usr/local/lib/node_modules/mongo-hacker is being purged from base /usr/local
+59 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo-hacker
