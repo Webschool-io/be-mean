@@ -2,7 +2,7 @@
 autor: Manaia Junior
 
 ## Listagem das databases (passo 2)
-´´´
+```
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> show dbs
 be-mean           → 0.078GB
 mean              → 0.078GB
@@ -12,16 +12,16 @@ be-mean-instagram → 0.078GB
 admin             → 0.078GB
 cronus-db         → 0.078GB
 local             → 0.078GB
-´´´
+```
 ## Listagem das coleções (passo 3)
-´´´
+```
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> show collections
 pokemons       → 0.001MB / 0.008MB
 system.indexes → 0.000MB / 0.008MB
-´´´
+```
 
 ## Cadastro dos pokemons (passo 4)
-´´´
+```
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> var pokemon = {'name':'Pikachu','description':'Rato elétrico bem fofinho','type': 'electric', attack: 55, height: 0.4 }
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> db.pokemons.insert(pokemon)
 Inserted 1 record(s) in 783ms
@@ -56,10 +56,10 @@ Inserted 1 record(s) in 783ms
 WriteResult({
   "nInserted": 1
 })
-´´´
+```
 
 ## Lista dos pokemons (passo 5)
-´´´
+```
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> db.pokemons.find()
 {
   "_id": ObjectId("56433edb2c0d73a71dfb9759"),
@@ -102,10 +102,10 @@ notebook-mjr(mongod-3.0.7) be-mean-pokemons> db.pokemons.find()
   "height": 0.3
 }
 Fetched 5 record(s) in 3ms
-´´´
+```
 
 ## Pikachu (passo 6)
-´´´
+```
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> var query = {name:'Pikachu'}
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> var poke = db.pokemons.findOne(query)
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> poke
@@ -117,10 +117,10 @@ notebook-mjr(mongod-3.0.7) be-mean-pokemons> poke
   "attack": 55,
   "height": 0.4
 }
-´´´
+```
 
 ## Atualização do Pikachu (passo 6)
-´´´
+```
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> poke.description = 'Rato elétrico'
 Rato elétrico
 notebook-mjr(mongod-3.0.7) be-mean-pokemons> poke
@@ -139,4 +139,4 @@ WriteResult({
   "nUpserted": 0,
   "nModified": 1
 })
-´´´
+```
