@@ -38,6 +38,7 @@ Professor: [Itacir Pompeu]()
 
 - [Alison Monteiro](https://github.com/alisonmonteiro)
 - [Vinicius Borges](https://github.com/BX-L)
+- [Salvador Torres](https://github.com/ssatorres)
 
 ### Electron
 Professor: [Jonatas Freitas](https://github.com/jonatasfreitasv)
@@ -63,6 +64,8 @@ Professor: [Suissa](https://github.com/suissa)
 
 ### Offline-first
 Professor: [Suissa](https://github.com/suissa)
+
+- [Salvador Torres](https://github.com/ssatorres)
 
 ### Stylus
 
