@@ -3,47 +3,62 @@
 Nós também podemos inserir objetos utilizando o `save`, ele tanto insere como altera valores.
 
 ```
-var p = {
-  name: 'Vinho',
-  price: 23,
-  description: 'Suco de uva alcoolico'
-}
+var pokemon = {'name':'Caterpie','description':'Larva lutadora','type': 'inseto', attack: 30, height: 0.3 }
 
-suissacorp(mongod-2.4.8) be-mean> db.products.save(p)
-Inserted 1 record(s) in 0ms
+suissacorp(mongod-3.0.6) be-mean-instagram> db.pokemons.save(pokemon)
+Inserted 1 record(s) in 1ms
+WriteResult({
+  "nInserted": 1
+})
 
-suissacorp(mongod-2.4.8) be-mean> db.products.find()
+```
+
+Depois listamos para conferir:
+
+```
+db.pokemons.find()
 {
-  "_id": ObjectId("54614a0a5b9f2b586cb31d08"),
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 12
+  "_id": ObjectId("564220f0613f89ac53a7b5d0"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 100,
+  "height": 0.4
 }
 {
-  "_id": ObjectId("54614d5c5b9f2b586cb31d09"),
-  "name": "Pinga",
-  "description": "da braba po tubão",
-  "price": 4.5
+  "_id": ObjectId("56422345613f89ac53a7b5d1"),
+  "name": "Bulbassauro",
+  "description": "Chicote de trepadeira",
+  "type": "grama",
+  "attack": 49,
+  "height": 0.4
 }
 {
-  "_id": ObjectId("54614d5c5b9f2b586cb31d0a"),
-  "name": "Uísque",
-  "description": "Pra preiboi toma com energético",
-  "price": 80
+  "_id": ObjectId("56422345613f89ac53a7b5d2"),
+  "name": "Charmander",
+  "description": "Esse é o cão chupando manga de fofinho",
+  "type": "fogo",
+  "attack": 52,
+  "height": 0.6
 }
 {
-  "_id": ObjectId("54614d5c5b9f2b586cb31d0b"),
-  "name": "Champagne",
-  "description": "só podia ser saopaulino",
-  "price": 130
+  "_id": ObjectId("56422345613f89ac53a7b5d3"),
+  "name": "Squirtle",
+  "description": "Ejeta água que passarinho não bebe",
+  "type": "água",
+  "attack": 48,
+  "height": 0.5
 }
 {
-  "_id": ObjectId("546157b75b9f2b586cb31d0c"),
-  "name": "Vinho",
-  "price": 23,
-  "description": "Suco de uva alcoolico"
+  "_id": ObjectId("56422705613f89ac53a7b5d4"),
+  "name": "Caterpie",
+  "description": "Larva lutadora",
+  "type": "inseto",
+  "attack": 30,
+  "height": 0.3
 }
-Fetched 5 record(s) in 1ms -- Index[none]
+Fetched 5 record(s) in 40ms
+
 ```
 
 Para alterarmos um valor com `save`, precisamos inicialmente buscar o objeto desejado com `findOne`, pois ele me retorna apenas o primeiro objeto achado. Caso eu usasse o `find`, mesmo retornando **um** objeto, ainda seria dentro de um *Array*.
@@ -53,17 +68,20 @@ Por isso usamos o `find` para listagem de registros e o `findOne` para consulta 
 Veja a diferença de retorno das duas funções:
 
 ```
-var query = {name: 'Vinho'}
-suissacorp(mongod-2.4.8) be-mean> var p = db.products.find(query)
-suissacorp(mongod-2.4.8) be-mean> p
+var query = {name: 'Caterpie'}
+suissacorp(mongod-2.4.8) be-mean> var p = db.pokemons.find(query)
+suissacorp(mongod-3.0.6) be-mean-instagram> p
 {
-  "_id": ObjectId("546157b75b9f2b586cb31d0c"),
-  "name": "Vinho",
-  "price": 23,
-  "description": "Suco de uva alcoolico"
+  "_id": ObjectId("56422705613f89ac53a7b5d4"),
+  "name": "Caterpie",
+  "description": "Larva lutadora",
+  "type": "inseto",
+  "attack": 30,
+  "height": 0.3
 }
-Fetched 1 record(s) in 1ms -- Index[none]
-suissacorp(mongod-2.4.8) be-mean> p.price
+Fetched 1 record(s) in 1ms
+suissacorp(mongod-3.0.6) be-mean-instagram> p.name
+suissacorp(mongod-3.0.6) be-mean-instagram>
 ```
 
 Não conseguimos acessar diretamente nosso objeto pois ele é retornado na forma de [cursor](http://docs.mongodb.org/manual/core/cursors/), que possui métodos especiais para acessar seus valores, [como visto aqui](http://docs.mongodb.org/manual/tutorial/iterate-a-cursor/).
@@ -71,69 +89,35 @@ Não conseguimos acessar diretamente nosso objeto pois ele é retornado na forma
 Então precisamos utilizar o `findOne` pois ele retorna um objeto comum.
 
 ```
-var p = db.products.findOne(query)
-
-suissacorp(mongod-2.4.8) be-mean> p
+var p = db.pokemons.findOne(query)
+suissacorp(mongod-3.0.6) be-mean-instagram> p
 {
-  "_id": ObjectId("546157b75b9f2b586cb31d0c"),
-  "name": "Vinho",
-  "price": 12,
-  "description": "Suco de uva alcoolico"
+  "_id": ObjectId("56422705613f89ac53a7b5d4"),
+  "name": "Caterpie",
+  "description": "Larva lutadora",
+  "type": "inseto",
+  "attack": 30,
+  "height": 0.3
 }
-
-suissacorp(mongod-2.4.8) be-mean> p.price
-12
-
-suissacorp(mongod-2.4.8) be-mean> p.price = 23
-23
-
-suissacorp(mongod-2.4.8) be-mean> db.products.save(p)
-Updated 1 existing record(s) in 1ms
-
-```
-
-Voltando na alteração com `save`, vamos buscar nosso objeto a ser modificado e modificar o valor do preço:
-
-```
-var p = db.products.findOne()
-
-suissacorp(mongod-2.4.8) be-mean> p
+suissacorp(mongod-3.0.6) be-mean-instagram> p.name
+Caterpie
+suissacorp(mongod-3.0.6) be-mean-instagram> p.defense = 35
+35
+suissacorp(mongod-3.0.6) be-mean-instagram> p
 {
-  "_id": ObjectId("54614a0a5b9f2b586cb31d08"),
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 23
+  "_id": ObjectId("56422705613f89ac53a7b5d4"),
+  "name": "Caterpie",
+  "description": "Larva lutadora",
+  "type": "inseto",
+  "attack": 30,
+  "height": 0.3,
+  "defense": 35
 }
-
-suissacorp(mongod-2.4.8) be-mean> p.price
-23
-
-suissacorp(mongod-2.4.8) be-mean> p.price = 12
-12
-
-suissacorp(mongod-2.4.8) be-mean> p
-{
-  "_id": ObjectId("54614a0a5b9f2b586cb31d08"),
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 12
-}
-```
-
-
-Depois salvamos o objeto modificado:
-
-```
-db.products.save(p)
-Updated 1 existing record(s) in 50ms
-
-suissacorp(mongod-2.4.8) be-mean> db.products.find({name: 'Cachaça'})
-{
-  "_id": ObjectId("54614a0a5b9f2b586cb31d08"),
-  "name": "Cachaça",
-  "description": "Mé brasileiro",
-  "price": 12
-}
-Fetched 1 record(s) in 1ms -- Index[none]
-
+suissacorp(mongod-3.0.6) be-mean-instagram> db.pokemons.save(p)
+Updated 1 existing record(s) in 2ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
 ```
