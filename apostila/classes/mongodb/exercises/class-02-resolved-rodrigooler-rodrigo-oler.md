@@ -1,5 +1,12 @@
 # MongoDB - Aula 02 - Exercício
 Autor: Rodrigo Oler
+
+## Criação do database be-mean-pokemons
+```
+> use be-mean-pokemons
+switched to db be-mean-pokemons
+```
+
 ## Listagem das databases (passo 2)
 ```
 > show dbs
