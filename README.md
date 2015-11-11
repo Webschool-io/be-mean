@@ -1,7 +1,7 @@
 # Roteiro
 
 ## Duração
-- Be MEAN (90 horas)
+- Be MEAN (100 horas)
     + MEAN (40 horas)
         * MongoDB (5 horas)
         * Node.js (20 horas)
@@ -12,9 +12,10 @@
         * Gulp (1 hora)
         * Mobile-first (5 horas)
         * Offile-first (3 horas)
-    + NoSQL (10 horas)
+    + NoSQL (13 horas)
         * Redis (3 horas)
         * Neo4J (4 horas)
+        * OrientDb (3 horas)
         * ElasticSearch (3 horas, fechando o professor)
     + Segurança (3 horas)
     + Desktop (10 horas)
@@ -29,7 +30,7 @@
 
 ##  Módulo MongoDB | 09.11 a 22.11
 
-- **Aula 01 | 09.11**
+- **Aula 00 | 08.11**
     + Apresentação do Be MEAN 
         * Quem eu sou?
         * O que é a Webschool.io?
@@ -39,34 +40,37 @@
         * Qual a duração do Be MEAN?
         * Quando e como serão enviados os brindes?
         * Como serão os cursos dos prêmios?
-- **Aula 02 | 10.11**
+- **Aula 01 | 9.11**
     + Módulo MongoDB
         * Teoria
             - NoSQL
             - MongoDB
         * Instalação
+- **Aula 02 | 10.11**
+    + Módulo MongoDB
         * Cliente
             - use database
             - show dbs
             - show collections
-- **Aula 03 | 11.11**
-    + Módulo MongoDB
         * CRUD
             - insert
             - save
+- **Aula 03 | 10.11**
+    + Módulo MongoDB
+        * CRUD
             - find
             - findOne
-- **Aula 04 | 12.11**
+- **Aula 04 | 11.11**
     + Módulo MongoDB
         * CRUD
             - update
             - remove
             - drop
         * Paginação
-
-- **Aula 05 | 13.11**
+- **Aula 05 | 12.11**
     + Módulo MongoDB
         * Aggregation
+        * Users and Passwords
         * Replica
         * Sharding
         * GridFs
