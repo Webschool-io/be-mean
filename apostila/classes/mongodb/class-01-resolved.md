@@ -63,6 +63,7 @@ class-01-resolved-suissa-jean-nascimento.md
 E dar um **Pull Request** nesse repositório enviando seu arquivo resolvido para esse repositório, não esquecendo que o mesmo deve existir **no seu** repositório.
 
 **NÃO ESQUEÇA DE NOMEAR A PORRA DO ARQUIVO DO JEITO CERTO!!!!**
+<<<<<<< HEAD
 
 ```
 class-01-resolved-suissa-jean-nascimento.md
@@ -83,3 +84,31 @@ Quando você for enviar algum exrcício de qualquer módulo por favor siga os se
 5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
 6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
 
+<<<<<<< HEAD
+- [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)
+- [Jorge Rafael - Kurybr](https://github.com/kurybr/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
+- [Victor Gomes - VictorGbaby](https://github.com/VictorGBaby/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)
+=======
+>>>>>>> Webschool-io/master
+=======
+
+```
+class-01-resolved-suissa-jean-nascimento.md
+```
+
+E depois apenas COLOQUE esse arquivo na pasta `EXERCISES`, onde estão os arquivos `class-*.md`!
+
+**NÃO ESQUEÇA DE MANDAR NA PASTA EXERCISES O SEU ARQUIVO COM SEU NOME!!!!**
+
+## Como enviar seu exercício passo-a-passo
+
+Quando você for enviar algum exrcício de qualquer módulo por favor siga os seguintes passos:
+
+1. Crie o repositório específico do módulo. Ex.: be-mean-instagram-mongodb
+2. Crie a solução do exercício localmente nesse repositório, usando sempre o padrão `class-x-resolved-githubuser-nome.md`
+3. Dê um `fork` no repositório oficial https://github.com/Webschool-io/be-mean-instagram/
+4. Vá até a pasta do módulo desejado e **COLE** seu arquivo na pasta `exercises`
+5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
+6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
+
+>>>>>>> Webschool-io/master
