@@ -72,19 +72,14 @@ E depois apenas COLOQUE esse arquivo na pasta `EXERCISES`, onde estão os arquiv
 
 **NÃO ESQUEÇA DE MANDAR NA PASTA EXERCISES O SEU ARQUIVO COM SEU NOME!!!!**
 
+## Como enviar seu exercício passo-a-passo
 
-## Respostas dos alunos
+Quando você for enviar algum exrcício de qualquer módulo por favor siga os seguintes passos:
 
-Eu adicionarei os links a medida que eu veja os exercícios.
+1. Crie o repositório específico do módulo. Ex.: be-mean-instagram-mongodb
+2. Crie a solução do exercício localmente nesse repositório, usando sempre o padrão `class-x-resolved-githubuser-nome.md`
+3. Dê um `fork` no repositório oficial https://github.com/Webschool-io/be-mean-instagram/
+4. Vá até a pasta do módulo desejado e **COLE** seu arquivo na pasta `exercises`
+5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
+6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
 
-**NÃO ADICIONE SEU NOME AQUI CARALEOOOOOOOO!!!**
-
-- [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)-
-- [Jorge Rafael - Kurybr](https://github.com/kurybr/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
-- [Leandro Carlos - lcpereira](https://github.com/lcpereira/be-mean-instagram-mongodb/blob/master/mongodb-aula-01-exercicio.md)-
-- [Ademílson F. Tonato - FTonato](https://github.com/ftonato/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
-- [Janderson Martins - jandersonmartins](https://github.com/jandersonmartins/be-mean-instagram-mongodb/blob/master/class-01-resolved.md)
-- [Arthur Assuncao - arthurassuncao](https://github.com/ArthurAssuncao/be-mean-modulo-mongodb/blob/master/aula01/mongodb-aula-01-exercicio.md)-
-- [Arthur Ervas - arthurse](https://github.com/arthurse/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)-
-- [Elvisley Souza - @elvissp90](https://github.com/Elvisley/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)
-- [Jefferson Daniel - jeffersondanielss](https://github.com/jeffersondanielss/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)-
