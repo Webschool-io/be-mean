@@ -1,5 +1,26 @@
 ## find
 
+Lembrando da aula anterior quando falei que a busca com `find` retorna um cursor onde você deve iterar nele para buscar seus dados, hoje veremos a diferença dele para o `findOne`.
+
+Como havia dito, o Mongoose irá converter esse cursor para `Array` então sempre quando quisermos **LISTAR** algo iremos utilizar o `find`.
+
+**CUIDADO**
+
+Mesmo você buscando diretamente com o `_id`
+
+
+### _id
+
+Esse `_id` que vocês devem ter visto nos registros inseridos nada mais é que um [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier).
+
+Ele também é conhecido como `ObjectId` e ele é um tipo do BSON de 12-bytes, cconstruído usando:
+
+4-bytes: valor que representa os segundos desde a época Unix;
+3-bytes: identificador de máquina;
+2-bytes: ID do processo;
+3-bytes: contador, começando com um valor aleatório.
+
+Sim essa porra é "**universalmente única**"!
 
 ### Operadores de Aritmética
 
