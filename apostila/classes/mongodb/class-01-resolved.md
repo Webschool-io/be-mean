@@ -103,4 +103,3 @@ Quando você for enviar algum exrcício de qualquer módulo por favor siga os se
 4. Vá até a pasta do módulo desejado e **COLE** seu arquivo na pasta `exercises`
 5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
 6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
-
