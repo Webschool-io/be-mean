@@ -1,6 +1,6 @@
-MongoDB - Aula ## - Exercício
+MongoDB - Aula 02 - Exercício
 
-autor: 
+autor: Alexsandro Haag da Rosa
 
 
 1. Crie uma database chamada be-mean-pokemons:
