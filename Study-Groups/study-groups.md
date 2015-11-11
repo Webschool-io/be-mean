@@ -7,6 +7,8 @@
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 - [André Machado](https://github.com/andresmachado)
 
+- [Jean Silva](https://github.com/fjeansilva)
+
 ## Node.js
 - [Lucas Moreira](https://github.com/fauker)
 - [gabrielcmendes](https://github.com/gabrielcmendes)
@@ -14,6 +16,8 @@
 - [Thiago Magalhães](https://github.com/Thiago-Magalhaes)
 - [Marcelo Santos](https://github.com/MarceSanto)
 - [André Machado](https://github.com/andresmachado)
+
+- [Jean Silva](https://github.com/fjeansilva)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
