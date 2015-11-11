@@ -1,15 +1,6 @@
 # MongoDB - Aula 02 - Exercício
 autor: Denner Evaldt Machado
 
-## Crie uma databate chamada be-mean-pokemons
-
-```
-
-> use be-mean-pokemons
-switched to db be-mean-pokemons 
-
-```
-
 ## Listagem das databases (passo 2)
 
 ```
