@@ -1,5 +1,5 @@
 # MongoDB - Aula 01 - Exercício
-autor: Daniel Cruvinel
+autor: Daniel  Cruvinel
 
 ## Importando os restaurantes
 
