@@ -70,6 +70,7 @@
 - **Aula 05 | 12.11**
     + Módulo MongoDB
         * Aggregation
+        * Users and Passwords
         * Replica
         * Sharding
         * GridFs
