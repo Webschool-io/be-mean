@@ -36,6 +36,13 @@ Ubuntu 15:
 echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list"
 ```
 
+Por fim, rodar o comando:
+
+```
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+```
+
 Caso você use RedHat ou CentOS siga esses passos: [http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/)
 
 ### Mac
