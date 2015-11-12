@@ -1,5 +1,7 @@
 # Roteiro
 
+# NÃO MANDE MAIS OS EXERCÍCIOS AQUI!!!
+
 ## Duração
 - Be MEAN (100 horas)
     + MEAN (40 horas)
