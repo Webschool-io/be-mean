@@ -1,5 +1,7 @@
 # Roteiro
 
+# NÃO MANDE MAIS OS EXERCÍCIOS AQUI!!!
+
 ## Duração
 - Be MEAN (100 horas)
     + MEAN (40 horas)
@@ -60,13 +62,14 @@
         * CRUD
             - find
             - findOne
+        * Paginação
+        * Índices
 - **Aula 04 | 11.11**
     + Módulo MongoDB
         * CRUD
             - update
             - remove
             - drop
-        * Paginação
 - **Aula 05 | 12.11**
     + Módulo MongoDB
         * Aggregation

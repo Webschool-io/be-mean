@@ -84,13 +84,6 @@ Quando você for enviar algum exrcício de qualquer módulo por favor siga os se
 5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
 6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
 
-<<<<<<< HEAD
-- [Jean Nascimento - Suissa](https://github.com/suissa/be-mean-instagram-mongodb/class-01-resolved.md)
-- [Jorge Rafael - Kurybr](https://github.com/kurybr/be-mean-modulo-mongodb/blob/master/exercises/mongodb-aula-01-exercicio.md)
-- [Victor Gomes - VictorGbaby](https://github.com/VictorGBaby/be-mean-modulo-mongodb/blob/master/mongodb-aula-01-exercicio.md)
-=======
->>>>>>> Webschool-io/master
-=======
 
 ```
 class-01-resolved-suissa-jean-nascimento.md
@@ -111,4 +104,3 @@ Quando você for enviar algum exrcício de qualquer módulo por favor siga os se
 5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
 6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
 
->>>>>>> Webschool-io/master
