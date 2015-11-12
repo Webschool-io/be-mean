@@ -131,7 +131,7 @@ poke
 }
 ```
 
-## Atualização do Rhydon (passo 6)
+## Atualização do Rhydon (passo 7)
 ```
 poke.description = "Outra descrição"
 Outra descrição
