@@ -1,4 +1,4 @@
-```md
+
 # MongoDB - Aula 02 - Exercício
 autor: JOSE ALVES DE SOUSA NETO
 
@@ -19,6 +19,7 @@ autor: JOSE ALVES DE SOUSA NETO
 
 
 ## Cadastro dos pokemons (passo 4)
+
     var pokemons=[{  "name": "Nidoran",  "description": "É um roedor maroto",  "attack": 3,  "defense": 2, "height": 0.4},{  "name": "Meowth",  "description": "É um gatinho maroto",  "attack": 2,  "defense": 2,  "height": 0.4},
     {  "name": "Psyduck",  "description": "Um pato meio adoidado",  "attack": 3,  "defense": 2,  "height": 0.8},
     {  "name": "Machop",  "description": "Pokemn maromba",  "attack": 4,  "defense": 2,  "height": 0.8},
@@ -37,7 +38,6 @@ autor: JOSE ALVES DE SOUSA NETO
     "nRemoved": 0,
     "upserted": [ ]
     })
-
 
 
 ## Lista dos pokemons (passo 5)
@@ -124,11 +124,9 @@ autor: JOSE ALVES DE SOUSA NETO
     }
     Fetched 10 record(s) in 52ms
 
-
 ## Pikachu (passo 6)
     var query = {'name':'Psyduck'}
     var pokemon =db.pokemons.findOne(query)
-
 
 ## Atualização do Pikachu (passo 6)
     pokemon.description = "Pato doido feito o batiman"
@@ -142,4 +140,3 @@ autor: JOSE ALVES DE SOUSA NETO
       "nModified": 1
     })
 
-```
