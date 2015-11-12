@@ -106,7 +106,7 @@ Fetched 5 record(s) in 13ms
 
 ## Pikachu (passo 6)
 > var poke = {"name": "Pichu"}
-> db.pokemons.find(poke)
+> db.pokemons.findOne(poke)
 {
   "_id": ObjectId("5643d04959b9f2f8f64d6c7a"),
   "name": "Pichu",
