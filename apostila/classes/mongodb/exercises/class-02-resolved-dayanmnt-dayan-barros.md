@@ -1,13 +1,7 @@
 # MongoDB - Aula 02 - Exercício
 autor: Dayan Barros
 
-## Criando database be-mean-pokemons
-```
-use be-mean-pokemons
-switched to db be-mean-pokemons
-```
-
-## Listando databases
+## Listagem das databases (passo 2)
 ```
 show dbs
 be-mean-instagram  0.078GB
@@ -16,12 +10,12 @@ local              0.078GB
 test               0.078GB
 ```
 
-## Listando coleções
+## Listagem das coleções (passo 3)
 ```
 show collections
 ```
 
-## Inserindo pokemons
+## Cadastro dos pokemons (passo 4)
 ```
 var pokemons = [{
 ...   "name": "Steelix",
@@ -76,7 +70,7 @@ BulkWriteResult({
 })
 ```
 
-## Listando pokemons
+## Lista dos pokemons (passo 5)
 ```
 db.pokemons.find()
 {
@@ -122,7 +116,7 @@ db.pokemons.find()
 Fetched 5 record(s) in 3ms
 ```
 
-## Buscando pokemon 'Rhydon'
+## Rhydon (passo 6)
 ```
 var query = { name: 'Rhydon' }
 var poke = db.pokemons.findOne(query)
@@ -137,7 +131,7 @@ poke
 }
 ```
 
-## Alterando e salvando nova descrição do pokemon
+## Atualização do Rhydon (passo 7)
 ```
 poke.description = "Outra descrição"
 Outra descrição
