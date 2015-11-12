@@ -13,6 +13,8 @@ Projetos:
 - Pattern Lab com gerador de código
 - CMS - Tem q ser melhor que o Wordpress
 - Gerenciador de Projetos para PO ou Gerentes em cima do Github
+- Nota Fiscal Eletronica
+- Boletos
 - Ecommerce
 - Gerenciador de eventos
     - não que gerencie as entrada mas sim:
@@ -24,7 +26,6 @@ Projetos:
       + coffe break
 - Sistema de Vagas por requisitos
 - Sistema de couchsurfing para devs
-- 
 
 
 
