@@ -4,9 +4,24 @@ autor: Natan Alves
 ##Liste todos Pokemons com a altura menor que 0.5
 ```
   stark(mongod-3.0.7) be-mean-pokemons> var query = { height: { $lt: 0.5 } };
-  stark(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query);
-  Fetched 0 record(s) in 15ms
-
+stark(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query);
+{
+  "_id": ObjectId("5643fad0adb6ef20dd5aaa42"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 55,
+  "height": 0.4
+}
+{
+  "_id": ObjectId("5643fae0adb6ef20dd5aaa43"),
+  "name": "Bulbassauro",
+  "description": "Chicote de trepadeira",
+  "type": "grama",
+  "attack": 49,
+  "height": 0.4
+}
+Fetched 2 record(s) in 33ms
 ```
 
 ## Liste todos Pokemons com a altura maior ou igual que 0.5
@@ -53,30 +68,82 @@ stark(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query);
   "attack": 45,
   "height": 8.8
 }
-Fetched 5 record(s) in 2ms
-
+{
+  "_id": ObjectId("5643faf3adb6ef20dd5aaa44"),
+  "name": "Charmander",
+  "description": "Esse é o cão chupando manga de fofinho",
+  "type": "fogo",
+  "attack": 52,
+  "height": 0.6
+}
+{
+  "_id": ObjectId("5643faffadb6ef20dd5aaa45"),
+  "name": "Squirtle",
+  "description": "Ejeta água que passarinho não bebe",
+  "type": "água",
+  "attack": 48,
+  "height": 0.5
+}
+Fetched 7 record(s) in 3ms
 ```
 
 ## Liste todos Pokemons com a altura menor ou igual que 0.5 E do tipo grama
 ```
   stark(mongod-3.0.7) be-mean-pokemons> var query = { $and: [ { height: { $lte: 0.5 } }, { type: 'grama' } ] };
-  stark(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query);
-  Fetched 0 record(s) in 1ms
-
+stark(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query);
+{
+  "_id": ObjectId("5643fae0adb6ef20dd5aaa43"),
+  "name": "Bulbassauro",
+  "description": "Chicote de trepadeira",
+  "type": "grama",
+  "attack": 49,
+  "height": 0.4
+}
+Fetched 1 record(s) in 4ms
 ```
 
 ## Liste todos Pokemons com o name `Pikachu` OU com attack menor ou igual que 0.5
 ```
   stark(mongod-3.0.7) be-mean-pokemons> var query = { $or: [ { name: 'Pikachu' }, { attack: { $lte: 0.5 } } ] };
 stark(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query);
-Fetched 0 record(s) in 0ms
-
+{
+  "_id": ObjectId("5643fad0adb6ef20dd5aaa42"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 55,
+  "height": 0.4
+}
+Fetched 1 record(s) in 1ms
 ```
 
 ## Liste todos Pokemons com o attack MAIOR OU IGUAL QUE 48 E com  height menor ou igual que 0.5
 ```
   stark(mongod-3.0.7) be-mean-pokemons> var query = { $and: [ { attack: { $gte: 48 } }, { height: { $lte: 0.5 } } ] };
 stark(mongod-3.0.7) be-mean-pokemons> db.pokemons.find(query);
-Fetched 0 record(s) in 0ms
-
+{
+  "_id": ObjectId("5643fad0adb6ef20dd5aaa42"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 55,
+  "height": 0.4
+}
+{
+  "_id": ObjectId("5643fae0adb6ef20dd5aaa43"),
+  "name": "Bulbassauro",
+  "description": "Chicote de trepadeira",
+  "type": "grama",
+  "attack": 49,
+  "height": 0.4
+}
+{
+  "_id": ObjectId("5643faffadb6ef20dd5aaa45"),
+  "name": "Squirtle",
+  "description": "Ejeta água que passarinho não bebe",
+  "type": "água",
+  "attack": 48,
+  "height": 0.5
+}
+Fetched 3 record(s) in 2ms
 ```
