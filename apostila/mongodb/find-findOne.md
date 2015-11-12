@@ -19,8 +19,47 @@ Ele também é conhecido como `ObjectId` e ele é um tipo do BSON de 12-bytes, c
 3-bytes: identificador de máquina;
 2-bytes: ID do processo;
 3-bytes: contador, começando com um valor aleatório.
-
 Sim essa porra é "**universalmente única**"!
+
+O `_id` é nossa chave primária, olha aí relational-guys, é com ele que fazemos consultas específicas, por favor não esqueça disso!!!
+
+### query
+
+Para facilitar nossa vida iremos criar um JSON para nossa *query*, para isso iremos criar um JSON da seguinte forma:
+
+```
+var query = {name: 'Pikachu'}
+```
+
+Isso significa que iremos pesquisar apenas os Pokemons com o `name` igual a `Pikachu`.
+
+Esse nosso objeto de `query` tem a mesma funcionalidade do tão conhecido `SELECT` dos bancos relacionais.
+
+Eu já escrevi sobre [isso em 2010 no iMasters - Como utilizar selects com MongoDB](http://imasters.com.br/artigo/17308/mongodb/como-utilizar-selects-com-mongodb/?trace=1519021197&source=author-archive)
+
+Claro que é bem defasado e escrito ainda com PHP ehhehehhehhe.
+
+![](http://geradormemes.com/media/created/w0p6bh.jpg)
+
+### fields
+
+Se o nosso JSON de `query` é o `WHERE` do relacional, logo o JSON `fields` será o nosso `SELECT` onde o mesmo irá selecionar quais campos desejados na busca da `query`.
+
+Para isso especificamos os campos desejados com `1` que significa `TRUE` ou os campos indesejados com `0` que significa `FALSE`
+
+```
+suissacorp(mongod-3.0.6) be-mean-instagram> var query = {name: 'Pikachu'}
+suissacorp(mongod-3.0.6) be-mean-instagram> var fields = {name: 1, description: 1}
+suissacorp(mongod-3.0.6) be-mean-instagram> db.pokemons.find(query, fields)
+{
+  "_id": ObjectId("564220f0613f89ac53a7b5d0"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho"
+}
+Fetched 1 record(s) in 1ms
+
+```
+
 
 ### Operadores de Aritmética
 
