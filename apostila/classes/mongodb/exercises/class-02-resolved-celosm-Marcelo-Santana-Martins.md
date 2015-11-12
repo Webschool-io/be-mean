@@ -26,7 +26,7 @@ local ? 0.031GB
 > var pokemon = {'name':'Squirtle','description':'Squirtles shell is not merely used for protection.',attack: 30,defense: 30, height: 0.5 }
 > db.pokemons.save(pokemon)
 Inserted 1 record(s) in 128ms
-WriteResult({
+WriteResult({ 
   "nInserted": 1
 })
 
