@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Grupos de Estudos
 
 ## MongoDb
@@ -16,6 +16,7 @@
 - [Marcelo Santos](https://github.com/MarceSanto)
 - [André Machado](https://github.com/andresmachado)
 - [Diego Araújo](https://github.com/diihfilipe)
+- [Paolo Almeida](https://github.com/paoloalmeida)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
