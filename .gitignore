@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-*node_modules/
-*.swp
-npm-debug.log
-.DS_Store
-=======
 *node_modules/
 *.swp
 npm-debug.log
@@ -13,4 +7,3 @@ sistema-autenticacao-basica/modelagem/node_modules/
 sistema-banco-atomico/modelagem/node_modules/
 sistema-mongoose-atomico-promises-events/modelagem/node_modules/
 sistema-testes-atomicos/modelagem/node_modules/
->>>>>>> upstream_suissa/master
