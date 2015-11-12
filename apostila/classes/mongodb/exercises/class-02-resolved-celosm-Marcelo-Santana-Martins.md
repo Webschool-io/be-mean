@@ -26,7 +26,7 @@ local ? 0.031GB
 > var pokemon = {'name':'Squirtle','description':'Squirtles shell is not merely used for protection.',attack: 30,defense: 30, height: 0.5 }
 > db.pokemons.save(pokemon)
 Inserted 1 record(s) in 128ms
-WriteResult({
+WriteResult({ 
   "nInserted": 1
 })
 
@@ -106,7 +106,7 @@ Fetched 5 record(s) in 13ms
 
 ## Pikachu (passo 6)
 > var poke = {"name": "Pichu"}
-> db.pokemons.find(poke)
+> db.pokemons.findOne(poke)
 {
   "_id": ObjectId("5643d04959b9f2f8f64d6c7a"),
   "name": "Pichu",
