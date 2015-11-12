@@ -17,6 +17,7 @@
 - [André Machado](https://github.com/andresmachado)
 - [Diego Araújo](https://github.com/diihfilipe)
 - [Jean Silva](https://github.com/fjeansilva)
+- [Geriel Castro](https://github.com/geriel)
 
 ### Autenticação
 Professor: [Caio Cutrim]()
