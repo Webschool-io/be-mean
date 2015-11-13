@@ -62,8 +62,6 @@
         * CRUD
             - find
             - findOne
-        * Paginação
-        * Índices
 - **Aula 04 | 11.11**
     + Módulo MongoDB
         * CRUD

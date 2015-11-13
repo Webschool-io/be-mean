@@ -27,7 +27,6 @@ Projetos:
       + coffe break
 - Sistema de Vagas por requisitos
 - Sistema de couchsurfing para devs
-
-
+- Sistema de trabalhos acadêmicos anti-plágio
 
 
