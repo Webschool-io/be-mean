@@ -1,6 +1,6 @@
 # Roteiro
 
-# NÃO MANDE MAIS OS EXERCÍCIOS AQUI!!!
+# Aula de Sexta-feira 13 será liberada no Sábado por motivos de força maior.
 
 ## Duração
 - Be MEAN (100 horas)
