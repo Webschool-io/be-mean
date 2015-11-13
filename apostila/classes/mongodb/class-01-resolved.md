@@ -1,6 +1,6 @@
 ## MongoDb - Aula 01 - Exercício
 
-Como ainda não temos muitos dados para usarmos o `mongoexport` iremos trabalhar apenas com o `mongoimport` nesse momento. Para fazermos isso primeiramente baixe [esse JSON](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/mongodb/data/restaurantes.json).
+Como ainda não temos muitos dados para usarmos o `mongoexport` iremos trabalhar apenas com o `mongoimport` nesse momento. Para fazermos isso primeiramente baixe [esse JSON](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/module-mongodb /data/restaurantes.json).
 
 Após importar ele para uma coleção chamada `restaurantes`, no banco `be-mean`, copie o que foi escrito no seu terminal, por exemplo:
 
@@ -99,7 +99,7 @@ Quando você for enviar algum exrcício de qualquer módulo por favor siga os se
 
 1. Crie o repositório específico do módulo. Ex.: be-mean-instagram-mongodb
 2. Crie a solução do exercício localmente nesse repositório, usando sempre o padrão `class-x-resolved-githubuser-nome.md`
-3. Dê um `fork` no repositório oficial https://github.com/Webschool-io/be-mean-instagram/
+3. Dê um `fork` no repositório oficial https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises
 4. Vá até a pasta do módulo desejado e **COLE** seu arquivo na pasta `exercises`
 5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
 6. Levante as mão para o céu e agradeça se acaso tiver ... #brinks
