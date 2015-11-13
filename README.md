@@ -2,6 +2,8 @@
 
 # NÃO MANDE MAIS OS EXERCÍCIOS AQUI!!!
 
+# Mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
+
 ## Duração
 - Be MEAN (100 horas)
     + MEAN (40 horas)
