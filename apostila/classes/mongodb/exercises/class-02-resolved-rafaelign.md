@@ -23,41 +23,18 @@
 - Insira pelo menos 5 pokemons A SUA ESCOLHA utilizando o mesmo padrão de campos utilizado: name, description, attack, defense e height;
 
   ```
-  be-mean-pokemons> var poke = {name: "Nidoqueen",description: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",attack: 92,defense: 87,height: 13}
-  be-mean-pokemons> db.pokemons.save(poke)
-  Inserted 1 record(s) in 326ms
-  WriteResult({
-   "nInserted": 1
-  })
-  be-mean-pokemons> var poke = {name: "Parasect",description: "The bug host is drained of energy by the mushrooms on its back. They appear to do all the thinking.",attack: 95,defense: 80,height: 10}
-  be-mean-pokemons> db.pokemons.save(poke)
-  Inserted 1 record(s) in 3ms
-  WriteResult({
-  "nInserted": 1
-  })
-  be-mean-pokemons> var poke = {name: "Beedrill",description: "It has 3 poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",attack: 90,defense: 40,height: 10}
-  be-mean-pokemons> db.pokemons.save(poke)
-  Inserted 1 record(s) in 10ms
-  WriteResult({
-    "nInserted": 1
-  })
-  be-mean-pokemons> var poke = {name: "Pidgeot",description: "It immobilizes its prey using well- developed claws, then carries the prey more than 60 miles to its nest.",attack: 80,defense: 75,height: 15}
-  be-mean-pokemons> db.pokemons.save(poke)
+  be-mean-pokemons> var pokemons = [{name: "Nidoqueen",description: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",attack: 92,defense: 87,height: 13},{name: "Parasect",description: "The bug host is drained of energy by the mushrooms on its back. They appear to do all the thinking.",attack: 95,defense: 80,height: 10},{name: "Beedrill",description: "It has 3 poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",attack: 90,defense: 40,height: 10},{name: "Pidgeot",description: "It immobilizes its prey using well- developed claws, then carries the prey more than 60 miles to its nest.",attack: 80,defense: 75,height: 15},{name: "Meowth",description: "It is fascinated by round objects. It cant stop playing with them until it tires and falls asleep.",attack: 45,defense: 35,height: 4},{name: "Machop",description: "MACHOPs muscles are special - they never get sore no matter how much they are used in exercise. This POKMON has sufficient power to hurl a hundred adult humans.",attack: 80,defense: 50,height: 8}]
+  be-mean-pokemons> db.pokemons.insert(pokemons)
   Inserted 1 record(s) in 4ms
-  WriteResult({
-    "nInserted": 1
-  })
-  be-mean-pokemons> var poke = {name: "Meowth",description: "It is fascinated by round objects. It cant stop playing with them until it tires and falls asleep.",attack: 45,defense: 35,height: 4}
-  be-mean-pokemons> db.pokemons.save(poke)
-  Inserted 1 record(s) in 9ms
-  WriteResult({
-    "nInserted": 1
-  })
-  be-mean-pokemons> var poke = {name: "Machop",description: "MACHOPs muscles are special - they never get sore no matter how much they are used in exercise. This POKMON has sufficient power to hurl a hundred adult humans.",attack: 80,defense: 50,height: 8}
-  be-mean-pokemons> db.pokemons.save(poke)
-  Inserted 1 record(s) in 2ms
-  WriteResult({
-    "nInserted": 1
+  BulkWriteResult({
+    "writeErrors": [ ],
+    "writeConcernErrors": [ ],
+    "nInserted": 6,
+    "nUpserted": 0,
+    "nMatched": 0,
+    "nModified": 0,
+    "nRemoved": 0,
+    "upserted": [ ]
   })
   ```
 
