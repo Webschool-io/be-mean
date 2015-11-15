@@ -1,6 +1,6 @@
 # Roteiro
 
-# Aula de Sexta-feira 13 será liberada no Sábado por motivos de força maior.
+# Aula de Sexta-feira 13 será liberada no Domingo, por motivos de força maior.
 
 # Mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
 
