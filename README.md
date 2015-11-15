@@ -63,8 +63,8 @@ A aula segue um grande *workflow* até ser divulgada:
 
 ##  Módulo MongoDB | 09.11 a 22.11
 
-- **Aula 00 | 08.11**
-    + Apresentação do Be MEAN 
+- **Aula 00 | 08.11** Vídeo: [https://www.youtube.com/watch?v=-ccU_-OIka4](https://www.youtube.com/watch?v=-ccU_-OIka4)
+    + Apresentação do Be MEAN
         * Quem eu sou?
         * O que é a Webschool.io?
         * O que é o Be MEAN?
@@ -73,13 +73,13 @@ A aula segue um grande *workflow* até ser divulgada:
         * Qual a duração do Be MEAN?
         * Quando e como serão enviados os brindes?
         * Como serão os cursos dos prêmios?
-- **Aula 01 | 9.11**
+- **Aula 01 | 9.11** Vídeo: [https://www.youtube.com/watch?v=leYxsEAL_yY](https://www.youtube.com/watch?v=leYxsEAL_yY)
     + Módulo MongoDB
         * Teoria
             - NoSQL
             - MongoDB
         * Instalação
-- **Aula 02 | 10.11**
+- **Aula 02 | 10.11** Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
     + Módulo MongoDB
         * Cliente
             - use database
@@ -88,17 +88,24 @@ A aula segue um grande *workflow* até ser divulgada:
         * CRUD
             - insert
             - save
-- **Aula 03 | 10.11**
+- **Aula 03 | 10.11** Vídeo: [https://www.youtube.com/watch?v=cIHjA1hyPPY](https://www.youtube.com/watch?v=cIHjA1hyPPY)
     + Módulo MongoDB
         * CRUD
-            - find
-            - findOne
-- **Aula 04 | 11.11**
+            - find  & findOne
+                + Operadores Aritméticos
+                + Operadores Lógicos
+                + Operadores "Existênciais"
+- **Aula 04 | 15.11**
     + Módulo MongoDB
         * CRUD
             - update
-            - remove
-            - drop
+- **Aula 04 | 16.11**
+    + Módulo MongoDB
+        * CRUD
+            - update
+                + options
+            - find
+                + Operadores deArray
 - **Aula 05 | 12.11**
     + Módulo MongoDB
         * Aggregation

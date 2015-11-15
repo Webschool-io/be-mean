@@ -148,12 +148,36 @@ WriteResult({
 ￼
 Bem simples a alteração de documentos no MongoDb não?
 
-$inc
+### $inc
 
-Incrementa um valor no campo. Caso o campo não exista, ele irá criar o campo e setar o valor. Para decrementar, basta passar um valor negativo.
+O operador `$inc` incrementa um valor no campo com a quantidade desejada. 
+Caso o campo não exista, ele irá criar o campo e setar o valor. Para decrementar, basta passar um valor negativo.
 
+```
 { $inc : { campo : valor } }
-db.products.update( { name: 'Pinga'}, { $inc: { views: 1 } } );
+db.pokemons.update( { name: 'Pikachu'}, { $inc: { attack: 1 } } );
+```
+
+Então vamos utilizar o nosso pokemon de teste modificado anteriormente para incrementar seu *attack*.
+
+```
+var mod = {$inc: { attack: 1 }}
+
+db.pokemons.update(query, mod)
+```
+
+Bem simples né? E podemos passar o valor que quisermos, não apenas incrementar de 1 em 1.
+
+Por exemplo, quando algum Pokemon for evoluir ele ganhará 100 de attack, então para criar esse cenário nós fazemos:
+
+```
+var mod = {$inc: { attack: 100 }}
+
+db.pokemons.update(query, mod)
+```
+
+E para decrementar o valor basta que passemos um valor negativo para o operador `$inc`.
+
 
 ### options
 
