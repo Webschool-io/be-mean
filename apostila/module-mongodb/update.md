@@ -236,7 +236,7 @@ db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão
 
 ### $pull
 
-O operador `$pull` retira um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pull`.
+O operador `$pull` retira um valor do campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pull`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 ```
