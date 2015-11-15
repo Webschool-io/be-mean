@@ -223,6 +223,39 @@ Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
 
+Então vamos adicionar o **Choque do Trovão** ao Pikachu:
+
+```
+var mod = {$push: {moves: 'choque do trovão'}}
+db.pokemons.update(query, mod)
+
+Updated 1 existing record(s) in 2ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
+```
+
+Após a modificação vamos buscar o Pikachu e ver se alteramos corretamente:
+
+```
+db.pokemons.find(query)
+{
+  "_id": ObjectId("56422c36613f89ac53a7b5d5"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 55,
+  "height": 0.4,
+  "moves": [
+    "investida",
+    "choque do trovão"
+  ]
+}
+Fetched 1 record(s) in 0ms
+```
+
 ### $pushAll
 
 O operador `$pushAll` adiciona cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pushAll`.
@@ -232,6 +265,43 @@ Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 { $pushAll : { campo : valor } }
 
 db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+```
+
+Agora vamos adicionar 3 ataques novos ao Pikachu, para isso criamos um *Array* para seus valores e logo após passamos ele para o `$pushAll`:
+
+```
+var attacks = ['choque elétrico', 'ataque rápido', 'bola elétrica']
+var mod = {$pushAll: {moves: attacks}}
+db.pokemons.update(query, mod)
+
+Updated 1 existing record(s) in 24ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
+
+```
+
+Vamos conferir a modificação.
+
+```
+db.pokemons.find(query)
+{
+  "_id": ObjectId("56422c36613f89ac53a7b5d5"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 55,
+  "height": 0.4,
+  "moves": [
+    "investida",
+    "choque do trovão",
+    "choque elétrico",
+    "ataque rápido",
+    "bola elétrica"
+  ]
+}
 ```
 
 ### $pull
