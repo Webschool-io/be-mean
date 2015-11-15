@@ -67,6 +67,8 @@ Depois mandar ele instalar o `mongodb`:
 brew install mongodb
 ```
 
+Também tem um vídeo muito bom enviado por um aluno: [003 Installing MongoDB on a Mac](https://www.youtube.com/watch?v=DhKYGa7K20k).
+
 ### Windows
 
 ![Meme do Mac](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-windows.jpg)

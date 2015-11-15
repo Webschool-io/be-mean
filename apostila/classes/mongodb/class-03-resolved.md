@@ -13,7 +13,7 @@
 autor: SEU NOME
 
 ## Liste todos Pokemons com a altura **menor que** 0.5;
-
+var query = {height: {$lt: 0.5}}
 
 ## Liste todos Pokemons com a altura **maior ou igual que** 0.5
 
