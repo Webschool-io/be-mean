@@ -23,7 +23,7 @@ Para iniciarmos vamos criar um Pokemon novo:
 ```
 var poke = {name: "Testemon", attack: 8000, defense: 8000, height: 2.1, description: "Pokemon de teste"}
 
-suissacorp(mongod-3.0.6) be-mean-teste> db.podemons.save(poke)
+suissacorp(mongod-3.0.6) be-mean-teste> db.pokemons.save(poke)
 Inserted 1 record(s) in 48ms
 WriteResult({
   "nInserted": 1
