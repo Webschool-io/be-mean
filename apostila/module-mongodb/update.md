@@ -225,11 +225,11 @@ db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão
 
 ### $pushAll
 
-O operador `$pushAll` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pushAll`.
+O operador `$pushAll` adiciona cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pushAll`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 ```
-{ $push : { campo : valor } }
+{ $pushAll : { campo : valor } }
 
 db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
@@ -247,7 +247,7 @@ db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão
 
 ### $pullAll
 
-O operador `$pullAll` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pullAll`.
+O operador `$pullAll` adiciona cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pullAll`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 ```
