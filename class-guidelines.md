@@ -10,7 +10,7 @@
 
 ## Apostila do MongoDb
 
-[https://github.com/Webschool-io/be-mean-instagram/tree/master/apostila/mongodb](https://github.com/Webschool-io/be-mean-instagram/tree/master/apostila/mongodb)
+[https://github.com/Webschool-io/be-mean-instagram/tree/master/apostila/module-mongodb](https://github.com/Webschool-io/be-mean-instagram/tree/master/apostila/module-mongodb)
 
 ## Slides do MongoDb
 
