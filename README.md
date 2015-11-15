@@ -4,6 +4,20 @@
 
 # Mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
 
+## O Professor
+
+Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.
+
+Criei o Be MEAN há mais de 2 anos, sendo o único curso presencial até início de 2015 e o único **AO VIVO** quase bimensalmente.
+
+Por incrível que pareça eu sou professor há mais de 5 anos, onde minha primeira aula foi em uma **faculdade**, [FAFIT](http://www.fafit.com.br/), quando eu estava iniciando minha pós em Desenvolvimento Web em Ponta Grossa, Paraná.
+
+Hoje dou aula em pós-graduações e nem tenho minha pós finalizada, louco né?
+
+Mas já avisando será a última pós que darei aula será a da minha cidade onde ministrarei a disciplina de NoSQL <3.
+
+Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados NoSQL que eu amo, acho que fecharei com chave de ouro e me focarei única exclusivamente à faculdade web que desejo criar **para a Webschool.io**
+
 ## Duração
 - Be MEAN (100 horas)
     + MEAN (40 horas)
