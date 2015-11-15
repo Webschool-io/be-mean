@@ -21,7 +21,7 @@ Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados 
 
 ## A Aula
 
-A aula segue um grande *workflow* até ser criada:
+A aula segue um grande *workflow* até ser divulgada:
 
 1. Resolução do exercício da aula anterior;
 2. Gravação da resolução do exercício;
