@@ -7,15 +7,14 @@ Para alteramos um documento no MongoDb possuímos duas formas:
 
 Recordando que para utilizar o `save` eu preciso antes buscar o documento necessário antes de poder modificá-lo, com o `update` isso não será necessário.
 
-A função `update` recebe 4 parâmetros:
+A função `update` recebe 3 parâmetros:
 
 - query
 - modificação
-- upsert = false
-- multi = false
+- options
 
 ```
-db.colecao.update(query, mod, upsert, multi);
+db.colecao.update(query, mod, options);
 ```
 
 Para iniciarmos vamos criar um Pokemon novo:
@@ -88,7 +87,6 @@ O operador `$set` modifica um valor ou cria caso não exista.
 { $set : { campo : valor } }
 db.pokemons.update( { name: 'Pikachu'}, { $set: { attack: 120
 } } );
-Especifica o valor do campo.
 ```
 
 Então vamos reaproveitar nossa `query` que já possui nosso `_id` e vamos adicionar agora os campos faltantes e arrumar a `description`:
@@ -125,7 +123,7 @@ Perceba que além dele modificar o valor já existente de `description` ele tamb
 
 ### $unset
 
-Bom se temos um operador para modificar e criar campos novos, obviamente temos um operador para remover os campos, que é o caso do `$uset`.
+Bom se temos um operador para modificar e criar campos novos, obviamente temos um operador para remover os campos, que é o caso do `$unset`.
 
 A sintaxe desse operador é a seguinte:
 
@@ -150,15 +148,22 @@ WriteResult({
 ￼
 Bem simples a alteração de documentos no MongoDb não?
 
-Mas peraí ainda temos mais 2 parâmetros no `update`:
+$inc
 
-- upsert = false
-- multi = false
+Incrementa um valor no campo. Caso o campo não exista, ele irá criar o campo e setar o valor. Para decrementar, basta passar um valor negativo.
 
-Então para que eles servem?
+{ $inc : { campo : valor } }
+db.products.update( { name: 'Pinga'}, { $inc: { views: 1 } } );
 
-### upsert
+### options
+
+Mas peraí ainda temos mais 1 parâmetro no `update` o `options`.
+Então para que eles serve?
+
+#### upsert
 
 O parâmetro `upsert` serve para caso o docuemnto não seja encontrado pela `query` ele insira o objeto que está sendo passado como modificação.
 
-#### $setOnInsert
+##### $setOnInsert
+
+#### multi

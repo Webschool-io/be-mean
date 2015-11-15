@@ -18,6 +18,21 @@ Mas já avisando será a última pós que darei aula será a da minha cidade ond
 
 Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados NoSQL que eu amo, acho que fecharei com chave de ouro e me focarei única exclusivamente à faculdade web que desejo criar **para a Webschool.io**
 
+
+## A Aula
+
+A aula segue um grande *workflow* até ser criada:
+
+1. Resolução do exercício da aula anterior;
+2. Gravação da resolução do exercício;
+3. Criação do material na apostila;
+4. Execução dos códigos para confirmação;
+5. Criação do conteúdo dos slides;
+6. Gravação da aula;
+7. Edição da aula;
+8. Upload da aula;
+9. Divulgação do link.
+
 ## Duração
 - Be MEAN (100 horas)
     + MEAN (40 horas)
