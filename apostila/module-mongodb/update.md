@@ -23,7 +23,8 @@ Para iniciarmos vamos criar um Pokemon novo:
 ```
 var poke = {name: "Testemon", attack: 8000, defense: 8000, height: 2.1, description: "Pokemon de teste"}
 
-suissacorp(mongod-3.0.6) be-mean-teste> db.pokemons.save(poke)
+db.pokemons.save(poke)
+
 Inserted 1 record(s) in 48ms
 WriteResult({
   "nInserted": 1
@@ -44,7 +45,6 @@ db.pokemons.find(query)
   "description": "Pokemon de teste"
 }
 Fetched 1 record(s) in 1ms
-
 ```
 
 Depois de inserido vamos tentar fazer o nosso primeiro `update`, para isso iremos criar uma `query` para buscar nosso Pokemon e posteriormente, modificá-lo:
@@ -61,7 +61,7 @@ WriteResult({
 })
 ```
 
-Opa mas olha que simples, já alterou. Então vamos buscar novamente nosso docuemnto pelo seu `_id`:
+Opa mas olha que simples, já alterou. Então vamos buscar novamente nosso documento pelo seu `_id`:
 
 ```
 db.pokemons.find(query)
