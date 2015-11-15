@@ -220,7 +220,7 @@ Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 ```
 { $push : { campo : valor } }
 
-db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+db.pokemons.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
 
 Então vamos adicionar o **Choque do Trovão** ao Pikachu:
@@ -264,7 +264,7 @@ Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 ```
 { $pushAll : { campo : valor } }
 
-db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+db.pokemons.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
 
 Agora vamos adicionar 3 ataques novos ao Pikachu, para isso criamos um *Array* para seus valores e logo após passamos ele para o `$pushAll`:
@@ -311,14 +311,14 @@ Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 ```
 { $pull : { campo : valor } }
 
-db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+db.pokemons.update( { name: 'Pikachu' }, { $pull: { moves: 'Bola Elétrica'} } );
 ```
 
 Dessa vez iremos retirar um ataque do Pikachu.
 
 ```
-var mod = {$pull }
-
+var mod = {$pull: {moves: 'bola elétrica'}}
+db.pokemons.update(query, { $pull: { moves: 'bola elétrica'} } );
 ```
 
 
@@ -330,7 +330,7 @@ Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 ```
 { $pullALl : { campo : valor } }
 
-db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+db.pokemons.update( { name: 'Pikachu' }, { $pullALl: { moves: 'Choque do trovão'} } );
 ```
 
 
