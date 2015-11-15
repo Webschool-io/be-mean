@@ -236,7 +236,7 @@ db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão
 
 ### $pull
 
-O operador `$pull` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pull`.
+O operador `$pull` retira um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pull`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 ```
@@ -247,7 +247,7 @@ db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão
 
 ### $pullAll
 
-O operador `$pullAll` adiciona cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pullAll`.
+O operador `$pullAll` retira cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pullAll`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 ```
