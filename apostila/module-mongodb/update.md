@@ -1,10 +1,35 @@
-# MongoDb - Aula 04
-
-Na aula passada conhecemos alguns operadores de busca, antes de continuar com esses operadores, iremos aprender como alterar nossos documentos, pois precisaremos adicionar um *Array* em algum documento para posteriormente voltarmos a mais operadores de busca.
-
 ## Update
 
-Para alteramos um documento no MongoDb possuímos
+Para alteramos um documento no MongoDb possuímos duas formas:
+
+- save
+- update.
+
+Recordando que para utilizar o `save` eu preciso antes buscar o documento necessário antes de poder modificá-lo, com o `update` isso não será necessário.
+
+A função `update` recebe 4 parâmetros:
+
+- query
+- modificação
+- upsert = false
+- multi = false
+
+```
+db.colecao.update(query, mod, upsert, multi);
+```
+
+Para iniciarmos vamos criar um Pokemon novo:
+
+```
+var poke = {name: "Testemon", attack: 8000, defense: 8000, height: 2.1, description: "Pokemon de teste"}
+
+suissacorp(mongod-3.0.6) be-mean-teste> db.podemons.save(poke)
+Inserted 1 record(s) in 48ms
+WriteResult({
+  "nInserted": 1
+})
+```
+
 
 
 ### $set

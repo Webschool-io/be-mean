@@ -1,6 +1,23 @@
-<<<<<<< HEAD
 ## find
 
+Como o JavaScript é case-sensitive você já deve imaginar que maiúsculas e minúsculas importam para a busca, logo se você tentar procurar um nome que possua Maíusculas mas você não sabe, como poderemos resolver essa busca?
+
+**REGEX**
+
+Para buscar utilizando **REGEX** podemos fazer de 2 formas:
+
+- do JavaScript;
+- do MongoDb.
+
+Eu acho bem mais simples fazer difetamente com **REGEX** do JavaScript do que usar o oeprador [$regex](https://docs.mongodb.org/manual/reference/operator/query/regex/) do MongoDb. Como eu havia dito, esse é um banco para **programadores**, então faremos a busca como um programador:
+
+```
+var query = {name: /pikachu/i}
+```
+
+Pronto dessa forma o `i` de insensitive da **REGEX** fará esse trabalho. Fora ue a **REGEX** te dá um poder enorme de busca, então #ficadica:
+
+> Estude REGEX, faz bem pra mente.
 
 ### Operadores de Aritmética
 
@@ -200,4 +217,3 @@ Retorna objetos se o valor não for igual.
 $not
 db.collection.find( { campo : { $not : { $gt: 666 } } } );
 Retorna o objeto que não satisfaz a condição do campo, isso inclui documentos que não possuem o campo.
->>>>>>> upstream_/master
