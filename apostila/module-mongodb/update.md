@@ -217,11 +217,13 @@ Pronto agora temos um *Array* para nossos ataques.
 O operador `$push` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$push`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
+#### Sintaxe
+
 ```
 { $push : { campo : valor } }
-
-db.pokemons.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
+
+#### Uso
 
 Então vamos adicionar o **Choque do Trovão** ao Pikachu:
 
@@ -261,11 +263,13 @@ Fetched 1 record(s) in 0ms
 O operador `$pushAll` adiciona cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pushAll`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
+#### Sintaxe
+
 ```
 { $pushAll : { campo : valor } }
-
-db.pokemons.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
+
+#### Uso
 
 Agora vamos adicionar 3 ataques novos ao Pikachu, para isso criamos um *Array* para seus valores e logo após passamos ele para o `$pushAll`:
 
@@ -308,17 +312,46 @@ db.pokemons.find(query)
 O operador `$pull` retira um valor do campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pull`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
+#### Sintaxe
+
 ```
 { $pull : { campo : valor } }
-
-db.pokemons.update( { name: 'Pikachu' }, { $pull: { moves: 'Bola Elétrica'} } );
 ```
+
+#### Uso
 
 Dessa vez iremos retirar um ataque do Pikachu.
 
 ```
 var mod = {$pull: {moves: 'bola elétrica'}}
-db.pokemons.update(query, { $pull: { moves: 'bola elétrica'} } );
+db.pokemons.update(query, { $pull: { moves: 'bola elétrica'} } )
+
+Updated 1 existing record(s) in 17ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
+```
+
+Consultando o Pikachu conferimos que o ataque `bola elétrica` foi removido.
+
+```
+db.pokemons.find(query)
+{
+  "_id": ObjectId("56422c36613f89ac53a7b5d5"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 55,
+  "height": 0.4,
+  "moves": [
+    "investida",
+    "choque do trovão",
+    "choque elétrico",
+    "ataque rápido"
+  ]
+}
 ```
 
 
@@ -327,12 +360,28 @@ db.pokemons.update(query, { $pull: { moves: 'bola elétrica'} } );
 O operador `$pullAll` retira cada valor do `[Array_de_valores]`, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pullAll`.
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
+#### Sintaxe
+
 ```
 { $pullALl : { campo : valor } }
-
-db.pokemons.update( { name: 'Pikachu' }, { $pullALl: { moves: 'Choque do trovão'} } );
 ```
 
+#### Uso
+
+Vamos remover 2 ataques de uma só vez: Choque Elétrico e Choque do Trovão.
+
+```
+var attacks = ['choque elétrico', 'bola elétrica']
+var mod = {$pullAll: {moves: attacks}}
+db.pokemons.update(query, mod)
+
+Updated 1 existing record(s) in 24ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
+```
 
 ### options
 
