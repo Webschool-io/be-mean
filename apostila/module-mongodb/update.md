@@ -21,7 +21,6 @@ Para iniciarmos vamos criar um Pokemon novo:
 
 ```
 var poke = {name: "Testemon", attack: 8000, defense: 8000, height: 2.1, description: "Pokemon de teste"}
-
 db.pokemons.save(poke)
 
 Inserted 1 record(s) in 48ms
@@ -93,7 +92,6 @@ Então vamos reaproveitar nossa `query` que já possui nosso `_id` e vamos adici
 
 ```
 var mod = {$set: {name: 'Testemon', attack: 8000, defense: 8000, height: 2.1, description: "Pokemon de teste"}}
-
 db.pokemons.update(query, mod)
 
 Updated 1 existing record(s) in 1ms
@@ -135,7 +133,6 @@ Então vamos eliminar um campo do nosso `Testemon`:
 
 ```
 var mod = {$unset: {height: 1}}
-
 db.pokemons.update(query, mod)
 
 Updated 1 existing record(s) in 3ms
@@ -177,6 +174,87 @@ db.pokemons.update(query, mod)
 ```
 
 E para decrementar o valor basta que passemos um valor negativo para o operador `$inc`.
+
+## Operadores de Arrays
+
+Para iniciarmos a alteração em arrays vamos modificar o **Pikachu** para adicionar ao seu documento um *Array* de movimentos/ataques.
+
+```
+var query = {name: /pikachu/i}
+var mod = {$set: { moves: ['investida'] }}
+db.pokemons.update(query, mod)
+
+Updated 1 existing record(s) in 7ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
+```
+
+Para conferirmos nossa modificação vamos fazer a busca pelo Pikachu.
+
+```
+db.pokemons.find({name: /pikachu/i})
+{
+  "_id": ObjectId("56422c36613f89ac53a7b5d5"),
+  "name": "Pikachu",
+  "description": "Rato elétrico bem fofinho",
+  "type": "electric",
+  "attack": 55,
+  "height": 0.4,
+  "moves": [
+    "investida"
+  ]
+}
+Fetched 1 record(s) in 1ms
+```
+
+Pronto agora temos um *Array* para nossos ataques.
+
+### $push
+
+O operador `$push` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$push`.
+Caso o **campo exista e não for um *Array*, irá retornar um erro**.
+
+```
+{ $push : { campo : valor } }
+
+db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+```
+
+### $pushAll
+
+O operador `$pushAll` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pushAll`.
+Caso o **campo exista e não for um *Array*, irá retornar um erro**.
+
+```
+{ $push : { campo : valor } }
+
+db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+```
+
+### $pull
+
+O operador `$pull` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pull`.
+Caso o **campo exista e não for um *Array*, irá retornar um erro**.
+
+```
+{ $push : { campo : valor } }
+
+db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+```
+
+### $pullAll
+
+O operador `$pullAll` adiciona um valor ao campo, caso o **campo seja um *Array* existente**. Caso **não exista irá criar o campo novo, do tipo *Array* com o valor passado** no `$pullAll`.
+Caso o **campo exista e não for um *Array*, irá retornar um erro**.
+
+```
+{ $push : { campo : valor } }
+
+db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
+```
 
 
 ### options
