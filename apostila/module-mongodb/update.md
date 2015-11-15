@@ -280,7 +280,6 @@ WriteResult({
   "nUpserted": 0,
   "nModified": 1
 })
-
 ```
 
 Vamos conferir a modificação.
@@ -310,10 +309,18 @@ O operador `$pull` retira um valor do campo, caso o **campo seja um *Array* exis
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 ```
-{ $push : { campo : valor } }
+{ $pull : { campo : valor } }
 
 db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
+
+Dessa vez iremos retirar um ataque do Pikachu.
+
+```
+var mod = {$pull }
+
+```
+
 
 ### $pullAll
 
@@ -321,7 +328,7 @@ O operador `$pullAll` retira cada valor do `[Array_de_valores]`, caso o **campo 
 Caso o **campo exista e não for um *Array*, irá retornar um erro**.
 
 ```
-{ $push : { campo : valor } }
+{ $pullALl : { campo : valor } }
 
 db.professores.update( { name: 'Pikachu' }, { $push: { moves: 'Choque do trovão'} } );
 ```
