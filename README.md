@@ -111,9 +111,10 @@ A aula segue um grande *workflow* até ser divulgada:
             - find
                 + Operadores deArray
 - **Aula 05 | 18.11**
-    + Módulo MongoDB
+    + Módulo MongoDB - Professor: [William Bruno](https://github.com/wbruno)
+    	* distinct
+        * group
         * Aggregation Framework
-            - Professor: [William Bruno](https://github.com/wbruno)
 - **Aula 06 | 19.11**
     + Módulo MongoDB
         * Modelagem
