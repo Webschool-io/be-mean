@@ -10,9 +10,9 @@ Depois basta descompactar e rodar.
 
 ### Linux
 
-![Meme do Linux](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-linux.jpg)
+![Meme do Linux](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/module-mongodb/images/meme-linux.jpg)
 
-Quem usa Linux do tipo Ubuntu da vida pode instalar via `apt-get` seguindo esses passos, primeiro garantir a autenticidade e consistencia dos pacotes do MongoDb:
+Quem usa Linux do tipo Ubuntu da vida, como o Debian por exemplo, pode instalar via `apt-get` seguindo esses passos, caso o seu sistema seja 64 bits. Primeiro, para garantir a autenticidade e consistencia dos pacotes do MongoDb:
 
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
@@ -42,12 +42,13 @@ Por fim, rodar o comando:
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
+Se o teu OS for um Debian ou Ubuntu 32 bits, siga estes passos: [Install MongoDB on Ubuntu - Docs MongoDB](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
 
 Caso você use RedHat ou CentOS siga esses passos: [http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/)
 
 ### Mac
 
-![Meme do Mac](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-mac.jpg)
+![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/module-mongodb/images/meme-mac.jpg)
 
 Quem usa Mac pode instalar via [brew](http://brew.sh/) e para instalar o brew é bem fácil basta executar esse comando no seu terminal:
 
@@ -71,7 +72,7 @@ Também tem um vídeo muito bom enviado por um aluno: [003 Installing MongoDB on
 
 ### Windows
 
-![Meme do Mac](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-windows.jpg)
+![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/module-mongodb/images/meme-windows.jpg)
 
 Por incrível que pareça é bem simples no Windows, um aluno meu escreveu esse rtigo que pode lhe ajudar [https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/](https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/).
 
