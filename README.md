@@ -108,7 +108,8 @@ A aula segue um grande *workflow* até ser divulgada:
                 + Operadores deArray
 - **Aula 05 | 18.11**
     + Módulo MongoDB
-        * Aggregation
+        * Aggregation Framework
+            - Professor: [William Bruno](https://github.com/wbruno)
 - **Aula 06 | 19.11**
     + Módulo MongoDB
         * Modelagem
