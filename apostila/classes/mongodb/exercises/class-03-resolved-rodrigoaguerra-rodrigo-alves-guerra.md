@@ -8,7 +8,7 @@ autor: Rodrigo Alves Guerra
 	{
 	  "_id": ObjectId("5642cb668068785ae3aecb5b"),
 	  "name": "Rattata",
-	  "description": "Deixa a galera loka",
+	  "description": "Deixa a galera lokasa",
 	  "type": "normal",
 	  "attack": 30,
 	  "defense": "56",
