@@ -1,8 +1,5 @@
-# Roteiro
 
-# Aula de Sexta-feira 13 será liberada no Domingo, por motivos de força maior.
-
-# Mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
+# Execícios mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
 
 ## O Professor
 
@@ -36,6 +33,9 @@ A aula segue um grande *workflow* até ser divulgada:
 ### Início
 
 **Sempre as 22 horas com pelo menos 1 hora de chat ao vivo com o professor.**
+
+# Roteiro
+
 
 ## Duração
 - Be MEAN (101 horas)
