@@ -33,10 +33,14 @@ A aula segue um grande *workflow* até ser divulgada:
 8. Upload da aula;
 9. Divulgação do link.
 
+### Início
+
+**Sempre as 22 horas com pelo menos 1 hora de chat ao vivo com o professor.**
+
 ## Duração
-- Be MEAN (100 horas)
-    + MEAN (40 horas)
-        * MongoDB (5 horas)
+- Be MEAN (101 horas)
+    + MEAN (41 horas)
+        * MongoDB (6 horas)
         * Node.js (20 horas)
         * AngularJs (15 horas)
     + Frontend (15 horas)
