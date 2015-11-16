@@ -5,12 +5,11 @@
         * Teoria
             - Event Loop
             - Single thread
+            - I/O Async
         * Servidor HTTP
-        * Rotas
         * FileSystem
 - **Aula 02 | 24.11**
     + Módulo Node.js
-        * Eventos
         * NPM
         * Mongoose
             - Create
@@ -19,17 +18,24 @@
             - Delete
 - **Aula 03 | 25.11**
     + Módulo Node.js
+        * HTTP
+            - Rotas manuais
+            - Mongoose
+        * Modularização
+            - Model
+            - Controller
+- **Aula 04 | 26.11**
+    + Módulo Node.js
         * Promises
             - Mongoose
         * Eventos
             - Mongoose
-- **Aula 04 | 26.11**
+- **Aula 05 | 27.11**
     + Módulo Node.js
         * Express
             - Rotas
             - CRUD
                 + Mongoose
-- **Aula 05 | 27.11**
 - **Aula 06 | 30.11**
 - **Aula 07 | 01.12**
 - **Aula 08 | 02.12**
