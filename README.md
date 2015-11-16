@@ -109,15 +109,16 @@ A aula segue um grande *workflow* até ser divulgada:
 - **Aula 05 | 18.11**
     + Módulo MongoDB
         * Aggregation
-- **Aula 05 | 18.11**
+- **Aula 06 | 19.11**
     + Módulo MongoDB
+        * Modelagem
         * Users and Passwords
         * Replica
         * Sharding
         * GridFs
         * Robomongo
 - **PROJETO**
-	+ de 14.11 a 22.11
+	+ **de 20.11 a 30.11**
 
 ##  Módulo Node.js | 23.11 a 20.12
 
