@@ -16,6 +16,7 @@ Projetos:
 - Nota Fiscal Eletronica
 - Boletos
 - Ecommerce
+- Gerenciamento de cervejas tomadas
 - EAD
 - Gerenciador de eventos
     - não que gerencie as entrada mas sim:
@@ -28,5 +29,6 @@ Projetos:
 - Sistema de Vagas por requisitos
 - Sistema de couchsurfing para devs
 - Sistema de trabalhos acadêmicos anti-plágio
+- Sistema de motoboy/mototaxi
 
 
