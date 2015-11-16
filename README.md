@@ -95,20 +95,22 @@ A aula segue um grande *workflow* até ser divulgada:
                 + Operadores Aritméticos
                 + Operadores Lógicos
                 + Operadores "Existênciais"
-- **Aula 04 | 15.11**
+- **Aula 04 - Parte 1 | 16.11**
     + Módulo MongoDB
         * CRUD
             - update
-- **Aula 04 | 16.11**
+- **Aula 04 - Parte 2 | 17.11**
     + Módulo MongoDB
         * CRUD
             - update
                 + options
             - find
                 + Operadores deArray
-- **Aula 05 | 12.11**
+- **Aula 05 | 18.11**
     + Módulo MongoDB
         * Aggregation
+- **Aula 05 | 18.11**
+    + Módulo MongoDB
         * Users and Passwords
         * Replica
         * Sharding

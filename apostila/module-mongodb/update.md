@@ -410,7 +410,7 @@ Então para que eles serve?
 
 #### upsert
 
-O parâmetro `upsert` serve para caso o docuemnto não seja encontrado pela `query` ele insira o objeto que está sendo passado como modificação.
+O parâmetro `upsert` serve para caso o documento não seja encontrado pela `query` ele insira o objeto que está sendo passado como modificação.
 
 ##### $setOnInsert
 
