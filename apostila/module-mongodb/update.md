@@ -76,7 +76,7 @@ Então, fiz de propósito hihihihihi.
 
 ![](https://imgflip.com/s/meme/Evil-Toddler.jpg)
 
-Para evitarmos que o nosso docuemno seja sobrescrito pelo objeto de cmodificação nós deveremos utilizar os **operadores** de modificação.
+Para evitarmos que o nosso documento seja sobrescrito pelo objeto de modificação nós deveremos utilizar os **operadores** de modificação.
 
 ### $set
 
