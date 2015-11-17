@@ -405,8 +405,19 @@ WriteResult({
 
 ### options
 
-Mas peraí ainda temos mais 1 parâmetro no `update` o `options`.
-Então para que eles serve?
+Para que eles serve?
+
+O objeto `options` servirá para configurarmos alguns valores diferentes do padrão para o `update`.
+
+#### Sintaxe
+
+```
+{
+  upsert: boolean,
+  multi: boolean,
+  writeConcern: document
+}
+```
 
 #### upsert
 
@@ -445,10 +456,22 @@ WriteResult({
   "nModified": 0,
   "_id": ObjectId("564a94aa3888e5da82899ccc")
 })
-
 ```
 
-Agora como percebemos no `WriteResult` ele não achou nenhum `"nMatched": 0` e inseriu 1 `"nUpserted": 1` passando o `_id` do documento inserido.
+Agora como percebemos no `WriteResult` ele não achou nenhum `"nMatched": 0` e inseriu 1 `"nUpserted": 1`. Retornando o _id do documento inserido.
+
+```
+db.pokemons.find(query)
+{
+  "_id": ObjectId("56422345613f89ac53a7b5d3"),
+  "name": "Squirtle",
+  "description": "Ejeta água que passarinho não bebe",
+  "type": "água",
+  "attack": 48,
+  "height": 0.5,
+  "active": true
+}
+```
 
 ##### $setOnInsert
 
@@ -472,8 +495,19 @@ WriteResult({
   "nModified": 0,
   "_id": ObjectId("564a89f33888e5da82899ccb")
 })
-```
 
+
+db.pokemons.find(query)
+{
+  "_id": ObjectId("564a89f33888e5da82899ccb"),
+  "active": true,
+  "name": "NaoExisteMon",
+  "attack": null,
+  "defense": null,
+  "height": null,
+  "description": "Sem maiores informações"
+}
+```
 
 #### multi
 
@@ -493,13 +527,32 @@ Então imagine que você só ia atualizar a o email de um usuário, não passand
 
 ![Holy Shit MEME](http://www.quickmeme.com/img/0c/0c81cb4eab2202c9d1453353cf36a6b100192d31bd61d3fc08e594acb4f45ca8.jpg)
 
+O MongoDB não deixa você fazer essa cagada, pois ele por padrão só deixa você alterar um documento por vez, caso você realmente deseje alterar **vários** de uma só vez, terá que passar esse parâmetro como `true`.
+
+Vamos adicionar o campo `active: false` para todos os Pokemons.
+
+```
+var query = {}
+var mod = {$set: {active: false}}
+var options = {multi: true}
+db.pokemons.update(query, mod, options)
+
+Updated 8 existing record(s) in 3ms
+WriteResult({
+  "nMatched": 8,
+  "nUpserted": 0,
+  "nModified": 8
+})
+```
+
 #### writeConcern
 
-O `writeConcern` descreve a garantia de que MongoDB fornece ao relatar o sucesso de uma operação de gravação.
+O `writeConcern` descreve a garantia de que MongoDB fornece ao relatar o sucesso de uma operação de escrita.
 
-A força dos  write concerns determinam o nível de garantia. Quando inserções, atualizações e exclusões têm um *write concern* fraco, operações de escrita retornam rapidamente.
+A força dos *write concerns* determinam o nível de garantia. Quando inserções, atualizações e exclusões têm um *write concern* fraco, operações de escrita retornam rapidamente.
 
 Em alguns casos de falha, as operações de gravação emitidas com *write concerns* fracos podem não persistir.
 
 Com os *write concerns* mais fortes, os clientes esperam após o envio de uma operação de escrita para o MongoDB confirmar as operações de escrita.
 
+Caso queira saber mais como criar o documento a ser passado nessa opção [leia mais aqui](https://docs.mongodb.org/manual/reference/write-concern/).
