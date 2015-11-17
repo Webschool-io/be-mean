@@ -412,6 +412,23 @@ Então para que eles serve?
 
 O parâmetro `upsert` serve para caso o documento não seja encontrado pela `query` ele insira o objeto que está sendo passado como modificação.
 
+**Ele por padrão é `FALSE.**
+
+Vamos pegar um cenário onde buscaremos um pokemon em nossa pokeagenda, porém o mesmo não se encontra nos registros, então inserimos ele com valores padrões.
+
+```
+var query = {name: /NaoExisteMon/i}
+var mod = {
+  $set: {active: true},
+  $setOnInsert: {name: "NaoExisteMon", attack: null, defense: null, height: null, description: "Sem maiores informações"}
+}
+var options = {upsert: true}
+```
+
 ##### $setOnInsert
+
+Com esse operador você pode definir valores que serão adicionados apenas se ocorrer um **upsert**, ou seja, se o objeto for inserido pois não foi achado pela **query**.
+
+
 
 #### multi
