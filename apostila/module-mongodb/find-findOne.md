@@ -65,70 +65,147 @@ Fetched 1 record(s) in 1ms
 
 #### < é $lt - less than
 
-db.collection.find({ "campo" : { $lt: value } } );
+db.colecao.find({ "campo" : { $lt: value } } );
 Retorna objetos com valores menores que value.
 
 #### <= ou $lte - less than or equal
 
-db.collection.find({ "campo" : { $lte: value } } );
+db.colecao.find({ "campo" : { $lte: value } } );
 Retorna objetos com valores menores ou igual que value.
 
 #### > ou $gt - greater than
 
-db.collection.find({ "campo" : { $gt: value } } );
+db.colecao.find({ "campo" : { $gt: value } } );
 Retorna objetos com valores maiores que value.
 
 #### >= ou $gte - greater than or equal
 
-db.collection.find({ "campo" : { $gte: value } } );
+db.colecao.find({ "campo" : { $gte: value } } );
 Retorna objetos com valores maiores ou igual que value.
 
 ### Operadores Lógicos
 
-$or
-db.collection.find( { $or : [ { a : 1 } , { b : 2 } ] } )
-db.foo.find( { name : "bob" , $or : [ { a : 1 } , { b : 2 } ] } )
-Retorna objetos caso a cláusula OU for verdadeira.
+#### $or
 
-$nor
-db.collection.find( { $nor : [ { a : 1 } , { b : 2 } ] } )
-Retorna objetos caso a cláusula negação do OU for verdadeira, ou seja, não pode encontrar nenhuma cláusula verdadeira.
+Retorna objetos caso a cláusula OU for verdadeira, ou seja, se **alguma das cláusulas forem verdadeiras**
 
-$and
-db.foo.insert( { a: [ 1, 10 ] } )
-db.foo.find( { $and: [ { a: 1 }, { a: { $gt: 5 } } ] } )
-Retorna objetos caso a cláusula E for verdadeira.
+##### Sintaxe
+
+```js
+{ $or : [ { campo1 : valor } , { campo2 : valor } ] }
+```
+
+##### Uso
+
+Vamos buscar os Pokemons que possuam **OU** o `{name: Pikachu}` **OU** do tipo grama `{type: 'grama'}`.
+
+#### $nor
+
+Retorna objetos caso a cláusula negação do OU for verdadeira, ou seja, retorna **apenas objetos que não satisfaçam as cláusulas**.
+
+##### Sintaxe
+
+```js
+{ $nor : [ { a : 1 } , { b : 2 } ] }
+```
+
+##### Uso
+
+#### $and
+
+Retorna objetos caso a cláusula E for verdadeira, ou seja, somente se **todos as cláusulas forem verdadeiras**.
+
+##### Sintaxe
+
+```js
+{ $and: [ { a: 1 }, { a: { $gt: 5 } } ] }
+```
+
+##### Uso
 
 
 ### Operadores "Existênciais"
 
-$exists
-db.collection.find( { campo : { $exists : true } } );
+#### $exists
+
+##### Sintaxe
+```js
+db.colecao.find( { campo : { $exists : true } } );
+```
 Retorna o objeto caso o campo exista.
 
+##### Uso
 
 ### Operadores de Array
 
-$in
-db.collection.find( { campo : { $in : array } } );
+#### $in
+
+##### Sintaxe
+
+```js
+db.colecao.find( { campo : { $in : array } } );
+```
+
+##### Uso
+```js
 db.products.find( { tags : { $in : ['marvada', 'teste'] } } );
+```
+
 Retorna objetos se o valor foi encontrado.
 
-$nin
-db.collection.find({ tags : { $nin :[ 'teste'] } } );
+#### $nin
+
 Retorna objetos se nenhum dos valores foi encontrado.
 
-$all
-db.collection.find({ tags : { $all :[ 'marvada', 'teste'] } } );
+##### Sintaxe
+
+```js
+db.colecao.find({ tags : { $nin :[ 'teste'] } } );
+```
+
+##### Uso
+
+#### $all
+
 Retorna objetos se nenhum dos valores foi encontrado.
+##### Sintaxe
+
+```js
+db.colecao.find({ tags : { $all :[ 'marvada', 'teste'] } } );
+```
+
+##### Uso
+
 
 ### Operadores de Negação
 
-$ne
-db.collection.find( { name : { $ne : 'Pinga'} } );
+#### $ne
+
 Retorna objetos se o valor não for igual.
 
+##### Sintaxe
 
-$not
-db.collection.find( { campo : { $not : { $gt: 666 } } } );
+```js
+db.colecao.find( { name : { $ne : 'Pinga'} } );
+```
+
+##### Uso
+
+```js
+db.colecao.find( { name : { $ne : 'Pinga'} } );
+```
+
+
+
+#### $not
+
 Retorna o objeto que não satisfaz a condição do campo, isso inclui documentos que não possuem o campo.
+
+##### Sintaxe
+
+```js
+db.colecao.find( { campo : { $not : { $gt: 666 } } } );
+```
+
+##### Uso
+
