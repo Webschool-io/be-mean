@@ -414,6 +414,46 @@ O parâmetro `upsert` serve para caso o documento não seja encontrado pela `que
 
 **Ele por padrão é `FALSE.**
 
+Imagine que precisamos ativar, para ler suas informações, os Pokemons na nossa pokeagenda.
+
+```
+var query = {name: /squirtle/i}
+var mod = {$set: {active: true}}
+var options = {upsert: true}
+db.pokemons.update(query, mod, options)
+
+Updated 1 existing record(s) in 2ms
+WriteResult({
+  "nMatched": 1,
+  "nUpserted": 0,
+  "nModified": 1
+})
+```
+
+Então perceba que se o Pokemon existir ele só fará a alteração, agora vamos ver com um Pokemon que não exista na pokeagenda.
+
+```
+var query = {name: /PokemonInexistente/i}
+var mod = {$set: {active: true}}
+var options = {upsert: true}
+db.pokemons.update(query, mod, options)
+
+Updated 1 new record(s) in 3ms
+WriteResult({
+  "nMatched": 0,
+  "nUpserted": 1,
+  "nModified": 0,
+  "_id": ObjectId("564a94aa3888e5da82899ccc")
+})
+
+```
+
+Agora como percebemos no `WriteResult` ele não achou nenhum `"nMatched": 0` e inseriu 1 `"nUpserted": 1` passando o `_id` do documento inserido.
+
+##### $setOnInsert
+
+Com esse operador você pode definir valores que serão adicionados apenas se ocorrer um **upsert**, ou seja, se o objeto for inserido pois não foi achado pela **query**.
+
 Vamos pegar um cenário onde buscaremos um pokemon em nossa pokeagenda, porém o mesmo não se encontra nos registros, então inserimos ele com valores padrões.
 
 ```
@@ -423,12 +463,43 @@ var mod = {
   $setOnInsert: {name: "NaoExisteMon", attack: null, defense: null, height: null, description: "Sem maiores informações"}
 }
 var options = {upsert: true}
+db.pokemons.update(query, mod, options)
+
+Updated 1 new record(s) in 90ms
+WriteResult({
+  "nMatched": 0,
+  "nUpserted": 1,
+  "nModified": 0,
+  "_id": ObjectId("564a89f33888e5da82899ccb")
+})
 ```
-
-##### $setOnInsert
-
-Com esse operador você pode definir valores que serão adicionados apenas se ocorrer um **upsert**, ou seja, se o objeto for inserido pois não foi achado pela **query**.
-
 
 
 #### multi
+
+**Quem nunca de um UPDATE SEM WHERE na vida que atire a primeira pedra** ehhehehehe.
+
+![](http://i.imgur.com/dxETX56.png)
+
+Não, não é o [canal Update Sem Where](https://www.youtube.com/watch?v=vOAikPAYPQY), é dar um **UPDATE** na sua tabela sem ter passado um **WHERE** na sua SQL.
+
+Ué mas por que isso é ruim?
+
+Se você se perguntou isso nunca deve ter trabalho com bancos de dados relacionais.
+
+Pois quando você não passa a cláusula do **WHERE** o banco entende que você quer atualizar **TODOS** os registros.
+
+Então imagine que você só ia atualizar a o email de um usuário, não passando o **WHERE** você vai atualizar **TODOS OS EMAILS DE TODOS OS USUÁRIOS** para aquele email específico.
+
+![Holy Shit MEME](http://www.quickmeme.com/img/0c/0c81cb4eab2202c9d1453353cf36a6b100192d31bd61d3fc08e594acb4f45ca8.jpg)
+
+#### writeConcern
+
+O `writeConcern` descreve a garantia de que MongoDB fornece ao relatar o sucesso de uma operação de gravação.
+
+A força dos  write concerns determinam o nível de garantia. Quando inserções, atualizações e exclusões têm um *write concern* fraco, operações de escrita retornam rapidamente.
+
+Em alguns casos de falha, as operações de gravação emitidas com *write concerns* fracos podem não persistir.
+
+Com os *write concerns* mais fortes, os clientes esperam após o envio de uma operação de escrita para o MongoDB confirmar as operações de escrita.
+
