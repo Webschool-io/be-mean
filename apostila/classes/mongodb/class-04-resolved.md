@@ -8,7 +8,7 @@
 6. Pesquisar **todos** os pokemons que não são do tipo `elétrico`.
 7. Pesquisar **todos** os pokemons que tenham o ataque `investida` **E** tenham a defesa **não menor ou igual** a 49.
 8. Remova **todos** os pokemons do tipo água e com attack menor que 50.
-
+9. Esse item não está no vídeo e se você fizer significa que você lê as coisas, nesse exercício demonstre qual a diferença entre os operadores `$ne` e `$not`.
 
 
 ## Estrutura
