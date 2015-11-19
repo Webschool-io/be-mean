@@ -45,7 +45,6 @@ A aula segue um grande *workflow* até ser divulgada:
 
 # Roteiro
 
-
 ## Duração
 - Be MEAN (101 horas)
     + MEAN (41 horas)
@@ -124,18 +123,20 @@ A aula segue um grande *workflow* até ser divulgada:
     	* distinct
         * group
         * Aggregation Framework
-- **Aula 06 | 19.11**
+- **Aula 06 | 20.11**
     + Módulo MongoDB
-        * Modelagem
+        * Explain
+        * Índices
         * Users and Passwords
         * Replica
         * Sharding
         * GridFs
         * Robomongo
+        * Modelagem
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js | 23.11 a 20.12
+##  Módulo Node.js | 30.11 a 27.12
 
 - **Aula 01 | 23.11**
     + Módulo Node.js
