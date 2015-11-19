@@ -41,14 +41,31 @@ O GridFS irá automaticamente irá gerar 2 coleções dentro do database informa
 - fs.chunks
 - fs.files
 
-Na coleção `fs.chunks` fica nosso arquivo binário divido em pequenas partes, chamadas de `chunks`, e na coleção `fs.files` temos os metadados do arquivo armazenado, como:
+Na coleção `fs.chunks` fica nosso arquivo binário divido em pequenas partes, chamadas de `chunks`, cada *chunk* é um documento contendo 255Kb de dados seguindo essa estrutura:
 
-- _id
-- filename
-- chunkSize
-- uploadDate
-- md5
-- lenght
+```js
+{
+  "_id" : <ObjectId>,
+  "files_id" : <ObjectId>,
+  "n" : <num>,
+  "data" : <binary>
+}
+```
+
+Na coleção `fs.files` temos os metadados do arquivo armazenado, como:
+
+```js
+{
+  "_id" : <ObjectId>,
+  "length" : <num>,
+  "chunkSize" : <num>,
+  "uploadDate" : <timestamp>,
+  "md5" : <hash>,
+  "filename" : <string>,
+}
+```
+
+Caso você queira inserir seus arquivo com mais metadados terá que usar algum driver do MongoDB na sua programação que suporte o GridFS.
 
 Você deve ter notado que temos o campo `md5`, para que o `md5` do arquivo pode ser interessante nesse caso?
 
