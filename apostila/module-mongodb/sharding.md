@@ -1,16 +1,20 @@
 # Sharding
 
-Sharding é o processo de armazenamento de registros de dados em várias máquinas e é a abordagem do MongoDB para atender as demandas de crescimento de dados. À medida que o tamanho dos dados aumenta, uma única máquina pode não ser suficiente para armazenar os dados, nem proporcionar uma leitura aceitável e rendimento na escrita. Sharding resolve o problema com a escalabilidade horizontal. Com sharding, você deve adicionar mais máquinas para suportar o crescimento de dados e as demandas de leitura e escrita.
+Sharding é o processo de armazenamento de registros de dados em várias máquinas, é a abordagem do MongoDB para atender as demandas de crescimento de dados.
 
+À medida que o tamanho dos dados aumenta, uma única máquina pode não ser suficiente para armazenar os dados, nem proporcionar uma leitura aceitável e rendimento na escrita, o Sharding resolve o problema com a escalabilidade horizontal, com sharding, você deve adicionar mais máquinas para suportar o crescimento de dados e as demandas de leitura e escrita.
 
 ## Por que usar?
 
+Porque o seu servidor não aguentará quando alguma coleção sua for maior que sua memória RAM, fazendo com que o MongoDb tenha que paginar os dados quando for ler, impactando na performance.
+
 ## Quando usar?
 
+Quando você analisar seu banco de dados e verificar que uma coleção está chegando perto do tamanho que o servidor tem de memória disponível para o MongoDb.
 
 ## Como usar?
 
-Precisamos entender como é a arquitetura de um cluster com MongoDB, nele possuímos 3 serviços diferentes que são:
+Para usar precisamos entender como é a arquitetura de um cluster com MongoDB, nele possuímos 3 serviços diferentes que são:
 
 - shards
 - config servers
