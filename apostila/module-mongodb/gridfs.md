@@ -1,21 +1,22 @@
 # GridFS
 GridFS é o sistema de arquivos do MongoDb, ele irá armazenar os binários diretamente no banco.
 
-Por que usar?
+## Por que usar?
 
 Você pode querer guardar algum binário no banco porém o limite de cada documento [BSON](https://docs.mongodb.org/manual/reference/glossary/#term-bson) é de 16 Mb, logo se você quiser armazenar algo maior o GridFS é a ferramenta correta pro serviço.
 
-Quando usar?
+## Quando usar?
 
 **Tudo bem entendi que é para usar para armazenar arquivos maiores que 16 Mb, mas quando vou usar?**
 
 ![](./images/meme-greate-question.jpg)
 
-Para utilizar o GridFS usaremos o mongofiles:
+
+## Como usar?
+
+Para utilizar o GridFS, no terminal, usaremos o `mongofiles` passando o atributo `-d nome_database` para o nome da database onde iremos inserir o arquivo e `put nome_do_arquivo` para enviarmos o arquivo selecionado.
 
 ```
-mongofiles -d database put my_music.mp3
-
 mongofiles -d myfiles put my_music.mp3
 connected to: 127.0.0.1
 
