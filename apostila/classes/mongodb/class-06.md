@@ -8,5 +8,7 @@ Para finalizar nosso módulo de MongoDb iremos reforçar alguns conceitos anteri
 * [Replica](./../../module-mongodb/replica.md)
 * [Sharding](./../../module-mongodb/sharding.md)
 * [GridFs](./../../module-mongodb/gridFs.md)
+* [Modelagem](./../../module-mongodb/modeling.md)
+* [Relacionamentos](./../../module-mongodb/relationship.md)
 
 Falar para colocar avatar no seu github igual gente.
