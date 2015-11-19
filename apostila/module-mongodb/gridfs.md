@@ -22,7 +22,9 @@ Em algumas situações, o armazenamento de arquivos grandes podem ser mais efici
 
 Não use GridFS se você precisa atualizar o conteúdo de todo o arquivo atomicamente. Como alternativa, você pode armazenar várias versões de cada arquivo e especificar a versão atual do arquivo nos metadados. Você pode atualizar o campo de metadados que indica o status de "último" em uma atualização atômica após o upload de uma nova versão do arquivo, e depois remover versões anteriores, se necessário.
 
-Além disso, se seus arquivos são todos menores de 16 MB, considere armazenar o arquivo manualmente dentro de um único documento. Você pode usar o tipo de dados `BinData` para armazenar os dados binários. Consulte a documentação de drivers para detalhes sobre como usar [BinData](https://docs.mongodb.org/manual/reference/mongodb-extended-json/#binary).
+Além disso, se seus arquivos são todos menores de 16MB, considere armazenar o arquivo manualmente dentro de um único documento. Você pode usar o tipo de dados `BinData` para armazenar os dados binários. Consulte a documentação de drivers para detalhes sobre como usar [BinData](https://docs.mongodb.org/manual/reference/mongodb-extended-json/#binary). Pois se vc armazenar um arquivo pequeno, só para ele retornar esses 16MB o MongoDb irá retornar 65 documentos pelo menos de 255Kb, logo nada aconselhável né?
+
+
 
 ## Como usar?
 
@@ -70,3 +72,5 @@ Caso você queira inserir seus arquivo com mais metadados terá que usar algum d
 Você deve ter notado que temos o campo `md5`, para que o `md5` do arquivo pode ser interessante nesse caso?
 
 Bom, você pode fazer uma busca pelo `md5` e caso encontre mais de 1 registro, é porque existem arquivos duplicados, ai você decide o que fazer com ele, como por exemplo removê-los.
+
+**[ DICA ] Se for usar o GridFS, utilize-o em um servidor próprio para configurá-lo da melhor forma possível.**
