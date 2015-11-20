@@ -4,13 +4,13 @@ GridFS é o sistema de arquivos do MongoDb, ele irá armazenar os binários dire
 
 ## Por que usar?
 
-Você pode querer guardar algum binário no banco porém o limite de cada documento [BSON](https://docs.mongodb.org/manual/reference/glossary/#term-bson) é de 16 Mb, logo se você quiser armazenar algo maior o GridFS é a ferramenta correta pro serviço.
+Você pode querer guardar algum binário no banco porém o limite de cada documento [BSON](https://docs.mongodb.org/manual/reference/glossary/#term-bson) é de 16 MB, logo se você quiser armazenar algo maior o GridFS é a ferramenta correta pro serviço.
 
-E também **se você não quiser que todo o arquivo vá para a memória RAM** como as coleções normais do MongoDb vão para serem lidas, isso é algo muito importante quando você está trabalhando com uma coleção grande de arquivos.
+E também **se você não quiser que todo o arquivo vá para a memória RAM**, isso é algo muito importante quando você está trabalhando com uma coleção grande de arquivos.
 
 ## Quando usar?
 
-**Tudo bem entendi que é para usar para armazenar arquivos maiores que 16 Mb e que não vão para a memória, mas quando vou usar?**
+**Tudo bem entendi que é para usar para armazenar arquivos maiores que 16 MB e que não vão para a memória, mas quando vou usar?**
 
 ![](./images/meme-greate-question.jpg)
 
