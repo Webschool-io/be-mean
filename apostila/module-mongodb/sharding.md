@@ -35,4 +35,10 @@ Cada config server é uma instância do MongoDb que guarda os metadados sobre o 
 
 Cada router é uma instância mongos que faz o roteamento das escritas e leituras para os shards. A aplicação não acessa diretamente os shards.
 
-**[ DICA ]:** O tamanho padrão do *chunk* de cada *shard* é 64MB, logo a coleção precisar **ser maior que 64MB** para que ocorra a divisão dos seus dados pela `shard key`.
+## DICA
+
+O tamanho padrão do *chunk* de cada *shard* é 64MB, logo a coleção precisar **ser maior que 64MB** para que ocorra a divisão dos seus dados pela `shard key`.
+
+Dependendo do número de *shards* do seu *cluster* o MongoDb pode esperar que tenha pelo menos 10 *chunks* para disparar a migração.
+
+Você pode rodar `db.printShardingStatus()` para ver todos os *chunks* presentes no servidor.
