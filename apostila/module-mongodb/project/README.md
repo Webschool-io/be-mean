@@ -37,6 +37,8 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 
 ## Delete - remoção
 
+1. Delete todas as atic
+
 
 ## Estrutura
 

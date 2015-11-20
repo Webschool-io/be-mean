@@ -4,6 +4,8 @@ Sharding é o processo de armazenamento de registros de dados em várias máquin
 
 À medida que o tamanho dos dados aumenta, uma única máquina pode não ser suficiente para armazenar os dados, nem proporcionar uma leitura aceitável e rendimento na escrita, o Sharding resolve o problema com a escalabilidade horizontal, com sharding, você deve adicionar mais máquinas para suportar o crescimento de dados e as demandas de leitura e escrita.
 
+**Qual diferença entre escalabilidade horizontal e vertical?**
+
 ## Por que usar?
 
 Porque o seu servidor não aguentará quando alguma coleção sua for maior que sua memória RAM, fazendo com que o MongoDb tenha que paginar os dados quando for ler, impactando na performance.
