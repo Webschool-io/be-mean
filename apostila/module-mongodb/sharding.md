@@ -23,6 +23,14 @@ Para usar precisamos entender como é a arquitetura de um cluster com MongoDB, n
 ![](https://camo.githubusercontent.com/602f5193c627a0314bd8695ac3ba07d3d866d18a/687474703a2f2f646f63732e6d6f6e676f64622e6f72672f6d616e75616c2f5f696d616765732f736861726465642d636c75737465722e706e67)
 
 
+### Router
+
+Para veririficar todas as conexões do seu `mongos` basta conectar nele e rodar o seguinte comando:
+
+```js
+db._adminCommand("connPoolStats");
+```
+
 ## Shards
 
 Cada shard é uma instância do MongoDb que guarda um pedaço dos dados da coleção.
