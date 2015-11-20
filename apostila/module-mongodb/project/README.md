@@ -10,6 +10,14 @@ Logo após o [Herbert Pimentel](https://www.facebook.com/herbertpferreira?fref=u
 
 ![](./modeling/mongodb-start.jpg)
 
-Além de achar uma modelagem melhor da proposta, **terá que explicar o porquê daquela escolha** e terá que criar a seguintes queries:
+Perceba que falta a coleção de `user` que será **seu trabalho criar uma** a partir dos dados da modelagem relacional.
 
-- 
+Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **terá que explicar o porquê daquela escolha** e terá que executar as seguintes ações em suas coleções:
+
+## Create - cadastro
+
+## Retrieve - busca
+
+## Update - alteração
+
+## Delete - remoção
