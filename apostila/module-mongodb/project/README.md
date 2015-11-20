@@ -17,7 +17,7 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 ## Create - cadastro
 
 1. Cadastre 10 usuários diferentes.
-2. Cadastre 5 projetos diferentes, 
+2. Cadastre 5 projetos diferentes
     - cada um com 5 membros, sempre diferentes dentro dos projetos
     - cada um com pelo menos 3 tags diferentes
         - escolha 1 tag onde deva ficar em 2 projetos
@@ -28,7 +28,9 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 
 1. Liste as informações dos membros de 1 projeto específico que deve ser buscado pelo seu nome de forma a não ligar para maiúsculas e minúsculas.
 2. Liste todos os projetos com a tag que você escolheu para os 3 projetos em comum.
-3. Liste apenas os nomes de todas as atividades para todos os projetos
+3. Liste apenas os nomes de todas as atividades para todos os projetos.
+4. Liste todos os projetos que não possuam uma tag.
+5. Liste todos os usuários que não fazem parte do primeiro projeto cadastrado.
 
 
 ## Update - alteração
