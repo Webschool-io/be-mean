@@ -42,4 +42,5 @@ Porque sempre devemos ter uma garantia dos nossos dados e uma *Replica* serve ex
 
 ## Quando usar?
 
+
 ## Como usar?
