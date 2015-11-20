@@ -181,7 +181,7 @@ rs.status()
 Para você rebaixar o `PRIMARY` basta executar o comando `rs.stepDown()`:
 
 ```
-**suissacorp(mongod-3.0.6)[PRIMARY] test> rs.stepDown()**
+suissacorp(mongod-3.0.6)[PRIMARY] test> rs.stepDown()
 2015-11-20T13:03:54.299-0200 I NETWORK  DBClientCursor::init call() failed
 2015-11-20T13:03:54.308-0200 E QUERY    Error: error doing query: failed
     at DBQuery._exec (src/mongo/shell/query.js:83:36)
@@ -194,17 +194,31 @@ Para você rebaixar o `PRIMARY` basta executar o comando `rs.stepDown()`:
 2015-11-20T13:03:54.310-0200 I NETWORK  trying reconnect to 127.0.0.1:27017 (127.0.0.1) failed
 2015-11-20T13:03:54.311-0200 I NETWORK  reconnect 127.0.0.1:27017 (127.0.0.1) ok
 
-**suissacorp(mongod-3.0.6)[SECONDARY] test> show collections**
+suissacorp(mongod-3.0.6)[SECONDARY] test> show collections
 2015-11-20T13:06:28.320-0200 E QUERY    Error: listCollections failed: {
   "note": "from execCommand",
   "ok": 0,
   "errmsg": "not master"
 }
-    at Error (<anonymous>)
-    at DB._getCollectionInfosCommand (src/mongo/shell/db.js:646:15)
-    at DB.getCollectionInfos (src/mongo/shell/db.js:658:20)
-    at DB.getCollectionNames (src/mongo/shell/db.js:669:17)
-    at shellHelper.show (/Users/jeancarlonascimento/.mongorc.js:975:12)
-    at shellHelper (src/mongo/shell/utils.js:524:36)
-    at (shellhelp2):1:1 at src/mongo/shell/db.js:646
 ```
+
+Perceu ali que ele desconectou e tentu reconectar:
+
+```
+2015-11-20T13:03:54.310-0200 I NETWORK  trying reconnect to 127.0.0.1:27017 (127.0.0.1) failed
+2015-11-20T13:03:54.311-0200 I NETWORK  reconnect 127.0.0.1:27017 (127.0.0.1) 
+```
+
+Depois já conectou como secundário:
+
+```
+suissacorp(mongod-3.0.6)[SECONDARY] test> show collections
+2015-11-20T13:06:28.320-0200 E QUERY    Error: listCollections failed: {
+  "note": "from execCommand",
+  "ok": 0,
+  "errmsg": "not master"
+}
+```
+
+
+
