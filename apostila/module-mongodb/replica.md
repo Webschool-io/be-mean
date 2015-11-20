@@ -39,6 +39,8 @@ Para facilitar a replicação, todos os membros do conjunto de *Replicas* enviam
 
 ## Por que usar?
 
+Porque sempre devemos ter uma garantia dos nossos dados e uma *Replica* serve exatamente para isso, garantir que seus dados existam em outro lugar também, caso o seu servidor principal caia você poderá levantar outro com os dados da sua *Replica*.
+
 ## Quando usar?
 
 ## Como usar?
