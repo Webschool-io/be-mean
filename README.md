@@ -3,7 +3,7 @@
 
 # [ ANÚNCIO ]
 
-**Estou combinando c/ professor [William Bruno] para criarmos a última aula juntos, porém como mudei o projeto final, teremos que fazer essa aula na SEXTA e SÁBADO!**
+**Estou combinando c/ professor [William Bruno](https://github.com/wbruno) para criarmos a última aula juntos, porém como mudei o projeto final, teremos que fazer essa aula na SEXTA e SÁBADO!**
 
 Pois é nela que explicaremos todo o projeto final, aí darei mais 1 semana de prazo para fazerem o projeto final.
 
