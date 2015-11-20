@@ -80,6 +80,73 @@ child process started successfully, parent exiting
 
 ```
 
+Caso você queria rodar sem o `--fork` para ver as mensagens de cada `mongod` execute cada linha do `mongod --replSet` em um terminal diferente, com isso você podderá ver algo assim, no último:
+
+```
+2015-11-20T13:12:48.187-0200 I CONTROL  [initandlisten] options: {
+  net: { port: 27019 },
+  replication: { replSet: "replica_set" },
+  storage: { dbPath: "/data/rs3" },
+  systemLog: { destination: "file", path: "/data/rs1/log.txt" }
+}
+2015-11-20T13:12:48.209-0200 I NETWORK  [initandlisten] waiting for connections on port 27019
+```
+
+Na sequência todas as configurações da *ReplicaSet*.
+
+```
+2015-11-20T13:12:48.211-0200 I REPL     [ReplicationExecutor] New replica set config in use: { 
+  _id: "replica_set",
+  version: 1,
+  members: [
+    { _id: 0, host: "localhost:27017",
+      arbiterOnly: false,
+      buildIndexes: true,
+      hidden: false,
+      priority: 1.0,
+      tags: {},
+      slaveDelay: 0,
+      votes: 1
+    },
+    { _id: 1,
+      host: "localhost:27018",
+      arbiterOnly: false,
+      buildIndexes: true,
+      hidden: false,
+      priority: 1.0,
+      tags: {},
+      slaveDelay: 0,
+      votes: 1
+    },
+    { _id: 2,
+      host: "localhost:27019",
+      arbiterOnly: false,
+      buildIndexes: true,
+      hidden: false,
+      priority: 1.0,
+      tags: {},
+      slaveDelay: 0,
+      votes: 1
+    }
+  ],
+  settings: { 
+    chainingAllowed: true, 
+    heartbeatTimeoutSecs: 10, 
+    getLastErrorModes: {},
+    getLastErrorDefaults: { w: 1, wtimeout: 0 } 
+  } 
+}
+[ReplicationExecutor] This node is localhost:27019 in the config
+[ReplicationExecutor] transition to STARTUP2
+[ReplicationExecutor] Starting replication applier threads
+[ReplicationExecutor] transition to RECOVERING
+[ReplicationExecutor] transition to SECONDARY
+[ReplicationExecutor] Member localhost:27017 is now in state PRIMARY
+[ReplicationExecutor] Member localhost:27018 is now in state SECONDARY
+```
+
+**Claro que eu dei uma ajeitada na saída se não ficaria muito texto bagunçado.**
+
 Depois disso nossas *Replicas* estão rodando, para conferirmos vamos conectar em cada um e com isso já veremos qual é a primária e quais são as secundárias.
 
 ```
@@ -87,8 +154,8 @@ mongo --port 27017
 MongoDB shell version: 3.0.6
 connecting to: 127.0.0.1:27017/test
 Mongo-Hacker 0.0.3
-Server has startup warnings: 
-2015-11-20T10:34:58.383-0200 I CONTROL  [initandlisten] 
+Server has startup warnings:
+2015-11-20T10:34:58.383-0200 I CONTROL  [initandlisten]
 2015-11-20T10:34:58.383-0200 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
 suissacorp(mongod-3.0.6)[PRIMARY] test>
 ```
@@ -100,10 +167,10 @@ mongo --port 27018
 MongoDB shell version: 3.0.6
 connecting to: 127.0.0.1:27018/test
 Mongo-Hacker 0.0.3
-Server has startup warnings: 
-2015-11-20T10:34:58.472-0200 I CONTROL  [initandlisten] 
+Server has startup warnings:
+2015-11-20T10:34:58.472-0200 I CONTROL  [initandlisten]
 2015-11-20T10:34:58.472-0200 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
-suissacorp(mongod-3.0.6)[SECONDARY] test> 
+suissacorp(mongod-3.0.6)[SECONDARY] test>
 ```
 
 E para confirmar que o terceiro também é `SECONDARY`.
@@ -113,8 +180,8 @@ mongo --port 27019
 MongoDB shell version: 3.0.6
 connecting to: 127.0.0.1:27019/test
 Mongo-Hacker 0.0.3
-Server has startup warnings: 
-2015-11-20T10:34:58.556-0200 I CONTROL  [initandlisten] 
+Server has startup warnings:
+2015-11-20T10:34:58.556-0200 I CONTROL  [initandlisten]
 2015-11-20T10:34:58.557-0200 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
 suissacorp(mongod-3.0.6)[SECONDARY] test>
 ```
@@ -202,11 +269,11 @@ suissacorp(mongod-3.0.6)[SECONDARY] test> show collections
 }
 ```
 
-Perceu ali que ele desconectou e tentu reconectar:
+Percebeu ali que ele desconectou e tentou reconectar:
 
 ```
 2015-11-20T13:03:54.310-0200 I NETWORK  trying reconnect to 127.0.0.1:27017 (127.0.0.1) failed
-2015-11-20T13:03:54.311-0200 I NETWORK  reconnect 127.0.0.1:27017 (127.0.0.1) 
+2015-11-20T13:03:54.311-0200 I NETWORK  reconnect 127.0.0.1:27017 (127.0.0.1)
 ```
 
 Depois já conectou como secundário:
