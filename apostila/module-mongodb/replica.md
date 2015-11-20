@@ -250,6 +250,7 @@ rs.status()
 
 ```
 
+Para conhecer mais sobre as configurçãod da *ReplicaSet* [entre aqui no - replSetGetConfig](https://docs.mongodb.org/manual/reference/command/replSetGetConfig/#replsetgetconfig-output).
 
 Para você rebaixar o `PRIMARY` basta executar o comando `rs.stepDown()`:
 
