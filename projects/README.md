@@ -35,4 +35,6 @@ Projetos:
     + acompanhamento em tempo real online
     + cardapio online
     + Qm sabe pedidos online
+- Sistema para reaproveitamento de alimentso dos restaurantes
+    + Tipo um sistema de gerenciamento de coleta
 
