@@ -287,5 +287,5 @@ suissacorp(mongod-3.0.6)[SECONDARY] test> show collections
 }
 ```
 
-
+Para conhecer mais comandos por favor [entre aqui na documentação - Replication Reference](https://docs.mongodb.org/v3.0/reference/replication/).
 
