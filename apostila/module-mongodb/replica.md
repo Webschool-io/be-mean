@@ -1,8 +1,10 @@
 # Replica
 
-Possuímos *Replicas* na maioria dos bancos de dados relacionais também, ela faz o espelhamento dos seus dados de um servidor para outro.
+Possuímos *Replicas* na maioria dos bancos de dados relacionais também, ela faz o espelhamento dos seus dados de um servidor para outro, no MongoDb uma *ReplicaSet* pode conter 50 membros, ou seja, 50 *Replicas* contando com os árbitros.
 
-No MongoDb funciona da mesma forma, porém podemos replicar também os *Shards*.
+![](https://docs.mongodb.org/manual/_images/replica-set-read-write-operations-primary.png)
+
+Todas as operações de escrita são feitas no primário e replicada para os secundários, no MongoDb devemos também replicar os *Shards*.
 
 ![](./images/replica-sharding.png)
 
@@ -15,7 +17,7 @@ A replicação ocorre em 2 etapas:
 
 O Initial Syn ocorre no início, quando uma *Replica* copia todos os dados de outra. Uma *Replica* utiliza-se do Initial Sync quando ela é nova ou não tem nenhum dado ou possui dados mas está faltando o histórico de replicação.
 
-Quando você executa um *Initial Sync* o MongoDb irá:
+Quando a *Replica* executa um *Initial Sync* o MongoDb irá:
 
 - Clonar todos os bancos de dados. Para clonar, o mongod consulta cada coleção em cada banco de dados de origem e insere todos os dados em suas próprias cópias dessas coleções. Neste momento, os índices _id também são construídos. O processo de clonagem apenas copia os dados válidos, omitindo documentos inválidos.
 - Aplicar todas as alterações para o conjunto de dados. Usando o *oplog* a partir da fonte, o mongod atualiza seus dados para refletir o estado atual do conjunto de *Replicas*.
@@ -36,6 +38,12 @@ Todos os membros do conjunto de *Replicas* contém uma cópia do oplog, na cole�
 
 Para facilitar a replicação, todos os membros do conjunto de *Replicas* enviam batimentos cardíacos (pings) para todos os outros membros. Qualquer membro pode importar entradas oplog de qualquer outro membro.
 
+## Árbitro
+
+É um serviço que não possui a réplica dos dados e nem pode virar primário,mas tem poder do voto de Minerva, onde ele irá te rum peciso decisivo na votação de qual *Replica* secundária deve virar primária.
+
+**Só adicione um árbitro em uma *ReplicaSet* com um número PAR de membros, para que o árbitro seja o desempate.**
+
 ## Por que usar?
 
 Porque sempre devemos ter uma garantia dos nossos dados e uma *Replica* serve exatamente para isso, garantir que seus dados existam em outro lugar também, caso o seu servidor principal caia você poderá levantar outro com os dados da sua *Replica*.
@@ -54,9 +62,7 @@ mkdir /data/rs2
 mkdir /data/rs3
 ```
 
-Agora vamos iniciar nossos processos do `mongod`, pare todos que você estiver rodando antes, com  os atributos do nosso servidor de *Replica*:
-
-- --replSet: é o nome do nosso servidor
+Agora vamos iniciar nossos processos do `mongod`, pare todos que você estiver rodando antes, só precisamos levantar o `mongod` com `--replSet` como visto abaixo:
 
 ```
 mongod --replSet replica_set --port 27017 --dbpath /data/rs1 --logpath /data/rs1/log.txt --fork
