@@ -10,18 +10,18 @@ Nessa primeira aula veremos um pouco sobre a teoria do MongoDb e sobre os bancos
 
 ### NoSQL
 
-Falarei um pouco sobre a teoria de [NoSQL](./../../mongodb/theory-nosql.md).
+Falarei um pouco sobre a teoria de [NoSQL](./../../module-mongodb/theory-nosql.md).
 
 ### MongoDb
 
-Entrando na teoria do [MongoDB](./../../mongodb/theory-mongodb.md)
+Entrando na teoria do [MongoDB](./../../module-mongodb/theory-mongodb.md)
 
 Abrangendo:
 
-- [Instalação](./../../mongodb/installation.md)
-- [Cliente](./../../mongodb-client.md)
-  - [Import](./../../mongodb/export_import.md)
-  - [Export](./../../mongodb/export_import.md)
+- [Instalação](./../../module-mongodb/installation.md)
+- [Cliente](./../../module-mongodb/mongodb-client.md)
+  - [Import](./../../module-mongodb/export_import.md#mongoimport)
+  - [Export](./../../module-mongodb/export_import.md#mongoexport)
 
 #### Exercício
 
