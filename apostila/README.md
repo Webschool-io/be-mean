@@ -5,22 +5,22 @@ Nesse curso eu abordarei
 ## Índice
 
 - **MongoDb**
-  - [Teoria](./mongodb/theory.md)
-    - [NoSQL](./mongodb/theory-nosql.md)
-    - [MongoDB](./mongodb/theory-mongodb.md)
-  - [Instalação](./mongodb/installation.md)
-  - [Cliente](./mongodb-client.md)
-    + Import & Export
-  - [CRUD](./mongodb/crud.md)
-    - [insert](./mongodb/insert.md)
-    - [save](./mongodb/save.md)
-    - [find](./mongodb/find.md)
-    - [findOne](./mongodb/findOne.md)
-    - [update](./mongodb/update.md)
-    - [remove](./mongodb/remove.md)
-    - [drop](./mongodb/drop.md)
-    - [Paginação](./mongodb/paggination.md)
-  - [Aggregation](./mongodb/agreggation.md)
+  - [Teoria](./module-mongodb/theory.md)
+    - [NoSQL](./module-mongodb/theory-nosql.md)
+    - [MongoDB](./module-mongodb/theory-mongodb.md)
+  - [Instalação](./module-mongodb/installation.md)
+  - [Cliente](./module-mongodb/mongodb-client.md)
+    + [Import & Export](./module-mongodb/export_import.md)
+  - [CRUD](./module-mongodb/crud.md)
+    - [insert](./module-mongodb/insert.md)
+    - [save](./module-mongodb/save.md)
+    - [find](./module-mongodb/find-findOne.md)
+    - [findOne](./module-mongodb/find-findOne.md)
+    - [update](./module-mongodb/update.md)
+    - [remove](./module-mongodb/remove.md)
+    - [drop](./module-mongodb/drop.md)
+    - [Paginação](./module-mongodb/paggination.md)
+  - [Aggregation](./module-mongodb/aggregation.md)
 
 - **Node.js**
   - [Teoria](./mongodb/theory.md)
