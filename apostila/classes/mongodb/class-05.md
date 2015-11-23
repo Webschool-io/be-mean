@@ -1,9 +1,7 @@
 ## MongoDb - Aula 05
 
-Para finalizar nosso módulo de MongoDb iremos reforçar alguns conceitos anteriores e terminar nosso conteúdo:
+Para finalizarmos nosso conhecimento de buscas com o MongoDb, iremos aprender o [Aggregation](https://docs.mongodb.org/manual/aggregation/).
 
-* [Criação de usuários com senha](./mongodb/users-and-passwords.md)
-* [Paginação](./mongodb/paggination.md)
-* [Replica](./mongodb/replica.md)
-* [Sharding](./mongodb/sharding.md)
-* [GridFs](./mongodb/gridFs.md)
+
+[Aggregation](./mongodb/agreggation.md)
+Índices

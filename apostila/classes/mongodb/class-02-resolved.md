@@ -1,3 +1,4 @@
+
 # MongoDb - Aula 02 - Exercício
 
 1. Crie uma database chamada be-mean-pokemons;
@@ -5,7 +6,7 @@
 3. Liste quais coleções você possui nessa database;
 4. Insira pelo menos 5 pokemons **A SUA ESCOLHA** utilizando o mesmo padrão de campos utilizado: name, description, attack, defense e height;
 5. Liste os pokemons existentes na sua coleção;
-6. Busque o `pickachu` e armazene-o em uma variável chamada `poke`;
+6. Busque um pokemon a sua escolha, que acabou de ser inserido, e armazene-o em uma variável chamada `poke`;
 7. Modifique sua `description` e salvê-o
 
 
@@ -42,7 +43,7 @@ autor: SEU NOME
 
 1. Crie o repositório específico do módulo. Ex.: be-mean-instagram-mongodb
 2. Crie a solução do exercício localmente nesse repositório, usando sempre o padrão `class-02-resolved-suissa-jean-nascimento.md`
-3. Dê um `fork` no repositório oficial https://github.com/Webschool-io/be-mean-instagram/
+3. Dê um `fork` no repositório oficial https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises
 4. Vá até a pasta do módulo desejado e **COLE** seu arquivo na pasta `exercises`
 5. Crie um **Pull Request** enviando **APENAS** o seu arquivo sem modificar mais nada.
 6. Na mensagem do commit/pull request favor seguir o padrão: Jean Nascimento - MongoDB - Exercicio 02 resolvido
