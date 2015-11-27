@@ -39,10 +39,21 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 
 1. Delete todas as atic
 
+## Cluster
+
+Depois de criada toda sua base você deverá criar um cluster utilizando:
+
+- 1 Router
+- 1 Config Server
+- 3 Shardings
+- 3 Replicas
+
+Você deverá escolher qual sua coleção deverá ser *shardeada* para poder aguentar muita carga repentinamente e deverá replicar cada Shard, pode ser feito localmente como em alguma VPS FREE.
+
 
 ## Estrutura
 
-```markdown
+```
 # MongoDb - Projeto Final
 **Autor:** Nome Completo
 **Data** Data da entrega
@@ -60,5 +71,11 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 ## Update - alteração
 
 ## Delete - remoção
+
+## Sharding
+// coloque aqui todos os comandos que você executou
+
+## Replica
+// coloque aqui todos os comandos que você executou
 
 ```
