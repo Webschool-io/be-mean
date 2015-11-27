@@ -42,6 +42,132 @@ Para veririficar todas as conexões do seu `mongos` basta conectar nele e rodar 
 db._adminCommand("connPoolStats");
 ```
 
+## Criando um cluster local
+
+### Criando o Config Server
+
+Primeiramente criamos um *Config Server* utilizando o próprio `mongod`, porém usando o atributo `--configsvr` e setando a porta `27010`.
+
+```js
+ mkdir \data\configdb
+$ mongod --configsvr --port 27010
+```
+
+Como estamos fazendo para testar iremos criar apenas 1, **porém a indicação oficial é de criar pelo menos 3 Config Server para não ter 1 ponto único de falha.**
+
+### Criando o Router
+
+Depois disso precisamos criar o *Router* utilizando o `mongos`, setando o *Config Server* que ele acessará para ter as informações dos *Shards*.
+
+```
+mongos -configdb localhost:27010 --port 27011
+```
+
+Quando rodar você verá o começo das mensagens assim:
+
+```js
+2015-11-23T19:53:38.849-0200 W SHARDING running with 1 config server should be done only for testing purposes and is not recommended for production
+2015-11-23T19:53:38.922-0200 I SHARDING [mongosMain] MongoS version 3.0.6 starting: pid=13236 port=27011 64-bit host=suissacorp.local (--help for usage)
+2015-11-23T19:53:38.922-0200 I CONTROL  [mongosMain] db version v3.0.6
+```
+
+Para você configurar mais de 1 *Config Server* basta passar seu `ip:porta` separado por vírgula após o `--configdb`, por exemplo:
+
+```
+mongos -configdb localhost:27010,190.1.1.10:666,190.1.1.11:666, --port 27011
+```
+
+### Criando os Shards
+
+Agora vamos criar 3 *Shards* que conterão nossos dados, por favor abra 3 terminais separados, podemos colocar os processos em background com `&` mas eu quero que vocês vejam o que acontece em cada.
+
+Antes de tudo vamos criar as pastas onde os *Shards* irão persistir nossos dados:
+
+```
+mkdir /data/shard1 && mkdir /data/shard2 && mkdir /data/shard3
+```
+
+Depois de criado nossos diretórios rode cada comando em um terminal diferente.
+
+**Shard 1**
+
+```js
+mongod --port 27012 --dbpath /data/shard1
+```
+
+**Shard 2**
+
+```js
+mongod --port 27013 --dbpath /data/shard2
+```
+
+**Shard 3**
+
+```js
+mongod --port 27014 --dbpath /data/shard3
+```
+
+### Resgistrando os Shards no Router
+
+Vamos conectar no *Router* para poder registrar os *Shards*.
+
+```js
+mongo --port 27011 --host localhost
+MongoDB shell version: 3.0.6
+connecting to: localhost:27011/test
+Mongo-Hacker 0.0.3
+mongos> sh.addShard("localhost:27012")
+{ "shardAdded" : "shard0000", "ok" : 1 }
+mongos> sh.addShard("localhost:27013")
+{ "shardAdded" : "shard0001", "ok" : 1 }
+mongos> sh.enableSharding("students")
+{ "ok" : 1 }
+suissacorp(mongos-3.0.6)[mongos] test> sh.addShard("localhost:27014")
+{
+  "shardAdded": "shard0002",
+  "ok": 1
+}
+
+mongos> sh.shardCollection("students.grades", {"student_id" : 1})
+{ "collectionsharded" : "students.grades", "ok" : 1 }
+mongos>
+```
+
+Depois disso vamos especificar qual *database* iremos *shardear*:
+
+```
+sh.enableSharding("be-mean")
+{
+  "ok": 1
+}
+```
+
+E depois especificamos qual coleção dessa *database* será *shardeada* com `sh.shardCollection`:
+
+```
+sh.shardCollection("be-mean.restaurantes", {"_id" : 1})
+{
+  "collectionsharded": "be-mean.restaurantes",
+  "ok": 1
+}
+```
+
+### Enviando os dados para o Router
+
+Lembrando que devemos enviar os dados sempre para o *Router* para ele decidir o que fazer.
+
+```
+mongoimport --host 127.0.0.1 --port 27011 --db be-mean --collection restaurantes --drop --file restaurantes.json 
+2015-11-23T20:20:03.027-0200    connected to: 127.0.0.1:27011
+2015-11-23T20:20:03.027-0200    dropping: be-mean.restaurantes
+2015-11-23T20:20:04.887-0200    imported 25359 documents
+```
+
+No 27012:
+
+```
+
+```
 
 ## DICA
 

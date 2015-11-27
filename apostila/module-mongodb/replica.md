@@ -38,12 +38,6 @@ Todos os membros do conjunto de *Replicas* contém uma cópia do oplog, na cole�
 
 Para facilitar a replicação, todos os membros do conjunto de *Replicas* enviam batimentos cardíacos (pings) para todos os outros membros. Qualquer membro pode importar entradas oplog de qualquer outro membro.
 
-## Árbitro
-
-É um serviço que não possui a réplica dos dados e nem pode virar primário,mas tem poder do voto de Minerva, onde ele irá te rum peciso decisivo na votação de qual *Replica* secundária deve virar primária.
-
-**Só adicione um árbitro em uma *ReplicaSet* com um número PAR de membros, para que o árbitro seja o desempate.**
-
 ## Por que usar?
 
 Porque sempre devemos ter uma garantia dos nossos dados e uma *Replica* serve exatamente para isso, garantir que seus dados existam em outro lugar também, caso o seu servidor principal caia você poderá levantar outro com os dados da sua *Replica*.
@@ -295,4 +289,49 @@ suissacorp(mongod-3.0.6)[SECONDARY] test> show collections
 ```
 
 Para conhecer mais comandos por favor [entre aqui na documentação - Replication Reference](https://docs.mongodb.org/v3.0/reference/replication/).
+
+
+## Árbitro
+
+É um serviço que não possui a réplica dos dados e nem pode virar primário,mas tem poder do voto de Minerva, onde ele terá um poder decisivo na votação de qual *Replica* secundária deve virar primária.
+
+### Comunicação
+
+A única comunicação entre os árbitros e os outros membros da *ReplicaSet* são:
+
+- votar durante eleições;
+- heartbeats;
+- dados de configuração.
+
+
+###Por que usar?
+
+Porque quando uma **Replica primária** cair o MongoDb deverá eleger uma **Replica secundária** para virar primária.
+
+### Quando usar?
+
+**Só adicione um árbitro em uma *ReplicaSet* com um número PAR de membros, para que o árbitro seja o desempate.**
+
+![](https://docs.mongodb.org/manual/_images/replica-set-four-members-add-arbiter.png)
+
+### Como usar?
+
+Primeiramente crie um diretório que conterá os dados de configuração.
+
+```
+mkdir /data/arb
+```
+
+Depois precisa levantar o `mongod` utilizando `--replSet nomeDaReplicaSet` com seu diretório anteriormente criado.
+
+```
+mongod --port 30000 --dbpath /data/arb --replSet replica_set
+```
+
+Após levantar seu árbitro, conecte na *Replica* primária e adicione o árbitro criado com [rs.addArb()](https://docs.mongodb.org/manual/reference/method/rs.addArb/#rs.addArb):
+
+```
+rs.addArb("127.0.0.1:30000")
+```
+
 

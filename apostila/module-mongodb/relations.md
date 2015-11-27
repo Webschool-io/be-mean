@@ -16,6 +16,7 @@ var json = {
   name: "Meus pokemons",
   pokemons: pokemons
 }
+db.invt.insert(json)
 ```
 
 Depois de inserido nossos pokemons vamos criar a busca para pegar cada um.
@@ -30,6 +31,12 @@ invt.pokemons.forEach(getPokemon)
 O *Array* `pokemons` é onde as informações serão jogadas pela função `getPokemon`, a qual faz um `findOne` em cada item, `{"_id": ObjectId("56422345613f89ac53a7b5d1")}`, ...
 
 ## DBRef
+
+O **DBRef** é um convenção para representar um documento relacionado, isso inclui:
+
+- $ref: nome da coleção a ser referenciada;
+- $id: o ObjectId do documento referenciado;
+- $db: a database onde a coleção referenciada se encontra.
 
 ```js
 {
