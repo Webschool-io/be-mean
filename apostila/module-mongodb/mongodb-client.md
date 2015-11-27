@@ -5,7 +5,7 @@
 O [mongo-hacker](https://github.com/TylerBrock/mongo-hacker) é uma extensão para seu terminal que adiciona algumas funcionalidades a mais, como por exemplo *syntax highlighter*, vou mostrar como é no meu terminal:
 
 
-![Visualização do terminal rodando o mongo-hacker](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/mongo-hacker-terminal.png)
+![Visualização do terminal rodando o mongo-hacker](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/module-mongodb/images/mongo-hacker-terminal.png)
 
 ### Database
 
