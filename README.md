@@ -1,9 +1,6 @@
-# Dezembro
+# Calendário Dezembro
 
 ![](./calendar/2015-dezembro.png)
-
-
-# Execícios mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
 
 ## O Professor
 
@@ -56,7 +53,7 @@ A aula segue um grande *workflow* até ser divulgada:
         * Redis (3 horas)
         * Neo4J (4 horas)
         * OrientDb (3 horas)
-        * ElasticSearch (3 horas, fechando o professor)
+        * ElasticSearch (3 horas)
     + Segurança (3 horas)
     + Desktop (10 horas)
         * Node-webkit (2 horas)
