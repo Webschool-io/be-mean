@@ -38,12 +38,6 @@ Todos os membros do conjunto de *Replicas* contém uma cópia do oplog, na cole�
 
 Para facilitar a replicação, todos os membros do conjunto de *Replicas* enviam batimentos cardíacos (pings) para todos os outros membros. Qualquer membro pode importar entradas oplog de qualquer outro membro.
 
-## Árbitro
-
-É um serviço que não possui a réplica dos dados e nem pode virar primário,mas tem poder do voto de Minerva, onde ele irá te rum peciso decisivo na votação de qual *Replica* secundária deve virar primária.
-
-**Só adicione um árbitro em uma *ReplicaSet* com um número PAR de membros, para que o árbitro seja o desempate.**
-
 ## Por que usar?
 
 Porque sempre devemos ter uma garantia dos nossos dados e uma *Replica* serve exatamente para isso, garantir que seus dados existam em outro lugar também, caso o seu servidor principal caia você poderá levantar outro com os dados da sua *Replica*.
@@ -65,95 +59,108 @@ mkdir /data/rs3
 Agora vamos iniciar nossos processos do `mongod`, pare todos que você estiver rodando antes, só precisamos levantar o `mongod` com `--replSet` como visto abaixo:
 
 ```
-mongod --replSet replica_set --port 27017 --dbpath /data/rs1 --logpath /data/rs1/log.txt --fork
-mongod --replSet replica_set --port 27018 --dbpath /data/rs2 --logpath /data/rs1/log.txt --fork
-mongod --replSet replica_set --port 27019 --dbpath /data/rs3 --logpath /data/rs1/log.txt --fork
+mongod --replSet replica_set --port 27017 --dbpath /data/rs1
+mongod --replSet replica_set --port 27018 --dbpath /data/rs2
+mongod --replSet replica_set --port 27019 --dbpath /data/rs3
 ```
 
-Eu executei os comandos acima de um script em shell:
+Caso você queira rodar eles em *background* basta passar o artibuto `--fork` como viso no script [create-replicaset.sh](https://github.com/Webschool-io/be-mean-instagram/blob/master/apostila/module-mongodb/data/create-replicaset.sh):
 
-```
-./create-replicaset.sh
-about to fork child process, waiting until server is ready for connections.
-forked process: 8770
-child process started successfully, parent exiting
-about to fork child process, waiting until server is ready for connections.
-forked process: 8773
-child process started successfully, parent exiting
-about to fork child process, waiting until server is ready for connections.
-forked process: 8776
-child process started successfully, parent exiting
-
-```
-
-Caso você queria rodar sem o `--fork` para ver as mensagens de cada `mongod` execute cada linha do `mongod --replSet` em um terminal diferente, com isso você podderá ver algo assim, no último:
+Executando cada linha acima em um terminal diferente você podderá ver algo assim:
 
 ```
 2015-11-20T13:12:48.187-0200 I CONTROL  [initandlisten] options: {
   net: { port: 27019 },
   replication: { replSet: "replica_set" },
-  storage: { dbPath: "/data/rs3" },
-  systemLog: { destination: "file", path: "/data/rs1/log.txt" }
+  storage: { dbPath: "/data/rs3" }
 }
 2015-11-20T13:12:48.209-0200 I NETWORK  [initandlisten] waiting for connections on port 27019
 ```
 
-Na sequência todas as configurações da *ReplicaSet*.
+### Configurando e iniciando
+
+Depois você deve conectar em cada uma para iniciar o serviço de *Replica* com [rs.initiate()](https://docs.mongodb.org/manual/reference/method/rs.initiate/#rs.initiate), com uma configuração:
 
 ```
-2015-11-20T13:12:48.211-0200 I REPL     [ReplicationExecutor] New replica set config in use: { 
-  _id: "replica_set",
-  version: 1,
-  members: [
-    { _id: 0, host: "localhost:27017",
-      arbiterOnly: false,
-      buildIndexes: true,
-      hidden: false,
-      priority: 1.0,
-      tags: {},
-      slaveDelay: 0,
-      votes: 1
-    },
-    { _id: 1,
-      host: "localhost:27018",
-      arbiterOnly: false,
-      buildIndexes: true,
-      hidden: false,
-      priority: 1.0,
-      tags: {},
-      slaveDelay: 0,
-      votes: 1
-    },
-    { _id: 2,
-      host: "localhost:27019",
-      arbiterOnly: false,
-      buildIndexes: true,
-      hidden: false,
-      priority: 1.0,
-      tags: {},
-      slaveDelay: 0,
-      votes: 1
+rsconf = {
+   _id: "replica_set",
+   members: [
+    {
+     _id: 0,
+     host: "127.0.0.1:27017"
     }
-  ],
-  settings: { 
-    chainingAllowed: true, 
-    heartbeatTimeoutSecs: 10, 
-    getLastErrorModes: {},
-    getLastErrorDefaults: { w: 1, wtimeout: 0 } 
-  } 
+  ]
 }
-[ReplicationExecutor] This node is localhost:27019 in the config
-[ReplicationExecutor] transition to STARTUP2
-[ReplicationExecutor] Starting replication applier threads
-[ReplicationExecutor] transition to RECOVERING
-[ReplicationExecutor] transition to SECONDARY
-[ReplicationExecutor] Member localhost:27017 is now in state PRIMARY
-[ReplicationExecutor] Member localhost:27018 is now in state SECONDARY
+rs.initiate(rsconf)
 ```
 
-**Claro que eu dei uma ajeitada na saída se não ficaria muito texto bagunçado.**
+O objeto de configuração segue o seguinte modelo:
 
-Depois disso nossas *Replicas* estão rodando, para conferirmos vamos conectar em cada um e com isso já veremos qual é a primária e quais são as secundárias.
+```
+{
+  _id: <string>,
+  version: <int>,
+  members: [
+    {
+      _id: <int>,
+      host: <string>,
+      arbiterOnly: <boolean>,
+      buildIndexes: <boolean>,
+      hidden: <boolean>,
+      priority: <number>,
+      tags: <document>,
+      slaveDelay: <int>,
+      votes: <number>
+    },
+    ...
+  ],
+  settings: {
+    getLastErrorDefaults : <document>,
+    chainingAllowed : <boolean>,
+    getLastErrorModes : <document>,
+    heartbeatTimeoutSecs: <int>
+  }
+}
+
+```
+
+Após a execução desse comando vá até o terminal que está rodando o `rs1` e você verá algo assim:
+
+```
+2015-11-27T12:04:22.801-0200 I REPL     [conn1] replSet replSetInitiate config object with 1 members parses ok
+2015-11-27T12:04:22.817-0200 I REPL     [ReplicationExecutor] New replica set config in use: { _id: "replica_set", version: 1, members: [ { _id: 0, host: "127.0.0.1:27017", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 } ], settings: { chainingAllowed: true, heartbeatTimeoutSecs: 10, getLastErrorModes: {}, getLastErrorDefaults: { w: 1, wtimeout: 0 } } }
+2015-11-27T12:04:22.817-0200 I REPL     [ReplicationExecutor] This node is 127.0.0.1:27017 in the config
+2015-11-27T12:04:22.817-0200 I REPL     [ReplicationExecutor] transition to STARTUP2
+2015-11-27T12:04:22.817-0200 I REPL     [conn1] ******
+2015-11-27T12:04:22.817-0200 I REPL     [conn1] creating replication oplog of size: 192MB...
+2015-11-27T12:04:22.817-0200 I STORAGE  [FileAllocator] allocating new datafile /data/rs1/local.1, filling with zeroes...
+2015-11-27T12:04:53.404-0200 I STORAGE  [FileAllocator] done allocating datafile /data/rs1/local.1, size: 256MB,  took 30.586 secs
+2015-11-27T12:04:53.429-0200 I STORAGE  [conn1] MmapV1ExtentManager took 30 seconds to open: /data/rs1/local.1
+2015-11-27T12:04:53.440-0200 I REPL     [conn1] ******
+2015-11-27T12:04:53.440-0200 I REPL     [conn1] Starting replication applier threads
+2015-11-27T12:04:53.440-0200 I COMMAND  [conn1] command admin.$cmd command: replSetInitiate { replSetInitiate: { _id: "replica_set", members: [ { _id: 0.0, host: "127.0.0.1:27017" } ] } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { r: 5, w: 3, W: 2 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 31 } }, MMAPV1Journal: { acquireCount: { w: 7 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 62 } }, Database: { acquireCount: { w: 1, W: 2 } }, Metadata: { acquireCount: { W: 3 } }, oplog: { acquireCount: { w: 1 } } } 30639ms
+2015-11-27T12:04:53.440-0200 I REPL     [ReplicationExecutor] transition to RECOVERING
+2015-11-27T12:04:53.441-0200 I REPL     [ReplicationExecutor] transition to SECONDARY
+2015-11-27T12:04:53.441-0200 I REPL     [ReplicationExecutor] transition to PRIMARY
+2015-11-27T12:04:54.443-0200 I REPL     [rsSync] transition to primary complete; database writes are now permitted
+2015-11-27T12:06:55.711-0200 I INDEX    [conn1] allocating new ns file /data/rs1/test.ns, filling with zeroes...
+2015-11-27T12:06:57.202-0200 I STORAGE  [FileAllocator] allocating new datafile /data/rs1/test.0, filling with zeroes...
+2015-11-27T12:07:05.268-0200 I STORAGE  [FileAllocator] done allocating datafile /data/rs1/test.0, size: 64MB,  took 8.065 secs
+2015-11-27T12:07:05.521-0200 I STORAGE  [conn1] MmapV1ExtentManager took 8 seconds to open: /data/rs1/test.0
+2015-11-27T12:07:05.557-0200 I WRITE    [conn1] insert test.teste query: { _id: ObjectId('5658637f0df85f6f6c694148'), name: "Suissa" }
+```
+
+
+### Adicionando *Replicas*
+
+Depois de termos iniciado nossa *Replica* primária vamos adicionar as outras *Replicas* nessa *ReplicaSet*:
+
+```
+rs.add("127.0.01:27018")
+rs.add("127.0.01:27019")
+```
+
+Após nossas *Replicas* estarem rodando, vamos conectar em cada uma:
 
 ```
 mongo --port 27017
@@ -192,11 +199,14 @@ Server has startup warnings:
 suissacorp(mongod-3.0.6)[SECONDARY] test>
 ```
 
+### Gerenciando
+
+#### Status da ReplicaSet
+
 Para vermos o *status* de cada instância executamos o seguinte comando no `mongo`:
 
 ```js
 rs.status()
-
 {
   "set": "replica_set",
   "date": ISODate("2015-11-20T12:37:19.505Z"),
@@ -247,17 +257,31 @@ rs.status()
   ],
   "ok": 1
 }
-
 ```
 
-Para conhecer mais sobre as configurçãod da *ReplicaSet* [entre aqui no - replSetGetConfig](https://docs.mongodb.org/manual/reference/command/replSetGetConfig/#replsetgetconfig-output).
+Para conhecer mais sobre as configuração da *ReplicaSet* [entre aqui no - replSetGetConfig](https://docs.mongodb.org/manual/reference/command/replSetGetConfig/#replsetgetconfig-output).
 
-Para você rebaixar o `PRIMARY` basta executar o comando `rs.stepDown()`:
+#### Status do oplog
+
+Também possuímos a função `rs.printReplicationInfo()` que mostra um relatório do *oplog* da sua *ReplicaSet*:
+
+```
+rs.printReplicationInfo()
+configured oplog size:   192MB
+log length start to end: 1796secs (0.5hrs)
+oplog first event time:  Fri Nov 27 2015 00:17:37 GMT-0200 (BRST)
+oplog last event time:   Fri Nov 27 2015 00:47:33 GMT-0200 (BRST)
+now:                     Fri Nov 27 2015 11:00:30 GMT-0200 (BRST)
+```
+
+#### Rebaixando a Replica Primária
+
+Caso você deseje rebaixar a *Replica Primária* basta executar o comando `rs.stepDown()` como visto abaixo, forçando o MongoDb a eleger uma Secundária como Primária:
 
 ```
 suissacorp(mongod-3.0.6)[PRIMARY] test> rs.stepDown()
-2015-11-20T13:03:54.299-0200 I NETWORK  DBClientCursor::init call() failed
-2015-11-20T13:03:54.308-0200 E QUERY    Error: error doing query: failed
+2015-11-27T11:03:56.373-0200 I NETWORK  DBClientCursor::init call() failed
+2015-11-27T11:03:56.376-0200 E QUERY    Error: error doing query: failed
     at DBQuery._exec (src/mongo/shell/query.js:83:36)
     at DBQuery.hasNext (src/mongo/shell/query.js:240:10)
     at DBCollection.findOne (src/mongo/shell/collection.js:187:19)
@@ -265,34 +289,78 @@ suissacorp(mongod-3.0.6)[PRIMARY] test> rs.stepDown()
     at DB.adminCommand (src/mongo/shell/db.js:66:41)
     at Function.rs.stepDown (src/mongo/shell/utils.js:1006:15)
     at (shell):1:4 at src/mongo/shell/query.js:83
-2015-11-20T13:03:54.310-0200 I NETWORK  trying reconnect to 127.0.0.1:27017 (127.0.0.1) failed
-2015-11-20T13:03:54.311-0200 I NETWORK  reconnect 127.0.0.1:27017 (127.0.0.1) ok
+2015-11-27T11:03:56.378-0200 I NETWORK  trying reconnect to 127.0.0.1:27119 (127.0.0.1) failed
+2015-11-27T11:03:56.378-0200 I NETWORK  reconnect 127.0.0.1:27119 (127.0.0.1) ok
+suissacorp(mongod-3.0.6)[SECONDARY] test> 
+```
 
-suissacorp(mongod-3.0.6)[SECONDARY] test> show collections
-2015-11-20T13:06:28.320-0200 E QUERY    Error: listCollections failed: {
-  "note": "from execCommand",
-  "ok": 0,
-  "errmsg": "not master"
+Logo após a execução do comando o `mongo` desconecta e conecta novamente, porém dessa vez como `SECONDARY`, como visto na última linha acima.
+
+#### Sincronizando de outro servidor
+
+Caso queira mudar de qual *Replica* a sincronização é feita deves usar o comando `rs.syncFrom()`, por exemplo:
+
+```
+suissacorp(mongod-3.0.6)[SECONDARY] test> rs.syncFrom("127.0.0.1:27119")
+{
+  "syncFromRequested": "127.0.0.1:27119",
+  "ok": 1
 }
-```
-
-Percebeu ali que ele desconectou e tentou reconectar:
 
 ```
-2015-11-20T13:03:54.310-0200 I NETWORK  trying reconnect to 127.0.0.1:27017 (127.0.0.1) failed
-2015-11-20T13:03:54.311-0200 I NETWORK  reconnect 127.0.0.1:27017 (127.0.0.1)
+
+Isso é interessante para você testar diferentes padrões e situações onde uma *Replica* não esteja replicando do *host* desejado.
+
+### Recapitulando
+
+1. Criar um diretório em `/data` para cada *Replica*.
+2. Levantar cada *Replica* com `--replSet nome_ReplicaSet` em uma porta diferente.
+3. Criar um JSON de configuração.
+4. Conectar no **primário** e executar `rs.initiate(JSON_de_config)`.
+5. Adicionar as outras *Replicas* caso não tenha as colocado no JSON de configuração.
+6. Pronto.
+
+## Árbitro
+
+É um serviço que não possui a réplica dos dados e nem pode virar primário,mas tem poder do voto de Minerva, onde ele terá um poder decisivo na votação de qual *Replica* secundária deve virar primária.
+
+### Comunicação
+
+A única comunicação entre os árbitros e os outros membros da *ReplicaSet* são:
+
+- votar durante eleições;
+- heartbeats;
+- dados de configuração.
+
+
+###Por que usar?
+
+Porque quando uma **Replica primária** cair o MongoDb deverá eleger uma **Replica secundária** para virar primária.
+
+### Quando usar?
+
+**Só adicione um árbitro em uma *ReplicaSet* com um número PAR de membros, para que o árbitro seja o desempate.**
+
+![](https://docs.mongodb.org/manual/_images/replica-set-four-members-add-arbiter.png)
+
+### Como usar?
+
+Primeiramente crie um diretório que conterá os dados de configuração.
+
+```
+mkdir /data/arb
 ```
 
-Depois já conectou como secundário:
+Depois precisa levantar o `mongod` utilizando `--replSet nomeDaReplicaSet` com seu diretório anteriormente criado.
 
 ```
-suissacorp(mongod-3.0.6)[SECONDARY] test> show collections
-2015-11-20T13:06:28.320-0200 E QUERY    Error: listCollections failed: {
-  "note": "from execCommand",
-  "ok": 0,
-  "errmsg": "not master"
-}
+mongod --port 30000 --dbpath /data/arb --replSet replica_set
 ```
 
-Para conhecer mais comandos por favor [entre aqui na documentação - Replication Reference](https://docs.mongodb.org/v3.0/reference/replication/).
+Após levantar seu árbitro, conecte na *Replica* primária e adicione o árbitro criado com [rs.addArb()](https://docs.mongodb.org/manual/reference/method/rs.addArb/#rs.addArb):
+
+```
+rs.addArb("127.0.0.1:30000")
+```
+
 

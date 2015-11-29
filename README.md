@@ -1,15 +1,9 @@
+# Dezembro
+
+![](./calendar/2015-dezembro.png)
+
 
 # Execícios mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
-
-# [ ANÚNCIO ]
-
-**Estou combinando c/ professor [William Bruno](https://github.com/wbruno) para criarmos a última aula juntos, porém como mudei o projeto final, teremos que fazer essa aula na SEXTA e SÁBADO!**
-
-Pois é nela que explicaremos todo o projeto final, aí darei mais 1 semana de prazo para fazerem o projeto final.
-
-Dando tempo de gravarmos antecipadamente as aulas de Node.js
-
-**O artigo foi extendido o prazo para 23 de Novembro e será passado outro na última aula para o dia 30!**
 
 ## O Professor
 
@@ -139,7 +133,7 @@ A aula segue um grande *workflow* até ser divulgada:
 
 ##  Módulo Node.js | 30.11 a 27.12
 
-- **Aula 01 | 23.11**
+- **Aula 01 | 07.12**
     + Módulo Node.js
         * Teoria
             - Event Loop
@@ -147,7 +141,7 @@ A aula segue um grande *workflow* até ser divulgada:
         * Servidor HTTP
         * Rotas
         * FileSystem
-- **Aula 02 | 24.11**
+- **Aula 02 | 07.12**
     + Módulo Node.js
         * Eventos
         * NPM
@@ -156,31 +150,34 @@ A aula segue um grande *workflow* até ser divulgada:
             - Retrieve
             - Update
             - Delete
-- **Aula 03 | 25.11**
+- **Aula 03 | 08.12**
     + Módulo Node.js
         * Promises
             - Mongoose
         * Eventos
             - Mongoose
-- **Aula 04 | 26.11**
+- **Aula 04 | 08.12**
     + Módulo Node.js
         * Express
             - Rotas
             - CRUD
                 + Mongoose
-- **Aula 05 | 27.11**
-- **Aula 06 | 30.11**
-- **Aula 07 | 01.12**
-- **Aula 08 | 02.12**
-- **Aula 09 | 03.12**
-- **Aula 10 | 04.12**
-- **Aula 11 | 07.12**
-- **Aula 12 | 08.12**
-- **Aula 13 | 09.12**
-- **Aula 14 | 10.12**
-- **Aula 15 | 11.12**
-- **PROJETO**
-	+ de 12.12 a 20.12
+- **Aula 05 | 09.12**
+- **Aula 06 | 09.12**
+- **Aula 07 | 10.12**
+- **Aula 08 | 10.12**
+- **Aula 09 | 11.12**
+- **Aula 10 | 11.12**
+- **Aula 11 | 12.12**
+- **Aula 12 | 12.12**
+- **Aula 13 | 13.12**
+- **Aula 14 | 13.12**
+- **Aula 15 | 14.12**
+- **Aula 16 | 14.12**
+- **Aula 17 | 15.12**
+- **Aula 18 | 15.12**
+- **Aula 19 | 16.12**
+- **Aula 20 | 16.12**
 
 ##  Módulo Angular | 04.01 a 31.01
 
