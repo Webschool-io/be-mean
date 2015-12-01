@@ -75,32 +75,32 @@ A aula segue um grande *workflow* até ser divulgada:
 # Roteiro
 
 ## Duração
-- Be MEAN (102 horas) e aumentando
-    + MEAN (42 horas)
+- **Be MEAN (102 horas) e aumentando**
+    + **MEAN (42 horas)**
         * MongoDB (7 horas)
         * Node.js (20 horas)
         * AngularJs (15 horas)
-    + Frontend (15 horas)
+    + **Frontend (15 horas)**
         * Atomic Design (5 horas)
         * Stylus (1 hora)
         * Gulp (1 hora)
         * Mobile-first (5 horas)
         * Offile-first (3 horas)
-    + NoSQL (13 horas)
+    + **NoSQL (13 horas)**
         * Redis (3 horas)
         * Neo4J (4 horas)
         * OrientDb (3 horas)
         * ElasticSearch (3 horas)
-    + Segurança (3 horas)
-    + Desktop (10 horas)
+    + **Segurança (3 horas)**
+    + **Desktop (10 horas)**
         * Node-webkit (2 horas)
         * Electron (8 horas)
-    + UX & Animations (7 horas)
-    + ES6 (5 horas)
-    + Deploy e Servidores (5 horas)
-- Geolocation (8 horas)
-- Docker (4 horas)
-- Ionic (10 horas)
+    + **UX & Animations (7 horas)**
+    + **ES6 (5 horas)**
+    + **Deploy e Servidores (5 horas)**
+- **Geolocation (8 horas)**
+- **Docker (4 horas)**
+- **Ionic (10 horas)**
 
 ##  Módulo MongoDB | 09.11 a 22.11
 
