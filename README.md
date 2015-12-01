@@ -10,23 +10,14 @@
 
 Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 41 horas ao total.
 
-<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post" target="_blank">
-<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-<input type="hidden" name="currency" value="BRL">
-<input type="hidden" name="receiverEmail" value="jnascimento@gmail.com">
-<button type="submit" class="btn btn-success btn-lg btn-block">Doação de <b>R$50</b><br><small>Ajude o professor a continuar ensinando</small></button>
-</form>
+Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
+
 
 ## R$100
 
 Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 60 horas ao total!!!**
 
-<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post" target="_blank">
-<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-<input type="hidden" name="currency" value="BRL">
-<input type="hidden" name="receiverEmail" value="jnascimento@gmail.com">
-<button type="submit" class="btn btn-success btn-lg btn-block">Doação de <b>R$100</b><br><small>Ajude o professor a continuar ensinando</small></button>
-</form>
+Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
 
 # O Professor
 
