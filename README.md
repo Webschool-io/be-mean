@@ -75,7 +75,7 @@ A aula segue um grande *workflow* até ser divulgada:
 # Roteiro
 
 ## Duração
-- Be MEAN (101 horas)
+- Be MEAN (102 horas) e aumentando
     + MEAN (42 horas)
         * MongoDB (7 horas)
         * Node.js (20 horas)
