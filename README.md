@@ -2,6 +2,8 @@
 
 ![](./calendar/2015-dezembro.png)
 
+# SOs brindes serão enviados ATÉ O NATAL!!!
+
 ## O Professor
 
 Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.

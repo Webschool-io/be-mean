@@ -34,9 +34,9 @@ Cada config server é uma instância do MongoDb que guarda os metadados sobre o 
 
 ## Router
 
-Cada router é uma instância mongos que faz o roteamento das escritas e leituras para os shards. A aplicação não acessa diretamente os shards.
+Cada router é uma instância `mongos` que faz o roteamento das escritas e leituras para os shards. A aplicação não acessa diretamente os shards.
 
-Para veririficar todas as conexões do seu `mongos` basta conectar nele e rodar o seguinte comando:
+Para verificar todas as conexões do seu `mongos` basta conectar nele e rodar o seguinte comando:
 
 ```js
 db._adminCommand("connPoolStats");
@@ -60,7 +60,7 @@ Como estamos fazendo para testar iremos criar apenas 1, **porém a indicação o
 Depois disso precisamos criar o *Router* utilizando o `mongos`, setando o *Config Server* que ele acessará para ter as informações dos *Shards*.
 
 ```
-mongos -configdb localhost:27010 --port 27011
+mongos -c-onfigdb localhost:27010 --port 27011
 ```
 
 Quando rodar você verá o começo das mensagens assim:
@@ -74,7 +74,7 @@ Quando rodar você verá o começo das mensagens assim:
 Para você configurar mais de 1 *Config Server* basta passar seu `ip:porta` separado por vírgula após o `--configdb`, por exemplo:
 
 ```
-mongos -configdb localhost:27010,190.1.1.10:666,190.1.1.11:666, --port 27011
+mongos --configdb localhost:27010,190.1.1.10:666,190.1.1.11:666, --port 27011
 ```
 
 ### Criando os Shards
@@ -120,17 +120,18 @@ mongos> sh.addShard("localhost:27012")
 { "shardAdded" : "shard0000", "ok" : 1 }
 mongos> sh.addShard("localhost:27013")
 { "shardAdded" : "shard0001", "ok" : 1 }
-mongos> sh.enableSharding("students")
-{ "ok" : 1 }
 suissacorp(mongos-3.0.6)[mongos] test> sh.addShard("localhost:27014")
 {
   "shardAdded": "shard0002",
   "ok": 1
 }
 
+/***
+mongos> sh.enableSharding("students")
+{ "ok" : 1 }
 mongos> sh.shardCollection("students.grades", {"student_id" : 1})
 { "collectionsharded" : "students.grades", "ok" : 1 }
-mongos>
+***/
 ```
 
 Depois disso vamos especificar qual *database* iremos *shardear*:
@@ -142,32 +143,27 @@ sh.enableSharding("be-mean")
 }
 ```
 
-E depois especificamos qual coleção dessa *database* será *shardeada* com `sh.shardCollection`:
+E depois especificamos qual **coleção** dessa *database* será *shardeada* com `sh.shardCollection`:
 
 ```
-sh.shardCollection("be-mean.restaurantes", {"_id" : 1})
+sh.shardCollection("be-mean.notas", {"_id" : 1})
 {
-  "collectionsharded": "be-mean.restaurantes",
+  "collectionsharded": "be-mean.notas",
   "ok": 1
 }
 ```
 
 ### Enviando os dados para o Router
 
+Vamos conectar no *Router* e adicionar dados na nossa *database* e coleção:
+
+```
+for ( i = 1; i < 100000; i++ ) {
+  db.notas.insert({tipo: "prova", nota : Math.random() * 100, estudante_id: i, active: true, date_created: Date.now(), date_created: Date.now(), escola: "Webschool", país: "Brasil", rg: i*3 });
+}
+```
+
 Lembrando que devemos enviar os dados sempre para o *Router* para ele decidir o que fazer.
-
-```
-mongoimport --host 127.0.0.1 --port 27011 --db be-mean --collection restaurantes --drop --file restaurantes.json 
-2015-11-23T20:20:03.027-0200    connected to: 127.0.0.1:27011
-2015-11-23T20:20:03.027-0200    dropping: be-mean.restaurantes
-2015-11-23T20:20:04.887-0200    imported 25359 documents
-```
-
-No 27012:
-
-```
-
-```
 
 ## DICA
 
