@@ -2,6 +2,68 @@
 
 O MongoDb trabalha os usuários definindo quais seus papéis/funções (roles) no sistema.
 
+MongoDB concede acesso a dados e comandos através de autorização baseada em funções(roles) e fornece papéis integrados que fornecem os diferentes níveis de acesso. Além disso, você pode criar papéis definidos pelo usuário.
+
+A função concede privilégios para executar conjuntos de [ações](https://docs.mongodb.org/manual/reference/privilege-actions/#security-user-actions) sobre os [recursos](https://docs.mongodb.org/manual/reference/resource-document/#resource-document) definidos. Um papel é aplicado ao banco de dados no qual ele está definido e pode conceder acesso a um nível de coleção.
+
+Para você conferir todos os papéis de um banco de dados basta rodar o seguinte comando:
+
+```
+db.getRoles({ rolesInfo: 1, showBuiltinRoles: true })
+[
+  {
+    "role": "dbAdmin",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "dbOwner",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "read",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "readWrite",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "userAdmin",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  }
+]
+
+```
+
+Com o `rolesInfo: 1` você traz todos os papéis criados pelo usuário, nesse caso nenhum, e `showBuiltinRoles: true` mostra os papéis já integrados bem como as definidas pelo usuário.
+
+Tod a informação de autenticação e autorização de usuários fica na coleção `system.users` no banco de dados `admin`. Para gerenciar essa coleção o MongoDB nos provê os [comandos de gerenciamento de usuários](https://docs.mongodb.org/manual/reference/command/#user-management-commands).
+
+## Comandos de gerenciamento de usuários
+
+- [createUser](https://docs.mongodb.org/manual/reference/command/createUser/#dbcmd.createUser): cria um novo usuário;
+- [updateUser](https://docs.mongodb.org/manual/reference/command/updateUser/#dbcmd.updateUser): atualiza os dados do usuário;
+- [dropUser](https://docs.mongodb.org/manual/reference/command/dropUser/#dbcmd.dropUser): remove um único usuário;
+- [dropAllUsersFromDatabase](https://docs.mongodb.org/manual/reference/command/dropAllUsersFromDatabase/#dbcmd.dropAllUsersFromDatabase): remove **todos** os usuário da *database*;
+- [grantRolesToUser](): concede um papel e seus privilégios de um usuário;
+- [revokeRolesFromUser](): remove um papel de um usuário;
+- [usersInfo](): retorna a informção de um usuário específico.
+
 ## Funções de banco de dados de usuários
 
 Cada banco de dados inclui os seguintes papéis de cliente:
@@ -94,7 +156,10 @@ O **userAdmin** possui as seguintes ações:
 - [viewRole](https://docs.mongodb.org/manual/reference/privilege-actions/#authr.viewRole)
 - [viewUser](https://docs.mongodb.org/manual/reference/privilege-actions/#authr.viewUser)
 
+## Funções de Administração de Cluster
 
+
+## Ações Privilegiadas
 
 
 

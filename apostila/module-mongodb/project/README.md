@@ -51,6 +51,11 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 4. Escolha 2 usuário e apague todos os projetos em que os 2 fazem parte.
 5. Apague todos os projetos que possuam uma determinada *tag* em *goal*.
 
+## Gerenciamento de usuários
+
+1. Crie um usuário com permissões **APENAS** de Leitura.
+2. Crie um usuário com permissões de Escrita e Leitura.
+
 ## Cluster
 
 Depois de criada toda sua base você deverá criar um cluster utilizando:
