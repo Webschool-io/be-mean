@@ -1,476 +1,11 @@
 # Usuários e Senhas
 
-O MongoDb trabalha os usuários definindo quais seus papéis/funções (roles) no sistema.
+O MongoDb trabalha com usuários definindo quais seus papéis/funções (roles) no sistema.
 
-MongoDB concede acesso a dados e comandos através de autorização baseada em funções(roles) e fornece papéis integrados que fornecem os diferentes níveis de acesso. Além disso, você pode criar papéis definidos pelo usuário.
+Ele concede acesso a dados e comandos através de autorização baseada em funções(roles) e fornece papéis integrados que fornecem os diferentes níveis de acesso. Além disso, você pode criar papéis definidos pelo usuário.
 
 A função concede privilégios para executar conjuntos de [ações](https://docs.mongodb.org/manual/reference/privilege-actions/#security-user-actions) sobre os [recursos](https://docs.mongodb.org/manual/reference/resource-document/#resource-document) definidos. Um papel é aplicado ao banco de dados no qual ele está definido e pode conceder acesso a um nível de coleção.
 
-## usersInfo
-
-Retorna informações sobre um ou mais usuários. Para corresponder a um único usuário no banco de dados, utilize o seguinte modelo:
-
-```
-{ usersInfo: { user: <name>, db: <db> },
-  showCredentials: <Boolean>,
-  showPrivileges: <Boolean>
-}
-```
-
-#### Exemplo
-
-Esse resultado aqui é após eu inserir o usuário **"suissa"** que está nesse conteúdo mais para frente.
-
-Vamos ver a listagem dos usuários nessa database com `{ usersInfo: 1 }`:
-
-```
-db.runCommand( { usersInfo: 1 } )
-{
-  "users": [
-    {
-      "_id": "be-mean.suissa",
-      "user": "suissa",
-      "db": "be-mean",
-      "customData": {
-        "teacher": true
-      },
-      "roles": [
-        {
-          "role": "clusterAdmin",
-          "db": "admin"
-        },
-        {
-          "role": "readAnyDatabase",
-          "db": "admin"
-        },
-        {
-          "role": "readWrite",
-          "db": "be-mean"
-        }
-      ]
-    }
-  ],
-  "ok": 1
-}
-
-```
-
-E se eu quiser ver minhas credenciais e privilégios? Basta passar `showCredentials: true` e `showPrivileges: true` como visto abaixo:
-
-```
-db.runCommand({ usersInfo: { user: "suissa", db: "be-mean" },
-  showCredentials: true,
-  showPrivileges: true
-})
-{
-  "users": [
-    {
-      "_id": "be-mean.suissa",
-      "user": "suissa",
-      "db": "be-mean",
-      "credentials": {
-        "SCRAM-SHA-1": {
-          "iterationCount": 10000,
-          "salt": "dEZ9uFr0kohyUpcpLIAUxg==",
-          "storedKey": "O7g9QIXYFXUNHx0X/N85GjEv5xo=",
-          "serverKey": "Fl4e9/r5EHTKbPuTcLEJNqjK8L4="
-        }
-      },
-      "customData": {
-        "teacher": true
-      },
-      "roles": [
-        {
-          "role": "clusterAdmin",
-          "db": "admin"
-        },
-        {
-          "role": "readAnyDatabase",
-          "db": "admin"
-        },
-        {
-          "role": "readWrite",
-          "db": "be-mean"
-        }
-      ],
-      "inheritedRoles": [
-        {
-          "role": "readWrite",
-          "db": "be-mean"
-        },
-        {
-          "role": "readAnyDatabase",
-          "db": "admin"
-        },
-        {
-          "role": "clusterAdmin",
-          "db": "admin"
-        }
-      ],
-      "inheritedPrivileges": [
-        {
-          "resource": {
-            "cluster": true
-          },
-          "actions": [
-            "addShard",
-            "appendOplogNote",
-            "applicationMessage",
-            "cleanupOrphaned",
-            "connPoolStats",
-            "connPoolSync",
-            "cpuProfiler",
-            "cursorInfo",
-            "diagLogging",
-            "flushRouterConfig",
-            "fsync",
-            "getCmdLineOpts",
-            "getLog",
-            "getParameter",
-            "getShardMap",
-            "hostInfo",
-            "inprog",
-            "invalidateUserCache",
-            "killop",
-            "listDatabases",
-            "listShards",
-            "logRotate",
-            "netstat",
-            "removeShard",
-            "replSetConfigure",
-            "replSetGetConfig",
-            "replSetGetStatus",
-            "replSetStateChange",
-            "resync",
-            "serverStatus",
-            "setParameter",
-            "shardingState",
-            "shutdown",
-            "top",
-            "touch",
-            "unlock"
-          ]
-        },
-        {
-          "resource": {
-            "db": "",
-            "collection": ""
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "dropDatabase",
-            "enableSharding",
-            "find",
-            "getShardVersion",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "moveChunk",
-            "planCacheRead",
-            "repairDatabase",
-            "splitChunk",
-            "splitVector"
-          ]
-        },
-        {
-          "resource": {
-            "db": "config",
-            "collection": ""
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "anyResource": true
-          },
-          "actions": [
-            "listCollections"
-          ]
-        },
-        {
-          "resource": {
-            "db": "config",
-            "collection": "system.indexes"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "config",
-            "collection": "system.js"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "config",
-            "collection": "system.namespaces"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "local",
-            "collection": "system.replset"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "",
-            "collection": "system.profile"
-          },
-          "actions": [
-            "find"
-          ]
-        },
-        {
-          "resource": {
-            "db": "config",
-            "collection": "settings"
-          },
-          "actions": [
-            "insert",
-            "remove",
-            "update"
-          ]
-        },
-        {
-          "resource": {
-            "db": "",
-            "collection": "system.indexes"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "",
-            "collection": "system.js"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "",
-            "collection": "system.namespaces"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "be-mean",
-            "collection": ""
-          },
-          "actions": [
-            "collStats",
-            "convertToCapped",
-            "createCollection",
-            "createIndex",
-            "dbHash",
-            "dbStats",
-            "dropCollection",
-            "dropIndex",
-            "emptycapped",
-            "find",
-            "insert",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead",
-            "remove",
-            "renameCollectionSameDB",
-            "update"
-          ]
-        },
-        {
-          "resource": {
-            "db": "be-mean",
-            "collection": "system.indexes"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        },
-        {
-          "resource": {
-            "db": "be-mean",
-            "collection": "system.js"
-          },
-          "actions": [
-            "collStats",
-            "convertToCapped",
-            "createCollection",
-            "createIndex",
-            "dbHash",
-            "dbStats",
-            "dropCollection",
-            "dropIndex",
-            "emptycapped",
-            "find",
-            "insert",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead",
-            "remove",
-            "renameCollectionSameDB",
-            "update"
-          ]
-        },
-        {
-          "resource": {
-            "db": "be-mean",
-            "collection": "system.namespaces"
-          },
-          "actions": [
-            "collStats",
-            "dbHash",
-            "dbStats",
-            "find",
-            "killCursors",
-            "listCollections",
-            "listIndexes",
-            "planCacheRead"
-          ]
-        }
-      ]
-    }
-  ],
-  "ok": 1
-}
-
-```
-
-Caso deseje ver vários usuários ao mesmo tempo basta passá-los em um array: `[{ user: "suissa", db: "be-mean" }, { user: "sayaman", db: "be-mean" }]`
-
-Para você conferir todos os papéis de um banco de dados basta rodar o seguinte comando:
-
-```
-db.getRoles({ rolesInfo: 1, showBuiltinRoles: true })
-[
-  {
-    "role": "dbAdmin",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "dbOwner",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "read",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "readWrite",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "userAdmin",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  }
-]
-
-```
-
-Com o `rolesInfo: 1` você traz todos os papéis criados pelo usuário, nesse caso nenhum, e `showBuiltinRoles: true` mostra os papéis já integrados bem como as definidas pelo usuário.
-
-Tod a informação de autenticação e autorização de usuários fica na coleção `system.users` no banco de dados `admin`. Para gerenciar essa coleção o MongoDB nos provê os [comandos de gerenciamento de usuários](https://docs.mongodb.org/manual/reference/command/#user-management-commands).
 
 ## Comandos de gerenciamento de usuários
 
@@ -506,7 +41,31 @@ Para conceder funções a um usuário, você deve ter a ação `grantRole` no ba
 
 #### Exemplo
 
-E para executá-lo precisamos usar a função `runCommand` como visto abaixo:
+##### Criando um usuário administrador
+
+Para executá-lo precisamos usar a função `createUser` como visto abaixo:
+
+```
+use admin
+db.createUser(
+  {
+    user: "SuissaAdmin",
+    pwd: "admin123",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+Successfully added user: {
+  "user": "SuissaAdmin",
+  "roles": [
+    {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+    }
+  ]
+}
+```
+
+Ou podemos usar a função `runCommand` como nesse exemplo:
 
 ```
 db.runCommand( { createUser: "suissa",
@@ -540,7 +99,6 @@ E o último papel, `"readWrite"`, está evidenciando que é na *database* onde e
 Caso você deseje que o MongoDb gere um *hash* como senha, basta passar o `digestPassword` como `true`.
 
 
-
 ### updateUser
 
 Atualiza o perfil do usuário no banco de dados no qual você executa o comando. Uma atualização para um campo substitui completamente os valores do campo anterior, incluindo alterações no array de papéis do usuário.
@@ -558,6 +116,16 @@ O comando `updateUser` usa a seguinte sintaxe. Para atualizar um usuário, você
   writeConcern: { <write concern> }
 }
 ```
+
+#### Acesso Requerido
+
+Você deve ter acesso, que inclui a ação `revokeRole` em todos os bancos, a fim de atualizar os papéis de um usuário.
+
+Você deve ter a ação `grantRole` no banco de dados para adicionar uma função a um usuário.
+
+Para alterar o campo `pwd` ou `customData` de outro usuário, você deve ter as ações `changeAnyPassword` e `changeAnyCustomData` respectivamente no banco de dados do usuário.
+
+Para modificar seus próprios dados de senha e `customData`, você deve ter privilégios que concedem ações `changeOwnPassword` e `changeOwnCustomData` respectivamente no banco de dados do usuário.
 
 #### Exemplo
 
@@ -591,7 +159,7 @@ Você deve ter a ação `dropUser` em um banco de dados para remover um usuário
 #### Exemplo
 
 ```
-db.runCommand( { updateUser: "suissa",
+db.runCommand( { dropUser: "suissa",
    writeConcern: { w: "majority", wtimeout: 5000 }
 })
 {
@@ -658,7 +226,7 @@ db.runCommand( { grantRolesToUser: "OutroUser",
 
 ### revokeRolesFromUser
 
-Remove a uma ou mais funções de um usuário no banco de dados, onde existem os papéis. O comando revokeRolesFromUser usa a seguinte sintaxe:
+Remove a uma ou mais funções de um usuário no banco de dados, onde existem os papéis. O comando `revokeRolesFromUser` usa a seguinte sintaxe:
 
 ```
 { revokeRolesFromUser: "<user>",
@@ -673,19 +241,105 @@ Remove a uma ou mais funções de um usuário no banco de dados, onde existem os
 
 #### Acesso Requerido
 
-Você deve ter a ação `grantRole` em um banco de dados para adicionar um papel a um usuário do banco de dados.
+Você deve ter a ação `revokeRole` em um banco de dados para remover um papel ou mais papéis de um usuário do banco de dados.
 
 #### Exemplo
 
 ```
-db.runCommand( { grantRolesToUser: "OutroUser",
+ db.runCommand( { revokeRolesFromUser: "OutroUser",
   roles: [
-    { role: "read", db: "be-mean"},
-    "readWrite"
+          { role: "read", db: "be-mean" },
+          "readWrite"
   ],
-  writeConcern: { w: "majority" , wtimeout: 2000 }
+  writeConcern: { w: "majority" }
  })
 ```
+
+
+### usersInfo
+
+Retorna informações sobre um ou mais usuários. Para corresponder a um único usuário no banco de dados, utilize o seguinte modelo:
+
+```
+{ usersInfo: { user: <name>, db: <db> },
+  showCredentials: <Boolean>,
+  showPrivileges: <Boolean>
+}
+```
+
+#### Exemplo
+
+
+Vamos ver a listagem dos usuários nessa database com `{ usersInfo: 1 }`:
+
+```
+db.runCommand( { usersInfo: 1 } )
+{
+  "users": [ ],
+  "ok": 1
+}
+```
+
+Para você conferir todos os papéis de um banco de dados basta rodar o seguinte comando:
+
+```
+db.getRoles({ rolesInfo: 1, showBuiltinRoles: true })
+[
+  {
+    "role": "dbAdmin",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "dbOwner",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "read",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "readWrite",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  },
+  {
+    "role": "userAdmin",
+    "db": "test",
+    "isBuiltin": true,
+    "roles": [ ],
+    "inheritedRoles": [ ]
+  }
+]
+
+```
+
+Com o `rolesInfo: 1` você traz todos os papéis criados pelo usuário, nesse caso nenhum, e `showBuiltinRoles: true` mostra os papéis já integrados bem como os definidos pelo usuário.
+
+E se eu quiser ver minhas credenciais e privilégios? Basta passar `showCredentials: true` e `showPrivileges: true` como visto abaixo:
+
+```
+db.runCommand({ usersInfo: { user: "suissa", db: "be-mean" },
+  showCredentials: true,
+  showPrivileges: true
+})
+```
+
+Caso deseje ver vários usuários ao mesmo tempo basta passá-los em um array: `[{ user: "suissa", db: "be-mean" }, { user: "sayaman", db: "be-mean" }]`
+
+
+Toda informação de autenticação e autorização de usuários fica na coleção `system.users` no banco de dados `admin`. Para gerenciar essa coleção o MongoDB nos provê os [comandos de gerenciamento de usuários](https://docs.mongodb.org/manual/reference/command/#user-management-commands).
+
 
 ## Funções de banco de dados de usuários
 
@@ -758,8 +412,6 @@ Cada banco de dados inclui as seguintes funções de administração de banco de
 
 ### dbOwner
 
-The database owner can perform any administrative action on the database. This role combines the privileges granted by the readWrite, dbAdmin and userAdmin roles.
-
 O **dbOwner** pode executar qualquer ação administrativa no banco de dados. Este papel combina os privilégios concedidos pelos papéis **readWrite**, **dbAdmin** e **userAdmin**.
 
 ### userAdmin
@@ -780,14 +432,8 @@ O **userAdmin** possui as seguintes ações:
 - [viewUser](https://docs.mongodb.org/manual/reference/privilege-actions/#authr.viewUser)
 
 
+## Artigo
 
-## Ações de Privilégio
+Como  esse material ficaria muito grande para essa aula, **porém futuramente pretendo colocar toda a informação aqui.** Por hora pedirei para você escrever um artigo que **é obrigatório** para se obter o certificado.
 
-Ações de privilégio definem as operações que um usuário pode executar em um recurso. Um privilégio no MongoDB dispõe de um recurso e as ações permitidas. 
-
-Como são muitas ações esse material ficaria muito grande para essa aula, **porém futuramente pretendo colocar toda a informação aqui.** Por hora veja na [documentação oficial](https://docs.mongodb.org/manual/reference/privilege-actions/#security-user-actions) o que cada ação pode fazer.
-
-
-
-Existem **MUITO MAIS COMANDOS DE GERENCIAMENTO** [aqui em Database Commands](https://docs.mongodb.org/manual/reference/command/#user-management-commands).
-
+Leia sobre o artigo [aqui](./articles).
