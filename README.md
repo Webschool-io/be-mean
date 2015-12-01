@@ -2,9 +2,19 @@
 
 ![](./calendar/2015-dezembro.png)
 
-# SOs brindes serão enviados ATÉ O NATAL!!!
+# Os brindes serão enviados ATÉ O NATAL!!!
 
-## O Professor
+# Doações
+
+## R$50
+
+Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 41 horas ao total.
+
+## R$100
+
+Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 60 horas ao total!!!**
+
+# O Professor
 
 Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.
 
@@ -19,7 +29,7 @@ Mas já avisando será a última pós que darei aula será a da minha cidade ond
 Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados NoSQL que eu amo, acho que fecharei com chave de ouro e me focarei única exclusivamente à faculdade web que desejo criar **para a Webschool.io**
 
 
-## A Aula
+# A Aula
 
 A aula segue um grande *workflow* até ser divulgada:
 
@@ -33,7 +43,7 @@ A aula segue um grande *workflow* até ser divulgada:
 8. Upload da aula;
 9. Divulgação do link.
 
-### Início
+## Início
 
 **Sempre as 22 horas com pelo menos 1 hora de chat ao vivo com o professor.**
 
