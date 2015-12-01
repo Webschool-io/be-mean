@@ -8,14 +8,34 @@
 
 ## R$50
 
-Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 41 horas ao total.
+Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 42 horas ao total.
+
+Certificados:
+
+- MongoDB (7 horas)
+- Node.js (20 horas)
+- AngularJs (15 horas)
+
 
 Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
 
 
 ## R$100
 
-Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 60 horas ao total!!!**
+Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 101 horas ao total!!!**
+
+Certificados:
+
+- MongoDB (7 horas)
+- Node.js (20 horas)
+- AngularJs (15 horas)
+- Frontend (15 horas)
+- NoSQL (13 horas)
+- Segurança (3 horas)
+- Desktop (10 horas)
+- UX & Animations (7 horas)
+- ES6 (5 horas)
+- Deploy e Servidores (5 horas)
 
 Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
 
@@ -56,8 +76,8 @@ A aula segue um grande *workflow* até ser divulgada:
 
 ## Duração
 - Be MEAN (101 horas)
-    + MEAN (41 horas)
-        * MongoDB (6 horas)
+    + MEAN (42 horas)
+        * MongoDB (7 horas)
         * Node.js (20 horas)
         * AngularJs (15 horas)
     + Frontend (15 horas)
