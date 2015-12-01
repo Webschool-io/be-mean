@@ -115,14 +115,16 @@ A aula segue um grande *workflow* até ser divulgada:
     	* distinct
         * group
         * Aggregation Framework
-- **Aula 06 | 20.11**
+- **Aula 06 | 27.11**
     + Módulo MongoDB
         * Explain
         * Índices
-        * Users and Passwords
-        * Replica
-        * Sharding
         * GridFs
+        * Replica
+- **Aula 06 | 01.12**
+    + Módulo MongoDB
+        * Sharding
+        * Users and Passwords
         * Robomongo
         * Modelagem
 - **PROJETO**
