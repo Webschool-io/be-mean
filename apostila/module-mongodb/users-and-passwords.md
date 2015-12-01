@@ -60,9 +60,189 @@ Tod a informação de autenticação e autorização de usuários fica na coleç
 - [updateUser](https://docs.mongodb.org/manual/reference/command/updateUser/#dbcmd.updateUser): atualiza os dados do usuário;
 - [dropUser](https://docs.mongodb.org/manual/reference/command/dropUser/#dbcmd.dropUser): remove um único usuário;
 - [dropAllUsersFromDatabase](https://docs.mongodb.org/manual/reference/command/dropAllUsersFromDatabase/#dbcmd.dropAllUsersFromDatabase): remove **todos** os usuário da *database*;
-- [grantRolesToUser](): concede um papel e seus privilégios de um usuário;
-- [revokeRolesFromUser](): remove um papel de um usuário;
-- [usersInfo](): retorna a informção de um usuário específico.
+- [grantRolesToUser](https://docs.mongodb.org/manual/reference/command/grantRolesToUser/#dbcmd.grantRolesToUser): concede um papel e seus privilégios de um usuário;
+- [revokeRolesFromUser](https://docs.mongodb.org/manual/reference/command/revokeRolesFromUser/#dbcmd.revokeRolesFromUser): remove um papel de um usuário;
+- [usersInfo](https://docs.mongodb.org/manual/reference/command/usersInfo/#dbcmd.usersInfo): retorna a informção de um usuário específico.
+
+### createUser
+
+Cria um novo usuário no banco de dados onde você executa o comando. O comando `createUser` retorna um erro de usuário duplicado se o usuário existir. O comando `createUser` usa a seguinte sintaxe:
+
+```
+{ createUser: "<name>",
+  pwd: "<cleartext password>",
+  customData: { <any information> },
+  roles: [
+    { role: "<role>", db: "<database>" } | "<role>",
+    ...
+  ],
+  digestPassword: boolean, //opcional
+  writeConcern: { <write concern> }
+}
+```
+
+#### Exemplo
+
+E para executá-lo precisamos usar a função `runCommand` como visto abaixo:
+
+```
+db.getSiblingDB('be-mean').runCommand( { createUser: "suissa",
+  pwd: "SuisseraManoVeio",
+  customData: { teacher: true },
+  roles: [
+     { role: "clusterAdmin", db: "admin" },
+     { role: "readAnyDatabase", db: "admin" },
+     "readWrite"
+   ],
+  writeConcern: { w: "majority" , wtimeout: 5000 }
+} )
+{
+  "ok": 1
+}
+```
+
+Perceba que usamos a função [getSiblingDB](https://docs.mongodb.org/manual/reference/method/db.getSiblingDB/), ela é apenas um atalho para `use be-mean` porém já podemos executar o comando diretamente após essa função. Ela é interessante quando você precisa dar comandos em outras databases mas não quer sair da sua atual.
+
+Caso deseje criar um usuário sem nenhum papel ainda basta passar um array vazio para `roles`.
+
+Os dois primeiros papéis estamos evidenciando que eles existem na *database* `admin`:
+
+```
+{ role: "clusterAdmin", db: "admin" },
+{ role: "readAnyDatabase", db: "admin" }
+```
+
+E o último papel, `"readWrite"`, está evidenciando que é na *database* onde estou rodando o comando, no caso `be-mean` pois nós a escolhemos antes com `db.getSiblingDB('be-mean')`
+
+Caso você deseje que o MongoDb gere um *hash* como senha, basta passar o `digestPassword` como `true`.
+
+### updateUser
+
+Atualiza o perfil do usuário no banco de dados no qual você executa o comando. Uma atualização para um campo substitui completamente os valores do campo anterior, incluindo alterações no array de papéis do usuário.
+
+O comando `updateUser` usa a seguinte sintaxe. Para atualizar um usuário, você deve especificar o campo `updateUser` e pelo menos um outro campo, exceto writeConcern:
+
+```
+{ updateUser: "<username>",
+  pwd: "<cleartext password>",
+  customData: { <any information> },
+  roles: [
+    { role: "<role>", db: "<database>" } | "<role>",
+    ...
+  ],
+  writeConcern: { <write concern> }
+}
+```
+
+#### Exemplo
+
+```
+db.runCommand( { updateUser: "suissa",
+  customData: { teacher: false } )
+{
+  "ok": 1
+}
+```
+
+#### CUIDADO
+
+Quando você atualizar o array de papéis, você substituirá completamente os valores do array anterior. Para adicionar ou remover funções sem substituir todas as funções existentes do usuário, utilize os comandos [grantRolesToUser](https://docs.mongodb.org/manual/reference/command/grantRolesToUser/#dbcmd.grantRolesToUser) ou [revokeRolesFromUser](https://docs.mongodb.org/manual/reference/command/revokeRolesFromUser/#dbcmd.revokeRolesFromUser).
+
+### dropUser
+
+Remove o usuário do banco de dados no qual você executa o comando. O comando `dropUser` tem a seguinte sintaxe:
+
+```
+{
+  dropUser: "<user>",
+  writeConcern: { <write concern> }
+}
+```
+
+#### Acesso Requerido
+
+Você deve ter a ação `dropUser` em um banco de dados para remover um usuário de banco de dados.
+
+#### Exemplo
+
+```
+db.runCommand( { updateUser: "suissa",
+   writeConcern: { w: "majority", wtimeout: 5000 }
+})
+{
+  "ok": 1
+}
+```
+
+### dropAllUsersFromDatabase
+
+Remove todos os usuários do banco de dados no qual você executa o comando.
+
+O comando `dropAllUsersFromDatabase` segue a seguinte sintaxe:
+
+```
+{ dropAllUsersFromDatabase: 1,
+  writeConcern: { <write concern> }
+}
+```
+
+#### Acesso Requerido
+
+Você deve ter a ação `dropUser` em um banco de dados para remover um usuário de banco de dados.
+
+#### Exemplo
+
+```
+db.runCommand( { dropAllUsersFromDatabase: 1, writeConcern: { w: "majority" } } )
+{
+  "n": 1,
+  "ok": 1
+}
+```
+
+Onde `n` é o número de usuário removidos.
+
+### grantRolesToUser
+
+Adiciona papéis adicionais a um usuário.
+
+O comando `grantRolesToUser` usa a seguinte sintaxe:
+
+```
+{ grantRolesToUser: "<user>",
+  roles: [ <roles> ],
+  writeConcern: { <write concern> }
+}
+```
+
+#### Acesso Requerido
+
+Você deve ter a ação `grantRole` em um banco de dados para adicionar um papel a um usuário do banco de dados.
+
+```
+db.runCommand( { grantRolesToUser: "OutroUser",
+  roles: [
+    { role: "read", db: "be-mean"},
+    "readWrite"
+  ],
+  writeConcern: { w: "majority" , wtimeout: 2000 }
+ })
+```
+
+### revokeRolesFromUser
+
+Remove a uma ou mais funções de um usuário no banco de dados, onde existem os papéis. O comando revokeRolesFromUser usa a seguinte sintaxe:
+
+```
+{ revokeRolesFromUser: "<user>",
+  roles: [
+    { role: "<role>", db: "<database>" } | "<role>",
+    ...
+  ],
+  writeConcern: { <write concern> }
+}
+```
+
 
 ## Funções de banco de dados de usuários
 
