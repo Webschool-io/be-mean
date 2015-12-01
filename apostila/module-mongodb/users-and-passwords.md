@@ -6,6 +6,424 @@ MongoDB concede acesso a dados e comandos através de autorização baseada em f
 
 A função concede privilégios para executar conjuntos de [ações](https://docs.mongodb.org/manual/reference/privilege-actions/#security-user-actions) sobre os [recursos](https://docs.mongodb.org/manual/reference/resource-document/#resource-document) definidos. Um papel é aplicado ao banco de dados no qual ele está definido e pode conceder acesso a um nível de coleção.
 
+## usersInfo
+
+Retorna informações sobre um ou mais usuários. Para corresponder a um único usuário no banco de dados, utilize o seguinte modelo:
+
+```
+{ usersInfo: { user: <name>, db: <db> },
+  showCredentials: <Boolean>,
+  showPrivileges: <Boolean>
+}
+```
+
+#### Exemplo
+
+Esse resultado aqui é após eu inserir o usuário **"suissa"** que está nesse conteúdo mais para frente.
+
+Vamos ver a listagem dos usuários nessa database com `{ usersInfo: 1 }`:
+
+```
+db.runCommand( { usersInfo: 1 } )
+{
+  "users": [
+    {
+      "_id": "be-mean.suissa",
+      "user": "suissa",
+      "db": "be-mean",
+      "customData": {
+        "teacher": true
+      },
+      "roles": [
+        {
+          "role": "clusterAdmin",
+          "db": "admin"
+        },
+        {
+          "role": "readAnyDatabase",
+          "db": "admin"
+        },
+        {
+          "role": "readWrite",
+          "db": "be-mean"
+        }
+      ]
+    }
+  ],
+  "ok": 1
+}
+
+```
+
+E se eu quiser ver minhas credenciais e privilégios? Basta passar `showCredentials: true` e `showPrivileges: true` como visto abaixo:
+
+```
+db.runCommand({ usersInfo: { user: "suissa", db: "be-mean" },
+  showCredentials: true,
+  showPrivileges: true
+})
+{
+  "users": [
+    {
+      "_id": "be-mean.suissa",
+      "user": "suissa",
+      "db": "be-mean",
+      "credentials": {
+        "SCRAM-SHA-1": {
+          "iterationCount": 10000,
+          "salt": "dEZ9uFr0kohyUpcpLIAUxg==",
+          "storedKey": "O7g9QIXYFXUNHx0X/N85GjEv5xo=",
+          "serverKey": "Fl4e9/r5EHTKbPuTcLEJNqjK8L4="
+        }
+      },
+      "customData": {
+        "teacher": true
+      },
+      "roles": [
+        {
+          "role": "clusterAdmin",
+          "db": "admin"
+        },
+        {
+          "role": "readAnyDatabase",
+          "db": "admin"
+        },
+        {
+          "role": "readWrite",
+          "db": "be-mean"
+        }
+      ],
+      "inheritedRoles": [
+        {
+          "role": "readWrite",
+          "db": "be-mean"
+        },
+        {
+          "role": "readAnyDatabase",
+          "db": "admin"
+        },
+        {
+          "role": "clusterAdmin",
+          "db": "admin"
+        }
+      ],
+      "inheritedPrivileges": [
+        {
+          "resource": {
+            "cluster": true
+          },
+          "actions": [
+            "addShard",
+            "appendOplogNote",
+            "applicationMessage",
+            "cleanupOrphaned",
+            "connPoolStats",
+            "connPoolSync",
+            "cpuProfiler",
+            "cursorInfo",
+            "diagLogging",
+            "flushRouterConfig",
+            "fsync",
+            "getCmdLineOpts",
+            "getLog",
+            "getParameter",
+            "getShardMap",
+            "hostInfo",
+            "inprog",
+            "invalidateUserCache",
+            "killop",
+            "listDatabases",
+            "listShards",
+            "logRotate",
+            "netstat",
+            "removeShard",
+            "replSetConfigure",
+            "replSetGetConfig",
+            "replSetGetStatus",
+            "replSetStateChange",
+            "resync",
+            "serverStatus",
+            "setParameter",
+            "shardingState",
+            "shutdown",
+            "top",
+            "touch",
+            "unlock"
+          ]
+        },
+        {
+          "resource": {
+            "db": "",
+            "collection": ""
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "dropDatabase",
+            "enableSharding",
+            "find",
+            "getShardVersion",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "moveChunk",
+            "planCacheRead",
+            "repairDatabase",
+            "splitChunk",
+            "splitVector"
+          ]
+        },
+        {
+          "resource": {
+            "db": "config",
+            "collection": ""
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "anyResource": true
+          },
+          "actions": [
+            "listCollections"
+          ]
+        },
+        {
+          "resource": {
+            "db": "config",
+            "collection": "system.indexes"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "config",
+            "collection": "system.js"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "config",
+            "collection": "system.namespaces"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "local",
+            "collection": "system.replset"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "",
+            "collection": "system.profile"
+          },
+          "actions": [
+            "find"
+          ]
+        },
+        {
+          "resource": {
+            "db": "config",
+            "collection": "settings"
+          },
+          "actions": [
+            "insert",
+            "remove",
+            "update"
+          ]
+        },
+        {
+          "resource": {
+            "db": "",
+            "collection": "system.indexes"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "",
+            "collection": "system.js"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "",
+            "collection": "system.namespaces"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "be-mean",
+            "collection": ""
+          },
+          "actions": [
+            "collStats",
+            "convertToCapped",
+            "createCollection",
+            "createIndex",
+            "dbHash",
+            "dbStats",
+            "dropCollection",
+            "dropIndex",
+            "emptycapped",
+            "find",
+            "insert",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead",
+            "remove",
+            "renameCollectionSameDB",
+            "update"
+          ]
+        },
+        {
+          "resource": {
+            "db": "be-mean",
+            "collection": "system.indexes"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        },
+        {
+          "resource": {
+            "db": "be-mean",
+            "collection": "system.js"
+          },
+          "actions": [
+            "collStats",
+            "convertToCapped",
+            "createCollection",
+            "createIndex",
+            "dbHash",
+            "dbStats",
+            "dropCollection",
+            "dropIndex",
+            "emptycapped",
+            "find",
+            "insert",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead",
+            "remove",
+            "renameCollectionSameDB",
+            "update"
+          ]
+        },
+        {
+          "resource": {
+            "db": "be-mean",
+            "collection": "system.namespaces"
+          },
+          "actions": [
+            "collStats",
+            "dbHash",
+            "dbStats",
+            "find",
+            "killCursors",
+            "listCollections",
+            "listIndexes",
+            "planCacheRead"
+          ]
+        }
+      ]
+    }
+  ],
+  "ok": 1
+}
+
+```
+
+Caso deseje ver vários usuários ao mesmo tempo basta passá-los em um array: `[{ user: "suissa", db: "be-mean" }, { user: "sayaman", db: "be-mean" }]`
+
 Para você conferir todos os papéis de um banco de dados basta rodar o seguinte comando:
 
 ```
@@ -81,12 +499,17 @@ Cria um novo usuário no banco de dados onde você executa o comando. O comando 
 }
 ```
 
+#### Acesso Requerido
+
+Para criar um novo usuário em um banco de dados, você deve ter ação `createUser` nesse banco de dados.
+Para conceder funções a um usuário, você deve ter a ação `grantRole` no banco de dados onde existe esse papel.
+
 #### Exemplo
 
 E para executá-lo precisamos usar a função `runCommand` como visto abaixo:
 
 ```
-db.getSiblingDB('be-mean').runCommand( { createUser: "suissa",
+db.runCommand( { createUser: "suissa",
   pwd: "SuisseraManoVeio",
   customData: { teacher: true },
   roles: [
@@ -115,6 +538,8 @@ Os dois primeiros papéis estamos evidenciando que eles existem na *database* `a
 E o último papel, `"readWrite"`, está evidenciando que é na *database* onde estou rodando o comando, no caso `be-mean` pois nós a escolhemos antes com `db.getSiblingDB('be-mean')`
 
 Caso você deseje que o MongoDb gere um *hash* como senha, basta passar o `digestPassword` como `true`.
+
+
 
 ### updateUser
 
@@ -219,6 +644,8 @@ O comando `grantRolesToUser` usa a seguinte sintaxe:
 
 Você deve ter a ação `grantRole` em um banco de dados para adicionar um papel a um usuário do banco de dados.
 
+#### Exemplo
+
 ```
 db.runCommand( { grantRolesToUser: "OutroUser",
   roles: [
@@ -243,6 +670,22 @@ Remove a uma ou mais funções de um usuário no banco de dados, onde existem os
 }
 ```
 
+
+#### Acesso Requerido
+
+Você deve ter a ação `grantRole` em um banco de dados para adicionar um papel a um usuário do banco de dados.
+
+#### Exemplo
+
+```
+db.runCommand( { grantRolesToUser: "OutroUser",
+  roles: [
+    { role: "read", db: "be-mean"},
+    "readWrite"
+  ],
+  writeConcern: { w: "majority" , wtimeout: 2000 }
+ })
+```
 
 ## Funções de banco de dados de usuários
 
@@ -336,10 +779,15 @@ O **userAdmin** possui as seguintes ações:
 - [viewRole](https://docs.mongodb.org/manual/reference/privilege-actions/#authr.viewRole)
 - [viewUser](https://docs.mongodb.org/manual/reference/privilege-actions/#authr.viewUser)
 
-## Funções de Administração de Cluster
 
 
-## Ações Privilegiadas
+## Ações de Privilégio
+
+Ações de privilégio definem as operações que um usuário pode executar em um recurso. Um privilégio no MongoDB dispõe de um recurso e as ações permitidas. 
+
+Como são muitas ações esse material ficaria muito grande para essa aula, **porém futuramente pretendo colocar toda a informação aqui.** Por hora veja na [documentação oficial](https://docs.mongodb.org/manual/reference/privilege-actions/#security-user-actions) o que cada ação pode fazer.
 
 
+
+Existem **MUITO MAIS COMANDOS DE GERENCIAMENTO** [aqui em Database Commands](https://docs.mongodb.org/manual/reference/command/#user-management-commands).
 
