@@ -71,12 +71,12 @@ Depois de criada toda sua base você deverá criar um cluster utilizando:
 Você deverá escolher qual sua coleção deverá ser *shardeada* para poder aguentar muita carga repentinamente e deverá replicar cada Shard, pode ser feito localmente como em alguma VPS FREE.
 
 
-## Estrutura
+## A Estrutura
 
 ```
 # MongoDb - Projeto Final
 **Autor:** Nome Completo
-**Data** Data da entrega
+**Data** Date.now() //em timestamp
 
 ## Para qual sistema você usaria o MogoDB (diferente desse)?
 
@@ -99,3 +99,11 @@ Você deverá escolher qual sua coleção deverá ser *shardeada* para poder agu
 // coloque aqui todos os comandos que você executou
 
 ```
+
+## O Envio
+
+Envie seu arquivo para [esse repositório](https://github.com/Webschool-io/be-mean-instagram-mongodb-projects) seguindo o seguinte padrão de nome para o arquivo:
+
+> project-githubuser-nome-completo-com-hífens.md
+
+
