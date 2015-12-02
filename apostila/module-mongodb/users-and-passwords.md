@@ -280,52 +280,6 @@ db.runCommand( { usersInfo: 1 } )
 }
 ```
 
-Para você conferir todos os papéis de um banco de dados basta rodar o seguinte comando:
-
-```
-db.getRoles({ rolesInfo: 1, showBuiltinRoles: true })
-[
-  {
-    "role": "dbAdmin",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "dbOwner",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "read",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "readWrite",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  },
-  {
-    "role": "userAdmin",
-    "db": "test",
-    "isBuiltin": true,
-    "roles": [ ],
-    "inheritedRoles": [ ]
-  }
-]
-
-```
-
-Com o `rolesInfo: 1` você traz todos os papéis criados pelo usuário, nesse caso nenhum, e `showBuiltinRoles: true` mostra os papéis já integrados bem como os definidos pelo usuário.
-
 E se eu quiser ver minhas credenciais e privilégios? Basta passar `showCredentials: true` e `showPrivileges: true` como visto abaixo:
 
 ```
@@ -431,6 +385,28 @@ O **userAdmin** possui as seguintes ações:
 - [viewRole](https://docs.mongodb.org/manual/reference/privilege-actions/#authr.viewRole)
 - [viewUser](https://docs.mongodb.org/manual/reference/privilege-actions/#authr.viewUser)
 
+## Conectar autenticando
+
+Re-inicie seu `mongod` com a opção `--auth` como visto abaixo:
+
+```
+mongod --auth --port 27017
+```
+
+Depois conecte nele utilizando:
+
+```
+mongo --port 27017 -u "TesteAdmin" -p "admin123" --authenticationDatabase "admin"
+```
+
+O *shell* do `mongo `executa uma série de comandos no início. Como resultado, quando você fizer login como o administrador, você poderá ver erros de autenticação de um ou mais comandos. Você pode ignorar esses erros porque o papel `userAdminAnyDatabase` não tem permissões para executar alguns dos comandos de inicialização.
+
+Caso você se conecte sem usuário e queira se autenticar basta executr:
+
+```
+use admin
+db.auth("TesteAdmin", "admin123" )
+```
 
 ## Artigo
 
