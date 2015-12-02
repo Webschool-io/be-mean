@@ -55,6 +55,9 @@ Além de criar a coleção `user` e achar uma modelagem melhor da proposta, **te
 
 1. Crie um usuário com permissões **APENAS** de Leitura.
 2. Crie um usuário com permissões de Escrita e Leitura.
+3. Adicionar o papel `grantRolesToUser` e `revokeRole` para o usuário com Escrita e Leitura.
+4. Remover o papel `grantRolesToUser` para o usuário com Escrita e Leitura.
+5. Listar todos os usuários com seus papéis e ações.
 
 ## Cluster
 
