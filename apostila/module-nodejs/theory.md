@@ -22,7 +22,7 @@ O Event Loop nada mais é que uma fila **infinita** que recebe todos os eventos 
 
 Quando o evento chega para ser exeutado no *Event Loop*, caso ele seja assíncrono, ele será enviado para onde deve ser executado, por exemplo: filesystem, network, process, etc.
 
-Como o processo é **assíncrono** ele irá executar e só após sua finalização que ele dispara o *trigger* para seu *callback* esse voltando para o *Event Loop* onde o mesmo pode fazer qualquer coisa, caso seja alguma função externa ela voltará para o *Event Loop*.
+Como o processo é **assíncrono** ele irá executar e só após sua finalização que ele dispara o *trigger* para seu *callback* esse voltando para a fila que irá ser executada pelo *Event Loop*.
 
 ## I/O Async
 
