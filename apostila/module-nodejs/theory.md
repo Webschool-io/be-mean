@@ -1,5 +1,7 @@
 # Teoria
 
+![](http://2.bp.blogspot.com/-Wk3CjzUfsug/VVH5I-3mrkI/AAAAAAAAARk/xFNZzbmQUFk/s1600/loop2.png)
+
 ![](http://image.slidesharecdn.com/nodejsexplained-130219213912-phpapp02/95/nodejs-explained-13-638.jpg?cb=1386103418)
 
 
@@ -34,6 +36,10 @@ Qualquer função do Node.js, por padrão é assíncrona por isso sempre precisa
 **Mas então o que quer dizer que o *I/O* é assíncrono?**
 
 Basicamente diz que qualquer leitura ou escrita de dados não espera seu processo finalizar para continuar o *script*, nesse caso os processos ocorrem *paralelamente* à execução.
+
+## Thread Pool
+
+![http://kunkle.org/assets/scaling-event-loop.png](http://kunkle.org/assets/scaling-event-loop.png)
 
 ## Libuv
 
