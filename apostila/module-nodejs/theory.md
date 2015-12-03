@@ -53,6 +53,10 @@ Quando um pedido é finalizado no **Restaurante Assíncrono** uma campainha/even
 
 ![](http://3.bp.blogspot.com/-MHXJwM7bl9k/ULZzVB9e0lI/AAAAAAAAAGE/zPbckg8M9lo/s400/img6.jpg)
 
+Agora no **Restaurante Assíncrono** o garçom pode atender todas as mesas que existirem apenas enviando seus pedidos para serem executados na **cozinha.
+
+![](http://3.bp.blogspot.com/-9kP7uBwqSfI/ULZzWkSPgdI/AAAAAAAAAGM/PbD_AAGkwys/s400/img7.jpg)
+
 O mesmo acontece com nossos sistemas, quando você **envia uma requisição assíncrona** você não tem a certeza quando ela irá retornar, por isso usamos *Promises*, mas isso é um assunto posterior.
 
 Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.org/wiki/Princ%C3%ADpio_da_incerteza_de_Heisenberg) na física, mais alguém pira nisso como eu? :p
