@@ -39,11 +39,11 @@ Basicamente diz que qualquer leitura ou escrita de dados não espera seu process
 
 Para termos uma ideia melhor de como é o funcionamento assíncrono, vamos pensar um restaurante que é **síncrono**.
 
-![](http://4.bp.blogspot.com/-NKB6IU5aisI/ULZzTGe-m7I/AAAAAAAAAF8/mK3IWFoEdZ8/s1600/img5.jpg)
+![](http://4.bp.blogspot.com/-eXQNL7LvhVs/ULZzMEyKxaI/AAAAAAAAAFk/GlqXs6tBw9g/s1600/img3.jpg)
 
 No restaurante **síncrono** quando uma mesa é atendida ela precisa receber seu pedido antes que o graçõ possa antender outra mesa!!
 
-![](http://4.bp.blogspot.com/-eXQNL7LvhVs/ULZzMEyKxaI/AAAAAAAAAFk/GlqXs6tBw9g/s1600/img3.jpg)
+![](http://4.bp.blogspot.com/-NKB6IU5aisI/ULZzTGe-m7I/AAAAAAAAAF8/mK3IWFoEdZ8/s1600/img5.jpg)
 
 ## Thread Pool
 
