@@ -75,9 +75,9 @@ A aula segue um grande *workflow* até ser divulgada:
 # Roteiro
 
 ## Duração
-- **Be MEAN (102 horas) e aumentando**
-    + **MEAN (42 horas)**
-        * MongoDB (7 horas)
+- **Be MEAN (104 horas) e aumentando**
+    + **MEAN (44 horas)**
+        * MongoDB (9 horas)
         * Node.js (20 horas)
         * AngularJs (15 horas)
     + **Frontend (15 horas)**
@@ -123,51 +123,77 @@ A aula segue um grande *workflow* até ser divulgada:
 - **Aula 02 | 10.11** Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
     + Módulo MongoDB
         * Cliente
-            - use database
-            - show dbs
-            - show collections
+            - use database: 8:34
         * CRUD
-            - insert
-            - save
+            - insert(): 15:26
+            - save(): 19:12
+            - cursor: 24:53
+
 - **Aula 03 | 10.11** Vídeo: [https://www.youtube.com/watch?v=cIHjA1hyPPY](https://www.youtube.com/watch?v=cIHjA1hyPPY)
     + Módulo MongoDB
         * CRUD
-            - find  & findOne
-                + Operadores Aritméticos
-                + Operadores Lógicos
-                + Operadores "Existênciais"
-- **Aula 04 - Parte 1 | 16.11**
+            - find(): 11:14
+            - find() UUID _id: 13:19
+            - find() query: 15:43
+            - find() fields: 17:49
+            - find() Operadores Aritméticos: 23:28
+            - find() Operadores Lógicos: 31:45
+- **Aula 04 - Parte 1 | 16.11** Vídeo: [https://www.youtube.com/watch?v=ONzJsNbv15U](https://www.youtube.com/watch?v=ONzJsNbv15U)
     + Módulo MongoDB
         * CRUD
-            - update
-- **Aula 04 - Parte 2 | 17.11**
+            - update() - $set: 28:47
+            - update() - $unset: 33:25
+            - update() - $inc (gravei de madrugada por isso está baixo): 34:55
+            - update() - $push (gravei de madrugada por isso está baixo): 37:53
+            - update() - $push ERRO campo não é Array: 41:01
+            - update() - $pushAll: 41:53s
+            - update() - $pull: 45:08
+            - update() - $pullAll: 46:37
+- **Aula 04 - Parte 2 | 17.11** Vídeo: [https://www.youtube.com/watch?v=ozbmQb6SVQk](https://www.youtube.com/watch?v=ozbmQb6SVQk)
     + Módulo MongoDB
         * CRUD
-            - update
-                + options
-            - find
-                + Operadores deArray
-- **Aula 05 | 18.11**
+            - update() - options - 1:40
+            - update() - options - upsert - 2:46
+            - update() - options - upsert - $setOnInsert - 7:06
+            - update() - options - multi - 9:56
+            - update() - options - writeConcern - 13:45
+            - find() - Operador de Array - $in - 19:20
+            - find() - Operador de Array - $nin - 21:50
+            - find() - Operador de Array - $all - 23:00
+            - find() - Operador de Negação - $not - 27:20
+- **Aula 05 | 18.11** Vídeo: 
     + Módulo MongoDB - Professor: [William Bruno](https://github.com/wbruno)
-    	* distinct
-        * group
-        * Aggregation Framework
-- **Aula 06 | 27.11**
+    	- mongoimport restaurantes - 1:38
+        - find().length() - 3:38
+        - count() - 5:20
+        - distinct() - 6:44
+        - Pokemon seed - 12:00
+        - Pokemon mongoexport - 14:25
+        - Pokemon mongoimport - 16:30
+        - limit().skip() - 19:50
+        - group() - 25:00
+        - aggregate() - 43:30
+- **Aula 06 - Parte 1 | 27.11** Vídeo: 
     + Módulo MongoDB
         * Explain
         * Índices
-        * GridFs
-        * Replica
-- **Aula 06 | 01.12**
+- **Aula 06  - Parte 2| 01.12** Vídeo: 
     + Módulo MongoDB
-        * Sharding
-        * Users and Passwords
-        * Robomongo
-        * Modelagem
+        * Replica
+        * GridFs
+- **Aula 07  - Parte 2| 03.12** Vídeo: 
+    + Módulo MongoDB
+        - Replica - Árbitros - 2:13
+        - Sharding - 6:13
+        - Gerenciamento de usuários - 23:58
+        - Modelagem - 44:26
+        - Robomongo - 48:32
+        - Artigo Final - 51:24
+        - Projeto Final - 53:19
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js | 30.11 a 27.12
+##  Módulo Node.js | 07.11 a 27.12
 
 - **Aula 01 | 07.12**
     + Módulo Node.js
