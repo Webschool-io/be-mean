@@ -39,8 +39,6 @@ Basicamente diz que qualquer leitura ou escrita de dados não espera seu process
 
 Para termos uma ideia melhor de como é o funcionamento assíncrono, vamos pensar um restaurante que é **síncrono**.
 
-![](http://3.bp.blogspot.com/-H_YdVxlPEpg/ULZxtpkNBcI/AAAAAAAAAFU/BGZng58wZbw/s1600/img1.jpg)
-
 ![](http://3.bp.blogspot.com/-H_YdVxlPEpg/ULZxtpkNBcI/AAAAAAAAAFU/BGZng58wZbw/s1600/img2.jpg)
 
 ![](http://4.bp.blogspot.com/-eXQNL7LvhVs/ULZzMEyKxaI/AAAAAAAAAFk/GlqXs6tBw9g/s1600/img3.jpg)
