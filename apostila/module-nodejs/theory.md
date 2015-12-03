@@ -16,9 +16,7 @@ Com uma coisinha fachama *Event Loop*.
 
 ## Event Loop
 
-![](http://imasters.com.br/wp-content/uploads/2013/10/event-loop-620x331.png)
-
-fonte da imagem: []http://imasters.com.br/front-end/javascript/entendendo-o-event-loop-do-node-js/(http://imasters.com.br/front-end/javascript/entendendo-o-event-loop-do-node-js/)
+![](http://softwareengineeringdaily.com/wp-content/uploads/2015/07/event-loop.jpg)
 
 O Event Loop nada mais é que uma fila **infinita** que recebe todos os eventos emitidos pelo Node.js, isso inclui as requisições que recebemos no servidor HTTP.
 
