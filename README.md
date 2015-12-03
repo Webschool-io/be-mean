@@ -39,6 +39,16 @@ Certificados:
 
 Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
 
+# Certificado
+
+Para tirar o certificado você precisa entregar 3 coisas:
+
+- Todos os exercícios;
+- O Artigo e Projeto final;
+- Um resumo em forma de blog/github-pages.
+
+Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
+
 # O Professor
 
 Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.
