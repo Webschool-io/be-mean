@@ -57,6 +57,8 @@ Agora no **Restaurante Assíncrono** o garçom pode atender todas as mesas que e
 
 ![](http://3.bp.blogspot.com/-9kP7uBwqSfI/ULZzWkSPgdI/AAAAAAAAAGM/PbD_AAGkwys/s400/img7.jpg)
 
+![](http://2.bp.blogspot.com/-6b_wPyIt-xk/ULZzaCjnRDI/AAAAAAAAAGU/LVOegM5tG_A/s400/img8.jpg)
+
 O mesmo acontece com nossos sistemas, quando você **envia uma requisição assíncrona** você não tem a certeza quando ela irá retornar, por isso usamos *Promises*, mas isso é um assunto posterior.
 
 Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.org/wiki/Princ%C3%ADpio_da_incerteza_de_Heisenberg) na física, mais alguém pira nisso como eu? :p
