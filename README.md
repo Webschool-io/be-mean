@@ -39,6 +39,7 @@ Certificados:
 
 Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
 
+
 # Certificado
 
 Para tirar o certificado você precisa entregar 3 coisas:
@@ -48,6 +49,11 @@ Para tirar o certificado você precisa entregar 3 coisas:
 - Um resumo em forma de blog/github-pages.
 
 Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
+
+## Prazo
+
+**Não tem data limite para se retirar o certificado.**
+
 
 # O Professor
 
