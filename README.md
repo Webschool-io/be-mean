@@ -22,11 +22,11 @@ Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
 
 ## R$100
 
-Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 101 horas ao total!!!**
+Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 104 horas ao total!!!**
 
 Certificados:
 
-- MongoDB (7 horas)
+- MongoDB (9 horas)
 - Node.js (20 horas)
 - AngularJs (15 horas)
 - Frontend (15 horas)
@@ -44,9 +44,9 @@ Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
 
 Para tirar o certificado você precisa entregar 3 coisas:
 
-- Todos os exercícios;
-- O Artigo e Projeto final;
-- Um resumo em forma de blog/github-pages.
+- **Todos os exercícios;**
+- **O Artigo e Projeto final;**
+- **Um resumo em forma de blog/github-pages.**
 
 Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
 
