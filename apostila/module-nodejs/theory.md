@@ -22,6 +22,10 @@ fonte da imagem: []http://imasters.com.br/front-end/javascript/entendendo-o-even
 
 O Event Loop nada mais é que uma fila **infinita** que recebe todos os eventos emitidos pelo Node.js, isso inclui as requisições que recebemos no servidor HTTP.
 
+Quando o evento chega para ser exeutado no *Event Loop*, caso dele seja assíncrono, ele será enviado para onde deve ser executado, por exemplo: FileSystem, Banco de Dados, etc.
+
+Como o processo é **assíncrono** ele irá executar e só após sua finalização que ele dispara o *trigger* para seu *callback* esse voltando para o *Event Loop* onde o mesmo pode fazer qualquer coisa, caso seja alguma função externa ela voltará para o *Event Loop*.
+
 ## I/O Async
 
 ## Libuv
