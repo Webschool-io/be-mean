@@ -84,6 +84,8 @@ A aula segue um grande *workflow* até ser divulgada:
 
 # Roteiro
 
+##**CUIDADO!!! Alterações podem ser feitas sem aviso prévio, por isso SEMPRE LEIA AQUI!!!!**
+
 ## Duração
 - **Be MEAN (102 horas) e aumentando**
     + **MEAN (42 horas)**
