@@ -88,6 +88,25 @@ A aula segue um grande *workflow* até ser divulgada:
 
 **Sempre as 22 horas com pelo menos 1 hora de chat ao vivo com o professor.**
 
+# Alunos CARENTES
+
+Caso você seja um aluno "carente" que tenha estudado quase a vida toda em escola pública e não possui R$50/100 para conseguir os certificados, você pode conseguí-los de graça!!
+
+## Como?
+
+Basta entrar em contato [comigo, Suissa](https://www.facebook.com/suissa), e me enviar a imagem do seu histórico escolar.
+
+Porém além disso você também deverá trazer um outro aluno "carente" do qual você será seu tutor para auxiliá-lo durante o curso, além disso deverá dar as mesmas aulas aprendidas em algum local gratuitamente para a comunidade carente onde você se encontra ou proximidades.
+
+Ou seja:
+
+- entrar em contato comigo;
+- enviar as imagens do histórico escolar;
+- trazer mais um aluno;
+- ensinar o que aprendeu gratuitamente.
+
+Após fazer isso você receberá seu certificado gratuitamente além de ajudar muitas outras pessoas.
+
 # Roteiro
 
 ##**CUIDADO!!! Alterações podem ser feitas sem aviso prévio, por isso SEMPRE LEIA AQUI!!!!**
@@ -191,11 +210,15 @@ A aula segue um grande *workflow* até ser divulgada:
         - limit().skip() - 19:50
         - group() - 25:00
         - aggregate() - 43:30
-- **Aula 06 - Parte 1 | 27.11** Vídeo: 
+- **Aula 06 - Parte 1 | 27.11** Vídeo: [https://www.youtube.com/watch?v=5bbWeEEzRQM](https://www.youtube.com/watch?v=5bbWeEEzRQM)
     + Módulo MongoDB
-        * Explain
-        * Índices
-- **Aula 06  - Parte 2| 01.12** Vídeo: 
+        - Correção exercícios Suissa - 0:45
+        - Como enviar seus exercícios - 14:42
+        - Correção exercícios prof WBruno - 20:50
+        - Artigo - 28:40
+        - Relacionamentos - 29:36
+        - DBRef - 36:12
+- **Aula 06  - Parte 2| 01.12** Vídeo: [https://www.youtube.com/watch?v=IXz4IL0da1k](https://www.youtube.com/watch?v=IXz4IL0da1k)
     + Módulo MongoDB
         * Replica
         * GridFs
