@@ -6,7 +6,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 
 ## Índice
 
-- [Teoria](./theory.md)
+- [Teoria](./theory.md) - Profs.: [Suissa]() e [Caio]()
     + Single thread
     + Event Loop
     + I/O Async
@@ -14,44 +14,44 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
     + V8
     + Event Drive
     + API
-- [HTTP]()
+- [HTTP]() - Porf.: [Suissa]()
     + createServer
     + Methods
     + Status Codes
     + get
     + request
     + [Rotas]()
-- [Callbacks]()
-- [FileSystem]()
+- [Callbacks]() - Porf.: [Caio]()
+- [FileSystem]() - Porf.: [William Bruno]()
     + mkdir
     + open
     + readdir
     + readFile
     + rename
     + writeFile
-- [NPM]()
+- [NPM]() - Porf.: [Suissa]()
     + init
     + install --global ou -g
     + install --save
     + install --save-dev
     + install --optional
     + run
-- [Globals]()
+- [Globals]() - Porf.: [Caio]()
     + CommomJS
-- [Process]()
-- [Mongoose]()
+- [Process]() - Porf.: [Caio]()
+- [Mongoose]() - Porf.: [Suissa]()
     + Create
     + Retrieve
     + Update
     + Delete
-- [Eventos]()
+- [Eventos]() - Porf.: [Itacir]()
     + Mongoose
-- [Promises]()
+- [Promises]() - Porf.: [Itacir]()
     + Mongoose
-- [TDD]()
+- [TDD]() - Porf.: [Itacir]()
     + assert
     + chai
-- [Express]()
+- [Express]() - Porf.: [Suissa]()
     + Model
     + Controller
     + Routes
