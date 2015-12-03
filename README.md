@@ -154,9 +154,24 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **Aula 01 | 9.11** Vídeo: [https://www.youtube.com/watch?v=leYxsEAL_yY](https://www.youtube.com/watch?v=leYxsEAL_yY)
     + Módulo MongoDB
         * Teoria
-            - NoSQL
-            - MongoDB
-        * Instalação
+            - Arquitetura - 13:10
+            - NoSQL - 17:18
+            - Schemaless - 32:38
+            - JSON/BSON - 34:19
+            - Como o MongoDB trabalha - 35:17
+            - Replica - 35:51
+            - Sharding - 36:13
+            - GridFS - 36:50
+            - Geolocation - 37:16
+            - Terminologia - 38:17
+            - Servidor - mongod - 39:11
+            - Cliente - mongo - 40:44
+            - mongohacker - 41:47
+        * Rodar o mongod - 42:59
+        * Rodar o mongo - 43:08
+        * mongoexport - 43:35
+        * mongoimport - 44:40
+        * Exercício - 45:30
 - **Aula 02 | 10.11** Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
     + Módulo MongoDB
         * Cliente
@@ -220,9 +235,11 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         - DBRef - 36:12
 - **Aula 06  - Parte 2| 01.12** Vídeo: [https://www.youtube.com/watch?v=IXz4IL0da1k](https://www.youtube.com/watch?v=IXz4IL0da1k)
     + Módulo MongoDB
-        * Replica
-        * GridFs
-- **Aula 07  - Parte 2| 03.12** Vídeo: 
+        - Explain - 0:15
+        - Índices - 5:00
+        - GridFS - 14:58
+        - Replica - 30:11
+- **Aula 07  - Parte 2| 03.12** Vídeo: [https://www.youtube.com/watch?v=1ElYrkSIvII](https://www.youtube.com/watch?v=1ElYrkSIvII)
     + Módulo MongoDB
         - Replica - Árbitros - 2:13
         - Sharding - 6:13
