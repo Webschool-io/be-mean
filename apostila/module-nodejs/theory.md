@@ -41,9 +41,16 @@ Para termos uma ideia melhor de como é o funcionamento assíncrono, vamos pensa
 
 ![](http://4.bp.blogspot.com/-eXQNL7LvhVs/ULZzMEyKxaI/AAAAAAAAAFk/GlqXs6tBw9g/s1600/img3.jpg)
 
-No restaurante **síncrono** quando uma mesa é atendida ela precisa receber seu pedido antes que o graçõ possa antender outra mesa!!
+No restaurante **síncrono** quando uma mesa é atendida ela precisa receber seu pedido antes que o garçom possa antender outra mesa!!
 
 ![](http://4.bp.blogspot.com/-NKB6IU5aisI/ULZzTGe-m7I/AAAAAAAAAF8/mK3IWFoEdZ8/s1600/img5.jpg)
+
+Agora no restaurante **assíncrono** o mesmo garçom pode atender vários pedidos e enviá-los para a cozinha. Será a cozinha a responsável por responder cada pedido na ordem que para eles forem mais importantes ou mais rápidos. Nesse caso a ordem da resposta dos pedidos pode ser diferente da ordem pedida para a cozinha. 
+
+O mesmo acontece com nossos sistemas, quando você **envia uma requisição assíncrona** você não tem a certeza quando ela irá retornar, por isso usamos *Promises*, mas isso é um assunto posterior.
+
+Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.org/wiki/Princ%C3%ADpio_da_incerteza_de_Heisenberg) na física, mais alguém pira nisso como eu? :p
+
 
 ## Thread Pool
 
