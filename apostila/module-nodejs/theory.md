@@ -20,7 +20,7 @@ Com uma coisinha fachama *Event Loop*.
 
 O Event Loop nada mais é que uma fila **infinita** que recebe todos os eventos emitidos pelo Node.js, isso inclui as requisições que recebemos no servidor HTTP.
 
-Quando o evento chega para ser exeutado no *Event Loop*, caso dele seja assíncrono, ele será enviado para onde deve ser executado, por exemplo: FileSystem, Banco de Dados, etc.
+Quando o evento chega para ser exeutado no *Event Loop*, caso ele seja assíncrono, ele será enviado para onde deve ser executado, por exemplo: filesystem, network, process, etc.
 
 Como o processo é **assíncrono** ele irá executar e só após sua finalização que ele dispara o *trigger* para seu *callback* esse voltando para o *Event Loop* onde o mesmo pode fazer qualquer coisa, caso seja alguma função externa ela voltará para o *Event Loop*.
 
