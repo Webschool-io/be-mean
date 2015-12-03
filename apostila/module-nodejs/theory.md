@@ -1,5 +1,8 @@
 # Teoria
 
+![](http://image.slidesharecdn.com/nodejsexplained-130219213912-phpapp02/95/nodejs-explained-13-638.jpg?cb=1386103418)
+
+
 Node.js é um *interpretador* de JavaScript que funciona do lado do servidor criado em cima do [V8](https://developers.google.com/v8/) que é o motor de JavaScript da Google e que roda no seu Chrome. 
 
 O Node.js age como uma ponte entre uma API acessável via JavaScript e funções em C++ do V8, foi criado por Ryan Dahl em 2009.
