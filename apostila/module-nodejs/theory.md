@@ -47,7 +47,11 @@ No restaurante **síncrono** quando uma mesa é atendida ela precisa receber seu
 
 ![](http://4.bp.blogspot.com/-NKB6IU5aisI/ULZzTGe-m7I/AAAAAAAAAF8/mK3IWFoEdZ8/s1600/img5.jpg)
 
-Agora no restaurante **assíncrono** o mesmo garçom pode atender vários pedidos e enviá-los para a cozinha. Será a cozinha a responsável por responder cada pedido na ordem que para eles forem mais importantes ou mais rápidos. Nesse caso a ordem da resposta dos pedidos pode ser diferente da ordem pedida para a cozinha. 
+Agora no restaurante **assíncrono** o mesmo garçom pode atender vários pedidos e enviá-los para a cozinha. Será a cozinha a responsável por responder cada pedido na ordem que para eles forem mais importantes ou mais rápidos. Nesse caso a ordem da resposta dos pedidos pode ser diferente da ordem pedida para a cozinha.
+
+Quando um pedido é finalizado no **Restaurante Assíncrono** uma campainha/evento é emitido.
+
+![](http://3.bp.blogspot.com/-MHXJwM7bl9k/ULZzVB9e0lI/AAAAAAAAAGE/zPbckg8M9lo/s400/img6.jpg)
 
 O mesmo acontece com nossos sistemas, quando você **envia uma requisição assíncrona** você não tem a certeza quando ela irá retornar, por isso usamos *Promises*, mas isso é um assunto posterior.
 
