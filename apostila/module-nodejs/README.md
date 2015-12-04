@@ -90,6 +90,8 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 - Aula 14:
     + [Autenticação]() - Prof.: [Caio](https://github.com/caiocutrim/)
         * Session
+            - Express
+            - Mongoose/MongoDB
 - Aula 15:
     + [Autenticação]() - Prof.: [Caio](https://github.com/caiocutrim/)
         * Token
