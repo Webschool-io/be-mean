@@ -251,7 +251,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js | 07.11 a 27.12
+##  Módulo Node.js | 07.12 a 27.12
 
 - **Aula 01 | 07.12**
     + Módulo Node.js
