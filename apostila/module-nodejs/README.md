@@ -110,6 +110,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 - Aula 19: **18/12/2015**
     + [Projeto em aula]
         * Gerenciador de Vagas de Trabalho
+            - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 20: **18/12/2015**
     + [Projeto em aula]
         * Couchsurfing para Devs
