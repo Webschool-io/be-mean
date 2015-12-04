@@ -103,7 +103,11 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 - Aula 19:
 - Aula 20:
 
+## Code Style
 
+Para mantermos um mínimo padrão entre nossos códigos vamos adotar o seguinte padrão, caso você não o use, não tem problema, começe agora nem que seja para esse projeto apenas.
+
+.[Nosso CODE STYLE aqui.](./code-style.md)
 
 
 
