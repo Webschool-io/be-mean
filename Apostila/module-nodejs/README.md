@@ -99,7 +99,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Token
 - Aula 16: **16/12/2015**
     + [Projeto em aula]
-        * Gerenciador de projeto com Github
+        * Gerenciador de Doações
             - Prof.: [Suissa](https://github.com/suissa)
 - Aula 17: **17/12/2015**
     + [Projeto em aula]
@@ -107,7 +107,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
             - Prof.: [William Bruno](https://github.com/wbruno)
 - Aula 18: **17/12/2015**
     + [Projeto em aula]
-        * Gerador de NFe/Boleto
+        * Gerenciador de Projeto com Github
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 - Aula 19: **18/12/2015**
     + [Projeto em aula]
