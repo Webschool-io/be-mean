@@ -26,8 +26,8 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * request
         * [Rotas]()
 - Aula 03:
-    + [Callbacks](./callbacks.md) - Prof.: [Caio Cutrim]()
-    + [FileSystem](./fs.md) - Prof.: [William Bruno]()
+    + [Callbacks](./callbacks.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
+    + [FileSystem](./fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
         * mkdir
         * open
         * readdir
@@ -52,14 +52,14 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Update
         * Delete
 - Aula 06:
-    + [Eventos]() - Prof.: [Itacir]()
+    + [Eventos]() - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
-    + [Promises]() - Prof.: [Itacir]()
+    + [Promises]() - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
 - Aula 07:
     + [Mongoose]() - Prof.: [Suissa](https://github.com/suissa)
 - Aula 08:
-    + [TDD]() - Prof.: [Itacir]()
+    + [TDD]() - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
@@ -70,12 +70,12 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Routes
 - Aula 10:
     + [Express]()
-        * Events - Prof.: [Itacir]()
-        * Promises - Prof.: [Itacir]()
+        * Events - Prof.: [Itacir](https://github.com/pompeu)
+        * Promises - Prof.: [Itacir](https://github.com/pompeu)
         * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
 - Aula 11:
     + [Socket.io]() - Prof.: [Suissa](https://github.com/suissa)
-        * TDD - Prof.: [Itacir]()
+        * TDD - Prof.: [Itacir](https://github.com/pompeu)
 - Aula 12:
     + [REPL]() - Prof.: [Suissa](https://github.com/suissa)
     + [UDP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
