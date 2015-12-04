@@ -234,48 +234,48 @@ const atom = {
 
   eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
-    ```javascript
-    const lukeSkywalker = 'Luke Skywalker';
+```javascript
+const lukeSkywalker = 'Luke Skywalker';
 
-    // bad
-    const obj = {
-      lukeSkywalker: lukeSkywalker,
-    };
+// bad
+const obj = {
+  lukeSkywalker: lukeSkywalker,
+};
 
-    // good
-    const obj = {
-      lukeSkywalker,
-    };
-    ```
+// good
+const obj = {
+  lukeSkywalker,
+};
+```
 
   - [3.7](#3.7) <a name='3.7'></a> Group your shorthand properties at the beginning of your object declaration.
 
   > Why? It's easier to tell which properties are using the shorthand.
 
-    ```javascript
-    const anakinSkywalker = 'Anakin Skywalker';
-    const lukeSkywalker = 'Luke Skywalker';
+```javascript
+const anakinSkywalker = 'Anakin Skywalker';
+const lukeSkywalker = 'Luke Skywalker';
 
-    // bad
-    const obj = {
-      episodeOne: 1,
-      twoJediWalkIntoACantina: 2,
-      lukeSkywalker,
-      episodeThree: 3,
-      mayTheFourth: 4,
-      anakinSkywalker,
-    };
+// bad
+const obj = {
+  episodeOne: 1,
+  twoJediWalkIntoACantina: 2,
+  lukeSkywalker,
+  episodeThree: 3,
+  mayTheFourth: 4,
+  anakinSkywalker,
+};
 
-    // good
-    const obj = {
-      lukeSkywalker,
-      anakinSkywalker,
-      episodeOne: 1,
-      twoJediWalkIntoACantina: 2,
-      episodeThree: 3,
-      mayTheFourth: 4,
-    };
-    ```
+// good
+const obj = {
+  lukeSkywalker,
+  anakinSkywalker,
+  episodeOne: 1,
+  twoJediWalkIntoACantina: 2,
+  episodeThree: 3,
+  mayTheFourth: 4,
+};
+```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -285,48 +285,48 @@ const atom = {
 
   eslint rules: [`no-array-constructor`](http://eslint.org/docs/rules/no-array-constructor.html).
 
-    ```javascript
-    // bad
-    const items = new Array();
+```javascript
+// bad
+const items = new Array();
 
-    // good
-    const items = [];
-    ```
+// good
+const items = [];
+```
 
   - [4.2](#4.2) <a name='4.2'></a> Use Array#push instead of direct assignment to add items to an array.
 
-    ```javascript
-    const someStack = [];
+```javascript
+const someStack = [];
 
-    // bad
-    someStack[someStack.length] = 'abracadabra';
+// bad
+someStack[someStack.length] = 'abracadabra';
 
-    // good
-    someStack.push('abracadabra');
-    ```
+// good
+someStack.push('abracadabra');
+```
 
   <a name="es6-array-spreads"></a>
   - [4.3](#4.3) <a name='4.3'></a> Use array spreads `...` to copy arrays.
 
-    ```javascript
-    // bad
-    const len = items.length;
-    const itemsCopy = [];
-    let i;
+```javascript
+// bad
+const len = items.length;
+const itemsCopy = [];
+let i;
 
-    for (i = 0; i < len; i++) {
-      itemsCopy[i] = items[i];
-    }
+for (i = 0; i < len; i++) {
+  itemsCopy[i] = items[i];
+}
 
-    // good
-    const itemsCopy = [...items];
-    ```
+// good
+const itemsCopy = [...items];
+```
   - [4.4](#4.4) <a name='4.4'></a> To convert an array-like object to an array, use Array#from.
 
-    ```javascript
-    const foo = document.querySelectorAll('.foo');
-    const nodes = Array.from(foo);
-    ```
+```javascript
+const foo = document.querySelectorAll('.foo');
+const nodes = Array.from(foo);
+```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -336,63 +336,63 @@ const atom = {
 
   > Why? Destructuring saves you from creating temporary references for those properties.
 
-    ```javascript
-    // bad
-    function getFullName(user) {
-      const firstName = user.firstName;
-      const lastName = user.lastName;
+```javascript
+// bad
+function getFullName(user) {
+  const firstName = user.firstName;
+  const lastName = user.lastName;
 
-      return `${firstName} ${lastName}`;
-    }
+  return `${firstName} ${lastName}`;
+}
 
-    // good
-    function getFullName(obj) {
-      const { firstName, lastName } = obj;
-      return `${firstName} ${lastName}`;
-    }
+// good
+function getFullName(obj) {
+  const { firstName, lastName } = obj;
+  return `${firstName} ${lastName}`;
+}
 
-    // best
-    function getFullName({ firstName, lastName }) {
-      return `${firstName} ${lastName}`;
-    }
-    ```
+// best
+function getFullName({ firstName, lastName }) {
+  return `${firstName} ${lastName}`;
+}
+```
 
   - [5.2](#5.2) <a name='5.2'></a> Use array destructuring.
 
-    ```javascript
-    const arr = [1, 2, 3, 4];
+```javascript
+const arr = [1, 2, 3, 4];
 
-    // bad
-    const first = arr[0];
-    const second = arr[1];
+// bad
+const first = arr[0];
+const second = arr[1];
 
-    // good
-    const [first, second] = arr;
-    ```
+// good
+const [first, second] = arr;
+```
 
   - [5.3](#5.3) <a name='5.3'></a> Use object destructuring for multiple return values, not array destructuring.
 
   > Why? You can add new properties over time or change the order of things without breaking call sites.
 
-    ```javascript
-    // bad
-    function processInput(input) {
-      // then a miracle occurs
-      return [left, right, top, bottom];
-    }
+```javascript
+// bad
+function processInput(input) {
+  // then a miracle occurs
+  return [left, right, top, bottom];
+}
 
-    // the caller needs to think about the order of return data
-    const [left, __, top] = processInput(input);
+// the caller needs to think about the order of return data
+const [left, __, top] = processInput(input);
 
-    // good
-    function processInput(input) {
-      // then a miracle occurs
-      return { left, right, top, bottom };
-    }
+// good
+function processInput(input) {
+  // then a miracle occurs
+  return { left, right, top, bottom };
+}
 
-    // the caller selects only the data they need
-    const { left, right } = processInput(input);
-    ```
+// the caller selects only the data they need
+const { left, right } = processInput(input);
+```
 
 
 **[⬆ back to top](#table-of-contents)**
@@ -403,32 +403,32 @@ const atom = {
 
   eslint rules: [`quotes`](http://eslint.org/docs/rules/quotes.html).
 
-    ```javascript
-    // bad
-    const name = "Capt. Janeway";
+```javascript
+// bad
+const name = "Capt. Janeway";
 
-    // good
-    const name = 'Capt. Janeway';
-    ```
+// good
+const name = 'Capt. Janeway';
+```
 
   - [6.2](#6.2) <a name='6.2'></a> Strings longer than 100 characters should be written across multiple lines using string concatenation.
   - [6.3](#6.3) <a name='6.3'></a> Note: If overused, long strings with concatenation could impact performance. [jsPerf](http://jsperf.com/ya-string-concat) & [Discussion](https://github.com/airbnb/javascript/issues/40).
 
-    ```javascript
-    // bad
-    const errorMessage = 'This is a super long error that was thrown because of Batman. When you stop to think about how Batman had anything to do with this, you would get nowhere fast.';
+```javascript
+// bad
+const errorMessage = 'This is a super long error that was thrown because of Batman. When you stop to think about how Batman had anything to do with this, you would get nowhere fast.';
 
-    // bad
-    const errorMessage = 'This is a super long error that was thrown because \
-    of Batman. When you stop to think about how Batman had anything to do \
-    with this, you would get nowhere \
-    fast.';
+// bad
+const errorMessage = 'This is a super long error that was thrown because \
+of Batman. When you stop to think about how Batman had anything to do \
+with this, you would get nowhere \
+fast.';
 
-    // good
-    const errorMessage = 'This is a super long error that was thrown because ' +
-      'of Batman. When you stop to think about how Batman had anything to do ' +
-      'with this, you would get nowhere fast.';
-    ```
+// good
+const errorMessage = 'This is a super long error that was thrown because ' +
+  'of Batman. When you stop to think about how Batman had anything to do ' +
+  'with this, you would get nowhere fast.';
+```
 
   <a name="es6-template-literals"></a>
   - [6.4](#6.4) <a name='6.4'></a> When programmatically building up strings, use template strings instead of concatenation.
@@ -437,22 +437,22 @@ const atom = {
 
   eslint rules: [`prefer-template`](http://eslint.org/docs/rules/prefer-template.html).
 
-    ```javascript
-    // bad
-    function sayHi(name) {
-      return 'How are you, ' + name + '?';
-    }
+```javascript
+// bad
+function sayHi(name) {
+  return 'How are you, ' + name + '?';
+}
 
-    // bad
-    function sayHi(name) {
-      return ['How are you, ', name, '?'].join();
-    }
+// bad
+function sayHi(name) {
+  return ['How are you, ', name, '?'].join();
+}
 
-    // good
-    function sayHi(name) {
-      return `How are you, ${name}?`;
-    }
-    ```
+// good
+function sayHi(name) {
+  return `How are you, ${name}?`;
+}
+```
   - [6.5](#6.5) <a name='6.5'></a> Never use `eval()` on a string, it opens too many vulnerabilities.
 
 **[⬆ back to top](#table-of-contents)**
@@ -464,160 +464,160 @@ const atom = {
 
   > Why? Function declarations are named, so they're easier to identify in call stacks. Also, the whole body of a function declaration is hoisted, whereas only the reference of a function expression is hoisted. This rule makes it possible to always use [Arrow Functions](#arrow-functions) in place of function expressions.
 
-    ```javascript
-    // bad
-    const foo = function () {
-    };
+```javascript
+// bad
+const foo = function () {
+};
 
-    // good
-    function foo() {
-    }
-    ```
+// good
+function foo() {
+}
+```
 
   - [7.2](#7.2) <a name='7.2'></a> Function expressions:
 
-    ```javascript
-    // immediately-invoked function expression (IIFE)
-    (() => {
-      console.log('Welcome to the Internet. Please follow me.');
-    })();
-    ```
+```javascript
+// immediately-invoked function expression (IIFE)
+(() => {
+  console.log('Welcome to the Internet. Please follow me.');
+})();
+```
 
   - [7.3](#7.3) <a name='7.3'></a> Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears.
   - [7.4](#7.4) <a name='7.4'></a> **Note:** ECMA-262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA-262's note on this issue](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf#page=97).
 
-    ```javascript
-    // bad
-    if (currentUser) {
-      function test() {
-        console.log('Nope.');
-      }
-    }
+```javascript
+// bad
+if (currentUser) {
+  function test() {
+    console.log('Nope.');
+  }
+}
 
-    // good
-    let test;
-    if (currentUser) {
-      test = () => {
-        console.log('Yup.');
-      };
-    }
-    ```
+// good
+let test;
+if (currentUser) {
+  test = () => {
+    console.log('Yup.');
+  };
+}
+```
 
   - [7.5](#7.5) <a name='7.5'></a> Never name a parameter `arguments`. This will take precedence over the `arguments` object that is given to every function scope.
 
-    ```javascript
-    // bad
-    function nope(name, options, arguments) {
-      // ...stuff...
-    }
+```javascript
+// bad
+function nope(name, options, arguments) {
+  // ...stuff...
+}
 
-    // good
-    function yup(name, options, args) {
-      // ...stuff...
-    }
-    ```
+// good
+function yup(name, options, args) {
+  // ...stuff...
+}
+```
 
   <a name="es6-rest"></a>
   - [7.6](#7.6) <a name='7.6'></a> Never use `arguments`, opt to use rest syntax `...` instead.
 
   > Why? `...` is explicit about which arguments you want pulled. Plus rest arguments are a real Array and not Array-like like `arguments`.
 
-    ```javascript
-    // bad
-    function concatenateAll() {
-      const args = Array.prototype.slice.call(arguments);
-      return args.join('');
-    }
+```javascript
+// bad
+function concatenateAll() {
+  const args = Array.prototype.slice.call(arguments);
+  return args.join('');
+}
 
-    // good
-    function concatenateAll(...args) {
-      return args.join('');
-    }
-    ```
+// good
+function concatenateAll(...args) {
+  return args.join('');
+}
+```
 
   <a name="es6-default-parameters"></a>
   - [7.7](#7.7) <a name='7.7'></a> Use default parameter syntax rather than mutating function arguments.
 
-    ```javascript
-    // really bad
-    function handleThings(opts) {
-      // No! We shouldn't mutate function arguments.
-      // Double bad: if opts is falsy it'll be set to an object which may
-      // be what you want but it can introduce subtle bugs.
-      opts = opts || {};
-      // ...
-    }
+```javascript
+// really bad
+function handleThings(opts) {
+  // No! We shouldn't mutate function arguments.
+  // Double bad: if opts is falsy it'll be set to an object which may
+  // be what you want but it can introduce subtle bugs.
+  opts = opts || {};
+  // ...
+}
 
-    // still bad
-    function handleThings(opts) {
-      if (opts === void 0) {
-        opts = {};
-      }
-      // ...
-    }
+// still bad
+function handleThings(opts) {
+  if (opts === void 0) {
+    opts = {};
+  }
+  // ...
+}
 
-    // good
-    function handleThings(opts = {}) {
-      // ...
-    }
-    ```
+// good
+function handleThings(opts = {}) {
+  // ...
+}
+```
 
   - [7.8](#7.8) <a name='7.8'></a> Avoid side effects with default parameters.
 
   > Why? They are confusing to reason about.
 
-  ```javascript
-  var b = 1;
-  // bad
-  function count(a = b++) {
-    console.log(a);
-  }
-  count();  // 1
-  count();  // 2
-  count(3); // 3
-  count();  // 3
-  ```
+```javascript
+var b = 1;
+// bad
+function count(a = b++) {
+  console.log(a);
+}
+count();  // 1
+count();  // 2
+count(3); // 3
+count();  // 3
+```
 
   - [7.9](#7.9) <a name='7.9'></a> Always put default parameters last.
 
-    ```javascript
-    // bad
-    function handleThings(opts = {}, name) {
-      // ...
-    }
+```javascript
+// bad
+function handleThings(opts = {}, name) {
+  // ...
+}
 
-    // good
-    function handleThings(name, opts = {}) {
-      // ...
-    }
-    ```
+// good
+function handleThings(name, opts = {}) {
+  // ...
+}
+```
 
 - [7.10](#7.10) <a name='7.10'></a> Never use the Function constructor to create a new function.
 
   > Why? Creating a function in this way evaluates a string similarly to eval(), which opens vulnerabilities.
 
-  ```javascript
-  // bad
-  var add = new Function('a', 'b', 'return a + b');
+```javascript
+// bad
+var add = new Function('a', 'b', 'return a + b');
 
-  // still bad
-  var subtract = Function('a', 'b', 'return a - b');
-  ```
+// still bad
+var subtract = Function('a', 'b', 'return a - b');
+```
 
 - [7.11](#7.11) <a name="7.11"></a> Spacing in a function signature.
 
   > Why? Consistency is good, and you shouldn’t have to add or remove a space when adding or removing a name.
 
-  ```javascript
-  // bad
-  const f = function(){};
-  const g = function (){};
-  const h = function() {};
+```javascript
+// bad
+const f = function(){};
+const g = function (){};
+const h = function() {};
 
-  // good
-  const x = function () {};
-  const y = function a() {};
-  ```
+// good
+const x = function () {};
+const y = function a() {};
+```
 
 **[⬆ back to top](#table-of-contents)**
 
