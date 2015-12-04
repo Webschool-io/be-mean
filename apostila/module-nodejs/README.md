@@ -42,11 +42,11 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * install --save-dev
         * install --optional
         * run
-    + [Globals]() - Prof.: [Caio]()
+    + [Globals]() - Prof.: [Caio](https://github.com/caiocutrim/)
         * CommonJS
-    + [Process]() - Prof.: [Caio]()
+    + [Process]() - Prof.: [Caio](https://github.com/caiocutrim/)
 - Aula 05:
-    + [Mongoose]() - Prof.: [Suissa]()
+    + [Mongoose]() - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
         * Update
@@ -54,13 +54,15 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 - Aula 06:
     + [Eventos]() - Prof.: [Itacir]()
         * Mongoose
-- Aula 07:
     + [Promises]() - Prof.: [Itacir]()
         * Mongoose
+- Aula 07:
+    + [Mongoose]() - Prof.: [Suissa](https://github.com/suissa)
 - Aula 08:
     + [TDD]() - Prof.: [Itacir]()
         * assert
         * chai
+    - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
 - Aula 09:
     + [Express]() - Prof.: [Suissa](https://github.com/suissa)
         * Model
@@ -70,7 +72,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
     + [Express]()
         * Events - Prof.: [Itacir]()
         * Promises - Prof.: [Itacir]()
-        * Middlewares - Prof.: [Caio]()
+        * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
 - Aula 11:
     + [Socket.io]() - Prof.: [Suissa](https://github.com/suissa)
         * TDD - Prof.: [Itacir]()
@@ -80,8 +82,13 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
     + [TCP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
     + [HTTPS](./http.md) - Prof.: [Suissa](https://github.com/suissa)
 - Aula 13:
+    + [Utilizando APIs externas]() - Prof.: [Suissa](https://github.com/suissa)
 - Aula 14:
+    + [Autenticação]() - Prof.: [Caio](https://github.com/caiocutrim/)
+        * Session
 - Aula 15:
+    + [Autenticação]() - Prof.: [Caio](https://github.com/caiocutrim/)
+        * Token
 - Aula 16:
 - Aula 17:
 - Aula 18:
