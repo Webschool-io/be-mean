@@ -11,13 +11,15 @@ Obviamente os projetos não serão finalizados completamente em 1 mês, mas irem
 Projetos:
 
 - Pattern Lab com gerador de código
+- EAD
 - CMS - Tem q ser melhor que o Wordpress
 - Gerenciador de Projetos para PO/Gerentes em cima do Github
 - Nota Fiscal Eletronica
 - Boletos
 - Ecommerce
+- [Estante Virtual - Livros](./Estante-Virtual)
+- Meio de Pagamento
 - Gerenciamento de cervejas tomadas
-- EAD
 - Gerenciador de eventos
     - não que gerencie as entrada mas sim:
       + fornecedores
@@ -29,7 +31,7 @@ Projetos:
 - Sistema de Vagas/Jobs por requisitos
 - Sistema de couchsurfing para devs
 - Sistema de trabalhos acadêmicos anti-plágio
-- Sistema de motoboy/mototaxi
+- Sistema de Uber-like - motoboy/mototaxi
 - Sistema para Food Trucks
     + venda via pagamento digital, etc
     + acompanhamento em tempo real online

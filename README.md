@@ -1,11 +1,61 @@
-# Dezembro
+# Calendário Dezembro
 
 ![](./calendar/2015-dezembro.png)
 
+# Os brindes serão enviados ATÉ O NATAL!!!
 
-# Execícios mandem aqui [https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises](https://github.com/Webschool-io/be-mean-instagram-mongodb-excercises)
+# Doações
 
-## O Professor
+## R$50
+
+Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 42 horas ao total.
+
+Certificados:
+
+- MongoDB (7 horas)
+- Node.js (20 horas)
+- AngularJs (15 horas)
+
+
+Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
+
+
+## R$100
+
+Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 104 horas ao total!!!**
+
+Certificados:
+
+- MongoDB (9 horas)
+- Node.js (20 horas)
+- AngularJs (15 horas)
+- Frontend (15 horas)
+- NoSQL (13 horas)
+- Segurança (3 horas)
+- Desktop (10 horas)
+- UX & Animations (7 horas)
+- ES6 (5 horas)
+- Deploy e Servidores (5 horas)
+
+Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
+
+
+# Certificado
+
+Para tirar o certificado você precisa entregar 3 coisas:
+
+- **Todos os exercícios;**
+- **O Artigo e Projeto final;**
+- **Um resumo em forma de blog/github-pages.**
+
+Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
+
+## Prazo
+
+**Não tem data limite para se retirar o certificado.**
+
+
+# O Professor
 
 Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.
 
@@ -20,7 +70,7 @@ Mas já avisando será a última pós que darei aula será a da minha cidade ond
 Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados NoSQL que eu amo, acho que fecharei com chave de ouro e me focarei única exclusivamente à faculdade web que desejo criar **para a Webschool.io**
 
 
-## A Aula
+# A Aula
 
 A aula segue um grande *workflow* até ser divulgada:
 
@@ -34,39 +84,60 @@ A aula segue um grande *workflow* até ser divulgada:
 8. Upload da aula;
 9. Divulgação do link.
 
-### Início
+## Início
 
 **Sempre as 22 horas com pelo menos 1 hora de chat ao vivo com o professor.**
 
+# Alunos CARENTES
+
+Caso você seja um aluno "carente" que tenha estudado quase a vida toda em escola pública e não possui R$50/100 para conseguir os certificados, você pode conseguí-los de graça!!
+
+## Como?
+
+Basta entrar em contato [comigo, Suissa](https://www.facebook.com/suissa), e me enviar a imagem do seu histórico escolar.
+
+Porém além disso você também deverá trazer um outro aluno "carente" do qual você será seu tutor para auxiliá-lo durante o curso, além disso deverá dar as mesmas aulas aprendidas em algum local gratuitamente para a comunidade carente onde você se encontra ou proximidades.
+
+Ou seja:
+
+- entrar em contato comigo;
+- enviar as imagens do histórico escolar;
+- trazer mais um aluno;
+- ensinar o que aprendeu gratuitamente.
+
+Após fazer isso você receberá seu certificado gratuitamente além de ajudar muitas outras pessoas.
+
 # Roteiro
 
+##**CUIDADO!!! Alterações podem ser feitas sem aviso prévio, por isso SEMPRE LEIA AQUI!!!!**
+
 ## Duração
-- Be MEAN (101 horas)
-    + MEAN (41 horas)
-        * MongoDB (6 horas)
+- **Be MEAN (104 horas) e aumentando**
+    + **MEAN (44 horas)**
+        * MongoDB (9 horas)
         * Node.js (20 horas)
         * AngularJs (15 horas)
-    + Frontend (15 horas)
+    + **Frontend (15 horas)**
         * Atomic Design (5 horas)
         * Stylus (1 hora)
         * Gulp (1 hora)
         * Mobile-first (5 horas)
         * Offile-first (3 horas)
-    + NoSQL (13 horas)
+    + **NoSQL (13 horas)**
         * Redis (3 horas)
         * Neo4J (4 horas)
         * OrientDb (3 horas)
-        * ElasticSearch (3 horas, fechando o professor)
-    + Segurança (3 horas)
-    + Desktop (10 horas)
+        * ElasticSearch (3 horas)
+    + **Segurança (3 horas)**
+    + **Desktop (10 horas)**
         * Node-webkit (2 horas)
         * Electron (8 horas)
-    + UX & Animations (7 horas)
-    + ES6 (5 horas)
-    + Deploy e Servidores (5 horas)
-- Geolocation (8 horas)
-- Docker (4 horas)
-- Ionic (10 horas)
+    + **UX & Animations (7 horas)**
+    + **ES6 (5 horas)**
+    + **Deploy e Servidores (5 horas)**
+- **Geolocation (8 horas)**
+- **Docker (4 horas)**
+- **Ionic (10 horas)**
 
 ##  Módulo MongoDB | 09.11 a 22.11
 
@@ -83,55 +154,104 @@ A aula segue um grande *workflow* até ser divulgada:
 - **Aula 01 | 9.11** Vídeo: [https://www.youtube.com/watch?v=leYxsEAL_yY](https://www.youtube.com/watch?v=leYxsEAL_yY)
     + Módulo MongoDB
         * Teoria
-            - NoSQL
-            - MongoDB
-        * Instalação
+            - Arquitetura - 13:10
+            - NoSQL - 17:18
+            - Schemaless - 32:38
+            - JSON/BSON - 34:19
+            - Como o MongoDB trabalha - 35:17
+            - Replica - 35:51
+            - Sharding - 36:13
+            - GridFS - 36:50
+            - Geolocation - 37:16
+            - Terminologia - 38:17
+            - Servidor - mongod - 39:11
+            - Cliente - mongo - 40:44
+            - mongohacker - 41:47
+        * Rodar o mongod - 42:59
+        * Rodar o mongo - 43:08
+        * mongoexport - 43:35
+        * mongoimport - 44:40
+        * Exercício - 45:30
 - **Aula 02 | 10.11** Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
     + Módulo MongoDB
         * Cliente
-            - use database
-            - show dbs
-            - show collections
+            - use database: 8:34
         * CRUD
-            - insert
-            - save
+            - insert(): 15:26
+            - save(): 19:12
+            - cursor: 24:53
+
 - **Aula 03 | 10.11** Vídeo: [https://www.youtube.com/watch?v=cIHjA1hyPPY](https://www.youtube.com/watch?v=cIHjA1hyPPY)
     + Módulo MongoDB
         * CRUD
-            - find  & findOne
-                + Operadores Aritméticos
-                + Operadores Lógicos
-                + Operadores "Existênciais"
-- **Aula 04 - Parte 1 | 16.11**
+            - find(): 11:14
+            - find() UUID _id: 13:19
+            - find() query: 15:43
+            - find() fields: 17:49
+            - find() Operadores Aritméticos: 23:28
+            - find() Operadores Lógicos: 31:45
+- **Aula 04 - Parte 1 | 16.11** Vídeo: [https://www.youtube.com/watch?v=ONzJsNbv15U](https://www.youtube.com/watch?v=ONzJsNbv15U)
     + Módulo MongoDB
         * CRUD
-            - update
-- **Aula 04 - Parte 2 | 17.11**
+            - update() - $set: 28:47
+            - update() - $unset: 33:25
+            - update() - $inc (gravei de madrugada por isso está baixo): 34:55
+            - update() - $push (gravei de madrugada por isso está baixo): 37:53
+            - update() - $push ERRO campo não é Array: 41:01
+            - update() - $pushAll: 41:53s
+            - update() - $pull: 45:08
+            - update() - $pullAll: 46:37
+- **Aula 04 - Parte 2 | 17.11** Vídeo: [https://www.youtube.com/watch?v=ozbmQb6SVQk](https://www.youtube.com/watch?v=ozbmQb6SVQk)
     + Módulo MongoDB
         * CRUD
-            - update
-                + options
-            - find
-                + Operadores deArray
-- **Aula 05 | 18.11**
+            - update() - options - 1:40
+            - update() - options - upsert - 2:46
+            - update() - options - upsert - $setOnInsert - 7:06
+            - update() - options - multi - 9:56
+            - update() - options - writeConcern - 13:45
+            - find() - Operador de Array - $in - 19:20
+            - find() - Operador de Array - $nin - 21:50
+            - find() - Operador de Array - $all - 23:00
+            - find() - Operador de Negação - $not - 27:20
+- **Aula 05 | 18.11** Vídeo: 
     + Módulo MongoDB - Professor: [William Bruno](https://github.com/wbruno)
-    	* distinct
-        * group
-        * Aggregation Framework
-- **Aula 06 | 20.11**
+    	- mongoimport restaurantes - 1:38
+        - find().length() - 3:38
+        - count() - 5:20
+        - distinct() - 6:44
+        - Pokemon seed - 12:00
+        - Pokemon mongoexport - 14:25
+        - Pokemon mongoimport - 16:30
+        - limit().skip() - 19:50
+        - group() - 25:00
+        - aggregate() - 43:30
+- **Aula 06 - Parte 1 | 27.11** Vídeo: [https://www.youtube.com/watch?v=5bbWeEEzRQM](https://www.youtube.com/watch?v=5bbWeEEzRQM)
     + Módulo MongoDB
-        * Explain
-        * Índices
-        * Users and Passwords
-        * Replica
-        * Sharding
-        * GridFs
-        * Robomongo
-        * Modelagem
+        - Correção exercícios Suissa - 0:45
+        - Como enviar seus exercícios - 14:42
+        - Correção exercícios prof WBruno - 20:50
+        - Artigo - 28:40
+        - Relacionamentos - 29:36
+        - DBRef - 36:12
+- **Aula 06  - Parte 2| 01.12** Vídeo: [https://www.youtube.com/watch?v=IXz4IL0da1k](https://www.youtube.com/watch?v=IXz4IL0da1k)
+    + Módulo MongoDB
+        - Explain - 0:15
+        - Índices - 5:00
+        - GridFS - 14:58
+        - Replica - 30:11
+- **Aula 07  - Parte 2| 03.12** Vídeo: [https://www.youtube.com/watch?v=1ElYrkSIvII](https://www.youtube.com/watch?v=1ElYrkSIvII)
+    + Módulo MongoDB
+        - Replica - Árbitros - 2:13
+        - Sharding - 6:13
+        - Gerenciamento de usuários - 23:58
+        - Modelagem - 44:26
+        - Robomongo - 48:32
+        - Artigo Final - 51:24
+        - Projeto Final - 53:19
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js | 30.11 a 27.12
+##  Módulo Node.js | 07.11 a 27.12
 
 - **Aula 01 | 07.12**
     + Módulo Node.js
