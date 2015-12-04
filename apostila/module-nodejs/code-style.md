@@ -604,19 +604,17 @@ var add = new Function('a', 'b', 'return a + b');
 var subtract = Function('a', 'b', 'return a - b');
 ```
 
-- [7.11](#7.11) <a name="7.11"></a> Spacing in a function signature.
+- [7.11](#7.11) <a name="7.11"></a> Sem espaço entre a `function` e seus `(parâmetros)` e com espaço entre os `()` e o bloco `{}``.
 
-  > Why? Consistency is good, and you shouldn’t have to add or remove a space when adding or removing a name.
 
 ```javascript
 // bad
-const f = function(){};
 const g = function (){};
 const h = function() {};
 
 // good
-const x = function () {};
-const y = function a() {};
+const f = function() {};
+const f = function a() {};
 ```
 
 **[⬆ back to top](#table-of-contents)**
