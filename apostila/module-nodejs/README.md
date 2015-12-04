@@ -9,7 +9,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 ## Roteiro - 20 horas
 
 - Aula 01: 
-    + [Teoria](./theory.md) - Profs.: [Suissa]() e [Caio]()
+    + [Teoria](./theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio]()
         * Single thread
         * Event Loop
         * I/O Async
@@ -18,7 +18,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Event Drive
         * API
 - Aula 02: 
-    + [HTTP](./http.md) - Prof.: [Suissa]()
+    + [HTTP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
         * createServer
         * Methods
         * Status Codes
@@ -35,7 +35,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * rename
         * writeFile
 - Aula 04:
-    + [NPM](./npm.md) - Prof.: [Suissa]()
+    + [NPM](./npm.md) - Prof.: [Suissa](https://github.com/suissa)
         * init
         * install --global ou -g
         * install --save
@@ -62,7 +62,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * assert
         * chai
 - Aula 09:
-    + [Express]() - Prof.: [Suissa]()
+    + [Express]() - Prof.: [Suissa](https://github.com/suissa)
         * Model
         * Controller
         * Routes
@@ -70,8 +70,23 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
     + [Express]()
         * Events - Prof.: [Itacir]()
         * Promises - Prof.: [Itacir]()
+        * Middlewares - Prof.: [Caio]()
 - Aula 11:
-    + [Socket.io]() - Prof.: [Suissa]()
+    + [Socket.io]() - Prof.: [Suissa](https://github.com/suissa)
+        * TDD - Prof.: [Itacir]()
+- Aula 12:
+    + [REPL]() - Prof.: [Suissa](https://github.com/suissa)
+    + [UDP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
+    + [TCP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
+    + [HTTPS](./http.md) - Prof.: [Suissa](https://github.com/suissa)
+- Aula 13:
+- Aula 14:
+- Aula 15:
+- Aula 16:
+- Aula 17:
+- Aula 18:
+- Aula 19:
+- Aula 20:
 
 
 
