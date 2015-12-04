@@ -4,52 +4,52 @@ Ele é um fork do [Code Style do Airbnb](https://github.com/airbnb/javascript/).
 
 ## Table of Contents
 
-  1. [Types](#types)
-  1. [References](#references)
-  1. [Objects](#objects)
-  1. [Arrays](#arrays)
-  1. [Destructuring](#destructuring)
-  1. [Strings](#strings)
-  1. [Functions](#functions)
-  1. [Arrow Functions](#arrow-functions)
-  1. [Constructors](#constructors)
-  1. [Modules](#modules)
-  1. [Iterators and Generators](#iterators-and-generators)
-  1. [Properties](#properties)
-  1. [Variables](#variables)
-  1. [Hoisting](#hoisting)
-  1. [Comparison Operators & Equality](#comparison-operators--equality)
-  1. [Blocks](#blocks)
-  1. [Comments](#comments)
-  1. [Whitespace](#whitespace)
-  1. [Commas](#commas)
-  1. [Semicolons](#semicolons)
-  1. [Type Casting & Coercion](#type-casting--coercion)
-  1. [Naming Conventions](#naming-conventions)
-  1. [Accessors](#accessors)
-  1. [Events](#events)
-  1. [jQuery](#jquery)
-  1. [ECMAScript 5 Compatibility](#ecmascript-5-compatibility)
-  1. [ECMAScript 6 Styles](#ecmascript-6-styles)
-  1. [Testing](#testing)
-  1. [Performance](#performance)
-  1. [Resources](#resources)
-  1. [In the Wild](#in-the-wild)
-  1. [Translation](#translation)
-  1. [The JavaScript Style Guide Guide](#the-javascript-style-guide-guide)
-  1. [Chat With Us About JavaScript](#chat-with-us-about-javascript)
-  1. [Contributors](#contributors)
-  1. [License](#license)
+- [Types](#types)
+- [References](#references)
+- [Objects](#objects)
+- [Arrays](#arrays)
+- [Destructuring](#destructuring)
+- [Strings](#strings)
+- [Functions](#functions)
+- [Arrow Functions](#arrow-functions)
+- [Constructors](#constructors)
+- [Modules](#modules)
+- [Iterators and Generators](#iterators-and-generators)
+- [Properties](#properties)
+- [Variables](#variables)
+- [Hoisting](#hoisting)
+- [Comparison Operators & Equality](#comparison-operators--equality)
+- [Blocks](#blocks)
+- [Comments](#comments)
+- [Whitespace](#whitespace)
+- [Commas](#commas)
+- [Semicolons](#semicolons)
+- [Type Casting & Coercion](#type-casting--coercion)
+- [Naming Conventions](#naming-conventions)
+- [Accessors](#accessors)
+- [Events](#events)
+- [jQuery](#jquery)
+- [ECMAScript 5 Compatibility](#ecmascript-5-compatibility)
+- [ECMAScript 6 Styles](#ecmascript-6-styles)
+- [Testing](#testing)
+- [Performance](#performance)
+- [Resources](#resources)
+- [In the Wild](#in-the-wild)
+- [Translation](#translation)
+- [The JavaScript Style Guide Guide](#the-javascript-style-guide-guide)
+- [Chat With Us About JavaScript](#chat-with-us-about-javascript)
+- [Contributors](#contributors)
+- [License](#license)
 
 ## Types
 
-  - [1.1](#1.1) <a name='1.1'></a> **Primitivas**: Quando você acessa um tipo primitivo você trabalha diretamente em seu valor.
+* [1.1](#1.1) <a name='1.1'></a> **Primitivas**: Quando você acessa um tipo primitivo você trabalha diretamente em seu valor.
 
-    + `string`
-    + `number`
-    + `boolean`
-    + `null`
-    + `undefined`
+  - `string`
+  - `number`
+  - `boolean`
+  - `null`
+  - `undefined`
 
 ```javascript
 const foo = 1;
@@ -59,11 +59,12 @@ bar = 9;
 
 console.log(foo, bar); // => 1, 9
 ```
-  - [1.2](#1.2) <a name='1.2'></a> **Complex**: Quando você acessa um tipo complexo que você trabalha em uma referência ao seu valor.
 
-    + `object`
-    + `array`
-    + `function`
+* [1.2](#1.2) <a name='1.2'></a> **Complex**: Quando você acessa um tipo complexo que você trabalha em uma referência ao seu valor.
+
+* `object`
+* `array`
+* `function`
 
 ```javascript
 const foo = [1, 2];
@@ -78,11 +79,11 @@ console.log(foo[0], bar[0]); // => 9, 9
 
 ## Referências
 
-  - [2.1](#2.1) <a name='2.1'></a> Usar `const` para todas as suas referências; evitar o uso de `var`.
+* [2.1](#2.1) <a name='2.1'></a> Usar `const` para todas as suas referências; evitar o uso de `var`.
 
-  > Por quê? Isso garante que você não pode realocar suas referências, o que pode levar a erros e difíceis de compreender código.
+> Por quê? Isso garante que você não pode realocar suas referências, o que pode levar a erros e difíceis de compreender código.
 
-  eslint rules: [`prefer-const`](http://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](http://eslint.org/docs/rules/no-const-assign.html).
+eslint rules: [`prefer-const`](http://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](http://eslint.org/docs/rules/no-const-assign.html).
 
 ```javascript
 //ruim
@@ -94,11 +95,11 @@ const a = 1;
 const b = 2;
 ```
 
-  - [2.2](#2.2) <a name='2.2'></a> Se você deve voltar a atribuir referências, utilize `let` ao invés de` var`.
+* [2.2](#2.2) <a name='2.2'></a> Se você deve voltar a atribuir referências, utilize `let` ao invés de` var`.
 
-  > Why? `let` is block-scoped rather than function-scoped like `var`.
+> Why? `let` is block-scoped rather than function-scoped like `var`.
 
-  eslint rules: [`no-var`](http://eslint.org/docs/rules/no-var.html).
+eslint rules: [`no-var`](http://eslint.org/docs/rules/no-var.html).
 
 ```javascript
 //ruim
@@ -107,14 +108,14 @@ if (true) {
   count += 1;
 }
 
-// bom, use the let.
+// bom, use o let.
 let count = 1;
 if (true) {
   count += 1;
 }
 ```
 
-  - [2.3](#2.3) <a name='2.3'></a> Note-se que ambos `` let` e const` estão no escopo do bloco.
+- [2.3](#2.3) <a name='2.3'></a> Note-se que ambos `` let` e const` estão no escopo do bloco.
 
 ```javascript
 // const and let only exist in the blocks they are defined in.
@@ -130,9 +131,9 @@ console.log(b); // ReferenceError
 
 ## Objects
 
-  - [3.1](#3.1) <a name='3.1'></a> Use the literal syntax for object creation.
+* [3.1](#3.1) <a name='3.1'></a> Use the literal syntax for object creation.
 
-  eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
+eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
 
 ```javascript
 //ruim
@@ -142,7 +143,7 @@ const item = new Object();
 const item = {};
 ```
 
-  - [3.2](#3.2) <a name='3.2'></a> If your code will be executed in browsers in script context, don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61). It’s OK to use them in ES6 modules and server-side code.
+* [3.2](#3.2) <a name='3.2'></a> If your code will be executed in browsers in script context, don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61). It’s OK to use them in ES6 modules and server-side code.
 
 ```javascript
 //ruim
@@ -158,7 +159,7 @@ const superman = {
 };
 ```
 
-  - [3.3](#3.3) <a name='3.3'></a> Use readable synonyms in place of reserved words.
+* [3.3](#3.3) <a name='3.3'></a> Use readable synonyms in place of reserved words.
 
 ```javascript
 //ruim
@@ -177,10 +178,10 @@ const superman = {
 };
 ```
 
-  <a name="es6-computed-properties"></a>
-  - [3.4](#3.4) <a name='3.4'></a> Use computed property names when creating objects with dynamic property names.
+<a name="es6-computed-properties"></a>
+* [3.4](#3.4) <a name='3.4'></a> Use computed property names when creating objects with dynamic property names.
 
-  > Why? They allow you to define all the properties of an object in one place.
+> Why? They allow you to define all the properties of an object in one place.
 
 ```javascript
 function getKey(k) {
@@ -202,10 +203,10 @@ const obj = {
 };
 ```
 
-  <a name="es6-object-shorthand"></a>
-  - [3.5](#3.5) <a name='3.5'></a> Use object method shorthand.
+<a name="es6-object-shorthand"></a>
+* [3.5](#3.5) <a name='3.5'></a> Use object method shorthand.
 
-  eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
 ```javascript
 //ruim
@@ -227,12 +228,12 @@ const atom = {
 };
 ```
 
-  <a name="es6-object-concise"></a>
-  - [3.6](#3.6) <a name='3.6'></a> Use property value shorthand.
+<a name="es6-object-concise"></a>
+* [3.6](#3.6) <a name='3.6'></a> Use property value shorthand.
 
-  > Why? It is shorter to write and descriptive.
+> Why? It is shorter to write and descriptive.
 
-  eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
+eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
 ```javascript
 const lukeSkywalker = 'Luke Skywalker';
@@ -248,9 +249,9 @@ const obj = {
 };
 ```
 
-  - [3.7](#3.7) <a name='3.7'></a> Group your shorthand properties at the beginning of your object declaration.
+* [3.7](#3.7) <a name='3.7'></a> Group your shorthand properties at the beginning of your object declaration.
 
-  > Why? It's easier to tell which properties are using the shorthand.
+> Why? It's easier to tell which properties are using the shorthand.
 
 ```javascript
 const anakinSkywalker = 'Anakin Skywalker';
@@ -281,9 +282,9 @@ const obj = {
 
 ## Arrays
 
-  - [4.1](#4.1) <a name='4.1'></a> Use the literal syntax for array creation.
+* [4.1](#4.1) <a name='4.1'></a> Use the literal syntax for array creation.
 
-  eslint rules: [`no-array-constructor`](http://eslint.org/docs/rules/no-array-constructor.html).
+eslint rules: [`no-array-constructor`](http://eslint.org/docs/rules/no-array-constructor.html).
 
 ```javascript
 //ruim
@@ -293,7 +294,7 @@ const items = new Array();
 const items = [];
 ```
 
-  - [4.2](#4.2) <a name='4.2'></a> Use Array#push instead of direct assignment to add items to an array.
+* [4.2](#4.2) <a name='4.2'></a> Use Array#push instead of direct assignment to add items to an array.
 
 ```javascript
 const someStack = [];
@@ -305,8 +306,8 @@ someStack[someStack.length] = 'abracadabra';
 someStack.push('abracadabra');
 ```
 
-  <a name="es6-array-spreads"></a>
-  - [4.3](#4.3) <a name='4.3'></a> Use array spreads `...` to copy arrays.
+<a name="es6-array-spreads"></a>
+* [4.3](#4.3) <a name='4.3'></a> Use array spreads `...` to copy arrays.
 
 ```javascript
 //ruim
@@ -321,7 +322,8 @@ for (i = 0; i < len; i++) {
 // bom
 const itemsCopy = [...items];
 ```
-  - [4.4](#4.4) <a name='4.4'></a> To convert an array-like object to an array, use Array#from.
+
+* [4.4](#4.4) <a name='4.4'></a> To convert an array-like object to an array, use Array#from.
 
 ```javascript
 const foo = document.querySelectorAll('.foo');
@@ -332,9 +334,9 @@ const nodes = Array.from(foo);
 
 ## Destructuring
 
-  - [5.1](#5.1) <a name='5.1'></a> Use object destructuring when accessing and using multiple properties of an object.
+* [5.1](#5.1) <a name='5.1'></a> Use object destructuring when accessing and using multiple properties of an object.
 
-  > Why? Destructuring saves you from creating temporary references for those properties.
+> Why? Destructuring saves you from creating temporary references for those properties.
 
 ```javascript
 //ruim
@@ -357,7 +359,7 @@ function getFullName({ firstName, lastName }) {
 }
 ```
 
-  - [5.2](#5.2) <a name='5.2'></a> Use array destructuring.
+* [5.2](#5.2) <a name='5.2'></a> Use array destructuring.
 
 ```javascript
 const arr = [1, 2, 3, 4];
@@ -370,9 +372,9 @@ const second = arr[1];
 const [first, second] = arr;
 ```
 
-  - [5.3](#5.3) <a name='5.3'></a> Use object destructuring for multiple return values, not array destructuring.
+* [5.3](#5.3) <a name='5.3'></a> Use object destructuring for multiple return values, not array destructuring.
 
-  > Why? You can add new properties over time or change the order of things without breaking call sites.
+> Why? You can add new properties over time or change the order of things without breaking call sites.
 
 ```javascript
 //ruim
@@ -399,9 +401,9 @@ const { left, right } = processInput(input);
 
 ## Strings
 
-  - [6.1](#6.1) <a name='6.1'></a> Use single quotes `''` for strings.
+* [6.1](#6.1) <a name='6.1'></a> Use single quotes `''` for strings.
 
-  eslint rules: [`quotes`](http://eslint.org/docs/rules/quotes.html).
+eslint rules: [`quotes`](http://eslint.org/docs/rules/quotes.html).
 
 ```javascript
 //ruim
@@ -411,8 +413,8 @@ const name = "Capt. Janeway";
 const name = 'Capt. Janeway';
 ```
 
-  - [6.2](#6.2) <a name='6.2'></a> Strings longer than 100 characters should be written across multiple lines using string concatenation.
-  - [6.3](#6.3) <a name='6.3'></a> Note: If overused, long strings with concatenation could impact performance. [jsPerf](http://jsperf.com/ya-string-concat) & [Discussion](https://github.com/airbnb/javascript/issues/40).
+* [6.2](#6.2) <a name='6.2'></a> Strings longer than 100 characters should be written across multiple lines using string concatenation.
+* [6.3](#6.3) <a name='6.3'></a> Note: If overused, long strings with concatenation could impact performance. [jsPerf](http://jsperf.com/ya-string-concat) & [Discussion](https://github.com/airbnb/javascript/issues/40).
 
 ```javascript
 //ruim
@@ -430,12 +432,12 @@ const errorMessage = 'This is a super long error that was thrown because ' +
   'with this, you would get nowhere fast.';
 ```
 
-  <a name="es6-template-literals"></a>
-  - [6.4](#6.4) <a name='6.4'></a> When programmatically building up strings, use template strings instead of concatenation.
+<a name="es6-template-literals"></a>
+* [6.4](#6.4) <a name='6.4'></a> When programmatically building up strings, use template strings instead of concatenation.
 
-  > Why? Template strings give you a readable, concise syntax with proper newlines and string interpolation features.
+> Why? Template strings give you a readable, concise syntax with proper newlines and string interpolation features.
 
-  eslint rules: [`prefer-template`](http://eslint.org/docs/rules/prefer-template.html).
+eslint rules: [`prefer-template`](http://eslint.org/docs/rules/prefer-template.html).
 
 ```javascript
 //ruim
@@ -453,16 +455,16 @@ function sayHi(name) {
   return `How are you, ${name}?`;
 }
 ```
-  - [6.5](#6.5) <a name='6.5'></a> Never use `eval()` on a string, it opens too many vulnerabilities.
+* [6.5](#6.5) <a name='6.5'></a> Never use `eval()` on a string, it opens too many vulnerabilities.
 
 **[⬆ back to top](#table-of-contents)**
 
 
 ## Functions
 
-  - [7.1](#7.1) <a name='7.1'></a> Use function declarations instead of function expressions.
+* [7.1](#7.1) <a name='7.1'></a> Use function declarations instead of function expressions.
 
-  > Why? Function declarations are named, so they're easier to identify in call stacks. Also, the whole body of a function declaration is hoisted, whereas only the reference of a function expression is hoisted. This rule makes it possible to always use [Arrow Functions](#arrow-functions) in place of function expressions.
+> Why? Function declarations are named, so they're easier to identify in call stacks. Also, the whole body of a function declaration is hoisted, whereas only the reference of a function expression is hoisted. This rule makes it possible to always use [Arrow Functions](#arrow-functions) in place of function expressions.
 
 ```javascript
 //ruim
@@ -474,7 +476,7 @@ function foo() {
 }
 ```
 
-  - [7.2](#7.2) <a name='7.2'></a> Function expressions:
+* [7.2](#7.2) <a name='7.2'></a> Function expressions:
 
 ```javascript
 // immediately-invoked function expression (IIFE)
@@ -483,8 +485,8 @@ function foo() {
 })();
 ```
 
-  - [7.3](#7.3) <a name='7.3'></a> Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears.
-  - [7.4](#7.4) <a name='7.4'></a> **Note:** ECMA-262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA-262's note on this issue](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf#page=97).
+* [7.3](#7.3) <a name='7.3'></a> Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears.
+* [7.4](#7.4) <a name='7.4'></a> **Note:** ECMA-262 defines a `block` as a list of statements. A function declaration is not a statement. [Read ECMA-262's note on this issue](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf#page=97).
 
 ```javascript
 //ruim
@@ -503,7 +505,7 @@ if (currentUser) {
 }
 ```
 
-  - [7.5](#7.5) <a name='7.5'></a> Never name a parameter `arguments`. This will take precedence over the `arguments` object that is given to every function scope.
+* [7.5](#7.5) <a name='7.5'></a> Never name a parameter `arguments`. This will take precedence over the `arguments` object that is given to every function scope.
 
 ```javascript
 //ruim
@@ -517,10 +519,10 @@ function yup(name, options, args) {
 }
 ```
 
-  <a name="es6-rest"></a>
-  - [7.6](#7.6) <a name='7.6'></a> Never use `arguments`, opt to use rest syntax `...` instead.
+<a name="es6-rest"></a>
+* [7.6](#7.6) <a name='7.6'></a> Never use `arguments`, opt to use rest syntax `...` instead.
 
-  > Why? `...` is explicit about which arguments you want pulled. Plus rest arguments are a real Array and not Array-like like `arguments`.
+> Why? `...` is explicit about which arguments you want pulled. Plus rest arguments are a real Array and not Array-like like `arguments`.
 
 ```javascript
 //ruim
@@ -535,8 +537,8 @@ function concatenateAll(...args) {
 }
 ```
 
-  <a name="es6-default-parameters"></a>
-  - [7.7](#7.7) <a name='7.7'></a> Use default parameter syntax rather than mutating function arguments.
+<a name="es6-default-parameters"></a>
+* [7.7](#7.7) <a name='7.7'></a> Use default parameter syntax rather than mutating function arguments.
 
 ```javascript
 // really bad
@@ -562,9 +564,9 @@ function handleThings(opts = {}) {
 }
 ```
 
-  - [7.8](#7.8) <a name='7.8'></a> Avoid side effects with default parameters.
+* [7.8](#7.8) <a name='7.8'></a> Avoid side effects with default parameters.
 
-  > Why? They are confusing to reason about.
+> Why? They are confusing to reason about.
 
 ```javascript
 var b = 1;
@@ -578,7 +580,7 @@ count(3); // 3
 count();  // 3
 ```
 
-  - [7.9](#7.9) <a name='7.9'></a> Always put default parameters last.
+* [7.9](#7.9) <a name='7.9'></a> Always put default parameters last.
 
 ```javascript
 //ruim
@@ -594,7 +596,7 @@ function handleThings(name, opts = {}) {
 
 - [7.10](#7.10) <a name='7.10'></a> Never use the Function constructor to create a new function.
 
-  > Why? Creating a function in this way evaluates a string similarly to eval(), which opens vulnerabilities.
+> Why? Creating a function in this way evaluates a string similarly to eval(), which opens vulnerabilities.
 
 ```javascript
 //ruim
