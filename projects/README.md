@@ -17,7 +17,7 @@ Projetos:
 - Nota Fiscal Eletronica
 - Boletos
 - Ecommerce
-- Estante Virtual - Livros
+- [Estante Virtual - Livros](./Estante-Virtual)
 - Meio de Pagamento
 - Gerenciamento de cervejas tomadas
 - Gerenciador de eventos
