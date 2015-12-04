@@ -80,15 +80,15 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
 - Aula 12:
     + [REPL]() - Prof.: [Suissa](https://github.com/suissa)
-    + [UDP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
-    + [TCP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
-    + [HTTPS](./http.md) - Prof.: [Suissa](https://github.com/suissa)
+    + [UDP](./http.md) - Prof.: [Caio](https://github.com/suissa)
+    + [TCP](./http.md) - Prof.: [Caio](https://github.com/suissa)
+    + [HTTPS](./http.md) - Prof.: [Caio](https://github.com/suissa)
 - Aula 13:
     + [Utilizando APIs externas]() - Prof.: [Suissa](https://github.com/suissa)
-        * [pokemons](http://pokeapi.co/)
-        * [redtube](http://api.redtube.com/docs/)
-        * [github](https://developer.github.com/v3/)
-        * [instagram](https://www.instagram.com/developer/)
+        * [pokemons](http://pokeapi.co/) - Prof.: [William Bruno](https://github.com/wbruno)
+        * [github](https://developer.github.com/v3/) - Prof.: [William Bruno](https://github.com/wbruno)
+        * [redtube](http://api.redtube.com/docs/) - Prof.: [Suissa](https://github.com/suissa)
+        * [instagram](https://www.instagram.com/developer/) - Prof.: [Suissa](https://github.com/suissa)
 - Aula 14:
     + [Autenticação]() - Prof.: [Caio](https://github.com/caiocutrim/)
         * Session
