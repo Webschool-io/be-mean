@@ -1,4 +1,4 @@
-# Gerente COntábil - NFe / Boleto
+# Gerente Contábil - NFe / Boleto
 
 ## O Problema
 

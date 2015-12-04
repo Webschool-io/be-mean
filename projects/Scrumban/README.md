@@ -1,4 +1,4 @@
-# Scrumban - Gerente de Projeto com Github
+# ScrumBan - Gerente de Projeto com Github
 
 ## O Problema
 
