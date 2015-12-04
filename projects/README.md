@@ -31,7 +31,7 @@ Projetos:
 - Sistema de Vagas/Jobs por requisitos
 - Sistema de couchsurfing para devs
 - Sistema de trabalhos acadêmicos anti-plágio
-- Sistema de motoboy/mototaxi
+- Sistema de Uber-like - motoboy/mototaxi
 - Sistema para Food Trucks
     + venda via pagamento digital, etc
     + acompanhamento em tempo real online
