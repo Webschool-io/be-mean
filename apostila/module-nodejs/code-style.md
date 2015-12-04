@@ -51,28 +51,28 @@ Ele é um fork do [Code Style do Airbnb](https://github.com/airbnb/javascript/).
     + `null`
     + `undefined`
 
-    ```javascript
-    const foo = 1;
-    let bar = foo;
+```javascript
+const foo = 1;
+let bar = foo;
 
-    bar = 9;
+bar = 9;
 
-    console.log(foo, bar); // => 1, 9
-    ```
+console.log(foo, bar); // => 1, 9
+```
   - [1.2](#1.2) <a name='1.2'></a> **Complex**: Quando você acessa um tipo complexo que você trabalha em uma referência ao seu valor.
 
     + `object`
     + `array`
     + `function`
 
-    ```javascript
-    const foo = [1, 2];
-    const bar = foo;
+```javascript
+const foo = [1, 2];
+const bar = foo;
 
-    bar[0] = 9;
+bar[0] = 9;
 
-    console.log(foo[0], bar[0]); // => 9, 9
-    ```
+console.log(foo[0], bar[0]); // => 9, 9
+```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -84,15 +84,15 @@ Ele é um fork do [Code Style do Airbnb](https://github.com/airbnb/javascript/).
 
   eslint rules: [`prefer-const`](http://eslint.org/docs/rules/prefer-const.html), [`no-const-assign`](http://eslint.org/docs/rules/no-const-assign.html).
 
-    ```javascript
-    // bad
-    var a = 1;
-    var b = 2;
+```javascript
+// bad
+var a = 1;
+var b = 2;
 
-    // good
-    const a = 1;
-    const b = 2;
-    ```
+// good
+const a = 1;
+const b = 2;
+```
 
   - [2.2](#2.2) <a name='2.2'></a> Se você deve voltar a atribuir referências, utilize `let` ao invés de` var`.
 
@@ -100,31 +100,31 @@ Ele é um fork do [Code Style do Airbnb](https://github.com/airbnb/javascript/).
 
   eslint rules: [`no-var`](http://eslint.org/docs/rules/no-var.html).
 
-    ```javascript
-    // bad
-    var count = 1;
-    if (true) {
-      count += 1;
-    }
+```javascript
+// bad
+var count = 1;
+if (true) {
+  count += 1;
+}
 
-    // good, use the let.
-    let count = 1;
-    if (true) {
-      count += 1;
-    }
-    ```
+// good, use the let.
+let count = 1;
+if (true) {
+  count += 1;
+}
+```
 
   - [2.3](#2.3) <a name='2.3'></a> Note-se que ambos `` let` e const` estão no escopo do bloco.
 
-    ```javascript
-    // const and let only exist in the blocks they are defined in.
-    {
-      let a = 1;
-      const b = 1;
-    }
-    console.log(a); // ReferenceError
-    console.log(b); // ReferenceError
-    ```
+```javascript
+// const and let only exist in the blocks they are defined in.
+{
+  let a = 1;
+  const b = 1;
+}
+console.log(a); // ReferenceError
+console.log(b); // ReferenceError
+```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -134,99 +134,98 @@ Ele é um fork do [Code Style do Airbnb](https://github.com/airbnb/javascript/).
 
   eslint rules: [`no-new-object`](http://eslint.org/docs/rules/no-new-object.html).
 
-    ```javascript
-    // bad
-    const item = new Object();
+```javascript
+// bad
+const item = new Object();
 
-    // good
-    const item = {};
-    ```
+// good
+const item = {};
+```
 
   - [3.2](#3.2) <a name='3.2'></a> If your code will be executed in browsers in script context, don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61). It’s OK to use them in ES6 modules and server-side code.
 
-    ```javascript
-    // bad
-    const superman = {
-      default: { clark: 'kent' },
-      private: true,
-    };
+```javascript
+// bad
+const superman = {
+  default: { clark: 'kent' },
+  private: true,
+};
 
-    // good
-    const superman = {
-      defaults: { clark: 'kent' },
-      hidden: true,
-    };
-    ```
+// good
+const superman = {
+  defaults: { clark: 'kent' },
+  hidden: true,
+};
+```
 
   - [3.3](#3.3) <a name='3.3'></a> Use readable synonyms in place of reserved words.
 
-    ```javascript
-    // bad
-    const superman = {
-      class: 'alien',
-    };
+```javascript
+// bad
+const superman = {
+  class: 'alien',
+};
 
-    // bad
-    const superman = {
-      klass: 'alien',
-    };
+// bad
+const superman = {
+  klass: 'alien',
+};
 
-    // good
-    const superman = {
-      type: 'alien',
-    };
-    ```
+// good
+const superman = {
+  type: 'alien',
+};
+```
 
   <a name="es6-computed-properties"></a>
   - [3.4](#3.4) <a name='3.4'></a> Use computed property names when creating objects with dynamic property names.
 
   > Why? They allow you to define all the properties of an object in one place.
 
-    ```javascript
+```javascript
+function getKey(k) {
+  return `a key named ${k}`;
+}
 
-    function getKey(k) {
-      return `a key named ${k}`;
-    }
+// bad
+const obj = {
+  id: 5,
+  name: 'San Francisco',
+};
+obj[getKey('enabled')] = true;
 
-    // bad
-    const obj = {
-      id: 5,
-      name: 'San Francisco',
-    };
-    obj[getKey('enabled')] = true;
-
-    // good
-    const obj = {
-      id: 5,
-      name: 'San Francisco',
-      [getKey('enabled')]: true,
-    };
-    ```
+// good
+const obj = {
+  id: 5,
+  name: 'San Francisco',
+  [getKey('enabled')]: true,
+};
+```
 
   <a name="es6-object-shorthand"></a>
   - [3.5](#3.5) <a name='3.5'></a> Use object method shorthand.
 
   eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
-    ```javascript
-    // bad
-    const atom = {
-      value: 1,
+```javascript
+// bad
+const atom = {
+  value: 1,
 
-      addValue: function (value) {
-        return atom.value + value;
-      },
-    };
+  addValue: function (value) {
+    return atom.value + value;
+  },
+};
 
-    // good
-    const atom = {
-      value: 1,
+// good
+const atom = {
+  value: 1,
 
-      addValue(value) {
-        return atom.value + value;
-      },
-    };
-    ```
+  addValue(value) {
+    return atom.value + value;
+  },
+};
+```
 
   <a name="es6-object-concise"></a>
   - [3.6](#3.6) <a name='3.6'></a> Use property value shorthand.
@@ -1569,61 +1568,61 @@ Ele é um fork do [Code Style do Airbnb](https://github.com/airbnb/javascript/).
 
   eslint rules: [`padded-blocks`](http://eslint.org/docs/rules/padded-blocks.html).
 
-    ```javascript
-    // bad
-    function bar() {
+```javascript
+// bad
+function bar() {
 
-      console.log(foo);
+  console.log(foo);
 
-    }
+}
 
-    // also bad
-    if (baz) {
+// also bad
+if (baz) {
 
-      console.log(qux);
-    } else {
-      console.log(foo);
+  console.log(qux);
+} else {
+  console.log(foo);
 
-    }
+}
 
-    // good
-    function bar() {
-      console.log(foo);
-    }
+// good
+function bar() {
+  console.log(foo);
+}
 
-    // good
-    if (baz) {
-      console.log(qux);
-    } else {
-      console.log(foo);
-    }
-    ```
+// good
+if (baz) {
+  console.log(qux);
+} else {
+  console.log(foo);
+}
+```
 
   - [18.9](#18.9) <a name='18.9'></a> Do not add spaces inside parentheses.
 
   eslint rules: [`space-in-parens`](http://eslint.org/docs/rules/space-in-parens.html).
 
-    ```javascript
-    // bad
-    function bar( foo ) {
-      return foo;
-    }
+  ```javascript
+  // bad
+  function bar( foo ) {
+    return foo;
+  }
 
-    // good
-    function bar(foo) {
-      return foo;
-    }
+  // good
+  function bar(foo) {
+    return foo;
+  }
 
-    // bad
-    if ( foo ) {
-      console.log(foo);
-    }
+  // bad
+  if ( foo ) {
+    console.log(foo);
+  }
 
-    // good
-    if (foo) {
-      console.log(foo);
-    }
-    ```
+  // good
+  if (foo) {
+    console.log(foo);
+  }
+  ```
 
   - [18.10](#18.10) <a name='18.10'></a> Do not add spaces inside brackets.
 
@@ -1655,40 +1654,40 @@ Ele é um fork do [Code Style do Airbnb](https://github.com/airbnb/javascript/).
 
 ## Commas
 
-  - [19.1](#19.1) <a name='19.1'></a> Leading commas: **Nope.**
+  - [19.1](#19.1) <a name='19.1'></a> Comma-first: **Sim.**
 
-  eslint rules: [`comma-style`](http://eslint.org/docs/rules/comma-style.html).
+[Por que usar comma-first?](http://nomadev.com.br/comma-first-por-que-usar/)
 
-    ```javascript
-    // bad
-    const story = [
-        once
-      , upon
-      , aTime
-    ];
+  ```javascript
+  // bad
+  const story = [
+    once,
+    upon,
+    aTime,
+  ];
 
-    // good
-    const story = [
-      once,
-      upon,
-      aTime,
-    ];
+  // good
+  const story = [
+    once
+  , upon
+  , aTime
+  ];
 
-    // bad
-    const hero = {
-        firstName: 'Ada'
-      , lastName: 'Lovelace'
-      , birthYear: 1815
-      , superPower: 'computers'
-    };
+  // bad
+  const hero = {
+    firstName: 'Ada',
+    lastName: 'Lovelace',
+    birthYear: 1815,
+    superPower: 'computers',
+  };
 
-    // good
-    const hero = {
-      firstName: 'Ada',
-      lastName: 'Lovelace',
-      birthYear: 1815,
-      superPower: 'computers',
-    };
+  // good
+  const hero = {
+    firstName: 'Ada'
+  , lastName: 'Lovelace'
+  , birthYear: 1815
+  , superPower: 'computers'
+  };
     ```
 
   - [19.2](#19.2) <a name='19.2'></a> Additional trailing comma: **Yup.**
