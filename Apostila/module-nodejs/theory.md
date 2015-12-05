@@ -15,6 +15,8 @@ O Node.js pode ser considerado uma plataforma de execução de aplicações em J
 
 ## V8
 
+![](http://www.dsart.com/images/made/images/products/V8Engine_1200_1065_imgds_watermark.png_140_60_10_c_middle_-10_-10.jpg)
+
 Então o que é o tal do **V8** que é a base fundamental do Node.js?
 
 Ele é nada menos que o interpretador de JavaScript, tipo uma máquina virtual, desenvolvido pelo Google e usado no Chrome. Feito em C++ e open-source.
@@ -29,7 +31,7 @@ O Node.js trabalha *apenas* com uma thread, podendo ser criadas outras, com isso
 
 **Mas como ele consegue gerenciar a porra toda apenas com uma *thread*?**
 
-Com uma coisinha fachama *Event Loop*.
+Com uma coisinha linda fachamada *Event Loop*.
 
 ## Event Loop
 
