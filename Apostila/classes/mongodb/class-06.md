@@ -7,5 +7,3 @@ Para finalizar nosso módulo de MongoDb iremos reforçar alguns conceitos anteri
 * [Índices](./../../module-mongodb/index.md)
 * [Replica](./../../module-mongodb/replica.md)
 * [GridFs](./../../module-mongodb/gridFs.md)
-
-Falar para colocar avatar no seu github igual gente.
