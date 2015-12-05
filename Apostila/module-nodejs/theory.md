@@ -23,6 +23,8 @@ O trabalho dele é basicamente *compilar* o código de JavaScript para o código
 
 ## Single thread
 
+![](http://www.stfidelischurch.com/portals/ks-stfidelis/Centennial/Opas%20One%20Man%20Band%20--%20LR.jpg)
+
 O Node.js trabalha *apenas* com uma thread, podendo ser criadas outras, com isso economizando muita memória, diferentemente da forma que o Apache trabalha e você percebe claramente a diferença de utilização de memória, já que com apenas uma *thread* você não precisa criar um processo novo para cada usuário conectado, acarretando também em uma economia de CPU.
 
 **Mas como ele consegue gerenciar a porra toda apenas com uma *thread*?**
