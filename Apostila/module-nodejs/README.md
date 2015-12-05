@@ -10,12 +10,12 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 
 - Aula 01: **07/12/2015**
     + [Teoria](./theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio]()
+        * V8
         * Single thread
         * Event Loop
         * I/O Async
         * Libuv
-        * V8
-        * Event Drive
+        * Event Driven
         * API
 - Aula 02: **07/12/2015**
     + [HTTP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
@@ -58,6 +58,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Mongoose
 - Aula 07: **10/12/2015**
     + [Mongoose]() - Prof.: [Suissa](https://github.com/suissa)
+        * Arquitetura Atômica
 - Aula 08: **10/12/2015**
     + [TDD]() - Prof.: [Itacir](https://github.com/pompeu)
         * assert
@@ -99,23 +100,23 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Token
 - Aula 16: **17/12/2015**
     + **[Projeto em aula]**
-        * [Gerenciador de Projeto com Github]()
+        * [Gerenciador de Projeto com Github](./../../Projects/Scrumban)
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 - Aula 17: **17/12/2015**
     + **[Projeto em aula]**
-        * [Estante virtual]()
+        * [Estante Virtual](./../../Projects/Estante-Virtual)
             - Prof.: [William Bruno](https://github.com/wbruno)
 - Aula 18: **16/12/2015**
     + **[Projeto em aula]**
-        * [Gerenciador de Doações]()
+        * [Gerenciador de Doações](./../../Projects/Donations)
             - Prof.: [Suissa](https://github.com/suissa)
 - Aula 19: **18/12/2015**
     + **[Projeto em aula]**
-        * [Gerenciador de Vagas de Trabalho]()
+        * [Gerenciador de Vagas de Trabalho](./../../Projects/Jobs)
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 20: **18/12/2015**
     + **[Projeto em aula]**
-        * [Couchsurfing para Devs]()
+        * [Couchsurfing para Devs](./../../Projects/DevCouchsurfing)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
 ### Projeto em aula
