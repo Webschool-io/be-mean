@@ -45,7 +45,7 @@ Como o processo é **assíncrono** ele irá executar e só após sua finalizaç�
 
 ## I/O Async
 
-Qualquer função do Node.js, por padrão, é assíncrona por isso sempre precisamos de uma função que executará após o final da execução dessa função, essa que executa posteriormente é chamada de *callback*, falremos muito mais sobre isso futuramente.
+Qualquer função do Node.js, por padrão, é assíncrona por isso sempre precisamos de uma função que executará após o final desse processamento, essa que executa posteriormente é chamada de *callback*, falaremos muito mais sobre isso futuramente.
 
 **Mas então o que quer dizer que o *I/O* é assíncrono?**
 
