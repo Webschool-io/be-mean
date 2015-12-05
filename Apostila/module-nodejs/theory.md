@@ -43,6 +43,41 @@ Quando o evento chega para ser exeutado no *Event Loop*, caso ele seja assíncro
 
 Como o processo é **assíncrono** ele irá executar e só após sua finalização que ele dispara o *trigger* para seu *callback*, esse voltando para a fila que irá ser executada pelo *Event Loop*.
 
+
+## Libuv
+
+![](http://docs.libuv.org/en/v1.x/_images/architecture.png)
+
+Libuv é uma biblioteca multi-plataforma que fornece notificação de eventos de forma assíncrona, isso inclui nosso sagrado **I/O**, foi originalmente desenvolvida para o Node.js, sendo a maior motivação a [integração com o Windows](http://tinyclouds.org/iocp-links.html).
+
+Essa biblioteca veio para fazer o trabalho da [libev](https://github.com/enki/libev) e [libeio](http://software.schmorp.de/pkg/libeio.html) agregando também a parte de DNS do [C-Ares](http://c-ares.haxx.se/).
+
+Onde a `libev` gerenciava o *Event Loop* e a `libeio` gerenciava o I/O assíncrono.
+
+![](./images/node-new.png)
+
+Foi no Node 0.5 que ela entrou em cena e na versão 0.9 a `libev` foi removida.
+
+### Features
+
+- Full-featured event loop backed by epoll, kqueue, IOCP, event ports.
+- Asynchronous TCP and UDP sockets
+- Asynchronous DNS resolution
+- Asynchronous file and file system operations
+- File system events
+- ANSI escape code controlled TTY
+- IPC with socket sharing, using Unix domain sockets or named pipes (Windows)
+- Child processes
+- Thread pool
+- Signal handling
+- High resolution clock
+- Threading and synchronization primitives
+
+Lista retirada da [documentação](http://docs.libuv.org/en/v1.x/)
+
+Caso você queira se aprofundar mais indico [esse material](https://nikhilm.github.io/uvbook/introduction.html).
+
+
 ## I/O Async
 
 Qualquer função do Node.js, por padrão, é assíncrona por isso sempre precisamos de uma função que executará após o final desse processamento, essa que executa posteriormente é chamada de *callback*, falaremos muito mais sobre isso futuramente.
@@ -57,7 +92,7 @@ Para termos uma ideia melhor de como é o funcionamento assíncrono, vamos pensa
 
 ![](http://4.bp.blogspot.com/-eXQNL7LvhVs/ULZzMEyKxaI/AAAAAAAAAFk/GlqXs6tBw9g/s1600/img3.jpg)
 
-No restaurante **síncrono** quando uma mesa é atendida ela precisa receber seu pedido antes que o garçom possa antender outra mesa!!
+No restaurante **síncrono** quando uma mesa é atendida ela precisa receber seu pedido antes que o garçom possa antender outra mesa!!!
 
 ![](http://4.bp.blogspot.com/-NKB6IU5aisI/ULZzTGe-m7I/AAAAAAAAAF8/mK3IWFoEdZ8/s1600/img5.jpg)
 
@@ -81,35 +116,6 @@ Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.o
 ## Thread Pool
 
 ![http://kunkle.org/assets/scaling-event-loop.png](http://kunkle.org/assets/scaling-event-loop.png)
-
-## Libuv
-
-![](http://docs.libuv.org/en/v1.x/_images/architecture.png)
-
-Libuv é uma biblioteca multi-plataforma que fornece notificação de eventos de forma assíncrona, isso inclui nosso sagrado **I/O**, foi originalmente desenvolvida para o Node.js, sendo a maior motivação a [integração com o Windows](http://tinyclouds.org/iocp-links.html).
-
-Essa biblioteca veio para fazer o trabalho da [libev](http://software.schmorp.de/pkg/libev.html) e [](http://software.schmorp.de/pkg/libeio.html)
-
-Foi no Node 0.5 que ela entrou em cena e na versão 0.9 a `libev` foi removida
-
-### Features
-
-- Full-featured event loop backed by epoll, kqueue, IOCP, event ports.
-- Asynchronous TCP and UDP sockets
-- Asynchronous DNS resolution
-- Asynchronous file and file system operations
-- File system events
-- ANSI escape code controlled TTY
-- IPC with socket sharing, using Unix domain sockets or named pipes (Windows)
-- Child processes
-- Thread pool
-- Signal handling
-- High resolution clock
-- Threading and synchronization primitives
-
-Lista retirada da [documentação](http://docs.libuv.org/en/v1.x/)
-
-Caso você queira se aprofundar mais indico [esse material](https://nikhilm.github.io/uvbook/introduction.html).
 
 ## Event Drive
 
