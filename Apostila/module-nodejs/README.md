@@ -35,7 +35,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * rename
         * writeFile
 - Aula 04: **08/12/2015**
-    + [NPM](./npm.md) - Prof.: [Suissa](https://github.com/suissa)
+    + [npm](./npm.md) - Prof.: [Suissa](https://github.com/suissa)
         * init
         * install --global ou -g
         * install --save
