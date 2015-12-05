@@ -13,6 +13,14 @@ O Node.js pode ser considerado uma plataforma de execução de aplicações em J
 
 ![](http://image.slidesharecdn.com/nodejsexplained-130219213912-phpapp02/95/nodejs-explained-13-638.jpg?cb=1386103418)
 
+## V8
+
+Então o que é o tal do **V8** que é a base fundamental do Node.js?
+
+Ele é nada menos que o interpretador de JavaScript, tipo uma máquina virtual, desenvolvido pelo Google e usado no Chrome. Feito em C++ e open-source.
+
+O trabalho dele é basicamente *compilar* o código de JavaScript para o código nativo de máquina para depois executá-lo. Ele levou a velocidade dos códigos compilados para o JavaScript.
+
 ## Single thread
 
 O Node.js trabalha *apenas* com uma thread, podendo ser criadas outras, com isso economizando muita memória, diferentemente da forma que o Apache trabalha e você percebe claramente a diferença de utilização de memória, já que com apenas uma *thread* você não precisa criar um processo novo para cada usuário conectado, acarretando também em uma economia de CPU.
@@ -92,8 +100,6 @@ Libuv é uma biblioteca multi-plataforma que fornece notificação de eventos de
 Lista retirada da [documentação](http://docs.libuv.org/en/v1.x/)
 
 Caso você queira se aprofundar mais indico [esse material](https://nikhilm.github.io/uvbook/introduction.html).
-
-## V8
 
 ## Event Drive
 
