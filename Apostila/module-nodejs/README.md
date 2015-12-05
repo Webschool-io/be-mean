@@ -59,6 +59,9 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 - Aula 07: **10/12/2015**
     + [Mongoose]() - Prof.: [Suissa](https://github.com/suissa)
         * Arquitetura Atômica
+        * Validate
+        * Populate
+        * Plugins
 - Aula 08: **10/12/2015**
     + [TDD]() - Prof.: [Itacir](https://github.com/pompeu)
         * assert
@@ -100,7 +103,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Token
 - Aula 16: **17/12/2015**
     + **[Projeto em aula]**
-        * [Gerenciador de Projeto com Github](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Scrumban)
+        * [ScrumBan - Gerenciador de Projeto com Github](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Scrumban)
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 - Aula 17: **17/12/2015**
     + **[Projeto em aula]**
@@ -112,11 +115,11 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
             - Prof.: [Suissa](https://github.com/suissa)
 - Aula 19: **18/12/2015**
     + **[Projeto em aula]**
-        * [Gerenciador de Vagas de Trabalho](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Jobs)
+        * [Jobs - Gerenciador de Vagas de Trabalho](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Jobs)
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 20: **18/12/2015**
     + **[Projeto em aula]**
-        * [Couchsurfing para Devs](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/DevCouchsurfing)
+        * [DevCouchsurfing](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/DevCouchsurfing)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
 ### Projeto em aula
