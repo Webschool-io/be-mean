@@ -51,7 +51,7 @@ Qualquer função do Node.js, por padrão, é assíncrona por isso sempre precis
 
 Basicamente diz que qualquer leitura ou escrita de dados não espera seu processo finalizar para continuar o *script*, nesse caso os processos ocorrem *paralelamente* à execução.
 
-Para termos uma ideia melhor de como é o funcionamento assíncrono, vamos pensar um restaurante que é **síncrono**.
+Para termos uma ideia melhor de como é o funcionamento assíncrono, vamos pensar um restaurante sendo **síncrono**.
 
 ![](http://3.bp.blogspot.com/-H_YdVxlPEpg/ULZxtpkNBcI/AAAAAAAAAFU/BGZng58wZbw/s1600/img2.jpg)
 
