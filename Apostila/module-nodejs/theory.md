@@ -70,6 +70,25 @@ Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.o
 
 ## Libuv
 
+Libuv é uma biblioteca multi-plataforma que fornece notificação de eventos de forma assíncrona, isso inclui nosso sagrado **I/O**, foi originalmente desenvolvida para o Node.js.
+
+### Features
+
+- Full-featured event loop backed by epoll, kqueue, IOCP, event ports.
+- Asynchronous TCP and UDP sockets
+- Asynchronous DNS resolution
+- Asynchronous file and file system operations
+- File system events
+- ANSI escape code controlled TTY
+- IPC with socket sharing, using Unix domain sockets or named pipes (Windows)
+- Child processes
+- Thread pool
+- Signal handling
+- High resolution clock
+- Threading and synchronization primitives
+
+Lista retirada da [documentação](http://docs.libuv.org/en/v1.x/)
+
 ## V8
 
 ## Event Drive
