@@ -2,14 +2,16 @@
 
 ![](http://2.bp.blogspot.com/-Wk3CjzUfsug/VVH5I-3mrkI/AAAAAAAAARk/xFNZzbmQUFk/s1600/loop2.png)
 
-![](http://image.slidesharecdn.com/nodejsexplained-130219213912-phpapp02/95/nodejs-explained-13-638.jpg?cb=1386103418)
-
-
-Node.js é um *interpretador* de JavaScript que funciona do lado do servidor criado em cima do [V8](https://developers.google.com/v8/) que é o motor de JavaScript da Google e que roda no seu Chrome. 
+Node.js é um *interpretador* de JavaScript que funciona do lado do servidor criado em cima do [V8](https://developers.google.com/v8/) que é o motor de JavaScript da Google e que roda no seu Chrome, além disso ele conta com outras bibliotecas que o auxiliam no gerenciamento dos processor, como por exemplo a **Libuv** que falaremos mais adiante.
 
 O Node.js age como uma ponte entre uma API acessável via JavaScript e funções em C++ do V8, foi criado por Ryan Dahl em 2009.
 
 Conta-se que Ryan se inspirou depois de ver barra de progresso de upload de arquivos no [Flickr](https://www.flickr.com/), percebeu que o navegador não sabia o quanto do arquivo foi carregado e tinha que consultar o servidor web. Loco não?
+
+O Node.js pode ser considerado uma plataforma de execução de aplicações em JavaScript no lado do servidor, como visto na imagem abaixo.
+
+
+![](http://image.slidesharecdn.com/nodejsexplained-130219213912-phpapp02/95/nodejs-explained-13-638.jpg?cb=1386103418)
 
 ## Single thread
 
@@ -88,6 +90,8 @@ Libuv é uma biblioteca multi-plataforma que fornece notificação de eventos de
 - Threading and synchronization primitives
 
 Lista retirada da [documentação](http://docs.libuv.org/en/v1.x/)
+
+Caso você queira se aprofundar mais indico [esse material](https://nikhilm.github.io/uvbook/introduction.html).
 
 ## V8
 
