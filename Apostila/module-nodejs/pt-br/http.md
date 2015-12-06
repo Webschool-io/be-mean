@@ -275,34 +275,6 @@ http.createServer(function(request, response){
 
 Nesse código estamos lendo o `index.html` com o `fs.readFileSync`, falaremos mais tarde sobre o módulo `fs`.
 
-
-```js
-// file: hello-querystring.js
-var http = require('http')
-  , url = require('url');
-
-http.createServer(function(request, response){
-
-  var result = url.parse(request.url, true);
-
-  response.writeHead(200, {"Content-Type": "text/html"});
-  response.write("<html><body>");
-  response.write("<h1>Query string</h1>");
-  response.write("<ul>");
-
-  for(var key in result.query){
-    response.write("<li>"+key+" : "+result.query[key]+"</li>");
-  }
-
-  response.write("</ul>");
-  response.write("</body></html>");
-  response.end();
-}).listen(3000, function(){
-  console.log('Servidor rodando em localhost:3000');
-});
-
-```
-
 Com isso aprendemos como a criar um simples servidor HTTP para nossas futuras aplicações.
 
 ## Rotas
@@ -403,6 +375,85 @@ Pronto conseguimos a resposta de **sucesso**, agora vamos requisitar uma URL ine
 ![POSTMAN requisição de erro](https://cldup.com/DUohAk2WIw-3000x3000.png)
 
 ### Create
+
+Para executarmos a ação de ***Create*** usaremos o verbo `POST`, normalmente, na mesma url que usamos o `GET`, requisitaremos em uma API externa pois ainda não estamos trabalhando com banco aqui e queremos um efeito real.
+
+Essa API está em `http://webschool-io.herokuapp.com/`.
+
+
+```js
+// file: http-request-post.js
+'use strict';
+
+const http = require('http');
+const querystring = require('querystring');
+const postData = querystring.stringify({
+        name: "Suissa"
+      , type: "Professor"
+      });
+const options = {
+        host: 'webschool-io.herokuapp.com'
+      , path: '/api/pokemons'
+      , headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        , 'Content-Length': postData.length
+        }
+      };
+
+function callback(res) {
+  console.log('STATUS: ' + res.statusCode);
+  console.log('HEADERS: ' + JSON.stringify(res.headers));
+
+  let data = '';
+
+  res.setEncoding('utf8');
+  res.on('data', (chunk) =>  {
+    data += chunk;
+  });
+  res.on('end', () => {
+    console.log('Dados finalizados: ', data)
+  })
+}
+
+const req = http.request(options, callback);
+
+req.on('error', (e) =>  {
+  console.log('ERROOOO: ' + e.message);
+});
+req.write(postData);
+req.end();
+```
+
+
+### Querystring
+
+```js
+// file: hello-querystring.js
+var http = require('http')
+  , url = require('url');
+
+http.createServer(function(request, response){
+
+  var result = url.parse(request.url, true);
+
+  response.writeHead(200, {"Content-Type": "text/html"});
+  response.write("<html><body>");
+  response.write("<h1>Query string</h1>");
+  response.write("<ul>");
+
+  for(var key in result.query){
+    response.write("<li>"+key+" : "+result.query[key]+"</li>");
+  }
+
+  response.write("</ul>");
+  response.write("</body></html>");
+  response.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+
+```
+
 
 ## get
 

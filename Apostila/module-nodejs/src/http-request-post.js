@@ -1,15 +1,19 @@
 'use strict';
 
 const http = require('http');
-
-
-const url = "http://webschool.io/";
-
+const querystring = require('querystring');
+const postData = querystring.stringify({
+        name: "Suissa"
+      , type: "Professor"
+      });
 const options = {
-  host: 'www.readability.com'
-, path: '/api/shortener/v1/urls/'
-, method: 'POST'
-};
+        host: 'webschool-io.herokuapp.com'
+      , path: '/api/pokemons'
+      , headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        , 'Content-Length': postData.length
+        }
+      };
 
 function callback(res) {
   console.log('STATUS: ' + res.statusCode);
@@ -31,5 +35,5 @@ const req = http.request(options, callback);
 req.on('error', (e) =>  {
   console.log('ERROOOO: ' + e.message);
 });
-req.write(JSON.stringify({url}));
+req.write(postData);
 req.end();
