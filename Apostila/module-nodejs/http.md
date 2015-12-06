@@ -116,13 +116,78 @@ O servidor não consegui atender o pedido por algum erro. Também não permitir�
 500 – Erro interno do servidor.
 503 – Serviço indisponível. Pode ser um erro temporário. Uma manutenção ou uma grande quantidade de acessos pode derrubar o servidor.
 
+### Cats API
+
 ![Erro 450](https://http.cat/450.jpg)
 
 Tem até uma [API](https://http.cat/) para consultar o **STATUS CODE** felino.
 
 ## createServer
 
-## Methods
+Para iniciarmos um servidor HTTP utilizaremos a função `createServer` que recebe uma função com 2 parâmetros:
+
+- request;
+- response.
+
+```js
+var http = require('http');
+
+http.createServer(function(request, response){
+  response.writeHead(200, {"Content-Type": "text/plain"});
+  response.write("Be MEAN");
+  response.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Ou:
+
+```js
+var http = require('http');
+
+var server = http.createServer(function(request, response){
+  response.writeHead(200, {"Content-Type": "text/plain"});
+  response.write("Be MEAN");
+  response.end();
+});
+
+server.listen(3000, function(){
+  console.log('Executando Servidor HTTP');
+});
+```
+
+A única diferença que no primeiro código não atribuimos o servidor em uma variável por isso encadeamos a função `listen` que faz o servidor *subir* na porta passada para ela e executando um *callback* após.
+
+Percebeu que uma função sem nome foi passada para o `createServer`?
+
+```js
+function(request, response){
+  response.writeHead(200, {"Content-Type": "text/plain"});
+  response.write("Be MEAN");
+  response.end();
+}
+```
+
+Isso se chama **função anônima** e é uma característica **muito importante** do JavaScript, nessa função respondemos para o cliente que fez a requisição.
+
+```js
+response.writeHead(200, {"Content-Type": "text/plain"});
+```
+
+Acima estamos criando o cabeçalho da resposta com o **Status Code** `200` e o **Content-Type** `text/plain`.
+
+```
+response.write("Be MEAN");
+```
+
+Depois escrevemos no corpo da resposta `Be MEAN`.
+
+```
+response.end();
+```
+
+E por fim finalizamos a conexão com o cliente.
 
 ## get
 
