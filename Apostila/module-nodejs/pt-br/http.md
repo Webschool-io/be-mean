@@ -178,6 +178,18 @@ function(request, response){
 
 Isso se chama **função anônima** e é uma característica **muito importante** do JavaScript, nessa função respondemos para o cliente que fez a requisição.
 
+Exemplo de um cabeçalho:
+
+```js
+{ 'content-length': '123',
+  'content-type': 'text/plain',
+  'connection': 'keep-alive',
+  'host': 'mysite.com',
+  'accept': '*/*' }
+```
+
+Voltando ao nosso código.
+
 ```js
 response.writeHead(200, {"Content-Type": "text/plain"});
 ```
@@ -218,6 +230,7 @@ Então como nós retornamos nossa resposta corretamente?
 Corrigindo o cabeçalho da resposta.
 
 ```js
+// hello-http.js
 var http = require('http');
 
 http.createServer(function(request, response){
@@ -264,6 +277,7 @@ Nesse código estamos lendo o `index.html` com o `fs.readFileSync`, falaremos ma
 
 
 ```js
+// file: hello-querystring.js
 var http = require('http')
   , url = require('url');
 
@@ -288,8 +302,343 @@ http.createServer(function(request, response){
 });
 
 ```
+
+Com isso aprendemos como a criar um simples servidor HTTP para nossas futuras aplicações.
+
+## Rotas
+
+A primeira coisa que nosso sistema web precisa ter para ser acessado são rotas, então vamos criar nossa primeira rota `/api/v1` que retornará informações sobre a nossa api.
+
+Primeiramente vamos criar o JSON de resposta:
+
+```js
+const JSON = {
+  version: 1.0
+, name: "Be MEAN"
+, created_at: Date.now()
+};
+```
+
+Depois vamos adicioná-lo no script `server.js` que irá conter o nosso servidor HTTP.
+
+```js
+// server.js
+'use strict';
+
+const http = require('http')
+, JSON = {
+    version: 1.0
+  , name: 'Be MEAN'
+  , created_at: Date.now()
+  };
+
+http.createServer(function(request, response){
+  response.writeHead(200, {'Content-Type': 'application/json'});
+  response.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Esse será nosso esqueleto, agora precisamos verificar qual é a URL requisitada pelo cliente.
+
+```js
+// server.js
+'use strict';
+
+var date = (new Date()).toJSON();
+
+const http = require('http')
+    , SUCCESS = {
+        version: '1.0'
+      , name: 'Be MEAN'
+      , returned_at: date
+      }
+    , ERROR = {
+      message: "DEU MERDA FI!!!!"
+    };
+
+http.createServer(function(req, res){
+  if(req.url === '/api/v1') {
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.write(JSON.stringify(SUCCESS));
+  }
+  else {
+    res.writeHead(400, {'Content-Type': 'application/json'});
+    res.write(JSON.stringify(ERROR));
+  }
+  res.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+**DICA**: como iremos trabalhar bastante com o `server.js` para eliminarmos o trabalho manual de derrubarmos o servidor e levantarmos novamente, vamos instalar o `nodemon`:
+
+```js
+npm i -g nodemon
+```
+
+Intalamos ele globalmente com `-g` para que seja acessível em linha de comando.
+
+E também instale o [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) que é uma extensão para o Chrome, para testarmos nossas APIs, será de grande utilização durante o curso.
+
+Depois de ter feito tudo isso levante seu servidor com o `nodemon`:
+
+```
+nodemon server.js
+6 Dec 16:05:26 - [nodemon] v1.3.8
+6 Dec 16:05:26 - [nodemon] to restart at any time, enter `rs`
+6 Dec 16:05:26 - [nodemon] watching: *.*
+6 Dec 16:05:26 - [nodemon] starting `node server.js`
+Servidor rodando em localhost:3000
+```
+
+Agora abra o POSTMAN e dê um `GET` na url `http://localhost:3000/api/v1`.
+
+![POSTMAN](https://cldup.com/Qsn8q1qbsS-3000x3000.png)
+
 ## get
 
-// Consultar a API dos gatos e servir posteirormente a imagem em rotas.
+Para dar continuidade no HTTP vamos ver um dos verbos mais usados, o `GET`. 
+
+Com ele iremos requisitar informações na nossa ou em outras APIs e é isso que faremos agora, consultaremos a [API dos Pokemons](http://pokeapi.co/).
+
+Usaremos a função `http.get` seguindo o seguinte modelo:
+
+```js
+http.get({
+  hostname: 'localhost',
+  port: 80,
+  path: '/',
+  agent: false  // criar um novo agente apenas para este pedido
+}, function (res) {
+  // Faça algo co res
+})
+```
+
+Agora criando a requisição para o nosso servidor que está rodando o `hello-querystring.js`:
+
+```js
+// file: http-get-localhost-querystring.js
+'use strict';
+
+const http = require('http');
+
+http.get({
+  hostname: 'localhost',
+  path: '/teste?irru=true&xulepa=1',
+  port: 3000,
+  agent: false
+}, function (response) {
+   let body = '';
+
+    console.log('STATUS: ' + response.statusCode);
+    console.log('HEADERS: ' + response.headers);
+
+    response.on('data', function(data) {
+      body += data;
+    });
+
+    response.on('end', function() {
+      console.log("Resposta: ", body);
+    });
+});
+```
+
+Mas vamos fazer uma pequena modificação para vocês já se acostumarem com [Arrow Functions] do [ES6]:
+
+```js
+// file: hello-querystring.js
+'use strict';
+
+const http = require('http');
+
+http.get({
+  hostname: 'localhost',
+  path: '/teste?irru=true&xulepa=1',
+  port: 3000,
+  agent: false
+}, (response) => {
+   let body = '';
+
+    console.log('STATUS: ' + response.statusCode);
+    console.log('HEADERS: ' + response.headers);
+
+    response.on('data', function(data) {
+      body += data;
+    });
+
+    response.on('end', function() {
+      console.log("Resposta: ", body);
+    });
+});
+```
+
+Eu poderia ter omitido os `()` de `(response) => `, porém deixei para ficar mais fácil a sua migração.
+
+Salve esse código como `http-get-localhost-querystring.js` e execute como visto abaixo:
+
+```js
+node http-get-localhost-querystring.js
+STATUS: 200
+HEADERS: {"content-type":"text/html","date":"Sun, 06 Dec 2015 14:13:27 GMT","connection":"close","transfer-encoding":"chunked"}
+Resposta:  <html><body><h1>Query string</h1><ul><li>irru : true</li><li>xulepa : 1</li></ul></body></html>
+```
+
+Agora vou explicar o que aconteceu no código, primeiramente passamos o JSON de configuração da requisição:
+
+```js
+{
+  hostname: 'localhost',
+  path: '/teste?irru=true&xulepa=1',
+  port: 3000,
+  agent: false
+}
+```
+
+E no segundo parâmetro passamos a função anônima que é executada após a requisição ser respondida:
+
+```js
+(response) => {
+   let body = '';
+
+    console.log('STATUS: ' + response.statusCode);
+    console.log('HEADERS: ' + response.headers);
+
+    response.on('data', function(data) {
+      body += data;
+    });
+
+    response.on('end', function() {
+      console.log("Resposta: ", body);
+    });
+}
+```
+
+Inicialmente criamos a variável `body` que irá receber a resposta em si, porém de uma forma diferente que estamos acostumados, pois precisamos concatenar `body += data` os dados que chegam no evento `data` do `response` que é recebido pelo *callback* do `get()`.
+
+A única diferença entre o `http.get()` e `http.request`é que o `get()` seta o valor do verbo para `GET` e chama o `req.end()` automaticamente.
+
+**Percebeu que estamos usando 2 eventos do `response`?**
+
+Isso acontece porque ele é uma instância do [http.IncomingMessage](https://nodejs.org/api/http.html#http_http_incomingmessage).
+
+> Um objeto `IncomingMessage` é criado por `http.Server` ou `http.ClientRequest` e passado como o primeiro argumento para o `request` e  `response`, respectivamente. Ele pode ser usado para acessar resposta de status, os cabeçalhos e os dados em si.
+
+O `IncomingMessage` implementa a interface de [Readable Stream ](https://nodejs.org/api/stream.html#stream_class_stream_readable) que nos dá alguns eventos importantes, como:
+
+- close: evento emitido quando qualquer tipo de stream foi fechada;
+- data: evento que recebe os dados da *Stream*;
+- end: evento emitido quando não há mais dados para ler;
+- error: evento emitido quando acontecer algum erro.
+
+Sabendo de tudo isso podemos seguir para o `request` e começar a consumir APIs externas.
 
 ## request
+
+Primeira coisa que precisamos fazer é criar o JSON de configuração da requisição:
+
+```js
+const options = {
+  host: 'api.redtube.com'
+, path: '/?data=redtube.Videos.searchVideos&search=Sasha%20Gray'
+};
+```
+
+Depois criamos a função de *callback*:
+
+```js
+function callback(res) {
+  console.log('STATUS: ' + res.statusCode);
+  console.log('HEADERS: ' + JSON.stringify(res.headers));
+
+  let data = '';
+
+  res.setEncoding('utf8');
+  res.on('data', (chunk) =>  {
+    data += chunk;
+  });
+  res.on('end', () => {
+    console.log('Dados finalizados: ', data)
+  })
+}
+```
+
+Para depois passarmos os 2 para o `request`:
+
+```js
+const req = http.request(options, callback);
+```
+
+Bastando assim apenas escutar o evento `error` e fechar a conexão com `req.end()`:
+
+```js
+req.on('error', (e) =>  {
+  console.log('ERROOOO: ' + e.message);
+});
+req.end();
+```
+
+Juntando todas essas partes criamos o arquivo `http-request.js`:
+
+```js
+// file: http-request.js
+'use strict';
+
+const http = require('http');
+
+const options = {
+  host: 'api.redtube.com'
+, path: '/?data=redtube.Videos.searchVideos&search=Sasha%20Gray'
+};
+
+function callback(res) {
+  console.log('STATUS: ' + res.statusCode);
+  console.log('HEADERS: ' + JSON.stringify(res.headers));
+
+  let data = '';
+
+  res.setEncoding('utf8');
+  res.on('data', (chunk) =>  {
+    data += chunk;
+  });
+  res.on('end', () => {
+    console.log('Dados finalizados: ', data)
+  })
+}
+
+const req = http.request(options, callback);
+
+req.on('error', (e) =>  {
+  console.log('ERROOOO: ' + e.message);
+});
+req.end();
+```
+
+Depois basta executar esse script no terminal:
+
+```
+node http-request.js
+STATUS: 200
+HEADERS: {"server":"nginx","date":"Sun, 06 Dec 2015 16:15:05 GMT","content-type":"application/json;charset=utf-8","transfer-encoding":"chunked","connection":"close","set-cookie":["PHPSESSID=s1vnnu7rm4g4tagh2la03kni36; path=/"],"expires":"Thu, 19 Nov 1981 08:52:00 GMT","cache-control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","pragma":"no-cache"}
+Dados finalizados:  {"videos":[...]}
+```
+
+Vamos continuar com o `request` porém dessa vez consultaremos
+
+
+## Módulo request
+
+Além da função `request` do módulo `http` também temos um módulo **apenas** de *request* que facilita ainda mais nossas vidas.
+
+Para utilizarmos esse módulo externo precisamos anteriormente instalá-lo localmente.
+
+```
+npm install --save request
+```
+
+Falaremos mais sobre o [npm](https://www.npmjs.com/) mais adiante.
+
+
+
