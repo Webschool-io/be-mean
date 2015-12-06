@@ -299,14 +299,14 @@ const items = [];
 const someStack = [];
 
 //ruim
-someStack[someStack.length] = 'abracadabra';
+someStack[someStack.length] = 'be-mean';
 
 // bom
-someStack.push('abracadabra');
+someStack.push('be-mean');
 ```
 
 <a name="es6-array-spreads"></a>
-* [4.3](#4.3) <a name='4.3'></a> Use array spreads `...` to copy arrays.
+* [4.3](#4.3) <a name='4.3'></a> Use array spreads `...` para arrays.
 
 ```javascript
 //ruim
@@ -371,27 +371,27 @@ const second = arr[1];
 const [first, second] = arr;
 ```
 
-* [5.3](#5.3) <a name='5.3'></a> Use object destructuring for multiple return values, not array destructuring.
+* [5.3](#5.3) <a name='5.3'></a> Use object destructuring para vários valores de retorno, não array destructuring.
 
-> Why? You can add new properties over time or change the order of things without breaking call sites.
+> Por quê? Você pode adicionar novas propriedades ao longo do tempo ou mudar a ordem das coisas sem quebrar nada.
 
 ```javascript
 //ruim
 function processInput(input) {
-  // then a miracle occurs
+  // então um milagre ocorre
   return [left, right, top, bottom];
 }
 
-// the caller needs to think about the order of return data
+// o chamador precisa pensar sobre a ordem dos dados de retorno
 const [left, __, top] = processInput(input);
 
 // bom
 function processInput(input) {
-  // then a miracle occurs
+  // então um milagre ocorre
   return { left, right, top, bottom };
 }
 
-// the caller selects only the data they need
+// o chamador seleciona apenas os dados que ele precisa
 const { left, right } = processInput(input);
 ```
 
@@ -400,7 +400,7 @@ const { left, right } = processInput(input);
 
 ## Strings
 
-* [6.1](#6.1) <a name='6.1'></a> Use single quotes `''` for strings.
+* [6.1](#6.1) <a name='6.1'></a> Use aspas simples `''` para strings.
 
 eslint rules: [`quotes`](http://eslint.org/docs/rules/quotes.html).
 
@@ -412,8 +412,8 @@ const name = "Capt. Janeway";
 const name = 'Capt. Janeway';
 ```
 
-* [6.2](#6.2) <a name='6.2'></a> Strings longer than 100 characters should be written across multiple lines using string concatenation.
-* [6.3](#6.3) <a name='6.3'></a> Note: If overused, long strings with concatenation could impact performance. [jsPerf](http://jsperf.com/ya-string-concat) & [Discussion](https://github.com/airbnb/javascript/issues/40).
+* [6.2](#6.2) <a name='6.2'></a> Cadeias mais longas que 100 caracteres devem ser escritos em várias linhas usando concatenação de strings.
+* [6.3](#6.3) <a name='6.3'></a> Nota: Se usado em demasia, longas seqüências com concatenação pode afetar o desempenho. [jsPerf](http://jsperf.com/ya-string-concat) & [Discussion](https://github.com/airbnb/javascript/issues/40).
 
 ```javascript
 //ruim
@@ -432,9 +432,9 @@ const errorMessage = 'This is a super long error that was thrown because ' +
 ```
 
 <a name="es6-template-literals"></a>
-* [6.4](#6.4) <a name='6.4'></a> When programmatically building up strings, use template strings instead of concatenation.
+* [6.4](#6.4) <a name='6.4'></a> Quando construir strings programaticamente, use *template strings* em vez de concatenação.
 
-> Why? Template strings give you a readable, concise syntax with proper newlines and string interpolation features.
+> Por quê? *Template String* oferece uma sintaxe concisa e legível com recursos de interpolação de string.
 
 eslint rules: [`prefer-template`](http://eslint.org/docs/rules/prefer-template.html).
 
