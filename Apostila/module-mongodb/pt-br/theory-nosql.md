@@ -84,7 +84,7 @@ Cache.
 
 #### Documento
 
-![Visualização de um tipo documento](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/module-mongodb/images/nosql-type-document.png)
+![Visualização de um tipo documento](./../src/images/nosql-type-document.png)
 
 Um banco baseado em documento se assemelha bastante ao chave/valor pois também possui aquela estrutura:
 
@@ -96,7 +96,7 @@ Porém desa vez também temos a busca pelos valores internos da nossa entidade p
 
 O tipo de documento em que o MongoDb é baseado é o JSON.
 
-![meme Jason](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/module-mongodb/images/meme-jason.jpg)
+![meme Jason](./../src/images/meme-jason.jpg)
 
 - [MongoDB](https://www.mongodb.org/)
 - [CouchDB](http://couchdb.apache.org/)
@@ -107,7 +107,7 @@ Modelagem complexa e buscas dinâmicas.
 
 #### Grafo
 
-![Visualização de um grafo](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/module-mongodb/images/nosql-type-graph.png)
+![Visualização de um grafo](./../src/images/nosql-type-graph.png)
 
 Um banco de dados orientado a [grafos](https://pt.wikipedia.org/wiki/Teoria_dos_grafos) possui um base na teoria matemática dos grafos, mas que não é nada difícil, precisamos apenas pensar nas entidades como pontos(vértices) e que elas podem se relacionar com com outras entidades a partir de relações(arestas), como mostrado na imagem acima.
 
@@ -125,7 +125,7 @@ Dados inter-relacionados.
 
 #### Coluna
 
-![Visualização de um tipo coluna](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/module-mongodb/images/nosql-type-column.png)
+![Visualização de um tipo coluna](./../src/images/nosql-type-column.png)
 
 Esse é o tipo que tive menos contato, confesso, logo não posso falar muito sobre além o do que li.
 
