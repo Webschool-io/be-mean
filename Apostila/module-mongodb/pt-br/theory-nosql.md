@@ -34,7 +34,7 @@ Irei explicar um pouco dos seguintes grupos:
 
 #### Chave/Valor
 
-![Visualização de um tipo chave-valor](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/module-mongodb/images/nosql-type-key-value.png)
+![Visualização de um tipo chave-valor](./../src/images/nosql-type-key-value.png)
 
 Esse tipo de banco de dados são utilizados em sua grande maioria para resolver o problema de cache, pois a estrutura que eles usam é bem simples, é a estrutura que temos em qualquer banco como **índice**.
 
