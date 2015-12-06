@@ -1,6 +1,6 @@
 # Calendário Dezembro
 
-![](./calendar/2015-dezembro.png)
+![](./Calendar/2015-dezembro.png)
 
 # Os brindes serão enviados ATÉ O NATAL!!!
 
@@ -139,9 +139,10 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **Docker (4 horas)**
 - **Ionic (10 horas)**
 
-##  Módulo MongoDB | 09.11 a 22.11
+##  Módulo MongoDB - 09.11 a 22.11
 
-- **Aula 00 | 08.11** Vídeo: [https://www.youtube.com/watch?v=-ccU_-OIka4](https://www.youtube.com/watch?v=-ccU_-OIka4)
+- **Aula 00 - 08.11**
+    + Vídeo: [https://www.youtube.com/watch?v=-ccU_-OIka4](https://www.youtube.com/watch?v=-ccU_-OIka4)
     + Apresentação do Be MEAN
         * Quem eu sou?
         * O que é a Webschool.io?
@@ -151,7 +152,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Qual a duração do Be MEAN?
         * Quando e como serão enviados os brindes?
         * Como serão os cursos dos prêmios?
-- **Aula 01 | 9.11** Vídeo: [https://www.youtube.com/watch?v=leYxsEAL_yY](https://www.youtube.com/watch?v=leYxsEAL_yY)
+- **Aula 01 - 9.11**
+    + Vídeo: [https://www.youtube.com/watch?v=leYxsEAL_yY](https://www.youtube.com/watch?v=leYxsEAL_yY)
     + Módulo MongoDB
         * Teoria
             - Arquitetura - 13:10
@@ -172,7 +174,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * mongoexport - 43:35
         * mongoimport - 44:40
         * Exercício - 45:30
-- **Aula 02 | 10.11** Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
+- **Aula 02 - 10.11**
+    + Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
     + Módulo MongoDB
         * Cliente
             - use database: 8:34
@@ -181,7 +184,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - save(): 19:12
             - cursor: 24:53
 
-- **Aula 03 | 10.11** Vídeo: [https://www.youtube.com/watch?v=cIHjA1hyPPY](https://www.youtube.com/watch?v=cIHjA1hyPPY)
+- **Aula 03 - 10.11**
+    + Vídeo: [https://www.youtube.com/watch?v=cIHjA1hyPPY](https://www.youtube.com/watch?v=cIHjA1hyPPY)
     + Módulo MongoDB
         * CRUD
             - find(): 11:14
@@ -190,7 +194,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - find() fields: 17:49
             - find() Operadores Aritméticos: 23:28
             - find() Operadores Lógicos: 31:45
-- **Aula 04 - Parte 1 | 16.11** Vídeo: [https://www.youtube.com/watch?v=ONzJsNbv15U](https://www.youtube.com/watch?v=ONzJsNbv15U)
+- **Aula 04 - Parte 1 - 16.11**
+    + Vídeo: [https://www.youtube.com/watch?v=ONzJsNbv15U](https://www.youtube.com/watch?v=ONzJsNbv15U)
     + Módulo MongoDB
         * CRUD
             - update() - $set: 28:47
@@ -201,7 +206,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - update() - $pushAll: 41:53s
             - update() - $pull: 45:08
             - update() - $pullAll: 46:37
-- **Aula 04 - Parte 2 | 17.11** Vídeo: [https://www.youtube.com/watch?v=ozbmQb6SVQk](https://www.youtube.com/watch?v=ozbmQb6SVQk)
+- **Aula 04 - Parte 2 - 17.11**
+    + Vídeo: [https://www.youtube.com/watch?v=ozbmQb6SVQk](https://www.youtube.com/watch?v=ozbmQb6SVQk)
     + Módulo MongoDB
         * CRUD
             - update() - options - 1:40
@@ -213,7 +219,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - find() - Operador de Array - $nin - 21:50
             - find() - Operador de Array - $all - 23:00
             - find() - Operador de Negação - $not - 27:20
-- **Aula 05 | 18.11** Vídeo: 
+- **Aula 05 - 18.11**
+    + Vídeo: [https://www.youtube.com/watch?v=1eHc8reT_Vk](https://www.youtube.com/watch?v=1eHc8reT_Vk)
     + Módulo MongoDB - Professor: [William Bruno](https://github.com/wbruno)
     	- mongoimport restaurantes - 1:38
         - find().length() - 3:38
@@ -225,7 +232,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         - limit().skip() - 19:50
         - group() - 25:00
         - aggregate() - 43:30
-- **Aula 06 - Parte 1 | 27.11** Vídeo: [https://www.youtube.com/watch?v=5bbWeEEzRQM](https://www.youtube.com/watch?v=5bbWeEEzRQM)
+- **Aula 06 - Parte 1 - 27.11**
+    + Vídeo: [https://www.youtube.com/watch?v=5bbWeEEzRQM](https://www.youtube.com/watch?v=5bbWeEEzRQM)
     + Módulo MongoDB
         - Correção exercícios Suissa - 0:45
         - Como enviar seus exercícios - 14:42
@@ -233,13 +241,15 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         - Artigo - 28:40
         - Relacionamentos - 29:36
         - DBRef - 36:12
-- **Aula 06  - Parte 2| 01.12** Vídeo: [https://www.youtube.com/watch?v=IXz4IL0da1k](https://www.youtube.com/watch?v=IXz4IL0da1k)
+- **Aula 06 - Parte 2 - 01.12**
+    + Vídeo: [https://www.youtube.com/watch?v=IXz4IL0da1k](https://www.youtube.com/watch?v=IXz4IL0da1k)
     + Módulo MongoDB
         - Explain - 0:15
         - Índices - 5:00
         - GridFS - 14:58
         - Replica - 30:11
-- **Aula 07  - Parte 2| 03.12** Vídeo: [https://www.youtube.com/watch?v=1ElYrkSIvII](https://www.youtube.com/watch?v=1ElYrkSIvII)
+- **Aula 07 - 03.12**
+    + Vídeo: [https://www.youtube.com/watch?v=1ElYrkSIvII](https://www.youtube.com/watch?v=1ElYrkSIvII)
     + Módulo MongoDB
         - Replica - Árbitros - 2:13
         - Sharding - 6:13
@@ -251,159 +261,229 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js | 07.11 a 27.12
+##  Módulo Node.js - 07.12 a 27.12
 
-- **Aula 01 | 07.12**
-    + Módulo Node.js
-        * Teoria
-            - Event Loop
-            - Single thread
-        * Servidor HTTP
-        * Rotas
-        * FileSystem
-- **Aula 02 | 07.12**
-    + Módulo Node.js
-        * Eventos
-        * NPM
+## Roteiro - 20 horas
+
+- **Aula 01: 07/12/2015**
+    + [Teoria](./theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio]()
+        * V8
+        * Single thread
+        * Event Loop
+        * I/O Async
+        * Libuv
+        * Event Driven
+        * API
+- **Aula 02 - 07/12/2015**
+    + [HTTP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
+        * createServer
+        * Methods
+        * Status Codes
+        * get
+        * request
+        * [Rotas]()
+- **Aula 03 - 08/12/2015**
+    + [Callbacks](./callbacks.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
+    + [FileSystem](./fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
+        * mkdir
+        * open
+        * readdir
+        * readFile
+        * rename
+        * writeFile
+- **Aula 04 - 08/12/2015**
+    + [npm](./npm.md) - Prof.: [Suissa](https://github.com/suissa)
+        * init
+        * install --global ou -g
+        * install --save
+        * install --save-dev
+        * install --optional
+        * run
+    + [Globals]() - Prof.: [Caio](https://github.com/caiocutrim/)
+        * CommonJS
+    + [Process]() - Prof.: [Caio](https://github.com/caiocutrim/)
+- **Aula 05 - 09/12/2015**
+    + [Mongoose]() - Prof.: [Suissa](https://github.com/suissa)
+        * Create
+        * Retrieve
+        * Update
+        * Delete
+- **Aula 06 - 09/12/2015**
+    + [Eventos]() - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
-            - Create
-            - Retrieve
-            - Update
-            - Delete
-- **Aula 03 | 08.12**
-    + Módulo Node.js
-        * Promises
-            - Mongoose
-        * Eventos
-            - Mongoose
-- **Aula 04 | 08.12**
-    + Módulo Node.js
-        * Express
-            - Rotas
-            - CRUD
-                + Mongoose
-- **Aula 05 | 09.12**
-- **Aula 06 | 09.12**
-- **Aula 07 | 10.12**
-- **Aula 08 | 10.12**
-- **Aula 09 | 11.12**
-- **Aula 10 | 11.12**
-- **Aula 11 | 12.12**
-- **Aula 12 | 12.12**
-- **Aula 13 | 13.12**
-- **Aula 14 | 13.12**
-- **Aula 15 | 14.12**
-- **Aula 16 | 14.12**
-- **Aula 17 | 15.12**
-- **Aula 18 | 15.12**
-- **Aula 19 | 16.12**
-- **Aula 20 | 16.12**
+    + [Promises]() - Prof.: [Itacir](https://github.com/pompeu)
+        * Mongoose
+- **Aula 07 - 10/12/2015**
+    + [Mongoose]() - Prof.: [Suissa](https://github.com/suissa)
+        * Arquitetura Atômica
+        * Validate
+        * Populate
+        * Plugins
+- **Aula 08 - 10/12/2015**
+    + [TDD]() - Prof.: [Itacir](https://github.com/pompeu)
+        * assert
+        * chai
+    - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
+- **Aula 09 - 11/12/2015**
+    + [Express]() - Prof.: [Suissa](https://github.com/suissa)
+        * Model
+        * Controller
+        * Routes
+- **Aula 10 - 11/12/2015**
+    + [Express]()
+        * Events - Prof.: [Itacir](https://github.com/pompeu)
+        * Promises - Prof.: [Itacir](https://github.com/pompeu)
+        * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
+- **Aula 11 - 14/12/2015**
+    + [Express]()
+        * TDD - Prof.: [Itacir](https://github.com/pompeu)
+    + [Socket.io]() - Prof.: [Suissa](https://github.com/suissa)
+        * TDD - Prof.: [Itacir](https://github.com/pompeu)
+- **Aula 12 - 14/12/2015**
+    + [REPL]() - Prof.: [Suissa](https://github.com/suissa)
+    + [UDP](./http.md) - Prof.: [Caio](https://github.com/suissa)
+    + [TCP](./http.md) - Prof.: [Caio](https://github.com/suissa)
+    + [HTTPS](./http.md) - Prof.: [Caio](https://github.com/suissa)
+- **Aula 13 - 15/12/2015**
+    + [Utilizando APIs externas]() - Prof.: [Suissa](https://github.com/suissa)
+        * [pokemons](http://pokeapi.co/) - Prof.: [William Bruno](https://github.com/wbruno)
+        * [github](https://developer.github.com/v3/) - Prof.: [William Bruno](https://github.com/wbruno)
+        * [redtube](http://api.redtube.com/docs/) - Prof.: [Suissa](https://github.com/suissa)
+        * [instagram](https://www.instagram.com/developer/) - Prof.: [Suissa](https://github.com/suissa)
+- **Aula 14 - 15/12/2015**
+    + [Autenticação]() - Prof.: [Caio](https://github.com/caiocutrim/)
+        * Session
+            - Express
+            - Mongoose/MongoDB
+- **Aula 15 - 16/12/2015**
+    + [Autenticação]() - Prof.: [Caio](https://github.com/caiocutrim/)
+        * Token
+- **Aula 16 - 17/12/2015**
+    + **[Projeto em aula]**
+        * [ScrumBan - Gerenciador de Projeto com Github](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Scrumban)
+            - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
+- **Aula 17 - 17/12/2015**
+    + **[Projeto em aula]**
+        * [Estante Virtual](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Estante-Virtual)
+            - Prof.: [William Bruno](https://github.com/wbruno)
+- **Aula 18 - 16/12/2015**
+    + **[Projeto em aula]**
+        * [Gerenciador de Doações](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Donations)
+            - Prof.: [Suissa](https://github.com/suissa)
+- **Aula 19 - 18/12/2015**
+    + **[Projeto em aula]**
+        * [Jobs - Gerenciador de Vagas de Trabalho](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Jobs)
+            - Prof.: [Itacir Pompeu](https://github.com/pompeu)
+- **Aula 20 - 18/12/2015**
+    + **[Projeto em aula]**
+        * [DevCouchsurfing](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/DevCouchsurfing)
+            - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
-##  Módulo Angular | 04.01 a 31.01
+##  Módulo Angular - 04.01 a 31.01
 
-- **Aula 01 | 04.01**
-- **Aula 02 | 05.01**
-- **Aula 03 | 06.01**
-- **Aula 04 | 07.01**
-- **Aula 05 | 08.01**
-- **Aula 06 | 11.01**
-- **Aula 07 | 12.01**
-- **Aula 08 | 13.01**
-- **Aula 09 | 14.01**
-- **Aula 10 | 15.01**
-- **Aula 11 | 18.01**
-- **Aula 12 | 19.01**
-- **Aula 13 | 20.01**
-- **Aula 14 | 21.01**
-- **Aula 15 | 22.01**
+- **Aula 01 - 04.01**
+- **Aula 02 - 05.01**
+- **Aula 03 - 06.01**
+- **Aula 04 - 07.01**
+- **Aula 05 - 08.01**
+- **Aula 06 - 11.01**
+- **Aula 07 - 12.01**
+- **Aula 08 - 13.01**
+- **Aula 09 - 14.01**
+- **Aula 10 - 15.01**
+- **Aula 11 - 18.01**
+- **Aula 12 - 19.01**
+- **Aula 13 - 20.01**
+- **Aula 14 - 21.01**
+- **Aula 15 - 22.01**
 - **PROJETO**
 	+ de 23.01 a 31.01
 
-##  Módulo Frontend | 01.02 a 05.03
-- **Aula 01 | 01.02**
-- **Aula 02 | 02.02**
-- **Aula 03 | 03.02**
-- **Aula 04 | 04.02**
-- **Aula 05 | 05.02**
-- **Aula 06 | 15.02**
-- **Aula 07 | 16.02**
-- **Aula 08 | 17.02**
-- **Aula 09 | 18.02**
-- **Aula 10 | 19.02**
-- **Aula 11 | 22.02**
-- **Aula 12 | 23.02**
-- **Aula 13 | 24.02**
-- **Aula 14 | 26.02**
-- **Aula 15 | 26.02**
+##  Módulo Frontend - 01.02 a 05.03
+- **Aula 01 - 01.02**
+- **Aula 02 - 02.02**
+- **Aula 03 - 03.02**
+- **Aula 04 - 04.02**
+- **Aula 05 - 05.02**
+- **Aula 06 - 15.02**
+- **Aula 07 - 16.02**
+- **Aula 08 - 17.02**
+- **Aula 09 - 18.02**
+- **Aula 10 - 19.02**
+- **Aula 11 - 22.02**
+- **Aula 12 - 23.02**
+- **Aula 13 - 24.02**
+- **Aula 14 - 26.02**
+- **Aula 15 - 26.02**
 - **PROJETO**
 	+ de 27.02 a 05.03
 
-##  Módulo Segurança | 07.03 a 22.03
-- **Aula 01 | 07.03**
-- **Aula 02 | 08.03**
-- **Aula 03 | 09.03**
-- **Aula 04 | 19.03**
-- **Aula 05 | 20.03**
-- **Aula 06 | 21.03**
-- **Aula 07 | 22.03**
+##  Módulo Segurança - 07.03 a 22.03
+- **Aula 01 - 07.03**
+- **Aula 02 - 08.03**
+- **Aula 03 - 09.03**
+- **Aula 04 - 19.03**
+- **Aula 05 - 20.03**
+- **Aula 06 - 21.03**
+- **Aula 07 - 22.03**
 
-##  Módulo UX & Animations | 10.03 a 27.03
-- **Aula 01 | 10.03**
-- **Aula 02 | 11.03**
-- **Aula 03 | 14.03**
-- **Aula 04 | 15.03**
-- **Aula 05 | 16.03**
-- **Aula 06 | 17.03**
-- **Aula 07 | 18.03**
-- **Aula 08 | 23.03**
-- **Aula 09 | 24.03**
-- **Aula 10 | 25.03**
-- **Aula 11 | 26.03**
-- **Aula 12 | 27.03**
+##  Módulo UX & Animations - 10.03 a 27.03
+- **Aula 01 - 10.03**
+- **Aula 02 - 11.03**
+- **Aula 03 - 14.03**
+- **Aula 04 - 15.03**
+- **Aula 05 - 16.03**
+- **Aula 06 - 17.03**
+- **Aula 07 - 18.03**
+- **Aula 08 - 23.03**
+- **Aula 09 - 24.03**
+- **Aula 10 - 25.03**
+- **Aula 11 - 26.03**
+- **Aula 12 - 27.03**
 
 
-##  Módulo NoSQL | 28.03 a 17.04
-- **Aula 01 | 28.03**
-- **Aula 02 | 29.03**
-- **Aula 03 | 30.03**
-- **Aula 04 | 31.03**
-- **Aula 05 | 01.04**
-- **Aula 06 | 04.04**
-- **Aula 07 | 05.04**
-- **Aula 08 | 06.04**
-- **Aula 09 | 07.04**
-- **Aula 10 | 08.04**
+##  Módulo NoSQL - 28.03 a 17.04
+- **Aula 01 - 28.03**
+- **Aula 02 - 29.03**
+- **Aula 03 - 30.03**
+- **Aula 04 - 31.03**
+- **Aula 05 - 01.04**
+- **Aula 06 - 04.04**
+- **Aula 07 - 05.04**
+- **Aula 08 - 06.04**
+- **Aula 09 - 07.04**
+- **Aula 10 - 08.04**
 - **PROJETO**
 	+ de 09.04 a 17.04
-	
-##  Módulo Desktop | 17.04 a 08.05
-- **Aula 01 | 18.04**
-- **Aula 02 | 19.04**
-- **Aula 03 | 20.04**
-- **Aula 04 | 21.04**
-- **Aula 05 | 22.04**
-- **Aula 06 | 25.04**
-- **Aula 07 | 26.04**
-- **Aula 08 | 27.04**
-- **Aula 09 | 28.04**
-- **Aula 10 | 29.04**
+
+##  Módulo Desktop - 17.04 a 08.05
+- **Aula 01 - 18.04**
+- **Aula 02 - 19.04**
+- **Aula 03 - 20.04**
+- **Aula 04 - 21.04**
+- **Aula 05 - 22.04**
+- **Aula 06 - 25.04**
+- **Aula 07 - 26.04**
+- **Aula 08 - 27.04**
+- **Aula 09 - 28.04**
+- **Aula 10 - 29.04**
 - **PROJETO**
 	+ de 30.04 a 08.05
-	
-##  Módulo ES6 | 09.05 a 22.05
-- **Aula 01 | 09.05**
-- **Aula 02 | 10.05**
-- **Aula 03 | 11.05**
-- **Aula 04 | 12.05**
-- **Aula 05 | 13.05**
+
+##  Módulo ES6 - 09.05 a 22.05
+- **Aula 01 - 09.05**
+- **Aula 02 - 10.05**
+- **Aula 03 - 11.05**
+- **Aula 04 - 12.05**
+- **Aula 05 - 13.05**
 - **PROJETO**
 	+ de 14.05 a 22.05
-	
-##  Módulo Deploy | 23.05 a 05.06
-- **Aula 01 | 23.05**
-- **Aula 02 | 24.05**
-- **Aula 03 | 25.05**
-- **Aula 04 | 26.05**
-- **Aula 05 | 27.05**
+
+##  Módulo Deploy - 23.05 a 05.06
+- **Aula 01 - 23.05**
+- **Aula 02 - 24.05**
+- **Aula 03 - 25.05**
+- **Aula 04 - 26.05**
+- **Aula 05 - 27.05**
 - **PROJETO**
 	+ de 28.05 a 05.06
