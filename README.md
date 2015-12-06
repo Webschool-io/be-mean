@@ -141,7 +141,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 ##  Módulo MongoDB | 09.11 a 22.11
 
-- **Aula 00 | 08.11** Vídeo: [https://www.youtube.com/watch?v=-ccU_-OIka4](https://www.youtube.com/watch?v=-ccU_-OIka4)
+- **Aula 00 | 08.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=-ccU_-OIka4](https://www.youtube.com/watch?v=-ccU_-OIka4)
     + Apresentação do Be MEAN
         * Quem eu sou?
         * O que é a Webschool.io?
@@ -151,7 +152,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Qual a duração do Be MEAN?
         * Quando e como serão enviados os brindes?
         * Como serão os cursos dos prêmios?
-- **Aula 01 | 9.11** Vídeo: [https://www.youtube.com/watch?v=leYxsEAL_yY](https://www.youtube.com/watch?v=leYxsEAL_yY)
+- **Aula 01 | 9.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=leYxsEAL_yY](https://www.youtube.com/watch?v=leYxsEAL_yY)
     + Módulo MongoDB
         * Teoria
             - Arquitetura - 13:10
@@ -172,7 +174,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * mongoexport - 43:35
         * mongoimport - 44:40
         * Exercício - 45:30
-- **Aula 02 | 10.11** Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
+- **Aula 02 | 10.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=PaNVk0V2UNI](https://www.youtube.com/watch?v=PaNVk0V2UNI)
     + Módulo MongoDB
         * Cliente
             - use database: 8:34
@@ -181,7 +184,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - save(): 19:12
             - cursor: 24:53
 
-- **Aula 03 | 10.11** Vídeo: [https://www.youtube.com/watch?v=cIHjA1hyPPY](https://www.youtube.com/watch?v=cIHjA1hyPPY)
+- **Aula 03 | 10.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=cIHjA1hyPPY](https://www.youtube.com/watch?v=cIHjA1hyPPY)
     + Módulo MongoDB
         * CRUD
             - find(): 11:14
@@ -190,7 +194,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - find() fields: 17:49
             - find() Operadores Aritméticos: 23:28
             - find() Operadores Lógicos: 31:45
-- **Aula 04 - Parte 1 | 16.11** Vídeo: [https://www.youtube.com/watch?v=ONzJsNbv15U](https://www.youtube.com/watch?v=ONzJsNbv15U)
+- **Aula 04 - Parte 1 | 16.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=ONzJsNbv15U](https://www.youtube.com/watch?v=ONzJsNbv15U)
     + Módulo MongoDB
         * CRUD
             - update() - $set: 28:47
@@ -201,7 +206,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - update() - $pushAll: 41:53s
             - update() - $pull: 45:08
             - update() - $pullAll: 46:37
-- **Aula 04 - Parte 2 | 17.11** Vídeo: [https://www.youtube.com/watch?v=ozbmQb6SVQk](https://www.youtube.com/watch?v=ozbmQb6SVQk)
+- **Aula 04 - Parte 2 | 17.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=ozbmQb6SVQk](https://www.youtube.com/watch?v=ozbmQb6SVQk)
     + Módulo MongoDB
         * CRUD
             - update() - options - 1:40
@@ -213,7 +219,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - find() - Operador de Array - $nin - 21:50
             - find() - Operador de Array - $all - 23:00
             - find() - Operador de Negação - $not - 27:20
-- **Aula 05 | 18.11** Vídeo: 
+- **Aula 05 | 18.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=1eHc8reT_Vk](https://www.youtube.com/watch?v=1eHc8reT_Vk)
     + Módulo MongoDB - Professor: [William Bruno](https://github.com/wbruno)
     	- mongoimport restaurantes - 1:38
         - find().length() - 3:38
@@ -225,7 +232,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         - limit().skip() - 19:50
         - group() - 25:00
         - aggregate() - 43:30
-- **Aula 06 - Parte 1 | 27.11** Vídeo: [https://www.youtube.com/watch?v=5bbWeEEzRQM](https://www.youtube.com/watch?v=5bbWeEEzRQM)
+- **Aula 06 - Parte 1 | 27.11** 
+    + Vídeo: [https://www.youtube.com/watch?v=5bbWeEEzRQM](https://www.youtube.com/watch?v=5bbWeEEzRQM)
     + Módulo MongoDB
         - Correção exercícios Suissa - 0:45
         - Como enviar seus exercícios - 14:42
@@ -233,13 +241,15 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         - Artigo - 28:40
         - Relacionamentos - 29:36
         - DBRef - 36:12
-- **Aula 06  - Parte 2| 01.12** Vídeo: [https://www.youtube.com/watch?v=IXz4IL0da1k](https://www.youtube.com/watch?v=IXz4IL0da1k)
+- **Aula 06  - Parte 2| 01.12** 
+    + Vídeo: [https://www.youtube.com/watch?v=IXz4IL0da1k](https://www.youtube.com/watch?v=IXz4IL0da1k)
     + Módulo MongoDB
         - Explain - 0:15
         - Índices - 5:00
         - GridFS - 14:58
         - Replica - 30:11
-- **Aula 07  - Parte 2| 03.12** Vídeo: [https://www.youtube.com/watch?v=1ElYrkSIvII](https://www.youtube.com/watch?v=1ElYrkSIvII)
+- **Aula 07  - Parte 2| 03.12** 
+    + Vídeo: [https://www.youtube.com/watch?v=1ElYrkSIvII](https://www.youtube.com/watch?v=1ElYrkSIvII)
     + Módulo MongoDB
         - Replica - Árbitros - 2:13
         - Sharding - 6:13
