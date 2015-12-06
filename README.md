@@ -258,6 +258,12 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Teoria
             - Event Loop
             - Single thread
+            - V8
+            - Libuv
+            - I/O Async
+            - Thread Pool
+            - Event Driven
+            - API
         * Servidor HTTP
         * Rotas
         * FileSystem

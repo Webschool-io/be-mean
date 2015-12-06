@@ -54,12 +54,29 @@ Então perceba que o **cliente** envia uma requisição com um **verbo HTTP** e 
 
 ## Methods
 
-O protocolo HTTP é possui um conjunto de métodos/verbos que o cliente pode invocar, por exemplo os do CRUD:
+O protocolo HTTP é possui um conjunto de métodos/verbos que o cliente pode invocar, veja abaixo a lista dos verbos mais usados:
+
+- GET: Método que solicita algum recurso ou objeto ao servidor
+- HEAD: Solicita informações de um determinado objeto sem que esse seja enviado ao cliente apenas para testa a validade do último acesso.
+- POST: Método usado para envio de arquivo dados ou formulário HTML ao servidor.
+- PUT: Cria ou modifica algum objeto do servidor.
+- DELETE: Informa por meio do URL o objeto a ser deletado.
+- OPTIONS: Por meio desse método o cliente obtém as propriedades do servidor.
+- TRACE: Para enviar mensagem do tipo loopback para teste.
+- CONNECT: Comunicar com servidores Proxy.
+
+E são com 4 verbos diferentes que criamos um [CRUD](https://pt.wikipedia.org/wiki/CRUD), que é **essencial em qualquer sistema**.
+
+No CRUD precisamos ter 4 ações:
 
 - Create
-- Retrieve
+- Retrieve/Read
 - Update
 - Delete
+
+**Sabendo disso agora, quais são os 4 verbos que utilizamos para o CRUD?**
+
+ps: Faz parte do exercício dessa aula.
 
 ## Status Codes
 
