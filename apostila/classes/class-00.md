@@ -13,7 +13,7 @@
 
 Me chamo Jean, mas sou mais conhecido como Suissa, trabalho profissionalmente com Web há uns 10 anos e apenas com JavaScript há 4. Inicie na Web com 15 anos quando ganhei um computador do meu pai e em 6 meses estava *hackeando* sites.
 
-Antes era apenas um programador, depois que comecei a escrever artigos fui chamado para palestrar em uma faculdade para logo após iniciar como professor na mesma, isso foi 1 ano antes de ir para São Paulo e iniciar a vida de programador/palestrante, sendo que antes já era um programador que depois irou professor.
+Antes era apenas um programador, depois que comecei a escrever artigos fui chamado para palestrar em uma faculdade para logo após iniciar como professor na mesma, isso foi 1 ano antes de ir para São Paulo e iniciar a vida de programador/palestrante, sendo que antes já era um programador que depois virou professor.
 
 Em São Paulo co-criei os eventos: Sampa.js e FrontinSampa. Os mesmos sendo os primeiros de sua modalidade na cidade.
 
