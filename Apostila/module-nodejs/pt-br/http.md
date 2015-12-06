@@ -288,8 +288,26 @@ http.createServer(function(request, response){
 });
 
 ```
+
+Com isso aprendemos como a criar um simples servidor HTTP para nossas futuras aplicações.
+
 ## get
 
-// Consultar a API dos gatos e servir posteirormente a imagem em rotas.
+Para dar continuidade no HTTP vamos ver um dos verbos mais usados, o `GET`. 
+
+Com ele iremos requisitar informações na nossa ou em outras APIs e é isso que faremos agora, consultaremos a [API dos Status Codes de gatos](https://http.cat/).
+
+Usaremos a função `[http.get](https://nodejs.org/api/http.html#http_class_http_agent)`.
+
+```js
+http.get({
+  hostname: 'localhost',
+  port: 80,
+  path: '/',
+  agent: false  // create a new agent just for this one request
+}, function (res) {
+  // Do stuff with response
+})
+```
 
 ## request
