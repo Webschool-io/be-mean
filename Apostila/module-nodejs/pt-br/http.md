@@ -396,7 +396,13 @@ Servidor rodando em localhost:3000
 
 Agora abra o POSTMAN e dê um `GET` na url `http://localhost:3000/api/v1`.
 
-![POSTMAN](https://cldup.com/Qsn8q1qbsS-3000x3000.png)
+![POSTMAN requisição de sucesso](https://cldup.com/Qsn8q1qbsS-3000x3000.png)
+
+Pronto conseguimos a resposta de **sucesso**, agora vamos requisitar uma URL inexistente para vermos o retorno de **erro**.
+
+![POSTMAN requisição de erro](https://cldup.com/DUohAk2WIw-3000x3000.png)
+
+### Create
 
 ## get
 
