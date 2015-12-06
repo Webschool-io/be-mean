@@ -189,6 +189,38 @@ response.end();
 
 E por fim finalizamos a conexão com o cliente.
 
+Mas como estamos trabalhando com o Navegador para acessar nosso servidor vamor retornar um HTML então.
+
+```js
+var http = require('http');
+
+http.createServer(function(request, response){
+  response.writeHead(200, {"Content-Type": "text/plain"});
+  response.write("<h1>Be MEAN</h1>");
+  response.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+**Ué mas deu merda!**
+
+Então como nós retornamos nossa resposta corretamente?
+
+Corrigindo o cabeçalho da resposta.
+
+```js
+var http = require('http');
+
+http.createServer(function(request, response){
+  response.writeHead(200, {"Content-Type": "text/html"});
+  response.write("<h1>Be MEAN</h1>");
+  response.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
 ## get
 
 // Consultar a API dos gatos e servir posteirormente a imagem em rotas.
