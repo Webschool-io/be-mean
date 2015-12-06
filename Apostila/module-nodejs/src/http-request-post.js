@@ -3,8 +3,8 @@
 const http = require('http');
 const querystring = require('querystring');
 const postData = querystring.stringify({
-        name: "Suissa"
-      , type: "Professor"
+        name: 'Jean Nascimento'
+      , type: 'professor'
       });
 const options = {
         host: 'webschool-io.herokuapp.com'

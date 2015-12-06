@@ -39,7 +39,7 @@ Connection: keep-alive
 Content-Encoding: gzip
 Content-Type: text/html
 Date: Sun, 06 Dec 2015 01:07:17 GMT
-ETag: W/"55f9df1c-23f"
+ETag: W/'55f9df1c-23f'
 Last-Modified: Wed, 16 Sep 2015 21:29:00 GMT
 Server: nginx
 Transfer-Encoding: chunked
@@ -140,8 +140,8 @@ Para iniciarmos um servidor HTTP utilizaremos a função `createServer` que rece
 var http = require('http');
 
 http.createServer(function(request, response){
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Be MEAN");
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.write('Be MEAN');
   response.end();
 }).listen(3000, function(){
   console.log('Servidor rodando em localhost:3000');
@@ -154,8 +154,8 @@ Ou:
 var http = require('http');
 
 var server = http.createServer(function(request, response){
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Be MEAN");
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.write('Be MEAN');
   response.end();
 });
 
@@ -170,8 +170,8 @@ Percebeu que uma função sem nome foi passada para o `createServer`?
 
 ```js
 function(request, response){
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Be MEAN");
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.write('Be MEAN');
   response.end();
 }
 ```
@@ -191,13 +191,13 @@ Exemplo de um cabeçalho:
 Voltando ao nosso código.
 
 ```js
-response.writeHead(200, {"Content-Type": "text/plain"});
+response.writeHead(200, {'Content-Type': 'text/plain'});
 ```
 
 Acima estamos criando o cabeçalho da resposta com o **Status Code** `200` e o **Content-Type** `text/plain`.
 
 ```js
-response.write("Be MEAN");
+response.write('Be MEAN');
 ```
 
 Depois escrevemos no corpo da resposta `Be MEAN`.
@@ -215,8 +215,8 @@ Mas como estamos trabalhando com o Navegador para acessar nosso servidor vamor r
 var http = require('http');
 
 http.createServer(function(request, response){
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("<h1>Be MEAN</h1>");
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.write('<h1>Be MEAN</h1>');
   response.end();
 }).listen(3000, function(){
   console.log('Servidor rodando em localhost:3000');
@@ -234,8 +234,8 @@ Corrigindo o cabeçalho da resposta.
 var http = require('http');
 
 http.createServer(function(request, response){
-  response.writeHead(200, {"Content-Type": "text/html"});
-  response.write("<h1>Be MEAN</h1>");
+  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.write('<h1>Be MEAN</h1>');
   response.end();
 }).listen(3000, function(){
   console.log('Servidor rodando em localhost:3000');
@@ -246,9 +246,9 @@ Aprendemos a enviar um HTML escrevendo ele na resposta, agora é a hora de respo
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
+  <meta charset='UTF-8'>
   <title>Be MEAN - Instagram</title>
 </head>
 <body>
@@ -266,7 +266,7 @@ var http = require('http')
   , index = fs.readFileSync('index.html');
 
 http.createServer(function(request, response){
-  response.writeHead(200, {"Content-Type": "text/html"});
+  response.writeHead(200, {'Content-Type': 'text/html'});
   response.end(index);
 }).listen(3000, function(){
   console.log('Servidor rodando em localhost:3000');
@@ -286,7 +286,7 @@ Primeiramente vamos criar o JSON de resposta:
 ```js
 const JSON = {
   version: 1.0
-, name: "Be MEAN"
+, name: 'Be MEAN'
 , created_at: Date.now()
 };
 ```
@@ -327,7 +327,7 @@ const http = require('http')
       , returned_at: date
       }
     , ERROR = {
-      message: "DEU MERDA FI!!!!"
+      message: 'DEU MERDA FI!!!!'
     };
 
 http.createServer(function(req, res){
@@ -374,56 +374,6 @@ Pronto conseguimos a resposta de **sucesso**, agora vamos requisitar uma URL ine
 
 ![POSTMAN requisição de erro](https://cldup.com/DUohAk2WIw-3000x3000.png)
 
-### Create
-
-Para executarmos a ação de ***Create*** usaremos o verbo `POST`, normalmente, na mesma url que usamos o `GET`, requisitaremos em uma API externa pois ainda não estamos trabalhando com banco aqui e queremos um efeito real.
-
-Essa API está em `http://webschool-io.herokuapp.com/`.
-
-
-```js
-// file: http-request-post.js
-'use strict';
-
-const http = require('http');
-const querystring = require('querystring');
-const postData = querystring.stringify({
-        name: "Suissa"
-      , type: "Professor"
-      });
-const options = {
-        host: 'webschool-io.herokuapp.com'
-      , path: '/api/pokemons'
-      , headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        , 'Content-Length': postData.length
-        }
-      };
-
-function callback(res) {
-  console.log('STATUS: ' + res.statusCode);
-  console.log('HEADERS: ' + JSON.stringify(res.headers));
-
-  let data = '';
-
-  res.setEncoding('utf8');
-  res.on('data', (chunk) =>  {
-    data += chunk;
-  });
-  res.on('end', () => {
-    console.log('Dados finalizados: ', data)
-  })
-}
-
-const req = http.request(options, callback);
-
-req.on('error', (e) =>  {
-  console.log('ERROOOO: ' + e.message);
-});
-req.write(postData);
-req.end();
-```
-
 
 ### Querystring
 
@@ -436,17 +386,17 @@ http.createServer(function(request, response){
 
   var result = url.parse(request.url, true);
 
-  response.writeHead(200, {"Content-Type": "text/html"});
-  response.write("<html><body>");
-  response.write("<h1>Query string</h1>");
-  response.write("<ul>");
+  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.write('<html><body>');
+  response.write('<h1>Query string</h1>');
+  response.write('<ul>');
 
   for(var key in result.query){
-    response.write("<li>"+key+" : "+result.query[key]+"</li>");
+    response.write('<li>'+key+' : '+result.query[key]+'</li>');
   }
 
-  response.write("</ul>");
-  response.write("</body></html>");
+  response.write('</ul>');
+  response.write('</body></html>');
   response.end();
 }).listen(3000, function(){
   console.log('Servidor rodando em localhost:3000');
@@ -498,7 +448,7 @@ http.get({
     });
 
     response.on('end', function() {
-      console.log("Resposta: ", body);
+      console.log('Resposta: ', body);
     });
 });
 ```
@@ -527,7 +477,7 @@ http.get({
     });
 
     response.on('end', function() {
-      console.log("Resposta: ", body);
+      console.log('Resposta: ', body);
     });
 });
 ```
@@ -539,7 +489,7 @@ Salve esse código como `http-get-localhost-querystring.js` e execute como visto
 ```js
 node http-get-localhost-querystring.js
 STATUS: 200
-HEADERS: {"content-type":"text/html","date":"Sun, 06 Dec 2015 14:13:27 GMT","connection":"close","transfer-encoding":"chunked"}
+HEADERS: {'content-type':'text/html','date':'Sun, 06 Dec 2015 14:13:27 GMT','connection':'close','transfer-encoding':'chunked'}
 Resposta:  <html><body><h1>Query string</h1><ul><li>irru : true</li><li>xulepa : 1</li></ul></body></html>
 ```
 
@@ -568,7 +518,7 @@ E no segundo parâmetro passamos a função anônima que é executada após a re
     });
 
     response.on('end', function() {
-      console.log("Resposta: ", body);
+      console.log('Resposta: ', body);
     });
 }
 ```
@@ -678,12 +628,107 @@ Depois basta executar esse script no terminal:
 ```
 node http-request.js
 STATUS: 200
-HEADERS: {"server":"nginx","date":"Sun, 06 Dec 2015 16:15:05 GMT","content-type":"application/json;charset=utf-8","transfer-encoding":"chunked","connection":"close","set-cookie":["PHPSESSID=s1vnnu7rm4g4tagh2la03kni36; path=/"],"expires":"Thu, 19 Nov 1981 08:52:00 GMT","cache-control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","pragma":"no-cache"}
-Dados finalizados:  {"videos":[...]}
+HEADERS: {'server':'nginx','date':'Sun, 06 Dec 2015 16:15:05 GMT','content-type':'application/json;charset=utf-8','transfer-encoding':'chunked','connection':'close','set-cookie':['PHPSESSID=s1vnnu7rm4g4tagh2la03kni36; path=/'],'expires':'Thu, 19 Nov 1981 08:52:00 GMT','cache-control':'no-store, no-cache, must-revalidate, post-check=0, pre-check=0','pragma':'no-cache'}
+Dados finalizados:  {'videos':[...]}
 ```
 
 Vamos continuar com o `request` porém dessa vez consultaremos
 
+
+### Create - POST
+
+Para executarmos a ação de ***Create*** usaremos o verbo `POST`, normalmente, na mesma url que usamos o `GET`, requisitaremos em uma API externa pois ainda não estamos trabalhando com banco aqui e queremos um efeito real.
+
+Essa API está em `http://webschool-io.herokuapp.com/`.
+
+
+```js
+// file: http-request-post.js
+'use strict';
+
+const http = require('http');
+const querystring = require('querystring');
+const postData = querystring.stringify({
+        name: 'Jean Nascimento'
+      , type: 'professor'
+      });
+const options = {
+        host: 'webschool-io.herokuapp.com'
+      , path: '/api/pokemons'
+      , headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        , 'Content-Length': postData.length
+        }
+      };
+
+function callback(res) {
+  console.log('STATUS: ' + res.statusCode);
+  console.log('HEADERS: ' + JSON.stringify(res.headers));
+
+  let data = '';
+
+  res.setEncoding('utf8');
+  res.on('data', (chunk) =>  {
+    data += chunk;
+  });
+  res.on('end', () => {
+    console.log('Dados finalizados: ', data)
+  })
+}
+
+const req = http.request(options, callback);
+
+req.on('error', (e) =>  {
+  console.log('ERROOOO: ' + e.message);
+});
+req.write(postData);
+req.end();
+```
+
+**Percebeu que começamos importando um módulo novo?**
+
+O [querystring](https://www.npmjs.com/package/querystring) irá servir para *parsear* os dados no formato [Querystring](https://en.wikipedia.org/wiki/Query_string), este sendo nada mais que um padrão que o protocolo HTTP utiliza para transporte de informação do cliente para o servidor, ou até mesmo cliente - cliente.
+
+O querystring obedece o seguinte padrão:
+
+```
+nome_da_variavel=conteudo da variavel
+```
+
+Então o conteúdo da `const postData`, após a execução da `querystring.stringify()`, é:
+
+```
+name=Jean%20Nascimento&type=professor
+```
+
+Depois criamos o já manjado JSON de configuração, porém dessa vez temos mais coisas:
+
+```js
+const options = {
+        host: 'webschool-io.herokuapp.com'
+      , path: '/api/pokemons'
+      , headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        , 'Content-Length': postData.length
+        }
+      };
+
+```
+
+Dessa vez adicionamos o objeto `headers` o qual conterá todos nossos cabeçalhos, como:
+
+```js
+{
+  'Content-Type': 'application/x-www-form-urlencoded'
+, 'Content-Length': postData.length
+}
+```
+
+Que são necessários quando enviamos dados com `POST`.
+
+O cabeçalho `'Content-Type': application/x-www-form-urlencoded` diz a forma que a informação é enviada, nesse caso como *querystring*.
+
+E o cabeçalho `'Content-Length': postData.length` fala qual é o tamanho, em bytes, da informação enviada, aqui sendo `37` pois é a quantidade de caracteres de `name=Jean%20Nascimento&type=professor`, onde cada caracter é 1 byte.
 
 ## Módulo request
 
