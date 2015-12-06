@@ -56,14 +56,16 @@ Então perceba que o **cliente** envia uma requisição com um **verbo HTTP** e 
 
 O protocolo HTTP é possui um conjunto de métodos/verbos que o cliente pode invocar, veja abaixo a lista dos verbos mais usados:
 
-- GET: Método que solicita algum recurso ou objeto ao servidor
-- HEAD: Solicita informações de um determinado objeto sem que esse seja enviado ao cliente apenas para testa a validade do último acesso.
-- POST: Método usado para envio de arquivo dados ou formulário HTML ao servidor.
-- PUT: Cria ou modifica algum objeto do servidor.
-- DELETE: Informa por meio do URL o objeto a ser deletado.
-- OPTIONS: Por meio desse método o cliente obtém as propriedades do servidor.
-- TRACE: Para enviar mensagem do tipo loopback para teste.
-- CONNECT: Comunicar com servidores Proxy.
+- **GET**: Requisita um representação do recurso especificado (O mesmo recurso pode ter várias representações, ao exemplo de serviços que retornam XML e JSON).
+HEAD: Retorna os cabeçalhos de uma resposta (sem o corpo contendo o recurso)
+- **POST**: Envia uma entidade e requisita que o servidor aceita-a como subordinada do recurso identificado pela URI.
+- **PUT**: Requisita que um entidade seja armazenada embaixo da URI fornecida. Se a URI se refere a um recurso que já existe, ele é modificado; se a URI não aponta para um recurso existente, então o servidor pode criar o recurso com essa URI.
+- **DELETE**: Apaga o recurso especificado.
+- **TRACE**: Ecoa de volta a requisição recebida para que o cliente veja se houveram mudanças e adições feitas por servidores intermediários.
+OPTIONS: Retorna os métodos HTTP que o servidor suporta para a URL especificada.
+- **CONNECT**: Converte a requisição de conexão para um túnel TCP/IP transparente, usualmente para facilitar comunicação criptografada com SSL (HTTPS) através de um proxy HTTP não criptografado.
+- **PATCH**: Usado para aplicar modificações parciais a um recurso.
+
 
 E são com 4 verbos diferentes que criamos um [CRUD](https://pt.wikipedia.org/wiki/CRUD), que é **essencial em qualquer sistema**.
 
