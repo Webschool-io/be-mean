@@ -288,6 +288,8 @@ http.createServer(function(request, response){
 });
 
 ```
+
+
 ## get
 
 // Consultar a API dos gatos e servir posteirormente a imagem em rotas.
