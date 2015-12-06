@@ -230,6 +230,7 @@ Então como nós retornamos nossa resposta corretamente?
 Corrigindo o cabeçalho da resposta.
 
 ```js
+// hello-http.js
 var http = require('http');
 
 http.createServer(function(request, response){
@@ -276,6 +277,7 @@ Nesse código estamos lendo o `index.html` com o `fs.readFileSync`, falaremos ma
 
 
 ```js
+// file: hello-querystring.js
 var http = require('http')
   , url = require('url');
 
@@ -303,6 +305,84 @@ http.createServer(function(request, response){
 
 Com isso aprendemos como a criar um simples servidor HTTP para nossas futuras aplicações.
 
+## Rotas
+
+A primeira coisa que nosso sistema web precisa ter para ser acessado são rotas, então vamos criar nossa primeira rota `/api/v1` que retornará informações sobre a nossa api.
+
+Primeiramente vamos criar o JSON de resposta:
+
+```js
+const JSON = {
+  version: 1.0
+, name: "Be MEAN"
+, created_at: Date.now()
+};
+```
+
+Depois vamos adicioná-lo no script `server.js` que irá conter o nosso servidor HTTP.
+
+```js
+// server.js
+'use strict';
+
+const http = require('http')
+, JSON = {
+    version: 1.0
+  , name: 'Be MEAN'
+  , created_at: Date.now()
+  };
+
+http.createServer(function(request, response){
+  response.writeHead(200, {'Content-Type': 'application/json'});
+  response.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Esse será nosso esqueleto, agora precisamos verificar qual é a URL requisitada pelo cliente.
+
+```js
+// server.js
+'use strict';
+
+var date = (new Date()).toJSON();
+
+const http = require('http')
+    , SUCCESS = {
+        version: 1.0
+      , name: 'Be MEAN'
+      , returned_at: date
+      }
+    , ERROR = {
+      message: "DEU MERDA FI!!!!"
+    };
+
+http.createServer(function(req, res){
+  if(req.url === '/api/v1') {
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.write(JSON.stringify(SUCCESS));
+  }
+  else {
+    res.writeHead(400, {'Content-Type': 'application/json'});
+    res.write(JSON.stringify(ERROR));
+  }
+  res.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+**DICA**: como iremos trabalhar bastante com o `server.js` para eliminarmos o trabalho manual de derrubarmos o servidor e levantarmos novamente, vamos instalar o `nodemon`:
+
+```js
+npm i -g nodemon
+```
+
+Intalamos ele globalmente com `-g` para que seja acessível em linha de comando.
+
+E também instale o [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) que é uma extensão para o Chrome, para testarmos nossas APIs, será de grande utilização durante o curso.
+
 ## get
 
 Para dar continuidade no HTTP vamos ver um dos verbos mais usados, o `GET`. 
@@ -325,6 +405,7 @@ http.get({
 Agora criando a requisição para o nosso servidor que está rodando o `hello-querystring.js`:
 
 ```js
+// file: http-get-localhost-querystring.js
 'use strict';
 
 const http = require('http');
@@ -353,6 +434,7 @@ http.get({
 Mas vamos fazer uma pequena modificação para vocês já se acostumarem com [Arrow Functions] do [ES6]:
 
 ```js
+// file: hello-querystring.js
 'use strict';
 
 const http = require('http');
@@ -439,5 +521,109 @@ O `IncomingMessage` implementa a interface de [Readable Stream ](https://nodejs.
 Sabendo de tudo isso podemos seguir para o `request` e começar a consumir APIs externas.
 
 ## request
+
+Primeira coisa que precisamos fazer é criar o JSON de configuração da requisição:
+
+```js
+const options = {
+  host: 'api.redtube.com'
+, path: '/?data=redtube.Videos.searchVideos&search=Sasha%20Gray'
+};
+```
+
+Depois criamos a função de *callback*:
+
+```js
+function callback(res) {
+  console.log('STATUS: ' + res.statusCode);
+  console.log('HEADERS: ' + JSON.stringify(res.headers));
+
+  let data = '';
+
+  res.setEncoding('utf8');
+  res.on('data', (chunk) =>  {
+    data += chunk;
+  });
+  res.on('end', () => {
+    console.log('Dados finalizados: ', data)
+  })
+}
+```
+
+Para depois passarmos os 2 para o `request`:
+
+```js
+const req = http.request(options, callback);
+```
+
+Bastando assim apenas escutar o evento `error` e fechar a conexão com `req.end()`:
+
+```js
+req.on('error', (e) =>  {
+  console.log('ERROOOO: ' + e.message);
+});
+req.end();
+```
+
+Juntando todas essas partes criamos o arquivo `http-request.js`:
+
+```js
+// file: http-request.js
+'use strict';
+
+const http = require('http');
+
+const options = {
+  host: 'api.redtube.com'
+, path: '/?data=redtube.Videos.searchVideos&search=Sasha%20Gray'
+};
+
+function callback(res) {
+  console.log('STATUS: ' + res.statusCode);
+  console.log('HEADERS: ' + JSON.stringify(res.headers));
+
+  let data = '';
+
+  res.setEncoding('utf8');
+  res.on('data', (chunk) =>  {
+    data += chunk;
+  });
+  res.on('end', () => {
+    console.log('Dados finalizados: ', data)
+  })
+}
+
+const req = http.request(options, callback);
+
+req.on('error', (e) =>  {
+  console.log('ERROOOO: ' + e.message);
+});
+req.end();
+```
+
+Depois basta executar esse script no terminal:
+
+```
+node http-request.js
+STATUS: 200
+HEADERS: {"server":"nginx","date":"Sun, 06 Dec 2015 16:15:05 GMT","content-type":"application/json;charset=utf-8","transfer-encoding":"chunked","connection":"close","set-cookie":["PHPSESSID=s1vnnu7rm4g4tagh2la03kni36; path=/"],"expires":"Thu, 19 Nov 1981 08:52:00 GMT","cache-control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","pragma":"no-cache"}
+Dados finalizados:  {"videos":[...]}
+```
+
+Vamos continuar com o `request` porém dessa vez consultaremos
+
+
+## Módulo request
+
+Além da função `request` do módulo `http` também temos um módulo **apenas** de *request* que facilita ainda mais nossas vidas.
+
+Para utilizarmos esse módulo externo precisamos anteriormente instalá-lo localmente.
+
+```
+npm install --save request
+```
+
+Falaremos mais sobre o [npm](https://www.npmjs.com/) mais adiante.
+
 
 
