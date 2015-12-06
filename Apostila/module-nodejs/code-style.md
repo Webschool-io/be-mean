@@ -148,14 +148,14 @@ const item = {};
 ```javascript
 //ruim
 const superman = {
-  default: { clark: 'kent' },
-  private: true,
+  default: { clark: 'kent' }
+, private: true
 };
 
 // bom
 const superman = {
-  defaults: { clark: 'kent' },
-  hidden: true,
+  defaults: { clark: 'kent' }
+, hidden: true,
 };
 ```
 
@@ -164,17 +164,17 @@ const superman = {
 ```javascript
 //ruim
 const superman = {
-  class: 'alien',
+  class: 'alien'
 };
 
 //ruim
 const superman = {
-  klass: 'alien',
+  klass: 'alien'
 };
 
 // bom
 const superman = {
-  type: 'alien',
+  type: 'alien'
 };
 ```
 
@@ -190,41 +190,40 @@ function getKey(k) {
 
 //ruim
 const obj = {
-  id: 5,
-  name: 'San Francisco',
+  id: 5
+, name: 'San Francisco'
 };
 obj[getKey('enabled')] = true;
 
 // bom
 const obj = {
-  id: 5,
-  name: 'San Francisco',
-  [getKey('enabled')]: true,
+  id: 5
+, name: 'San Francisco'
+, [getKey('enabled')]: true
 };
 ```
 
 <a name="es6-object-shorthand"></a>
 * [3.5](#3.5) <a name='3.5'></a> Use object method shorthand.
 
-eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
 ```javascript
 //ruim
 const atom = {
-  value: 1,
+  value: 1
 
-  addValue: function (value) {
+, addValue: function (value) {
     return atom.value + value;
-  },
+  }
 };
 
 // bom
 const atom = {
-  value: 1,
+  value: 1
 
-  addValue(value) {
+, addValue(value) {
     return atom.value + value;
-  },
+  }
 };
 ```
 
@@ -236,16 +235,16 @@ const atom = {
 eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
 ```javascript
-const lukeSkywalker = 'Luke Skywalker';
+const nome = 'Luke Skywalker';
 
 //ruim
 const obj = {
-  lukeSkywalker: lukeSkywalker,
+  nome: nome
 };
 
 // bom
 const obj = {
-  lukeSkywalker,
+  nome
 };
 ```
 
@@ -259,22 +258,22 @@ const lukeSkywalker = 'Luke Skywalker';
 
 //ruim
 const obj = {
-  episodeOne: 1,
-  twoJediWalkIntoACantina: 2,
-  lukeSkywalker,
-  episodeThree: 3,
-  mayTheFourth: 4,
-  anakinSkywalker,
+  episodeOne: 1
+, twoJediWalkIntoACantina: 2
+, lukeSkywalker
+, episodeThree: 3
+, mayTheFourth: 4
+, anakinSkywalker
 };
 
 // bom
 const obj = {
-  lukeSkywalker,
-  anakinSkywalker,
-  episodeOne: 1,
-  twoJediWalkIntoACantina: 2,
-  episodeThree: 3,
-  mayTheFourth: 4,
+, lukeSkywalker
+, anakinSkywalker
+  episodeOne: 1
+, twoJediWalkIntoACantina: 2
+, episodeThree: 3
+, mayTheFourth: 4
 };
 ```
 
