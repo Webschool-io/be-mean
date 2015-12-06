@@ -117,6 +117,6 @@ Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.o
 
 ![http://kunkle.org/assets/scaling-event-loop.png](http://kunkle.org/assets/scaling-event-loop.png)
 
-## Event Drive
+## Event Driven
 
 ## API
