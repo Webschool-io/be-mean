@@ -1,6 +1,6 @@
 # Calendário Dezembro
 
-![](./calendar/2015-dezembro.png)
+![](./Calendar/2015-dezembro.png)
 
 # Os brindes serão enviados ATÉ O NATAL!!!
 
