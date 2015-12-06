@@ -54,7 +54,7 @@ Então perceba que o **cliente** envia uma requisição com um **verbo HTTP** e 
 
 ## Methods
 
-O protocolo HTTP é possui um conjunto de métodos/verbos que o cliente pode invocar, veja abaixo a lista dos verbos mais usados:
+O protocolo HTTP possui um conjunto de métodos/verbos que o cliente pode invocar, veja abaixo a lista dos verbos mais usados:
 
 - **GET**: Requisita um representação do recurso especificado (O mesmo recurso pode ter várias representações, ao exemplo de serviços que retornam XML e JSON).
 HEAD: Retorna os cabeçalhos de uma resposta (sem o corpo contendo o recurso)
