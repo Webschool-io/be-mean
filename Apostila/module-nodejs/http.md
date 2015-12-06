@@ -80,6 +80,40 @@ ps: Faz parte do exercício dessa aula.
 
 ## Status Codes
 
+Os códigos de *status* são divididos em:
+
+### 1XX Informacional
+
+Não há necessidade de se preocupar com este, serve apenas para informar que a informação foi recebida e que o processo continua.
+
+### 2XX Sucesso
+
+Significa que o pedido foi recebido com sucesso. É o que sempre acontece quando suas páginas são carregadas
+
+200 – OK. O pedido ao servidor foi atendido com sucesso. A página web existe e será enviada ao user-agent (navegador, robô de busca…).
+
+### 3XX Redirecionamento
+
+Serve para avisar direto no cabeçalho HTTP uma mudança de página. Diferente de um Meta Refresh ou usar javascript, ele permite um redirecionamento “suave” e importante para SEO.
+
+301 – Movido Permanentemente. Muito útil para redirecionar páginas. Serve para redirecionar suas URLs que foram movidas permanentemente. Assim você evita páginas de código 404 ou pode tornar URLs dinâmicas com em URLs limpas.
+302 – Movido Temporariamente. Serve também para mover, mas com função temporária. A vantagem é que você pode reverter isto. Funciona bem para manutenções ou alteração não definitiva. O robô de busca continua visitando o endereço original.
+
+### 4XX Erro do Cliente
+
+Deve ser tratado com atenção pois o conteúdo não estará acessível para o visitante nem para o site de busca. Problema para indexar.
+
+401 – Não autorizado. O acesso a página não esta autorizado pois possivelmente a pessoa não está logada. Isto impede de uma página ser indexada por exemplo.
+403 – Proibido. Neste caso o robô de busca também não terá como indexar o conteúdo.
+404 – Não encontrado. É o código de retorno pode ser uma página ou arquivo que não existe no servidor, como um arquivo apagado. Pode ser usado para apresentar uma página com conteúdos relacionados à URL procurada.
+
+### 5XX Erro do Servidor
+
+O servidor não consegui atender o pedido por algum erro. Também não permitirá a indexação da página.
+
+500 – Erro interno do servidor.
+503 – Serviço indisponível. Pode ser um erro temporário. Uma manutenção ou uma grande quantidade de acessos pode derrubar o servidor.
+
 ![Erro 450](https://http.cat/450.jpg)
 
 Tem até uma [API](https://http.cat/) para consultar o **STATUS CODE** felino.
