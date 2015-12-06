@@ -2,6 +2,8 @@
 
 De Novembro de 2015 a Junho de 2016 - [Link da agenda no Google Calendar](https://calendar.google.com/calendar/embed?src=tts9unt80o1fa0pdtinui9eff8%40group.calendar.google.com&ctz=America/Sao_Paulo)
 
+<iframe src="https://calendar.google.com/calendar/embed?src=tts9unt80o1fa0pdtinui9eff8%40group.calendar.google.com&ctz=America/Sao_Paulo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ## Novembro - 2015
 
 ![Novembro 2015](./2015-novembro.png)
