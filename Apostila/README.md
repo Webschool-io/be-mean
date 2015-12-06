@@ -4,8 +4,8 @@ Link para a apostila de cada módulo.
 
 ## Módulos
 
-- [MongoDb](./module-mongodb)
-- [Node.js](./module-nodejs)
+- **[MongoDb](./module-mongodb)**
+- **[Node.js](./module-nodejs)**
 - [AngularJs]()
 - [Frontend]()
 - [NoSQL]()
