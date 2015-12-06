@@ -54,7 +54,7 @@ Essa biblioteca veio para fazer o trabalho da [libev](https://github.com/enki/li
 
 Onde a `libev` gerenciava o *Event Loop* e a `libeio` gerenciava o I/O assíncrono.
 
-![](./images/node-new.png)
+![](./../src/images/node-new.png)
 
 Foi no Node 0.5 que ela entrou em cena e na versão 0.9 a `libev` foi removida.
 
