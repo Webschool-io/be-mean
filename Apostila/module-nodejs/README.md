@@ -107,19 +107,19 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 - Aula 17: **17/12/2015**
     + **[Projeto em aula]**
-        * [Estante Virtual](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Estante-Virtual)
+        * [Estante Virtual](./../../Projects/Estante-Virtual)
             - Prof.: [William Bruno](https://github.com/wbruno)
 - Aula 18: **16/12/2015**
     + **[Projeto em aula]**
-        * [Gerenciador de Doações](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Donations)
+        * [Gerenciador de Doações](./../../Projects/Donations)
             - Prof.: [Suissa](https://github.com/suissa)
 - Aula 19: **18/12/2015**
     + **[Projeto em aula]**
-        * [Jobs - Gerenciador de Vagas de Trabalho](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/Jobs)
+        * [Jobs - Gerenciador de Vagas de Trabalho](./../../Projects/Jobs)
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 20: **18/12/2015**
     + **[Projeto em aula]**
-        * [DevCouchsurfing](https://github.com/Webschool-io/be-mean-instagram/tree/master/projects/DevCouchsurfing)
+        * [DevCouchsurfing](./../../Projects/DevCouchsurfing)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
 ### Projeto em aula
