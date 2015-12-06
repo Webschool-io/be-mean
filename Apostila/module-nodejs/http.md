@@ -124,12 +124,19 @@ Tem até uma [API](https://http.cat/) para consultar o **STATUS CODE** felino.
 
 ## createServer
 
+Antes de iniciar a criação dos códigos desse módulo crie uma pasta para o Workshop e dentro dela uma para o Node.js, por exemplo:
+
+```
+workshop-be-mean/nodejs/
+```
+
 Para iniciarmos um servidor HTTP utilizaremos a função `createServer` que recebe uma função com 2 parâmetros:
 
 - request;
 - response.
 
 ```js
+// hello-world.js
 var http = require('http');
 
 http.createServer(function(request, response){
@@ -192,6 +199,7 @@ E por fim finalizamos a conexão com o cliente.
 Mas como estamos trabalhando com o Navegador para acessar nosso servidor vamor retornar um HTML então.
 
 ```js
+// hello-http.js
 var http = require('http');
 
 http.createServer(function(request, response){
@@ -220,6 +228,39 @@ http.createServer(function(request, response){
   console.log('Servidor rodando em localhost:3000');
 });
 ```
+
+Aprendemos a enviar um HTML escrevendo ele  na resposta agora é a hora de respondermos com um HTML já criado, então primeiramente crie um `index.html`, na mesma pasta dos seus códigos, com o seguinte conteúdo:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN - Instagram</title>
+</head>
+<body>
+  <h1>Be MEAN - Instagram - html</h1>
+</body>
+</html>
+```
+
+
+```js
+// hello-html.js
+var http = require('http')
+  , fs = require('fs')
+  , index = fs.readFileSync('index.html');
+
+http.createServer(function(request, response){
+  response.writeHead(200, {"Content-Type": "text/html"});
+  response.write("<h1>Be MEAN</h1>");
+  response.end();
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Nesse código estamos lendo o `index.html` com o `fs.readFileSync`, falaremos mais tarde sobre o módulo `fs`.
 
 ## get
 
