@@ -1,3 +1,5 @@
+'use strict';
+
 const ACTIONS_FOLDER = './actions/';
 const ROUTES_FOLDER = './routes/';
 const ACTIONS = ['create', 'retrieve', 'update', 'delete'];
