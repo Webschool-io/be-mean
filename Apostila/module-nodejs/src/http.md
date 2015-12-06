@@ -62,7 +62,7 @@ HEAD: Retorna os cabeçalhos de uma resposta (sem o corpo contendo o recurso)
 - **PUT**: Requisita que um entidade seja armazenada embaixo da URI fornecida. Se a URI se refere a um recurso que já existe, ele é modificado; se a URI não aponta para um recurso existente, então o servidor pode criar o recurso com essa URI.
 - **DELETE**: Apaga o recurso especificado.
 - **TRACE**: Ecoa de volta a requisição recebida para que o cliente veja se houveram mudanças e adições feitas por servidores intermediários.
-OPTIONS: Retorna os métodos HTTP que o servidor suporta para a URL especificada.
+- **OPTIONS**: Retorna os métodos HTTP que o servidor suporta para a URL especificada.
 - **CONNECT**: Converte a requisição de conexão para um túnel TCP/IP transparente, usualmente para facilitar comunicação criptografada com SSL (HTTPS) através de um proxy HTTP não criptografado.
 - **PATCH**: Usado para aplicar modificações parciais a um recurso.
 
