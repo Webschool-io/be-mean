@@ -4,7 +4,7 @@ var date = (new Date()).toJSON();
 
 const http = require('http')
     , SUCCESS = {
-        version: 1.0
+        version: '1.0'
       , name: 'Be MEAN'
       , returned_at: date
       }

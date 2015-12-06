@@ -350,7 +350,7 @@ var date = (new Date()).toJSON();
 
 const http = require('http')
     , SUCCESS = {
-        version: 1.0
+        version: '1.0'
       , name: 'Be MEAN'
       , returned_at: date
       }
@@ -382,6 +382,21 @@ npm i -g nodemon
 Intalamos ele globalmente com `-g` para que seja acessível em linha de comando.
 
 E também instale o [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) que é uma extensão para o Chrome, para testarmos nossas APIs, será de grande utilização durante o curso.
+
+Depois de ter feito tudo isso levante seu servidor com o `nodemon`:
+
+```
+nodemon server.js
+6 Dec 16:05:26 - [nodemon] v1.3.8
+6 Dec 16:05:26 - [nodemon] to restart at any time, enter `rs`
+6 Dec 16:05:26 - [nodemon] watching: *.*
+6 Dec 16:05:26 - [nodemon] starting `node server.js`
+Servidor rodando em localhost:3000
+```
+
+Agora abra o POSTMAN e dê um `GET` na url `http://localhost:3000/api/v1`.
+
+![POSTMAN](https://cldup.com/Qsn8q1qbsS-3000x3000.png)
 
 ## get
 
