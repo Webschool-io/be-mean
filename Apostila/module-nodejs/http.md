@@ -184,13 +184,13 @@ response.writeHead(200, {"Content-Type": "text/plain"});
 
 Acima estamos criando o cabeçalho da resposta com o **Status Code** `200` e o **Content-Type** `text/plain`.
 
-```
+```js
 response.write("Be MEAN");
 ```
 
 Depois escrevemos no corpo da resposta `Be MEAN`.
 
-```
+```js
 response.end();
 ```
 
