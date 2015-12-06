@@ -423,6 +423,21 @@ Inicialmente criamos a variável `body` que irá receber a resposta em si, poré
 
 A única diferença entre o `http.get()` e `http.request`é que o `get()` seta o valor do verbo para `GET` e chama o `req.end()` automaticamente.
 
+**Percebeu que estamos usando 2 eventos do `response`?**
+
+Isso acontece porque ele é uma instância do [http.IncomingMessage](https://nodejs.org/api/http.html#http_http_incomingmessage).
+
+> Um objeto `IncomingMessage` é criado por `http.Server` ou `http.ClientRequest` e passado como o primeiro argumento para o `request` e  `response`, respectivamente. Ele pode ser usado para acessar resposta de status, os cabeçalhos e os dados em si.
+
+O `IncomingMessage` implementa a interface de [Readable Stream ](https://nodejs.org/api/stream.html#stream_class_stream_readable) que nos dá alguns eventos importantes, como:
+
+- close: evento emitido quando qualquer tipo de stream foi fechada;
+- data: evento que recebe os dados da *Stream*;
+- end: evento emitido quando não há mais dados para ler;
+- error: evento emitido quando acontecer algum erro.
+
+Sabendo de tudo isso podemos seguir para o `request` e começar a consumir APIs externas.
+
 ## request
 
 
