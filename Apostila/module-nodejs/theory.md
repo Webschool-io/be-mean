@@ -48,7 +48,7 @@ Como o processo é **assíncrono** ele irá executar e só após sua finalizaç�
 
 ![](http://docs.libuv.org/en/v1.x/_images/architecture.png)
 
-Libuv é uma biblioteca multi-plataforma que fornece notificação de eventos de forma assíncrona, isso inclui nosso sagrado **I/O**, foi originalmente desenvolvida para o Node.js, sendo a maior motivação a [integração com o Windows](http://tinyclouds.org/iocp-links.html).
+[Libuv](http://libuv.org/) é uma biblioteca multi-plataforma que fornece notificação de eventos de forma assíncrona, isso inclui nosso sagrado **I/O**, foi originalmente desenvolvida para o Node.js, sendo a maior motivação a [integração com o Windows](http://tinyclouds.org/iocp-links.html).
 
 Essa biblioteca veio para fazer o trabalho da [libev](https://github.com/enki/libev) e [libeio](http://software.schmorp.de/pkg/libeio.html) agregando também a parte de DNS do [C-Ares](http://c-ares.haxx.se/).
 
