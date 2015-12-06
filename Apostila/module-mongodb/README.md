@@ -6,7 +6,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
 
 ## Índice
 
-- [Teoria](./pt-br/pt-br/theory.md)
+- [Teoria](./pt-br/theory.md)
     - [NoSQL](./pt-br/theory-nosql.md)
     - [MongoDB](./pt-br/theory-mongodb.md)
 - [Instalação](./pt-br/installation.md)
