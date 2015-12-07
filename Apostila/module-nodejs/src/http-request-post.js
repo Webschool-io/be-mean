@@ -8,6 +8,7 @@ const postData = querystring.stringify({
       });
 const options = {
         host: 'webschool-io.herokuapp.com'
+      , method: 'POST'
       , path: '/api/pokemons'
       , headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
