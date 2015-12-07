@@ -26,7 +26,7 @@ Caso você receba um erro que o comando `node` não existe, faça o seguinte lin
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
-Pois no Linux há um pequeno problema pois o pacote `node` já existia, então para os Linuxes você instala o pacote `nodejs` e depois instala o `node-legacy`, se você não instalar o `node-legacy` precisará chamar o no Node com `nodejs` e não `node` como é o padrão, então esse pacote faz essa mágica acontecer.
+Pois no Linux há um pequeno problema pois o pacote `node` já existia, então para os Linuxes você também pode instalar o `node-legacy`, caso você não o instale ou não crie o link acima, precisará chamar o no Node com `nodejs` e não `node` como é o padrão, então esse pacote/link faz essa mágica acontecer.
 
 ![](http://i.imgur.com/YsbKHg1.gif)
 
