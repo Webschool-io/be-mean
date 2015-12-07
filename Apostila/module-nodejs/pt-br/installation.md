@@ -24,6 +24,14 @@ Caso o terminal mostre um erro então instale-o:
 sudo apt-get install npm
 ```
 
+Caso tenha vindo uma versão antiga, a atual é a 5, você pode fazer é adicionar um PPA (arquivo de pacotes pessoais) mantido pelo NodeSource.
+
+Primeiro, você precisa instalar o PPA de modo a obter acesso ao seu conteúdo:
+
+```
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+```
+
 
 ## yum
 
