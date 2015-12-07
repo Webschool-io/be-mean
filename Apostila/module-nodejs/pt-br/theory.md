@@ -35,7 +35,7 @@ Com uma coisinha linda fachamada *Event Loop*.
 
 ## Event Loop
 
-![](http://www.reactiongifs.com/wp-content/uploads/2013/09/bored-bundy.gif)
+![](https://cldup.com/tX0eT4gh53.gif)
 
 O Event Loop nada mais é que uma fila **infinita** que recebe todos os eventos emitidos pelo Node.js, isso inclui as requisições que recebemos no servidor HTTP.
 

@@ -37,7 +37,7 @@ Pois no Linux há um pequeno problema pois o pacote `node` já existia, então p
 ![](http://i.imgur.com/YsbKHg1.gif)
 
 
-Teste para ver se o [npm]() também foi instalado:
+Teste para ver se o [npm](https://www.npmjs.com/) também foi instalado:
 
 ```
 npm -v

@@ -66,7 +66,6 @@ OPTIONS: Retorna os métodos HTTP que o servidor suporta para a URL especificada
 - **CONNECT**: Converte a requisição de conexão para um túnel TCP/IP transparente, usualmente para facilitar comunicação criptografada com SSL (HTTPS) através de um proxy HTTP não criptografado.
 - **PATCH**: Usado para aplicar modificações parciais a um recurso.
 
-
 E são com 4 verbos diferentes que criamos um [CRUD](https://pt.wikipedia.org/wiki/CRUD), que é **essencial em qualquer sistema**.
 
 No CRUD precisamos ter 4 ações:
@@ -81,6 +80,8 @@ No CRUD precisamos ter 4 ações:
 ps: Faz parte do exercício dessa aula.
 
 ## Status Codes
+
+Os códigos de retorno HTTP são compostos por 3 dígitos que seguem um formato padrão dando melhor direcionamento para a identificação correta do retorno.
 
 Os códigos de *status* são divididos em:
 
@@ -99,6 +100,7 @@ Significa que o pedido foi recebido com sucesso. É o que sempre acontece quando
 Serve para avisar direto no cabeçalho HTTP uma mudança de página. Diferente de um Meta Refresh ou usar javascript, ele permite um redirecionamento “suave” e importante para SEO.
 
 301 – Movido Permanentemente. Muito útil para redirecionar páginas. Serve para redirecionar suas URLs que foram movidas permanentemente. Assim você evita páginas de código 404 ou pode tornar URLs dinâmicas com em URLs limpas.
+
 302 – Movido Temporariamente. Serve também para mover, mas com função temporária. A vantagem é que você pode reverter isto. Funciona bem para manutenções ou alteração não definitiva. O robô de busca continua visitando o endereço original.
 
 ### 4XX Erro do Cliente
@@ -106,7 +108,9 @@ Serve para avisar direto no cabeçalho HTTP uma mudança de página. Diferente d
 Deve ser tratado com atenção pois o conteúdo não estará acessível para o visitante nem para o site de busca. Problema para indexar.
 
 401 – Não autorizado. O acesso a página não esta autorizado pois possivelmente a pessoa não está logada. Isto impede de uma página ser indexada por exemplo.
+
 403 – Proibido. Neste caso o robô de busca também não terá como indexar o conteúdo.
+
 404 – Não encontrado. É o código de retorno pode ser uma página ou arquivo que não existe no servidor, como um arquivo apagado. Pode ser usado para apresentar uma página com conteúdos relacionados à URL procurada.
 
 ### 5XX Erro do Servidor
@@ -114,7 +118,10 @@ Deve ser tratado com atenção pois o conteúdo não estará acessível para o v
 O servidor não consegui atender o pedido por algum erro. Também não permitirá a indexação da página.
 
 500 – Erro interno do servidor.
+
 503 – Serviço indisponível. Pode ser um erro temporário. Uma manutenção ou uma grande quantidade de acessos pode derrubar o servidor.
+
+[Lista dos códigos de *status*](https://pt.wikipedia.org/wiki/Lista_de_c%C3%B3digos_de_status_HTTP).
 
 ### Cats API
 
@@ -312,6 +319,10 @@ http.createServer(function(request, response){
 });
 ```
 
+Sim iremos usar [comma-first](http://nomadev.com.br/comma-first-por-que-usar/).
+
+
+
 Esse será nosso esqueleto, agora precisamos verificar qual é a URL requisitada pelo cliente.
 
 ```js
@@ -345,7 +356,7 @@ http.createServer(function(req, res){
 });
 ```
 
-**DICA**: como iremos trabalhar bastante com o `server.js` para eliminarmos o trabalho manual de derrubarmos o servidor e levantarmos novamente, vamos instalar o `nodemon`:
+**DICA**: como iremos trabalhar em arquivos únicos, para eliminarmos o trabalho manual de derrubarmos o servidor e levantarmos novamente, vamos instalar o `nodemon`:
 
 ```js
 npm i -g nodemon
