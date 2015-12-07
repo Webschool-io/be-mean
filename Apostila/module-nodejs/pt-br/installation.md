@@ -20,7 +20,7 @@ node -v
 v5.0.0
 ```
 
-Caso você receba um erro que o comando `node` não existe, faça o seguinte link:
+Caso você receba um erro que o comando `node` não exista, faça o seguinte link:
 
 ```
 sudo ln -s /usr/bin/nodejs /usr/bin/node
@@ -79,8 +79,14 @@ brew update
 brew install node
 ```
 
+E pronto.
 
 
+Mas tudo isso apenas se você não utilizar o instalador disponilizado [aqui](nodejs.org/en/download/).
 
+
+![](http://49.media.tumblr.com/tumblr_lu59eat2md1qhbw13o1_500.gif)
+
+Para outros sistemas você pode ver como instalar [aqui](https://github.com/nodejs/node-v0.x-archive/wiki/Installing-Node.js-via-package-manager)
 
 

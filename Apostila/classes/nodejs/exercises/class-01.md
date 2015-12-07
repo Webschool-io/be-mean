@@ -8,8 +8,6 @@
 6. Qual a versão do seu `node`?
 7. Qual a versão do seu `npm`?
 
-
-
 ## Estrutura
 
 ```md
