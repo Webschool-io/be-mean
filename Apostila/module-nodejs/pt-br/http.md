@@ -188,7 +188,7 @@ Exemplo de um cabeçalho:
   'accept': '*/*' }
 ```
 
-Voltando ao nosso código.
+[Lista dos campos do cabeçalho](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields), voltando ao nosso código.
 
 ```js
 response.writeHead(200, {'Content-Type': 'text/plain'});
