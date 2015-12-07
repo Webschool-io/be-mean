@@ -1,9 +1,9 @@
 # Node.js - Aula 01 - Exercício
 
-1. Explique como um processo síncrono e assíncrono roda no Node.js, dê um exeplo para ada.
+1. Explique como um processo síncrono e assíncrono roda no Node.js, dê um exemplo para cada.
 2. Como o V8 executa JavaScript? Demonstre 1 exemplo com código ou imagem.
 3. Qual a diferença entre um sistema single para um multi-thread?
-4. 
+4. Como a Thread Pool tem um tamanho padrão de 4, o que acontece se você enviar 5 requisições ao banco?
 
 
 
