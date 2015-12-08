@@ -143,7 +143,7 @@ http://mongoosejs.com/docs/promises.html
 'use strict'; 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/yourdb);
+mongoose.connect('mongodb://localhost/yourdb');
 const Pokemon = require('./models/pokemon');
 
 
@@ -175,11 +175,11 @@ Esse é o exemplo padrão para criar um novo pokemon em uma collection no mongoo
 
 #### Código 02
 
-```
+```js
 'use strict'; 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/pompeuapi');
+mongoose.connect('mongodb://localhost/yourdb');
 const Pokemon = require('./models/pokemon');
 
 let promise = Pokemon.find({}).exec();
@@ -189,13 +189,11 @@ promise.then(success, error);
 
 #### Código 03
 
-```
+```js
 'use strict'; 
 
-'
-```js
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/pompeuapi');
+mongoose.connect('mongodb://localhost/yourdb');
 const Pokemon = require('./models/pokemon');
 
 let promise = Pokemon.findOne({ _id : '5666fd32ff4ea39e23e1528f' }).exec();
