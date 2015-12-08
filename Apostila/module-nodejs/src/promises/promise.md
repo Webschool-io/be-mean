@@ -175,7 +175,7 @@ Esse é o exemplo padrão para criar um novo pokemon em uma collection no mongoo
 
 #### Código 02
 
-```
+```js
 'use strict'; 
 
 const mongoose = require('mongoose');
@@ -189,11 +189,9 @@ promise.then(success, error);
 
 #### Código 03
 
-```
+```js
 'use strict'; 
 
-'
-```js
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/pompeuapi');
 const Pokemon = require('./models/pokemon');
