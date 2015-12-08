@@ -9,8 +9,9 @@ const http = require('http')
       , returned_at: date
       }
     , ERROR = {
-      message: "DEU MERDA FI!!!!"
-    };
+        message: "Não encontrado!"
+      }
+    ;
 
 http.createServer(function(req, res){
   if(req.url === '/api/v1') {
@@ -18,10 +19,15 @@ http.createServer(function(req, res){
     res.write(JSON.stringify(SUCCESS));
   }
   else {
-    res.writeHead(400, {'Content-Type': 'application/json'});
+    res.writeHead(404, {'Content-Type': 'application/json; charset=utf-8'});
     res.write(JSON.stringify(ERROR));
   }
   res.end();
 }).listen(3000, function(){
   console.log('Servidor rodando em localhost:3000');
 });
+
+
+
+
+
