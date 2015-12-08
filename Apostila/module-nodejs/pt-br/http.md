@@ -321,8 +321,6 @@ http.createServer(function(request, response){
 
 Sim iremos usar [comma-first](http://nomadev.com.br/comma-first-por-que-usar/).
 
-
-
 Esse será nosso esqueleto, agora precisamos verificar qual é a URL requisitada pelo cliente.
 
 ```js
