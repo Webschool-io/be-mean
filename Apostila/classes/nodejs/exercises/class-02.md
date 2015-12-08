@@ -21,10 +21,19 @@
 **autor:** SEU NOME COMPLETO
 
 ## Quais são os 4 verbos que utilizamos para o CRUD?
+
+
 ## Para que foram inventados os Status Codes? Dê exemplo de 1 código por grupo e a imagem do [Cat Status Code](https://http.cat/).
+
+
 ## Explique o que é cada parâmetro da função recebida no `createServer`.
+
+
 ## O que é e para que serve a Querystring?
+
+
 ## Escreva no código do `server.js` uma forma de entregar um JSON de sucesso em 4 rotas diferentes:
+
 ```
 
 
