@@ -362,9 +362,9 @@ http.createServer(function(req, res){
 npm i -g nodemon
 ```
 
-Intalamos ele globalmente com `-g` para que seja acessível em linha de comando.
+Instalamos ele globalmente com `-g` para que seja acessível em linha de comando.
 
-E também instale o [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) que é uma extensão para o Chrome, para testarmos nossas APIs, será de grande utilização durante o curso.
+Também instale o [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) que é uma extensão para o Chrome, para testarmos nossas APIs, será de grande utilização durante o curso.
 
 Depois de ter feito tudo isso levante seu servidor com o `nodemon`:
 
@@ -389,8 +389,9 @@ Pronto conseguimos a resposta de **sucesso**, agora vamos requisitar uma URL ine
 ### Querystring
 
 ```js
+'use strict';
 // file: hello-querystring.js
-var http = require('http')
+let http = require('http')
   , url = require('url');
 
 http.createServer(function(request, response){
@@ -418,7 +419,7 @@ http.createServer(function(request, response){
 
 ## get
 
-Para dar continuidade no HTTP vamos ver um dos verbos mais usados, o `GET`. 
+Para dar continuidade no HTTP vamos ver um dos verbos mais usados, o `GET`.
 
 Com ele iremos requisitar informações na nossa ou em outras APIs e é isso que faremos agora, consultaremos a [API dos Pokemons](http://pokeapi.co/).
 
@@ -431,7 +432,7 @@ http.get({
   path: '/',
   agent: false  // criar um novo agente apenas para este pedido
 }, function (res) {
-  // Faça algo co res
+  // Faça algo com res
 })
 ```
 

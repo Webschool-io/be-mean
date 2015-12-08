@@ -46,13 +46,13 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
     + [Globals](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
         * CommonJS
     + [Process](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
-- Aula 05: **09/12/2015**
+- Aula 05: **10/12/2015**
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
         * Update
         * Delete
-- Aula 06: **09/12/2015**
+- Aula 06: **10/12/2015**
     + [Eventos](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
     + [Promises](./src/) - Prof.: [Itacir](https://github.com/pompeu)

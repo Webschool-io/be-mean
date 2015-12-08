@@ -1,4 +1,6 @@
-var http = require('http')
+'use strict';
+
+let http = require('http')
   , url = require('url');
 
 http.createServer(function(request, response){
@@ -7,7 +9,8 @@ http.createServer(function(request, response){
 
   response.writeHead(200, {"Content-Type": "text/html"});
   response.write("<html><body>");
-  response.write("<h1>Query string</h1>");
+  response.write("<h1>Be - MEAN</h1>");
+  response.write("<h2>Query string</h2>");
   response.write("<ul>");
 
   for(var key in result.query){
