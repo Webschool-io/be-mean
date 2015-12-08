@@ -331,6 +331,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Plugins
 - **Aula 08 - 10/12/2015**
     + [TDD]() - Prof.: [Itacir](https://github.com/pompeu)
+        * mocha
         * assert
         * chai
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
