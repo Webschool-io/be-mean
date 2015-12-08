@@ -143,7 +143,7 @@ http://mongoosejs.com/docs/promises.html
 'use strict'; 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/yourdb);
+mongoose.connect('mongodb://localhost/yourdb');
 const Pokemon = require('./models/pokemon');
 
 
