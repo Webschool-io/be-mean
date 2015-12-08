@@ -267,13 +267,23 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 - **Aula 01: 07/12/2015**
     + [Teoria](./theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio]()
-        * V8
-        * Single thread
-        * Event Loop
-        * I/O Async
-        * Libuv
-        * Event Driven
-        * API
+        - **INICIO = 0:11 - Porque esqueci de retirar 10s iniciais de silêncio  -DESCULPE!!!**
+        - O Node.js - 1:28
+        - O Node.js - V8 - 6:43
+        - O Node.js - Single Thread - 7:57
+        - O Node.js - Event Loop - 9:20
+        - O Node.js - Libuv - 12:17
+        - O Node.js - I/O Async - 13:57
+        - -                      AVISOOOOO              - 17:27
+        - O Node.js - Thread Pol - 18:52
+        - O Node.js - Event Driven - 22:00
+        - O Node.js - API - 29:43
+        - Use Case - PayPal - 35:18
+        - EIIIIIII JAVAAAAAA!!!!!! - 39:18
+        - Node.js - Instalação - 39:28
+        - Node.js - Rodando - 43:24
+        - **EXERCÍCIO** - 50:19
+        - **ARTIGO** - 51:25
 - **Aula 02 - 07/12/2015**
     + [HTTP](./http.md) - Prof.: [Suissa](https://github.com/suissa)
         * createServer
