@@ -1,15 +1,14 @@
+'use strict';
+
 const VALIDATORS_PATH = './../../validators/';
-const ValidateEmail = require(VALIDATORS_PATH + 'email_validate');
 const ValidatePassword = require(VALIDATORS_PATH + 'password_validate');
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const _schema = {
-  require('./fields/name.field')
-, require('./fields/email.field')
-, password: {
+  password: {
     type: String
-  , default: ''
+  ,  default: ''
   , validate: ValidatePassword
   }
 , photos: [
@@ -24,7 +23,7 @@ const _schema = {
     type: Date
   , default: Date.now
   }
-}
+};
 
 
 module.exports = _schema;
