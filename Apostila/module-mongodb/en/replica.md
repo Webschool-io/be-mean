@@ -156,8 +156,8 @@ Após a execução desse comando vá até o terminal que está rodando o `rs1` e
 Depois de termos iniciado nossa *Replica* primária vamos adicionar as outras *Replicas* nessa *ReplicaSet*:
 
 ```
-rs.add("127.0.01:27018")
-rs.add("127.0.01:27019")
+rs.add("127.0.0.1:27018")
+rs.add("127.0.0.1:27019")
 ```
 
 Após nossas *Replicas* estarem rodando, vamos conectar em cada uma:
