@@ -6,7 +6,7 @@ Possuímos *Replicas* na maioria dos bancos de dados relacionais também, ela fa
 
 Todas as operações de escrita são feitas no primário e replicada para os secundários, no MongoDb devemos também replicar os *Shards*.
 
-![](./images/replica-sharding.png)
+![](./../src/images/replica-sharding.png)
 
 A replicação ocorre em 2 etapas:
 

@@ -1,6 +1,6 @@
 # Relacionamentos
 
-![](./images/relacionamento.jpg)
+![](./../src/images/relacionamento.jpg)
 
 ## Manual
 
