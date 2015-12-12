@@ -2,7 +2,9 @@
 
 1. Por que quando requisitamos ao nosso servidor de *Query String*, **com o Chrome**, ele executa 2 requisições, sendo a última "*vazia*"?
 2. Qual a DIFERENÇA entre o GET e o POST?
-
+3. Crie um Pokemon na nossa API com seu nome, depois modifique seu nome pelo seu User do Github, colocando aqui a resposta de cada passo.
+4. **Depois faça o DELETE**, criando o script para tal, colocando aqui a resposta.
+5. Escolha uma **API externa** e crie um script para fazer um GET nela **mostrando o resultado com HTML**.
 
 ## Estrutura
 
@@ -17,12 +19,12 @@
 ## Qual a DIFERENÇA entre o GET e o POST?
 
 
-## 
+## Crie um Pokemon na nossa API com seu nome, depois modifique seu nome pelo seu User do Github.
 
-## 
+## **Depois faça o DELETE**, criando o script para tal, colocando aqui a resposta.
 
 
-## 
+## Escolha uma **API externa** e crie um script para fazer um GET nela **mostrando o resultado com HTML**.
 
 ```
 

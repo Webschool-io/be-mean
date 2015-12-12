@@ -3,15 +3,12 @@
 const http = require('http');
 const querystring = require('querystring');
 const postData = querystring.stringify({
-        name: 'Jean Nascimento'
-      , type: 'professor'
+        name: 'Suissera'
       });
-console.log("postData", postData);
-console.log("Tamanho do postData", postData.length);
 const options = {
         host: 'webschool-io.herokuapp.com'
-      , method: 'POST'
-      , path: '/api/pokemons'
+      , method: 'PUT'
+      , path: '/api/pokemons/566c5963819bb31100ad9aef'
       , headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         , 'Content-Length': postData.length

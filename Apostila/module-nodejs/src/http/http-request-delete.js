@@ -2,19 +2,12 @@
 
 const http = require('http');
 const querystring = require('querystring');
-const postData = querystring.stringify({
-        name: 'Jean Nascimento'
-      , type: 'professor'
-      });
-console.log("postData", postData);
-console.log("Tamanho do postData", postData.length);
 const options = {
         host: 'webschool-io.herokuapp.com'
-      , method: 'POST'
-      , path: '/api/pokemons'
+      , method: 'DELETE'
+      , path: '/api/pokemons/566c5963819bb31100ad9aef'
       , headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
-        , 'Content-Length': postData.length
         }
       };
 
@@ -38,5 +31,4 @@ const req = http.request(options, callback);
 req.on('error', (e) =>  {
   console.log('ERROOOO: ' + e.message);
 });
-req.write(postData);
 req.end();
