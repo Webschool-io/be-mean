@@ -711,7 +711,7 @@ Então o conteúdo da `const postData`, após a execução da `querystring.strin
 name=Jean%20Nascimento&type=professor
 ```
 
-Depois criamos o já manjado JSON de configuração, porém dessa vez temos mais coisas:
+Depois criamos o, já manjado, JSON de configuração, porém dessa vez temos mais coisas:
 
 ```js
 const options = {

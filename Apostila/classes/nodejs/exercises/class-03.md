@@ -1,17 +1,8 @@
-# Node.js - Aula 02 - Exercício
+# Node.js - Aula 03 - Exercício
 
-1. Quais são os 4 verbos que utilizamos para o CRUD?
-2. Para que foram inventados os Status Codes? Dê exemplo de 1 código por grupo e a imagem do [Cat Status Code](https://http.cat/).
-3. Explique o que é cada parâmetro da função recebida no `createServer`.
-4. O que é e para que serve a Querystring?
-5. Escreva no código do `server.js` uma forma de entregar um JSON de sucesso em 4 rotas diferentes:
+1. Por que quando requisitamos ao nosso servidor de *Query String*, **com o Chrome**, ele executa 2 requisições, sendo a última "*vazia*"?
+2. Qual a DIFERENÇA entre o GET e o POST?
 
-- /api/pokemons/create
-- /api/pokemons/read
-- /api/pokemons/update
-- /api/pokemons/delete
-
-**DICA: NÃO USE IF!!!**
 
 ## Estrutura
 
@@ -20,19 +11,18 @@
 **user:** [SEU Github User](Link para seu Github)
 **autor:** SEU NOME COMPLETO
 
-## Quais são os 4 verbos que utilizamos para o CRUD?
+## Por que quando requisitamos ao nosso servidor de *Query String*, **com o Chrome**, ele executa 2 requisições, sendo a última "*vazia*"?
 
 
-## Para que foram inventados os Status Codes? Dê exemplo de 1 código por grupo e a imagem do [Cat Status Code](https://http.cat/).
+## Qual a DIFERENÇA entre o GET e o POST?
 
 
-## Explique o que é cada parâmetro da função recebida no `createServer`.
+## 
+
+## 
 
 
-## O que é e para que serve a Querystring?
-
-
-## Escreva no código do `server.js` uma forma de entregar um JSON de sucesso em 4 rotas diferentes:
+## 
 
 ```
 
