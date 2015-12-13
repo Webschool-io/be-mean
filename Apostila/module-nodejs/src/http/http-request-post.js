@@ -6,6 +6,8 @@ const postData = querystring.stringify({
         name: 'Jean Nascimento'
       , type: 'professor'
       });
+console.log("postData", postData);
+console.log("Tamanho do postData", postData.length);
 const options = {
         host: 'webschool-io.herokuapp.com'
       , method: 'POST'
