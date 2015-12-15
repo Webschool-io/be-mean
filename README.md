@@ -266,6 +266,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 ## Roteiro - 20 horas
 
 - Aula 01: **07/12/2015**
+   + Vídeo: [https://www.youtube.com/watch?v=OgfO37F6mdg](https://www.youtube.com/watch?v=OgfO37F6mdg)
     + [Teoria](./src/theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio]()
         * V8
         * Single thread
@@ -276,12 +277,14 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * API
     + [Instalação](./src/pt-br/installation)
 - Aula 02: **08/12/2015**
+   + Vídeo: [https://www.youtube.com/watch?v=mDtNcosGgiU](https://www.youtube.com/watch?v=mDtNcosGgiU)
     + [HTTP](./src/http.md) - Prof.: [Suissa](https://github.com/suissa)
         * createServer
         * Methods
         * Status Codes
         * [Rotas]()
 - Aula 03: **12/12/2015**
+   + Vídeo: [https://www.youtube.com/watch?v=TpNofR3Axsk](https://www.youtube.com/watch?v=TpNofR3Axsk)
     + [HTTP](./src/http.md) - Prof.: [Suissa](https://github.com/suissa)
         * get
         * request
