@@ -8,3 +8,23 @@ Se você ver pelo site do npm, ele é **o** gerenciador de pacotes do JavaScript
 
 ![npm](https://cldup.com/Pw2HZESaKS-3000x3000.png)
 
+
+## npm init
+
+
+## npm install --global ou -g
+
+
+## npm install --save
+
+
+## npm install --save-dev
+
+
+## npm install --optional
+
+
+## npm run
+
+
+
