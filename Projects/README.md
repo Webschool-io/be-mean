@@ -51,3 +51,14 @@ Sistemas que já existem mas podemos fazer melhor:
     * para entregas
   + mototaxi
     * para corridas
+
+## Projetos exclusivo para alunos
+
+- EAD
+- Ecommerce
+- Meio de Pagamento
+- Sistema de Vagas/Jobs por requisitos
+
+## Mapa Mental
+
+![](mindmap.png)
