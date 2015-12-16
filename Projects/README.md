@@ -40,3 +40,14 @@ Projetos:
 - Sistema para reaproveitamento de alimentso dos restaurantes
     + Tipo um sistema de gerenciamento de coleta
 
+Sistemas que já existem mas podemos fazer melhor:
+
+- WhatsApp
+  + funcione web e desktop sem depender do celular
+  + gravar seu histórico, criptografado, localmente
+  + funcione offline e via p2p
+- Uber
+  + motoboys
+    * para entregas
+  + mototaxi
+    * para corridas
