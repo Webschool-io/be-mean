@@ -322,7 +322,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     + [Promises](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
 - Aula 08: **15/12/2015**
-    + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
+    + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
         * Validate
         * Populate
