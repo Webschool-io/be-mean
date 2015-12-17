@@ -1,6 +1,6 @@
 # Projetos
 
-Apartir do Carnaval iremos nos dividir em grupos de no máximo 10 alunos e cada equipe fará um sistema, porém o primeiro projeto ainda será feito com todos os alunos, porém definindo cada tarefa para cada aluno que deseje participar.
+A partir do Carnaval iremos nos dividir em grupos de no máximo 10 alunos e cada equipe fará um sistema, porém o primeiro projeto ainda será feito com todos os alunos, porém definindo cada tarefa para cada aluno que deseje participar.
 
 Isso para trabalharmos fortemente com o Github em um projeto mais "complexo" e com muitos devs, assim como é nas empresas grandes.
 
