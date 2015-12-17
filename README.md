@@ -2,9 +2,13 @@
 
 ![](./Calendar/2015-dezembro.png)
 
+# Calendário Janeiro
+
+![](./Calendar/2015-dezembro.png)
+
 # Os brindes serão enviados ATÉ O NATAL!!!
 
-# Doações
+# APOIE
 
 ## R$50
 
@@ -17,7 +21,7 @@ Certificados:
 - AngularJs (15 horas)
 
 
-Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
+**Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
 
 
 ## R$100
@@ -37,7 +41,7 @@ Certificados:
 - ES6 (5 horas)
 - Deploy e Servidores (5 horas)
 
-Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.
+**Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
 
 
 # Certificado
@@ -49,6 +53,8 @@ Para tirar o certificado você precisa entregar 3 coisas:
 - **Um resumo em forma de blog/github-pages.**
 
 Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
+
+**ps: Ganhe adesivos trazendo amigos para o curso!**
 
 ## Prazo
 
@@ -290,7 +296,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * request
             * post
             * put
-- Aula 04: **13/12/2015**
+- Aula 04: **17/12/2015**
     + [Callbacks](./src/callbacks.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
     + [FileSystem](./src/fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
         * mkdir
@@ -299,7 +305,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * readFile
         * rename
         * writeFile
-- Aula 05: **13/12/2015**
+- Aula 05: **17/12/2015**
     + [npm](./src/npm.md) - Prof.: [Suissa](https://github.com/suissa)
         * init
         * install --global ou -g
@@ -310,79 +316,79 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     + [Globals](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
         * CommonJS
     + [Process](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
-- Aula 06: **14/12/2015**
+- Aula 06: **18/12/2015**
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
         * Update
         * Delete
-- Aula 07: **14/12/2015**
+- Aula 07: **18/12/2015**
     + [Eventos](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
     + [Promises](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
-- Aula 08: **15/12/2015**
+- Aula 08: **19/12/2015**
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
         * Validate
         * Populate
         * Plugins
-- Aula 09: **15/12/2015**
+- Aula 09: **19/12/2015**
     + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
-- Aula 10: **11/12/2015**
+- Aula 10: **21/12/2015**
     + [Express](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * Model
         * Controller
         * Routes
-- Aula 11: **11/12/2015**
+- Aula 11: **21/12/2015**
     + [Express](./src/)
         * Events - Prof.: [Itacir](https://github.com/pompeu)
         * Promises - Prof.: [Itacir](https://github.com/pompeu)
         * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
-- Aula 12: **14/12/2015**
+- Aula 12: **22/12/2015**
     + [Express](./src/)
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
     + [Socket.io](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
-- Aula 13: **14/12/2015**
+- Aula 13: **22/12/2015**
     + [REPL](./src/) - Prof.: [Suissa](https://github.com/suissa)
     + [UDP](./http.md) - Prof.: [Caio](https://github.com/suissa)
     + [TCP](./http.md) - Prof.: [Caio](https://github.com/suissa)
     + [HTTPS](./http.md) - Prof.: [Caio](https://github.com/suissa)
-- Aula 14: **15/12/2015**
+- Aula 14: **23/12/2015**
     + [Utilizando APIs externas](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * [pokemons](http://pokeapi.co/) - Prof.: [William Bruno](https://github.com/wbruno)
         * [github](https://developer.github.com/v3/) - Prof.: [William Bruno](https://github.com/wbruno)
         * [redtube](http://api.redtube.com/docs/) - Prof.: [Suissa](https://github.com/suissa)
         * [instagram](https://www.instagram.com/developer/) - Prof.: [Suissa](https://github.com/suissa)
-- Aula 15: **15/12/2015**
+- Aula 15: **23/12/2015**
     + [Autenticação](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
         * Session
             - Express
             - Mongoose/MongoDB
-- Aula 16: **16/12/2015**
+- Aula 16: **24/12/2015**
     + [Autenticação](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
         * Token
-- Aula 17: **17/12/2015**
+- Aula 17: **04/12/2015**
     + **[Projeto em aula]**
         * [ScrumBan - Gerenciador de Projeto com Github](./../../Projects/Scrumban)
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
-- Aula 18: **17/12/2015**
+- Aula 18: **05/12/2015**
     + **[Projeto em aula]**
         * [Estante Virtual](./../../Projects/Estante-Virtual)
             - Prof.: [William Bruno](https://github.com/wbruno)
-- Aula 19: **16/12/2015**
+- Aula 19: **06/12/2015**
     + **[Projeto em aula]**
         * [Gerenciador de Doações](./../../Projects/Donations)
             - Prof.: [Suissa](https://github.com/suissa)
-- Aula 20: **18/12/2015**
+- Aula 20: **07/12/2015**
     + **[Projeto em aula]**
         * [Jobs - Gerenciador de Vagas de Trabalho](./../../Projects/Jobs)
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
-- Aula 21: **18/12/2015**
+- Aula 21: **08/12/2015**
     + **[Projeto em aula]**
         * [DevCouchsurfing](./../../Projects/DevCouchsurfing)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
