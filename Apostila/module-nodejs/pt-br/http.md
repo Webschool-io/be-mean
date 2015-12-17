@@ -444,7 +444,7 @@ const http = require('http');
 
 http.get({
   hostname: 'localhost',
-  path: '/teste?irru=true&xulepa=1',
+  path: '/user?name=Suissa&teacher=true&age=31',
   port: 3000,
   agent: false
 }, function (response) {
@@ -466,14 +466,14 @@ http.get({
 Mas vamos fazer uma pequena modificação para vocês já se acostumarem com [Arrow Functions] do [ES6]:
 
 ```js
-// file: hello-querystring.js
+// file: http-get-localhost-querystring.js
 'use strict';
 
 const http = require('http');
 
 http.get({
   hostname: 'localhost',
-  path: '/teste?irru=true&xulepa=1',
+  path: '/user?name=Suissa&teacher=true&age=31',
   port: 3000,
   agent: false
 }, (response) => {
@@ -499,8 +499,8 @@ Salve esse código como `http-get-localhost-querystring.js` e execute como visto
 ```js
 node http-get-localhost-querystring.js
 STATUS: 200
-HEADERS: {'content-type':'text/html','date':'Sun, 06 Dec 2015 14:13:27 GMT','connection':'close','transfer-encoding':'chunked'}
-Resposta:  <html><body><h1>Query string</h1><ul><li>irru : true</li><li>xulepa : 1</li></ul></body></html>
+HEADERS: {"content-type":"text/html","date":"Sat, 12 Dec 2015 14:46:37 GMT","connection":"close","transfer-encoding":"chunked"}
+Resposta:  <html><body><h1>Be - MEAN</h1><h2>Query string</h2><ul><li>name : Suissa</li><li>teacher : 1</li><li>age : 31</li></ul></body></html>
 ```
 
 Agora vou explicar o que aconteceu no código, primeiramente passamos o JSON de configuração da requisição:
@@ -508,7 +508,7 @@ Agora vou explicar o que aconteceu no código, primeiramente passamos o JSON de 
 ```js
 {
   hostname: 'localhost',
-  path: '/teste?irru=true&xulepa=1',
+  path: '/user?name=Suissa&teacher=true&age=31',
   port: 3000,
   agent: false
 }
@@ -545,10 +545,10 @@ Isso acontece porque ele é uma instância do [http.IncomingMessage](https://nod
 
 O `IncomingMessage` implementa a interface de [Readable Stream ](https://nodejs.org/api/stream.html#stream_class_stream_readable) que nos dá alguns eventos importantes, como:
 
-- close: evento emitido quando qualquer tipo de stream foi fechada;
-- data: evento que recebe os dados da *Stream*;
-- end: evento emitido quando não há mais dados para ler;
-- error: evento emitido quando acontecer algum erro.
+- **close**: evento emitido quando qualquer tipo de stream foi fechada;
+- **data**: evento que recebe os dados da *Stream*;
+- **end**: evento emitido quando não há mais dados para ler;
+- **error**: evento emitido quando acontecer algum erro.
 
 Sabendo de tudo isso podemos seguir para o `request` e começar a consumir APIs externas.
 
@@ -711,7 +711,7 @@ Então o conteúdo da `const postData`, após a execução da `querystring.strin
 name=Jean%20Nascimento&type=professor
 ```
 
-Depois criamos o já manjado JSON de configuração, porém dessa vez temos mais coisas:
+Depois criamos o, já manjado, JSON de configuração, porém dessa vez temos mais coisas:
 
 ```js
 const options = {
