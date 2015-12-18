@@ -84,7 +84,7 @@ Agora vamos voltar ao **npm**.
 
 ## npm init
 
-Quando iniciamos qualquer projeto utilizando o Node.js, usaremos esse comando `npm init` para inicilizar o projeto.
+Quando iniciamos qualquer projeto utilizando o Node.js, usaremos esse comando `npm init` para inicializar o projeto.
 
 Então vamos iniciar nosso primeiro projeto utilizando os dados dos Pokemons, para isso crie uma pasta chamada `pokemons-api` dentro da sua pasta do `Node.js` do nosso workshop.
 

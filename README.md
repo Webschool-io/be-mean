@@ -394,7 +394,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
 ##  Módulo Angular - 04.01 a 31.01
-
+2
 - **Aula 01 - 04.01**
 - **Aula 02 - 05.01**
 - **Aula 03 - 06.01**
