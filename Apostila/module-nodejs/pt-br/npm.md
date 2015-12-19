@@ -291,7 +291,10 @@ npm i --save mongoose@4.0
 ```
 
 
-Você deve ter percebido que existe um `^` antes da versão, correto?
+**Você deve ter percebido que existe um `^` antes da versão, correto?**
+
+
+
 
 
 Além disso você também pode escolher uma faixa de versões, por exemplo:
