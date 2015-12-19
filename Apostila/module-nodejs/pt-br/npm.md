@@ -165,7 +165,17 @@ Vários módulos que usamos direto iremos instalar globalmente como:
 
 ## npm install --save
 
-Com o `-g` você instala os módulos globalmente, agora para instalar o módulo localmente basta executar `npm install nome_modulo`, porém instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do `package.json`
+Com o `-g` você instala os módulos globalmente, agora para instalar o módulo localmente basta executar `npm install nome_modulo`, porém instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do `package.json`.
+
+Porém não esqueça que você precisa ter o `package.json` antes.
+
+Então dentro do diretório da nossa aplicação `pokemons-api` vamos instalar o `mongoose` pois precisaremos dele futuramente.
+
+```
+npm i --save mongoose
+```
+
+**Sim podemos usar apenas o `i` em vez do `install`!!!**
 
 ## npm install --save-dev
 
