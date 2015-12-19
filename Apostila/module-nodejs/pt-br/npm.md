@@ -145,6 +145,10 @@ Depois de confirmado ele mostra o `package.json` criado:
 
 ## npm install
 
+O comando `npm install` serve para instalar algum módulo/pacote ou as dependências listadas no `package.json`
+
+Vamos conhecer um pouco mais sobre as opções do `npm install`.
+
 ### npm install --global ou -g
 
 Com o **npm** podemos instalar um módulo de forma global ou local porém sendo módulos diferentes, pois um módulo global tem a função de ser executado em linha de comando, enquanto que o local é instalado para ser usado na programação do nosso sistema.
@@ -228,7 +232,6 @@ source ~/.profile
 ```
 NPM_CONFIG_PREFIX=~/npm-global npm install -g jshint
 ```
-
 
 
 ### npm install --save ou -S

@@ -390,7 +390,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - Prof.: [Itacir Pompeu](https://github.com/pompeu)
 - Aula 21: **08/12/2015**
     + **[Projeto em aula]**
-        * [DevCouchsurfing](./../../Projects/DevCouchsurfing)
+        * [EAD](./../../Projects/EAD)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
 ##  Módulo Angular - 04.01 a 31.01
