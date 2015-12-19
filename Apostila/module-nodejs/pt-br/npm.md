@@ -143,7 +143,9 @@ Depois de confirmado ele mostra o `package.json` criado:
 }
 ```
 
-## npm install --global ou -g
+## npm install
+
+### npm install --global ou -g
 
 Com o **npm** podemos instalar um módulo de forma global ou local porém sendo módulos diferentes, pois um módulo global tem a função de ser executado em linha de comando, enquanto que o local é instalado para ser usado na programação do nosso sistema.
 
@@ -163,7 +165,7 @@ Vários módulos que usamos direto iremos instalar globalmente como:
 - express-generator;
 - e outros.
 
-### Erro: EACCES
+#### Erro: EACCES
 
 Você pode receber um erro `EACCES` quando você tentar instalar um pacote global. Isso indica que você não tem permissão para gravar os diretórios que o **NPM** usa para armazenar pacotes globais e comandos.
 
@@ -172,7 +174,7 @@ Você pode corrigir esse problema usando uma das duas opções:
 - Alterar a permissão do diretório padrão do NPM.
 - Alterar o diretório padrão do npm para outro diretório.
 
-#### Opção 1: Mudar a permissão do diretório padrão do NPM
+##### Opção 1: Mudar a permissão do diretório padrão do NPM
 
 Primeiramente você precisa saber qual é o diretório padrão do **NPM**, para isso execute `npm config get prefix`:
 
@@ -191,7 +193,7 @@ Caso você não queira mudar a permissão de todo o diretório, você pode mudar
 - share
 - lib/node_modules
 
-#### Opção 2: Mudar o diretório padrão do NPM para outro
+##### Opção 2: Mudar o diretório padrão do NPM para outro
 
 Há momentos em que você não deseja alterar a propriedade do diretório padrão que o NPM usa; por exemplo, se você estiver compartilhando uma máquina com outros usuários.
 
@@ -229,7 +231,7 @@ NPM_CONFIG_PREFIX=~/npm-global npm install -g jshint
 
 
 
-## npm install --save ou -S
+### npm install --save ou -S
 
 Com o `-g` você instala os módulos globalmente, agora para instalar o módulo localmente basta executar `npm install nome_modulo`, porém instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do `package.json`.
 
@@ -297,10 +299,10 @@ npm i mongoose@">=4.1.0 <4.3.0"
 
 
 
-## npm install --save-dev ou -D
+### npm install --save-dev ou -D
 
 
-## npm install --optional ou -O
+### npm install --optional ou -O
 
 
 ## npm run
