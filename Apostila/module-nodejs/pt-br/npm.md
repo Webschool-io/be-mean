@@ -221,7 +221,11 @@ Volte na linha de comando e atualize suas variáveis do sistema com:
 source ~/.profile
 ```
 
+**Caso você não queira modificar seu `~/.profile`, nos passos 2 a 4, poderá fazer assim:**
 
+```
+NPM_CONFIG_PREFIX=~/npm-global npm install -g jshint
+```
 
 
 
