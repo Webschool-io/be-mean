@@ -163,7 +163,69 @@ Vários módulos que usamos direto iremos instalar globalmente como:
 - express-generator;
 - e outros.
 
-## npm install --save
+### Erro: EACCES
+
+Você pode receber um erro `EACCES` quando você tentar instalar um pacote global. Isso indica que você não tem permissão para gravar os diretórios que o **NPM** usa para armazenar pacotes globais e comandos.
+
+Você pode corrigir esse problema usando uma das duas opções:
+
+- Alterar a permissão do diretório padrão do NPM.
+- Alterar o diretório padrão do npm para outro diretório.
+
+#### Opção 1: Mudar a permissão do diretório padrão do NPM
+
+Primeiramente você precisa saber qual é o diretório padrão do **NPM**, para isso execute `npm config get prefix`:
+
+```
+npm config get prefix
+/usr/local
+```
+
+Se for um Sistema Operacional baseado em Unix provavelmente será: `/usr/local`.
+
+Depois para mudar a permissão desse diretório para que seu usuário seja o *dono* dele basta executar `sudo chown -R `whoami` diretorio`
+
+Caso você não queira mudar a permissão de todo o diretório, você pode mudar apenas as permissões dos sub-diretórios:
+
+- bin
+- share
+- lib/node_modules
+
+#### Opção 2: Mudar o diretório padrão do NPM para outro
+
+Há momentos em que você não deseja alterar a propriedade do diretório padrão que o NPM usa; por exemplo, se você estiver compartilhando uma máquina com outros usuários.
+
+Neste caso, você pode configurar npm para usar um diretório diferente.
+
+Crie um diretório para instalações globais:
+
+```
+mkdir ~/npm-global
+```
+
+Configure o NPM para usar o novo o diretório:
+
+```
+npm config set prefix '~/npm-global'
+```
+
+Abra ou crie um arquivo `~/.profile` e adicione esta linha:
+
+```
+export PATH=~/npm-global/bin:$PATH
+```
+
+Volte na linha de comando e atualize suas variáveis do sistema com:
+
+```
+source ~/.profile
+```
+
+
+
+
+
+## npm install --save ou -S
 
 Com o `-g` você instala os módulos globalmente, agora para instalar o módulo localmente basta executar `npm install nome_modulo`, porém instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do `package.json`.
 
@@ -177,10 +239,64 @@ npm i --save mongoose
 
 **Sim podemos usar apenas o `i` em vez do `install`!!!**
 
-## npm install --save-dev
+Depois de instalar, para você confirmar basta olhar seu `package.json`:
+
+```
+{
+  "name": "pokemons-api",
+  "version": "1.0.0",
+  "description": "Api dos pokemons",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "pokemons",
+    "node.js",
+    "mean"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "dependencies": {
+    "mongoose": "^4.3.3"
+  }
+}
+```
+
+Perceba que ele criou um objeto novo chamado `dependencies`
+
+```
+  "dependencies": {
+    "mongoose": "^4.3.3"
+  }
+```
+
+Caso deseje instalar uma versão específica basta executar assim:
+
+```
+npm i --save modulo@versão
+
+// Exemplo
+npm i --save mongoose@4.0
+```
 
 
-## npm install --optional
+Você deve ter percebido que existe um `^` antes da versão, correto?
+
+
+Além disso você também pode escolher uma faixa de versões, por exemplo:
+
+```
+npm i mongoose@">=4.1.0 <4.3.0"
+```
+
+
+
+## npm install --save-dev ou -D
+
+
+## npm install --optional ou -O
 
 
 ## npm run
