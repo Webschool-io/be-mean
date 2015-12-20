@@ -333,13 +333,76 @@ Exemplo de como escolher uma faixa de versões:
 npm i mongoose@">=4.1.0 <4.3.0"
 ```
 
+**Para você instalar apenas as dependências listadas em `dependencies` basta execcutar `npm install --production`.**
+
 ### npm install --save-dev ou -D
 
+Executando o `npm install --save-dev` ele irá adicionar seu módulo e versão no objeto `devDependencies` do `package.json`.
+
+Para instalar apenas as `devDependencies` você deverá executar `npm install --dev`, com isso ele não instalará as dependências listadas em `dependencies`.
 
 ### npm install --optional ou -O
 
+Ele irá adicionar sua dependência em `optionalDependencies`.
 
 ## npm run
+
+Esse é um tópico deveras interessante, pois você pode executar scripts para automatizar suas tarefas.
+
+Para demonstar isso primeiro crie uma pasta chamada `npm` e dentro dela execute o `npm init` e depois crie o `script.js` com esse pequeno código:
+
+```js
+console.log("Rodei!");
+```
+
+Depois de salvar o `script.js` basta executar:
+
+```
+run roda
+
+> roda-script@1.0.0 roda /Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial/Apostila/module-nodejs/src/npm
+> node script.js
+
+Rodei!
+```
+
+Além de executar seus scripts ele também possui os seguintes scripts:
+
+- prepublish: Roda ANTES do módulo ser publicado. (Also run on local npm install without any arguments.);
+- publish: publica um módulo no npm;
+- postpublish: Roda DEPOIS do módulo ser publicado;
+- preinstall: Roda ANTES do módulo ser instalado;
+- install: Instala todas as dependências localmente;
+- postinstall: Roda DEPOIS do módulo ser instalado;
+- preuninstall, uninstall: Roda ANTES the package ser desinstalado;
+- postuninstall: Roda DEPOIS the package is desinstalado;
+- preversion: Roda ANTES do comando version;
+- version: Execute para modificar sua versão;
+- postversion: Roda DEPOIS de rodar o version;
+- pretest: Roda ANTES do test;
+- test: Roda o comando que executa os testes;
+- posttest: Roda DEPOIS de executar os testes;
+- prestop: Roda ANTES do comando stop;
+- stop: Roda o script caso definido;
+- poststop: Roda DEPOIS do comando stop;
+- prestart: Roda ANTES do comando start;
+- start: Executa o comando definido, normalmente utilizado para levantar o servidor;
+- poststart: Roda DEPOIS do comando start;
+- prerestart: Roda ANTES do comando restart;
+- restart: Reinicia o script;
+- postrestart: Roda DEPOIS do comando restart.
+
+O `restart` na verdade executa o `stop` e o `start` também, e seus scripts pre e post, na ordem abaixo:
+
+- prerestart
+- prestop
+- stop
+- poststop
+- restart
+- prestart
+- start
+- poststart
+- postrestart
 
 
 
