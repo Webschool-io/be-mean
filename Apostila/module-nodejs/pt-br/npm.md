@@ -143,6 +143,29 @@ Depois de confirmado ele mostra o `package.json` criado:
 }
 ```
 
+### package.json
+
+#### name
+
+As coisas mais importantes no seu `package.json` são o nome e a versão, pois eles são **obrigatórios** e seu *package* não instalará sem eles.
+
+O nome e a versão, juntos, formam um identificador que é para ser único, não esqueça de mudar a versão quando soltar algum *release* novo.
+
+**Algumas regras:**
+
+- o nome precisa ser menor que 214 caracteres;
+- o nome não pode começar com um `.` ou `_`;
+- novos *packages* não podem ter letras maiúsculas no nome;
+- o nome não pode conter quaisquer caracteres *non-URL-safe*.
+
+**Algumas dicas:**
+
+- não use o mesmo nome de um módulo do *core* do Node;
+- não coloque "js" ou "node" no nome;
+- o nome provavelmente será passado como um argumento para require(), por isso deve ser algo curto, mas também razoavelmente descritivo;
+- você pode querer verificar o registro do npm para ver se há algo com esse nome já, antes que você fique muito apegado a ele. [https://www.npmjs.com/](https://www.npmjs.com/)
+
+
 ## npm install
 
 O comando `npm install` serve para instalar algum módulo/pacote ou as dependências listadas no `package.json`
@@ -293,17 +316,22 @@ npm i --save mongoose@4.0
 
 **Você deve ter percebido que existe um `^` antes da versão, correto?**
 
+Então possuímos algumas formas diferentes de especificar a versão do nosso módulo, que são:
 
+- ~versão "Equivalente a versão"
+- ^versão "Compativel com a versão"
+- versão Precisa ser a evrsçao exata
+- >versão Must be greater than versão
+- >=versão etc
+- < versão
+- <=versão
+- 1.2.x 1.2.0, 1.2.1, etc., mas não 1.3.0
 
-
-
-Além disso você também pode escolher uma faixa de versões, por exemplo:
+Exemplo de como escolher uma faixa de versões:
 
 ```
 npm i mongoose@">=4.1.0 <4.3.0"
 ```
-
-
 
 ### npm install --save-dev ou -D
 
