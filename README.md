@@ -1,12 +1,4 @@
-# Calendário Dezembro
-
-![](./Calendar/2015-dezembro.png)
-
-# Calendário Janeiro
-
-![](./Calendar/2016-janeiro.png)
-
-# Os brindes serão enviados ATÉ O NATAL!!!
+# As aulas retornarão na primeira semana de JANEIRO!
 
 # APOIE
 
