@@ -69,8 +69,8 @@ Pode executar o mongod que verá o mongo rodando no seu terminal, control+C para
 mongod
 ```
 
-O arquivo /etc/mongod.conf contém a configuração padrão do mongod.
-Também podemos rodar o mongod como serviço, neste caso o usuário padrão e o mongod e o diretório dos dados será em /var/lib/mongo , os logs ficarão em /var/log/mongodb :
+O arquivo */etc/mongod.conf* contém a configuração padrão do mongod.
+Também podemos rodar o mongod como serviço, neste caso o usuário padrão e o mongod e o diretório dos dados será em */var/lib/mongo* , os logs ficarão em */var/log/mongodb*
 ```
 sudo service mongod start
 ```
