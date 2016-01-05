@@ -45,22 +45,19 @@ sudo apt-get install -y mongodb-org
 Se o teu OS for um Debian ou Ubuntu 32 bits, siga estes passos: [Install MongoDB on Ubuntu - Docs MongoDB](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
 
 
-openSUSE 64 bits
+**openSUSE 64 bits**
 
 Adicionando o repositório:
-
 ```
 sudo zypper addrepo --no-gpgcheck https://repo.mongodb.org/zypper/suse/11/mongodb-org/3.2/x86_64/ mongodb
 ```
 
 Instalando o mongodb:
-
 ```
 sudo zypper -n install mongodb-org
 ```
 
 Crie o diretório de dados, este diretório será usado apenas se não estiver rodando com usuário mongod:
-
 ```
 sudo mkdir /data
 sudo mkdir /data/db
@@ -68,14 +65,12 @@ sudo chmod 777 /data/db
 ```
 
 Pode executar o mongod que verá o mongo rodando no seu terminal, control+C para sair.
-
 ```
 mongod
 ```
 
 O arquivo /etc/mongod.conf contém a configuração padrão do mongod.
 Também podemos rodar o mongod como serviço, neste caso o usuário padrão e o mongod e o diretório dos dados será em /var/lib/mongo , os logs ficarão em /var/log/mongodb :
-
 ```
 sudo service mongod start
 ```
