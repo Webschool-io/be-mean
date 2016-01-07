@@ -1,14 +1,14 @@
-# As aulas retornarão na primeira semana de JANEIRO!
+![](./2016-janeiro.png)
 
 # APOIE
 
-## R$50
+### R$50
 
 Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 42 horas ao total.
 
 Certificados:
 
-- MongoDB (7 horas)
+- MongoDB (9 horas)
 - Node.js (20 horas)
 - AngularJs (15 horas)
 
