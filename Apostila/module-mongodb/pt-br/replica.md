@@ -6,7 +6,7 @@ Possuímos *Replicas* na maioria dos bancos de dados relacionais também, ela fa
 
 Todas as operações de escrita são feitas no primário e replicada para os secundários, no MongoDb devemos também replicar os *Shards*.
 
-![](./images/replica-sharding.png)
+![](./../src/images/replica-sharding.png)
 
 A replicação ocorre em 2 etapas:
 
@@ -156,8 +156,8 @@ Após a execução desse comando vá até o terminal que está rodando o `rs1` e
 Depois de termos iniciado nossa *Replica* primária vamos adicionar as outras *Replicas* nessa *ReplicaSet*:
 
 ```
-rs.add("127.0.01:27018")
-rs.add("127.0.01:27019")
+rs.add("127.0.0.1:27018")
+rs.add("127.0.0.1:27019")
 ```
 
 Após nossas *Replicas* estarem rodando, vamos conectar em cada uma:

@@ -119,6 +119,15 @@ Isso me lembrou o [Princípio da incerteza de Heisenberg](https://pt.wikipedia.o
 
 ![http://kunkle.org/assets/scaling-event-loop.png](http://kunkle.org/assets/scaling-event-loop.png)
 
+O node.js trabalha uma tread-pool a partir de uma thread, a thread em que ele é instanciado, é facilmente confundível com o que diz respeito a multi-thread, porém o node não dispõe desse custoso mecanismo para fazer i/o assíncrono, se você quiser dispor de todos os mecanismos de núcleos de um processador, você pode usar mecanismo de balanceamento e comunicação entre portas, **cluster**(um módulo nativo do node.js).
+
+**Definição**: Uma thread-pool pode ser comparada com um array  em que o número de colunas representaria uma **idle-thread**, uma thread pré executada que só espera um processo para trabalhar e o processo, o indice desse array. O node.js trabalha o processo como um I/O que a aplicação em node.js faz. Ou seja um I/O para uma idle-thread.
+
 ## Event Driven
 
 ## API
+A api do node.js consiste de uma forte influência de outras plataformas.
+
+O **unix**, sistema operacional usado como base para osx e linux, é uma forte influência para o node.js, não é atoa que roda muito bem no unix, discartando o mérito do nosso amiguinho **ruindows*** do tio Gates.
+
+Por causa dessa influência o node.js é extensivamente modular, possuindo módulos para tudo, inclusive a sua aplicação será tratada como módulo para o node.js. Então é muito importante ter um código consistente, pouco dependente, pouco aclopado, e por fim, modularizado :)

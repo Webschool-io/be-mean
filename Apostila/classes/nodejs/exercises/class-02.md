@@ -41,7 +41,7 @@
 
 [Veja na nossa Wiki](https://github.com/Webschool-io/be-mean-instagram/wiki/Exerc%C3%ADcios)
 
-1. Crie o repositório específico do módulo. Ex.: be-mean-instagram-mongodb
+1. Crie o repositório específico do módulo. Ex.: be-mean-instagram-nodejs
 2. Crie a solução do exercício localmente nesse repositório, usando sempre o padrão `class-X-resolved-githubuser-Nome-Completo-Com-Hifens-Nos-Espaços.md`
 3. Dê um `fork` no repositório oficial [https://github.com/Webschool-io/be-mean-instagram-nodejs-exercises](https://github.com/Webschool-io/be-mean-instagram-nodejs-exercises)
 4. Vá até a pasta do módulo desejado e **COLE** seu arquivo na pasta `exercises`
