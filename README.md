@@ -1,4 +1,4 @@
-![](./2016-janeiro.png)
+![](./Calendar/2016-janeiro.png)
 
 # APOIE
 
@@ -335,22 +335,22 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Model
         * Controller
         * Routes
-- Aula 11: **21/01/2016**
+- Aula 11: **17/01/2016**
     + [Express](./src/)
         * Events - Prof.: [Itacir](https://github.com/pompeu)
         * Promises - Prof.: [Itacir](https://github.com/pompeu)
         * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
-- Aula 12: **22/01/2016**
+- Aula 12: **18/01/2016**
     + [Express](./src/)
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
     + [Socket.io](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
-- Aula 13: **22/01/2016**
+- Aula 13: **19/01/2016**
     + [REPL](./src/) - Prof.: [Suissa](https://github.com/suissa)
     + [UDP](./http.md) - Prof.: [Caio](https://github.com/suissa)
     + [TCP](./http.md) - Prof.: [Caio](https://github.com/suissa)
     + [HTTPS](./http.md) - Prof.: [Caio](https://github.com/suissa)
-- Aula 14: **23/01/2016**
+- Aula 14: **20/01/2016**
     + [Utilizando APIs externas](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * [pokemons](http://pokeapi.co/) - Prof.: [William Bruno](https://github.com/wbruno)
         * [github](https://developer.github.com/v3/) - Prof.: [William Bruno](https://github.com/wbruno)
