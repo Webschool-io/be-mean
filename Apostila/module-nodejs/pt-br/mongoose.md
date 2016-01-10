@@ -528,6 +528,8 @@ Esse campo é adicionado automaticamente pelo Mongoose quando inserimos algum do
 
 Agora sim chegamos em algo de **extrema importância**, a validação dos campos.
 
+![](https://media.giphy.com/media/yNQ2SoQYdvUs0/giphy.gif)
+
 #### Validação padrão
 
 #### Validação customizada
