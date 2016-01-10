@@ -541,9 +541,14 @@ Antes de entrarmos em suas especificidades, vamos conhecer algumas regras:
 
 #### Validação padrão
 
-Como já vimos anteriormente o Mongoose possui validações padrão para alguns tipos de campos.
+Como já vimos anteriormente o Mongoose possui validações padrão para alguns tipos de campos, além disso todos os tipos também possui a validação de `required`.
 
-Podemos analisar um erro já demonstrado anteriormente com o tipo *String* quando tenta-se inserir um tipo *Array* nesse campo.
+Porém alguns tipos possuem validadores mais específicos como:
+
+- Number: possui os validadores de `max` e `min`
+- String: possui os validadores de `enum`, `match`, `maxlength` e `minlength`
+
+Sabendo disso vamos analisar um erro já demonstrado anteriormente com o tipo *String* quando tenta-se inserir um tipo *Array* nesse campo.
 
 ```
 ERRO:  { [ValidationError: testepokemon validation failed]
@@ -581,9 +586,7 @@ Então podemos perceber que a mensagem de erro contida em `message` é composta 
 Logo após chegamos no objeto mais importante, `errors`:
 
 ```
-ERRO:  { [ValidationError: testepokemon validation failed]
-  message: 'testepokemon validation failed',
-  name: 'ValidationError',
+ERRO:  { ...
   errors: 
    { name: 
       { [CastError: Cast to String failed for value "[object Object]" at path "name"]
