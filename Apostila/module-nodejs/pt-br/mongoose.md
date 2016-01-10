@@ -364,9 +364,10 @@ Obrigado.
 
 #### Objectid
 
+![](http://i.imgur.com/eOBCaUl.jpg)
+
 Esse tipo de campo **é importantíssimo** quando queremos fazer ligações entre as coleções, pois é com ele que definimos um tipo de campo que receberá um ObjectID de algum documento, podendo ser da própria coleção ou outra, de preferência outra né queridinha(o).
 
-![](http://i.imgur.com/eOBCaUl.jpg)
 
   _someId: Schema.Types.ObjectId,
 
