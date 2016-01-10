@@ -368,8 +368,67 @@ Obrigado.
 
 Esse tipo de campo **é importantíssimo** quando queremos fazer ligações entre as coleções, pois é com ele que definimos um tipo de campo que receberá um ObjectID de algum documento, podendo ser da própria coleção ou outra, de preferência outra né queridinha(o).
 
+Irei utilizar no exemplo o *ObjectID* criado no exemplo anterior:
 
-  _someId: Schema.Types.ObjectId,
+```js
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+const Schema = mongoose.Schema;
+const _schema = {
+  pokemons:  [{type: Schema.Types.ObjectId, ref: 'testepokemons'}]
+}
+// Criação do Schema
+const pokemonSchema = new Schema(_schema);
+
+const data = {
+  pokemons: ['5691d60743056d6e1566274e']
+
+};
+
+var Model = mongoose.model('mypokemons', pokemonSchema);
+var poke = new Model(data);
+poke.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  console.log('Inseriu: ', data)
+})
+```
+
+```
+Inseriu:  { pokemons: [ 5691d60743056d6e1566274e ],
+  _id: 5691db690526e62d1671fdc2,
+  __v: 0 }
+
+```
+
+Depois conferindo no MongoDb como foi inserido:
+
+```js
+db.mypokemons.find()
+{
+  "_id": ObjectId("5691db690526e62d1671fdc2"),
+  "pokemons": [
+    ObjectId("5691d60743056d6e1566274e")
+  ],
+  "__v": 0
+}
+
+```
+
+E isso será muito importante por causa de 1 coisa chamada: [populate](http://jaketrent.com/post/mongoose-population/).
+
+O *populate* será o responsável por fazer a busca pelos `_ids` especificados no campo com `Schema.Types.ObjectId` e como você deve ter percebido também usamos mais um atributo:
+
+```js
+ref: 'testepokemons'
+```
+
+Pois é com o valor de `ref`, que é o nome da coleção que possui aquele documento, que o Mongoose irá fazer a busca nessa coleção, retornando o resultado já adicionado no objeto de resposta, iremos ver melhor sobre isso futuramente.
+
+Mas lembre-se:
+
+> É muito importante.
+
+![](http://cdn.gifbay.com/2014/05/the_infamous_nod_and_wink-135227.gif)
 
 #### Array
 
