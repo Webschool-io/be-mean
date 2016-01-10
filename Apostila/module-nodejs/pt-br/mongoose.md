@@ -432,9 +432,13 @@ Mas lembre-se:
 
 #### Array
 
-Obviamente é o tipo que aceita apenas *array* e ele pode conter qualquer tipo internamente.
+Obviamente é o tipo que aceita apenas *array* correto?
 
-Confira o exemplo abaixo:
+![](https://media.giphy.com/media/YuEdUiDmey8W4/giphy.gif)
+
+**Mas como assim tio Suissa?**
+
+Vou mostrar com código que ficará mais fácil, vamos utilizar o código abaixo:
 
 ```js
 const mongoose = require('mongoose');
@@ -459,6 +463,8 @@ poke.save(function (err, data) {
 })
 ```
 
+Depois de executado você receberá a seguinte resposta:
+
 ```
 Inseriu:  { pokemons: [ [ 'Pikachu' ], [ 'Squirtle' ] ],
   _id: 5691e6c10f9e77c316c518f2,
@@ -467,7 +473,7 @@ Inseriu:  { pokemons: [ [ 'Pikachu' ], [ 'Squirtle' ] ],
 
 ![](http://geradormemes.com/media/created/qwhlit.jpg)
 
-Porém como definimos `pokemons:  Schema.Types.Array` ele irá gerar um array para cada valor passado nesse campo, para corrigirmos isso precisamos criar o *Schema* dessa forma:
+Isso acontece porque definimos `pokemons:  Schema.Types.Array` e com isso ele irá gerar um *array* para cada valor passado nesse campo, para *"corrigirmos"* isso precisamos criar o *Schema* dessa forma:
 
 ```js
 const mongoose = require('mongoose');
@@ -519,6 +525,12 @@ Esse campo é adicionado automaticamente pelo Mongoose quando inserimos algum do
 **Ou seja não mexa nele!**
 
 ### Validation
+
+Agora sim chegamos em algo de **extrema importância**, a validação dos campos.
+
+#### Validação padrão
+
+#### Validação customizada
 
 ## Model
 
