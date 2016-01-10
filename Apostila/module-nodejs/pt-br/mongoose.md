@@ -223,12 +223,148 @@ Agora eu lhe pergunto: por que usamos `Date.now` em vez de `Date.now()` que nos 
 
 > Porque o `Date.now` é uma função que irá executar quando você criar o objeto, nesse caso ele irá executar quando você criar o *Model*, se você usasse `Date.now()` todos os objetos teriam o mesmo valor.
 
+
+**Simples não?**
+
+![](http://www.reactiongifs.com/wp-content/uploads/2013/05/oh-yea-duh.gif)
+
 #### Buffer
+
+O tipo *Buffer* é muito para salvar arquivos e os retorná-los da forma que conhecemos [no Node.js](https://nodejs.org/api/buffer.html), porém o MongoDB converte para [Binary](http://mongodb.github.io/node-mongodb-native/api-bson-generated/binary.html).
+
+*Dica: caso for gravar uma imagem, converta-a para base64*.
+
+```js
+var imageSchema = new Schema({
+    mime: String,
+    bin: Buffer
+});
+```
+
+
 #### Boolean
+
+O tipo *Boolean* todo mundo sabe como é, correto?
+
+![](https://media.giphy.com/media/xT77XKI3JAqduyee6A/giphy.gif)
+
+Claro que sabe, se não souber da uma conferida [nesse material **ultra básico** que criamos para o JS4Girls](https://github.com/Webschool-io/js4girls/blob/master/material-didatico/etapa-1/logic.md#boolean).
+
+Ou seja, ele basicamente aceita **apenas valores booleanos** que podem ser:
+
+- true ou 1
+- false ou 0
+
+Por exemplo nesse código:
+
+```js
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+const Schema = mongoose.Schema;
+const _schema = {
+  name:  Boolean
+}
+// Criação do Schema
+const pokemonSchema = new Schema(_schema);
+
+const data = {name: 1}
+
+var Model = mongoose.model('testepokemon', pokemonSchema);
+var poke = new Model(data);
+poke.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  console.log('Inseriu: ', data)
+})
+```
+
+Quando executado irá retornar a seguinte mensagem no *terminal*:
+
+```
+Inseriu:  { _id: 5691d23e85e26411154c8d12, name: true, __v: 0 }
+```
+
+Então perceba que ele converteu o `1` para `true`.
+
+**Ridicularmente simples né?**
+
+![](http://i.imgur.com/fq7RVBe.gif)
+
 #### Mixed
+
+![](https://s-media-cache-ak0.pinimg.com/originals/fb/e2/53/fbe253bb518e4d749c40dbec5c6506dc.gif)
+
+Agora chegamos em um tipo altamente cabuloso!
+
+**Por que tio Suissa?**
+
+Pois ele virtualmente aceita qualquer tipo, do Mongoose, e podemos utilizar diferentes tipos de uma só vez, por exemplo:
+
+```js
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+const Schema = mongoose.Schema;
+const _schema = {
+  attacks:  Schema.Types.Mixed
+}
+// Criação do Schema
+const pokemonSchema = new Schema(_schema);
+
+const data = { attacks: 
+  [
+    { name: 'Soco na cara',
+      power: 9000,
+      order: 1,
+      active: true,
+      created_at: Date.now()
+    },
+    { name: 'Soco no peito',
+      power: 9400,
+      order: 2,
+      active: false,
+      created_at: Date.now()
+    }
+  ]
+};
+
+var Model = mongoose.model('testepokemon', pokemonSchema);
+var poke = new Model(data);
+poke.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  console.log('Inseriu: ', data)
+})
+```
+
+Executando esse código você receberá a seguinte mensagem:
+
+```
+Inseriu:  { _id: 5691d60743056d6e1566274e,
+  attacks: 
+   [ { name: 'Soco na cara',
+       power: 9000,
+       order: 1,
+       active: true,
+       created_at: 1452398087679 },
+     { name: 'Soco no peito',
+       power: 9400,
+       order: 2,
+       active: false,
+       created_at: 1452398087679 } ],
+  __v: 0 }
+```
+
+Percebeu que o tipo do campo agora é `Schema.Types.Mixed` e não apenas `Mixed`?
+
+Só não me pergunte o porquê pois não encontrei essa informação em nenhum lugar, **caso você saiba o porquê por favor adicione aqui.**
+
+Obrigado.
+
 #### Objectid
+
+  _someId: Schema.Types.ObjectId,
+
 #### Array
 
+### _v
 
 ### Validation
 
