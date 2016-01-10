@@ -634,7 +634,7 @@ Analisando cada atributo nós temos:
 - path: nome do campo;
 - reason: razão porque o erro ocorreu, raramente usado.
 
-**Verificar se posso usar o reason em vez do type nas validações customizadas**
+#**Verificar se posso usar o reason em vez do type nas validações customizadas**
 
 Porém nesse caso estamos mostrando apenas 1 erro, do campo `name`.
 
