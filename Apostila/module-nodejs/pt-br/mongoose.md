@@ -358,6 +358,10 @@ Só não me pergunte o porquê pois não encontrei essa informação em nenhum l
 
 Obrigado.
 
+**Por favor só não vá usar esse tipo indiscriminadamente se não irei puxar seu pé a noite!**
+
+![](https://i.imgur.com/tqByXqh.gif)
+
 #### Objectid
 
   _someId: Schema.Types.ObjectId,
