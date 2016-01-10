@@ -514,6 +514,10 @@ Com certeza você percebeu que quando inserimos algum documento o Mongoose nos r
 
 ![](http://i.imgur.com/7L366pN.jpg)
 
+Esse campo é adicionado automaticamente pelo Mongoose quando inserimos algum documento novo, ele serve para o Mongoose gerenciar, **internamente**, a versão de cada documento caso haja alguma alteração concorrente.
+
+**Ou seja não mexa nele!**
+
 ### Validation
 
 ## Model
