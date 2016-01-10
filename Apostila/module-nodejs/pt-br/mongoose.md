@@ -195,6 +195,34 @@ Claramente se a divisão funciona a multiplicação também, não preciso nem mo
 ![](https://media.giphy.com/media/A5oQ2YR8oyTuM/giphy.gif)
 
 #### Date
+
+Vamos utilizar o código já feito anteriormente.
+
+```js
+let mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+let Schema = mongoose.Schema;
+let _schema = {
+  name:  String,
+  description: String,
+  type:   String,
+  attack:   Number,
+  defense:   Number,
+  height:   Number,
+  created_at: { type: Date, default: Date.now }
+}
+// Criação do Schema
+let pokemonSchema = new Schema(_schema);
+// apenas para verificar a criação
+console.log(pokemonSchema);
+```
+
+Agora eu lhe pergunto: por que usamos `Date.now` em vez de `Date.now()` que nos retorna o [timestamp](http://www.unixtimestamp.com/) atual?
+
+![](https://media.giphy.com/media/bPTXcJiIzzWz6/giphy.gif)
+
+> Porque o `Date.now` é uma função que irá executar quando você criar o objeto, nesse caso ele irá executar quando você criar o *Model*, se você usasse `Date.now()` todos os objetos teriam o mesmo valor.
+
 #### Buffer
 #### Boolean
 #### Mixed
