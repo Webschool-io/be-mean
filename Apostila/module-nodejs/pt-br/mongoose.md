@@ -530,14 +530,77 @@ Agora sim chegamos em algo de **extrema importância**, a validação dos campos
 
 ![](https://media.giphy.com/media/yNQ2SoQYdvUs0/giphy.gif)
 
+Antes de entrarmos em suas especificidades, vamos conhecer algumas regras:
+
+- Validação é definida no tipo do campo, no *Schema*;
+- Validação é uma peça interna do *Middleware*;
+- Validação ocorre quando um documento tenta ser salvo, após ter sido definido com seu padrão;
+- Validadores não são executados em valores indefinidos. A única exceção é a validação required;
+- Validação é assincronamente recursiva, quando você chamar a função `save` do *Model*, a validação dos sub-documentos é executado também. Se ocorrer um erro ele será enviado para o *callback* da função `save`;
+- Validação suporta a personalização completa.
+
 #### Validação padrão
+
+Como já vimos anteriormente o Mongoose possui validações padrão para alguns tipos de campos.
+
+Podemos analisar um erro já demonstrado anteriormente com o tipo *String* quando tenta-se inserir um tipo *Array* nesse campo.
+
+```
+ERRO:  { [ValidationError: testepokemon validation failed]
+  message: 'testepokemon validation failed',
+  name: 'ValidationError',
+  errors: 
+   { name: 
+      { [CastError: Cast to String failed for value "[object Object]" at path "name"]
+        message: 'Cast to String failed for value "[object Object]" at path "name"',
+        name: 'CastError',
+        kind: 'String',
+        value: [Object],
+        path: 'name',
+        reason: undefined } } }
+```
+
+Vamos analisar esse objeto de retorno do Mongoose parte por parte.
+
+```
+ERRO:  { [ValidationError: testepokemon validation failed] ...}
+```
+
+Acima podermos ver qual foi o erro, porém não fazemos nada com essa informação, por nossa sorte ela vem separadinha logo abaixo:
+
+```js
+{ [ValidationError: testepokemon validation failed]
+  message: 'testepokemon validation failed',
+  name: 'ValidationError'
+  ...
+}
+```
+
+Então podemos perceber que a mensagem de erro contida em `message` é composta pelo nome do *Model* que deu a merda, `testepokemon`, mais `validation failed` e no campo `name` é o nome da validação que deu errado, no caso `ValidationError`.
+
+Logo após chegamos no objeto mais importante, `errors`:
+
+```
+ERRO:  { [ValidationError: testepokemon validation failed]
+  message: 'testepokemon validation failed',
+  name: 'ValidationError',
+  errors: 
+   { name: 
+      { [CastError: Cast to String failed for value "[object Object]" at path "name"]
+        message: 'Cast to String failed for value "[object Object]" at path "name"',
+        name: 'CastError',
+        kind: 'String',
+        value: [Object],
+        path: 'name',
+        reason: undefined } } }
+```
 
 #### Validação customizada
 
 ## Model
 
 
-- Create
-- Retrieve
-- Update
-- Delete
+## Create
+## Retrieve
+## Update
+## Delete
