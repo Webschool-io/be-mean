@@ -96,14 +96,92 @@ Basicamente é por que quando passamos apenas o nome do tipo estamos usando apen
 
 ### Tipos
 
-- String
-- Number
-- Date
-- Buffer
+O Mongoose aceita vários tipos diferentes, que são:
+
+- [String](http://mongoosejs.com/docs/api.html#schema-string-js)
+- [Number](http://mongoosejs.com/docs/api.html#schema-number-js)
+- [Date](http://mongoosejs.com/docs/api.html#schema-date-js)
+- [Buffer](http://mongoosejs.com/docs/api.html#schema-buffer-js)
 - Boolean
 - Mixed
-- Objectid
+- [Objectid](http://mongoosejs.com/docs/api.html#schema-objectid-js)
 - Array
+
+Vamos falar brevemente sobre cada um, os que não tem link é porque não tem [na documentação oficial](http://mongoosejs.com/docs/schematypes.html).
+
+#### String
+
+Obviamente é o tipo que aceita Strings, nesse caso ele irá converter o tipo *Number* para uma *String*, porém olhe o que acontece quando você tenta inserir um valor de um objeto:
+
+```js
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+const Schema = mongoose.Schema;
+const _schema = {
+  name:  String
+}
+// Criação do Schema
+const pokemonSchema = new Schema(_schema);
+
+const data = {name: {teste: "Suissa"}}
+
+var Model = mongoose.model('testepokemon', pokemonSchema);
+var poke = new Model(data);
+poke.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  console.log('Inseriu: ', data)
+})
+```
+
+Quando executar esse código ele irá mostrar o seguinte erro:
+
+```
+ERRO:  { [ValidationError: testepokemon validation failed]
+  message: 'testepokemon validation failed',
+  name: 'ValidationError',
+  errors: 
+   { name: 
+      { [CastError: Cast to String failed for value "[object Object]" at path "name"]
+        message: 'Cast to String failed for value "[object Object]" at path "name"',
+        name: 'CastError',
+        kind: 'String',
+        value: [Object],
+        path: 'name',
+        reason: undefined } } }
+
+```
+
+**Não se preocupe em como inserir agora, pois já já chegaremos nisso.**
+
+Então você percebeu que ele já possui uma validação padrão para os tipos, né?
+
+**Falaremos mais sobre validação dos campos já na sequência dos tipos.**
+
+#### Number
+
+
+```
+ERRO:  { [ValidationError: testepokemon validation failed]
+  message: 'testepokemon validation failed',
+  name: 'ValidationError',
+  errors: 
+   { name: 
+      { [CastError: Cast to Number failed for value "Suissa" at path "name"]
+        message: 'Cast to Number failed for value "Suissa" at path "name"',
+        name: 'CastError',
+        kind: 'Number',
+        value: 'Suissa',
+        path: 'name',
+        reason: undefined } } }
+```
+
+#### Date
+#### Buffer
+#### Boolean
+#### Mixed
+#### Objectid
+#### Array
+
 
 ### Validation
 
