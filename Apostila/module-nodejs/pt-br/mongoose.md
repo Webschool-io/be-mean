@@ -434,6 +434,12 @@ Mas lembre-se:
 
 ### _v
 
+Com certeza você percebeu que quando inserimos algum documento o Mongoose nos retorna o objeto com um atributo que não inserimos, o `_v`.
+
+**Tudo bem, mas para que serve essa biroska?**
+
+![](http://i.imgur.com/7L366pN.jpg)
+
 ### Validation
 
 ## Model
