@@ -2,13 +2,13 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/be-mean-instagram');
 const Schema = mongoose.Schema;
 const _schema = {
-  pokemons:  [{type: Schema.Types.ObjectId, ref: 'testepokemons'}]
+  pokemons:  [String]
 }
 // Criação do Schema
 const pokemonSchema = new Schema(_schema);
 
 const data = {
-  pokemons: ['5691d60743056d6e1566274e']
+  pokemons: ['Pikachu', 'Squirtle']
 
 };
 

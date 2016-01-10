@@ -432,6 +432,78 @@ Mas lembre-se:
 
 #### Array
 
+Obviamente é o tipo que aceita apenas *array* e ele pode conter qualquer tipo internamente.
+
+Confira o exemplo abaixo:
+
+```js
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+const Schema = mongoose.Schema;
+const _schema = {
+  pokemons:  Schema.Types.Array
+}
+// Criação do Schema
+const pokemonSchema = new Schema(_schema);
+
+const data = {
+  pokemons: ['Pikachu', 'Squirtle']
+
+};
+
+var Model = mongoose.model('mypokemons', pokemonSchema);
+var poke = new Model(data);
+poke.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  console.log('Inseriu: ', data)
+})
+```
+
+```
+Inseriu:  { pokemons: [ [ 'Pikachu' ], [ 'Squirtle' ] ],
+  _id: 5691e6c10f9e77c316c518f2,
+  __v: 0 }
+```
+
+![](http://geradormemes.com/media/created/qwhlit.jpg)
+
+Porém como definimos `pokemons:  Schema.Types.Array` ele irá gerar um array para cada valor passado nesse campo, para corrigirmos isso precisamos criar o *Schema* dessa forma:
+
+```js
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+const Schema = mongoose.Schema;
+const _schema = {
+  pokemons:  [String]
+}
+// Criação do Schema
+const pokemonSchema = new Schema(_schema);
+
+const data = {
+  pokemons: ['Pikachu', 'Squirtle']
+
+};
+
+var Model = mongoose.model('mypokemons', pokemonSchema);
+var poke = new Model(data);
+poke.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  console.log('Inseriu: ', data)
+})
+```
+
+Executando...
+
+```
+Inseriu:  { pokemons: [ 'Pikachu', 'Squirtle' ],
+  _id: 5691ea660fc87d1317e5d91f,
+  __v: 0 }
+```
+
+Percebeu então que apenas mudei para `pokemons:  [String]` pois nesse caso o campo `pokemons` irá receber um **array de Strings** como seria o procedimento mais natural.
+
+Então agora você sabe que o tipo `Schema.Types.Array` **cria um array para cada elemento contido no campo.**
+
 ### _v
 
 Com certeza você percebeu que quando inserimos algum documento o Mongoose nos retorna o objeto com um atributo que não inserimos, o `_v`.
