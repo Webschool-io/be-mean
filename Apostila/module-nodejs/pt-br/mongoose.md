@@ -109,6 +109,8 @@ O Mongoose aceita vários tipos diferentes, que são:
 
 Vamos falar brevemente sobre cada um, os que não tem link é porque não tem [na documentação oficial](http://mongoosejs.com/docs/schematypes.html).
 
+Se você entrar nos links verá que não tem nenhum tipo de explicação adicional sobre cada tipo, apenas suas funcionalidades, então vamos ver se eu posso ajudar nisso.
+
 #### String
 
 Obviamente é o tipo que aceita Strings, nesse caso ele irá converter o tipo *Number* para uma *String*, porém olhe o que acontece quando você tenta inserir um valor de um objeto:
@@ -159,21 +161,38 @@ Então você percebeu que ele já possui uma validação padrão para os tipos, 
 
 #### Number
 
+O tipo *Number* aceita tanto números negativos como positivos e tanto interos como decimais e também aceita **frações!**
+
+```js
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/be-mean-instagram');
+const Schema = mongoose.Schema;
+const _schema = {
+  name:  Number
+}
+// Criação do Schema
+const pokemonSchema = new Schema(_schema);
+
+const data = {name: 1/2}
+
+var Model = mongoose.model('testepokemon', pokemonSchema);
+var poke = new Model(data);
+poke.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  console.log('Inseriu: ', data)
+})
 
 ```
-ERRO:  { [ValidationError: testepokemon validation failed]
-  message: 'testepokemon validation failed',
-  name: 'ValidationError',
-  errors: 
-   { name: 
-      { [CastError: Cast to Number failed for value "Suissa" at path "name"]
-        message: 'Cast to Number failed for value "Suissa" at path "name"',
-        name: 'CastError',
-        kind: 'Number',
-        value: 'Suissa',
-        path: 'name',
-        reason: undefined } } }
+
+Executando esse *script* você verá a seguinte mensagem no *terminal*:
+
 ```
+Inseriu:  { _id: 5691c74c1349c94c148cd08a, name: 0.5, __v: 0 }
+```
+
+Claramente se a divisão funciona a multiplicação também, não preciso nem mostrar né?
+
+![](https://media.giphy.com/media/A5oQ2YR8oyTuM/giphy.gif)
 
 #### Date
 #### Buffer

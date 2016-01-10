@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/be-mean-instagram');
 const Schema = mongoose.Schema;
 const _schema = {
-  name:  String
+  name:  Number
 }
 // Criação do Schema
 const pokemonSchema = new Schema(_schema);
 
-const data = {name: {teste: "Suissa"}}
+const data = {name: Number(2).toExponential(2)}
 
 var Model = mongoose.model('testepokemon', pokemonSchema);
 var poke = new Model(data);
