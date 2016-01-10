@@ -504,6 +504,8 @@ Percebeu então que apenas mudei para `pokemons:  [String]` pois nesse caso o ca
 
 Então agora você sabe que o tipo `Schema.Types.Array` **cria um array para cada elemento contido no campo.**
 
+Então eu aconselho a você usar a segunda forma que é utilizando o *Array* do JavaScript mesmo, aliás dificilmente você encontrará códigos com `Schema.Types.Array` mas eu tinha que explicar. :p
+
 ### _v
 
 Com certeza você percebeu que quando inserimos algum documento o Mongoose nos retorna o objeto com um atributo que não inserimos, o `_v`.
