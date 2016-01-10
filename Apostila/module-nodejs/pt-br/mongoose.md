@@ -598,6 +598,75 @@ ERRO:  { ...
         reason: undefined } } }
 ```
 
+Dentro do objeto `errors` existe um atributo com o nome do campo, que gerou o erro, e atrelado a ele o seu objeto do erro.
+
+```js
+{ name: 
+  { [CastError: Cast to String failed for value "[object Object]" at path "name"]
+    message: 'Cast to String failed for value "[object Object]" at path "name"',
+    name: 'CastError',
+    kind: 'String',
+    value: [Object],
+    path: 'name',
+    reason: undefined 
+  } 
+}
+```
+
+Sendo essa a estrutura padrão para os erros da validação do Mongoose:
+
+```js
+{ message: 'Cast to String failed for value "[object Object]" at path "name"',
+  name: 'CastError',
+  kind: 'String',
+  value: [Object],
+  path: 'name',
+  reason: undefined 
+}
+```
+
+Analisando cada atributo nós temos:
+
+- message: texto da mensagem de erro;
+- name: nome do erro;
+- kind: tipo do campo;
+- value: valor que provocou o erro;
+- path: nome do campo;
+- reason: razão porque o erro ocorreu, raramente usado.
+
+**Verificar se posso usar o reason em vez do type nas validações customizadas**
+
+Porém nesse caso estamos mostrando apenas 1 erro, do campo `name`.
+
+**E se tivermos mais erros como ficará?**
+
+Vou mostrar para você com um exemplo:
+
+```js
+ERRO:  { [ValidationError: testepokemon validation failed]
+  message: 'testepokemon validation failed',
+  name: 'ValidationError',
+  errors: 
+   { age: 
+      { [CastError: Cast to Number failed for value "bazinga" at path "age"]
+        message: 'Cast to Number failed for value "bazinga" at path "age"',
+        name: 'CastError',
+        kind: 'Number',
+        value: 'bazinga',
+        path: 'age',
+        reason: undefined },
+     name: 
+      { [CastError: Cast to String failed for value "[object Object]" at path "name"]
+        message: 'Cast to String failed for value "[object Object]" at path "name"',
+        name: 'CastError',
+        kind: 'String',
+        value: [Object],
+        path: 'name',
+        reason: undefined } } }
+```
+
+Interessante que mesmo com mais de 1 erro o objeto `errors` não é convertido para *Array*, mas sim terá o erro de cada campo como um objeto interno sendo identifado pelo seu nome.
+
 #### Validação customizada
 
 ## Model
