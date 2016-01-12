@@ -1,1 +1,0 @@
-Sistema utilizando o Mongoose atômico com Promises e Events.

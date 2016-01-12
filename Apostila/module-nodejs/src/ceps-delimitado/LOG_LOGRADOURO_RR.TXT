@@ -1,0 +1,2346 @@
+1009056@RR@7375@34977@@de Acesso@@69312526@Via@S@V de Acesso
+1013042@RR@7375@35243@@Universidade Federal de Roraima@@69317810@Rua@S@R Universidade F de Roraima
+1013043@RR@7375@12985@@A@@69312010@Travessa@S@Tv A
+1020422@RR@7375@43568@@Professora Maria do Carmo Lima Carvalho@- até 820 - lado par@69314493@Rua@S@R Prfa Maria do C L Carvalho
+1020423@RR@7375@35244@@Professora Maria do Carmo Lima Carvalho@- de 03 a 99993 - lado ímpar@69316520@Rua@S@R Prfa Maria do C L Carvalho
+1020424@RR@7375@35244@@Professora Maria do Carmo Lima Carvalho@- de 822 ao fim - lado par@69316563@Rua@S@R Prfa Maria do C L Carvalho
+1033865@RR@7375@43568@@Vereador Waldemar Gomes@- de 603/604 a 1199/1200@69314560@Rua@S@R Ver Waldemar Gomes
+1033866@RR@7375@12992@@Vereador Waldemar Gomes@- de 1201/1202 ao fim@69316760@Rua@S@R Ver Waldemar Gomes
+1033867@RR@7375@43568@@Vereador Manoel Joaquim Martins@- de 529/530 a 1149/1150@69314563@Rua@S@R Ver Manoel J Martins
+1033868@RR@7375@12992@@Vereador Manoel Joaquim Martins@- de 1151/1152 ao fim@69316742@Rua@S@R Ver Manoel J Martins
+1033869@RR@7375@51741@@dos Passarinhos@@69315667@Avenida@S@Av dos Passarinhos
+1035525@RR@7375@12991@@Anísio de Carvalho@@69307252@Travessa@S@Tv Anísio de Carvalho
+1046366@RR@7375@58681@@dos Trabalhadores@@69318705@Rua@S@R dos Trabalhadores
+1046367@RR@7375@58681@@Governador Jerocílio Gueiros@@69318748@Rua@S@R Gov Jerocílio Gueiros
+1046368@RR@7375@58681@@Governador José Maria Barbosa@@69318754@Rua@S@R Gov José M Barbosa
+1046369@RR@7375@58681@@Governador Miguel Ximenes de Melo@@69318750@Rua@S@R Gov Miguel X de Melo
+1046370@RR@7375@58681@@Governador Ottomar de Sousa Pinto@@69318744@Rua@S@R Gov Ottomar de S Pinto
+1046371@RR@7375@58681@@Governador Walmor Leal Dalcin@@69318740@Rua@S@R Gov Walmor L Dalcin
+1046372@RR@7375@58681@@Almir Queirós@@69318762@Rua@S@R Almir Queirós
+1046373@RR@7375@58681@@José Maria Carneiro@@69318760@Rua@S@R José M Carneiro
+1046374@RR@7375@58681@@José Hamilton Gondim@@69318768@Rua@S@R José H Gondim
+1046375@RR@7375@58681@@Armênio Santos@@69318764@Rua@S@R Armênio Santos
+1046376@RR@7375@58681@@Aristoteles de Lima Carneiro@@69318766@Rua@S@R Aristoteles de L Carneiro
+1046377@RR@7375@58681@@São Luiz@@69316273@Rua@S@R S Luiz
+1046378@RR@7375@58681@@Brasil@@69318753@Avenida@S@Av Brasil
+1046379@RR@7375@58681@@Governador Adeumar Soares da Rocha@@69318756@Rua@S@R Gov Adeumar S da Rocha
+1046380@RR@7375@58681@@Governador Auriz Coelho e Silva@@69318758@Rua@S@R Gov Auriz C e Silva
+1046381@RR@7375@58681@@Governador Belarmino Neves Galvão@@69318746@Rua@S@R Gov Belarmino N Galvão
+1046382@RR@7375@58681@@Governador Cloves Nova da Costa@@69318752@Rua@S@R Gov Cloves N da Costa
+1046383@RR@7375@58681@@Governador Fernando Ramos Pereira@@69318738@Rua@S@R Gov Fernando R Pereira
+1046384@RR@7375@58681@@Governador Hélio da Costa Campos@@69318742@Rua@S@R Gov Hélio da C Campos
+1046385@RR@7375@35243@@Nascer do Sol@@69317513@Rua@S@R Nascer do Sol
+1046386@RR@7375@35243@@Por do Sol@@69317515@Rua@S@R Por do Sol
+1046387@RR@7375@35243@@Morada do Sol@@69317517@Rua@S@R Morada do Sol
+1046388@RR@7375@35243@@Eclipse@@69317519@Rua@S@R Eclipse
+385503@RR@7375@12974@@A@@69309163@Travessa@S@Tv A
+385504@RR@7375@13000@@Eustáquio Júlio de Macedo@@69305350@Travessa@S@Tv Eustáquio J de Macedo
+385505@RR@7375@12974@@José Francisco@@69309217@Travessa@S@Tv José Francisco
+385506@RR@7375@12985@@Abrilina Pena@@69312015@Rua@S@R Abrilina Pena
+385507@RR@7375@12993@@das Acácias@@69309370@Rua@S@R das Acácias
+385508@RR@7375@12993@@das Acácias@@69309360@Alameda@S@Al das Acácias
+385509@RR@7375@12986@@das Acácias@@69314186@Rua@S@R das Acácias
+385510@RR@7375@12993@@das Acácias@@69309380@Via@S@V das Acácias
+385511@RR@7375@12975@@do Açaizeiro@@69307530@Rua@S@R do Açaizeiro
+385512@RR@7375@12999@@Acaraí@@69308010@Rua@S@R Acaraí
+385513@RR@7375@12994@@Acará-açu@@69314124@Rua@S@R Acará-açu
+385514@RR@7375@12982@@Acre@@69305510@Rua@S@R Acre
+385516@RR@7375@12995@@Adolfo Brasil@@69305020@Rua@S@R Adolfo Brasil
+385517@RR@7375@12989@@Adolfo Ducke@@69304030@Rua@S@R Adolfo Ducke
+385518@RR@7375@12980@@Sabá Cunha@@69311003@Avenida@S@Av Sabá Cunha
+385519@RR@7375@12987@@Águas Marinhas@(Cj C Servidor)@69313085@Rua@S@R Águas Marinhas
+385520@RR@7375@12981@@Ajuricaba@@69301070@Rua@S@R Ajuricaba
+385521@RR@7375@12982@@Alagoas@@69305560@Rua@S@R Alagoas
+385523@RR@7375@12989@@Alferes José Agostinho@@69304440@Rua@S@R Alf José Agostinho
+385524@RR@7375@12981@@Alferes Paulo Saldanha@- até 403/404@69301420@Rua@S@R Alf Paulo Saldanha
+385525@RR@7375@12995@@Alferes Paulo Saldanha@- de 405/406 ao fim@69305260@Rua@S@R Alf Paulo Saldanha
+385527@RR@7375@12985@@Almério Mota Pereira@@69312055@Rua@S@R Almério M Pereira
+385528@RR@7375@12972@@Álvaro Maia@@69306330@Rua@S@R Álvaro Maia
+385529@RR@7375@12997@@Amajari@@69303463@Rua@S@R Amajari
+385530@RR@7375@12982@@Amapá@@69305520@Rua@S@R Amapá
+385531@RR@7375@12982@@Amazonas@@69305670@Avenida@S@Av Amazonas
+385532@RR@7375@12989@@Amélio Lago@@69304110@Rua@S@R Amélio Lago
+385534@RR@7375@12987@@Ametista@(Cj J Clube)@69313075@Rua@S@R Ametista
+385535@RR@7375@12985@@Ana Cecília Mota da Silva@@69312058@Rua@S@R Ana C M da Silva
+385536@RR@7375@12978@@Ana Nery@@69306495@Rua@S@R Ana Nery
+385537@RR@7375@12989@@Anauá@@69304090@Travessa@S@Tv Anauá
+385538@RR@7375@12989@@Terêncio Lima@@69304540@Avenida@S@Av Terêncio Lima
+385539@RR@7375@12972@@Angaricó@@69306290@Rua@S@R Angaricó
+385540@RR@7375@12995@@Antônio Augusto Martins@@69305270@Rua@S@R Antônio A Martins
+385541@RR@7375@12981@@Antônio Bitencourt@@69301290@Rua@S@R Antônio Bitencourt
+385542@RR@7375@12999@@Antônio Cabral@@69308020@Rua@S@R Antônio Cabral
+385544@RR@7375@12976@@Antônio Maciel@@69312162@Rua@S@R Antônio Maciel
+385546@RR@7375@13000@@Antônio Rangel@@69305430@Rua@S@R Antônio Rangel
+385547@RR@7375@12977@@Antônio Raposo Tavares@@69303190@Rua@S@R Antônio R Tavares
+385548@RR@7375@12986@@Antares@@69314196@Rua@S@R Antares
+385549@RR@7375@12999@@Apiaú@@69308030@Rua@S@R Apiaú
+385550@RR@7375@12975@@do Araçazeiro@@69307722@Rua@S@R do Araçazeiro
+385551@RR@7375@12989@@Cotingo@@69304530@Travessa@S@Tv Cotingo
+385552@RR@7375@12997@@Araraquara@@69303452@Rua@S@R Araraquara
+385553@RR@7375@12980@@Argentina@@69311009@Rua@S@R Argentina
+385554@RR@7375@12974@@Armando Nogueira@- até 849/850@69309160@Rua@S@R Armando Nogueira
+385555@RR@7375@12973@@Armando Nogueira@- de 1825/1826 a 2587/2588@69312252@Rua@S@R Armando Nogueira
+385556@RR@7375@12972@@Artur Vigílio@@69306390@Rua@S@R Artur Vigílio
+385557@RR@7375@12994@@Aruanã@@69314106@Rua@S@R Aruanã
+385559@RR@7375@12985@@Atlas Catanhede@@69312048@Rua@S@R Atlas Catanhede
+385561@RR@7375@12985@@Antônio Maciel@@69312062@Rua@S@R Antônio Maciel
+385562@RR@7375@12980@@Austrália@@69311011@Rua@S@R Austrália
+385564@RR@7375@13000@@Advogado Hesmone Saraiva Granjeiro@@69305360@Travessa@S@Tv Adv Hesmone S Granjeiro
+385565@RR@7375@12993@@das Bacabas@@69309390@Rua@S@R das Bacabas
+385566@RR@7375@12982@@Bahia@@69305620@Rua@S@R Bahia
+385569@RR@7375@12981@@Barão do Rio Branco@@69301130@Rua@S@R Br do Rio Branco
+385570@RR@7375@12981@@Barreto Leite@@69301310@Rua@S@R Barreto Leite
+385571@RR@7375@12977@@Bartolomeu Bueno Silva@@69303210@Rua@S@R Bartolomeu B Silva
+385572@RR@7375@12989@@Beija-Flor@@69304472@Rua@S@R Beija-Flor
+385575@RR@7375@12999@@Bem Querer@@69308040@Rua@S@R Bem Querer
+385576@RR@7375@12989@@Bem-te-vi@@69304475@Rua@S@R Bem-te-vi
+385577@RR@7375@12972@@dos Beneditinos@@69306380@Rua@S@R dos Beneditinos
+385581@RR@7375@12977@@Bento Coelho@@69303150@Avenida@S@Av Bento Coelho
+385582@RR@7375@12987@@Bering@@69313032@Rua@S@R Bering
+385583@RR@7375@12990@@Betel@@69314384@Rua@S@R Betel
+385584@RR@7375@12990@@Nivaldo da Conceição Gutierrez@@69314386@Rua@S@R Nivaldo da C Gutierrez
+385585@RR@7375@12980@@Bolívia@@69311021@Rua@S@R Bolívia
+385586@RR@7375@12989@@Brás de Águiar@@69304460@Rua@S@R Brás de Águiar
+385587@RR@7375@12999@@Brasil@@69308050@Avenida@S@Av Brasil
+385588@RR@7375@12982@@Brasília@@69305640@Rua@S@R Brasília
+385590@RR@7375@13000@@Brigadeiro Eduardo Gomes@- de 513 a 1621 - lado ímpar@69305284@Avenida@S@Av Brg Eduardo Gomes
+385591@RR@7375@12999@@Brigadeiro Oliveira@@69308060@Rua@S@R Brg Oliveira
+385592@RR@7375@12993@@das Bromélias@@69309400@Rua@S@R das Bromélias
+385593@RR@7375@12987@@Brucutu@@69313002@Rua@S@R Brucutu
+385594@RR@7375@12999@@dos Buritis@@69308070@Rua@S@R dos Buritis
+385595@RR@7375@12975@@do Buritizeiro@@69307490@Rua@S@R do Buritizeiro
+385596@RR@7375@12973@@José Francisco@@69312329@Travessa@S@Tv José Francisco
+385597@RR@7375@12983@@Mariano Vieira@@69313428@Rua@S@R Mariano Vieira
+385598@RR@7375@12983@@C-23@@69313430@Rua@S@R C-23
+385608@RR@7375@12990@@Joaquim Honorato de Souza@@69314388@Rua@S@R Joaquim H de Souza
+385609@RR@7375@12990@@Murilo Teixeira Cidade@@69314392@Rua@S@R Murilo T Cidade
+385610@RR@7375@12990@@S-3@@69314394@Travessa@S@Tv S-3
+385611@RR@7375@12990@@Papa João Paulo II@@69314396@Rua@S@R Papa João Paulo II
+385625@RR@7375@12984@@Francisco Sales Vieira@@69317336@Rua@S@R Francisco S Vieira
+385626@RR@7375@12984@@Luiz Reis Cristo@@69317338@Rua@S@R Luiz R Cristo
+385627@RR@7375@12984@@Maria Martins Vieira@@69317340@Rua@S@R Maria M Vieira
+385628@RR@7375@12984@@Antônio Batista de Miranda@@69317302@Rua@S@R Antônio B de Miranda
+385629@RR@7375@12984@@Telma Cavalcante@@69317304@Rua@S@R Telma Cavalcante
+385632@RR@7375@12984@@Doutor Luiz Brito Júnior@@69317312@Rua@S@R Dr Luiz B Júnior
+385633@RR@7375@12984@@Nossa Senhora Aparecida@@69317342@Rua@S@R N Sra Aparecida
+385634@RR@7375@12985@@B@@69312082@Rua@S@R B
+385635@RR@7375@12985@@17@@69312085@Rua@S@R 17
+385637@RR@7375@12975@@do Cajueiro@@69307510@Rua@S@R do Cajueiro
+385638@RR@7375@12990@@Calebe@@69314402@Rua@S@R Calebe
+385639@RR@7375@12977@@Calungá@@69303180@Rua@S@R Calungá
+385640@RR@7375@12993@@das Camélias@@69309410@Rua@S@R das Camélias
+385641@RR@7375@12987@@Campelo@@69313005@Rua@S@R Campelo
+385642@RR@7375@12980@@T@@69311024@Rua@S@R T
+385643@RR@7375@12980@@Canadá@@69311027@Rua@S@R Canadá
+385644@RR@7375@12978@@Canarinho@@69306580@Alameda@S@Al Canarinho
+385645@RR@7375@12989@@Capitão Francisco Ferreira@@69304610@Travessa@S@Tv Cap Francisco Ferreira
+385648@RR@7375@12989@@Capitão Felipe Sturm@@69304450@Rua@S@R Cap Felipe Sturm
+385649@RR@7375@12989@@Capitão Francisco Ferreira@@69304400@Rua@S@R Cap Francisco Ferreira
+385650@RR@7375@12995@@Capitão Franco de Carvalho@@69305120@Rua@S@R Cap Franco de Carvalho
+385651@RR@7375@12981@@Capitão Júlio Bezerra@- até 717/718@69301410@Avenida@S@Av Cap Júlio Bezerra
+385652@RR@7375@12995@@Capitão Júlio Bezerra@- de 719/720 a 1223/1224@69305025@Avenida@S@Av Cap Júlio Bezerra
+385653@RR@7375@12999@@Caracaraí@@69308090@Avenida@S@Av Caracaraí
+385654@RR@7375@12999@@Caracaranã@@69308100@Rua@S@R Caracaranã
+385655@RR@7375@12997@@Caribe@@69303420@Rua@S@R Caribe
+385656@RR@7375@12989@@Carlos Gomes@@69304080@Rua@S@R Carlos Gomes
+385657@RR@7375@12988@@Carlos Natrodt@@69309007@Rua@S@R Carlos Natrodt
+385659@RR@7375@12990@@Carmelo@@69314422@Rua@S@R Carmelo
+385660@RR@7375@12978@@Casemiro de Abreu@@69306505@Rua@S@R Casemiro de Abreu
+385661@RR@7375@12987@@Cassiterita@(Cj C Servidor)@69313098@Rua@S@R Cassiterita
+385662@RR@7375@12981@@Castelo Branco@@69301270@Rua@S@R Castelo Branco
+385663@RR@7375@12981@@Cecília Brasil@@69301080@Rua@S@R Cecília Brasil
+385665@RR@7375@12981@@Cerejo Cruz@@69301060@Rua@S@R Cerejo Cruz
+385666@RR@7375@12999@@Chagas Peixoto@@69308080@Rua@S@R Chagas Peixoto
+385667@RR@7375@12980@@Chile@@69311001@Avenida@S@Av Chile
+385668@RR@7375@12999@@Cícero Vieira@@69308120@Rua@S@R Cícero Vieira
+385669@RR@7375@12984@@Cidade Cascavel@@69317328@Rua@S@R Cidade Cascavel
+385671@RR@7375@12983@@Doutor Rubem Lima Filho@@69313335@Rua@S@R Dr Rubem L Filho
+385672@RR@7375@12985@@Alzimiro Gomes da Silva@@69312052@Rua@S@R Alzimiro G da Silva
+385673@RR@7375@12981@@Nossa Senhora do Carmo@@69301455@Rua@S@R N Sra do Carmo
+385674@RR@7375@12987@@Collin@@69313008@Rua@S@R Collin
+385675@RR@7375@12980@@Colômbia@@69311031@Rua@S@R Colômbia
+385676@RR@7375@12999@@Comandante Essen Pinheiro@@69308130@Rua@S@R Cmte Essen Pinheiro
+385677@RR@7375@12987@@Corcel Negro@@69313068@Rua@S@R Corcel Negro
+385678@RR@7375@12996@@Acácio do Vale@@69306710@Rua@S@R Acácio do Vale
+385679@RR@7375@12999@@Coronel Monteiro Baena@@69308110@Rua@S@R Cel Monteiro Baena
+385680@RR@7375@12981@@Coronel Mota@@69301120@Rua@S@R Cel Mota
+385681@RR@7375@12981@@Coronel Pinto@@69301150@Rua@S@R Cel Pinto
+385683@RR@7375@12980@@Costa Rica@@69311034@Rua@S@R Costa Rica
+385686@RR@7375@12989@@Cristóvão Coelho@@69304430@Rua@S@R Cristóvão Coelho
+385687@RR@7375@12980@@Cuba@@69311037@Rua@S@R Cuba
+385688@RR@7375@12975@@do Cupuaçuzeiro@@69307450@Rua@S@R do Cupuaçuzeiro
+385689@RR@7375@12994@@Curimatã@@69314126@Rua@S@R Curimatã
+385690@RR@7375@12984@@Curitiba@@69317332@Rua@S@R Curitiba
+385691@RR@7375@12993@@das Dálias@@69309430@Rua@S@R das Dálias
+385693@RR@7375@12993@@das Damas da Noite@@69309440@Rua@S@R das Damas da Noite
+385694@RR@7375@12993@@das Quaresmeiras@@69309450@Rua@S@R das Quaresmeiras
+385695@RR@7375@12977@@David Cruz@@69303015@Rua@S@R David Cruz
+385696@RR@7375@12988@@David Ramalho@@69309012@Rua@S@R David Ramalho
+385701@RR@7375@12983@@Melo Júnior@@69313382@Rua@S@R Melo Júnior
+385704@RR@7375@12983@@Olimpio Alves da Silva@@69313375@Rua@S@R Olimpio A da Silva
+385707@RR@7375@12987@@Diamante@(Cj C Servidor)@69313092@Rua@S@R Diamante
+385709@RR@7375@12979@@Soldado-Polícia Militar João Alves Brasil@@69313565@Avenida@S@Av Sd-PM João A Brasil
+385710@RR@7375@12980@@U@@69311041@Rua@S@R U
+385711@RR@7375@12972@@Dom Aquino@@69306460@Rua@S@R D Aquino
+385712@RR@7375@12995@@Dom José Nepote@@69305070@Rua@S@R D José Nepote
+385713@RR@7375@12981@@Dom Pedro I@- até 221/222@69301190@Rua@S@R D Pedro I
+385714@RR@7375@12989@@Dom Pedro I@- de 223/224 ao fim@69304010@Rua@S@R D Pedro I
+385715@RR@7375@12972@@Domingos Abdala@@69306170@Rua@S@R Domingos Abdala
+385716@RR@7375@12995@@Domingos Braga@@69305220@Rua@S@R Domingos Braga
+385717@RR@7375@12985@@Domingo Maciel Costa@@69312012@Rua@S@R Domingo M Costa
+385718@RR@7375@12972@@Dona Clô@@69306220@Rua@S@R Da Clô
+385721@RR@7375@12994@@Dourado@@69314134@Rua@S@R Dourado
+385722@RR@7375@12995@@Doutor Arnaldo Brandão@@69305090@Travessa@S@Tv Dr Arnaldo Brandão
+385727@RR@7375@12979@@Soldado-Polícia Militar Harison Rodrigues de Lira@@69313570@Avenida@S@Av Sd-PM Harison R de Lira
+385729@RR@7375@12988@@Edson Castro@@69309014@Rua@S@R Edson Castro
+385730@RR@7375@12995@@Eduardo Ribeiro@@69305140@Rua@S@R Eduardo Ribeiro
+385731@RR@7375@12980@@Egito@@69311044@Rua@S@R Egito
+385732@RR@7375@12999@@Eldorado@@69308000@Avenida@S@Av Eldorado
+385733@RR@7375@12996@@Elias Madeira@@69306660@Rua@S@R Elias Madeira
+385734@RR@7375@12989@@Epitácio Pessoa@@69304280@Rua@S@R Epitácio Pessoa
+385735@RR@7375@12980@@Equador@@69311047@Rua@S@R Equador
+385736@RR@7375@12980@@Espanha@@69311051@Rua@S@R Espanha
+385737@RR@7375@12985@@Estácio Melo@@69312065@Rua@S@R Estácio Melo
+385738@RR@7375@12990@@Eufrate@@69314404@Rua@S@R Eufrate
+385739@RR@7375@13000@@Eurico Lima@@69305380@Rua@S@R Eurico Lima
+385740@RR@7375@12981@@José Amadeu Ribeiro Campos@@69301390@Rua@S@R José A R Campos
+385741@RR@7375@12979@@Soldado-Polícia Militar Jacinto José de Santana da Silva@@69313572@Rua@S@R Sd-PM Jacinto J de S da Silva
+385742@RR@7375@13000@@Fábio Magalhães@@69305370@Rua@S@R Fábio Magalhães
+385743@RR@7375@12974@@Felipe Xaud@- até 827/828@69309175@Rua@S@R Felipe Xaud
+385744@RR@7375@12973@@Felipe Xaud@- de 1816/1817 a 2568/2569@69312255@Rua@S@R Felipe Xaud
+385745@RR@7375@12977@@Fernão Dias Paes Leme@@69303220@Rua@S@R Fernão D P Leme
+385746@RR@7375@12993@@Azaléias@@69309460@Rua@S@R Azaléias
+385747@RR@7375@12986@@Flamboian@@69314184@Rua@S@R Flamboian
+385749@RR@7375@12993@@das Campainhas@@69309470@Rua@S@R das Campainhas
+385751@RR@7375@12995@@Forte São Joaquim@@69305200@Avenida@S@Av Forte S Joaquim
+385752@RR@7375@12984@@Foz do Iguaçu@@69317330@Rua@S@R Foz do Iguaçu
+385753@RR@7375@12980@@França@@69311054@Rua@S@R França
+385758@RR@7375@12980@@Francisco Viana@@69311057@Avenida@S@Av Francisco Viana
+385760@RR@7375@12981@@Frei José dos Inocentes@@69301220@Rua@S@R Fr José dos Inocentes
+385761@RR@7375@12987@@Galiléia@@69313012@Rua@S@R Galiléia
+385762@RR@7375@12995@@Gaúcho Dias@@69305160@Rua@S@R Gaúcho Dias
+385763@RR@7375@12987@@Gávea@@69313025@Rua@S@R Gávea
+385764@RR@7375@12987@@Gavião@@69313028@Rua@S@R Gavião
+385765@RR@7375@12989@@General Ataíde Teive@- até 1575/1576@69304360@Avenida@S@Av Gen Ataíde Teive
+385766@RR@7375@12988@@General Ataíde Teive@- de 1577/1578 a 2779/2780@69309000@Avenida@S@Av Gen Ataíde Teive
+385767@RR@7375@12973@@General Ataíde Teive@- de 4627 a 5393 - lado ímpar@69312242@Avenida@S@Av Gen Ataíde Teive
+385768@RR@7375@12990@@General Ataíde Teive@- de 6235 a 7289 - lado ímpar@69314382@Avenida@S@Av Gen Ataíde Teive
+385769@RR@7375@12981@@General Penha Brasil@- até 601/602@69301440@Rua@S@R Gen Penha Brasil
+385770@RR@7375@12995@@General Penha Brasil@- de 603/604 ao fim@69305130@Rua@S@R Gen Penha Brasil
+385771@RR@7375@12999@@General Sampaio@@69308150@Avenida@S@Av Gen Sampaio
+385772@RR@7375@12975@@do Genipapeiro@@69307440@Rua@S@R do Genipapeiro
+385773@RR@7375@12973@@Gervásio Barbosa do Monte@@69312328@Rua@S@R Gervásio B do Monte
+385777@RR@7375@12990@@Gideão@@69314406@Rua@S@R Gideão
+385778@RR@7375@12993@@dos Girassóis@@69309490@Alameda@S@Al dos Girassóis
+385779@RR@7375@12981@@Glaycon de Paiva@- até 715/716@69301250@Avenida@S@Av Glaycon de Paiva
+385780@RR@7375@12997@@Glaycon de Paiva@- de 717 a 2211 - lado ímpar@69303340@Avenida@S@Av Glaycon de Paiva
+385781@RR@7375@12982@@Goiás@@69305550@Rua@S@R Goiás
+385782@RR@7375@12978@@Gonçalves Dias@@69306502@Rua@S@R Gonçalves Dias
+385783@RR@7375@12978@@Gonçalves Ledo@@69306570@Rua@S@R Gonçalves Ledo
+385784@RR@7375@12991@@da Gravioleira@@69307330@Rua@S@R da Gravioleira
+385785@RR@7375@12987@@Grilo@@69313072@Rua@S@R Grilo
+385786@RR@7375@12987@@Guanabara@@69313015@Rua@S@R Guanabara
+385787@RR@7375@12996@@Guanabara@@69306725@Travessa@S@Tv Guanabara
+385789@RR@7375@12980@@X@@69311064@Rua@S@R X
+385791@RR@7375@12980@@Guatemala@@69311071@Rua@S@R Guatemala
+385792@RR@7375@12999@@Beira Rio@@69308161@Rua@S@R Beira Rio
+385793@RR@7375@12988@@Guilherme Brito@@69309075@Rua@S@R Guilherme Brito
+385794@RR@7375@12999@@Gustavo Mesquita@@69308170@Rua@S@R Gustavo Mesquita
+385795@RR@7375@13000@@Habib Fraxe@@69305310@Rua@S@R Habib Fraxe
+385796@RR@7375@12989@@Hamilton Rice@@69304320@Rua@S@R Hamilton Rice
+385798@RR@7375@12988@@Helena Bezerra de Menezes@@69309079@Rua@S@R Helena B de Menezes
+385799@RR@7375@12985@@Hélio Magalhães@@69312038@Rua@S@R Hélio Magalhães
+385801@RR@7375@12983@@Henrique de Oliveira Gomes@@69313422@Rua@S@R Henrique de O Gomes
+385802@RR@7375@12976@@Hercílio Cidade@@69312190@Rua@S@R Hercílio Cidade
+385803@RR@7375@12980@@Holanda@@69311067@Rua@S@R Holanda
+385804@RR@7375@12995@@Homero Cruz@@69305190@Rua@S@R Homero Cruz
+385807@RR@7375@12993@@das Hortências@@69309500@Rua@S@R das Hortências
+385810@RR@7375@12985@@Idelson Cortes@@69312018@Rua@S@R Idelson Cortes
+385811@RR@7375@12993@@das Hortências@@69309510@Alameda@S@Al das Hortências
+385813@RR@7375@12981@@Inácio Magalhães@@69301340@Rua@S@R Inácio Magalhães
+385814@RR@7375@12975@@da Ingazeira@@69307430@Rua@S@R da Ingazeira
+385815@RR@7375@12980@@Inglaterra@@69311077@Rua@S@R Inglaterra
+385816@RR@7375@12989@@Inocêncio Garcia@@69304020@Rua@S@R Inocêncio Garcia
+385817@RR@7375@12989@@Irineu Lucena@@69304210@Rua@S@R Irineu Lucena
+385818@RR@7375@12987@@Itajara@@69313022@Rua@S@R Itajara
+385819@RR@7375@12980@@Itália@@69311084@Rua@S@R Itália
+385820@RR@7375@12980@@Iuguslávia@@69311087@Rua@S@R Iuguslávia
+385823@RR@7375@12986@@Jaçanã@@69314182@Rua@S@R Jaçanã
+385824@RR@7375@12980@@Jael Barradas@@69311091@Avenida@S@Av Jael Barradas
+385825@RR@7375@12981@@Jaime Brasil@@69301350@Avenida@S@Av Jaime Brasil
+385826@RR@7375@12973@@Jair da Silva Mota@@69312268@Rua@S@R Jair da S Mota
+385827@RR@7375@12975@@do Jambeiro@@69307420@Rua@S@R do Jambeiro
+385828@RR@7375@12988@@Jandyra Lago@@69309004@Rua@S@R Jandyra Lago
+385830@RR@7375@12989@@Japim@@69304457@Rua@S@R Japim
+385831@RR@7375@12975@@da Jaqueira@@69307410@Rua@S@R da Jaqueira
+385832@RR@7375@12994@@Jaraqui@@69314062@Rua@S@R Jaraqui
+385833@RR@7375@12972@@Jaricuna@@69306400@Rua@S@R Jaricuna
+385834@RR@7375@12993@@Lady-Laura@@69309520@Rua@S@R Lady-Laura
+385835@RR@7375@12975@@Desembargador Francisco Murilo Pinto@@69307460@Rua@S@R Des Francisco M Pinto
+385836@RR@7375@12972@@Jec@@69306200@Vila@S@Vl Jec
+385837@RR@7375@12990@@Jericó@@69314408@Rua@S@R Jericó
+385838@RR@7375@12988@@Jesus Cruz@@69309085@Rua@S@R Jesus Cruz
+385839@RR@7375@12985@@João Alencar@@69312042@Rua@S@R João Alencar
+385840@RR@7375@12989@@João Antony@@69304200@Rua@S@R João Antony
+385841@RR@7375@12998@@João Evangelista Pereira de Melo@@69313500@Rua@S@R João Evangel P de Melo
+385842@RR@7375@12985@@João Magalhães@@69312028@Rua@S@R João Magalhães
+385845@RR@7375@12995@@João Paulo I@@69305180@Rua@S@R João Paulo I
+385846@RR@7375@12972@@João Pereira Caldas@@69306450@Rua@S@R João P Caldas
+385847@RR@7375@12981@@João Pereira de Melo@@69301370@Avenida@S@Av João P de Melo
+385848@RR@7375@12972@@João XXIII@@69306160@Rua@S@R João XXIII
+385849@RR@7375@12999@@Joaquim Ferreira Lima@@69308180@Rua@S@R Joaquim F Lima
+385850@RR@7375@12989@@Tiririca@@69304121@Via de Acesso@S@V-Ac Tiririca
+385851@RR@7375@12989@@Joaquim Nabuco@@69304390@Rua@S@R Joaquim Nabuco
+385852@RR@7375@12972@@Joaquim Pinto S. Maior@@69306260@Rua@S@R Joaquim P S Maior
+385854@RR@7375@12988@@José Aleixo@@69309037@Travessa@S@Tv José Aleixo
+385855@RR@7375@12988@@José Aleixo@- até 479/480@69309030@Rua@S@R José Aleixo
+385856@RR@7375@12973@@José Aleixo@- de 2291/2292 a 3059/3060@69312272@Rua@S@R José Aleixo
+385858@RR@7375@12981@@José Coelho@@69301300@Rua@S@R José Coelho
+385859@RR@7375@12981@@José de Anchieta@@69301210@Rua@S@R José de Anchieta
+385860@RR@7375@12977@@José de Souza@@69303160@Rua@S@R José de Souza
+385862@RR@7375@12974@@José Francisco@@69309240@Rua@S@R José Francisco
+385863@RR@7375@12981@@José Magalhães@@69301360@Rua@S@R José Magalhães
+385864@RR@7375@12985@@Eurides Vasconcelos Rodrigues@@69312022@Rua@S@R Eurides V Rodrigues
+385867@RR@7375@12999@@Jósimo dos Santos@@69308190@Rua@S@R Jósimo dos Santos
+385868@RR@7375@12989@@Juaperi@@69304070@Rua@S@R Juaperi
+385870@RR@7375@12994@@Jundiá@@69314128@Rua@S@R Jundiá
+385871@RR@7375@12993@@das Tulipas@@69309530@Rua@S@R das Tulipas
+385872@RR@7375@12973@@Juvêncio Jaricuna de Albuquerque@@69312278@Rua@S@R Juvêncio J de Albuquerque
+385874@RR@7375@12987@@Korak@@69313035@Rua@S@R Korak
+385878@RR@7375@12991@@Massaranduba@@69307300@Rua@S@R Massaranduba
+385879@RR@7375@12991@@Cupiúba@@69307290@Rua@S@R Cupiúba
+385880@RR@7375@12991@@Zacaria Mendes Ribeiro@@69307280@Rua@S@R Zacaria M Ribeiro
+385881@RR@7375@12991@@Sucupira@@69307270@Rua@S@R Sucupira
+385882@RR@7375@12991@@Moisés de Souza Cruz@@69307260@Rua@S@R Moisés de S Cruz
+385883@RR@7375@12991@@Anísio de Carvalho@@69307250@Rua@S@R Anísio de Carvalho
+385884@RR@7375@12991@@Luiza Malaquias@@69307240@Rua@S@R Luiza Malaquias
+385885@RR@7375@12991@@Claudionor Freire@@69307230@Rua@S@R Claudionor Freire
+385886@RR@7375@12991@@Ministro Sérgio Mota@@69307210@Rua@S@R Min Sérgio Mota
+385887@RR@7375@12991@@Cerejeira@@69307200@Rua@S@R Cerejeira
+385888@RR@7375@12991@@Totinho Mota@@69307190@Rua@S@R Totinho Mota
+385889@RR@7375@12991@@Dionísio Brito de Araújo@@69307180@Rua@S@R Dionísio B de Araújo
+385890@RR@7375@12991@@Angelin@@69307170@Rua@S@R Angelin
+385891@RR@7375@12991@@Pau-rainha@@69307160@Rua@S@R Pau-rainha
+385892@RR@7375@12991@@Freijó@@69307150@Rua@S@R Freijó
+385893@RR@7375@12991@@Mirixi@@69307140@Rua@S@R Mirixi
+385894@RR@7375@12991@@Guariguara@@69307120@Rua@S@R Guariguara
+385895@RR@7375@12991@@Peroba@@69307110@Rua@S@R Peroba
+385896@RR@7375@12991@@Angico@@69307100@Rua@S@R Angico
+385897@RR@7375@12991@@Aroeira@@69307090@Rua@S@R Aroeira
+385898@RR@7375@12991@@Pinheiro@@69307080@Rua@S@R Pinheiro
+385899@RR@7375@12991@@Araucária@@69307070@Rua@S@R Araucária
+385900@RR@7375@12991@@Pau-Brasil@@69307050@Rua@S@R Pau-Brasil
+385901@RR@7375@12989@@Lafaiete Pinheiro@@69304290@Rua@S@R Lafaiete Pinheiro
+385903@RR@7375@12975@@da Laranjeira@@69307560@Rua@S@R da Laranjeira
+385905@RR@7375@12975@@da Limeira@@69307580@Rua@S@R da Limeira
+385908@RR@7375@12987@@Linha Fina@@69313038@Rua@S@R Linha Fina
+385909@RR@7375@12986@@Lírio do Campo@@69314204@Rua@S@R Lírio do Campo
+385910@RR@7375@12972@@Lírio do Vale@@69306250@Rua@S@R Lírio do Vale
+385912@RR@7375@12995@@Lobo D'Almada@@69305050@Rua@S@R Lobo D'Almada
+385913@RR@7375@12989@@Lourenço Belforte@@69304490@Rua@S@R Lourenço Belforte
+385914@RR@7375@12989@@Luiz Laranjeira@@69304150@Rua@S@R Luiz Laranjeira
+385916@RR@7375@12989@@Macejana@@69304031@Rua@S@R Macejana
+385917@RR@7375@12999@@Macunaíma@@69308240@Rua@S@R Macunaíma
+385919@RR@7375@12972@@Madre Radgund@@69306230@Rua@S@R Me Radgund
+385920@RR@7375@12999@@Madre Rosa@@69308220@Rua@S@R Me Rosa
+385921@RR@7375@12999@@Madre Silvestre@@69308230@Rua@S@R Me Silvestre
+385922@RR@7375@12972@@Maiogong@@69306420@Rua@S@R Maiogong
+385923@RR@7375@13000@@Major Carlos Mardel@@69305290@Rua@S@R Maj Carlos Mardel
+385924@RR@7375@12989@@Major Quadros@@69304310@Rua@S@R Maj Quadros
+385926@RR@7375@12994@@Mandi@@69314085@Rua@S@R Mandi
+385927@RR@7375@12975@@da Mangueira@@69307570@Rua@S@R da Mangueira
+385928@RR@7375@12989@@Manoel Aires@@69304410@Rua@S@R Manoel Aires
+385929@RR@7375@13000@@Manoel Barbosa de Araújo@@69305330@Rua@S@R Manoel B de Araújo
+385930@RR@7375@12989@@Manoel Costa Gomes@@69304300@Rua@S@R Manoel C Gomes
+385931@RR@7375@12973@@Manoel da Silva Mota@@69312292@Rua@S@R Manoel da S Mota
+385932@RR@7375@12974@@Manoel Felipe@- até 849/850@69309170@Rua@S@R Manoel Felipe
+385933@RR@7375@12973@@Manoel Felipe@- de 1817/1818 a 2579/2580@69312288@Rua@S@R Manoel Felipe
+385934@RR@7375@12996@@José Raimundo Silva@@69306640@Rua@S@R José R Silva
+385935@RR@7375@12973@@Manoel Vicente de Souza@@69312295@Rua@S@R Manoel V de Souza
+385936@RR@7375@12999@@Maracá@@69308250@Rua@S@R Maracá
+385937@RR@7375@12982@@Maranhão@@69305630@Rua@S@R Maranhão
+385938@RR@7375@12995@@Chico Lira@@69305093@Rua@S@R Chico Lira
+385939@RR@7375@12993@@das Margaridas@@69309550@Rua@S@R das Margaridas
+385940@RR@7375@12977@@Maria de Lurdes Coimbra@@69303250@Rua@S@R Maria de L Coimbra
+385943@RR@7375@12987@@Mariat@@69313042@Rua@S@R Mariat
+385944@RR@7375@12988@@Mário do Violão@@69309095@Rua@S@R Mário do Violão
+385946@RR@7375@12981@@Mário Homem de Melo@- até 727/728@69301200@Avenida@S@Av Mário H de Melo
+385947@RR@7375@12989@@Mário Homem de Melo@- de 729/730 a 2387/2388@69304350@Avenida@S@Av Mário H de Melo
+385948@RR@7375@12988@@Mário Homem de Melo@- de 2389/2390 a 3515/3516@69309010@Avenida@S@Av Mário H de Melo
+385949@RR@7375@12976@@Mário Homem de Melo@- de 4391/4392 a 5271/5272@69312155@Avenida@S@Av Mário H de Melo
+385951@RR@7375@12980@@Marrocos@@69311097@Rua@S@R Marrocos
+385952@RR@7375@12982@@Mato Grosso@@69305590@Rua@S@R Mato Grosso
+385954@RR@7375@12989@@Oswaldo Cruz@@69304032@Rua@S@R Oswaldo Cruz
+385955@RR@7375@12996@@Melvim Jones@@69306610@Rua@S@R Melvim Jones
+385956@RR@7375@13000@@Mestre Diogo@@69305410@Rua@S@R Mte Diogo
+385957@RR@7375@12980@@México@@69311101@Rua@S@R México
+385958@RR@7375@12990@@Midiã@@69314412@Rua@S@R Midiã
+385959@RR@7375@12996@@Miguel Lupe Martins@@69306715@Rua@S@R Miguel L Martins
+385960@RR@7375@12993@@das Mil Flores@@69309560@Rua@S@R das Mil Flores
+385961@RR@7375@12972@@Miss Loyd@@69306190@Rua@S@R Miss Loyd
+385964@RR@7375@12995@@Ismael Filgueiras@@69305240@Rua@S@R Ismael Filgueiras
+385965@RR@7375@12999@@Monte Castelo@@69308260@Avenida@S@Av Monte Castelo
+385966@RR@7375@12997@@Monte Roraima@@69303370@Rua@S@R Monte Roraima
+385967@RR@7375@12985@@A@@69312075@Rua@S@R A
+385968@RR@7375@12997@@Doutor Paulo Coelho Pereira@@69303380@Rua@S@R Dr Paulo C Pereira
+385969@RR@7375@12999@@Mundico Thomas@@69308270@Rua@S@R Mundico Thomas
+385970@RR@7375@12975@@do Muricizeiro@@69307470@Rua@S@R do Muricizeiro
+385971@RR@7375@12986@@das Muzendras@@69314188@Rua@S@R das Muzendras
+385973@RR@7375@12992@@Raimundo Pessoa de Almeida@@69316720@Rua@S@R Raimundo P de Almeida
+385974@RR@7375@12992@@Rosa Oliveira de Araujo@@69316730@Rua@S@R Rosa O de Araujo
+385975@RR@7375@12992@@Laura Pinheiro Maia@@69316738@Rua@S@R Laura P Maia
+385976@RR@7375@12992@@Betel@@69316772@Rua@S@R Betel
+385977@RR@7375@12992@@N-13@@69316732@Rua@S@R N-13
+385978@RR@7375@12992@@Calebe@@69316775@Rua@S@R Calebe
+385979@RR@7375@12992@@Benjamin Pereira de Melo@@69316735@Rua@S@R Benjamin P de Melo
+385980@RR@7375@12992@@Carmelo@@69316778@Rua@S@R Carmelo
+385981@RR@7375@12992@@Raimundo Rodrigues Coelho@@69316762@Avenida@S@Av Raimundo R Coelho
+385982@RR@7375@12992@@Eufrate@@69316780@Rua@S@R Eufrate
+385983@RR@7375@12992@@Francisco Sales Vieira@@69316725@Travessa@S@Tv Francisco S Vieira
+385984@RR@7375@12992@@Jafet@@69316782@Rua@S@R Jafet
+385985@RR@7375@12992@@Silo@@69316798@Rua@S@R Silo
+385986@RR@7375@12992@@Jericó@@69316785@Rua@S@R Jericó
+385987@RR@7375@12992@@Noemi@@69316792@Rua@S@R Noemi
+385988@RR@7375@12992@@Midiã@@69316790@Rua@S@R Midiã
+385989@RR@7375@12992@@Nivaldo da Conceição Gutierrez@@69316740@Rua@S@R Nivaldo da C Gutierrez
+385990@RR@7375@12992@@Alice Cabral@@69316692@Rua@S@R Alice Cabral
+385991@RR@7375@12992@@Solon Rodrigues Pessoa@@69316695@Rua@S@R Solon R Pessoa
+385992@RR@7375@12992@@N-6@@69316698@Rua@S@R N-6
+385994@RR@7375@12992@@José Cassimiro da Silva@@69316728@Rua@S@R José C da Silva
+385996@RR@7375@12988@@Nelson Albuquerque@@69309099@Rua@S@R Nelson Albuquerque
+385997@RR@7375@12980@@Nicarágua@@69311104@Rua@S@R Nicarágua
+385998@RR@7375@12977@@Nilo Brandão@@69303240@Rua@S@R Nilo Brandão
+385999@RR@7375@12995@@Nilo Colares@@69305110@Rua@S@R Nilo Colares
+386000@RR@7375@13000@@Nilo Melo@@69305320@Rua@S@R Nilo Melo
+386001@RR@7375@12990@@Noemi@@69314418@Rua@S@R Noemi
+386007@RR@7375@12989@@Nova Esperança@@69304050@Rua@S@R Nova Esperança
+386008@RR@7375@12980@@João Liberato@@69311107@Avenida@S@Av João Liberato
+386011@RR@7375@12995@@09 de Julho@@69305030@Rua@S@R 09 de Julho
+386012@RR@7375@12985@@Oder Brasil@@69312078@Rua@S@R Oder Brasil
+386013@RR@7375@12979@@Cabo-Polícia Militar José Tabira de Alencar Macêdo@@69313595@Avenida@S@Av Cb-PM José T de A Macêdo
+386015@RR@7375@12999@@Olavo Bilac@@69308280@Rua@S@R Olavo Bilac
+386016@RR@7375@12985@@Olívia Paixão da Silva@@69312088@Rua@S@R Olívia P da Silva
+386020@RR@7375@12993@@das Onze Horas@@69309570@Alameda@S@Al das Onze Horas
+386021@RR@7375@12987@@Opala@(Cj C. Servidor)@69313088@Rua@S@R Opala
+386022@RR@7375@12993@@das Orquídeas@@69309590@Rua@S@R das Orquídeas
+386023@RR@7375@12993@@das Orquídeas@@69309580@Alameda@S@Al das Orquídeas
+386024@RR@7375@12996@@Oscar Ferreira@@69306650@Rua@S@R Oscar Ferreira
+386026@RR@7375@12991@@Júlio Teixeira Ramalho@@69307340@Rua@S@R Júlio T Ramalho
+386027@RR@7375@12991@@Joaquim Olímpio dos Santos@@69307350@Rua@S@R Joaquim O dos Santos
+386028@RR@7375@12991@@João Aires Leitão@@69307370@Rua@S@R João A Leitão
+386029@RR@7375@12991@@Escritor Dorval de Magalhães@@69307380@Rua@S@R Esc Dorval de Magalhães
+386030@RR@7375@12991@@Projetada I@@69307390@Rua@S@R Projetada I
+386031@RR@7375@12991@@Rubelmar Carneiro de Souza@@69307400@Rua@S@R Rubelmar C de Souza
+386032@RR@7375@12997@@Pacaraima@@69303360@Rua@S@R Pacaraima
+386034@RR@7375@12999@@Padre Agostinho@@69308290@Rua@S@R Pe Agostinho
+386035@RR@7375@12995@@Padre Caleri@@69305250@Rua@S@R Pe Caleri
+386036@RR@7375@12993@@das Palmeiras@@69309600@Rua@S@R das Palmeiras
+386038@RR@7375@12980@@Panamá@@69311111@Rua@S@R Panamá
+386039@RR@7375@12987@@Pantera@@69313045@Rua@S@R Pantera
+386040@RR@7375@12993@@das Papoulas@@69309610@Rua@S@R das Papoulas
+386041@RR@7375@12982@@Pará@@69305450@Rua@S@R Pará
+386042@RR@7375@12980@@Paraguai@@69311114@Rua@S@R Paraguai
+386043@RR@7375@12982@@Paraíba@@69305470@Rua@S@R Paraíba
+386044@RR@7375@12982@@Paraná@@69305570@Rua@S@R Paraná
+386045@RR@7375@12972@@Paraviana@@69306240@Rua@S@R Paraviana
+386046@RR@7375@12987@@Paricá@@69313018@Rua@S@R Paricá
+386047@RR@7375@12997@@Parima@@69303320@Rua@S@R Parima
+386049@RR@7375@12977@@Pascoal Moreira Cabral@@69303200@Rua@S@R Pascoal M Cabral
+386051@RR@7375@12995@@Paulo Pereira@@69305210@Rua@S@R Paulo Pereira
+386052@RR@7375@12989@@Paulo VI@@69304160@Rua@S@R Paulo VI
+386053@RR@7375@12989@@Alalau@@69304500@Travessa@S@Tv Alalau
+386054@RR@7375@12999@@Pedro Álvares Cabral@@69308310@Rua@S@R Pedro A Cabral
+386055@RR@7375@12974@@Pedro Praça@- até 857/858@69309180@Rua@S@R Pedro Praça
+386056@RR@7375@12973@@Pedro Praça@- de 1651/1652 a 2575/2576@69312308@Rua@S@R Pedro Praça
+386057@RR@7375@12981@@Pedro Rodrigues@- até 451/452@69301180@Rua@S@R Pedro Rodrigues
+386058@RR@7375@12989@@Pedro Rodrigues@- de 453/454 ao fim@69304040@Rua@S@R Pedro Rodrigues
+386059@RR@7375@12978@@Pedro Teixeira@@69306482@Rua@S@R Pedro Teixeira
+386060@RR@7375@12988@@Pedro Vasconcelos@@69309105@Rua@S@R Pedro Vasconcelos
+386061@RR@7375@12994@@Peixe Agulha@@69314068@Rua@S@R Peixe Agulha
+386062@RR@7375@12994@@Peixe Boi@@69314074@Rua@S@R Peixe Boi
+386063@RR@7375@12994@@Peixe Espada@@69314076@Rua@S@R Peixe Espada
+386064@RR@7375@12989@@Clementino Gomes@@69304630@Travessa@S@Tv Clementino Gomes
+386065@RR@7375@12978@@Perimetral Norte@@69306492@Rua@S@R Perimetral Norte
+386066@RR@7375@12982@@Pernambuco@@69305540@Rua@S@R Pernambuco
+386067@RR@7375@12980@@Peru@@69311117@Rua@S@R Peru
+386068@RR@7375@12993@@das Petúnias@@69309620@Rua@S@R das Petúnias
+386069@RR@7375@12994@@Piaba@@69314108@Rua@S@R Piaba
+386070@RR@7375@12982@@Piauí@@69305650@Rua@S@R Piauí
+386072@RR@7375@12994@@Piraíba@@69314092@Rua@S@R Piraíba
+386073@RR@7375@12994@@Pirandirá@@69314072@Rua@S@R Pirandirá
+386074@RR@7375@12994@@Pirapitinga@@69314104@Rua@S@R Pirapitinga
+386075@RR@7375@12980@@Polônia@@69311121@Rua@S@R Polônia
+386077@RR@7375@13000@@Portugal@@69305400@Rua@S@R Portugal
+386078@RR@7375@12987@@Prêmio@@69313052@Rua@S@R Prêmio
+386079@RR@7375@12997@@Presidente Castelo Branco@@69303460@Avenida@S@Av Pres Castelo Branco
+386082@RR@7375@12986@@Cisne@@69314198@Rua@S@R Cisne
+386083@RR@7375@12988@@Princesa Isabel@- até 987 - lado ímpar@69309020@Avenida@S@Av Prca Isabel
+386084@RR@7375@12976@@Princesa Isabel@- de 1873 a 2781 - lado ímpar@69312175@Avenida@S@Av Prca Isabel
+386085@RR@7375@12981@@Professor Agnelo Bitencourt@- até 869/870@69301430@Rua@S@R Prf Agnelo Bitencourt
+386086@RR@7375@12995@@Professor Agnelo Bitencourt@- de 871/872 ao fim@69305170@Rua@S@R Prf Agnelo Bitencourt
+386087@RR@7375@12985@@Detson Mendes@@69312035@Rua@S@R Detson Mendes
+386088@RR@7375@12981@@Professor Diomedes Souto Maior@- até 373/374@69301260@Rua@S@R Prf Diomedes S Maior
+386089@RR@7375@12997@@Professor Diomedes Souto Maior@- de 375/376 ao fim@69303450@Rua@S@R Prf Diomedes S Maior
+386090@RR@7375@12997@@Professor Eloi Gomes@@69303390@Rua@S@R Prf Eloi Gomes
+386091@RR@7375@12985@@Antônio da Costa Uchôa@@69312025@Rua@S@R Antônio da C Uchôa
+386093@RR@7375@12988@@Professor Macêdo@@69309002@Rua@S@R Prf Macêdo
+386094@RR@7375@12994@@da Piscicultura@@69314098@Rua@S@R da Piscicultura
+386098@RR@7375@12983@@Raimunda de Oliveira Matos@@69313365@Rua@S@R Raimunda de O Matos
+386100@RR@7375@12983@@IV@@69313332@Rua@S@R IV
+386101@RR@7375@12999@@Quelçoene@@69308320@Rua@S@R Quelçoene
+386102@RR@7375@12989@@Quintino Level Lima@@69304170@Rua@S@R Quintino L Lima
+386104@RR@7375@12983@@José Macêdo Malaquias@@69313368@Rua@S@R José M Malaquias
+386105@RR@7375@12978@@Marina do Rio Branco@@69306598@Rua@S@R Marina do R Branco
+386107@RR@7375@12972@@Raimundo Aciole Cavalcante@@69306430@Rua@S@R Raimundo A Cavalcante
+386109@RR@7375@12985@@Raimundo Mendes de Souza Júnior@@69312032@Rua@S@R Raimundo M de S Júnior
+386110@RR@7375@12974@@Raimundo Penafort@- até 847/848@69309165@Rua@S@R Raimundo Penafort
+386111@RR@7375@12973@@Raimundo Penafort@- de 1817/1818 a 2591/2592@69312312@Rua@S@R Raimundo Penafort
+386112@RR@7375@12987@@Raio Solar@@69313055@Rua@S@R Raio Solar
+386113@RR@7375@12989@@Raul Cunha@@69304260@Rua@S@R Raul Cunha
+386114@RR@7375@12999@@Raul Pereira@@69308330@Rua@S@R Raul Pereira
+386115@RR@7375@12985@@Reinaldo Neves@@69312045@Rua@S@R Reinaldo Neves
+386116@RR@7375@12997@@Ricardo Frois@@69303350@Rua@S@R Ricardo Frois
+386117@RR@7375@12997@@Rio Alalaú@@69303270@Rua@S@R Rio Alalaú
+386118@RR@7375@12997@@Rio Anauá@@69303260@Rua@S@R Rio Anauá
+386119@RR@7375@12999@@Rio Branco@@69308360@Rua@S@R Rio Branco
+386120@RR@7375@12997@@Rio Caroebe@@69303280@Rua@S@R Rio Caroebe
+386121@RR@7375@12982@@Rio de Janeiro@@69305490@Avenida@S@Av Rio de Janeiro
+386122@RR@7375@12982@@Rio Grande do Norte@@69305460@Rua@S@R Rio G do Norte
+386123@RR@7375@12982@@Rio Grande do Sul@@69305530@Avenida@S@Av Rio G do Sul
+386124@RR@7375@12997@@Quitauaú@@69303290@Rua@S@R Quitauaú
+386125@RR@7375@12972@@Roberto Costa@@69306440@Rua@S@R Roberto Costa
+386126@RR@7375@12981@@Rocha Leal@- de 461/462 ao fim@69301400@Rua@S@R Rocha Leal
+386127@RR@7375@12995@@Rocha Leal@- até 459/460@69305097@Rua@S@R Rocha Leal
+386128@RR@7375@12977@@Rodrigo Pires de Figueiredo@@69303230@Rua@S@R Rodrigo P de Figueiredo
+386129@RR@7375@12996@@Rodrigues Coelho@@69306630@Rua@S@R Rodrigues Coelho
+386130@RR@7375@12999@@Rogério Mota@@69308340@Avenida@S@Av Rogério Mota
+386131@RR@7375@12980@@Romênia@@69311124@Rua@S@R Romênia
+386132@RR@7375@12989@@Romeu Magalhães@@69304140@Rua@S@R Romeu Magalhães
+386133@RR@7375@12982@@Rondônia@@69305500@Rua@S@R Rondônia
+386134@RR@7375@12986@@Águia@@69314202@Rua@S@R Águia
+386135@RR@7375@12989@@Rotary@@69304470@Rua@S@R Rotary
+386136@RR@7375@12989@@Rouxinol@@69304580@Rua@S@R Rouxinol
+386137@RR@7375@12989@@Rui Barbosa@@69304220@Rua@S@R Rui Barbosa
+386138@RR@7375@12992@@Lourival Coimbra@@69316690@Rua@S@R Lourival Coimbra
+386141@RR@7375@12992@@José Renato Hadad@@69316752@Rua@S@R José R Hadad
+386142@RR@7375@12992@@Professora Antonia Cutrim@@69316755@Rua@S@R Prfa Antonia Cutrim
+386143@RR@7375@12992@@Abel Monteiro Reis@@69316758@Avenida@S@Av Abel M Reis
+386144@RR@7375@12992@@Luiz Tavares da Silva@@69316765@Rua@S@R Luiz T da Silva
+386148@RR@7375@12992@@Pedro Aldemar Bantim@@69316705@Rua@S@R Pedro A Bantim
+386151@RR@7375@12992@@Canaã@@69316800@Travessa@S@Tv Canaã
+386157@RR@7375@12992@@Papa João Paulo II@@69316708@Rua@S@R Papa João Paulo II
+386165@RR@7375@12973@@Salomão Matroniano de Souza Cruz@@69312315@Rua@S@R Salomão M de S Cruz
+386166@RR@7375@12999@@Salustino Liberato@@69308400@Rua@S@R Salustino Liberato
+386167@RR@7375@12989@@Amajari@@69304590@Travessa@S@Tv Amajari
+386168@RR@7375@12982@@Santa Catarina@@69305580@Rua@S@R Sta Catarina
+386169@RR@7375@12999@@Santa Maria@@69308370@Rua@S@R Sta Maria
+386170@RR@7375@12999@@Santa Rosa@@69308380@Rua@S@R Sta Rosa
+386171@RR@7375@12984@@Santo Antônio@@69317320@Avenida@S@Av Sto Antônio
+386172@RR@7375@12989@@Anísio Paulo de Lucena@@69304002@Alameda@S@Al Anísio P de Lucena
+386174@RR@7375@12996@@Santos Dumont@- até 885/886@69306680@Avenida@S@Av Stos Dumont
+386175@RR@7375@12990@@Lourival Coimbra@@69314414@Rua@S@R Lourival Coimbra
+386176@RR@7375@12984@@São José@@69317300@Avenida@S@Av S José
+386177@RR@7375@12999@@São Martinho@@69308390@Rua@S@R S Martinho
+386178@RR@7375@12982@@São Paulo@@69305480@Avenida@S@Av S Paulo
+386181@RR@7375@12975@@Emanoela Jeiza@@69307500@Rua@S@R Emanoela Jeiza
+386182@RR@7375@12994@@Sardinha@@69314117@Rua@S@R Sardinha
+386187@RR@7375@12983@@José da Silva Pereira Campos@@69313338@Rua@S@R José da S P Campos
+386188@RR@7375@12982@@Sergipe@@69305610@Rua@S@R Sergipe
+386190@RR@7375@12983@@Oscar Martins dos Santos@@69313342@Rua@S@R Oscar M dos Santos
+386191@RR@7375@12978@@07 de Setembro@@69306530@Rua@S@R 07 de Setembro
+386192@RR@7375@12975@@da Bacabeira@@69307717@Rua@S@R da Bacabeira
+386193@RR@7375@12989@@Severino Mineiro@@69304480@Rua@S@R Severino Mineiro
+386194@RR@7375@12977@@Severino Mineiro@@69303170@Rua@S@R Severino Mineiro
+386195@RR@7375@12990@@Sião@@69314416@Rua@S@R Sião
+386196@RR@7375@12987@@Silver@@69313058@Rua@S@R Silver
+386199@RR@7375@12997@@Teixeira Guerra@@69303272@Rua@S@R Teixeira Guerra
+386200@RR@7375@12975@@da Sirigueleira@@69307755@Rua@S@R da Sirigueleira
+386205@RR@7375@12985@@Sócrates Peixoto@@69312095@Rua@S@R Sócrates Peixoto
+386206@RR@7375@12997@@Sorocaima@@69303400@Rua@S@R Sorocaima
+386207@RR@7375@12999@@Suapi@@69308410@Rua@S@R Suapi
+386208@RR@7375@12980@@Suécia@@69311127@Rua@S@R Suécia
+386209@RR@7375@12980@@Suíça@@69311131@Rua@S@R Suíça
+386210@RR@7375@12994@@Surubim@@69314132@Rua@S@R Surubim
+386213@RR@7375@12997@@Tacutu@@69303462@Rua@S@R Tacutu
+386214@RR@7375@12975@@da Tamarineira@@69307540@Rua@S@R da Tamarineira
+386215@RR@7375@12994@@Tambaqui@@69314065@Rua@S@R Tambaqui
+386216@RR@7375@12999@@dos Tangarás@@69308420@Rua@S@R dos Tangarás
+386217@RR@7375@12975@@da Tangerineira@@69307550@Rua@S@R da Tangerineira
+386218@RR@7375@12975@@do Taperebazeiro@@69307738@Rua@S@R do Taperebazeiro
+386219@RR@7375@12993@@dos Taxis@@69309650@Rua@S@R dos Taxis
+386220@RR@7375@12976@@Tete Magalhães@@69312198@Rua@S@R Tete Magalhães
+386222@RR@7375@12993@@dos Crisântemos@@69309660@Rua@S@R dos Crisântemos
+386223@RR@7375@12999@@Tenente Batista@@69308430@Rua@S@R Ten Batista
+386224@RR@7375@12972@@Tenente Cícero@@69306340@Rua@S@R Ten Cícero
+386225@RR@7375@12978@@Tenente Francisco@@69306520@Rua@S@R Ten Francisco
+386226@RR@7375@12988@@Tenente Guimarães@@69309109@Rua@S@R Ten Guimarães
+386227@RR@7375@12999@@Tepequem@@69308440@Rua@S@R Tepequem
+386230@RR@7375@12994@@Tilápia@@69314078@Rua@S@R Tilápia
+386231@RR@7375@12989@@Tinoco Valente@@69304380@Rua@S@R Tinoco Valente
+386233@RR@7375@12987@@Topázio@(Cj C Servidor)@69313095@Rua@S@R Topázio
+386234@RR@7375@12985@@Tota Terêncio@@69312008@Rua@S@R Tota Terêncio
+386235@RR@7375@12994@@Traíra@@69314096@Rua@S@R Traíra
+386236@RR@7375@12978@@José Faustino da Silva@@69306590@Rua@S@R José F da Silva
+386237@RR@7375@12979@@Soldado-Polícia Militar Alfredo Jorge Filho@@69313608@Rua@S@R Sd-PM Alfredo J Filho
+386238@RR@7375@12983@@Jairo de Andrade Lima@@69313328@Rua@S@R Jairo de A Lima
+386239@RR@7375@12993@@das Três Marias@@69309670@Rua@S@R das Três Marias
+386240@RR@7375@12993@@dos Trevos-de-quatro-folhas@@69309680@Rua@S@R dos Trevos-de-quatro-folhas
+386242@RR@7375@12983@@Antonio Raimundo Diniz@@69313362@Rua@S@R Antonio R Diniz
+386243@RR@7375@12978@@13 de Maio@@69306560@Travessa@S@Tv 13 de Maio
+386244@RR@7375@12978@@13 de Maio@@69306550@Rua@S@R 13 de Maio
+386245@RR@7375@12975@@Tucumãzeiro@@69307520@Rua@S@R Tucumãzeiro
+386246@RR@7375@12994@@Tucunaré@@69314094@Rua@S@R Tucunaré
+386247@RR@7375@12987@@Turmalina@(Cj C Servidor)@69313078@Rua@S@R Turmalina
+386248@RR@7375@12987@@Turquesas@(Cj C Servidor)@69313102@Rua@S@R Turquesas
+386250@RR@7375@12999@@Uailã@@69308450@Rua@S@R Uailã
+386251@RR@7375@12972@@Uapixana@@69306280@Rua@S@R Uapixana
+386252@RR@7375@12999@@Uassari@@69308460@Rua@S@R Uassari
+386253@RR@7375@12972@@Uaicá@@69306410@Rua@S@R Uaicá
+386254@RR@7375@12999@@Uiramutã@@69308470@Rua@S@R Uiramutã
+386255@RR@7375@12975@@Uitizeiro@@69307480@Rua@S@R Uitizeiro
+386256@RR@7375@12983@@Nagib Eluan@@69313322@Travessa@S@Tv Nagib Eluan
+386257@RR@7375@12997@@Uraricuera@@69303453@Rua@S@R Uraricuera
+386258@RR@7375@12987@@Uruguai@@69313062@Rua@S@R Uruguai
+386259@RR@7375@12980@@Uruguai@@69311134@Rua@S@R Uruguai
+386261@RR@7375@12995@@Valério Magalhães@@69305150@Rua@S@R Valério Magalhães
+386262@RR@7375@12989@@Vasco da Gama@@69304060@Rua@S@R Vasco da Gama
+386263@RR@7375@12976@@Velho Dandãe@@69312205@Rua@S@R Vo Dandãe
+386264@RR@7375@12993@@Venezuela@- até 1461 - lado ímpar@69309690@Avenida@S@Av Venezuela
+386265@RR@7375@12985@@Venezuela@- de 2163 a 3603 - lado ímpar@69312102@Avenida@S@Av Venezuela
+386266@RR@7375@12973@@Vicente Correia Lira@@69312325@Rua@S@R Vicente C Lira
+386267@RR@7375@12978@@Victor Hugo@@69306485@Rua@S@R Victor Hugo
+386268@RR@7375@12981@@Victor Maia@@69301170@Rua@S@R Victor Maia
+386269@RR@7375@12995@@Victor Mota@@69305230@Rua@S@R Victor Mota
+386270@RR@7375@12981@@Vidal de Negreiros@@69301230@Rua@S@R Vidal de Negreiros
+386271@RR@7375@12989@@Vila Gran Caprita@@69304100@Rua@S@R Vila G Caprita
+386276@RR@7375@12983@@Adonias Rabelo de Araújo@@69313385@Rua@S@R Adonias R de Araújo
+386277@RR@7375@12983@@Alípio Freire de Lima@(Cj Cambara)@69313402@Rua@S@R Alípio F de Lima
+386278@RR@7375@12978@@25 de Agosto@@69306540@Rua@S@R 25 de Agosto
+386279@RR@7375@12979@@Sabá Cunha@@69313618@Avenida@S@Av Sabá Cunha
+386280@RR@7375@12983@@Guarda Territorial Lino Santos@@69313392@Rua@S@R Gt Lino Santos
+386281@RR@7375@12983@@Tenente Alencar@(Cj Cambara)@69313415@Rua@S@R Ten Alencar
+386282@RR@7375@12979@@João Liberato@@69313615@Avenida@S@Av João Liberato
+386283@RR@7375@12983@@Armando Gomes@@69313398@Rua@S@R Armando Gomes
+386284@RR@7375@12983@@Raimunda Mendes de Almeida@@69313405@Rua@S@R Raimunda M de Almeida
+386285@RR@7375@12983@@Nagib Eluan@@69313408@Rua@S@R Nagib Eluan
+386286@RR@7375@12983@@XIV-A@(Cj Cambara)@69313395@Rua@S@R XIV-A
+386288@RR@7375@12983@@Calebe@(Cj Cambara)@69313388@Rua@S@R Calebe
+386289@RR@7375@12993@@das Extremosas@@69309700@Rua@S@R das Extremosas
+386290@RR@7375@13000@@Vitorino Pinto@@69305300@Rua@S@R Vitorino Pinto
+386291@RR@7375@12976@@Vovó Júlia@@69312208@Rua@S@R Vovó Júlia
+386294@RR@7375@12989@@Xandico Lima@@69304190@Rua@S@R Xandico Lima
+386295@RR@7375@12989@@Xavier de Andrade@@69304330@Rua@S@R Xavier de Andrade
+386297@RR@7375@12972@@Xiriana@@69306320@Rua@S@R Xiriana
+386298@RR@7375@12985@@Yeyê Coelho@@69312105@Rua@S@R Yeyê Coelho
+386305@RR@7375@12984@@Francisco Anacleto da Silva@@69317322@Rua@S@R Francisco A da Silva
+386308@RR@7375@12984@@Adail Oliveira Rosa@@69317324@Rua@S@R Adail O Rosa
+386311@RR@7375@12981@@Alfredo Cruz@@69301140@Rua@S@R Alfredo Cruz
+386314@RR@7375@12981@@Castelo Branco@@69301280@Travessa@S@Tv Castelo Branco
+386315@RR@7375@12983@@II@@69313325@Rua@S@R II
+386316@RR@7375@12981@@Pedrinho Filho@@69301240@Rua@S@R Pedrinho Filho
+386317@RR@7375@12989@@João Barbosa@@69304335@Rua@S@R João Barbosa
+386318@RR@7375@12991@@Caimbé@@69307130@Rua@S@R Caimbé
+386320@RR@7375@12989@@Nicolau Hostman@@69304340@Rua@S@R Nicolau Hostman
+386321@RR@7375@12994@@Pirarara@@69314112@Rua@S@R Pirarara
+386324@RR@7375@12995@@Tiradentes@@69305060@Rua@S@R Tiradentes
+386325@RR@7375@12984@@Afonso dos Santos Pereira@@69317326@Rua@S@R Afonso dos Stos Pereira
+386328@RR@7375@12980@@174@@69311137@Rodovia@S@Rod 174
+386330@RR@7375@12979@@Soldado-Polícia Militar Gudivaldo Rodrigues de Peixoto@@69313575@Rua@S@R Sd-PM Gudivaldo R de Peixoto
+386331@RR@7375@13000@@Gustavo Mesquita@@69305420@Rua@S@R Gustavo Mesquita
+386332@RR@7375@13000@@Joaquim Thomé@@69305390@Rua@S@R Joaquim Thomé
+386333@RR@7375@13000@@Manoel Dias de Almeida@@69305280@Rua@S@R Manoel D de Almeida
+386334@RR@7375@12988@@Mestre Albano@- de 2 a 1312 - lado par@69309040@Rua@S@R Mte Albano
+386335@RR@7375@12973@@Mestre Albano@- de 3045 a 3801 - lado ímpar@69312298@Rua@S@R Mte Albano
+386337@RR@7375@12991@@João Galdino de Páscoa@@69307360@Rua@S@R João G de Páscoa
+386338@RR@7375@12999@@Ribeiro Campos@@69308350@Rua@S@R Ribeiro Campos
+386339@RR@7375@12997@@Sizenando Diniz@@69303440@Rua@S@R Sizenando Diniz
+386340@RR@7375@12979@@Deco Fonteles@@69313610@Rua@S@R Deco Fonteles
+386341@RR@7375@12985@@Zuza Piauí@@69312108@Rua@S@R Zuza Piauí
+386342@RR@7375@12972@@Abraim Xaud@@69306210@Rua@S@R Abraim Xaud
+386343@RR@7375@12973@@Amâncio Ferreira de Lucena@@69312245@Rua@S@R Amâncio F de Lucena
+386344@RR@7375@12980@@Áustria@@69311014@Rua@S@R Áustria
+386347@RR@7375@12996@@Capitão Bessa@@69306620@Rua@S@R Cap Bessa
+386348@RR@7375@12999@@Cotingo@@69308140@Rua@S@R Cotingo
+386349@RR@7375@12989@@Dalicio Farias@@69304180@Rua@S@R Dalicio Farias
+386350@RR@7375@12982@@Espírito Santo@@69305600@Rua@S@R Espírito Santo
+386351@RR@7375@12980@@Zuldimar Saraiva de Pinho@@69311061@Rua@S@R Zuldimar S de Pinho
+386353@RR@7375@12980@@Irlanda@@69311081@Rua@S@R Irlanda
+386354@RR@7375@12989@@Jacamin@@69304520@Rua@S@R Jacamin
+386355@RR@7375@12988@@José Pinheiro@@69309089@Rua@S@R José Pinheiro
+386356@RR@7375@12999@@Jurinéia@@69308200@Rua@S@R Jurinéia
+386357@RR@7375@12991@@Carnaúba@@69307060@Rua@S@R Carnaúba
+386358@RR@7375@12982@@Minas Gerais@@69305660@Avenida@S@Av Minas Gerais
+386359@RR@7375@12992@@Sião@@69316795@Rua@S@R Sião
+386360@RR@7375@12983@@VIII@@69313345@Rua@S@R VIII
+386362@RR@7375@12999@@Pedra Pintada@@69308300@Rua@S@R Pedra Pintada
+386363@RR@7375@12987@@Postal@@69313048@Rua@S@R Postal
+386364@RR@7375@12989@@Rodrigo Farias@@69304130@Rua@S@R Rodrigo Farias
+386365@RR@7375@12993@@das Rosas@@69309630@Rua@S@R das Rosas
+386366@RR@7375@12987@@Safira@(Cj C Servidor)@69313105@Rua@S@R Safira
+386367@RR@7375@12995@@Souza Júnior@@69305040@Rua@S@R Souza Júnior
+386368@RR@7375@12993@@dos Tajás@@69309640@Rua@S@R dos Tajás
+386369@RR@7375@12989@@Elias Pessoa@@69304467@Rua@S@R Elias Pessoa
+386370@RR@7375@12987@@Vai e Volta@@69313065@Rua@S@R Vai E Volta
+386371@RR@7375@12993@@das Vitórias Régias@@69309710@Rua@S@R das Vitórias Régias
+386373@RR@7375@12981@@Araújo Filho@@69301090@Rua@S@R Araújo Filho
+386374@RR@7375@12980@@Bélgica@@69311017@Rua@S@R Bélgica
+386375@RR@7375@12983@@XVIII@@69313378@Rua@S@R XVIII
+386377@RR@7375@12980@@Japão@@69311094@Rua@S@R Japão
+386378@RR@7375@12985@@Deco Fonteles@@69312072@Rua@S@R Deco Fonteles
+386379@RR@7375@12972@@Leopoldo Peres@@69306180@Rua@S@R Leopoldo Peres
+386380@RR@7375@12981@@Major Manoel Correia@- até 249/250@69301450@Rua@S@R Maj Manoel Correia
+386381@RR@7375@12995@@Major Manoel Correia@- de 251/252 ao fim@69305100@Rua@S@R Maj Manoel Correia
+386382@RR@7375@12992@@Jerusalém@@69316788@Rua@S@R Jerusalém
+386383@RR@7375@12994@@Pescada@@69314122@Rua@S@R Pescada
+386384@RR@7375@12996@@Presidente Costa e Silva@@69306670@Rua@S@R Pres Costa E Silva
+386386@RR@7375@12973@@Temístocles Henrique Tribueiro@@69312322@Rua@S@R Temístocles H Tribueiro
+386388@RR@7375@12998@@Dalício Andrade de Faria@@69313515@Rua@S@R Dalício A de Faria
+386389@RR@7375@12980@@Alemanha@@69311006@Rua@S@R Alemanha
+386392@RR@7375@12997@@Caio Vasconcelos@@69303470@Rua@S@R Caio Vasconcelos
+386393@RR@7375@12972@@Lourival Soares da Silva@@69306270@Rua@S@R Lourival S da Silva
+386394@RR@7375@13000@@Edmur Oliva@@69305440@Rua@S@R Edmur Oliva
+386395@RR@7375@12981@@Floriano Peixoto@@69301320@Rua@S@R Floriano Peixoto
+386397@RR@7375@12980@@Hungria@@69311074@Rua@S@R Hungria
+386399@RR@7375@12989@@José Coelho@@69304370@Rua@S@R José Coelho
+386400@RR@7375@12991@@Darôra@@69307220@Rua@S@R Darôra
+386401@RR@7375@12972@@Macuxi@@69306310@Rua@S@R Macuxi
+386402@RR@7375@12986@@das Margaridas@@69314194@Rua@S@R das Margaridas
+386403@RR@7375@12997@@Maú@@69303410@Rua@S@R Maú
+386405@RR@7375@12983@@Heráclito Cavalcante@@69313348@Rua@S@R Heráclito Cavalcante
+386406@RR@7375@12986@@das Orquídeas@@69314206@Rua@S@R das Orquídeas
+386409@RR@7375@12996@@Rio de Janeiro@@69306730@Travessa@S@Tv Rio de Janeiro
+386412@RR@7375@12985@@Sizenando C. Cavalcante@@69312098@Rua@S@R Sizenando C Cavalcante
+386413@RR@7375@12983@@Jerusalém@(Cj Cambara)@69313418@Rua@S@R Jerusalém
+386414@RR@7375@12983@@Dahas Abrahim@(Cj Cambara)@69313412@Rua@S@R Dahas Abrahim
+386415@RR@7375@12989@@Vereador Estácio Pereira de Melo@@69304640@Avenida@S@Av Ver Estácio P de Melo
+386419@RR@7375@34956@@Manoel Pereira de Castro@@69312333@Rua@S@R Manoel P de Castro
+386420@RR@7375@34956@@São Leopoldo@@69312335@Rua@S@R S Leopoldo
+386421@RR@7375@34956@@São Cristóvão@@69312337@Rua@S@R S Cristóvão
+386422@RR@7375@34956@@São José@@69312339@Rua@S@R S José
+386423@RR@7375@34956@@Santa Luzia@@69312341@Rua@S@R Sta Luzia
+386424@RR@7375@34956@@São Jorge@@69312343@Rua@S@R S Jorge
+386425@RR@7375@34956@@Santa Rita@@69312345@Rua@S@R Sta Rita
+386426@RR@7375@34956@@São Francisco@@69312347@Rua@S@R S Francisco
+386427@RR@7375@34956@@Santa Clara@@69312349@Rua@S@R Sta Clara
+386428@RR@7375@34956@@São João@@69312351@Rua@S@R S João
+386429@RR@7375@34956@@São Silvestre@@69312353@Rua@S@R S Silvestre
+386430@RR@7375@34956@@São Pedro@@69312355@Rua@S@R S Pedro
+386431@RR@7375@34956@@São Vicente@@69312357@Rua@S@R S Vicente
+386432@RR@7375@34956@@Frederico Francisco Fontelles@@69312359@Rua@S@R Frederico F Fontelles
+386433@RR@7375@34956@@Dandãe Pinho@@69312361@Rua@S@R Dandãe Pinho
+386434@RR@7375@34956@@Dona Marina Carneiro@@69312363@Rua@S@R Da Marina Carneiro
+386435@RR@7375@34956@@João Batista@@69312365@Rua@S@R João Batista
+386436@RR@7375@34956@@José Francisco@@69312367@Travessa@S@Tv José Francisco
+386437@RR@7375@34956@@São Camilo@@69312369@Rua@S@R S Camilo
+386438@RR@7375@34956@@São Mateus@@69312371@Rua@S@R S Mateus
+386439@RR@7375@34956@@Guanabara@@69312373@Travessa@S@Tv Guanabara
+386440@RR@7375@34956@@São Marcos@@69312375@Rua@S@R S Marcos
+386441@RR@7375@34956@@Centenário@@69312377@Avenida@S@Av Centenário
+386442@RR@7375@34956@@7 de Setembro@@69312379@Rua@S@R 7 de Setembro
+386443@RR@7375@34956@@01 de Maio@@69312381@Rua@S@R 01 de Maio
+386444@RR@7375@34956@@Nossa Senhora Aparecida@@69312383@Rua@S@R N Sra Aparecida
+386445@RR@7375@34956@@São Raimundo@@69312385@Rua@S@R S Raimundo
+386446@RR@7375@34956@@B@@69312387@Rua@S@R B
+386447@RR@7375@34960@@DI-N@@69315202@Rua@S@R DI-N
+386448@RR@7375@34960@@DI-D@@69315205@Rua@S@R DI-D
+386449@RR@7375@34960@@DI-C@@69315208@Rua@S@R DI-C
+386450@RR@7375@34960@@DI-B@@69315212@Rua@S@R DI-B
+386451@RR@7375@34960@@DI-A@@69315215@Rua@S@R DI-A
+386452@RR@7375@34960@@Parque Industrial@@69315218@Rua@S@R Parque Industrial
+386453@RR@7375@34960@@Carminha Carneiro@@69315222@Rua@S@R Carminha Carneiro
+386454@RR@7375@34960@@DI-G@@69315225@Rua@S@R DI-G
+386455@RR@7375@34960@@Antônio Firmino da Silva@@69315228@Rua@S@R Antônio F da Silva
+386456@RR@7375@34960@@Antônio Eudes de Souza@@69315232@Rua@S@R Antônio E de Souza
+386457@RR@7375@34960@@Ricardo Madruga Saraiva@@69315235@Rua@S@R Ricardo M Saraiva
+386458@RR@7375@34960@@Andréa Madruga Saraiva@@69315238@Rua@S@R Andréa M Saraiva
+386459@RR@7375@34960@@DI-J@@69315242@Rua@S@R DI-J
+386460@RR@7375@34960@@João Brito de Oliveira@@69315245@Rua@S@R João B de Oliveira
+386461@RR@7375@34960@@Alexandre Barbosa Monteiro@@69315248@Rua@S@R Alexandre B Monteiro
+386462@RR@7375@34960@@Santília de Oliveira Cruz@@69315252@Rua@S@R Santília de O Cruz
+386463@RR@7375@34960@@DI-V@@69315255@Rua@S@R DI-V
+386464@RR@7375@34960@@DI-X@@69315258@Rua@S@R DI-X
+386465@RR@7375@34960@@das Indústrias@@69315262@Avenida@S@Av das Indústrias
+386466@RR@7375@34960@@Manoel Mendes Silva@@69315265@Rua@S@R Manoel M Silva
+386467@RR@7375@34960@@Ana Maria Rodrigues de Souza@@69315268@Rua@S@R Ana M R de Souza
+386468@RR@7375@34960@@Raimunda Feitosa de Oliveira@@69315272@Rua@S@R Raimunda F de Oliveira
+386469@RR@7375@34960@@Luiz Carlos Rodrigues de Oliveira@@69315275@Rua@S@R Luiz C R de Oliveira
+386470@RR@7375@34960@@DI-Q@@69315278@Travessa@S@Tv DI-Q
+386471@RR@7375@34960@@Adalberto Penteado Duarte@@69315282@Rua@S@R Adalberto P Duarte
+386472@RR@7375@34960@@DI-T@@69315285@Rua@S@R DI-T
+386473@RR@7375@34960@@DI-T@@69315288@Travessa@S@Tv DI-T
+386474@RR@7375@34960@@Brasil@@69315292@Avenida@S@Av Brasil
+386475@RR@7375@34977@@Santo Agostinho@@69312490@Rua@S@R Sto Agostinho
+386476@RR@7375@34977@@Floriano Peixoto@@69312495@Rua@S@R Floriano Peixoto
+386477@RR@7375@34977@@Santa Maria@@69312500@Rua@S@R Sta Maria
+386478@RR@7375@34977@@Monte Sinai@@69312503@Rua@S@R Monte Sinai
+386479@RR@7375@34977@@Boa Esperança@@69312505@Rua@S@R Boa Esperança
+386480@RR@7375@34977@@Universal@@69312510@Travessa@S@Tv Universal
+386481@RR@7375@34977@@Juazeiro@@69312513@Rua@S@R Juazeiro
+386482@RR@7375@34977@@Santa Inês@@69312515@Rua@S@R Sta Inês
+386483@RR@7375@34977@@Caruaru@@69312520@Rua@S@R Caruaru
+386484@RR@7375@34977@@de Acesso I@@69312523@Rua@S@R de Acesso I
+386485@RR@7375@34977@@Raimundo da Silva Bríglia@@69312525@Rua@S@R Raimundo da S Bríglia
+386486@RR@7375@34977@@de Acesso I@@69312530@Travessa@S@Tv de Acesso I
+386487@RR@7375@34977@@João Dantas@@69312533@Rua@S@R João Dantas
+386488@RR@7375@34977@@Salomão Lima da Silva@@69312535@Travessa@S@Tv Salomão L da Silva
+386489@RR@7375@34977@@Maranata@@69312540@Travessa@S@Tv Maranata
+386490@RR@7375@34977@@04@@69312543@Travessa@S@Tv 04
+386491@RR@7375@34977@@03@@69312545@Travessa@S@Tv 03
+386492@RR@7375@34977@@Thomas Wilson@@69312550@Travessa@S@Tv Thomas Wilson
+386493@RR@7375@34977@@Levina Alves da Silva@@69312553@Travessa@S@Tv Levina A da Silva
+386494@RR@7375@34977@@Adriana Matos da Silva@@69312555@Travessa@S@Tv Adriana M da Silva
+386495@RR@7375@34977@@Universal@@69312560@Rua@S@R Universal
+386496@RR@7375@34977@@São Paulo@@69312563@Rua@S@R S Paulo
+386497@RR@7375@34977@@Santa Cecília@@69312565@Rua@S@R Sta Cecília
+386498@RR@7375@34977@@Imperatriz@@69312570@Rua@S@R Imperatriz
+386499@RR@7375@34977@@Santa Maria@@69312573@Travessa@S@Tv Sta Maria
+386500@RR@7375@34977@@Santa Marta@@69312575@Rua@S@R Sta Marta
+386501@RR@7375@34977@@Abel Camuça Neto@@69312580@Rua@S@R Abel C Neto
+386502@RR@7375@34977@@Bela Vista@@69312583@Rua@S@R Bela Vista
+386503@RR@7375@34977@@São Rafael@@69312585@Rua@S@R S Rafael
+386504@RR@7375@34977@@Santa Lúcia@@69312590@Rua@S@R Sta Lúcia
+386505@RR@7375@34977@@Sobral@@69312593@Rua@S@R Sobral
+386506@RR@7375@34977@@Beira Rio@@69312595@Rua@S@R Beira Rio
+386508@RR@7375@35028@@Manaus@@69316184@Rua@S@R Manaus
+386509@RR@7375@35028@@Goiânia@@69316186@Rua@S@R Goiânia
+386510@RR@7375@35028@@Imperatriz@@69316188@Rua@S@R Imperatriz
+386511@RR@7375@35028@@Curitiba@@69316192@Rua@S@R Curitiba
+386512@RR@7375@35028@@Florianópolis@@69316194@Rua@S@R Florianópolis
+386513@RR@7375@35028@@Porto Alegre@@69316196@Rua@S@R Porto Alegre
+386514@RR@7375@35028@@NC-P@@69316198@Rua@S@R NC-P
+386515@RR@7375@35028@@NC-O@@69316202@Rua@S@R NC-O
+386516@RR@7375@35028@@Cabo Mozart Paulo Clemente@@69316204@Rua@S@R Cb Mozart P Clemente
+386517@RR@7375@35028@@Maceió@@69316206@Rua@S@R Maceió
+386518@RR@7375@35028@@Campo Grande@@69316212@Rua@S@R Campo Grande
+386519@RR@7375@35028@@Boa Vista@@69316208@Rua@S@R Boa Vista
+386520@RR@7375@35028@@Belo Horizonte@@69316214@Rua@S@R Belo Horizonte
+386521@RR@7375@35028@@Vitória@@69316216@Rua@S@R Vitória
+386522@RR@7375@35028@@Adolfo Moratelli@@69316218@Rua@S@R Adolfo Moratelli
+386523@RR@7375@35028@@Parque Igarapé@@69316222@Avenida@S@Av Parque Igarapé
+386524@RR@7375@35028@@Vicente Mota Rodrigues@@69316224@Rua@S@R Vicente M Rodrigues
+386525@RR@7375@35028@@João Ferreira Mota@@69316226@Rua@S@R João F Mota
+386526@RR@7375@35028@@dos Trabalhadores@@69316228@Rua@S@R dos Trabalhadores
+386527@RR@7375@35028@@Cuiabá@@69316232@Rua@S@R Cuiabá
+386528@RR@7375@35028@@Salvador@@69316234@Rua@S@R Salvador
+386529@RR@7375@35028@@Teresina@@69316236@Rua@S@R Teresina
+386530@RR@7375@35028@@Aracaju@@69316238@Rua@S@R Aracaju
+386531@RR@7375@35028@@João Pessoa@@69316242@Rua@S@R João Pessoa
+386532@RR@7375@35028@@Fortaleza@@69316244@Rua@S@R Fortaleza
+386533@RR@7375@35028@@Natal@@69316246@Rua@S@R Natal
+386534@RR@7375@35028@@Recife@@69316248@Rua@S@R Recife
+386535@RR@7375@35028@@São Luiz@@69316252@Rua@S@R S Luiz
+386536@RR@7375@35028@@Belém@@69316254@Rua@S@R Belém
+386537@RR@7375@35028@@Palmas@@69316256@Rua@S@R Palmas
+386538@RR@7375@35028@@Porto Velho@@69316258@Rua@S@R Porto Velho
+386539@RR@7375@35028@@Macapá@@69316262@Rua@S@R Macapá
+386540@RR@7375@35028@@Brasil@@69316264@Avenida@S@Av Brasil
+386541@RR@7375@35028@@NC-R@@69316266@Rua@S@R NC-R
+386542@RR@7375@35029@@Rio Maú@@69315042@Rua@S@R Rio Maú
+386543@RR@7375@35029@@Rio Tacutu@@69315044@Rua@S@R Rio Tacutu
+386544@RR@7375@35029@@Rio Ajarani@@69315036@Rua@S@R Rio Ajarani
+386545@RR@7375@35029@@Rio Uailan@@69315038@Rua@S@R Rio Uailan
+386546@RR@7375@35029@@Rio Mucajaí@@69315032@Avenida@S@Av Rio Mucajaí
+386547@RR@7375@35029@@Rio Jatapu@@69315034@Rua@S@R Rio Jatapu
+386548@RR@7375@35029@@Rio Quitauau@@69315026@Travessa@S@Tv Rio Quitauau
+386549@RR@7375@35029@@Rio Surumu@@69315028@Rua@S@R Rio Surumu
+386550@RR@7375@35029@@Rio Quinó@@69315022@Rua@S@R Rio Quinó
+386551@RR@7375@35029@@Rio Quinó@@69315024@Travessa@S@Tv Rio Quinó
+386552@RR@7375@35029@@Rio Apiau@@69315016@Rua@S@R Rio Apiau
+386553@RR@7375@35029@@Rio Amajari@@69315018@Rua@S@R Rio Amajari
+386554@RR@7375@35029@@Rio Branco@@69315012@Avenida@S@Av Rio Branco
+386555@RR@7375@35029@@Rio Ereu@@69315014@Rua@S@R Rio Ereu
+386556@RR@7375@35029@@Rio Cotingo@@69315006@Rua@S@R Rio Cotingo
+386557@RR@7375@35029@@Rio Uraricuera@@69315008@Rua@S@R Rio Uraricuera
+386558@RR@7375@35029@@Rio Alalaú@@69315002@Rua@S@R Rio Alalaú
+386559@RR@7375@35029@@Rio Anauá@@69315004@Rua@S@R Rio Anauá
+386560@RR@7375@35029@@Estrela D'alva@@69315066@Travessa@S@Tv Estrela D'alva
+386561@RR@7375@35029@@Guará@@69315068@Rua@S@R Guará
+386562@RR@7375@35029@@Marte@@69315062@Rua@S@R Marte
+386563@RR@7375@35029@@Estrela Cadente@@69315064@Travessa@S@Tv Estrela Cadente
+386564@RR@7375@35029@@Santa Fé@@69315056@Travessa@S@Tv Sta Fé
+386565@RR@7375@35029@@Cruzeiro do Sul@@69315058@Rua@S@R Cruzeiro do Sul
+386566@RR@7375@35029@@Mercúrio@@69315052@Rua@S@R Mercúrio
+386567@RR@7375@35029@@Estrela Celeste@@69315054@Travessa@S@Tv Estrela Celeste
+386568@RR@7375@35029@@Estrelinha@@69315046@Rua@S@R Estrelinha
+386569@RR@7375@35029@@Estrelinha@@69315048@Travessa@S@Tv Estrelinha
+386570@RR@7375@35029@@Santa Fé@@69315072@Rua@S@R Sta Fé
+386571@RR@7375@35029@@Eclipse@@69315074@Travessa@S@Tv Eclipse
+386573@RR@7375@35029@@Estrela Cadente@@69315078@Rua@S@R Estrela Cadente
+386574@RR@7375@35029@@Estrela Celeste@@69315082@Rua@S@R Estrela Celeste
+386575@RR@7375@35029@@Eclipse@@69315084@Rua@S@R Eclipse
+386576@RR@7375@35029@@Raio de Lua@@69315086@Rua@S@R Raio de Lua
+386577@RR@7375@35029@@Encontro dos Astros@@69315092@Rua@S@R Encontro dos Astros
+386578@RR@7375@35029@@Quarta Nascente@@69315094@Rua@S@R Quarta Nascente
+386579@RR@7375@35029@@Monte Sinai@@69315096@Rua@S@R Monte Sinai
+386580@RR@7375@35029@@Saturno@@69315098@Rua@S@R Saturno
+386581@RR@7375@35029@@Antônio Silvino de Alexandre@@69315088@Rua@S@R Antônio S de Alexandre
+386585@RR@7375@35040@@das Estrelas@@69316008@Rua@S@R das Estrelas
+386589@RR@7375@35040@@Estrela do Mar@@69316018@Rua@S@R Estrela do Mar
+386591@RR@7375@35040@@Quarta Nascente@@69316024@Rua@S@R Quarta Nascente
+386592@RR@7375@35040@@Monte Sinai@@69316026@Rua@S@R Monte Sinai
+386593@RR@7375@35040@@Saturno@@69316028@Rua@S@R Saturno
+386594@RR@7375@35040@@Plutão@@69316032@Rua@S@R Plutão
+386595@RR@7375@35040@@Estrela Bonita@@69316034@Travessa@S@Tv Estrela Bonita
+386596@RR@7375@35040@@Vênus@@69316036@Rua@S@R Vênus
+386597@RR@7375@35040@@Z-Y@@69316038@Rua@S@R Z-Y
+386598@RR@7375@35040@@Júpiter@@69316042@Rua@S@R Júpiter
+386599@RR@7375@35040@@Eclipse@@69316044@Rua@S@R Eclipse
+386600@RR@7375@35040@@Lua Nova@@69316046@Rua@S@R Lua Nova
+386601@RR@7375@35040@@Raio de Lua@@69316048@Rua@S@R Raio de Lua
+386602@RR@7375@35040@@Universo@@69316052@Travessa@S@Tv Universo
+386603@RR@7375@35040@@Antônio Silvino de Alexandre@@69316054@Rua@S@R Antônio S de Alexandre
+386604@RR@7375@35040@@Encontro dos Astros@@69316056@Rua@S@R Encontro dos Astros
+386605@RR@7375@35040@@Sol Nascente@@69316058@Avenida@S@Av Sol Nascente
+386606@RR@7375@35040@@dos Astros@@69316062@Rua@S@R dos Astros
+386607@RR@7375@35040@@Brilho do Sol@@69316064@Avenida@S@Av Brilho do Sol
+386608@RR@7375@35040@@Constelação@@69316066@Rua@S@R Constelação
+386609@RR@7375@35040@@Três Maria@@69316068@Rua@S@R Três Maria
+386610@RR@7375@35040@@Brasil@@69316072@Avenida@S@Av Brasil
+386611@RR@7375@35215@@Rio Verde@@69316102@Rua@S@R Rio Verde
+386612@RR@7375@35215@@Rio Claro@@69316104@Rua@S@R Rio Claro
+386613@RR@7375@35215@@Rio Tapajós@@69316106@Rua@S@R Rio Tapajós
+386614@RR@7375@35215@@Rio Madeira@@69316108@Rua@S@R Rio Madeira
+386615@RR@7375@35215@@Rio Negro@@69316112@Rua@S@R Rio Negro
+386616@RR@7375@35215@@Rio Negro@@69316114@Travessa@S@Tv Rio Negro
+386617@RR@7375@35215@@Rio Tocantins@@69316116@Rua@S@R Rio Tocantins
+386618@RR@7375@35215@@Rio Guaíba@@69316118@Rua@S@R Rio Guaíba
+386619@RR@7375@35215@@Rio Araguaia@@69316122@Rua@S@R Rio Araguaia
+386620@RR@7375@35215@@Rio Amazonas@@69316124@Rua@S@R Rio Amazonas
+386621@RR@7375@35215@@Rio Solimões@@69316126@Rua@S@R Rio Solimões
+386622@RR@7375@35215@@Rio São Francisco@@69316128@Avenida@S@Av Rio S Francisco
+386623@RR@7375@35215@@Sol Nascente@@69316132@Avenida@S@Av Sol Nascente
+386624@RR@7375@35215@@dos Astros@@69316134@Rua@S@R dos Astros
+386625@RR@7375@35215@@Rio Nilo@@69316136@Rua@S@R Rio Nilo
+386626@RR@7375@35215@@Brilho do Sol@@69316138@Avenida@S@Av Brilho do Sol
+386627@RR@7375@35215@@Rio Tocantins@@69316149@Travessa@S@Tv Rio Tocantins
+386628@RR@7375@35215@@Rio Najá@@69316152@Rua@S@R Rio Najá
+386629@RR@7375@35215@@Constelação@@69316154@Rua@S@R Constelação
+386630@RR@7375@35215@@Rio Madeira@@69316156@Travessa@S@Tv Rio Madeira
+386631@RR@7375@35215@@Três Marias@@69316158@Rua@S@R Três Marias
+386632@RR@7375@35215@@Brasil@@69316163@Avenida@S@Av Brasil
+386634@RR@7375@35224@@Braz Cândido de Souza@@69316282@Rua@S@R Braz C de Souza
+386635@RR@7375@35224@@OP-V@@69316283@Rua@S@R OP-V
+386636@RR@7375@35224@@OP-VI@@69316284@Rua@S@R OP-VI
+386637@RR@7375@35224@@Osmarino Mendonça Corrêa@@69316285@Rua@S@R Osmarino M Corrêa
+386638@RR@7375@35224@@OP-VIII@@69316286@Rua@S@R OP-VIII
+386639@RR@7375@35224@@OP-IX@@69316287@Rua@S@R OP-IX
+386640@RR@7375@35224@@OP-X@@69316289@Rua@S@R OP-X
+386641@RR@7375@35224@@OP-XI@@69316292@Rua@S@R OP-XI
+386642@RR@7375@35224@@OP-XII@@69316294@Rua@S@R OP-XII
+386643@RR@7375@35224@@Eugênio Bríglia Monteiro@@69316293@Rua@S@R Eugênio B Monteiro
+386644@RR@7375@35224@@Anísio Carlos Amorim@@69316295@Rua@S@R Anísio C Amorim
+386645@RR@7375@35224@@Elifas Levi Veloso Filho@@69316296@Rua@S@R Elifas L V Filho
+386646@RR@7375@35224@@José Félix Corrêa@@69316297@Avenida@S@Av José F Corrêa
+386647@RR@7375@35224@@Advogado Alceu da Silva@@69316299@Rua@S@R Adv Alceu da Silva
+386648@RR@7375@35224@@dos Trabalhadores@@69316300@Rua@S@R dos Trabalhadores
+386649@RR@7375@35224@@OP-XX@@69316302@Rua@S@R OP-XX
+386650@RR@7375@35224@@OP-XXI@@69316303@Rua@S@R OP-XXI
+386651@RR@7375@35224@@OP-XXII@@69316304@Rua@S@R OP-XXII
+386652@RR@7375@35224@@OP-XXIII@@69316305@Rua@S@R OP-XXIII
+386653@RR@7375@35224@@OP-XXIV@@69316306@Rua@S@R OP-XXIV
+386655@RR@7375@35224@@OP-XXVI@@69316310@Rua@S@R OP-XXVI
+386656@RR@7375@35224@@OP-XXVII@@69316312@Rua@S@R OP-XXVII
+386657@RR@7375@35224@@OP-XXVIII@@69316313@Rua@S@R OP-XXVIII
+386658@RR@7375@35224@@OP-XXVIII@@69316314@Travessa@S@Tv OP-XXVIII
+386659@RR@7375@35224@@OP-XXIX@@69316315@Rua@S@R OP-XXIX
+386660@RR@7375@35224@@OP-XXX@@69316316@Rua@S@R OP-XXX
+386661@RR@7375@35224@@OP-XXXI@@69316318@Rua@S@R OP-XXXI
+386662@RR@7375@35224@@OP-XXXII@@69316320@Rua@S@R OP-XXXII
+386663@RR@7375@35224@@OP-XXXIII@@69316322@Rua@S@R OP-XXXIII
+386664@RR@7375@35243@@Taurus@@69317440@Rua@S@R Taurus
+386665@RR@7375@35243@@Centaurus@@69317442@Rua@S@R Centaurus
+386666@RR@7375@35243@@Hércules@@69317444@Rua@S@R Hércules
+386667@RR@7375@35243@@Pégasus@@69317446@Rua@S@R Pégasus
+386668@RR@7375@35243@@Sargitárius@@69317448@Rua@S@R Sargitárius
+386669@RR@7375@35243@@Andrômeda@@69317450@Rua@S@R Andrômeda
+386670@RR@7375@35243@@Plutão@@69317452@Rua@S@R Plutão
+386671@RR@7375@35243@@Mercúrio@@69317454@Rua@S@R Mercúrio
+386672@RR@7375@35243@@da Lua@@69317456@Rua@S@R da Lua
+386673@RR@7375@35243@@J-5@@69317458@Rua@S@R J-5
+386674@RR@7375@35243@@Vênus@@69317460@Rua@S@R Vênus
+386675@RR@7375@35243@@da Terra@@69317462@Avenida@S@Av da Terra
+386676@RR@7375@12975@@Maria Evangelina da Silva@@69307765@Rua@S@R Maria E da Silva
+386677@RR@7375@12975@@Levina Alves da Silva@@69307757@Avenida@S@Av Levina A da Silva
+386678@RR@7375@12975@@Maria Coêlho@@69307760@Rua@S@R Maria Coêlho
+386679@RR@7375@12975@@Antônio Seabra@@69307750@Rua@S@R Antônio Seabra
+386680@RR@7375@12975@@Maria Alves da Cunha@@69307752@Rua@S@R Maria A da Cunha
+386681@RR@7375@12975@@Leonel Luis de Oliveira@@69307745@Rua@S@R Leonel L de Oliveira
+386682@RR@7375@12975@@Francisco Alves de Souza@@69307747@Rua@S@R Francisco A de Souza
+386683@RR@7375@12975@@Lídia Bento@@69307740@Avenida@S@Av Lídia Bento
+386684@RR@7375@12975@@Maria do Carmo Noronha de Souza@@69307742@Rua@S@R Maria do C N de Souza
+386685@RR@7375@12972@@Wai-Wai@@69306375@Rua@S@R Wai-Wai
+386686@RR@7375@12972@@Mirandinha@@69306376@Travessa@S@Tv Mirandinha
+386687@RR@7375@12972@@Júpiter@@69306373@Alameda@S@Al Júpiter
+386688@RR@7375@12972@@Neturno@@69306374@Alameda@S@Al Neturno
+386689@RR@7375@12972@@Platão@@69306371@Alameda@S@Al Platão
+386690@RR@7375@12972@@Beta@@69306372@Alameda@S@Al Beta
+386691@RR@7375@12995@@Governador Aquilino Mota Duarte@@69305095@Rua@S@R Gov Aquilino M Duarte
+386692@RR@7375@12981@@Cecília Brasil@@69301081@Travessa@S@Tv Cecília Brasil
+386693@RR@7375@12981@@Cerejo Cruz@@69301061@Travessa@S@Tv Cerejo Cruz
+386697@RR@7375@12991@@Sucuba@@69307242@Rua@S@R Sucuba
+386698@RR@7375@12991@@Embauba@@69307243@Rua@S@R Embauba
+386699@RR@7375@12991@@Sibipiruna@@69307241@Rua@S@R Sibipiruna
+386700@RR@7375@12975@@Raimunda de Oliveira Paula@@69307767@Rua@S@R Raimunda de O Paula
+386701@RR@7375@12975@@Caçari@@69307770@Avenida@S@Av Caçari
+386702@RR@7375@12975@@Tenente Raimundo Alexandre Silva@@69307762@Rua@S@R Ten Raimundo A Silva
+386703@RR@7375@12975@@Rio Araguaia@@69307735@Rua@S@R Rio Araguaia
+386704@RR@7375@12975@@Rio Tocantins@@69307737@Rua@S@R Rio Tocantins
+386705@RR@7375@12975@@Rio Madeira@@69307730@Rua@S@R Rio Madeira
+386706@RR@7375@12975@@Rio Solimões@@69307732@Rua@S@R Rio Solimões
+386708@RR@7375@12975@@Rio Cuiaba@@69307727@Rua@S@R Rio Cuiaba
+386709@RR@7375@12989@@A@@69304401@Travessa@S@Tv A
+386710@RR@7375@12989@@Jaranã@@69304403@Rua@S@R Jaranã
+386711@RR@7375@12989@@Arariboia@@69304404@Rua@S@R Arariboia
+386712@RR@7375@12989@@Venezuela@@69304405@Travessa@S@Tv Venezuela
+386713@RR@7375@12993@@Industrial 2@@69309409@Rua@S@R Industrial 2
+386715@RR@7375@12993@@Industrial 1@@69309408@Rua@S@R Industrial 1
+386716@RR@7375@12993@@Risos-do-Prado@@69309373@Rua@S@R Risos-do-Prado
+386717@RR@7375@12993@@dos Ipês@@69309405@Rua@S@R dos Ipês
+386718@RR@7375@12993@@das Iris@@69309399@Rua@S@R das Iris
+386719@RR@7375@12993@@Perpétua@@69309403@Rua@S@R Perpétua
+386720@RR@7375@12993@@Botão-de-ouro@@69309365@Rua@S@R Botão-de-ouro
+386721@RR@7375@12993@@dos Narcisos@@69309397@Rua@S@R dos Narcisos
+386722@RR@7375@12993@@Jackson de Barros Villa@@69309385@Rua@S@R Jackson de B Villa
+386723@RR@7375@12993@@Bambus@@69309383@Travessa@S@Tv Bambus
+386724@RR@7375@12993@@Industrial 3@@69309388@Rua@S@R Industrial 3
+386725@RR@7375@12986@@Aldebarã@@69314192@Rua@S@R Aldebarã
+386726@RR@7375@12993@@Osman da Rocha Bríglia@@69309361@Rua@S@R Osman da R Bríglia
+662488@RR@7375@12981@@Ajuricaba@@69301065@Travessa@S@Tv Ajuricaba
+662489@RR@7375@12981@@José Coelho@@69301076@Travessa@S@Tv José Coelho
+662490@RR@7375@12981@@Ex-Combatente Emmanuel Boechat@@69301105@Rua@S@R Ex-Comb Emmanuel Boechat
+662491@RR@7375@12981@@Capitão Bessa@@69301135@Rua@S@R Cap Bessa
+662493@RR@7375@12981@@B@@69301225@Travessa@S@Tv B
+662494@RR@7375@12981@@Sílvio Leite@@69301355@Travessa@S@Tv Sílvio Leite
+662495@RR@7375@12981@@Valério Magalhães@@69301365@Rua@S@R Valério Magalhães
+662497@RR@7375@12977@@Raimundo Corrêa Soares@@69303027@Rua@S@R Raimundo C Soares
+662498@RR@7375@12977@@Presidente Castelo Branco@@69303035@Avenida@S@Av Pres Castelo Branco
+662499@RR@7375@12977@@Amajari@@69303037@Rua@S@R Amajari
+662501@RR@7375@12977@@Francisca Sampaio Tomaz@@69303047@Rua@S@R Francisca S Tomaz
+662502@RR@7375@12977@@Marechal Rondon@@69303055@Rua@S@R Mal Rondon
+662503@RR@7375@12977@@Castelo Branco@@69303057@Rua@S@R Castelo Branco
+662504@RR@7375@12977@@Quitauaú I@@69303060@Travessa@S@Tv Quitauaú I
+662505@RR@7375@12977@@Quitauaú II@@69303062@Travessa@S@Tv Quitauaú II
+662506@RR@7375@12995@@Brigadeiro Eduardo Gomes@- de 1623 a 2933 - lado ímpar@69305005@Avenida@S@Av Brg Eduardo Gomes
+662507@RR@7375@12989@@Brigadeiro Eduardo Gomes@- de 2935 ao fim - lado ímpar@69304015@Avenida@S@Av Brg Eduardo Gomes
+662508@RR@7375@12982@@Brigadeiro Eduardo Gomes@- de 2 a 2934 - lado par@69305455@Avenida@S@Av Brg Eduardo Gomes
+662509@RR@7375@43459@@Brigadeiro Eduardo Gomes@- de 2936 a 99998 - lado par@69310005@Avenida@S@Av Brg Eduardo Gomes
+662511@RR@7375@12983@@Queila@@69313470@Rua@S@R Queila
+662512@RR@7375@12983@@Vicente Figueira de Melo@@69313472@Rua@S@R Vicente F de Melo
+662513@RR@7375@13000@@Capitão Júlio Bezerra@- de 1225 ao fim - lado ímpar@69305294@Avenida@S@Av Cap Júlio Bezerra
+662514@RR@7375@12972@@Capitão Júlio Bezerra@- de 1226 a 99998 - lado par@69306025@Avenida@S@Av Cap Júlio Bezerra
+662515@RR@7375@43520@@Izídio Galdino Filho@@69313790@Rua@S@R Izídio G Filho
+662517@RR@7375@12974@@General Ataíde Teive@- de 2782 a 3678 - lado par@69309187@Avenida@S@Av Gen Ataíde Teive
+662518@RR@7375@43567@@General Ataíde Teive@- de 7291/7292 a 8607/8608@69317182@Avenida@S@Av Gen Ataíde Teive
+662519@RR@7375@12998@@General Ataíde Teive@- de 4622 a 5386 - lado par@69313520@Avenida@S@Av Gen Ataíde Teive
+662520@RR@7375@12974@@Mário Homem de Melo@- de 3517/3518 a 4389/4390@69309198@Avenida@S@Av Mário H de Melo
+662521@RR@7375@43567@@Mário Homem de Melo@- de 7961/7962 ao fim@69317184@Avenida@S@Av Mário H de Melo
+662522@RR@7375@12998@@Mário Homem de Melo@- de 5273/5274 a 6069/6070@69313522@Avenida@S@Av Mário H de Melo
+662523@RR@7375@12996@@Presidente Juscelino Kubitschek@- até 857 - lado ímpar@69306685@Avenida@S@Av Pres Juscelino Kubitschek
+662524@RR@7375@12974@@Princesa Isabel@- de 989 a 1871 - lado ímpar@69309173@Avenida@S@Av Prca Isabel
+662526@RR@7375@35244@@Tertuliano Cardoso Ramos@- até 1257 - lado ímpar@69316574@Rua@S@R Tertuliano C Ramos
+662527@RR@7375@12972@@Perimetral Norte@@69306394@Rua@S@R Perimetral Norte
+662528@RR@7375@12972@@Ana Nery@@69306395@Rua@S@R Ana Nery
+662529@RR@7375@12972@@Gonçalves Dias@@69306396@Rua@S@R Gonçalves Dias
+662530@RR@7375@12996@@Santos Dumont@@69306675@Alameda@S@Al Stos Dumont
+662532@RR@7375@12996@@Aurélio Brito@@69306720@Rua@S@R Aurélio Brito
+662533@RR@7375@12991@@Arapari@@69307235@Rua@S@R Arapari
+662534@RR@7375@12972@@Casemiro de Abreu@@69306397@Rua@S@R Casemiro de Abreu
+662539@RR@7375@12996@@Acácio do Vale@@69306635@Travessa@S@Tv Acácio do Vale
+662540@RR@7375@12974@@Mestre Albano@- de 1313/1314 a 2065/2066@69309164@Rua@S@R Mte Albano
+662543@RR@7375@12977@@Parimé I@@69303065@Travessa@S@Tv Parimé I
+662544@RR@7375@12977@@Parimé II@@69303067@Travessa@S@Tv Parimé II
+662545@RR@7375@12977@@Parimé III@@69303069@Travessa@S@Tv Parimé III
+662546@RR@7375@12977@@Manoel Pontes@@69303072@Travessa@S@Tv Manoel Pontes
+662548@RR@7375@12997@@David Cruz@@69303482@Rua@S@R David Cruz
+662549@RR@7375@12997@@Gustavo Mesquita@@69303483@Rua@S@R Gustavo Mesquita
+662551@RR@7375@12997@@Terêncio Lima@@69303490@Avenida@S@Av Terêncio Lima
+662552@RR@7375@12997@@José Danilo Rufino do Vale@@69303492@Rua@S@R José D R do Vale
+662553@RR@7375@12997@@Jósimo dos Santos@@69303493@Rua@S@R Jósimo dos Santos
+662555@RR@7375@12989@@Araribóia@@69304445@Travessa@S@Tv Araribóia
+662556@RR@7375@12989@@do Pavão@@69304451@Rua@S@R do Pavão
+662557@RR@7375@12989@@Uirapuru@@69304452@Rua@S@R Uirapuru
+662558@RR@7375@12989@@do Canário@@69304455@Rua@S@R do Canário
+662559@RR@7375@12989@@da Perdiz@@69304462@Rua@S@R da Perdiz
+662560@RR@7375@12989@@das Araras@@69304464@Rua@S@R das Araras
+662561@RR@7375@12989@@das Andorinhas@@69304465@Rua@S@R das Andorinhas
+662562@RR@7375@12989@@da Patativa@@69304468@Rua@S@R da Patativa
+662563@RR@7375@12989@@do Sabiá@@69304471@Rua@S@R do Sabiá
+662564@RR@7375@12989@@Xavier de Andrade@@69304512@Travessa@S@Tv Xavier de Andrade
+662565@RR@7375@12989@@Forte São Joaquim@@69304515@Avenida@S@Av Forte S Joaquim
+662566@RR@7375@12989@@H-1@@69304517@Rua@S@R H-1
+662567@RR@7375@12989@@H-2@@69304521@Rua@S@R H-2
+662568@RR@7375@12989@@Hamilton Rice@@69304522@Travessa@S@Tv Hamilton Rice
+662569@RR@7375@12989@@João Antony@@69304525@Travessa@S@Tv João Antony
+662570@RR@7375@12989@@Joaquim Nabuco@@69304527@Travessa@S@Tv Joaquim Nabuco
+662571@RR@7375@12989@@Sindeaux Barbosa@@69304535@Rua@S@R Sindeaux Barbosa
+662572@RR@7375@12989@@Major Quadros@@69304533@Travessa@S@Tv Maj Quadros
+662573@RR@7375@12989@@Manoel Aires@@69304537@Travessa@S@Tv Manoel Aires
+662574@RR@7375@12989@@Martiniano Rodrigues@@69304545@Travessa@S@Tv Martiniano Rodrigues
+662575@RR@7375@12989@@Nicolau Hostman@@69304542@Travessa@S@Tv Nicolau Hostman
+662576@RR@7375@12989@@Sebastião Barros@@69304547@Rua@S@R Sebastião Barros
+662577@RR@7375@12989@@Souza Júnior@@69304552@Rua@S@R Souza Júnior
+662580@RR@7375@12995@@Tiradentes@@69305055@Travessa@S@Tv Tiradentes
+662583@RR@7375@12995@@Nilo Colares@@69305112@Travessa@S@Tv Nilo Colares
+662584@RR@7375@12995@@Presidente Costa e Silva@@69305115@Rua@S@R Pres Costa E Silva
+662587@RR@7375@12995@@Antonio Augusto Martins@@69305268@Travessa@S@Tv Antonio A Martins
+662588@RR@7375@13000@@Domingos Abdala@@69305285@Rua@S@R Domingos Abdala
+662589@RR@7375@13000@@Alcemir de Souza Mota@@69305295@Rua@S@R Alcemir de S Mota
+662590@RR@7375@12982@@SP-JR@@69305485@Travessa@S@Tv SP-JR
+662591@RR@7375@12972@@José Bonifácio@@69306275@Rua@S@R José Bonifácio
+662592@RR@7375@12972@@Pedro Teixeira@@69306355@Rua@S@R Pedro Teixeira
+662594@RR@7375@12991@@Levindo Inácio de Oliveira@@69307272@Rua@S@R Levindo I de Oliveira
+662595@RR@7375@12991@@Deusdete Coelho@@69307273@Rua@S@R Deusdete Coelho
+662596@RR@7375@12991@@Severino Soares de Freitas@@69307274@Rua@S@R Severino S de Freitas
+662597@RR@7375@12991@@Augusto Cesar Luitgards Moura@@69307275@Rua@S@R Augusto C L Moura
+662598@RR@7375@12991@@Arieira@@69307337@Rua@S@R Arieira
+662599@RR@7375@12991@@Rio de Janeiro@@69307343@Avenida@S@Av Rio de Janeiro
+662600@RR@7375@12991@@Minas Gerais@@69307345@Avenida@S@Av Minas Gerais
+662601@RR@7375@12991@@Acre@@69307347@Rua@S@R Acre
+662602@RR@7375@12991@@Carvalho@@69307383@Rua@S@R Carvalho
+662603@RR@7375@12991@@Marupá@@69307385@Travessa@S@Tv Marupá
+662606@RR@7375@12975@@Arapari@@69307595@Rua@S@R Arapari
+662607@RR@7375@12975@@José Celestino da Luz@@69307600@Rua@S@R José C da Luz
+662608@RR@7375@12975@@Adalberto Bezerra de Menezes@@69307605@Rua@S@R Adalberto B de Menezes
+662609@RR@7375@12975@@Itaúba@@69307610@Rua@S@R Itaúba
+662610@RR@7375@12975@@Massaranduba@@69307615@Rua@S@R Massaranduba
+662611@RR@7375@12975@@TP-1@@69307620@Rua@S@R TP-1
+662612@RR@7375@12975@@TP-2@@69307625@Rua@S@R TP-2
+662613@RR@7375@12975@@TP-3@@69307630@Rua@S@R TP-3
+662614@RR@7375@12975@@TP-4@@69307635@Rua@S@R TP-4
+662615@RR@7375@12975@@do Taperebazeiro@@69307640@Avenida@S@Av do Taperebazeiro
+662616@RR@7375@12975@@T3-A@@69307645@Rua@S@R T3-A
+662617@RR@7375@12975@@Raul Prudente de Moraes@@69307650@Rua@S@R Raul P de Moraes
+662619@RR@7375@12975@@José Gonçalves Tajujá@@69307660@Rua@S@R José G Tajujá
+662620@RR@7375@12975@@Waldner Jorge Ferreira da Silva@@69307665@Rua@S@R Waldner J F da Silva
+662621@RR@7375@12975@@Francisco Paulino da Silva@@69307670@Rua@S@R Francisco P da Silva
+662622@RR@7375@12975@@Alquelino de Souza Cunha@@69307675@Rua@S@R Alquelino de S Cunha
+662623@RR@7375@12975@@Flores Cordovil@@69307680@Rua@S@R Flores Cordovil
+662624@RR@7375@12975@@Professor Dimar Mesquita@@69307685@Rua@S@R Prf Dimar Mesquita
+662625@RR@7375@12975@@Dilmar Mesquita@@69307690@Rua@S@R Dilmar Mesquita
+662626@RR@7375@12975@@Renato Torres da Silva@@69307695@Rua@S@R Renato T da Silva
+662628@RR@7375@12975@@do Iate@@69307705@Rua@S@R do Iate
+662629@RR@7375@12975@@Deuzuita Mutran Paracat@@69307710@Rua@S@R Deuzuita M Paracat
+662630@RR@7375@12975@@Rio Juruá@@69307715@Rua@S@R Rio Juruá
+662631@RR@7375@12975@@da Gravioleira@@69307772@Rua@S@R da Gravioleira
+662632@RR@7375@12999@@13 de Setembro@@69308005@Rua@S@R 13 de Setembro
+662633@RR@7375@12999@@Central@@69308155@Rua@S@R Central
+662634@RR@7375@12999@@Uaicá@@69308375@Rua@S@R Uaicá
+662638@RR@7375@12974@@Antônio Marques@@69309172@Rua@S@R Antônio Marques
+662639@RR@7375@12974@@Professor Macedo@@69309189@Rua@S@R Prf Macedo
+662640@RR@7375@12974@@Jandyra Lago@@69309211@Rua@S@R Jandyra Lago
+662641@RR@7375@12993@@José Pinheiro@@69309363@Rua@S@R José Pinheiro
+662642@RR@7375@12993@@dos Hibiscos@@69309411@Rua@S@R dos Hibiscos
+662643@RR@7375@12993@@das Flores de Cera@@69309412@Rua@S@R das Flores de Cera
+662644@RR@7375@12993@@Pastor Almir Nogueira Guerra@@69309413@Rua@S@R Pst Almir N Guerra
+662645@RR@7375@12993@@das Palmas de Santa Rita@@69309415@Rua@S@R das Palmas de Sta Rita
+662646@RR@7375@12993@@dos Gerânios@@69309416@Rua@S@R dos Gerânios
+662647@RR@7375@12993@@Rosa Pardana@@69309514@Rua@S@R Rosa Pardana
+662649@RR@7375@12993@@Brasil@@69309575@Avenida@S@Av Brasil
+662650@RR@7375@12993@@das Orquídeas@@69309593@Travessa@S@Tv das Orquídeas
+662651@RR@7375@12993@@Carlos Natrodt@@69309655@Rua@S@R Carlos Natrodt
+662652@RR@7375@12993@@Edson Castro@@69309657@Rua@S@R Edson Castro
+662656@RR@7375@43518@@Abrahão Félix Lima@@69313262@Avenida@S@Av Abrahão F Lima
+662657@RR@7375@43518@@Antonia Corrêa Lira@@69313265@Avenida@S@Av Antonia C Lira
+662658@RR@7375@43518@@JT-09@@69313268@Avenida@S@Av JT-09
+662659@RR@7375@43518@@Raimunda Mendes de Almeida@@69313272@Rua@S@R Raimunda M de Almeida
+662660@RR@7375@43518@@JC-01@@69313275@Rua@S@R JC-01
+662661@RR@7375@43518@@JC-02@@69313278@Rua@S@R JC-02
+662662@RR@7375@43518@@JC-03@@69313282@Rua@S@R JC-03
+662663@RR@7375@43518@@JC-04@@69313285@Rua@S@R JC-04
+662664@RR@7375@43518@@Jerusalém@@69313288@Rua@S@R Jerusalém
+662668@RR@7375@43518@@JT-04@@69313302@Rua@S@R JT-04
+662669@RR@7375@43518@@JT-05@@69313305@Rua@S@R JT-05
+662670@RR@7375@43518@@JT-06@@69313308@Rua@S@R JT-06
+662671@RR@7375@43521@@da Piscicultura@@69314002@Rua@S@R da Piscicultura
+662672@RR@7375@43521@@Poraquê@@69314005@Travessa@S@Tv Poraquê
+662674@RR@7375@43521@@das Cutias@@69314012@Travessa@S@Tv das Cutias
+662675@RR@7375@43521@@Piraíba@@69314015@Rua@S@R Piraíba
+662678@RR@7375@43521@@Pirapitinga@@69314025@Rua@S@R Pirapitinga
+662680@RR@7375@43521@@Piaba@@69314032@Rua@S@R Piaba
+662681@RR@7375@43521@@Pirarara@@69314035@Rua@S@R Pirarara
+662682@RR@7375@43521@@Pacu@@69314038@Rua@S@R Pacu
+662683@RR@7375@43521@@Flamboian@@69314042@Rua@S@R Flamboian
+662685@RR@7375@12986@@Padre Anchieta@@69314214@Avenida@S@Av Pe Anchieta
+662686@RR@7375@12986@@Parque Caranã@@69314216@Avenida@S@Av Parque Caranã
+662687@RR@7375@12986@@Capricórnio@@69314218@Rua@S@R Capricórnio
+662688@RR@7375@12986@@Centauro@@69314222@Rua@S@R Centauro
+662689@RR@7375@12986@@Cruzeiro do sul@@69314224@Rua@S@R Cruzeiro do sul
+662690@RR@7375@12986@@Curimatã@@69314226@Rua@S@R Curimatã
+662691@RR@7375@12986@@Piscicultura@@69314228@Rua@S@R Piscicultura
+662692@RR@7375@12986@@das Cutias@@69314232@Rua@S@R das Cutias
+662693@RR@7375@12986@@dos Tamanduás@@69314234@Rua@S@R dos Tamanduás
+662694@RR@7375@12986@@Estrela D'alva@@69314236@Rua@S@R Estrela D'alva
+662695@RR@7375@12986@@Fênix@@69314238@Rua@S@R Fênix
+662696@RR@7375@12986@@Hércules@@69314242@Rua@S@R Hércules
+662698@RR@7375@12986@@Ouro Verde@@69314246@Rua@S@R Ouro Verde
+662700@RR@7375@12986@@Sargitário@@69314252@Rua@S@R Sargitário
+662701@RR@7375@12986@@Ursa Maior@@69314254@Rua@S@R Ursa Maior
+662702@RR@7375@12986@@W-500@@69314256@Rua@S@R W-500
+662703@RR@7375@12986@@das Cutias@@69314258@Travessa@S@Tv das Cutias
+662704@RR@7375@12986@@das Muzendras@@69314262@Travessa@S@Tv das Muzendras
+662705@RR@7375@12986@@Fênix@@69314264@Travessa@S@Tv Fênix
+662706@RR@7375@43565@@dos Garimpeiros@@69317000@Avenida@S@Av dos Garimpeiros
+662707@RR@7375@43565@@Abel Monteiro Reis@@69317002@Avenida@S@Av Abel M Reis
+662709@RR@7375@43565@@São José@@69317023@Avenida@S@Av S José
+662710@RR@7375@43565@@Barnabé Antônio de Lima@@69317024@Rua@S@R Barnabé A de Lima
+662711@RR@7375@43565@@Jorge Dias Carneiro@@69317025@Rua@S@R Jorge D Carneiro
+662712@RR@7375@43565@@Antonio Vieira da Silva@@69317028@Rua@S@R Antonio V da Silva
+662713@RR@7375@43565@@C-51@@69317029@Rua@S@R C-51
+662715@RR@7375@43565@@Espedito de Paula Rodrigues@@69317042@Rua@S@R Espedito de P Rodrigues
+662716@RR@7375@43565@@Antônio Batista de Miranda@@69317044@Rua@S@R Antônio B de Miranda
+662717@RR@7375@43565@@Telma Cavalcante@@69317046@Rua@S@R Telma Cavalcante
+662719@RR@7375@43565@@Francisco Sales Vieira@@69317048@Rua@S@R Francisco S Vieira
+662720@RR@7375@43565@@Laura Pinheiro Maia@@69317050@Rua@S@R Laura P Maia
+662722@RR@7375@43565@@José Cassimiro da Silva@@69317102@Rua@S@R José C da Silva
+662723@RR@7375@43565@@Rosa Oliveira de Araujo@@69317103@Rua@S@R Rosa O de Araujo
+662724@RR@7375@43565@@Nivaldo da Conceição Gutierrez@@69317105@Rua@S@R Nivaldo da C Gutierrez
+662725@RR@7375@43565@@José Renato Hadad@@69317107@Rua@S@R José R Hadad
+662726@RR@7375@43565@@Professora Antonia Cutrim@@69317109@Rua@S@R Prfa Antonia Cutrim
+662727@RR@7375@43565@@Luiz Tavares da Silva@@69317110@Rua@S@R Luiz T da Silva
+662728@RR@7375@43565@@Closvaldo Paes Carolino@@69317133@Rua@S@R Closvaldo P Carolino
+662729@RR@7375@43565@@Tertuliano Cardoso Ramos@@69317143@Rua@S@R Tertuliano C Ramos
+662731@RR@7375@35244@@Danilo Rodrigues da Silva@- até 889/890@69316578@Rua@S@R Danilo R da Silva
+662732@RR@7375@35244@@Stevam Pereira da Costa@- até 1085/1086@69316580@Rua@S@R Stevam P da Costa
+662733@RR@7375@35244@@Professor Hélcio Carlos@- até 1109/1110@69316582@Rua@S@R Prf Hélcio Carlos
+662734@RR@7375@35244@@S-22@- até 1081/1082@69316584@Rua@S@R S-22
+662735@RR@7375@35244@@Renato Marques Jr@- até 1115/1116@69316586@Rua@S@R Renato M Jr
+662736@RR@7375@35244@@Grão-Mestre Ademir Viana@- até 1031/1032@69316588@Rua@S@R Gr-Mte Ademir Viana
+662737@RR@7375@35244@@Jacy de Souza Cruz@- até 1119/1120@69316590@Rua@S@R Jacy de S Cruz
+662739@RR@7375@35244@@S-28@- até 99993 - lado ímpar@69316594@Rua@S@R S-28
+662740@RR@7375@43565@@Solon Rodrigues Pessoa@@69317178@Rua@S@R Solon R Pessoa
+662741@RR@7375@43565@@Francisco Sales Vieira@@69317179@Travessa@S@Tv Francisco S Vieira
+662743@RR@7375@43567@@Espedito de Paula Rodrigues@@69317263@Rua@S@R Espedito de P Rodrigues
+662744@RR@7375@43567@@Francisco Sales Vieira@@69317265@Rua@S@R Francisco S Vieira
+662745@RR@7375@43567@@Maria Martins Vieira@@69317267@Rua@S@R Maria M Vieira
+662746@RR@7375@43567@@Raimundo Pessoa de Almeida@@69317269@Rua@S@R Raimundo P de Almeida
+662747@RR@7375@43567@@Z-3@@69317284@Rua@S@R Z-3
+662749@RR@7375@43567@@Francisco Anacleto da Silva@@69317286@Rua@S@R Francisco A da Silva
+662750@RR@7375@43567@@Adail Oliveira Rosa@@69317288@Rua@S@R Adail O Rosa
+662751@RR@7375@43567@@Afonso dos Santos Pereira@@69317290@Rua@S@R Afonso dos Stos Pereira
+662752@RR@7375@43567@@C-45@@69317292@Travessa@S@Tv C-45
+662753@RR@7375@43567@@C-46@@69317294@Travessa@S@Tv C-46
+662754@RR@7375@43567@@Canaã@@69317295@Travessa@S@Tv Canaã
+662756@RR@7375@43567@@Z-4@@69317298@Travessa@S@Tv Z-4
+662757@RR@7375@43567@@dos Corretores de Imóveis@@69317180@Avenida@S@Av dos Corretores de Imóveis
+662758@RR@7375@43567@@dos Garimpeiros@@69317181@Avenida@S@Av dos Garimpeiros
+662760@RR@7375@43567@@São Francisco@@69317186@Avenida@S@Av S Francisco
+662761@RR@7375@43567@@07 de Setembro@@69317188@Rua@S@R 07 de Setembro
+662762@RR@7375@43567@@São José@@69317190@Avenida@S@Av S José
+662764@RR@7375@43567@@Antônio Moreira de Moraes@@69317192@Rua@S@R Antônio M de Moraes
+662765@RR@7375@43567@@Natan Alves de Brito@@69317194@Rua@S@R Natan A de Brito
+662766@RR@7375@43567@@Leopoldo Lima Campelo@@69317195@Rua@S@R Leopoldo L Campelo
+662767@RR@7375@43567@@João Arthur de Lima@@69317196@Rua@S@R João A de Lima
+662768@RR@7375@43567@@C-43@@69317198@Rua@S@R C-43
+662769@RR@7375@43567@@C-44@@69317201@Rua@S@R C-44
+662770@RR@7375@43567@@Antonio Ribeiro de Lima@@69317225@Rua@S@R Antonio R de Lima
+662771@RR@7375@43567@@Milton Maduro@@69317230@Rua@S@R Milton Maduro
+662772@RR@7375@43567@@Barnabé Antônio de Lima@@69317231@Rua@S@R Barnabé A de Lima
+662773@RR@7375@43567@@Jorge Dias Carneiro@@69317232@Rua@S@R Jorge D Carneiro
+662774@RR@7375@43567@@Euclides Gomes da Silva@@69317234@Rua@S@R Euclides G da Silva
+662775@RR@7375@43567@@Antonio Vieira da Silva@@69317235@Rua@S@R Antonio V da Silva
+662776@RR@7375@35243@@Teresa Maciel@@69317464@Avenida@S@Av Teresa Maciel
+662777@RR@7375@35243@@Universo@@69317466@Avenida@S@Av Universo
+662778@RR@7375@35243@@das Galáxias@@69317468@Avenida@S@Av das Galáxias
+662779@RR@7375@35243@@Gêmeos@@69317470@Avenida@S@Av Gêmeos
+662780@RR@7375@35243@@Sebastião Correia Lira@@69317472@Avenida@S@Av Sebastião C Lira
+662781@RR@7375@35243@@Sol@@69317474@Avenida@S@Av Sol
+662782@RR@7375@35243@@Indus@@69317478@Rua@S@R Indus
+662783@RR@7375@35243@@Antares@@69317480@Alameda@S@Al Antares
+662784@RR@7375@35243@@Aquário@@69317482@Rua@S@R Aquário
+662785@RR@7375@35243@@Áries@@69317484@Rua@S@R Áries
+662786@RR@7375@35243@@Câncer@@69317486@Rua@S@R Câncer
+662787@RR@7375@35243@@Dom Apparecido José Dias@@69317488@Rua@S@R D Apparecido J Dias
+662788@RR@7375@35243@@Canopus@@69317490@Rua@S@R Canopus
+662789@RR@7375@35243@@Capela@@69317492@Rua@S@R Capela
+662790@RR@7375@35243@@Capricórnio@@69317494@Rua@S@R Capricórnio
+662791@RR@7375@35243@@Cisne@@69317496@Rua@S@R Cisne
+662792@RR@7375@35243@@Cruzeiro do Sul@@69317498@Rua@S@R Cruzeiro do Sul
+662793@RR@7375@35243@@Escorpião@@69317500@Rua@S@R Escorpião
+662794@RR@7375@35243@@Fênix@@69317502@Rua@S@R Fênix
+662795@RR@7375@35243@@Halley@@69317504@Rua@S@R Halley
+662796@RR@7375@35243@@B@@69317506@Rua@S@R B
+662797@RR@7375@35243@@RR-205@@69317508@Rodovia@S@Rod RR-205
+662798@RR@7375@35243@@J@@69317510@Rua@S@R J
+662799@RR@7375@35243@@J-7@@69317512@Rua@S@R J-7
+662800@RR@7375@35243@@J-8@@69317514@Rua@S@R J-8
+662801@RR@7375@35243@@Júpiter@@69317516@Rua@S@R Júpiter
+662802@RR@7375@35243@@Leão@@69317518@Rua@S@R Leão
+662803@RR@7375@35243@@Libra@@69317520@Rua@S@R Libra
+662804@RR@7375@35243@@Marte@@69317522@Rua@S@R Marte
+662805@RR@7375@35243@@Mimosa@@69317524@Rua@S@R Mimosa
+662806@RR@7375@35243@@Netuno@@69317526@Rua@S@R Netuno
+662807@RR@7375@35243@@Órion@@69317528@Rua@S@R Órion
+662808@RR@7375@35243@@Cassiopéia@@69317530@Rua@S@R Cassiopéia
+662809@RR@7375@35243@@Peixes@@69317532@Rua@S@R Peixes
+662810@RR@7375@35243@@Izidio Lira@@69317534@Rua@S@R Izidio Lira
+662811@RR@7375@35243@@Professora Maria Eugênia@@69317536@Rua@S@R Prfa Maria Eugênia
+662812@RR@7375@35243@@Ondite de Lima Pereira@@69317538@Rua@S@R Ondite de L Pereira
+662813@RR@7375@35243@@R-11@@69317540@Rua@S@R R-11
+662814@RR@7375@35243@@Tenente Azevedo Cruz@@69317542@Rua@S@R Ten Azevedo Cruz
+662815@RR@7375@35243@@Josemar Batista de Souza@@69317544@Rua@S@R Josemar B de Souza
+662816@RR@7375@35243@@Maria das Graças Paulino@@69317546@Rua@S@R Maria das G Paulino
+662817@RR@7375@35243@@Tiam Fook@@69317548@Rua@S@R Tiam Fook
+662818@RR@7375@35243@@João Carlos Amazonas@@69317550@Rua@S@R João C Amazonas
+662819@RR@7375@35243@@Neuso Salomão@@69317552@Rua@S@R Neuso Salomão
+662820@RR@7375@35243@@José Brock@@69317554@Rua@S@R José Brock
+662821@RR@7375@35243@@Maria Martins de Almeida@@69317556@Rua@S@R Maria M de Almeida
+662822@RR@7375@35243@@Raimundo Nonato Dias@@69317558@Rua@S@R Raimundo N Dias
+662823@RR@7375@35243@@Telegrafista Rocha@@69317560@Rua@S@R Telg Rocha
+662824@RR@7375@35243@@Tenente Matos@@69317562@Rua@S@R Ten Matos
+662825@RR@7375@35243@@Saturno@@69317564@Rua@S@R Saturno
+662826@RR@7375@35243@@Sirius@@69317566@Rua@S@R Sirius
+662827@RR@7375@35243@@Unicórnio@@69317568@Rua@S@R Unicórnio
+662828@RR@7375@35243@@Urano@@69317570@Rua@S@R Urano
+662829@RR@7375@35243@@Ursa Maior@@69317572@Rua@S@R Ursa Maior
+662830@RR@7375@35243@@Vega@@69317574@Rua@S@R Vega
+662831@RR@7375@35243@@Carina@@69317576@Rua@S@R Carina
+662832@RR@7375@12985@@B@@69312112@Travessa@S@Tv B
+662833@RR@7375@12985@@Blandina Castelo Branco@@69312115@Rua@S@R Blandina C Branco
+662834@RR@7375@12985@@Carlos Gomes da Silva@@69312118@Rua@S@R Carlos G da Silva
+662835@RR@7375@12985@@Asterio Bentes Pimentel@@69312125@Travessa@S@Tv Asterio B Pimentel
+662836@RR@7375@12985@@Severino Caetano da Silva@@69312128@Rua@S@R Severino C da Silva
+662837@RR@7375@12985@@Dahas Abrahim@@69312132@Rua@S@R Dahas Abrahim
+662838@RR@7375@12985@@Dálcio Amorim@@69312135@Travessa@S@Tv Dálcio Amorim
+662839@RR@7375@12985@@Dalício Amorim@@69312138@Travessa@S@Tv Dalício Amorim
+662840@RR@7375@12985@@Dino Mesquita@@69312142@Rua@S@R Dino Mesquita
+662841@RR@7375@12985@@Isaac Cabral@@69312145@Rua@S@R Isaac Cabral
+662842@RR@7375@12985@@Jair Alves dos Reis@@69312148@Rua@S@R Jair A dos Reis
+662843@RR@7375@12985@@Myro Bessa Lima@@69312143@Rua@S@R Myro B Lima
+662844@RR@7375@12985@@Olavo Brasil Filho@@69312133@Rua@S@R Olavo B Filho
+662846@RR@7375@12985@@Abel Francisco de Oliveira@@69312123@Rua@S@R Abel F de Oliveira
+662847@RR@7375@12985@@Elza Mesquita da Silva@@69312113@Rua@S@R Elza M da Silva
+662848@RR@7375@12985@@Y-9A@@69312103@Travessa@S@Tv Y-9A
+662849@RR@7375@12985@@D@@69312146@Travessa@S@Tv D
+662853@RR@7375@12976@@Jandyra Lago@@69312222@Rua@S@R Jandyra Lago
+662854@RR@7375@12976@@Manoel Teixeira de Souza@@69312225@Rua@S@R Manoel T de Souza
+662855@RR@7375@34956@@13 de Setembro@(Cj N Horizonte)@69312388@Rua@S@R 13 de Setembro
+662856@RR@7375@34956@@São João Batista@@69312389@Rua@S@R S João Batista
+662857@RR@7375@34956@@Apocalipse@@69312398@Rua@S@R Apocalipse
+662858@RR@7375@34956@@Provérbio@@69312405@Rua@S@R Provérbio
+662859@RR@7375@34956@@Gêneses@@69312408@Rua@S@R Gêneses
+662860@RR@7375@34956@@São Pedro@@69312418@Travessa@S@Tv S Pedro
+662861@RR@7375@34956@@São Lucas@@69312428@Travessa@S@Tv S Lucas
+662862@RR@7375@34956@@São Marcos@@69312437@Travessa@S@Tv S Marcos
+662863@RR@7375@34956@@Frederico Francisco Fontelles@(Cj N Horizonte)@69312439@Travessa@S@Tv Frederico F Fontelles
+662864@RR@7375@34956@@Brasil@@69312450@Avenida@S@Av Brasil
+662865@RR@7375@34956@@Cruzeiro do Sul@(Cj N Horizonte)@69312448@Rua@S@R Cruzeiro do Sul
+662866@RR@7375@34956@@Professor Clóvis Souza@@69312452@Rua@S@R Prf Clóvis Souza
+662867@RR@7375@34956@@Soledade Benedetti@@69312454@Rua@S@R Soledade Benedetti
+662868@RR@7375@34956@@São Mateus@@69312456@Travessa@S@Tv S Mateus
+662869@RR@7375@34956@@São Raimundo@(Cj N Horizonte)@69312458@Travessa@S@Tv S Raimundo
+662870@RR@7375@34956@@I@@69312397@Travessa@S@Tv I
+662871@RR@7375@34956@@II@@69312399@Travessa@S@Tv II
+662872@RR@7375@34956@@B@@69312332@Travessa@S@Tv B
+662873@RR@7375@34977@@Brasil@@69312600@Avenida@S@Av Brasil
+662874@RR@7375@34977@@Centenário@@69312603@Avenida@S@Av Centenário
+662875@RR@7375@34977@@Parque Igarapé Grande@@69312605@Avenida@S@Av Parque I Grande
+662876@RR@7375@34977@@II@@69312610@Rua@S@R II
+662877@RR@7375@34977@@III@@69312613@Rua@S@R III
+662878@RR@7375@34977@@Izaira Padilha Corrêa@@69312615@Rua@S@R Izaira P Corrêa
+662879@RR@7375@34977@@Pedro Felix Corrêa@@69312620@Rua@S@R Pedro F Corrêa
+662880@RR@7375@34977@@VI@@69312623@Rua@S@R VI
+662881@RR@7375@34977@@Constância Monteiro Guedes@@69312625@Rua@S@R Constância M Guedes
+662882@RR@7375@34977@@Salomão Lima da Silva@@69312630@Rua@S@R Salomão L da Silva
+662883@RR@7375@34977@@Odeir Viana@@69312633@Rua@S@R Odeir Viana
+662884@RR@7375@34977@@Santa Clara@@69312635@Rua@S@R Sta Clara
+662885@RR@7375@34977@@Jeronymo Honorio de Moraes@@69312640@Travessa@S@Tv Jeronymo H de Moraes
+662886@RR@7375@34960@@DI-01@@69315295@Rua@S@R DI-01
+662887@RR@7375@34960@@Jorge Caçapava@@69315298@Rua@S@R Jorge Caçapava
+662888@RR@7375@34960@@Anísio Justiniano Ferreira@@69315302@Rua@S@R Anísio J Ferreira
+662889@RR@7375@34960@@Hildegardo Bantim@@69315305@Rua@S@R Hildegardo Bantim
+662890@RR@7375@34960@@Irmã Noêmia Amazonas@@69315308@Rua@S@R Ima Noêmia Amazonas
+662891@RR@7375@34960@@José Delmiro@@69315312@Rua@S@R José Delmiro
+662892@RR@7375@34960@@Amazonas Brasil@@69315315@Rua@S@R Amazonas Brasil
+662893@RR@7375@34960@@Médico Nazih Siagha@@69315318@Rua@S@R Med Nazih Siagha
+662894@RR@7375@34960@@Coronel-PM Márcio Santiago@@69315322@Rua@S@R Cel-PM Márcio Santiago
+662895@RR@7375@34960@@Eurides Macellaro@@69315325@Rua@S@R Eurides Macellaro
+662896@RR@7375@34960@@José Ayres Leitão@@69315328@Rua@S@R José A Leitão
+662897@RR@7375@34960@@Domingos Ayres Leitão@@69315332@Rua@S@R Domingos A Leitão
+662898@RR@7375@34960@@Aderson Passidônio Filho@@69315335@Rua@S@R Aderson P Filho
+662899@RR@7375@34960@@Antônio Moreira da Silva@@69315338@Rua@S@R Antônio M da Silva
+662901@RR@7375@12975@@de Acesso@@69307582@Rua@S@R de Acesso
+662902@RR@7375@12975@@Araçazeiro@@69307584@Travessa@S@Tv Araçazeiro
+662903@RR@7375@12975@@Ville Roy@@69307588@Travessa@S@Tv Ville Roy
+662904@RR@7375@12978@@13 de Maio@@69306555@Alameda@S@Al 13 de Maio
+662905@RR@7375@12981@@Caxangá@@69301045@Travessa@S@Tv Caxangá
+662906@RR@7375@12981@@Nossa Senhora de Nazaré@@69301063@Travessa@S@Tv N Sra de Nazaré
+662907@RR@7375@12987@@José Francisco@@69313194@Travessa@S@Tv José Francisco
+662908@RR@7375@12972@@dos Beneditinos@@69306357@Travessa@S@Tv dos Beneditinos
+662909@RR@7375@12991@@P-3@@69307312@Travessa@S@Tv P-3
+662910@RR@7375@12991@@P-4@@69307315@Travessa@S@Tv P-4
+662911@RR@7375@12991@@P-5@@69307317@Travessa@S@Tv P-5
+662912@RR@7375@12991@@P-6@@69307322@Travessa@S@Tv P-6
+662913@RR@7375@12991@@P-7@@69307325@Travessa@S@Tv P-7
+662914@RR@7375@12991@@P-8@@69307327@Travessa@S@Tv P-8
+662915@RR@7375@35029@@Brasil@@69315105@Avenida@S@Av Brasil
+662918@RR@7375@12994@@Padre Anchieta@@69314146@Avenida@S@Av Pe Anchieta
+662922@RR@7375@12994@@das Orquídeas@@69314158@Rua@S@R das Orquídeas
+662923@RR@7375@12994@@Henrique de Oliveira Gomes@@69314162@Rua@S@R Henrique de O Gomes
+662924@RR@7375@12994@@Lírio do Campo@@69314164@Rua@S@R Lírio do Campo
+662925@RR@7375@12994@@Peixe Boto@@69314166@Rua@S@R Peixe Boto
+662926@RR@7375@12994@@Peixe Boto I@@69314168@Rua@S@R Peixe Boto I
+662927@RR@7375@12994@@W-500@@69314172@Rua@S@R W-500
+662928@RR@7375@12994@@Tilápia@@69314174@Travessa@S@Tv Tilápia
+662929@RR@7375@12986@@Matrinxã@@69314266@Travessa@S@Tv Matrinxã
+662932@RR@7375@43522@@Adail Oliveira Rosa@@69314296@Rua@S@R Adail O Rosa
+662933@RR@7375@43522@@Francisco Anacleto da Silva@@69314298@Rua@S@R Francisco A da Silva
+662936@RR@7375@43522@@Z-3@@69314306@Rua@S@R Z-3
+662937@RR@7375@43522@@Z-2@@69314308@Rua@S@R Z-2
+662938@RR@7375@43522@@Z-1@@69314312@Rua@S@R Z-1
+662939@RR@7375@43522@@Cruzeiro do Sul@@69314314@Rua@S@R Cruzeiro do Sul
+662940@RR@7375@43522@@Padre Anchieta@@69314316@Avenida@S@Av Pe Anchieta
+662941@RR@7375@43522@@dos Tatus@@69314318@Alameda@S@Al dos Tatus
+662942@RR@7375@43522@@Esmeraldino Figueiredo@@69314322@Rua@S@R Esmeraldino Figueiredo
+662943@RR@7375@43522@@Doutor Airton Rocha@@69314324@Rua@S@R Dr Airton Rocha
+662944@RR@7375@43522@@Dácio Pinto de Oliveira@@69314326@Rua@S@R Dácio P de Oliveira
+662945@RR@7375@43522@@Wolter Forte Castelo Branco@@69314328@Rua@S@R Wolter F C Branco
+662946@RR@7375@43522@@Vicente Tavares de Melo@@69314332@Rua@S@R Vicente T de Melo
+662947@RR@7375@43522@@C-29@@69314334@Rua@S@R C-29
+662948@RR@7375@43522@@Maria Santa da Silva@@69314336@Rua@S@R Maria Sta da Silva
+662949@RR@7375@43522@@Raimundo de Castro Barros@@69314338@Rua@S@R Raimundo de C Barros
+662950@RR@7375@43522@@São Joaquim@@69314342@Avenida@S@Av S Joaquim
+662951@RR@7375@43522@@Casimiro José da Silva@@69314344@Rua@S@R Casimiro J da Silva
+662952@RR@7375@43522@@Joaquim Honorato de Souza@@69314346@Rua@S@R Joaquim H de Souza
+662953@RR@7375@43522@@Murilo Teixeira Cidade@@69314348@Rua@S@R Murilo T Cidade
+662954@RR@7375@43522@@C-35@@69314352@Rua@S@R C-35
+662955@RR@7375@43522@@Marieta de Mello Marques@@69314354@Rua@S@R Marieta de M Marques
+662956@RR@7375@43522@@Efigênia Lima@@69314356@Rua@S@R Efigênia Lima
+662958@RR@7375@43522@@Sílvio Leite@@69314362@Travessa@S@Tv Sílvio Leite
+662959@RR@7375@12990@@São Francisco@@69314424@Avenida@S@Av S Francisco
+662960@RR@7375@12990@@Francisco Monteiro Gondim@@69314426@Rua@S@R Francisco M Gondim
+662961@RR@7375@12990@@Raimundo Pessoa de Almeida@@69314428@Rua@S@R Raimundo P de Almeida
+662962@RR@7375@12990@@Canaã@@69314432@Travessa@S@Tv Canaã
+662963@RR@7375@12990@@Francisco Monteiro Gondim@@69314434@Travessa@S@Tv Francisco M Gondim
+662965@RR@7375@43568@@Laura Pinheiro Maia@@69314454@Rua@S@R Laura P Maia
+662966@RR@7375@43568@@Manoel Bonfim da Silva@@69314456@Rua@S@R Manoel B da Silva
+662967@RR@7375@43568@@N-13@@69314458@Rua@S@R N-13
+662968@RR@7375@43568@@N-14@@69314462@Rua@S@R N-14
+662969@RR@7375@43568@@Benjamin Pereira de Melo@@69314464@Rua@S@R Benjamin P de Melo
+662970@RR@7375@43568@@José Arruda de Lima@@69314466@Rua@S@R José A de Lima
+662971@RR@7375@43568@@N-17@@69314468@Rua@S@R N-17
+662972@RR@7375@43568@@José Gomes da Silva@@69314470@Rua@S@R José G da Silva
+662974@RR@7375@43568@@N-20@@69314477@Rua@S@R N-20
+662976@RR@7375@43568@@N-22@@69314483@Rua@S@R N-22
+662978@RR@7375@43568@@Brigadeiro-do-Ar Nero Moura@@69314490@Rua@S@R Brg-Ar Nero Moura
+662980@RR@7375@43568@@Jerusalém@@69314497@Rua@S@R Jerusalém
+662981@RR@7375@43568@@Rosa Oliveira de Araujo@@69314500@Rua@S@R Rosa O de Araujo
+662982@RR@7375@43568@@Sebastião Peixoto@@69314503@Rua@S@R Sebastião Peixoto
+662983@RR@7375@43568@@SB-02@@69314507@Rua@S@R SB-02
+662984@RR@7375@43568@@SB-03@@69314510@Rua@S@R SB-03
+662985@RR@7375@43568@@Sião@@69314513@Rua@S@R Sião
+662986@RR@7375@43568@@Silo@@69314517@Rua@S@R Silo
+662987@RR@7375@43568@@do Coentro@@69314520@Alameda@S@Al do Coentro
+662988@RR@7375@43568@@das Hortas@@69314523@Rua@S@R das Hortas
+662989@RR@7375@43568@@do Coentro@@69314527@Travessa@S@Tv do Coentro
+662990@RR@7375@43568@@do Coentro@@69314530@Rua@S@R do Coentro
+662991@RR@7375@43568@@Cândido Pereira@@69314533@Rua@S@R Cândido Pereira
+662992@RR@7375@43568@@Carmelo@@69314537@Rua@S@R Carmelo
+662993@RR@7375@43568@@Lourival Coimbra@@69314540@Rua@S@R Lourival Coimbra
+662994@RR@7375@43568@@Pedro Aldemar Bantim@@69314543@Rua@S@R Pedro A Bantim
+662995@RR@7375@43568@@Papa João Paulo II@@69314547@Rua@S@R Papa João Paulo II
+663002@RR@7375@43568@@Raimundo Rodrigues Coelho@@69314568@Avenida@S@Av Raimundo R Coelho
+663003@RR@7375@43569@@Abrahão Félix Lima@@69314570@Avenida@S@Av Abrahão F Lima
+663004@RR@7375@43569@@Olímpica@@69314575@Avenida@S@Av Olímpica
+663005@RR@7375@43569@@01@@69314580@Rua@S@R 01
+663006@RR@7375@43569@@02@@69314585@Rua@S@R 02
+663007@RR@7375@43569@@03@@69314590@Rua@S@R 03
+663008@RR@7375@43569@@04@@69314595@Rua@S@R 04
+663009@RR@7375@43569@@05@@69314600@Rua@S@R 05
+663010@RR@7375@43569@@06@@69314605@Rua@S@R 06
+663011@RR@7375@43569@@07@@69314610@Rua@S@R 07
+663012@RR@7375@43569@@08@@69314615@Rua@S@R 08
+663013@RR@7375@43569@@09@@69314620@Rua@S@R 09
+663014@RR@7375@43569@@Carmelo@@69314625@Rua@S@R Carmelo
+663015@RR@7375@43569@@das Raízes@@69314630@Rua@S@R das Raízes
+663017@RR@7375@43569@@Flora@@69314640@Rua@S@R Flora
+663018@RR@7375@43569@@Jardim Babilônia@@69314645@Rua@S@R Jardim Babilônia
+663019@RR@7375@43569@@Jerusalém@@69314650@Rua@S@R Jerusalém
+663020@RR@7375@43569@@N-29@@69314655@Rua@S@R N-29
+663021@RR@7375@43569@@Angelina Neiva de Góes@@69314660@Rua@S@R Angelina N de Góes
+663022@RR@7375@43569@@N-31@@69314665@Rua@S@R N-31
+663023@RR@7375@43569@@Raimundo Alves de Souza@@69314670@Rua@S@R Raimundo A de Souza
+663024@RR@7375@43569@@Lourival Coimbra@@69314675@Rua@S@R Lourival Coimbra
+663025@RR@7375@43569@@Pedro Aldemar Bantim@@69314680@Rua@S@R Pedro A Bantim
+663026@RR@7375@43569@@Tropical@@69314685@Rua@S@R Tropical
+663027@RR@7375@43569@@S-02@@69314690@Travessa@S@Tv S-02
+663028@RR@7375@43569@@Tropical@@69314695@Travessa@S@Tv Tropical
+663029@RR@7375@35040@@Estrela Cadente@@69316074@Rua@S@R Estrela Cadente
+663030@RR@7375@35040@@Estrela Celeste@@69316076@Rua@S@R Estrela Celeste
+663031@RR@7375@35040@@Estrela D'alva@@69316078@Travessa@S@Tv Estrela D'alva
+663033@RR@7375@35215@@Rio Mucajaí@@69316172@Travessa@S@Tv Rio Mucajaí
+663036@RR@7375@35224@@Cuiabá@@69316325@Rua@S@R Cuiabá
+663037@RR@7375@35224@@OP-XIX@@69316326@Rua@S@R OP-XIX
+663038@RR@7375@35224@@OP-XXV@@69316328@Rua@S@R OP-XXV
+663039@RR@7375@35224@@Antônio Silvino de Alexandre@@69316368@Rua@S@R Antônio S de Alexandre
+663040@RR@7375@35224@@Monte Sinai@@69316379@Rua@S@R Monte Sinai
+663042@RR@7375@35244@@Raimundo Rodrigues Coelho@@69316392@Avenida@S@Av Raimundo R Coelho
+663044@RR@7375@35244@@Abel Monteiro Reis@@69316398@Avenida@S@Av Abel M Reis
+663046@RR@7375@35244@@Getúlio Corrêia de Pinho@@69316402@Avenida@S@Av Getúlio C de Pinho
+663047@RR@7375@35244@@Parteira Patrocínia Leite@@69316404@Avenida@S@Av Part Patrocínia Leite
+663048@RR@7375@35244@@Santo Antônio@@69316408@Avenida@S@Av Sto Antônio
+663052@RR@7375@35244@@Doutor Luiz Brito Júnior@@69316420@Rua@S@R Dr Luiz B Júnior
+663055@RR@7375@35244@@Cidade Cascavel@@69316426@Rua@S@R Cidade Cascavel
+663056@RR@7375@35244@@Curitiba@@69316430@Rua@S@R Curitiba
+663057@RR@7375@35244@@do Rosário@@69316432@Rua@S@R do Rosário
+663058@RR@7375@35244@@dos Trabalhadores@@69316434@Rua@S@R dos Trabalhadores
+663059@RR@7375@35244@@Foz do Iguaçu@@69316438@Rua@S@R Foz do Iguaçu
+663060@RR@7375@35244@@Francisco Sales Vieira@@69316440@Rua@S@R Francisco S Vieira
+663061@RR@7375@35244@@HC-01@@69316444@Rua@S@R HC-01
+663062@RR@7375@35244@@HC-02@@69316446@Rua@S@R HC-02
+663063@RR@7375@12987@@Ágata@@69313108@Rua@S@R Ágata
+663064@RR@7375@12987@@Esmeralda@@69313112@Rua@S@R Esmeralda
+663066@RR@7375@12987@@Prata@@69313118@Rua@S@R Prata
+663067@RR@7375@12987@@Rubi@@69313122@Rua@S@R Rubi
+663068@RR@7375@12987@@Tantalita@@69313125@Rua@S@R Tantalita
+663069@RR@7375@12987@@Zircône@@69313128@Rua@S@R Zircône
+663070@RR@7375@12987@@Abrahão Félix Lima@@69313132@Avenida@S@Av Abrahão F Lima
+663071@RR@7375@12987@@Carlo Casadio@@69313135@Avenida@S@Av Carlo Casadio
+663072@RR@7375@12987@@XXVI@@69313138@Rua@S@R XXVI
+663073@RR@7375@12987@@01@@69313142@Rua@S@R 01
+663075@RR@7375@12987@@Juraci Peixoto@@69313148@Rua@S@R Juraci Peixoto
+663076@RR@7375@12987@@Manoel Pereira de Castro@@69313152@Rua@S@R Manoel P de Castro
+663077@RR@7375@12987@@Guanabara@@69313155@Travessa@S@Tv Guanabara
+663078@RR@7375@12987@@Antonio Mutran Paracat@@69313158@Rua@S@R Antonio M Paracat
+663079@RR@7375@12987@@CJ-2@@69313162@Rua@S@R CJ-2
+663080@RR@7375@12987@@CJ-3@@69313165@Rua@S@R CJ-3
+663081@RR@7375@12987@@CJ-4@@69313168@Rua@S@R CJ-4
+663082@RR@7375@12987@@CJ-5@@69313172@Rua@S@R CJ-5
+663085@RR@7375@12987@@CJ-8@@69313182@Rua@S@R CJ-8
+663089@RR@7375@12974@@dos Imigrantes@@69309215@Travessa@S@Tv dos Imigrantes
+663090@RR@7375@12983@@Dermario Bonates@@69313425@Rua@S@R Dermario Bonates
+663092@RR@7375@12983@@Padre Anchieta@@69313435@Avenida@S@Av Pe Anchieta
+663094@RR@7375@12983@@Aristóteles Carneiro@@69313440@Rua@S@R Aristóteles Carneiro
+663095@RR@7375@12983@@Betel@@69313442@Rua@S@R Betel
+663097@RR@7375@12983@@Gideão@@69313448@Rua@S@R Gideão
+663098@RR@7375@12983@@Hebron@@69313450@Rua@S@R Hebron
+663099@RR@7375@12983@@Jafet@@69313452@Rua@S@R Jafet
+663103@RR@7375@35244@@Nivaldo da Conceição Gutierrez@@69316536@Rua@S@R Nivaldo da C Gutierrez
+663104@RR@7375@12983@@Noemi@@69313465@Rua@S@R Noemi
+663105@RR@7375@12983@@Cambará@@69313475@Travessa@S@Tv Cambará
+663106@RR@7375@12983@@Gideão@@69313478@Travessa@S@Tv Gideão
+663113@RR@7375@12998@@Latino@@69313535@Rua@S@R Latino
+663114@RR@7375@12998@@Júlio Pinto@@69313538@Travessa@S@Tv Júlio Pinto
+663115@RR@7375@12979@@Chile@@69313632@Avenida@S@Av Chile
+663116@RR@7375@43519@@Jael Barradas@@69313728@Avenida@S@Av Jael Barradas
+663117@RR@7375@12979@@174@@69313638@Rodovia@S@Rod 174
+663118@RR@7375@12979@@Cabo-Polícia Militar Lawrence Melo@@69313640@Rua@S@R Cb-PM Lawrence Melo
+663119@RR@7375@12979@@Advogado Illo Augusto@@69313642@Rua@S@R Adv Illo Augusto
+663120@RR@7375@12979@@Soldado-Polícia Militar Damião Gentil de Goes@@69313645@Rua@S@R Sd-PM Damião G de Goes
+663121@RR@7375@12979@@B@@69313648@Travessa@S@Tv B
+663122@RR@7375@12979@@C@@69313650@Travessa@S@Tv C
+663123@RR@7375@12979@@C-01@@69313652@Travessa@S@Tv C-01
+663124@RR@7375@12979@@P-02@@69313655@Travessa@S@Tv P-02
+663125@RR@7375@12979@@Manoel Bonfim da Silva@@69313658@Travessa@S@Tv Manoel B da Silva
+663126@RR@7375@12979@@Monte Sinai@@69313660@Travessa@S@Tv Monte Sinai
+663132@RR@7375@43520@@Zuldimar Saraiva de Pinho@@69313788@Rua@S@R Zuldimar S de Pinho
+663134@RR@7375@43519@@Y@@69313698@Rua@S@R Y
+663135@RR@7375@43519@@Z@@69313700@Rua@S@R Z
+663137@RR@7375@43519@@19@@69313705@Travessa@S@Tv 19
+663139@RR@7375@43519@@Jurupaí@@69313710@Rua@S@R Jurupaí
+663141@RR@7375@43519@@Tenente Braz Barros da Silva@@69313715@Rua@S@R Ten Braz B da Silva
+663143@RR@7375@43519@@Granjeiro@@69313720@Rua@S@R Granjeiro
+663144@RR@7375@43519@@Lourival Honorato da Silva@@69313722@Rua@S@R Lourival H da Silva
+663145@RR@7375@43519@@Sabá Cunha@@69313725@Avenida@S@Av Sabá Cunha
+663146@RR@7375@43520@@Cabo-Polícia Militar José Tabira de Alencar Macêdo@@69313745@Avenida@S@Av Cb-PM José T de A Macêdo
+663148@RR@7375@43520@@João Aprígio da Silva@@69313752@Rua@S@R João A da Silva
+663150@RR@7375@43520@@Nena Brasil@@69313758@Rua@S@R Nena Brasil
+663152@RR@7375@43520@@Vicente Eluan@@69313762@Rua@S@R Vicente Eluan
+663153@RR@7375@43520@@09@@69313765@Rua@S@R 09
+663155@RR@7375@43520@@Hilda Sobral Guedes@@69313770@Rua@S@R Hilda S Guedes
+663156@RR@7375@43520@@Vitor Ribeiro dos Santos@@69313772@Rua@S@R Vitor R dos Santos
+663162@RR@7375@43520@@A@@69313795@Travessa@S@Tv A
+663163@RR@7375@43520@@B@@69313798@Travessa@S@Tv B
+663164@RR@7375@43520@@C@@69313800@Travessa@S@Tv C
+663165@RR@7375@43520@@D@@69313802@Travessa@S@Tv D
+663166@RR@7375@43520@@Y@@69313805@Travessa@S@Tv Y
+663167@RR@7375@35244@@HC-03@@69316448@Rua@S@R HC-03
+663168@RR@7375@35244@@HC-04@@69316462@Rua@S@R HC-04
+663169@RR@7375@35244@@HC-05@@69316464@Rua@S@R HC-05
+663170@RR@7375@35244@@HC-06@@69316466@Rua@S@R HC-06
+663171@RR@7375@35244@@HC-07@@69316468@Rua@S@R HC-07
+663172@RR@7375@35244@@HC-08@@69316470@Rua@S@R HC-08
+663173@RR@7375@35244@@HC-09@@69316472@Rua@S@R HC-09
+663174@RR@7375@35244@@Alice Maria de Jesus Lira@@69316476@Rua@S@R Alice M de J Lira
+663175@RR@7375@35244@@HC-12@@69316480@Rua@S@R HC-12
+663176@RR@7375@35244@@HC-13@@69316482@Rua@S@R HC-13
+663177@RR@7375@35244@@HC-14@@69316484@Rua@S@R HC-14
+663178@RR@7375@35244@@HC-15@@69316488@Rua@S@R HC-15
+663179@RR@7375@35244@@HC-16@@69316490@Rua@S@R HC-16
+663180@RR@7375@35244@@HC-17@@69316492@Rua@S@R HC-17
+663181@RR@7375@35244@@Laura Pinheiro Maia@@69316494@Rua@S@R Laura P Maia
+663182@RR@7375@35244@@Luiz Reis Cristo@@69316496@Rua@S@R Luiz R Cristo
+663183@RR@7375@35244@@Maria Martins Vieira@@69316498@Rua@S@R Maria M Vieira
+663185@RR@7375@35244@@José Cassimiro da Silva@@69316502@Rua@S@R José C da Silva
+663186@RR@7375@35244@@Rosa Oliveira de Araujo@@69316506@Rua@S@R Rosa O de Araujo
+663187@RR@7375@35244@@N-13@@69316508@Rua@S@R N-13
+663188@RR@7375@35244@@Benjamin Pereira de Melo@@69316510@Rua@S@R Benjamin P de Melo
+663193@RR@7375@35244@@N-26@@69316522@Rua@S@R N-26
+663194@RR@7375@35244@@Juiz Maximiliano Trindade@@69316524@Rua@S@R Jz Maximiliano Trindade
+663195@RR@7375@35244@@Thereza Magalhães Brasil@@69316526@Rua@S@R Thereza M Brasil
+663196@RR@7375@35244@@N-29@@69316528@Rua@S@R N-29
+663197@RR@7375@35244@@Angelina Neiva de Góes@@69316530@Rua@S@R Angelina N de Góes
+663198@RR@7375@35244@@N-31@@69316532@Rua@S@R N-31
+663199@RR@7375@35244@@Raimundo Alves de Souza@@69316534@Rua@S@R Raimundo A de Souza
+663200@RR@7375@35244@@Nívea@@69316538@Rua@S@R Nívea
+663201@RR@7375@35244@@Nozes@@69316540@Rua@S@R Nozes
+663203@RR@7375@35244@@Pedro Aldemar Bantim@@69316544@Rua@S@R Pedro A Bantim
+663204@RR@7375@35244@@Papa João Paulo II@@69316546@Rua@S@R Papa João Paulo II
+663212@RR@7375@35244@@José Renato Hadad@@69316562@Rua@S@R José R Hadad
+663213@RR@7375@35244@@Professora Antonia Cutrim@@69316565@Rua@S@R Prfa Antonia Cutrim
+663216@RR@7375@35244@@S-29@@69316596@Rua@S@R S-29
+663217@RR@7375@35244@@Francisco Chagas dos Reis@@69316598@Rua@S@R Francisco C dos Reis
+663218@RR@7375@35244@@Carmelita Ireng@@69316600@Rua@S@R Carmelita Ireng
+663219@RR@7375@35244@@José Martins dos Santos Neto@@69316603@Rua@S@R José M dos Stos Neto
+663220@RR@7375@35244@@S-33@@69316606@Rua@S@R S-33
+663221@RR@7375@35244@@S-34@@69316610@Rua@S@R S-34
+663222@RR@7375@35244@@Secundina Mingues Pereira de Moraes@@69316615@Rua@S@R Secundina M P de Moraes
+663223@RR@7375@35244@@Cleilde Melo Cabral@@69316618@Rua@S@R Cleilde M Cabral
+663224@RR@7375@35244@@Albertina Roselina da Silva@@69316620@Rua@S@R Albertina R da Silva
+663225@RR@7375@35244@@Igraça Correa da Costa@@69316625@Rua@S@R Igraça C da Costa
+663226@RR@7375@35244@@Francisco Cezário Filho@@69316627@Rua@S@R Francisco C Filho
+663227@RR@7375@35244@@Jair Corrêa da Costa@@69316630@Rua@S@R Jair C da Costa
+663228@RR@7375@35244@@Pedro Cordeiro da Costa@@69316635@Rua@S@R Pedro C da Costa
+663229@RR@7375@35244@@S-44@@69316640@Rua@S@R S-44
+663230@RR@7375@35244@@Solon Rodrigues Pessoa@@69316645@Rua@S@R Solon R Pessoa
+663231@RR@7375@35244@@HC-09@@69316650@Travessa@S@Tv HC-09
+663232@RR@7375@12977@@Jósimo de alencar Macêdo@@69303005@Rua@S@R Jósimo de A Macêdo
+663233@RR@7375@43520@@Jornalista Humberto Silva@@69313792@Rua@S@R Jorn Humberto Silva
+674267@RR@7375@12991@@Olavo Brasil@@69307055@Avenida@S@Av Olavo Brasil
+674268@RR@7375@12991@@Anália Soares de Freitas@@69307057@Avenida@S@Av Anália S de Freitas
+674269@RR@7375@12981@@José Ribeiro da Silva@@69301165@Rua@S@R José R da Silva
+674270@RR@7375@12997@@Tacutú@@69303487@Travessa@S@Tv Tacutú
+674271@RR@7375@12995@@Doutor Arnaldo Brandão@@69305080@Rua@S@R Dr Arnaldo Brandão
+674273@RR@7375@12972@@Minas Gerais@@69306010@Avenida@S@Av Minas Gerais
+674275@RR@7375@12972@@João XXIII@@69306168@Travessa@S@Tv João XXIII
+674277@RR@7375@12972@@João Evangelista Pereira de Melo@@69306353@Rua@S@R João Evangel P de Melo
+674278@RR@7375@12972@@Projetada-01@@69306391@Rua@S@R Projetada-01
+674279@RR@7375@12972@@Francisco Saldanha@@69306398@Travessa@S@Tv Francisco Saldanha
+674280@RR@7375@12993@@das Mozendras@@69309414@Rua@S@R das Mozendras
+674284@RR@7375@43459@@Capitão Ene Garcez@@69310003@Travessa@S@Tv Cap Ene Garcez
+674285@RR@7375@43459@@Nova Iorque@@69310010@Avenida@S@Av Nova Iorque
+674286@RR@7375@43459@@SD-01@@69310013@Alameda@S@Al SD-01
+674287@RR@7375@43459@@SD-02@@69310015@Alameda@S@Al SD-02
+674288@RR@7375@43459@@SD-03@@69310018@Alameda@S@Al SD-03
+674289@RR@7375@43459@@SD-04@@69310020@Alameda@S@Al SD-04
+674290@RR@7375@43459@@SD-05@@69310023@Alameda@S@Al SD-05
+674291@RR@7375@43459@@SD-06@@69310025@Alameda@S@Al SD-06
+674292@RR@7375@43459@@SD-07@@69310028@Alameda@S@Al SD-07
+674293@RR@7375@43459@@Brasília@@69310030@Avenida@S@Av Brasília
+674294@RR@7375@43459@@Lisboa@@69310033@Rua@S@R Lisboa
+674295@RR@7375@43459@@La Paz@@69310035@Rua@S@R La Paz
+674296@RR@7375@43459@@Amsterdã@@69310038@Rua@S@R Amsterdã
+674298@RR@7375@43459@@Madri@@69310043@Rua@S@R Madri
+674299@RR@7375@43459@@Almério Mota Pereira@@69310045@Rua@S@R Almério M Pereira
+674300@RR@7375@43459@@Ana Cecília Mota da Silva@@69310048@Rua@S@R Ana C M da Silva
+674301@RR@7375@43459@@Tota Teréncio@@69310050@Rua@S@R Tota Teréncio
+674302@RR@7375@43459@@Detson Mendes@@69310060@Rua@S@R Detson Mendes
+674303@RR@7375@43459@@Senhora Cecília@@69310053@Rua@S@R Sra Cecília
+674304@RR@7375@43459@@Hélio Magalhães@@69310063@Rua@S@R Hélio Magalhães
+674305@RR@7375@43459@@João Alencar@@69310065@Rua@S@R João Alencar
+674306@RR@7375@43459@@Estácio Melo@@69310068@Rua@S@R Estácio Melo
+674307@RR@7375@43459@@Deco Fonteles@@69310073@Rua@S@R Deco Fonteles
+674308@RR@7375@43459@@Afonso Pena@@69310075@Rua@S@R Afonso Pena
+674309@RR@7375@43459@@dos Guarulhos@@69310078@Rua@S@R dos Guarulhos
+674310@RR@7375@43459@@Pampulha@@69310080@Rua@S@R Pampulha
+674311@RR@7375@43459@@Campos dos Palmares@@69310083@Rua@S@R Campos dos Palmares
+674312@RR@7375@43459@@Galeão@@69310085@Avenida@S@Av Galeão
+674313@RR@7375@43459@@2 de Julho@@69310088@Rua@S@R 2 de Julho
+674314@RR@7375@43459@@Pinto Martins@@69310090@Rua@S@R Pinto Martins
+674315@RR@7375@43459@@Guararapes@@69310093@Rua@S@R Guararapes
+674316@RR@7375@43459@@Val de Cans@@69310095@Rua@S@R Val de Cans
+674317@RR@7375@43459@@Salgado Filho@@69310100@Rua@S@R Salgado Filho
+674318@RR@7375@43459@@Mauro Pereira de Melo@@69310103@Rua@S@R Mauro P de Melo
+674319@RR@7375@43459@@José Antonio Pires de Souza@@69310105@Rua@S@R José A P de Souza
+674320@RR@7375@43459@@Waldemar Bastos de Oliveira@@69310108@Rua@S@R Waldemar B de Oliveira
+674321@RR@7375@43459@@Domingos Ferreira dos Reis@@69310110@Rua@S@R Domingos F dos Reis
+674322@RR@7375@43459@@10@@69310113@Rua@S@R 10
+674323@RR@7375@43459@@Oder Brasil@@69310115@Rua@S@R Oder Brasil
+674324@RR@7375@43459@@Jaraguá@@69310120@Travessa@S@Tv Jaraguá
+674325@RR@7375@43459@@Jasmim@@69310123@Travessa@S@Tv Jasmim
+674326@RR@7375@43459@@Jardim Floresta@@69310125@Travessa@S@Tv Jardim Floresta
+674328@RR@7375@12983@@Nivaldo da Conceição Gutierrez@@69313462@Rua@S@R Nivaldo da C Gutierrez
+674332@RR@7375@12979@@Jael Barradas@@69313635@Avenida@S@Av Jael Barradas
+674333@RR@7375@43519@@Zuldimar Saraiva de Pinho@@69313692@Rua@S@R Zuldimar S de Pinho
+674334@RR@7375@35244@@Coronel Menna Barreto@@69316478@Rua@S@R Cel Menna Barreto
+674335@RR@7375@12992@@Closvaldo Paes Carolino@@69316768@Rua@S@R Closvaldo P Carolino
+674336@RR@7375@12992@@Tertuliano Cardoso Ramos@@69316770@Rua@S@R Tertuliano C Ramos
+674337@RR@7375@43565@@Euclides Gomes da Silva@@69317027@Rua@S@R Euclides G da Silva
+674347@RR@7375@43567@@C-51@@69317236@Rua@S@R C-51
+674348@RR@7375@43459@@Francisco Cândido@@69310055@Rua@S@R Francisco Cândido
+674349@RR@7375@43459@@174@@69310070@Rodovia@S@Rod 174
+674350@RR@7375@12994@@Lambari@@69314137@Rua@S@R Lambari
+674351@RR@7375@12975@@da Pitombeira@@69307775@Avenida@S@Av da Pitombeira
+674352@RR@7375@43459@@Yeyê Coelho@@69310118@Rua@S@R Yeyê Coelho
+674354@RR@7375@12989@@do Sanhaçu@@69304477@Rua@S@R do Sanhaçu
+689716@RR@7375@35244@@CC-01@@69318000@Rua@S@R CC-01
+689717@RR@7375@35244@@CC-02@@69318005@Rua@S@R CC-02
+689718@RR@7375@35244@@CC-03@@69318010@Rua@S@R CC-03
+689719@RR@7375@35244@@CC-04@@69318015@Rua@S@R CC-04
+689720@RR@7375@35244@@Major Ecildon Pinto@@69318020@Rua@S@R Maj Ecildon Pinto
+689721@RR@7375@35244@@CC-06@@69318025@Rua@S@R CC-06
+689722@RR@7375@35244@@CC-07@@69318030@Rua@S@R CC-07
+689723@RR@7375@35244@@CC-08@@69318035@Rua@S@R CC-08
+689724@RR@7375@35244@@CC-09@@69318040@Rua@S@R CC-09
+689725@RR@7375@35244@@CC-10@@69318045@Rua@S@R CC-10
+689726@RR@7375@35244@@CC-11@@69318050@Rua@S@R CC-11
+689727@RR@7375@35244@@CC-12@@69318055@Rua@S@R CC-12
+689728@RR@7375@35244@@CC-13@@69318060@Rua@S@R CC-13
+689729@RR@7375@35244@@CC-14@@69318065@Rua@S@R CC-14
+689730@RR@7375@35244@@CC-15@@69318070@Rua@S@R CC-15
+689731@RR@7375@35244@@CC-16@@69318075@Rua@S@R CC-16
+689732@RR@7375@35244@@CC-17@@69318080@Rua@S@R CC-17
+689733@RR@7375@35244@@CC-18@@69318085@Rua@S@R CC-18
+689734@RR@7375@35244@@CC-19@@69318090@Rua@S@R CC-19
+689735@RR@7375@35244@@CC-20@@69318095@Rua@S@R CC-20
+689736@RR@7375@35244@@CC-21@@69318100@Rua@S@R CC-21
+689737@RR@7375@35244@@CC-22@@69318105@Rua@S@R CC-22
+689738@RR@7375@35244@@CC-23@@69318110@Rua@S@R CC-23
+689739@RR@7375@35244@@CC-24@@69318115@Rua@S@R CC-24
+689740@RR@7375@35244@@CC-25@@69318120@Rua@S@R CC-25
+689741@RR@7375@35244@@CC-26@@69318125@Rua@S@R CC-26
+689742@RR@7375@35244@@CC-27@@69318130@Rua@S@R CC-27
+689743@RR@7375@35244@@CC-28@@69318135@Rua@S@R CC-28
+689744@RR@7375@35244@@CC-29@@69318140@Rua@S@R CC-29
+689745@RR@7375@35244@@CC-30@@69318145@Rua@S@R CC-30
+689746@RR@7375@35244@@CC-31@@69318150@Rua@S@R CC-31
+689747@RR@7375@35244@@CC-32@@69318155@Rua@S@R CC-32
+689748@RR@7375@35244@@CC-33@@69318160@Rua@S@R CC-33
+689749@RR@7375@35244@@CC-34@@69318165@Rua@S@R CC-34
+693272@RR@7375@34977@@Engenheiro Carlos Geraldo@@69312521@Rua@S@R Eng Carlos Geraldo
+693273@RR@7375@34977@@Valmir Sabino de Oliveira@@69312528@Rua@S@R Valmir S de Oliveira
+693275@RR@7375@34977@@Turin@@69312650@Rua@S@R Turin
+693276@RR@7375@34977@@Bolônia@@69312653@Rua@S@R Bolônia
+693277@RR@7375@34977@@Ravena@@69312655@Rua@S@R Ravena
+693278@RR@7375@34977@@Roma@@69312660@Avenida@S@Av Roma
+693279@RR@7375@34977@@Bérgamo@@69312663@Rua@S@R Bérgamo
+693280@RR@7375@34977@@Milão@@69312665@Rua@S@R Milão
+693281@RR@7375@34977@@Parque Veneza@@69312670@Avenida@S@Av Parque Veneza
+693282@RR@7375@34977@@Bréscia@@69312673@Rua@S@R Bréscia
+693283@RR@7375@34977@@Nápolis@@69312675@Rua@S@R Nápolis
+693284@RR@7375@34977@@CJ-5@@69312680@Rua@S@R CJ-5
+696697@RR@7375@43459@@Santos Dumont@@69310006@Praça@S@Pç Stos Dumont
+700368@RR@7375@43459@@João Magalhães@@69310058@Rua@S@R João Magalhães
+704673@RR@7375@12989@@Edmundo Amorim@@69304270@Rua@S@R Edmundo Amorim
+739326@RR@7375@43459@@Professor Alexandre Borges@@69310012@Rua@S@R Prf Alexandre Borges
+743713@RR@7375@12989@@Antônio Luitgard Moura@@69304570@Rua@S@R Antônio L Moura
+743714@RR@7375@12989@@Xavier de Sampaio@@69304550@Rua@S@R Xavier de Sampaio
+743715@RR@7375@12991@@Baraúna@@69307095@Avenida@S@Av Baraúna
+766213@RR@7375@12976@@General Ataíde Teive@- de 3680 a 4620 - lado par@69312218@Avenida@S@Av Gen Ataíde Teive
+766214@RR@7375@12983@@General Ataíde Teive@- de 5395 a 6235 - lado ímpar@69313432@Avenida@S@Av Gen Ataíde Teive
+766215@RR@7375@43522@@General Ataíde Teive@- de 5982 a 7290 - lado par@69314292@Avenida@S@Av Gen Ataíde Teive
+766216@RR@7375@12984@@General Ataíde Teive@- de 8607/8608 ao fim@69317334@Avenida@S@Av Gen Ataíde Teive
+766217@RR@7375@12986@@General Ataíde Teive@- de 5702 a 5980 - lado par@69314212@Avenida@S@Av Gen Ataíde Teive
+766218@RR@7375@12994@@General Ataíde Teive@- de 5388 a 5700 - lado par@69314144@Avenida@S@Av Gen Ataíde Teive
+811496@RR@7375@12984@@Expedito Francisco da Silva@- de 2001/2002 ao fim@69317344@Rua@S@R Expedito F da Silva
+811497@RR@7375@12984@@Sebastião França de Souza@- de 127/128 ao fim@69317310@Rua@S@R Sebastião F de Souza
+811498@RR@7375@35244@@Edmilson José da Costa@- até 119/120@69316422@Rua@S@R Edmilson J da Costa
+811499@RR@7375@43519@@Maestro Dirson Costa@- de 119 ao fim - lado ímpar@69313709@Rua@S@R Mto Dirson Costa
+811500@RR@7375@12979@@Maestro Dirson Costa@- até 115 - lado ímpar@69313628@Rua@S@R Mto Dirson Costa
+811501@RR@7375@12979@@Walmir Pereira da Rocha@- até 887/888@69313620@Rua@S@R Walmir P da Rocha
+811502@RR@7375@12978@@Presidente Juscelino Kubitschek@- de 02 a 858 - lado par@69306535@Avenida@S@Av Pres Juscelino Kubitschek
+811503@RR@7375@12984@@Francisco Régis de Melo@- de 173/174 ao fim@69317316@Rua@S@R Francisco R de Melo
+811504@RR@7375@12992@@Antônia Ferreira da Silva@- de 1019/1020 ao fim@69316748@Rua@S@R Antônia F da Silva
+811507@RR@7375@12973@@Mestre Albano@- de 3106 a 3862 - lado par@69312299@Rua@S@R Mte Albano
+811508@RR@7375@35224@@General Bento Gonçalves@- até 2001/2002@69316308@Avenida@S@Av Gen Bento Gonçalves
+811509@RR@7375@35244@@Felinto Barbosa Monteiro@- até 1177/1178@69316400@Avenida@S@Av Felinto B Monteiro
+811510@RR@7375@35244@@Julieta Pereira de Melo@- até 151 - lado ímpar@69316410@Rua@S@R Julieta P de Melo
+811511@RR@7375@35244@@Dona Sinhá Francisca Alves de Lima@- até 153/154@69316414@Rua@S@R Da Sinha Francisca A de Lima
+811512@RR@7375@35244@@Sebastião França de Souza@- até 125/126@69316416@Rua@S@R Sebastião F de Souza
+811513@RR@7375@35244@@Francisco Régis de Melo@- até 171/172@69316424@Rua@S@R Francisco R de Melo
+811514@RR@7375@43565@@Felinto Barbosa Monteiro@- de 1179/1180 ao fim@69317004@Avenida@S@Av Felinto B Monteiro
+811515@RR@7375@43565@@Odílio D'oliveira Cruz@- até 97/98@69317041@Rua@S@R Odílio D Cruz
+811516@RR@7375@43565@@Julieta Pereira de Melo@- de 2 a 152 - lado par@69317047@Rua@S@R Julieta P de Melo
+811518@RR@7375@43519@@José Carlos dos Prazeres@- até 797/798@69313680@Rua@S@R José C dos Prazeres
+811519@RR@7375@43519@@Altair Pereira de Melo@- até 725/726@69313682@Rua@S@R Altair P de Melo
+811520@RR@7375@43519@@Waldemar Coêlho de Aguiar@- até 795/796@69313685@Rua@S@R Waldemar C de Aguiar
+811521@RR@7375@43519@@Clarice de Melo Cabral@- até 829/830@69313690@Rua@S@R Clarice de M Cabral
+811524@RR@7375@43522@@Expedito Francisco da Silva@- até 999/1000@69314302@Rua@S@R Expedito F da Silva
+811526@RR@7375@43567@@Odílio D'oliveira Cruz@- de 99/100 ao fim@69317238@Rua@S@R Odílio D Cruz
+811527@RR@7375@43567@@Expedito Francisco da Silva@- de 1001/1002 ao fim@69317285@Rua@S@R Expedito F da Silva
+811528@RR@7375@43520@@Félix Valois de Araújo@- de 781/782 ao fim@69313760@Rua@S@R Félix V de Araújo
+811529@RR@7375@12979@@Félix Valois de Araújo@- até 779/780@69313605@Rua@S@R Félix V de Araújo
+811530@RR@7375@35244@@Lourival Coimbra@- até 289 - lado ímpar@69316542@Rua@S@R Lourival Coimbra
+811531@RR@7375@35244@@Margarida Caland de Paiva@- até 705/706@69316548@Rua@S@R Margarida C de Paiva
+811532@RR@7375@35244@@Vereador Waldemar Gomes@- até 601/602@69316552@Rua@S@R Ver Waldemar Gomes
+811533@RR@7375@35244@@Vereador Manoel Joaquim Martins@- até 527/528@69316554@Rua@S@R Ver Manoel J Martins
+811534@RR@7375@35244@@Antônia Ferreira da Silva@- até 1017/1018@69316558@Rua@S@R Antônia F da Silva
+811535@RR@7375@35244@@Tarcilo Ayres@- até 973/974@69316560@Rua@S@R Tarcilo Ayres
+811536@RR@7375@35244@@Luiz Tavares da Silva@- até 823/824@69316568@Rua@S@R Luiz T da Silva
+811538@RR@7375@12984@@Julieta Pereira de Melo@- de 153/154 ao fim@69317306@Rua@S@R Julieta P de Melo
+811540@RR@7375@12972@@Presidente Juscelino Kubitschek@- de 859/860 ao fim@69306295@Avenida@S@Av Pres Juscelino Kubitschek
+811541@RR@7375@35244@@General Bento Gonçalves@- de 2001/2002 ao fim@69316390@Avenida@S@Av Gen Bento Gonçalves
+811543@RR@7375@43565@@Stevam Pereira da Costa@- de 1087/1088 ao fim@69317166@Rua@S@R Stevam P da Costa
+811544@RR@7375@43565@@Professor Hélcio Carlos@- de 1111/1112 ao fim@69317168@Rua@S@R Prf Hélcio Carlos
+811545@RR@7375@35244@@Antônio Coutrim da Silva@- até 1039/1040@69316592@Rua@S@R Antônio C da Silva
+811546@RR@7375@43565@@Danilo Rodrigues da Silva@- de 891/892 ao fim@69317165@Rua@S@R Danilo R da Silva
+811547@RR@7375@34956@@Udine Benedetti@@69312453@Rua@S@R Udine Benedetti
+811549@RR@7375@35244@@Lauro Alexandre da Silva@- até 1061 - lado ímpar@69316556@Rua@S@R Lauro A da Silva
+811550@RR@7375@12984@@Dona Sinhá Francisca Alves de Lima@- de 155/156 ao fim@69317308@Rua@S@R Da Sinha Francisca A de Lima
+811551@RR@7375@12979@@Parimé Brasil@- de 02 a 1650 - lado par@69313625@Avenida@S@Av Parimé Brasil
+811552@RR@7375@43565@@S-18@- de 1221/1222 ao fim@69317164@Rua@S@R S-18
+811553@RR@7375@35244@@S-18@- até 1219/1220@69316576@Rua@S@R S-18
+811554@RR@7375@43565@@S-22@- de 1083/1084 ao fim@69317170@Rua@S@R S-22
+811556@RR@7375@43565@@Renato Marques Jr@- de 1117/1118 ao fim@69317172@Rua@S@R Renato M Jr
+811558@RR@7375@43565@@Jacy de Souza Cruz@- de 1121/1122 ao fim@69317174@Rua@S@R Jacy de S Cruz
+839231@RR@7375@43459@@Sargento Azevedo@- até 1189/1190@69310128@Rua@S@R Srg Azevedo
+839232@RR@7375@12979@@Rui Baraúna@- até 99997 - lado ímpar@69313600@Avenida@S@Av Rui Baraúna
+839233@RR@7375@12973@@Belarmino Fernandes Magalhães@- até 1039/1040@69312248@Rua@S@R Belarmino F Magalhães
+839236@RR@7375@12979@@Cabo-Polícia Militar Laurindo de Araújo Braga@- até 1219/1220@69313568@Rua@S@R Cb-PM Laurindo de A Braga
+839238@RR@7375@12973@@Francisco Custódio de Andrade@- até 1039/1040@69312258@Rua@S@R Francisco C de Andrade
+839241@RR@7375@12985@@Sargento Azevedo@- de 1191/1192 ao fim@69312092@Rua@S@R Srg Azevedo
+839244@RR@7375@12973@@Lindolfo Bernardo Coutinho@- até 1039/1040@69312282@Rua@S@R Lindolfo B Coutinho
+839245@RR@7375@12973@@Maria Rodrigues dos Santos@- até 1029/1030@69312285@Rua@S@R Maria R dos Santos
+839248@RR@7375@12973@@Moacir da Silva Mota@- até 1039/1040@69312302@Rua@S@R Moacir da S Mota
+839250@RR@7375@12973@@Nossa Senhora de Nazaré@- até 1059 - lado ímpar@69312305@Avenida@S@Av N Sra de Nazaré
+839253@RR@7375@12976@@Princesa Isabel@- de 2032 a 2782 - lado par@69312176@Avenida@S@Av Prca Isabel
+839256@RR@7375@12992@@Cezar Nogueira Júnior@- até 1493/1494@69316700@Rua@S@R Cezar N Júnior
+839257@RR@7375@35244@@Closvaldo Paes Carolino@@69316570@Rua@S@R Closvaldo P Carolino
+839259@RR@7375@43568@@Pastor Nicanor Fabrício dos Santos@- até 999/1000@69314473@Rua@S@R Pst Nicanor F dos Santos
+839260@RR@7375@43568@@Izídio Galdino da Silva@- até 955/956@69314480@Rua@S@R Izídio G da Silva
+839261@RR@7375@43568@@Caubi Brasil de Magalhães@- até 883/884@69314487@Rua@S@R Caubi B de Magalhães
+839263@RR@7375@35244@@Pastor Nicanor Fabrício dos Santos@- de 1001/1002 ao fim@69316514@Rua@S@R Pst Nicanor F dos Santos
+839266@RR@7375@12983@@São Sebastião@- até 1059 - lado ímpar@69313438@Avenida@S@Av S Sebastião
+839269@RR@7375@35215@@Campinas@- de 02 ao fim - lado par@69316168@Rua@S@R Campinas
+839277@RR@7375@43522@@Sebastião Ari Paiva@- de 02 ao fim - lado par@69314358@Rua@S@R Sebastião A Paiva
+839279@RR@7375@12973@@Francisco Inácio de Souza@- até 1029/1030@69312262@Rua@S@R Francisco I de Souza
+839280@RR@7375@12973@@Horácio Mardel de Magalhães@- até 1029/1030@69312265@Rua@S@R Horácio M de Magalhães
+839283@RR@7375@35028@@Campinas@- até 99997 - lado ímpar@69316182@Rua@S@R Campinas
+839284@RR@7375@43567@@Sebastião Ari Paiva@- lado ímpar@69317191@Rua@S@R Sebastião A Paiva
+839286@RR@7375@12972@@Brigadeiro Eduardo Gomes@- até 511 - lado ímpar@69306005@Avenida@S@Av Brg Eduardo Gomes
+839287@RR@7375@51741@@Roxinol@@69315603@Rua@S@R Roxinol
+839288@RR@7375@35244@@Nazaré Filgueiras@- até 789/790@69316396@Avenida@S@Av Nazaré Filgueiras
+839289@RR@7375@43568@@Nazaré Filgueiras@- de 791 a 1351 - lado ímpar@69314551@Avenida@S@Av Nazaré Filgueiras
+839290@RR@7375@51741@@Governador Félix Valois de Araujo@@69315601@Rua@S@R Gov Félix V de Araujo
+839291@RR@7375@51741@@Bem Te Vi@@69315606@Rua@S@R Bem Te Vi
+839292@RR@7375@51741@@Colibri@@69315609@Rua@S@R Colibri
+839293@RR@7375@51741@@São Jorge@@69315611@Travessa@S@Tv S Jorge
+839294@RR@7375@51741@@Curió@@69315613@Rua@S@R Curió
+839295@RR@7375@51741@@Curió@@69315614@Travessa@S@Tv Curió
+839296@RR@7375@51741@@Américo dos Santos@@69315616@Travessa@S@Tv Américo dos Santos
+839297@RR@7375@51741@@Gaivota@@69315618@Rua@S@R Gaivota
+839298@RR@7375@51741@@Homero Carneiro@@69315620@Travessa@S@Tv Homero Carneiro
+839299@RR@7375@51741@@Tangará@@69315623@Rua@S@R Tangará
+839300@RR@7375@34977@@José Duarte Maduro@@69312607@Rua@S@R José D Maduro
+839301@RR@7375@34977@@Centenário@@69312604@Travessa@S@Tv Centenário
+839302@RR@7375@12974@@Buritis@@69309162@Travessa@S@Tv Buritis
+839303@RR@7375@34977@@PS-2@@69312606@Travessa@S@Tv PS-2
+839304@RR@7375@34977@@PS-4@@69312608@Rua@S@R PS-4
+839305@RR@7375@34977@@Ramiro Damaceno da Silva@@69312634@Rua@S@R Ramiro D da Silva
+839306@RR@7375@34977@@Joaquim Ribeiro Peres@@69312624@Rua@S@R Joaquim R Peres
+839307@RR@7375@34977@@VIII@@69312626@Rua@S@R VIII
+839308@RR@7375@34977@@IX@@69312627@Rua@S@R IX
+839309@RR@7375@34977@@X@@69312628@Rua@S@R X
+839310@RR@7375@34977@@Solange Brito@@69312629@Rua@S@R Solange Brito
+839311@RR@7375@34977@@Idália Soares Maduro@@69312531@Rua@S@R Idália S Maduro
+839312@RR@7375@34977@@Maria do Carmo Batalha@@69312532@Rua@S@R Maria do C Batalha
+839313@RR@7375@34977@@XIV@@69312534@Rua@S@R XIV
+839314@RR@7375@51741@@São José@@69315653@Rua@S@R S José
+839315@RR@7375@51741@@Laura Correa Moreira@@69315656@Rua@S@R Laura C Moreira
+839316@RR@7375@51741@@Antonio Ferreira de Souza@@69315659@Rua@S@R Antonio F de Souza
+839317@RR@7375@51741@@Ecildon de Souza Pinto@@69315662@Rua@S@R Ecildon de S Pinto
+839318@RR@7375@51741@@Capitão Clovis da Costa@@69315666@Rua@S@R Cap Clovis da Costa
+839319@RR@7375@51741@@Brigadeiro@@69315626@Avenida@S@Av Brigadeiro
+839320@RR@7375@51741@@Iteraima@@69315628@Travessa@S@Tv Iteraima
+839321@RR@7375@51741@@Mendes Júnior@@69315630@Travessa@S@Tv Mendes Júnior
+839322@RR@7375@51741@@Araguaina@@69315633@Travessa@S@Tv Araguaina
+839323@RR@7375@51741@@Geraldo Guttemberg Soares@@69315636@Rua@S@R Geraldo G Soares
+839324@RR@7375@51741@@Estrela D'alva@@69315639@Travessa@S@Tv Estrela D'alva
+839325@RR@7375@51741@@Pedro Barbosa da Silva@@69315642@Rua@S@R Pedro B da Silva
+839326@RR@7375@51741@@José Renato Hadad@@69315650@Rua@S@R José R Hadad
+839327@RR@7375@51741@@São Bento@@69315669@Rua@S@R S Bento
+839328@RR@7375@51741@@da Lagoa@@69315672@Rua@S@R da Lagoa
+839329@RR@7375@51741@@João de Barro@@69315675@Rua@S@R João de Barro
+839330@RR@7375@51741@@Solteirões@@69315679@Rua@S@R Solteirões
+839331@RR@7375@51741@@Águia@@69315682@Rua@S@R Águia
+839332@RR@7375@51741@@Canário@@69315685@Rua@S@R Canário
+839333@RR@7375@51741@@Uirapurú@@69315688@Rua@S@R Uirapurú
+839334@RR@7375@51741@@Andorinha@@69315691@Rua@S@R Andorinha
+839335@RR@7375@51741@@Beija Flor@@69315695@Rua@S@R Beija Flor
+839336@RR@7375@34956@@Veríssimo Gonçalves Oliveira@@69312401@Rua@S@R Veríssimo G Oliveira
+839337@RR@7375@34956@@Geneses@@69312403@Travessa@S@Tv Geneses
+856658@RR@7375@12972@@Aruaque@- até 415/416@69306300@Rua@S@R Aruaque
+856660@RR@7375@43568@@Lauro Alexandre da Silva@- de 470 a 1062 - lado par@69314567@Rua@S@R Lauro A da Silva
+856661@RR@7375@35244@@Lauro Alexandre da Silva@- até 468 - lado par@69316555@Rua@S@R Lauro A da Silva
+856662@RR@7375@12992@@Lauro Alexandre da Silva@- de 1063/1064 ao fim@69316745@Rua@S@R Lauro A da Silva
+856663@RR@7375@35243@@L@@69317578@Rua@S@R L
+856664@RR@7375@35243@@P@@69317580@Rua@S@R P
+856665@RR@7375@35243@@N@@69317582@Rua@S@R N
+856666@RR@7375@35243@@C@@69317584@Rua@S@R C
+856667@RR@7375@35243@@S@@69317586@Rua@S@R S
+856668@RR@7375@12981@@A@@69301205@Travessa@S@Tv A
+870514@RR@7375@12979@@Raimundo Alves Soares@- até 789/790@69313562@Rua@S@R Raimundo A Soares
+870515@RR@7375@43519@@Maestro Dirson Costa@- de 2 a 99998 - lado par@69313708@Rua@S@R Mto Dirson Costa
+870516@RR@7375@12976@@Ruth Pinheiro@- até 789/790@69312170@Rua@S@R Ruth Pinheiro
+870517@RR@7375@12983@@Felipe Xaud@- de 2571/2572 ao fim@69313445@Rua@S@R Felipe Xaud
+870518@RR@7375@12998@@Francisco Custódio de Andrade@- de 1041/1042 a 2281/2282@69313498@Rua@S@R Francisco C de Andrade
+870519@RR@7375@12985@@Carlos Pereira de Melo@- até 2025 - lado ímpar@69312004@Avenida@S@Av Carlos P de Melo
+870520@RR@7375@12985@@Carlos Pereira de Melo@- de 02 a 2500 - lado par@69312005@Avenida@S@Av Carlos P de Melo
+870521@RR@7375@12976@@Carlos Pereira de Melo@- de 2027 a 2611 - lado ímpar@69312212@Avenida@S@Av Carlos P de Melo
+870522@RR@7375@12998@@Carlos Pereira de Melo@- de 2613 a 3343 - lado ímpar@69313518@Avenida@S@Av Carlos P de Melo
+870523@RR@7375@12979@@Carlos Pereira de Melo@- de 2502 a 3522 - lado par@69313630@Avenida@S@Av Carlos P de Melo
+870524@RR@7375@12994@@Carlos Pereira de Melo@- de 3345 a 3623 - lado ímpar@69314142@Avenida@S@Av Carlos P de Melo
+870525@RR@7375@43520@@Carlos Pereira de Melo@- de 3524 a 99998 - lado par@69313742@Avenida@S@Av Carlos P de Melo
+870526@RR@7375@43521@@Carlos Pereira de Melo@- de 3625 ao fim - lado ímpar@69314008@Avenida@S@Av Carlos P de Melo
+870527@RR@7375@12983@@Armando Nogueira@- de 2589/2590 ao fim@69313354@Rua@S@R Armando Nogueira
+870528@RR@7375@12995@@Aruaque@- de 417/418 ao fim@69305125@Rua@S@R Aruaque
+870529@RR@7375@12998@@Belarmino Fernandes Magalhães@- de 1041/1042 a 2367/2368@69313485@Rua@S@R Belarmino F Magalhães
+870530@RR@7375@12984@@Edmilson José da Costa@- de 121/122 ao fim@69317314@Rua@S@R Edmilson J da Costa
+870531@RR@7375@12989@@Glaycon de Paiva@- de 718 a 2212 - lado par@69304560@Avenida@S@Av Glaycon de Paiva
+870532@RR@7375@12993@@Glaycon de Paiva@- de 2214/2215 ao fim@69309695@Avenida@S@Av Glaycon de Paiva
+870533@RR@7375@12974@@José Aleixo@- de 481/482 a 1329/1330@69309168@Rua@S@R José Aleixo
+870534@RR@7375@12983@@José Aleixo@- de 3061/3062 ao fim@69313455@Rua@S@R José Aleixo
+870535@RR@7375@34977@@Parma@- lado par@69312645@Avenida@S@Av Parma
+870536@RR@7375@12987@@Parma@- de 3 ao fim - lado ímpar@69313157@Avenida@S@Av Parma
+870537@RR@7375@12979@@Joca Farias@- até 1989/1990@69313612@Rua@S@R Joca Farias
+870538@RR@7375@12998@@Lindolfo Bernardo Coutinho@- de 1041/1042 a 2327/2328@69313480@Rua@S@R Lindolfo B Coutinho
+870539@RR@7375@12998@@Maria Rodrigues dos Santos@- de 1031/1032 a 2327/2328@69313482@Rua@S@R Maria R dos Santos
+870540@RR@7375@12979@@Soldado-Polícia Militar Wilson Paulino da Silva@- até 1219/1220@69313602@Rua@S@R Sd-PM Wilson P da Silva
+870541@RR@7375@12997@@Venezuela@- de 02 a 520 - lado par@69303495@Avenida@S@Av Venezuela
+870542@RR@7375@12989@@Venezuela@- de 522 a 2298 - lado par@69304600@Avenida@S@Av Venezuela
+870543@RR@7375@12988@@Venezuela@- de 1463 a 2161 - lado ímpar@69309005@Avenida@S@Av Venezuela
+870544@RR@7375@43459@@Venezuela@- de 2302 a 99998 - lado par@69310041@Avenida@S@Av Venezuela
+870545@RR@7375@43459@@Venezuela@- de 3605 ao fim - lado ímpar@69310040@Avenida@S@Av Venezuela
+870547@RR@7375@43568@@Delman Veras@- de 01 ao fim - lado ímpar@69314452@Rua@S@R Delman Veras
+870548@RR@7375@12992@@Delman Veras@- de 02 ao fim - lado par@69316702@Rua@S@R Delman Veras
+870549@RR@7375@12983@@Raimundo Penafort@- de 2593/2594 ao fim@69313372@Rua@S@R Raimundo Penafort
+870550@RR@7375@12976@@Nossa Senhora de Nazaré@- de 1062 a 2260 - lado par@69312165@Avenida@S@Av N Sra de Nazaré
+870551@RR@7375@12998@@Nossa Senhora de Nazaré@- de 2261 ao fim - lado ímpar@69313525@Avenida@S@Av N Sra de Nazaré
+870552@RR@7375@12985@@Princesa Isabel@- de 02 a 2030 - lado par@69312001@Avenida@S@Av Prca Isabel
+870553@RR@7375@12998@@Princesa Isabel@- de 2783/2784 a 3535/3536@69313528@Avenida@S@Av Prca Isabel
+870554@RR@7375@12994@@Princesa Isabel@- de 3537/3538 ao fim@69314148@Avenida@S@Av Prca Isabel
+870555@RR@7375@12983@@Manoel Felipe@- de 2581/2582 ao fim@69313460@Rua@S@R Manoel Felipe
+870556@RR@7375@12998@@Moacir da Silva Mota@- de 1041/1042 a 2389/2390@69313488@Rua@S@R Moacir da S Mota
+870557@RR@7375@12993@@Mestre Albano@- até 1311 - lado ímpar@69309513@Rua@S@R Mte Albano
+870558@RR@7375@12983@@Mestre Albano@- de 3864 a 99998 - lado par@69313358@Rua@S@R Mte Albano
+870559@RR@7375@12983@@Mestre Albano@- de 3803 ao fim - lado ímpar@69313360@Rua@S@R Mte Albano
+870560@RR@7375@43565@@Cezar Nogueira Júnior@- de 1495/1496 a 2431/2432@69317101@Rua@S@R Cezar N Júnior
+870561@RR@7375@35244@@Cezar Nogueira Júnior@- de 2433/2434 ao fim@69316500@Rua@S@R Cezar N Júnior
+870562@RR@7375@12978@@Ville Roy@- de 3369 a 4705 - lado ímpar@69306595@Avenida@S@Av Ville Roy
+870563@RR@7375@12972@@Ville Roy@- de 3370 a 4960 - lado par@69306405@Avenida@S@Av Ville Roy
+870564@RR@7375@12996@@Ville Roy@- de 4707 a 5371 - lado ímpar@69306665@Avenida@S@Av Ville Roy
+870565@RR@7375@12995@@Ville Roy@- de 4962 a 5372 - lado par@69305098@Avenida@S@Av Ville Roy
+870566@RR@7375@12981@@Ville Roy@- de 5373/5374 a 6277/6278@69301000@Avenida@S@Av Ville Roy
+870567@RR@7375@12975@@Ville Roy@- até 3367/3368@69307725@Avenida@S@Av Ville Roy
+870568@RR@7375@12997@@Ville Roy@- de 7099/7100 a 8613/8614@69303445@Avenida@S@Av Ville Roy
+870569@RR@7375@12999@@Ville Roy@- de 8615/8616 ao fim@69308055@Avenida@S@Av Ville Roy
+870570@RR@7375@12975@@Getúlio Vargas@- até 2999/3000@69307700@Avenida@S@Av Getúlio Vargas
+870571@RR@7375@12978@@Getúlio Vargas@- de 3001/3002 a 4343/4344@69306545@Avenida@S@Av Getúlio Vargas
+870572@RR@7375@12996@@Getúlio Vargas@- de 4345/4346 a 5019/5020@69306700@Avenida@S@Av Getúlio Vargas
+870573@RR@7375@12981@@Getúlio Vargas@- de 5021/5022 a 5977/5978@69301030@Avenida@S@Av Getúlio Vargas
+870574@RR@7375@12997@@Getúlio Vargas@- de 6675/6676 ao fim@69303472@Avenida@S@Av Getúlio Vargas
+870575@RR@7375@12973@@São Sebastião@- até 1060 - lado par@69312318@Avenida@S@Av S Sebastião
+870576@RR@7375@12998@@São Sebastião@- de 1062 a 2440 - lado par@69313495@Avenida@S@Av S Sebastião
+870577@RR@7375@12994@@São Sebastião@- de 1061 ao fim - lado ímpar@69314152@Avenida@S@Av S Sebastião
+870578@RR@7375@43520@@José Carlos dos Prazeres@- de 799/800 ao fim@69313782@Rua@S@R José C dos Prazeres
+870579@RR@7375@43520@@Altair Pereira de Melo@- de 727/728 ao fim@69313780@Rua@S@R Altair P de Melo
+870580@RR@7375@43520@@Waldemar Coêlho de Aguiar@- de 797/798 ao fim@69313778@Rua@S@R Waldemar C de Aguiar
+870581@RR@7375@43520@@Clarice de Melo Cabral@- de 831/832 ao fim@69313785@Rua@S@R Clarice de M Cabral
+870584@RR@7375@43519@@Rui Baraúna@- de 02 a 822 - lado par@69313688@Avenida@S@Av Rui Baraúna
+870585@RR@7375@43520@@Rui Baraúna@- de 824 ao fim - lado par@69313748@Avenida@S@Av Rui Baraúna
+870586@RR@7375@43520@@Parimé Brasil@- de 1651 ao fim - lado ímpar@69313740@Avenida@S@Av Parimé Brasil
+870587@RR@7375@43519@@Parimé Brasil@- de 1652 a 99998 - lado par@69313718@Avenida@S@Av Parimé Brasil
+870588@RR@7375@12998@@Francisco Inácio de Souza@- de 1031/1032 a 2427/2428@69313490@Rua@S@R Francisco I de Souza
+870589@RR@7375@12998@@Horácio Mardel de Magalhães@- de 1031/1032 a 2439/2440@69313492@Rua@S@R Horácio M de Magalhães
+870590@RR@7375@43522@@Mário Homem de Melo@- de 6071/6072 a 7959/7960@69314304@Avenida@S@Av Mário H de Melo
+870591@RR@7375@43520@@Soldado-Polícia Militar Wilson Paulino da Silva@- de 1221/1222 ao fim@69313755@Rua@S@R Sd-PM Wilson P da Silva
+870592@RR@7375@12983@@Pedro Praça@- de 2577/2578 ao fim@69313468@Rua@S@R Pedro Praça
+870593@RR@7375@43565@@Antônio Coutrim da Silva@- de 1041/1042 ao fim@69317176@Rua@S@R Antônio C da Silva
+870594@RR@7375@12972@@Santos Dumont@- de 888 a 1580 - lado par@69306165@Avenida@S@Av Stos Dumont
+870595@RR@7375@13000@@Santos Dumont@- de 1582 a 99998 - lado par@69305340@Avenida@S@Av Stos Dumont
+870596@RR@7375@12995@@Santos Dumont@- de 887 ao fim - lado ímpar@69305105@Avenida@S@Av Stos Dumont
+870597@RR@7375@43565@@Grão-Mestre Ademir Viana@- de 1033/1034 ao fim@69317173@Rua@S@R Gr-Mte Ademir Viana
+870598@RR@7375@12979@@José Ricardo Neto@- até 789/790@69313622@Rua@S@R José R Neto
+870600@RR@7375@43568@@Nazaré Filgueiras@- de 792 a 2230 - lado par@69314550@Avenida@S@Av Nazaré Filgueiras
+870601@RR@7375@12992@@Nazaré Filgueiras@- de 1353 a 2753 - lado ímpar@69316715@Avenida@S@Av Nazaré Filgueiras
+870602@RR@7375@12992@@Nazaré Filgueiras@- de 2232 a 2742 - lado par@69316716@Avenida@S@Av Nazaré Filgueiras
+870603@RR@7375@12990@@Nazaré Filgueiras@- de 2744 a 99998 - lado par@69314398@Avenida@S@Av Nazaré Filgueiras
+870604@RR@7375@43567@@Nazaré Filgueiras@- de 2755 ao fim - lado ímpar@69317185@Avenida@S@Av Nazaré Filgueiras
+870605@RR@7375@12991@@Ester de Oliveira Seabra@@69307058@Avenida@S@Av Ester de O Seabra
+870606@RR@7375@35243@@R@@69317579@Rua@S@R R
+870607@RR@7375@34977@@São Rafael@@69312587@Travessa@S@Tv S Rafael
+870608@RR@7375@34977@@Santo Agostinho@@69312491@Travessa@S@Tv Sto Agostinho
+870609@RR@7375@34977@@São Judas Tadeu@@69312492@Travessa@S@Tv S Judas Tadeu
+870610@RR@7375@34977@@Sobral@@69312594@Travessa@S@Tv Sobral
+870611@RR@7375@43567@@Alto Astral@@69317291@Alameda@S@Al Alto Astral
+870612@RR@7375@52454@@General Sampaio@@69308510@Avenida@S@Av Gen Sampaio
+870613@RR@7375@52454@@Brasil@@69308505@Avenida@S@Av Brasil
+870614@RR@7375@52454@@Marquês de Pombal@@69308515@Rua@S@R Mq de Pombal
+880370@RR@7375@43519@@Walmir Pereira da Rocha@- de 889/890 ao fim@69313712@Rua@S@R Walmir P da Rocha
+880371@RR@7375@12998@@Ruth Pinheiro@- de 791/792 ao fim@69313512@Rua@S@R Ruth Pinheiro
+880372@RR@7375@43519@@Joca Farias@- de 1991/1992 ao fim@69313702@Rua@S@R Joca Farias
+880373@RR@7375@43520@@José Ricardo Neto@- de 791/792 ao fim@69313775@Rua@S@R José R Neto
+880374@RR@7375@12981@@Major Williams@- de 803 a 99997 - lado ímpar@69301110@Avenida@S@Av Maj Williams
+880375@RR@7375@12996@@Major Williams@- de 02 a 848 - lado par@69306705@Avenida@S@Av Maj Williams
+880376@RR@7375@12995@@Major Williams@- de 850 ao fim - lado par@69305085@Avenida@S@Av Maj Williams
+880377@RR@7375@35244@@Caubi Brasil de Magalhães@- de 885/886 ao fim@69316518@Rua@S@R Caubi B de Magalhães
+880378@RR@7375@12992@@Tarcilo Ayres@- de 975/976 ao fim@69316750@Rua@S@R Tarcilo Ayres
+880379@RR@7375@12986@@Poraquê@- até 891 - lado ímpar@69314248@Rua@S@R Poraquê
+880380@RR@7375@12994@@Poraquê@- de 893 a 1807 - lado ímpar@69314088@Rua@S@R Poraquê
+880381@RR@7375@12994@@Poraquê@- de 02 a 1808 - lado par@69314087@Rua@S@R Poraquê
+880382@RR@7375@43521@@Poraquê@- de 1809/1810 ao fim@69314018@Rua@S@R Poraquê
+895947@RR@7375@12994@@Matrinxã@- até 449/450@69314082@Rua@S@R Matrinxã
+895948@RR@7375@12986@@Matrinxã@- de 451/452 ao fim@69314244@Rua@S@R Matrinxã
+895949@RR@7375@12997@@Surumu@- de 411/412 a 1979/1980@69303455@Avenida@S@Av Surumu
+895950@RR@7375@12977@@Surumu@- até 409/410@69303025@Avenida@S@Av Surumu
+895951@RR@7375@12989@@Surumu@- de 1981/1982 ao fim@69304555@Avenida@S@Av Surumu
+895952@RR@7375@43522@@dos Macuxis@- até 1253/1254@69314294@Travessa@S@Tv dos Macuxis
+895953@RR@7375@43567@@dos Macuxis@- de 1255/1256 a 2581/2582@69317296@Travessa@S@Tv dos Macuxis
+895954@RR@7375@12984@@dos Macuxis@- de 2583/2584 ao fim@69317318@Travessa@S@Tv dos Macuxis
+895955@RR@7375@35244@@Izídio Galdino da Silva@- de 957/958 ao fim@69316516@Rua@S@R Izídio G da Silva
+895956@RR@7375@43521@@Acari@- de 821/822 ao fim@69314022@Rua@S@R Acari
+895957@RR@7375@12994@@Acari@- até 819/820@69314102@Rua@S@R Acari
+895958@RR@7375@12993@@dos Bandeirantes@- de 02 a 970 - lado par@69309515@Avenida@S@Av dos Bandeirantes
+895959@RR@7375@12974@@dos Bandeirantes@- de 1353 ao fim - lado ímpar@69309185@Avenida@S@Av dos Bandeirantes
+895960@RR@7375@12988@@dos Bandeirantes@- de 972 ao fim - lado par@69309015@Avenida@S@Av dos Bandeirantes
+895961@RR@7375@12986@@das Hortências@- de 205/206 ao fim@69314208@Rua@S@R das Hortências
+895962@RR@7375@12994@@das Hortências@- até 203/204@69314155@Rua@S@R das Hortências
+895963@RR@7375@12973@@dos Imigrantes@- até 1155 - lado ímpar@69312296@Avenida@S@Av dos Imigrantes
+895964@RR@7375@12974@@dos Imigrantes@- de 1158 a 99998 - lado par@69309230@Avenida@S@Av dos Imigrantes
+895965@RR@7375@12976@@dos Imigrantes@- de 1157 ao fim - lado ímpar@69312215@Avenida@S@Av dos Imigrantes
+908601@RR@7375@34956@@Projetada B@@69312358@Rua@S@R Projetada B
+908602@RR@7375@12973@@Nossa Senhora de Nazaré@- de 02 a 1060 - lado par@69312306@Avenida@S@Av N Sra de Nazaré
+908603@RR@7375@43521@@Aruanã@- de 650/651 ao fim@69314028@Rua@S@R Aruanã
+908604@RR@7375@43520@@Raimundo Alves Soares@- de 791/792 ao fim@69313768@Rua@S@R Raimundo A Soares
+908605@RR@7375@43520@@Cabo-Polícia Militar Laurindo de Araújo Braga@- de 1221/1222 ao fim@69313750@Rua@S@R Cb-PM Laurindo de A Braga
+915843@RR@7375@12985@@de Acesso@@69312034@Via@S@V de Acesso
+915844@RR@7375@35040@@Estrela D'alva@- até 909/910@69316002@Rua@S@R Estrela D'alva
+915845@RR@7375@35040@@Estrela D'alva@- de 911 a 2823 - lado ímpar@69316057@Rua@S@R Estrela D'alva
+915846@RR@7375@35029@@Estrela D'alva@- de 912 a 2824 - lado par@69315076@Rua@S@R Estrela D'alva
+915847@RR@7375@43569@@Estrela D'alva@- de 2825/2826 ao fim@69314635@Rua@S@R Estrela D'alva
+915848@RR@7375@35040@@Arco-Íris@- até 997/998@69316004@Rua@S@R Arco-Íris
+915849@RR@7375@35040@@Arco-Íris@- de 999/1000 ao fim@69316055@Rua@S@R Arco-Íris
+915850@RR@7375@35040@@Universo@- até 947/948@69316006@Rua@S@R Universo
+915851@RR@7375@35040@@Universo@- de 949/950 ao fim@69316049@Rua@S@R Universo
+915852@RR@7375@35040@@Cometa@- até 1099/1100@69316014@Rua@S@R Cometa
+915853@RR@7375@35040@@Cometa@- de 1101/1102 ao fim@69316051@Rua@S@R Cometa
+915854@RR@7375@12975@@Capitão Castro Mendes@- até 983/984@69307586@Rua@S@R Cap Castro Mendes
+915855@RR@7375@12991@@Capitão Castro Mendes@- de 985/986 ao fim@69307052@Rua@S@R Cap Castro Mendes
+915856@RR@7375@12981@@Getúlio Vargas@- de 5979/5980 a 6673/6674@69301077@Avenida@S@Av Getúlio Vargas
+915857@RR@7375@12979@@Antônio Pinheiro Filho@- de 711/712 ao fim@69313585@Rua@S@R Antônio P Filho
+915858@RR@7375@12979@@Antônio Pinheiro Filho@- até 709/710@69313619@Rua@S@R Antônio P Filho
+915859@RR@7375@12973@@José Francisco@- de 02 a 970 - lado par@69312275@Rua@S@R José Francisco
+915860@RR@7375@12987@@José Francisco@- até 99993 - lado ímpar@69313145@Rua@S@R José Francisco
+915861@RR@7375@12983@@José Francisco@- de 972 ao fim - lado par@69313458@Rua@S@R José Francisco
+915862@RR@7375@12979@@Rui Baraúna@- até 392/393@69313627@Avenida@S@Av Rui Baraúna
+915863@RR@7375@12979@@Parimé Brasil@- até 1649 - lado ímpar@69313596@Avenida@S@Av Parimé Brasil
+915864@RR@7375@43568@@Margarida Caland de Paiva@- de 707/708 a 1327/1328@69314553@Rua@S@R Margarida C de Paiva
+915865@RR@7375@12992@@Margarida Caland de Paiva@- de 1329/1330 ao fim@69316710@Rua@S@R Margarida C de Paiva
+915866@RR@7375@12998@@São Sebastião@- de 2442 a 99998 - lado par@69313537@Avenida@S@Av S Sebastião
+915867@RR@7375@35244@@S-28@- de 02 a 1098 - lado par@69316595@Rua@S@R S-28
+915868@RR@7375@43565@@S-28@- de 1100 ao fim - lado par@69317177@Rua@S@R S-28
+915869@RR@7375@12974@@Jango Menezes@- de 1099/1100 ao fim@69309220@Rua@S@R Jango Menezes
+915870@RR@7375@12974@@Jango Menezes@- até 1097/1098@69309183@Rua@S@R Jango Menezes
+915871@RR@7375@12979@@Hitler Lucena@- de 619/620 ao fim@69313560@Rua@S@R Hitler Lucena
+915872@RR@7375@12979@@Hitler Lucena@- até 617/618@69313614@Rua@S@R Hitler Lucena
+915873@RR@7375@12979@@Soldado-Polícia Militar Arineu Ferreira Lima@- de 635/636 ao fim@69313580@Rua@S@R Sd-PM Arineu F Lima
+915874@RR@7375@12979@@Soldado-Polícia Militar Arineu Ferreira Lima@- até 633/634@69313616@Rua@S@R Sd-PM Arineu F Lima
+915875@RR@7375@12974@@João Padeiro@- de 1331/1332 ao fim@69309195@Rua@S@R João Padeiro
+915876@RR@7375@12974@@João Padeiro@- até 1329/1330@69309171@Rua@S@R João Padeiro
+915877@RR@7375@12976@@João Padilha@- até 1059/1060@69312220@Rua@S@R João Padilha
+915878@RR@7375@12976@@João Padilha@- de 1062/1063 ao fim@69312163@Rua@S@R João Padilha
+915879@RR@7375@12976@@Jorge Fraxe@- até 1043/1044@69312230@Rua@S@R Jorge Fraxe
+915880@RR@7375@12976@@Jorge Fraxe@- de 1046/1047 ao fim@69312179@Rua@S@R Jorge Fraxe
+915881@RR@7375@12973@@José Aleixo@- de 1331/1332 a 2289/2290@69312246@Rua@S@R José Aleixo
+915882@RR@7375@12974@@José Queiroz@- de 1327/1328 ao fim@69309207@Rua@S@R José Queiroz
+915883@RR@7375@12974@@José Queiroz@- até 1325/1326@69309177@Rua@S@R José Queiroz
+915884@RR@7375@12979@@Moysés Teixeira Hausen@- de 673/674 ao fim@69313582@Rua@S@R Moysés T Hausen
+915885@RR@7375@12979@@Moysés Teixeira Hausen@- até 671/672@69313617@Rua@S@R Moysés T Hausen
+915886@RR@7375@12976@@Ademário Santos@- até 1165/1166@69312168@Rua@S@R Ademário Santos
+915887@RR@7375@12976@@Ademário Santos@- de 1168/1169 ao fim@69312186@Rua@S@R Ademário Santos
+915888@RR@7375@12976@@Alcides Lima@- até 859/860@69312172@Rua@S@R Alcides Lima
+915889@RR@7375@12998@@Alcides Lima@- de 861/862 ao fim@69313505@Rua@S@R Alcides Lima
+915890@RR@7375@12976@@América Sarmento Ribeiro@- até 669/670@69312178@Rua@S@R América S Ribeiro
+915891@RR@7375@12998@@América Sarmento Ribeiro@- de 671/672 ao fim@69313530@Rua@S@R América S Ribeiro
+915892@RR@7375@12974@@Antônio Pinheiro Galvão@- de 1209/1210 ao fim@69309209@Rua@S@R Antônio P Galvão
+915893@RR@7375@12974@@Antônio Pinheiro Galvão@- até 1207/1208@69309181@Rua@S@R Antônio P Galvão
+915894@RR@7375@12973@@Armando Nogueira@- de 851/852 a 1823/1824@69312311@Rua@S@R Armando Nogueira
+915895@RR@7375@12974@@Áureo Cruz@- de 1341/1342 ao fim@69309201@Rua@S@R Áureo Cruz
+915896@RR@7375@12974@@Áureo Cruz@- até 1339/1340@69309176@Rua@S@R Áureo Cruz
+915897@RR@7375@12998@@Belarmino Fernandes Magalhães@- de 2370/2371 ao fim@69313531@Rua@S@R Belarmino F Magalhães
+915898@RR@7375@12981@@Bento Brasil@- até 1399/1400@69301050@Avenida@S@Av Bento Brasil
+915899@RR@7375@12997@@Bento Brasil@- de 1402 a 99998 - lado par@69303480@Avenida@S@Av Bento Brasil
+915900@RR@7375@12977@@Bento Brasil@- de 1401 ao fim - lado ímpar@69303130@Avenida@S@Av Bento Brasil
+915901@RR@7375@12976@@Lourival Silva@- até 847/848@69312182@Rua@S@R Lourival Silva
+915902@RR@7375@12998@@Lourival Silva@- de 849/850 ao fim@69313502@Rua@S@R Lourival Silva
+915903@RR@7375@12976@@Dico Vieira@- até 1095/1096@69312150@Rua@S@R Dico Vieira
+915904@RR@7375@12976@@Dico Vieira@- de 1098/1099 ao fim@69312214@Rua@S@R Dico Vieira
+915905@RR@7375@12973@@Felipe Xaud@- de 830/831 a 1814/1815@69312319@Rua@S@R Felipe Xaud
+915906@RR@7375@12998@@Francisco Custódio de Andrade@- de 2284/2285 ao fim@69313526@Rua@S@R Francisco C de Andrade
+915907@RR@7375@12973@@General Ataíde Teive@- de 3679 a 4625 - lado ímpar@69312244@Avenida@S@Av Gen Ataíde Teive
+915908@RR@7375@12979@@Doutor Zamenhof@- de 769/770 ao fim@69313590@Rua@S@R Dr Zamenhof
+915909@RR@7375@12979@@Doutor Zamenhof@- até 767/768@69313623@Rua@S@R Dr Zamenhof
+915910@RR@7375@12996@@Nossa Senhora da Consolata@- até 415/416@69306690@Avenida@S@Av N Sra da Consolata
+915911@RR@7375@12981@@Nossa Senhora da Consolata@- de 417/418 a 1093/1094@69301011@Avenida@S@Av N Sra da Consolata
+915912@RR@7375@12981@@Nossa Senhora da Consolata@- de 1505/1506 a 2131/2132@69301067@Avenida@S@Av N Sra da Consolata
+915913@RR@7375@12997@@Nossa Senhora da Consolata@- de 2135/2136 ao fim@69303465@Avenida@S@Av N Sra da Consolata
+915914@RR@7375@12976@@Nossa Senhora de Nazaré@- de 2262 a 99998 - lado par@69312164@Avenida@S@Av N Sra de Nazaré
+915915@RR@7375@12998@@Nossa Senhora de Nazaré@- de 1061 a 2259 - lado ímpar@69313497@Avenida@S@Av N Sra de Nazaré
+915916@RR@7375@12994@@Pacu@- até 407/408@69314115@Rua@S@R Pacu
+915917@RR@7375@12979@@Emília da Silva Lavôr@- de 719/720 ao fim@69313588@Avenida@S@Av Emília da S Lavôr
+915918@RR@7375@12979@@Emília da Silva Lavôr@- até 717/718@69313621@Avenida@S@Av Emília da S Lavôr
+915919@RR@7375@12973@@Manoel Felipe@- de 851/852 a 1815/1816@69312310@Rua@S@R Manoel Felipe
+915920@RR@7375@12976@@Pastor Fernando Granjeiro@- até 1151/1152@69312180@Rua@S@R Pst Fernando Granjeiro
+915921@RR@7375@12976@@Pastor Fernando Granjeiro@- de 1154/1155 ao fim@69312188@Rua@S@R Pst Fernando Granjeiro
+915922@RR@7375@12998@@Moacir da Silva Mota@- de 2392/2393 ao fim@69313533@Rua@S@R Moacir da S Mota
+915923@RR@7375@12992@@Genésio Alcimiro Lopes@- de 1265/1266 ao fim@69316718@Rua@S@R Genésio A Lopes
+915924@RR@7375@35244@@Genésio Alcimiro Lopes@- até 663/664@69316550@Rua@S@R Genésio A Lopes
+915925@RR@7375@43568@@Genésio Alcimiro Lopes@- de 665/666 a 1263/1264@69314557@Rua@S@R Genésio A Lopes
+915926@RR@7375@12979@@Cícero Corrêa de Melo Filho@- de 821/822 ao fim@69313592@Rua@S@R Cícero C de M Filho
+915927@RR@7375@12979@@Cícero Corrêa de Melo Filho@- até 819/820@69313624@Rua@S@R Cícero C de M Filho
+915928@RR@7375@12979@@Manoel Sabino dos Santos@- de 851/852 ao fim@69313598@Rua@S@R Manoel S dos Santos
+915929@RR@7375@12979@@Manoel Sabino dos Santos@- até 849/850@69313626@Rua@S@R Manoel S dos Santos
+915930@RR@7375@12976@@Júlio Pinto@- até 609/610@69312185@Rua@S@R Júlio Pinto
+915931@RR@7375@12998@@Júlio Pinto@- de 611/612 ao fim@69313532@Rua@S@R Júlio Pinto
+915932@RR@7375@12998@@Lindolfo Bernardo Coutinho@- de 2330/2331 a 99998/99999@69313527@Rua@S@R Lindolfo B Coutinho
+915933@RR@7375@12998@@Maria Rodrigues dos Santos@- de 2330/2331 ao fim@69313529@Rua@S@R Maria R dos Santos
+915934@RR@7375@12973@@Mestre Albano@- de 2067 a 3043 - lado ímpar@69312301@Rua@S@R Mte Albano
+915935@RR@7375@12973@@Mestre Albano@- de 2068 a 3104 - lado par@69312300@Rua@S@R Mte Albano
+915936@RR@7375@12974@@dos Imigrantes@- de 2 a 1156 - lado par@69309188@Avenida@S@Av dos Imigrantes
+915937@RR@7375@12999@@das Guianas@- até 99993 - lado ímpar@69308160@Avenida@S@Av das Guianas
+915938@RR@7375@12977@@das Guianas@- de 02 a 590 - lado par@69303045@Avenida@S@Av das Guianas
+915939@RR@7375@12997@@das Guianas@- de 592 ao fim - lado par@69303485@Avenida@S@Av das Guianas
+915940@RR@7375@35215@@Estrela do Norte@- até 1145 - lado ímpar@69316166@Rua@S@R Estrela do Norte
+915941@RR@7375@35040@@Estrela do Norte@- de 02 a 1146 - lado par@69316022@Rua@S@R Estrela do Norte
+915942@RR@7375@35040@@Estrela do Norte@- de 1148 a 99998 - lado par@69316027@Rua@S@R Estrela do Norte
+915943@RR@7375@35224@@Estrela do Norte@- de 1147 ao fim - lado ímpar@69316324@Rua@S@R Estrela do Norte
+915944@RR@7375@12981@@Ville Roy@- de 6279/6280 a 7097/7098@69301068@Avenida@S@Av Ville Roy
+915945@RR@7375@43459@@Capitão Ene Garcez@- de 1985 ao fim - lado ímpar@69310000@Avenida@S@Av Cap Ene Garcez
+915946@RR@7375@12981@@Capitão Ene Garcez@- de 02 a 750 - lado par@69301161@Avenida@S@Av Cap Ene Garcez
+915947@RR@7375@12989@@Capitão Ene Garcez@- de 751 a 1983 - lado ímpar@69304000@Avenida@S@Av Cap Ene Garcez
+915948@RR@7375@12995@@Capitão Ene Garcez@- de 752 a 1984 - lado par@69305135@Avenida@S@Av Cap Ene Garcez
+915949@RR@7375@12982@@Capitão Ene Garcez@- de 1986 a 99998 - lado par@69305555@Avenida@S@Av Cap Ene Garcez
+915950@RR@7375@12981@@Capitão Ene Garcez@- até 725 - lado ímpar@69301160@Avenida@S@Av Cap Ene Garcez
+915951@RR@7375@12973@@Pedro Praça@- de 859/860 a 1649/1650@69312320@Rua@S@R Pedro Praça
+915952@RR@7375@12976@@Sílvio Leite@- até 1073/1074@69312195@Rua@S@R Sílvio Leite
+915953@RR@7375@12976@@Sílvio Leite@- de 1076/1077 ao fim@69312181@Rua@S@R Sílvio Leite
+915954@RR@7375@12975@@Luis Canuto Chaves@- até 1237/1238@69307655@Avenida@S@Av Luis C Chaves
+915955@RR@7375@12991@@Luis Canuto Chaves@- de 1239/1240 ao fim@69307053@Avenida@S@Av Luis C Chaves
+915956@RR@7375@12996@@Benjamin Constant@- até 649/650@69306695@Avenida@S@Av Benjamin Constant
+915957@RR@7375@12981@@Benjamin Constant@- de 651/652 a 1429/1430@69301020@Avenida@S@Av Benjamin Constant
+915958@RR@7375@12981@@Benjamin Constant@- de 1591/1592 a 2347/2348@69301072@Avenida@S@Av Benjamin Constant
+915959@RR@7375@12997@@Benjamin Constant@- de 2349/2350 ao fim@69303467@Avenida@S@Av Benjamin Constant
+915960@RR@7375@12976@@Dona Cota Vieira@- até 1105/1106@69312160@Rua@S@R Da Cota Vieira
+915961@RR@7375@12976@@Dona Cota Vieira@- de 1108/1109 ao fim@69312213@Rua@S@R Da Cota Vieira
+915962@RR@7375@12979@@Soldado-Polícia Militar Django da Silva@- de 427/428 ao fim@69313578@Rua@S@R Sd-PM Django da Silva
+915963@RR@7375@12979@@Soldado-Polícia Militar Django da Silva@- até 425/426@69313613@Rua@S@R Sd-PM Django da Silva
+915964@RR@7375@12974@@Edmundo Sales@- de 1217/1218 ao fim@69309225@Rua@S@R Edmundo Sales
+915965@RR@7375@12974@@Edmundo Sales@- até 1215/1216@69309184@Rua@S@R Edmundo Sales
+915966@RR@7375@35040@@Estrela Bonita@- até 1097/1098@69316016@Rua@S@R Estrela Bonita
+915967@RR@7375@35224@@Estrela Bonita@- de 1099 a 1201 - lado ímpar@69316323@Rua@S@R Estrela Bonita
+915968@RR@7375@35040@@Estrela Bonita@- de 1200 a 99998 - lado par@69316019@Rua@S@R Estrela Bonita
+915969@RR@7375@35040@@Estrela Bonita@- de 1203 ao fim - lado ímpar@69316020@Rua@S@R Estrela Bonita
+915970@RR@7375@35040@@Estrela do Sul@- até 1099/1100@69316012@Rua@S@R Estrela do Sul
+915971@RR@7375@35040@@Estrela do Sul@- de 1101/1102 ao fim@69316050@Rua@S@R Estrela do Sul
+915972@RR@7375@12998@@Francisco Inácio de Souza@- de 2430/2431 ao fim@69313534@Rua@S@R Francisco I de Souza
+915973@RR@7375@12998@@Horácio Mardel de Magalhães@- de 2442/2443 ao fim@69313536@Rua@S@R Horácio M de Magalhães
+915974@RR@7375@12976@@Ivone Pinheiro@- até 949 - lado ímpar@69312200@Rua@S@R Ivone Pinheiro
+915975@RR@7375@12976@@Ivone Pinheiro@- de 02 a 950 - lado par@69312201@Rua@S@R Ivone Pinheiro
+915976@RR@7375@12998@@Ivone Pinheiro@- de 951 ao fim - lado ímpar@69313510@Rua@S@R Ivone Pinheiro
+915977@RR@7375@12998@@Ivone Pinheiro@- de 952 a 99998 - lado par@69313511@Rua@S@R Ivone Pinheiro
+915978@RR@7375@12975@@Doutor Hugo Mallet@- até 983/984@69307590@Rua@S@R Dr Hugo Mallet
+915979@RR@7375@12991@@Doutor Hugo Mallet@- de 985/986 ao fim@69307051@Rua@S@R Dr Hugo Mallet
+915980@RR@7375@12974@@Almerindo dos Santos@- de 1339/1340 ao fim@69309190@Rua@S@R Almerindo dos Santos
+915981@RR@7375@12974@@Almerindo dos Santos@- até 1337/1338@69309166@Rua@S@R Almerindo dos Santos
+915982@RR@7375@12974@@dos Bandeirantes@- até 1351 - lado ímpar@69309186@Avenida@S@Av dos Bandeirantes
+915983@RR@7375@12976@@Tia Joaca@- até 1121/1122@69312202@Rua@S@R Tia Joaca
+915984@RR@7375@12976@@Tia Joaca@- de 1124/1125 ao fim@69312187@Rua@S@R Tia Joaca
+915985@RR@7375@12976@@Leôncio Barbosa@- até 907/908@69312192@Rua@S@R Leôncio Barbosa
+915986@RR@7375@12998@@Leôncio Barbosa@- de 909/910 ao fim@69313508@Rua@S@R Leôncio Barbosa
+915987@RR@7375@12981@@Doutor Sylvio Lofêgo Botelho@- até 99994 - lado par@69301330@Avenida@S@Av Dr Sylvio L Botelho
+915988@RR@7375@12981@@Doutor Sylvio Lofêgo Botelho@- de 03 ao fim - lado ímpar@69301085@Avenida@S@Av Dr Sylvio L Botelho
+915989@RR@7375@12974@@Raimundo Filgueiras@- de 1047/1048 ao fim@69309221@Rua@S@R Raimundo Filgueiras
+915990@RR@7375@12974@@Raimundo Filgueiras@- até 1045/1046@69309182@Rua@S@R Raimundo Filgueiras
+915991@RR@7375@12973@@Raimundo Penafort@- de 849/850 a 1815/1816@69312307@Rua@S@R Raimundo Penafort
+915992@RR@7375@12981@@Sebastião Diniz@- até 1103/1104@69301040@Avenida@S@Av Sebastião Diniz
+915993@RR@7375@12981@@Sebastião Diniz@- de 1105/1106 a 1673/1674@69301088@Avenida@S@Av Sebastião Diniz
+915994@RR@7375@12997@@Sebastião Diniz@- de 1675/1676 ao fim@69303475@Avenida@S@Av Sebastião Diniz
+932743@RR@7375@12987@@Ônix@(Cj C Servidor) - até 401/402@69313082@Rua@S@R Ônix
+932744@RR@7375@43569@@Ônix@(Cj C Servidor) - de 403/404 ao fim@69314576@Rua@S@R Ônix
+932745@RR@7375@12987@@CJ-6@- até 549/550@69313175@Rua@S@R CJ-6
+932746@RR@7375@43569@@CJ-6@- de 551/552 ao fim@69314712@Rua@S@R CJ-6
+932747@RR@7375@43518@@JT-01@- até 65/66@69313292@Rua@S@R JT-01
+932748@RR@7375@43569@@JT-01@- de 67/68 ao fim@69314577@Rua@S@R JT-01
+932749@RR@7375@43518@@JT-03@- até 309/310@69313298@Rua@S@R JT-03
+932750@RR@7375@43569@@JT-03@- de 311/312 ao fim@69314616@Rua@S@R JT-03
+932751@RR@7375@12987@@Manganês@- de 02 ao fim - lado par@69313115@Rua@S@R Manganês
+932752@RR@7375@43569@@Manganês@- até 99997 - lado ímpar@69314710@Rua@S@R Manganês
+932753@RR@7375@43569@@JT-02@- de 501/502 ao fim@69314579@Rua@S@R JT-02
+932754@RR@7375@43518@@JT-02@- até 499/500@69313295@Rua@S@R JT-02
+932755@RR@7375@43518@@JT-10@- até 1/02@69313270@Rua@S@R JT-10
+932756@RR@7375@43569@@JT-10@- de 03/4 ao fim@69314617@Rua@S@R JT-10
+932757@RR@7375@43518@@JT-11@- até 1/02@69313277@Rua@S@R JT-11
+932758@RR@7375@43569@@JT-11@- de 03/4 ao fim@69314618@Rua@S@R JT-11
+932759@RR@7375@43518@@JT-12@- até 1/02@69313279@Rua@S@R JT-12
+932760@RR@7375@43569@@JT-12@- de 03/4 ao fim@69314619@Rua@S@R JT-12
+932761@RR@7375@43518@@JT-13@- até 1/02@69313281@Rua@S@R JT-13
+932762@RR@7375@43569@@JT-13@- de 03/4 ao fim@69314606@Rua@S@R JT-13
+932763@RR@7375@43518@@JT-14@- até 1/02@69313283@Rua@S@R JT-14
+932764@RR@7375@43569@@JT-14@- de 03/4 ao fim@69314607@Rua@S@R JT-14
+932765@RR@7375@12984@@Oriente@@69317350@Rua@S@R Oriente
+932766@RR@7375@12984@@Rosa dos Ventos@@69317352@Rua@S@R Rosa dos Ventos
+932767@RR@7375@12984@@Sudeste@@69317354@Rua@S@R Sudeste
+932768@RR@7375@12984@@Meridional@@69317356@Rua@S@R Meridional
+932769@RR@7375@12984@@Austral@@69317358@Rua@S@R Austral
+932770@RR@7375@12984@@Oeste@@69317360@Rua@S@R Oeste
+932771@RR@7375@12984@@Ocidente@@69317362@Rua@S@R Ocidente
+932772@RR@7375@12984@@Jesualdo Costa Lima@@69317364@Avenida@S@Av Jesualdo C Lima
+932773@RR@7375@12984@@Equinócios@@69317366@Avenida@S@Av Equinócios
+932774@RR@7375@12984@@Sudoeste@@69317368@Rua@S@R Sudoeste
+932775@RR@7375@12984@@Noroeste@@69317370@Rua@S@R Noroeste
+932776@RR@7375@12984@@Grão-Mestre Cláudio Barbosa de Araújo@@69317372@Rua@S@R Gr-Mte Cláudio B de Araújo
+932777@RR@7375@12984@@Latitudinal@@69317374@Rua@S@R Latitudinal
+932778@RR@7375@12984@@Euzébio Pereira Maia@@69317376@Rua@S@R Euzébio P Maia
+932779@RR@7375@12984@@Setentrional@@69317378@Rua@S@R Setentrional
+932780@RR@7375@12984@@Equatorial@@69317380@Rua@S@R Equatorial
+932781@RR@7375@12984@@Nordeste@@69317382@Rua@S@R Nordeste
+932782@RR@7375@12984@@Norte@@69317384@Rua@S@R Norte
+932783@RR@7375@12984@@Boreal@@69317386@Rua@S@R Boreal
+932784@RR@7375@12984@@Colaterais@@69317390@Rua@S@R Colaterais
+932785@RR@7375@12984@@Cardeais@@69317392@Rua@S@R Cardeais
+932786@RR@7375@12984@@Nascente@@69317394@Rua@S@R Nascente
+932787@RR@7375@12979@@Jardim Floresta@@69313633@Condomínio Residencial@S@Cond Res Jardim Floresta
+932788@RR@7375@43569@@JT-01A@@69314578@Rua@S@R JT-01A
+932789@RR@7375@43569@@JT-15@@69314608@Rua@S@R JT-15
+932790@RR@7375@43569@@Céu Azul@@69314621@Avenida@S@Av Céu Azul
+932791@RR@7375@43569@@10@@69314622@Rua@S@R 10
+932792@RR@7375@43569@@11@@69314623@Rua@S@R 11
+932793@RR@7375@43569@@12@@69314624@Rua@S@R 12
+932794@RR@7375@43569@@13@@69314571@Rua@S@R 13
+932795@RR@7375@43569@@14@@69314572@Rua@S@R 14
+932796@RR@7375@43569@@Parque Céu Azul@@69314573@Avenida@S@Av Parque C Azul
+932797@RR@7375@43569@@Olímpica@@69314609@Travessa@S@Tv Olímpica
+932798@RR@7375@43569@@Parque Jardim@@69314700@Avenida@S@Av Parque Jardim
+932799@RR@7375@43569@@CJ-14@@69314702@Rua@S@R CJ-14
+932800@RR@7375@43569@@CJ-13@@69314704@Rua@S@R CJ-13
+932801@RR@7375@43569@@CJ-12@@69314706@Rua@S@R CJ-12
+932802@RR@7375@43569@@Cidade Jardim@@69314708@Avenida@S@Av Cidade Jardim
+932803@RR@7375@12997@@Araraquara@@69303385@Travessa@S@Tv Araraquara
+932804@RR@7375@12972@@Igarapé@@69306185@Rua@S@R Igarapé
+932805@RR@7375@12984@@Solstícios@@69317346@Avenida@S@Av Solstícios
+932806@RR@7375@12984@@Leste@@69317348@Rua@S@R Leste
+939134@RR@7375@35243@@R-23@@69317563@Rua@S@R R-23
+939135@RR@7375@35243@@R-24@@69317561@Rua@S@R R-24
+939136@RR@7375@12979@@Caranã@@69313634@Rua@S@R Caranã
+946262@RR@7375@35243@@01@@69317477@Rua@S@R 01
+946263@RR@7375@35243@@02@@69317476@Rua@S@R 02
+946264@RR@7375@35243@@03@@69317475@Rua@S@R 03
+946265@RR@7375@35243@@04@@69317473@Rua@S@R 04
+946266@RR@7375@35243@@05@@69317471@Rua@S@R 05
+946267@RR@7375@35243@@06@@69317469@Rua@S@R 06
+946268@RR@7375@58681@@D@@69316268@Rua@S@R D
+946269@RR@7375@58681@@C@@69316270@Rua@S@R C
+946270@RR@7375@58681@@Pastor Cordolino Bastos@@69316272@Rua@S@R Pst Cordolino Bastos
+946271@RR@7375@58681@@A@@69316274@Avenida@S@Av A
+946272@RR@7375@58681@@03@@69316275@Rua@S@R 03
+946273@RR@7375@58681@@02@@69316276@Rua@S@R 02
+946274@RR@7375@58681@@São Silvestre@@69316277@Rua@S@R S Silvestre
+955046@RR@7375@43519@@Izídio Galdino Filho@- de 101/102 a 849/850@69313695@Rua@S@R Izídio G Filho
+955047@RR@7375@12980@@Izídio Galdino Filho@- até 99/100@69311062@Rua@S@R Izídio G Filho
+955048@RR@7375@12987@@CJ-7@- até 530 - lado par@69313178@Rua@S@R CJ-7
+955049@RR@7375@12987@@CJ-7@- de 03 a 299 - lado ímpar@69313179@Rua@S@R CJ-7
+955050@RR@7375@43569@@CJ-7@- de 532 a 99998 - lado par@69314713@Rua@S@R CJ-7
+955051@RR@7375@43569@@CJ-7@- de 301 ao fim - lado ímpar@69314714@Rua@S@R CJ-7
+955052@RR@7375@12987@@Mauro Campello@- até 535/536@69313185@Rua@S@R Mauro Campello
+955053@RR@7375@43569@@Mauro Campello@- de 537/538 ao fim@69314715@Rua@S@R Mauro Campello
+955054@RR@7375@12987@@CJ-10@- até 543/544@69313188@Rua@S@R CJ-10
+955055@RR@7375@43569@@CJ-10@- de 545/546 ao fim@69314705@Rua@S@R CJ-10
+955056@RR@7375@12987@@CJ-11@- até 533 - lado ímpar@69313192@Rua@S@R CJ-11
+955057@RR@7375@43569@@CJ-11@- de 02 a 99998 - lado par@69314716@Rua@S@R CJ-11
+955058@RR@7375@43569@@CJ-11@- de 535 ao fim - lado ímpar@69314717@Rua@S@R CJ-11
+955059@RR@7375@12980@@U@@69311042@Travessa@S@Tv U
+955060@RR@7375@12980@@T@@69311025@Travessa@S@Tv T
+955061@RR@7375@34956@@Projetada A@@69312360@Travessa@S@Tv Projetada A
+955062@RR@7375@34956@@Projetada C@@69312362@Travessa@S@Tv Projetada C
+955063@RR@7375@34956@@Projetada D@@69312356@Travessa@S@Tv Projetada D
+955064@RR@7375@34956@@Projetada E@@69312364@Travessa@S@Tv Projetada E
+955065@RR@7375@34956@@José Moreno@@69312366@Rua@S@R José Moreno
+955066@RR@7375@12991@@Potiguar@@69307062@Rua@S@R Potiguar
+955067@RR@7375@12991@@Curupira@@69307061@Rua@S@R Curupira
+983815@RR@7375@12991@@Guanabara@@69307271@Rua@S@R Guanabara
+992835@RR@7375@12972@@Victor Hugo@- de 450/451 a 1200/1201@69306393@Rua@S@R Victor Hugo
+992836@RR@7375@12972@@Victor Hugo@- de 1202/1203 ao fim@69306351@Rua@S@R Victor Hugo
+992837@RR@7375@12993@@dos Bambus@- até 99997/99998@69309395@Alameda@S@Al dos Bambus
+992838@RR@7375@12993@@dos Bambus@- de 01/2 a 909/910@69309565@Alameda@S@Al dos Bambus
+992839@RR@7375@12981@@Centro Cívico@- até 499/500@69301380@Praça@S@Pç Centro Cívico
+992840@RR@7375@12981@@Centro Cívico@- de 501/502 ao fim@69301069@Praça@S@Pç Centro Cívico
+992841@RR@7375@12993@@das Flores@- até 1131/1132@69309393@Via@S@V das Flores
+992842@RR@7375@12993@@das Flores@- de 1133/1134 ao fim@69309366@Via@S@V das Flores
+992843@RR@7375@12974@@General Ataíde Teive@- de 2781 a 3677 - lado ímpar@69309167@Avenida@S@Av Gen Ataíde Teive
+992844@RR@7375@12981@@Major Williams@- até 801 - lado ímpar@69301015@Avenida@S@Av Maj Williams
+992845@RR@7375@12997@@Parimé@- até 1601/1602@69303457@Rua@S@R Parimé
+992846@RR@7375@12997@@Parimé@- de 1603/1604 ao fim@69303365@Rua@S@R Parimé
+992847@RR@7375@35243@@Ulbra@@69317801@Rua@S@R Ulbra
+992848@RR@7375@12972@@Presidente Dutra@- lado par@69306350@Avenida@S@Av Pres Dutra
+992849@RR@7375@12972@@Presidente Dutra@- de 03 ao fim - lado ímpar@69306447@Avenida@S@Av Pres Dutra
+992850@RR@7375@12981@@Terêncio Lima@- até 1320 - lado par@69301100@Avenida@S@Av Terêncio Lima
+992851@RR@7375@12981@@Terêncio Lima@- de 1322 ao fim - lado par@69301195@Avenida@S@Av Terêncio Lima
+992852@RR@7375@12972@@Ricardo Franco@- até 487/488@69306370@Rua@S@R Ricardo Franco
+992853@RR@7375@12972@@Ricardo Franco@- de 489/490 ao fim@69306445@Rua@S@R Ricardo Franco
+992854@RR@7375@12995@@Santos Dumont@- de 1535 a 99999 - lado ímpar@69305010@Avenida@S@Av Stos Dumont
+992855@RR@7375@35028@@Parque Igarapé@@69316221@Travessa@S@Tv Parque Igarapé
+992856@RR@7375@56792@@Junco do Seridó@@69310749@Avenida@S@Av Junco do Seridó
+992857@RR@7375@56792@@Natal@@69310751@Rua@S@R Natal
+992858@RR@7375@56792@@Equador@@69310753@Avenida@S@Av Equador
+992859@RR@7375@56792@@Ipueira@@69310755@Rua@S@R Ipueira
+992860@RR@7375@35243@@Faculdade Roraimense de Ensino Superior@@69317811@Rua@S@R Faculdade R de E Superior
+992861@RR@7375@12972@@Mirandinha@@69306387@Rua@S@R Mirandinha
+992862@RR@7375@34960@@Armando de Souza Cruz@@69315280@Rua@S@R Armando de S Cruz
+992863@RR@7375@58681@@Passarão@@69318700@Rua@S@R Passarão
+992864@RR@7375@58681@@Taiano@@69318702@Rua@S@R Taiano
+992865@RR@7375@58681@@Uiramutã@@69318704@Avenida@S@Av Uiramutã
+992866@RR@7375@58681@@São Luiz do Anauá@@69318706@Rua@S@R S Luiz do Anauá
+992867@RR@7375@58681@@São João Da Baliza@@69318708@Rua@S@R S João D Baliza
+992868@RR@7375@58681@@Rorainópolis@@69318710@Rua@S@R Rorainópolis
+992869@RR@7375@58681@@Normandia@@69318712@Avenida@S@Av Normandia
+992870@RR@7375@58681@@Boa Vista@@69318714@Avenida@S@Av Boa Vista
+992871@RR@7375@58681@@Pacaraima@@69318716@Rua@S@R Pacaraima
+992872@RR@7375@58681@@Cantá@@69318718@Rua@S@R Cantá
+992873@RR@7375@58681@@Alto Alegre@@69318720@Rua@S@R Alto Alegre
+992874@RR@7375@58681@@Bonfim@@69318722@Rua@S@R Bonfim
+992875@RR@7375@35243@@Faceten@@69317820@Rua@S@R Faceten
+992876@RR@7375@35243@@Unfes@@69317827@Rua@S@R Unfes
+992877@RR@7375@12972@@Curitiba@@69306388@Rua@S@R Curitiba
+992878@RR@7375@12972@@Oliveira Dias@@69306389@Rua@S@R Oliveira Dias
+992879@RR@7375@12991@@Pau-rainha@@69307161@Travessa@S@Tv Pau-rainha
+992880@RR@7375@56792@@Parelhas@@69310757@Avenida@S@Av Parelhas
+992881@RR@7375@56792@@Jardim de Piranhas@@69310759@Rua@S@R Jardim de Piranhas
+992882@RR@7375@56792@@Macau@@69310761@Rua@S@R Macau
+992883@RR@7375@35243@@Pedro Camargo@@69317803@Rua@S@R Pedro Camargo
+992884@RR@7375@35243@@Universidade Estadual de Roraima@@69317805@Rua@S@R Universidade E de Roraima
+992885@RR@7375@35243@@Faculdade Cathedral@@69317807@Rua@S@R Faculdade Cathedral
+992886@RR@7375@35243@@Universidade São Paulo@@69317825@Rua@S@R Universidade S Paulo
+992887@RR@7375@35243@@Faculdade Atual da Amazonia@@69317809@Rua@S@R Faculdade A da Amazonia
+992888@RR@7375@58681@@do Contorno@@69318724@Rua@S@R do Contorno
+992889@RR@7375@58681@@Mucajaí@@69318726@Rua@S@R Mucajaí
+992890@RR@7375@58681@@Iracema@@69318728@Rua@S@R Iracema
+992891@RR@7375@58681@@Caroebe@@69318730@Rua@S@R Caroebe
+992892@RR@7375@58681@@Amajarí@@69318732@Rua@S@R Amajarí
+992893@RR@7375@58681@@Pérola@@69318734@Avenida@S@Av Pérola
+992894@RR@7375@58681@@Tepequem@@69318736@Rua@S@R Tepequem
+992895@RR@7375@58681@@Caracaraí@@69318719@Rua@S@R Caracaraí
+992896@RR@7375@56792@@Caicó@@69310711@Avenida@S@Av Caicó
+992897@RR@7375@56792@@Santana do Seridó@@69310713@Rua@S@R Santana do Seridó
+992898@RR@7375@56792@@São Fernando@@69310715@Avenida@S@Av S Fernando
+992899@RR@7375@56792@@Timbaúba dos Batistas@@69310717@Rua@S@R Timbaúba dos Batistas
+992900@RR@7375@56792@@Carnaúba dos Dantas@@69310719@Rua@S@R Carnaúba dos Dantas
+992901@RR@7375@56792@@Jardim do Seridó@@69310721@Avenida@S@Av Jardim do Seridó
+992902@RR@7375@56792@@Florânia@@69310718@Rua@S@R Florânia
+992903@RR@7375@56792@@São Vicente do Seridó@@69310723@Rua@S@R S Vicente do Seridó
+992904@RR@7375@56792@@São Rafael@@69310725@Rua@S@R S Rafael
+992905@RR@7375@56792@@Ouro Branco@@69310727@Rua@S@R Ouro Branco
+992906@RR@7375@56792@@Serra Negra@@69310729@Rua@S@R Serra Negra
+992907@RR@7375@56792@@Cerro Corá@@69310731@Rua@S@R Cerro Corá
+992908@RR@7375@56792@@São João do Sabugi@@69310733@Rua@S@R S João do Sabugi
+992909@RR@7375@56792@@Mossoró@@69310735@Rua@S@R Mossoró
+992910@RR@7375@56792@@Acarí@@69310737@Rua@S@R Acarí
+992911@RR@7375@56792@@Cruzeta@@69310739@Rua@S@R Cruzeta
+992912@RR@7375@56792@@Currais Novos@@69310741@Rua@S@R Currais Novos
+992913@RR@7375@56792@@Logoa Nova@@69310743@Rua@S@R Logoa Nova
+992914@RR@7375@56792@@São José do Seridó@@69310745@Rua@S@R S José do Seridó
+992915@RR@7375@56792@@Jucurutú@@69310747@Rua@S@R Jucurutú
+992916@RR@7375@35243@@Pontificada Universidade Católica@@69317829@Rua@S@R Pontificada U Católica
+992917@RR@7375@35243@@Universidade Estacio de Sá@@69317831@Rua@S@R Universidade E de Sá
+992918@RR@7375@35243@@Universidade Paulista@@69317833@Rua@S@R Universidade Paulista
+992919@RR@7375@35243@@Unicamp@@69317835@Avenida@S@Av Unicamp
+992920@RR@7375@34977@@Ajurí@@69312616@Rua@S@R Ajurí
+992921@RR@7375@34977@@Porto Seguro@@69312617@Rua@S@R Porto Seguro
