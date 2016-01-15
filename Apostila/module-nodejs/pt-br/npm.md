@@ -2,7 +2,7 @@
 
 O [npm](https://www.npmjs.com/) nada mais é que o gerenciador de pacotes do Node.js.
 
-Uns dizem quem **npm** significa **Node Package Manager**, outros dizem que não, então **FODA-SE**. Ele é nosso gerenciador dos módulos que iremos instalar.
+Uns dizem que **npm** significa **Node Package Manager**, outros dizem que não, então **FODA-SE**. Ele é nosso gerenciador dos módulos que iremos instalar.
 
 Se você ver pelo site do npm, ele é **o** gerenciador de pacotes do JavaScript.
 
@@ -22,11 +22,11 @@ O **npm** gerencia seu projeto a partir de um JSON chamado `package.json` e ele 
 - dependências;
 - outros.
 
-O Array de **dependências** é um dos mais importantes, pois você **nunca** deverá enviar a pasta `node_modules` a qual armazena todos os módulos instalados no seu projeto.
+O Array de **dependências** é um dos mais importantes, pois você **nunca** deverá enviar a pasta `node_modules`, a qual armazena todos os módulos instalados no seu projeto.
 
-**Se eu nunca devo enviar suas dependências então como alguém irá instalá-las?**
+**Se eu nunca devo enviar minhas dependências então como alguém irá instalá-las?**
 
-Ótima pergunta gafanhoto, é por isso que esse *array* de dependência é tão importante, pois é nele que você irá especificar cada módulo e sua versão. Fazendo com que a listagem de todas as dependências esteja no `package.json`, quando alguém clonar o projeto receberá apenas os códigos e o `package.json`.
+Ótima pergunta gafanhoto, é por isso que esse *array* de dependência é tão importante, pois é nele que você irá especificar cada módulo e sua versão. Fazendo com que a listagem de todas as dependências estejam no `package.json`, quando alguém clonar o projeto receberá apenas os códigos e o `package.json`.
 
 Com o `package.json` em mãos, basta executar `npm install` para que o **npm** instale todas aquelas dependências listadas.
 

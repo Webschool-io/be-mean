@@ -7,5 +7,8 @@
     "roda": "node script.js"
   },
   "author": "Suissera",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "optionalDependencies": {
+    "colors": "^1.1.2"
+  }
 }
