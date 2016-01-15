@@ -139,6 +139,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 ##  Módulo MongoDB - 09.11 a 22.11
 
+[Slides](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
+
 - **Aula 00 - 08.11**
     + Vídeo: [https://www.youtube.com/watch?v=-ccU_-OIka4](https://www.youtube.com/watch?v=-ccU_-OIka4)
     + Apresentação do Be MEAN
@@ -262,6 +264,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 ##  Módulo Node.js - 07.12 a 27.12
 
 ## Roteiro - 25 horas
+
+[Slides](https://docs.google.com/presentation/d/1_CHh_fTkzgxAnxB3MlZ5WRhTqMLViMk__jkCZiZ3IMA/edit?usp=sharing)
 
 - Aula 01: **07/12/2015**
    + Vídeo: [https://www.youtube.com/watch?v=OgfO37F6mdg](https://www.youtube.com/watch?v=OgfO37F6mdg)
