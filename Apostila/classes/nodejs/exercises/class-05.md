@@ -1,30 +1,37 @@
-# Node.js - Aula 03 - Exercício
+# Node.js - Aula 05 - Exercício
 
-1. Por que quando requisitamos ao nosso servidor de *Query String*, **com o Chrome**, ele executa 2 requisições, sendo a última "*vazia*"?
-2. Qual a DIFERENÇA entre o GET e o POST?
-3. Crie um Pokemon na nossa API com seu nome, depois modifique seu nome pelo seu User do Github, colocando aqui a resposta de cada passo.
-4. **Depois faça o DELETE**, criando o script para tal, colocando aqui a resposta.
-5. Escolha uma **API externa** e crie um script para fazer um GET nela **mostrando o resultado com HTML**.
+1. **Instale algum gerenciador de versão do Node.js e instale a versão mais atual como padrão, enquanto escrevo é a versão 5.4.0**
+2. Inicie um projeto novo para essa aula, com o `npm` e instale, salvando no `package.json`:
+    - 1 dependência local
+    - 1 dependência local de desenvolvimento
+    - 1 dependência local opcional
+3. Crie e execute um script, via `npm`, que mostre uma mensagem no console com a global, que possui caminho para o diretório atual.
+4. Cite 5 globais do Node.js e pelo menos 1 exemplo de cada.
+5. Explique como funciona e de um exemplo de `process`.
 
 ## Estrutura
 
 ```md
-# Node.js - Aula 02 - Exercício
+# Node.js - Aula 05 - Exercício
+
 **user:** [SEU Github User](Link para seu Github)
+
 **autor:** SEU NOME COMPLETO
 
-## Por que quando requisitamos ao nosso servidor de *Query String*, **com o Chrome**, ele executa 2 requisições, sendo a última "*vazia*"?
+
+## Instale algum gerenciador de versão do Node.js e instale a versão mais atual como padrão, enquanto escrevo é a versão 5.4.0
 
 
-## Qual a DIFERENÇA entre o GET e o POST?
+## Inicie um projeto novo para essa aula, com o `npm` e instale, salvando no `package.json`:
 
 
-## Crie um Pokemon na nossa API com seu nome, depois modifique seu nome pelo seu User do Github.
-
-## **Depois faça o DELETE**, criando o script para tal, colocando aqui a resposta.
+## Crie e execute um script, via `npm`, que mostre uma mensagem no console com a global, que possui caminho para o diretório atual.
 
 
-## Escolha uma **API externa** e crie um script para fazer um GET nela **mostrando o resultado com HTML**.
+## Cite 5 globais do Node.js e pelo menos 1 exemplo de cada.
+
+
+## Explique como funciona e de um exemplo de `process`.
 
 ```
 
