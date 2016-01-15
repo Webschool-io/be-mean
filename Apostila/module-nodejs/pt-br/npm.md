@@ -84,7 +84,7 @@ Agora vamos voltar ao **npm**.
 
 ## npm init
 
-Quando iniciamos qualquer projeto utilizando o Node.js, usaremos esse comando `npm init` para inicializar o projeto.
+Quando iniciarmos qualquer projeto utilizando o Node.js, usaremos esse comando `npm init` para inicializar o projeto.
 
 Então vamos iniciar nosso primeiro projeto utilizando os dados dos Pokemons, para isso crie uma pasta chamada `pokemons-api` dentro da sua pasta do `Node.js` do nosso workshop.
 
@@ -259,9 +259,13 @@ NPM_CONFIG_PREFIX=~/npm-global npm install -g jshint
 
 ### npm install --save ou -S
 
-Com o `-g` você instala os módulos globalmente, agora para instalar o módulo localmente basta executar `npm install nome_modulo`, porém instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do `package.json`.
+Com o -g você instala os módulos globalmente, agora para instalar o módulo localmente basta executar: 
 
-Porém não esqueça que você precisa ter o `package.json` antes.
+```
+npm install nome_modulo
+```
+
+Instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do package.json, para adicionar nas listagem das dependências basta adicionar `--save`.
 
 Então dentro do diretório da nossa aplicação `pokemons-api` vamos instalar o `mongoose` pois precisaremos dele futuramente.
 
@@ -333,7 +337,7 @@ Exemplo de como escolher uma faixa de versões:
 npm i mongoose@">=4.1.0 <4.3.0"
 ```
 
-**Para você instalar apenas as dependências listadas em `dependencies` basta execcutar `npm install --production`.**
+**Para você instalar apenas as dependências listadas em `dependencies` basta executar `npm install --production`.**
 
 ### npm install --save-dev ou -D
 
@@ -343,7 +347,9 @@ Para instalar apenas as `devDependencies` você deverá executar `npm install --
 
 ### npm install --optional ou -O
 
-Ele irá adicionar sua dependência em `optionalDependencies`.
+Irá adicionar sua dependência em `optionalDependencies`.
+
+São dependências opcionais que não devem interferir na execução do projeto.
 
 ## npm run
 
