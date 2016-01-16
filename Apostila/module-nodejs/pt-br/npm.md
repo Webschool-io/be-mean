@@ -22,7 +22,7 @@ O **npm** gerencia seu projeto a partir de um JSON chamado `package.json` e ele 
 - dependências;
 - outros.
 
-O Array de **dependências** é um dos mais importantes, pois você **nunca** deverá enviar a pasta `node_modules`, a qual armazena todos os módulos instalados no seu projeto.
+O objeto de **dependências** é um dos mais importantes, pois você **nunca** deverá enviar a pasta `node_modules`, a qual armazena todos os módulos instalados no seu projeto.
 
 **Se eu nunca devo enviar minhas dependências então como alguém irá instalá-las?**
 
@@ -355,16 +355,24 @@ São dependências opcionais que não devem interferir na execução do projeto.
 
 Esse é um tópico deveras interessante, pois você pode executar scripts para automatizar suas tarefas.
 
-Para demonstar isso primeiro crie uma pasta chamada `npm` e dentro dela execute o `npm init` e depois crie o `script.js` com esse pequeno código:
+Para demonstrar isso primeiro crie uma pasta chamada `npm` e dentro dela execute o `npm init`, depois crie o `script.js` com esse pequeno código:
 
 ```js
 console.log("Rodei!");
 ```
 
-Depois de salvar o `script.js` basta executar:
+Depois de salvar o `script.js` adicione a seguinte linha:
+
+```js
+  "scripts": {
+    "roda": "node script.js"
+  },
+```
+
+Agora basta executar da seguinte forma:
 
 ```
-run roda
+npm run roda
 
 > roda-script@1.0.0 roda /Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial/Apostila/module-nodejs/src/npm
 > node script.js
@@ -372,7 +380,13 @@ run roda
 Rodei!
 ```
 
-Além de executar seus scripts ele também possui os seguintes scripts:
+Então como visto acima o comando é:
+
+```
+npm run nome-script
+```
+
+Além de executar seus scripts ele também possui os seguintes scripts nativos:
 
 - prepublish: Roda ANTES do módulo ser publicado. (Also run on local npm install without any arguments.);
 - publish: publica um módulo no npm;
@@ -410,5 +424,6 @@ O `restart` na verdade executa o `stop` e o `start` também, e seus scripts pre 
 - poststart
 - postrestart
 
+*ps: Com os scripts nativos não é necessário npm run script, apenas npm script.*
 
 

@@ -8,7 +8,7 @@ O Mongoose é um dos projetos mais utilizados quando trabalhamos com o MongoDb p
 
 ![](https://media.giphy.com/media/2XskdWuNUyqElkKe4bm/giphy.gif)
 
-Pois é isso para projetos médios/grandes **é muito necessário** para padronizar as coisas entre a equipe, caso você seja um programador de backend e utiliza algum banco relacional provavelmente já utilizou algum *ORM (Object-relational Mapper)* da vida, o Mongoose é parecido com um *ODM (Object-document Mapper)* porém não é um pois trabalha exclusivamente com o MongoDB.
+Pois é, isso para projetos médios/grandes **é muito necessário** para padronizar as coisas entre a equipe, caso você seja um programador de backend e utiliza algum banco relacional provavelmente já utilizou algum *ORM (Object-relational Mapper)* da vida, o Mongoose é parecido com um *ODM (Object-document Mapper)* porém não é um pois trabalha exclusivamente com o MongoDB.
 
 Antes de iniciarmos nossa jornada pelos campos verdejantes do Mongoose precisamos conhecer alguns conceitos, não falaremos sobre plugins ainda.
 
@@ -92,7 +92,7 @@ Nesse caso quando um objeto for inserido ele colocará o valor da data atual no 
 
 Você deve ter percebido que o campo `created_at` é um objeto diferente dos outros, **mas por quê?**
 
-Basicamente é por que quando passamos apenas o nome do tipo estamos usando apenas o atributo `type` do objeto de configuração do campo, para conhecermos mais sobre isso precisamos conhecer primeiramente quais os tipos suportados pelo *Schema*.
+Basicamente é porque quando passamos apenas o nome do tipo estamos usando apenas o atributo `type` do objeto de configuração do campo, para conhecermos mais sobre isso precisamos conhecer primeiramente quais os tipos suportados pelo *Schema*.
 
 ### Tipos
 
@@ -669,8 +669,15 @@ Interessante que mesmo com mais de 1 erro o objeto `errors` não é convertido p
 
 #### Validação customizada
 
+#Conteúdo da aula 8!!!
+
 ## Model
 
+O *Model* é a implementação do *Schema*, sendo o objeto com o qual trabalhamos.
+
+```js
+var Model = mongoose.model('Model', schema);
+```
 
 ## Create
 ## Retrieve
