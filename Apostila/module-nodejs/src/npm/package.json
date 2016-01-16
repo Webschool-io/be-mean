@@ -4,6 +4,7 @@
   "description": "Vai carai",
   "main": "index.js",
   "scripts": {
+    "start": "node script.js",
     "roda": "node script.js"
   },
   "author": "Suissera",

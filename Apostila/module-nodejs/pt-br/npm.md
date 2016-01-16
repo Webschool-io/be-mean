@@ -2,7 +2,7 @@
 
 O [npm](https://www.npmjs.com/) nada mais é que o gerenciador de pacotes do Node.js.
 
-Uns dizem quem **npm** significa **Node Package Manager**, outros dizem que não, então **FODA-SE**. Ele é nosso gerenciador dos módulos que iremos instalar.
+Uns dizem que **npm** significa **Node Package Manager**, outros dizem que não, então **FODA-SE**. Ele é nosso gerenciador dos módulos que iremos instalar.
 
 Se você ver pelo site do npm, ele é **o** gerenciador de pacotes do JavaScript.
 
@@ -22,11 +22,11 @@ O **npm** gerencia seu projeto a partir de um JSON chamado `package.json` e ele 
 - dependências;
 - outros.
 
-O Array de **dependências** é um dos mais importantes, pois você **nunca** deverá enviar a pasta `node_modules` a qual armazena todos os módulos instalados no seu projeto.
+O objeto de **dependências** é um dos mais importantes, pois você **nunca** deverá enviar a pasta `node_modules`, a qual armazena todos os módulos instalados no seu projeto.
 
-**Se eu nunca devo enviar suas dependências então como alguém irá instalá-las?**
+**Se eu nunca devo enviar minhas dependências então como alguém irá instalá-las?**
 
-Ótima pergunta gafanhoto, é por isso que esse *array* de dependência é tão importante, pois é nele que você irá especificar cada módulo e sua versão. Fazendo com que a listagem de todas as dependências esteja no `package.json`, quando alguém clonar o projeto receberá apenas os códigos e o `package.json`.
+Ótima pergunta gafanhoto, é por isso que esse *array* de dependência é tão importante, pois é nele que você irá especificar cada módulo e sua versão. Fazendo com que a listagem de todas as dependências estejam no `package.json`, quando alguém clonar o projeto receberá apenas os códigos e o `package.json`.
 
 Com o `package.json` em mãos, basta executar `npm install` para que o **npm** instale todas aquelas dependências listadas.
 
@@ -84,7 +84,7 @@ Agora vamos voltar ao **npm**.
 
 ## npm init
 
-Quando iniciamos qualquer projeto utilizando o Node.js, usaremos esse comando `npm init` para inicializar o projeto.
+Quando iniciarmos qualquer projeto utilizando o Node.js, usaremos esse comando `npm init` para inicializar o projeto.
 
 Então vamos iniciar nosso primeiro projeto utilizando os dados dos Pokemons, para isso crie uma pasta chamada `pokemons-api` dentro da sua pasta do `Node.js` do nosso workshop.
 
@@ -259,9 +259,13 @@ NPM_CONFIG_PREFIX=~/npm-global npm install -g jshint
 
 ### npm install --save ou -S
 
-Com o `-g` você instala os módulos globalmente, agora para instalar o módulo localmente basta executar `npm install nome_modulo`, porém instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do `package.json`.
+Com o -g você instala os módulos globalmente, agora para instalar o módulo localmente basta executar: 
 
-Porém não esqueça que você precisa ter o `package.json` antes.
+```
+npm install nome_modulo
+```
+
+Instalando somente dessa forma você não adiciona o módulo instalado na lista de dependências do package.json, para adicionar nas listagem das dependências basta adicionar `--save`.
 
 Então dentro do diretório da nossa aplicação `pokemons-api` vamos instalar o `mongoose` pois precisaremos dele futuramente.
 
@@ -333,7 +337,7 @@ Exemplo de como escolher uma faixa de versões:
 npm i mongoose@">=4.1.0 <4.3.0"
 ```
 
-**Para você instalar apenas as dependências listadas em `dependencies` basta execcutar `npm install --production`.**
+**Para você instalar apenas as dependências listadas em `dependencies` basta executar `npm install --production`.**
 
 ### npm install --save-dev ou -D
 
@@ -343,22 +347,32 @@ Para instalar apenas as `devDependencies` você deverá executar `npm install --
 
 ### npm install --optional ou -O
 
-Ele irá adicionar sua dependência em `optionalDependencies`.
+Irá adicionar sua dependência em `optionalDependencies`.
+
+São dependências opcionais que não devem interferir na execução do projeto.
 
 ## npm run
 
 Esse é um tópico deveras interessante, pois você pode executar scripts para automatizar suas tarefas.
 
-Para demonstar isso primeiro crie uma pasta chamada `npm` e dentro dela execute o `npm init` e depois crie o `script.js` com esse pequeno código:
+Para demonstrar isso primeiro crie uma pasta chamada `npm` e dentro dela execute o `npm init`, depois crie o `script.js` com esse pequeno código:
 
 ```js
 console.log("Rodei!");
 ```
 
-Depois de salvar o `script.js` basta executar:
+Depois de salvar o `script.js` adicione a seguinte linha:
+
+```js
+  "scripts": {
+    "roda": "node script.js"
+  },
+```
+
+Agora basta executar da seguinte forma:
 
 ```
-run roda
+npm run roda
 
 > roda-script@1.0.0 roda /Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial/Apostila/module-nodejs/src/npm
 > node script.js
@@ -366,7 +380,13 @@ run roda
 Rodei!
 ```
 
-Além de executar seus scripts ele também possui os seguintes scripts:
+Então como visto acima o comando é:
+
+```
+npm run nome-script
+```
+
+Além de executar seus scripts ele também possui os seguintes scripts nativos:
 
 - prepublish: Roda ANTES do módulo ser publicado. (Also run on local npm install without any arguments.);
 - publish: publica um módulo no npm;
@@ -404,5 +424,6 @@ O `restart` na verdade executa o `stop` e o `start` também, e seus scripts pre 
 - poststart
 - postrestart
 
+*ps: Com os scripts nativos não é necessário npm run script, apenas npm script.*
 
 

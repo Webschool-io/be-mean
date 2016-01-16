@@ -8,9 +8,9 @@ O Mongoose é um dos projetos mais utilizados quando trabalhamos com o MongoDb p
 
 ![](https://media.giphy.com/media/2XskdWuNUyqElkKe4bm/giphy.gif)
 
-Pois é isso para projetos médios/grandes **é muito necessário** para padronizar as coisas entre a equipe, caso você seja um programador de backend e utiliza algum banco relacional provavelmente já utilizou algum *ORM (Object-relational Mapper)* da vida, o Mongoose é parecido com um *ODM (Object-document Mapper)* porém não é um pois trabalha exclusivamente com o MongoDB.
+Pois é, isso para projetos médios/grandes **é muito necessário** para padronizar as coisas entre a equipe, caso você seja um programador de backend e utiliza algum banco relacional provavelmente já utilizou algum *ORM (Object-relational Mapper)* da vida, o Mongoose é um *ODM (Object-document Mapper)*.
 
-Antes de iniciarmos nossa jornada pelos campos verdejantes do Mongoose precisamos conhecer alguns conceitos, não falaremos sobre plugins ainda.
+Antes de iniciarmos nossa jornada pelos campos verdejantes do Mongoose precisamos conhecer alguns conceitos, não falaremos sobre *plugins* e *middlewares* ainda.
 
 ## Schema
 
@@ -39,7 +39,54 @@ const pokemonSchema = new Schema({
 console.log(pokemonSchema);
 ```
 
-No exemplo acima criamos o *Schema* para nossa coleção de Pokemons que criamos no [módulo de MongoDB](https://www.youtube.com/playlist?list=PL77JVjKTJT2gXHb9FEokJsPEcoOmyF1pY), mas podemos melhorar ele deixando o JSON de configuração do *Schema* separado da criação.
+Antes de continuarmos a explicação de *Schemas* vamos entender um pouco sobre os eventos e a conexão do Mongoose.
+
+## connect
+
+```js
+// Bring Mongoose into the app
+var mongoose = require( 'mongoose' );
+
+// Build the connection string
+var dbURI = 'mongodb://localhost/mongoose-best-practices';
+
+// Create the database connection
+mongoose.connect(dbURI);
+
+// CONNECTION EVENTS
+// When successfully connected
+mongoose.connection.on('connected', function () {
+  console.log('Mongoose default connection open to ' + dbURI);
+});
+
+// If the connection throws an error
+mongoose.connection.on('error',function (err) {
+  console.log('Mongoose default connection error: ' + err);
+});
+
+// When the connection is disconnected
+mongoose.connection.on('disconnected', function () {
+  console.log('Mongoose default connection disconnected');
+});
+
+// When the connection is disconnected
+mongoose.connection.on('open', function () {
+  console.log('Mongoose default connection is open');
+});
+
+// If the Node process ends, close the Mongoose connection
+process.on('SIGINT', function() {
+  mongoose.connection.close(function () {
+    console.log('Mongoose default connection disconnected through app termination');
+    process.exit(0);
+  });
+});
+
+```
+
+## Schema - continuação
+
+No exemplo anterior criamos o *Schema* para nossa coleção de Pokemons que criamos no [módulo de MongoDB](https://www.youtube.com/playlist?list=PL77JVjKTJT2gXHb9FEokJsPEcoOmyF1pY), mas podemos melhorar ele deixando o JSON de configuração do *Schema* separado da criação.
 
 ```js
 let mongoose = require('mongoose');
@@ -92,7 +139,7 @@ Nesse caso quando um objeto for inserido ele colocará o valor da data atual no 
 
 Você deve ter percebido que o campo `created_at` é um objeto diferente dos outros, **mas por quê?**
 
-Basicamente é por que quando passamos apenas o nome do tipo estamos usando apenas o atributo `type` do objeto de configuração do campo, para conhecermos mais sobre isso precisamos conhecer primeiramente quais os tipos suportados pelo *Schema*.
+Basicamente é porque quando passamos apenas o nome do tipo estamos usando apenas o atributo `type` do objeto de configuração do campo, para conhecermos mais sobre isso precisamos conhecer primeiramente quais os tipos suportados pelo *Schema*.
 
 ### Tipos
 
@@ -155,7 +202,7 @@ ERRO:  { [ValidationError: testepokemon validation failed]
 
 **Não se preocupe em como inserir agora, pois já já chegaremos nisso.**
 
-Então você percebeu que ele já possui uma validação padrão para os tipos, né?
+Você percebeu que ele já possui uma validação padrão para os tipos, né?
 
 **Falaremos mais sobre validação dos campos já na sequência dos tipos.**
 
@@ -196,13 +243,13 @@ Claramente se a divisão funciona a multiplicação também, não preciso nem mo
 
 #### Date
 
-Vamos utilizar o código já feito anteriormente.
+Armazena datas no formato ISODate, vamos utilizar o código já feito anteriormente.
 
 ```js
-let mongoose = require('mongoose');
+const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/be-mean-instagram');
-let Schema = mongoose.Schema;
-let _schema = {
+const Schema = mongoose.Schema;
+const _schema = {
   name:  String,
   description: String,
   type:   String,
@@ -212,7 +259,7 @@ let _schema = {
   created_at: { type: Date, default: Date.now }
 }
 // Criação do Schema
-let pokemonSchema = new Schema(_schema);
+const pokemonSchema = new Schema(_schema);
 // apenas para verificar a criação
 console.log(pokemonSchema);
 ```
@@ -230,7 +277,7 @@ Agora eu lhe pergunto: por que usamos `Date.now` em vez de `Date.now()` que nos 
 
 #### Buffer
 
-O tipo *Buffer* é muito para salvar arquivos e os retorná-los da forma que conhecemos [no Node.js](https://nodejs.org/api/buffer.html), porém o MongoDB converte para [Binary](http://mongodb.github.io/node-mongodb-native/api-bson-generated/binary.html).
+O tipo *Buffer* é muito para salvar arquivos e retorná-los da forma que conhecemos [no Node.js](https://nodejs.org/api/buffer.html), porém o MongoDB converte para [Binary](http://mongodb.github.io/node-mongodb-native/api-bson-generated/binary.html).
 
 *Dica: caso for gravar uma imagem, converta-a para base64*.
 
@@ -362,11 +409,11 @@ Obrigado.
 
 ![](https://i.imgur.com/tqByXqh.gif)
 
-#### Objectid
+#### ObjectId
 
 ![](http://i.imgur.com/eOBCaUl.jpg)
 
-Esse tipo de campo **é importantíssimo** quando queremos fazer ligações entre as coleções, pois é com ele que definimos um tipo de campo que receberá um ObjectID de algum documento, podendo ser da própria coleção ou outra, de preferência outra né queridinha(o).
+Esse tipo de campo **é importantíssimo** quando queremos fazer ligações entre as coleções, pois é com ele que definimos o tipo de campo que receberá o ObjectID de algum documento, podendo ser da própria coleção ou outra, de preferência outra né queridinha(o).
 
 Irei utilizar no exemplo o *ObjectID* criado no exemplo anterior:
 
@@ -382,7 +429,6 @@ const pokemonSchema = new Schema(_schema);
 
 const data = {
   pokemons: ['5691d60743056d6e1566274e']
-
 };
 
 var Model = mongoose.model('mypokemons', pokemonSchema);
@@ -414,7 +460,7 @@ db.mypokemons.find()
 
 ```
 
-E isso será muito importante por causa de 1 coisa chamada: [populate](http://jaketrent.com/post/mongoose-population/).
+E isso será muito importante por causa de uma coisa chamada: [populate](http://jaketrent.com/post/mongoose-population/).
 
 O *populate* será o responsável por fazer a busca pelos `_ids` especificados no campo com `Schema.Types.ObjectId` e como você deve ter percebido também usamos mais um atributo:
 
@@ -426,7 +472,7 @@ Pois é com o valor de `ref`, que é o nome da coleção que possui aquele docum
 
 Mas lembre-se:
 
-> É muito importante.
+> É muito importante!
 
 ![](http://cdn.gifbay.com/2014/05/the_infamous_nod_and_wink-135227.gif)
 
@@ -447,12 +493,9 @@ const Schema = mongoose.Schema;
 const _schema = {
   pokemons:  Schema.Types.Array
 }
-// Criação do Schema
 const pokemonSchema = new Schema(_schema);
-
 const data = {
   pokemons: ['Pikachu', 'Squirtle']
-
 };
 
 var Model = mongoose.model('mypokemons', pokemonSchema);
@@ -482,12 +525,9 @@ const Schema = mongoose.Schema;
 const _schema = {
   pokemons:  [String]
 }
-// Criação do Schema
 const pokemonSchema = new Schema(_schema);
-
 const data = {
   pokemons: ['Pikachu', 'Squirtle']
-
 };
 
 var Model = mongoose.model('mypokemons', pokemonSchema);
@@ -512,7 +552,7 @@ Então agora você sabe que o tipo `Schema.Types.Array` **cria um array para cad
 
 Então eu aconselho a você usar a segunda forma que é utilizando o *Array* do JavaScript mesmo, aliás dificilmente você encontrará códigos com `Schema.Types.Array` mas eu tinha que explicar. :p
 
-### _v
+### __v
 
 Com certeza você percebeu que quando inserimos algum documento o Mongoose nos retorna o objeto com um atributo que não inserimos, o `_v`.
 
@@ -522,7 +562,7 @@ Com certeza você percebeu que quando inserimos algum documento o Mongoose nos r
 
 Esse campo é adicionado automaticamente pelo Mongoose quando inserimos algum documento novo, ele serve para o Mongoose gerenciar, **internamente**, a versão de cada documento caso haja alguma alteração concorrente.
 
-**Ou seja não mexa nele!**
+Caso necessário você pode modificar sua versão manualmente, se desejar utilizar esse campo como versionador também.
 
 ### Validation
 
@@ -533,7 +573,7 @@ Agora sim chegamos em algo de **extrema importância**, a validação dos campos
 Antes de entrarmos em suas especificidades, vamos conhecer algumas regras:
 
 - Validação é definida no tipo do campo, no *Schema*;
-- Validação é uma peça interna do *Middleware*;
+- Validação é uma peça interna do [*Middleware*](http://mongoosejs.com/docs/middleware.html);
 - Validação ocorre quando um documento tenta ser salvo, após ter sido definido com seu padrão;
 - Validadores não são executados em valores indefinidos. A única exceção é a validação required;
 - Validação é assincronamente recursiva, quando você chamar a função `save` do *Model*, a validação dos sub-documentos é executado também. Se ocorrer um erro ele será enviado para o *callback* da função `save`;
@@ -634,8 +674,6 @@ Analisando cada atributo nós temos:
 - path: nome do campo;
 - reason: razão porque o erro ocorreu, raramente usado.
 
-#**Verificar se posso usar o reason em vez do type nas validações customizadas**
-
 Porém nesse caso estamos mostrando apenas 1 erro, do campo `name`.
 
 **E se tivermos mais erros como ficará?**
@@ -665,12 +703,19 @@ ERRO:  { [ValidationError: testepokemon validation failed]
         reason: undefined } } }
 ```
 
-Interessante que mesmo com mais de 1 erro o objeto `errors` não é convertido para *Array*, mas sim terá o erro de cada campo como um objeto interno sendo identifado pelo seu nome.
+Interessante que mesmo com mais de 1 erro o objeto `errors` não é convertido para *Array*, mas sim terá o erro de cada campo como um objeto interno sendo identificado pelo seu nome.
 
 #### Validação customizada
 
+#Conteúdo da aula 8!!!
+
 ## Model
 
+O *Model* é a implementação do *Schema*, sendo o objeto com o qual trabalhamos.
+
+```js
+var Model = mongoose.model('Model', schema);
+```
 
 ## Create
 ## Retrieve
