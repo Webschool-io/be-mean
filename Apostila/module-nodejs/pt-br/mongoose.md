@@ -39,7 +39,54 @@ const pokemonSchema = new Schema({
 console.log(pokemonSchema);
 ```
 
-No exemplo acima criamos o *Schema* para nossa coleção de Pokemons que criamos no [módulo de MongoDB](https://www.youtube.com/playlist?list=PL77JVjKTJT2gXHb9FEokJsPEcoOmyF1pY), mas podemos melhorar ele deixando o JSON de configuração do *Schema* separado da criação.
+Antes de continuarmos a explicação de *Schemas* vamos entender um pouco sobre os eventos e a conexão do Mongoose.
+
+## connect
+
+```js
+// Bring Mongoose into the app
+var mongoose = require( 'mongoose' );
+
+// Build the connection string
+var dbURI = 'mongodb://localhost/mongoose-best-practices';
+
+// Create the database connection
+mongoose.connect(dbURI);
+
+// CONNECTION EVENTS
+// When successfully connected
+mongoose.connection.on('connected', function () {
+  console.log('Mongoose default connection open to ' + dbURI);
+});
+
+// If the connection throws an error
+mongoose.connection.on('error',function (err) {
+  console.log('Mongoose default connection error: ' + err);
+});
+
+// When the connection is disconnected
+mongoose.connection.on('disconnected', function () {
+  console.log('Mongoose default connection disconnected');
+});
+
+// When the connection is disconnected
+mongoose.connection.on('open', function () {
+  console.log('Mongoose default connection is open');
+});
+
+// If the Node process ends, close the Mongoose connection
+process.on('SIGINT', function() {
+  mongoose.connection.close(function () {
+    console.log('Mongoose default connection disconnected through app termination');
+    process.exit(0);
+  });
+});
+
+```
+
+## Schema - continuação
+
+No exemplo anterior criamos o *Schema* para nossa coleção de Pokemons que criamos no [módulo de MongoDB](https://www.youtube.com/playlist?list=PL77JVjKTJT2gXHb9FEokJsPEcoOmyF1pY), mas podemos melhorar ele deixando o JSON de configuração do *Schema* separado da criação.
 
 ```js
 let mongoose = require('mongoose');
