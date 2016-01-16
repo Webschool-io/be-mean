@@ -8,9 +8,9 @@ O Mongoose é um dos projetos mais utilizados quando trabalhamos com o MongoDb p
 
 ![](https://media.giphy.com/media/2XskdWuNUyqElkKe4bm/giphy.gif)
 
-Pois é, isso para projetos médios/grandes **é muito necessário** para padronizar as coisas entre a equipe, caso você seja um programador de backend e utiliza algum banco relacional provavelmente já utilizou algum *ORM (Object-relational Mapper)* da vida, o Mongoose é parecido com um *ODM (Object-document Mapper)* porém não é um pois trabalha exclusivamente com o MongoDB.
+Pois é, isso para projetos médios/grandes **é muito necessário** para padronizar as coisas entre a equipe, caso você seja um programador de backend e utiliza algum banco relacional provavelmente já utilizou algum *ORM (Object-relational Mapper)* da vida, o Mongoose é um *ODM (Object-document Mapper)*.
 
-Antes de iniciarmos nossa jornada pelos campos verdejantes do Mongoose precisamos conhecer alguns conceitos, não falaremos sobre plugins ainda.
+Antes de iniciarmos nossa jornada pelos campos verdejantes do Mongoose precisamos conhecer alguns conceitos, não falaremos sobre *plugins* e *middlewares* ainda.
 
 ## Schema
 
@@ -515,7 +515,7 @@ Com certeza você percebeu que quando inserimos algum documento o Mongoose nos r
 
 Esse campo é adicionado automaticamente pelo Mongoose quando inserimos algum documento novo, ele serve para o Mongoose gerenciar, **internamente**, a versão de cada documento caso haja alguma alteração concorrente.
 
-**Ou seja não mexa nele!**
+Caso necessário você pode modificar sua versão manualmente, se desejar utilizar esse campo como versionador também.
 
 ### Validation
 
@@ -526,7 +526,7 @@ Agora sim chegamos em algo de **extrema importância**, a validação dos campos
 Antes de entrarmos em suas especificidades, vamos conhecer algumas regras:
 
 - Validação é definida no tipo do campo, no *Schema*;
-- Validação é uma peça interna do *Middleware*;
+- Validação é uma peça interna do [*Middleware*](http://mongoosejs.com/docs/middleware.html);
 - Validação ocorre quando um documento tenta ser salvo, após ter sido definido com seu padrão;
 - Validadores não são executados em valores indefinidos. A única exceção é a validação required;
 - Validação é assincronamente recursiva, quando você chamar a função `save` do *Model*, a validação dos sub-documentos é executado também. Se ocorrer um erro ele será enviado para o *callback* da função `save`;

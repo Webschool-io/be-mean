@@ -329,6 +329,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Validate
         * Populate
         * Plugins
+        * Middlewares
 - Aula 09: **15/01/2016**
     + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
