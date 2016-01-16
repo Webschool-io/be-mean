@@ -155,7 +155,7 @@ ERRO:  { [ValidationError: testepokemon validation failed]
 
 **Não se preocupe em como inserir agora, pois já já chegaremos nisso.**
 
-Então você percebeu que ele já possui uma validação padrão para os tipos, né?
+Você percebeu que ele já possui uma validação padrão para os tipos, né?
 
 **Falaremos mais sobre validação dos campos já na sequência dos tipos.**
 
@@ -196,7 +196,7 @@ Claramente se a divisão funciona a multiplicação também, não preciso nem mo
 
 #### Date
 
-Vamos utilizar o código já feito anteriormente.
+Armazena datas no formato ISODate, vamos utilizar o código já feito anteriormente.
 
 ```js
 let mongoose = require('mongoose');
