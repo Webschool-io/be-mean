@@ -199,10 +199,10 @@ Claramente se a divisão funciona a multiplicação também, não preciso nem mo
 Armazena datas no formato ISODate, vamos utilizar o código já feito anteriormente.
 
 ```js
-let mongoose = require('mongoose');
+const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/be-mean-instagram');
-let Schema = mongoose.Schema;
-let _schema = {
+const Schema = mongoose.Schema;
+const _schema = {
   name:  String,
   description: String,
   type:   String,
@@ -212,7 +212,7 @@ let _schema = {
   created_at: { type: Date, default: Date.now }
 }
 // Criação do Schema
-let pokemonSchema = new Schema(_schema);
+const pokemonSchema = new Schema(_schema);
 // apenas para verificar a criação
 console.log(pokemonSchema);
 ```
@@ -230,7 +230,7 @@ Agora eu lhe pergunto: por que usamos `Date.now` em vez de `Date.now()` que nos 
 
 #### Buffer
 
-O tipo *Buffer* é muito para salvar arquivos e os retorná-los da forma que conhecemos [no Node.js](https://nodejs.org/api/buffer.html), porém o MongoDB converte para [Binary](http://mongodb.github.io/node-mongodb-native/api-bson-generated/binary.html).
+O tipo *Buffer* é muito para salvar arquivos e retorná-los da forma que conhecemos [no Node.js](https://nodejs.org/api/buffer.html), porém o MongoDB converte para [Binary](http://mongodb.github.io/node-mongodb-native/api-bson-generated/binary.html).
 
 *Dica: caso for gravar uma imagem, converta-a para base64*.
 
@@ -362,11 +362,11 @@ Obrigado.
 
 ![](https://i.imgur.com/tqByXqh.gif)
 
-#### Objectid
+#### ObjectId
 
 ![](http://i.imgur.com/eOBCaUl.jpg)
 
-Esse tipo de campo **é importantíssimo** quando queremos fazer ligações entre as coleções, pois é com ele que definimos um tipo de campo que receberá um ObjectID de algum documento, podendo ser da própria coleção ou outra, de preferência outra né queridinha(o).
+Esse tipo de campo **é importantíssimo** quando queremos fazer ligações entre as coleções, pois é com ele que definimos o tipo de campo que receberá o ObjectID de algum documento, podendo ser da própria coleção ou outra, de preferência outra né queridinha(o).
 
 Irei utilizar no exemplo o *ObjectID* criado no exemplo anterior:
 
@@ -382,7 +382,6 @@ const pokemonSchema = new Schema(_schema);
 
 const data = {
   pokemons: ['5691d60743056d6e1566274e']
-
 };
 
 var Model = mongoose.model('mypokemons', pokemonSchema);
@@ -414,7 +413,7 @@ db.mypokemons.find()
 
 ```
 
-E isso será muito importante por causa de 1 coisa chamada: [populate](http://jaketrent.com/post/mongoose-population/).
+E isso será muito importante por causa de uma coisa chamada: [populate](http://jaketrent.com/post/mongoose-population/).
 
 O *populate* será o responsável por fazer a busca pelos `_ids` especificados no campo com `Schema.Types.ObjectId` e como você deve ter percebido também usamos mais um atributo:
 
@@ -426,7 +425,7 @@ Pois é com o valor de `ref`, que é o nome da coleção que possui aquele docum
 
 Mas lembre-se:
 
-> É muito importante.
+> É muito importante!
 
 ![](http://cdn.gifbay.com/2014/05/the_infamous_nod_and_wink-135227.gif)
 
@@ -447,12 +446,9 @@ const Schema = mongoose.Schema;
 const _schema = {
   pokemons:  Schema.Types.Array
 }
-// Criação do Schema
 const pokemonSchema = new Schema(_schema);
-
 const data = {
   pokemons: ['Pikachu', 'Squirtle']
-
 };
 
 var Model = mongoose.model('mypokemons', pokemonSchema);
@@ -482,12 +478,9 @@ const Schema = mongoose.Schema;
 const _schema = {
   pokemons:  [String]
 }
-// Criação do Schema
 const pokemonSchema = new Schema(_schema);
-
 const data = {
   pokemons: ['Pikachu', 'Squirtle']
-
 };
 
 var Model = mongoose.model('mypokemons', pokemonSchema);
@@ -512,7 +505,7 @@ Então agora você sabe que o tipo `Schema.Types.Array` **cria um array para cad
 
 Então eu aconselho a você usar a segunda forma que é utilizando o *Array* do JavaScript mesmo, aliás dificilmente você encontrará códigos com `Schema.Types.Array` mas eu tinha que explicar. :p
 
-### _v
+### __v
 
 Com certeza você percebeu que quando inserimos algum documento o Mongoose nos retorna o objeto com um atributo que não inserimos, o `_v`.
 
