@@ -1,5 +1,3 @@
-![](./Calendar/2016-janeiro.png)
-
 # APOIE
 
 ### R$50
@@ -352,9 +350,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
 - Aula 13: **19/01/2016**
     + [REPL](./src/) - Prof.: [Suissa](https://github.com/suissa)
-    + [UDP](./http.md) - Prof.: [Caio](https://github.com/suissa)
-    + [TCP](./http.md) - Prof.: [Caio](https://github.com/suissa)
-    + [HTTPS](./http.md) - Prof.: [Caio](https://github.com/suissa)
+    + [Crawler](./src/) - Prof.: [Suissa](https://github.com/suissa)
+    + [Buffer](./http.md) - Prof.: [Caio](https://github.com/caiocutrim)
 - Aula 14: **20/01/2016**
     + [Utilizando APIs externas](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * [pokemons](http://pokeapi.co/) - Prof.: [William Bruno](https://github.com/wbruno)

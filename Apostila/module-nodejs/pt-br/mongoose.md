@@ -43,38 +43,70 @@ Antes de continuarmos a explicação de *Schemas* vamos entender um pouco sobre 
 
 ## connect
 
+Obviamente precisamos conectar no MongoDb antes de fazermos qualquer coisa com o Mongoose e para isso também contamos com eventos para nos ajudar a gerenciar essa conexão.
+
+Primeiramente passamos a *string* de conexão para a função `connect`:
+
 ```js
-// Bring Mongoose into the app
-var mongoose = require( 'mongoose' );
+var dbURI = 'mongodb://localhost/be-mean-instagram';
 
-// Build the connection string
-var dbURI = 'mongodb://localhost/mongoose-best-practices';
-
-// Create the database connection
 mongoose.connect(dbURI);
+```
 
-// CONNECTION EVENTS
-// When successfully connected
+Para depois trabalharmos com esses 4 eventos:
+
+```js
 mongoose.connection.on('connected', function () {
   console.log('Mongoose default connection open to ' + dbURI);
 });
 
-// If the connection throws an error
 mongoose.connection.on('error',function (err) {
   console.log('Mongoose default connection error: ' + err);
 });
 
-// When the connection is disconnected
 mongoose.connection.on('disconnected', function () {
   console.log('Mongoose default connection disconnected');
 });
 
-// When the connection is disconnected
+mongoose.connection.on('open', function () {
+  console.log('Mongoose default connection is open');
+});
+```
+
+E para colocar a cereja no bolo, vamos fechar a conexão com o MongoDb caso o processo do Node.js seja finalizado:
+
+```js
+process.on('SIGINT', function() {
+  mongoose.connection.close(function () {
+    console.log('Mongoose default connection disconnected through app termination');
+    process.exit(0);
+  });
+});
+```
+
+Agora juntando tudo isso temos um arquivo de configuração/conexão com o MongoDb que podde ser re-usado.
+
+```js
+var dbURI = 'mongodb://localhost/be-mean-instagram';
+
+mongoose.connect(dbURI);
+
+mongoose.connection.on('connected', function () {
+  console.log('Mongoose default connection open to ' + dbURI);
+});
+
+mongoose.connection.on('error',function (err) {
+  console.log('Mongoose default connection error: ' + err);
+});
+
+mongoose.connection.on('disconnected', function () {
+  console.log('Mongoose default connection disconnected');
+});
+
 mongoose.connection.on('open', function () {
   console.log('Mongoose default connection is open');
 });
 
-// If the Node process ends, close the Mongoose connection
 process.on('SIGINT', function() {
   mongoose.connection.close(function () {
     console.log('Mongoose default connection disconnected through app termination');
