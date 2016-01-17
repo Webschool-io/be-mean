@@ -116,6 +116,8 @@ process.on('SIGINT', function() {
 
 ```
 
+Para saber mais [visite a documentação](http://mongoosejs.com/docs/connections.html).
+
 ## Schema - continuação
 
 No exemplo anterior criamos o *Schema* para nossa coleção de Pokemons que criamos no [módulo de MongoDB](https://www.youtube.com/playlist?list=PL77JVjKTJT2gXHb9FEokJsPEcoOmyF1pY), mas podemos melhorar ele deixando o JSON de configuração do *Schema* separado da criação.
@@ -748,6 +750,30 @@ O *Model* é a implementação do *Schema*, sendo o objeto com o qual trabalhamo
 ```js
 var Model = mongoose.model('Model', schema);
 ```
+
+Para se trabalhar com o *Model* iremos instanciar um documento para isso:
+
+```js
+const _schema = {
+  name:  String
+}
+const pokemonSchema = new Schema(_schema);
+
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const Suissamon = new PokemonModel({ name: 'Suissamon' });
+Suissamon.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Inseriu:', data);
+})
+// ou
+Suissamon.create({ name: 'Suissamon' }, function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Inseriu:', data);
+})
+```
+
+
 
 ## Create
 ## Retrieve
