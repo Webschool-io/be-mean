@@ -1,5 +1,3 @@
-#### default
-
 Vamos adicionar o campo `created_at` no nosso esquema com um valor padrão, mas **você só verá ele em ação quando inserir um objeto novo**.
 
 ```js
