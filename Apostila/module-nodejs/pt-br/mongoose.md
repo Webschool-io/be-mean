@@ -751,7 +751,7 @@ O *Model* é a implementação do *Schema*, sendo o objeto com o qual trabalhamo
 var Model = mongoose.model('Model', schema);
 ```
 
-Para se trabalhar com o *Model* iremos instanciar um documento para isso:
+Para trabalhar com o *Model* iremos instanciar um documento para isso:
 
 ```js
 const _schema = {
@@ -765,17 +765,187 @@ const Suissamon = new PokemonModel({ name: 'Suissamon' });
 Suissamon.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   return console.log('Inseriu:', data);
-})
+});
 // ou
 Suissamon.create({ name: 'Suissamon' }, function (err, data) {
   if (err) return console.log('ERRO: ', err);
   return console.log('Inseriu:', data);
+});
+```
+
+## Create - save()
+
+Já vimos em outros exemplos como criar um documento novo, então agora vamos padronizar seu uso.
+
+```js
+const _schema = {
+  name:  String
+}
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+const dataModel = { name: 'Suissamon' };
+const Suissamon = new PokemonModel(dataModel);
+
+Suissamon.save(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Inseriu:', data);
+});
+```
+
+Iremos sempre separar o JSON com os dados do *Model*(`dataModel`) da sua criação `new PokemonModel(dataModel)` para depois executar a função `save`, passando como parâmetro uma função de *callback* **que irá sempre receber 2 parâmetros nessa ordem: erro(err) e retorno(data).**
+
+## Retrieve - find()
+
+Existem 2 formas diferentes de executar uma busca com o Mongoose:
+
+- via callback com JSON
+- encadeando funções
+
+Vamos aprender das 2 formas, então vamos buscar por exemplo o `Pikachu` que foi inserido em exercícios anteriores, buscando pelo `name` e se o `attack` for maior que `90`:
+
+```js
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const query = {name: 'Pikachu', attack: {'$gt': 90}};
+
+PokemonModel.find(query, function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Buscou:', data);
+});
+```
+
+Então perceba que agora utilizamos diretamente o *Model* `PokemonModel` para executar a função `find`, passando como parâmetros a *query* e o *callback*. Nesse caso a `query` é um JSON que usa a mesma sintaxe do cliente do MongoDb.
+
+Agora vamos ver da outra forma:
+
+```js
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const query = {name: 'Pikachu'};
+const callback = function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Buscou:', data);
+};
+
+PokemonModel.find(query).where({attack: {$gt: 90}}).exec(callback);
+```
+
+Caso você queira limitar quais campos devem ser retornados basta passar como JSON no segundo parâmetro, assim:
+
+```js
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const query = {name: 'Pikachu', attack: {'$gt': 90}};
+const fields = {name: 1};
+
+PokemonModel.find(query, fields, function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Buscou:', data);
+});
+```
+
+Para você fazer uma busca independente de maiúscula ou minúscula você deve usar de `RegEx` para isso:
+
+```js
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const query = {name: /pikachu/i};
+
+PokemonModel.find(query, function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Buscou:', data);
+});
+```
+
+Você pode ver todas as funções dessa segunda forma [aqui na documentação oficial](http://mongoosejs.com/docs/api.html#query-js).
+
+### findOne
+
+Como você deve lembrar que além do `find` também temos o `findOne` que serve para quê?
+
+![](https://media.giphy.com/media/ZgqJGwh2tLj5C/giphy.gif)
+
+Isso mesmo! Para buscar **apenas 1 documento**.
+
+```js
+PokemonModel.findOne(query, function (err, data) {});
+
+PokemonModel.findOne(query).exec(callback);
+```
+
+### findById
+
+O `findById` é equivalente ao `findOne({_id: id})`, com valor `findById(undefined)` ele converte para `findById({ _id: null })`.
+
+```js
+PokemonModel.findById(id, function (err, data) {});
+
+PokemonModel.findById(id).exec(callback);
+```
+
+Vamos buscar o `Pikachu` porém pelo seu `_id`:
+
+```js
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const id = '564220f0613f89ac53a7b5d0';
+
+PokemonModel.findById(id, function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Buscou:', data);
 })
 ```
 
+## Update - update()
+
+Para alterarmos um documento iremos seguir a mesma lógica do `update` do cliente do MongoDb, porém no Mongoose podemos omitir o operador `$set` pois ele não irá sobrescrever todo seu objeto caso não o use, assim como é no cliente.
+
+**Lembra-se?**
+
+![](https://media.giphy.com/media/NQr9CR7KooV7G/giphy.gif)
+
+Vamos então re-aproveitar a *query* passada e mudar o `attack` do `Pikachu` para `666`:
+
+```js
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const query = {name: /pikachu/i};
+const mod = {attack: 666};
+
+PokemonModel.where(query).update(mod).exec(function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Alterou:', data);
+});
+```
+
+### findAndModify
 
 
-## Create
-## Retrieve
-## Update
-## Delete
+```js
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const query = {name: /pikachu/i};
+const mod = {attack: 666};
+
+PokemonModel.findAndModify(query, mod, function (err, data) {
+  if (err) return console.log('ERRO: ', err);
+  return console.log('Alterou:', data);
+})
+```
+
+### findOneAndUpdate
+
+### upsert
+
+### multi
+
+## Delete - remove()
+
+### findOneAndRemove

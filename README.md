@@ -1,6 +1,12 @@
+# Sobre os brindes
+
+O fornecedor de camiseta foi pago em Dezembro, porém só irá começar a fazer as camisetas **HOJE(18/Janeiro)** um mês depois de pago.
+
+Então podem ficar sossegados que os brindes irão chegar até o próximo mês, os adesivos já estão OK, aguardando as camisetas para irem juntos.
+
 # APOIE
 
-### R$50
+## R$50
 
 Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 49 horas ao total.
 
