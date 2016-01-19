@@ -1,0 +1,12 @@
+{
+  "name": "roda-script",
+  "version": "1.0.0",
+  "description": "Vai carai",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script.js",
+    "roda": "node script.js"
+  },
+  "author": "Suissera",
+  "license": "WTFPL"
+}

@@ -1,0 +1,1 @@
+module.exports = { created_at: { type: Date, default: Date.now } }

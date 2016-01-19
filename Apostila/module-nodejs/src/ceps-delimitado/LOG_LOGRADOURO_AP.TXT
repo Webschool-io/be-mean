@@ -1,0 +1,2380 @@
+1003923@AP@307@31040@@Terceira@(Conj. Habitacional da Embrapa)@68903610@Travessa@S@Tv Terceira
+1003924@AP@307@57160@@Santa Edwiges@@68906054@Avenida@S@Av Sta Edwiges
+1003925@AP@307@57160@@Nossa Senhora da Conceição@@68906057@Avenida@S@Av N Sra da Conceição
+1003926@AP@307@57160@@Bonfim@@68906060@Avenida@S@Av Bonfim
+1003927@AP@307@57160@@Israel@@68906063@Avenida@S@Av Israel
+1003928@AP@307@57160@@Nova Aliança@@68906066@Rua@S@R Nova Aliança
+1003929@AP@307@57160@@Montevidéu@@68906069@Rua@S@R Montevidéu
+1003930@AP@307@57160@@Marrocos@@68906072@Rua@S@R Marrocos
+1003931@AP@307@57160@@Estados Unidos@@68906075@Rua@S@R Estados Unidos
+1003932@AP@307@57160@@Egito@@68906078@Rua@S@R Egito
+1003933@AP@307@57160@@África do Sul@@68906081@Rua@S@R África do Sul
+1003934@AP@307@57160@@Angola@@68906084@Rua@S@R Angola
+1003935@AP@307@57160@@Goiabal@@68906087@Travessa@S@Tv Goiabal
+1003936@AP@307@57160@@Nova Jerusalém@@68906090@Avenida@S@Av Nova Jerusalém
+1003937@AP@307@57160@@Vitoria Regia@@68906093@Rua@S@R Vitoria Regia
+1003938@AP@307@57160@@Josefa da Silva@@68906096@Rua@S@R Josefa da Silva
+1003939@AP@307@57160@@Goiabal@@68906003@Rua@S@R Goiabal
+1003940@AP@307@57160@@Itamaraca@@68906006@Avenida@S@Av Itamaraca
+1003941@AP@307@57160@@Edilson Pinheiro@@68906009@Avenida@S@Av Edilson Pinheiro
+1003942@AP@307@57160@@Francisco de Souza@@68906012@Avenida@S@Av Francisco de Souza
+1003943@AP@307@57160@@José Cardoso da Silva@@68906015@Avenida@S@Av José C da Silva
+1003944@AP@307@57160@@das Amazonas@@68906018@Avenida@S@Av das Amazonas
+1003945@AP@307@57160@@Leopoldo Amanço@@68906021@Avenida@S@Av Leopoldo Amanço
+1003946@AP@307@57160@@Zeca Verônica@@68906024@Rua@S@R Zeca Verônica
+1003947@AP@307@57160@@Maria Alta@@68906027@Avenida@S@Av Maria Alta
+1003948@AP@307@57160@@do Goiabal@@68906030@2ª Travessa@S@2ª Tv do Goiabal
+1003949@AP@307@57160@@Anastácio Gaudêncio da Silva@(Torres do Linhão)@68906033@Avenida@S@Av Anastácio G da Silva
+1003950@AP@307@57160@@Nossa Senhora de Fátima@@68906036@Avenida@S@Av N Sra de Fátima
+1003951@AP@307@57160@@Nossa Senhora Aparecida@@68906039@Avenida@S@Av N Sra Aparecida
+1003952@AP@307@57160@@Santa Catarina@@68906042@Avenida@S@Av Sta Catarina
+1003953@AP@307@57160@@Santa Maria@@68906045@Rua@S@R Sta Maria
+1003954@AP@307@57160@@Santo Expedito@@68906048@Rua@S@R Sto Expedito
+1003955@AP@307@57160@@São Benedito@@68906051@Avenida@S@Av S Benedito
+1007738@AP@307@57160@@Santa Tereza@@68906091@Rua@S@R Sta Tereza
+1007739@AP@307@57160@@Santo Antônio@@68906082@Avenida@S@Av Sto Antônio
+1007740@AP@307@57160@@Maria da Silva Barbosa Barros@@68906071@Avenida@S@Av Maria da S B Barros
+1007741@AP@307@57160@@São Lucas@@68906061@Rua@S@R S Lucas
+1015119@AP@307@215@@Um@(Conjunto Mucaja)@68902012@Rua@S@R Um
+1015120@AP@307@215@@Dois@(Conjunto Mucaja)@68902013@Rua@S@R Dois
+1015121@AP@307@215@@Três@(Conjunto Mucaja)@68902017@Rua@S@R Três
+1015122@AP@307@215@@Quatro@(Conjunto Mucaja)@68902018@Rua@S@R Quatro
+1015123@AP@307@215@@Cinco@(Conjunto Mucaja)@68902019@Rua@S@R Cinco
+1015124@AP@307@215@@Seis@(Conjunto Mucaja)@68902021@Rua@S@R Seis
+1015125@AP@307@215@@Sete@(Conjunto Mucaja)@68902022@Rua@S@R Sete
+1015126@AP@307@215@@Oito@(Conjunto Mucaja)@68902023@Rua@S@R Oito
+1032578@AP@307@49302@@Antônio Ferreira de Jusus@@68904061@Alameda@S@Al Antônio F de Jusus
+1032579@AP@307@49302@@Antônio Ferreira de Jesus@@68904062@Avenida@S@Av Antônio F de Jesus
+1032580@AP@307@33114@@Sol Nascente@@68906300@Avenida@S@Av Sol Nascente
+1032581@AP@307@33114@@Vicente Raimundo Alves@@68906302@Rua@S@R Vicente R Alves
+1032582@AP@307@33114@@do Trilho@@68906303@Rua@S@R do Trilho
+1032583@AP@307@33114@@Marilene Silva Miranda@@68906304@Travessa@S@Tv Marilene S Miranda
+1032584@AP@307@33114@@São Paulo@@68906305@Avenida@S@Av S Paulo
+1032585@AP@307@33114@@Vasco da Gama@@68906306@Avenida@S@Av Vasco da Gama
+1032586@AP@307@33114@@Estrela do Manha@@68906307@Travessa@S@Tv Estrela do Manha
+1032587@AP@307@33114@@Santa Fé@@68906308@Travessa@S@Tv Sta Fé
+1032588@AP@307@33114@@Beira Rio@(Cj, Habitacional Jard. America)@68906450@Rua@S@R Beira Rio
+1032589@AP@307@33114@@do Prazer@(Cj. Habitacional Jard. America)@68906451@Rua@S@R do Prazer
+1032590@AP@307@33114@@Murici@@68906309@Avenida@S@Av Murici
+1032591@AP@307@33114@@Professora Osvaldina Ferreira da Silva@(Cj. Habitacional Jard. America)@68906452@Rua@S@R Prfa Osvaldina F da Silva
+1032592@AP@307@33114@@Liberato@(Cj. Habitacional Jard. America)@68906453@Travessa@S@Tv Liberato
+1032593@AP@307@33114@@Bosque@(Cj. Habitacional Jard. America)@68906454@Avenida@S@Av Bosque
+1032594@AP@307@33114@@Luis Gonzaga@(Cj. Habitacional Jard. America)@68906455@Travessa@S@Tv Luis Gonzaga
+1032595@AP@307@33114@@Raimundo Coutinho@(Cj. Habitacional Jard. America)@68906456@Rua@S@R Raimundo Coutinho
+1032596@AP@307@33114@@Manoel José@(Cj. Habitacional Jard. America)@68906457@Travessa@S@Tv Manoel José
+1032597@AP@307@33114@@Mário Veloso Cordeiro@(Cj. Habitacional Jard. America)@68906458@Rua@S@R Mário V Cordeiro
+1032598@AP@307@33114@@do Entrocamento@(Cj. Habitacional Jard. America)@68906459@Rua@S@R do Entrocamento
+1032599@AP@307@33114@@Olavio da Costa Magno@(Cj. Habitacional Jard.America)@68906460@Alameda@S@Al Olavio da C Magno
+1032600@AP@307@33114@@Nevasca@(Cj. Habitacional Jard. America)@68906461@Travessa@S@Tv Nevasca
+1032601@AP@307@33114@@Verde@(Cj. Habitacional Jard. America)@68906462@Avenida@S@Av Verde
+1032602@AP@307@33114@@Jardin América@(Cj. Habitacional Jard. America)@68906463@Avenida@S@Av Jardin América
+1032603@AP@307@33114@@Floresta@(Cj. Habitacional Jard. America)@68906464@Avenida@S@Av Floresta
+1032604@AP@307@33114@@Raimundo Pinto Ramos@(Cj. Habitacional Jard. America)@68906465@Travessa@S@Tv Raimundo P Ramos
+1032605@AP@307@33114@@Pedro@(Cj. Habitacional Jard. America)@68906466@Travessa@S@Tv Pedro
+1032606@AP@307@33114@@Virginia da Costa@(comunidade do Coração)@68909860@Rua@S@R Virginia da Costa
+1032607@AP@307@31040@@do Gringo@@68903611@Passagem@S@Psg do Gringo
+1032608@AP@307@31040@@Boa Fé@@68903612@Passagem@S@Psg Boa Fé
+1032609@AP@307@230@@Vitória Régia@(lot. V. S. Lazaro)@68908511@Rua@S@R Vitória Régia
+1032610@AP@307@230@@Mendes de Sá@(Lot. V. S. Lazaro)@68908512@Rua@S@R Mendes de Sá
+1032611@AP@307@230@@José de Alencar@(Lot. V. S. Lazaro)@68908513@Rua@S@R José de Alencar
+1032612@AP@307@230@@Duarte da Costa@(Lot. V. S. Lazaro)@68908514@Rua@S@R Duarte da Costa
+1032613@AP@307@230@@Marechal Deodoro da Fonseca@(Lot. V. S. Lazaro)@68908515@Avenida@S@Av Mal Deodoro da Fonseca
+1032614@AP@307@230@@do Ambrósio@(Lot. V. S. Lazaro)@68908516@Passagem@S@Psg do Ambrósio
+1032615@AP@307@230@@Vitória Régia@(Lot. V. S. Lazaro)@68908517@Passagem@S@Psg Vitória Régia
+1032616@AP@307@230@@José Moacir Banha de Araújo@(Lot. V.S. Lazaro)@68908518@Passagem@S@Psg José M B de Araújo
+1032617@AP@307@230@@das Bacabeiras@(lot. V S. Lazaro)@68908519@Travessa@S@Tv das Bacabeiras
+1032618@AP@307@230@@Quilombo dos Palmares@(Lot. V. S. Lazaro)@68908521@Alameda@S@Al Quilombo dos Palmares
+1032619@AP@307@230@@dos Colares@(Lot. V. S. Lazaro)@68908522@Ramal@S@Ram dos Colares
+1032620@AP@307@52761@@do Amor@@68903081@Passagem@S@Psg do Amor
+1032621@AP@307@52761@@das Naçôes@@68903082@Passagem@S@Psg das Naçôes
+1032622@AP@307@52761@@Joaquim Pena@@68903083@Rua@S@R Joaquim Pena
+1032623@AP@307@52761@@Jacinto Lobato@@68903084@Avenida@S@Av Jacinto Lobato
+1032624@AP@307@52761@@Mário Quirino@@68903085@Avenida@S@Av Mário Quirino
+1032625@AP@307@33120@@Sentinela Nortente@(Lot. Mestre O. Santos)@68909613@Alameda@S@Al Sentinela Nortente
+1032626@AP@307@33120@@Tarumã@(Lot. Mestre O. Santos)@68909614@Alameda@S@Al Tarumã
+1032627@AP@307@33120@@Toada Cabocla@(Lot. Mestre O. Oscar)@68909615@Alameda@S@Al Toada Cabocla
+1032628@AP@307@33120@@Doce Cartar@(Lot. Mestre O. Santos)@68909616@Alameda@S@Al Doce Cartar
+1032629@AP@307@33120@@Rosario de Ouro@(Lot. Mestre O. Santos)@68909617@Alameda@S@Al Rosario de Ouro
+1032630@AP@307@53916@@Holanda@(Reds. Jard. Europa)@68906171@Avenida@S@Av Holanda
+1032631@AP@307@53916@@França@(Reds. Jard. Europa)@68906172@Avenida@S@Av França
+1032632@AP@307@33120@@Sereia dos Rios@(Lot. Mestre O. Santos)@68909612@Alameda@S@Al Sereia dos Rios
+1032633@AP@307@31040@@Ferraz@@68903613@Ramal@S@Ram Ferraz
+1032634@AP@307@31040@@Bom Jesus@@68903614@Ramal@S@Ram Bom Jesus
+1032635@AP@307@31040@@Trinta e Um de Março@@68903616@Ramal@S@Ram Trinta e U de Março
+1032636@AP@307@33120@@Minha Cidade@(Lot. Mestre O. Santos)@68909600@Alameda@S@Al Minha Cidade
+1032637@AP@307@33120@@Pérola Azulada@(Lot. Mestre O. Santos)@68909601@Alameda@S@Al Pérola Azulada
+1032638@AP@307@33120@@Bacabeira@(Lot. Mestre O. Santos)@68909602@Alameda@S@Al Bacabeira
+1032639@AP@307@33120@@Luz do Mundo@(Lot. Mestre O. Santos)@68909603@Alameda@S@Al Luz do Mundo
+1032640@AP@307@33120@@Pedra Negra@(Lot. Mestre O. Santos)@68909604@Alameda@S@Al Pedra Negra
+1032641@AP@307@33120@@Floração@(Lot. Mestre O. Santos)@68909605@Alameda@S@Al Floração
+1032642@AP@307@49588@@do Grosso@(Lot. V. Verde)@68911468@Avenida@S@Av do Grosso
+1032643@AP@307@49588@@Breviense@(Lot. V. Verde)@68911469@Avenida@S@Av Breviense
+1032644@AP@307@49588@@Araguaia@(Lot. V. Verde)@68911470@Avenida@S@Av Araguaia
+1032645@AP@307@49588@@Vinte e Dois de Novembro@(Lot. V. Verde)@68911471@Avenida@S@Av Vinte e D de Novembro
+1032646@AP@307@49588@@Estaleiro@(Lot. V. Verde)@68911472@Ramal@S@Ram Estaleiro
+1032647@AP@307@49588@@da Horta@(Lot. V. Verde)@68911473@Ramal@S@Ram da Horta
+1032648@AP@307@49588@@do Alemão@@68911474@Ramal@S@Ram do Alemão
+1032649@AP@307@49588@@Bom fim@(Lot. V. Verde)@68911475@Avenida@S@Av Bom fim
+1032650@AP@307@49588@@Vale do Rio Doce@(Lot. V. Verde)@68911476@Avenida@S@Av Vale do R Doce
+1032651@AP@307@49588@@Vale do Itajaí@(Lot. V. Verde)@68911477@Avenida@S@Av Vale do Itajaí
+1032652@AP@307@49588@@São Francisco@(Lot. V. Verde)@68911478@Avenida@S@Av S Francisco
+1032653@AP@307@49588@@Sapucaia@(Lot. V. Verde)@68911479@Avenida@S@Av Sapucaia
+1032654@AP@307@52761@@Nova Esperança@@68903080@Ramal@S@Ram Nova Esperança
+1032655@AP@307@33120@@Andorinha@(Lot. Mestre O. Santos)@68909606@Alameda@S@Al Andorinha
+1032656@AP@307@33120@@Lugar Bonito@(Lot. Mestre O. Santos)@68909607@Alameda@S@Al Lugar Bonito
+1032657@AP@307@33120@@Colibrir@(Lot.Mestre O. Santos)@68909608@Alameda@S@Al Colibrir
+1032658@AP@307@33120@@Padroeiro São José@(Lot. Mestre O. Santos)@68909609@Alameda@S@Al Padr S José
+1032659@AP@307@33120@@Negro de Nós@(Lot. Mestre O. Santos)@68909611@Alameda@S@Al Negro de Nós
+1034713@AP@307@53916@@Portugal@(Resd. Jard. Europa)@68906173@Avenida@S@Av Portugal
+1034714@AP@307@53916@@Itália@(Resd. Jard. Europa)@68906174@Avenida@S@Av Itália
+1034715@AP@307@53916@@Inglaterra@(Resd. Jard. Europa)@68906175@Avenida@S@Av Inglaterra
+1034716@AP@307@53916@@Irlanda@(Resd. Jard. Europa)@68906176@Rua@S@R Irlanda
+1034717@AP@307@53916@@Belgica@(Resd. Jard. Europa)@68906177@Rua@S@R Belgica
+1034718@AP@307@53916@@Espanha@(Resd. Jard. Europa)@68906178@Rua@S@R Espanha
+1034719@AP@307@53916@@Suiça@(Resd. Jard. Europa)@68906179@Rua@S@R Suiça
+1034720@AP@307@53916@@Uruguai@(Resd. Jard. America)@68906180@Avenida@S@Av Uruguai
+1034721@AP@307@53916@@Argentina@(Resd. Jard. America)@68906181@Avenida@S@Av Argentina
+1034722@AP@307@53916@@Equador@(Resd. Jard. America)@68906182@Avenida@S@Av Equador
+1034723@AP@307@53916@@Bolivia@(Resd. Jard. America)@68906183@Avenida@S@Av Bolivia
+1034724@AP@307@53916@@Brasil@(Resd. Jard. America)@68906184@Avenida@S@Av Brasil
+1034725@AP@307@53916@@Paraguai@(Resd. Jard. America)@68906185@Avenida@S@Av Paraguai
+1034726@AP@307@33114@@Uruguai@(Cj. hab. Jard. America)@68906448@Avenida@S@Av Uruguai
+1034727@AP@307@33114@@João Ferreira da Silva@(Cj. Hab. Jard. America)@68906467@Rua@S@R João F da Silva
+1034728@AP@307@33114@@Benedito Ramos Castro@(Cj. Hab. Jard. America)@68906468@Avenida@S@Av Benedito R Castro
+1034729@AP@307@33114@@Antonio Cosme de Araujo@(Cj. Hab. Jard. America)@68906469@Passagem@S@Psg Antonio C de Araujo
+1034730@AP@307@33114@@Cacique Curuma@(Cj. Hab. Jard. America)@68906470@Travessa@S@Tv Cac Curuma
+1034731@AP@307@33114@@João Vicente Medeiros@(Cj. Hab. Jard. America)@68906471@Travessa@S@Tv João V Medeiros
+1034732@AP@307@33114@@Jardin America@(Cj. Hab. Jard. America)@68906472@Passagem@S@Psg Jardin America
+1034733@AP@307@33114@@Beira Rio@(Cj. Hab. Jard. America)@68906473@Alameda@S@Al Beira Rio
+1034734@AP@307@33114@@Lemos@(Cj. Hab. Jard. America)@68906474@Travessa@S@Tv Lemos
+1034735@AP@307@33114@@Lucicleiton Trindade de Mira@(Cj. Hab. Jard. America)@68906475@Rua@S@R Lucicleiton T de Mira
+1034736@AP@307@33114@@das Orquidias@(Cj. Hab. Jard. Americo)@68906476@Travessa@S@Tv das Orquidias
+1034737@AP@307@33114@@Muruci@(Cj. Hab. Jard. America)@68906477@Travessa@S@Tv Muruci
+1034738@AP@307@33114@@Waldez Trindade de Souza@(Cj. Hab. Jard. America)@68906478@Avenida@S@Av Waldez T de Souza
+1034739@AP@307@33114@@X do Sul@(Cj. Hab. Jard. America)@68906479@Passagem@S@Psg X do Sul
+1034740@AP@307@33114@@Raimundo Ibiapino da Silva@(Cj. Hab. Jard. America)@68906480@Avenida@S@Av Raimundo I da Silva
+1034741@AP@307@33114@@Bom Jardin@(Cj. Hab. Jard. America)@68906481@Travessa@S@Tv Bom Jardin
+1034742@AP@307@33114@@Raimundo Jansen de Almeida@(Cj. Hab. Jard. America)@68906482@Travessa@S@Tv Raimundo J de Almeida
+1034743@AP@307@33114@@Bom Jardin@(Cj. Hab. Jard. America)@68906483@Passagem@S@Psg Bom Jardin
+1034744@AP@307@33114@@Santo Expedito@(Cj. Hab. Jard. America)@68906484@Travessa@S@Tv Sto Expedito
+1034745@AP@307@33114@@Zolito Nunes@(Cj. Hab. Jard. America)@68906485@Travessa@S@Tv Zolito Nunes
+1034746@AP@307@33114@@Doutor Araldo da Silva Carvalho@(Cj. Hab. Jard. America)@68906486@Travessa@S@Tv Dr Araldo da S Carvalho
+1034747@AP@307@33114@@Porto Alegre@(Cj. Hab. Jard. America)@68906487@Travessa@S@Tv Porto Alegre
+1034748@AP@307@33114@@Flamengo@(Cj. Hab. Jard. America)@68906488@Travessa@S@Tv Flamengo
+1034749@AP@307@33114@@Doutor Dalton Martins@(Cj. Hab. Jard. America)@68906489@Rua@S@R Dr Dalton Martins
+1034750@AP@307@33114@@Alverne@(Cj. Hab. Jard. America)@68906490@Travessa@S@Tv Alverne
+1034751@AP@307@33114@@Joaquim Coutinho@(Cj. Hab. Jard. America)@68906491@Avenida@S@Av Joaquim Coutinho
+1034752@AP@307@33114@@Raimundo Nunes Trindade@(Cj. Hab. Jard. America)@68906492@Avenida@S@Av Raimundo N Trindade
+1034753@AP@307@33114@@Municipal@(Cj. Hab. Jard. America)@68906493@Travessa@S@Tv Municipal
+1034754@AP@307@33114@@Maria Assunção cruz@(Cj. Hab. Jard. America)@68906494@Travessa@S@Tv Maria A cruz
+1034755@AP@307@33114@@do Breu@(Cj. Hab. Jard. America)@68906495@Passagem@S@Psg do Breu
+1034756@AP@307@33114@@Miguel de Carvalho Uchoa@(Cj. Hab. Jard. America)@68906496@Passagem@S@Psg Miguel de C Uchoa
+1034757@AP@307@33114@@Pau Brasil@(Cj. Hab. Jard. America)@68906497@Travessa@S@Tv Pau Brasil
+1034758@AP@307@33114@@Europa@(Cj. Hab. Jard. America)@68906498@Travessa@S@Tv Europa
+1034759@AP@307@33114@@Rio Solimoes@(Cj. Hab. Jard. America)@68906499@Travessa@S@Tv Rio Solimoes
+1034760@AP@307@33114@@da Lagoa@(Cj. Hab. Jard. America)@68906500@Rua@S@R da Lagoa
+1034761@AP@307@33114@@Monte Negro@(Cj. Hab. Jard. America)@68906449@Travessa@S@Tv Monte Negro
+1034762@AP@307@230@@Jocelina Ramos@@68908402@Rua@S@R Jocelina Ramos
+1039159@AP@307@52626@@Norte Sul@@68908001@Rodovia@S@Rod Norte Sul
+1039160@AP@307@49588@@Um@(Lot. V. Verde)@68911449@Rua@S@R Um
+1039161@AP@307@31019@@Ramos@- até 2587/2588@68909839@Avenida@S@Av Ramos
+1039162@AP@307@220@@Ramos@- de 2600/2601 a 99998/99999@68909062@Avenida@S@Av Ramos
+1044449@AP@307@52626@@1@(Conj. Habit.Macapaba)@68908016@Rua@S@R 1
+1044450@AP@307@52626@@2@(Conj. Habit.Macapaba)@68908017@Rua@S@R 2
+1044451@AP@307@52626@@3@(Conj. Habit.Macapaba)@68908018@Rua@S@R 3
+1044452@AP@307@52626@@4@(Conj. Habit.Macapaba)@68908019@Rua@S@R 4
+1045839@AP@307@52761@@Anibal Barcelos@(Cj. Mônaco)@68903120@Travessa@S@Tv Anibal Barcelos
+13494@AP@307@227@@Acézio Guedes@@68905628@Rua@S@R Acézio Guedes
+13495@AP@307@226@@Acre@@68908390@Avenida@S@Av Acre
+13496@AP@307@230@@Adilson José Pinto Pereira@@68908571@Rua@S@R Adilson J P Pereira
+13497@AP@307@48601@@Agenor Ferreira Pinto@@68903220@Rua@S@R Agenor F Pinto
+13498@AP@307@215@@dos Aimorés@- até 641/642@68902140@Avenida@S@Av dos Aimorés
+13499@AP@307@216@@dos Aimorés@- de 643/644 ao fim@68902868@Avenida@S@Av dos Aimorés
+13501@AP@307@49302@@Almerindo S. Farias@@68904780@Avenida@S@Av Almerindo S Farias
+13502@AP@307@228@@Álvaro Bezerra@@68901450@Rua@S@R Álvaro Bezerra
+13503@AP@307@31040@@Álvaro Nobre@@68903240@Avenida@S@Av Álvaro Nobre
+13504@AP@307@48601@@Amadeu Gama@@68903230@Rua@S@R Amadeu Gama
+13505@AP@307@226@@Amazonas@@68908330@Avenida@S@Av Amazonas
+13506@AP@307@230@@Ambrósio Lúcio da Silva@@68908540@Avenida@S@Av Ambrósio L da Silva
+13511@AP@307@228@@André de Oliveira Costa@@68901460@Rua@S@R André de O Costa
+13512@AP@307@230@@Anete Gomes da Silva@@68908570@Avenida@S@Av Anete G da Silva
+13516@AP@307@229@@Antônio Coelho de Carvalho@- de 2170/2171 ao fim@68901280@Avenida@S@Av Antônio C de Carvalho
+13517@AP@307@221@@Antônio Lisboa Pinheiro@@68903362@Avenida@S@Av Antônio L Pinheiro
+13519@AP@307@49302@@Antônio Pinheiro Sampaio@(Cj C Asfalto)@68904812@Rua@S@R Antônio P Sampaio
+13520@AP@307@221@@Antônio Wanildo Tavares Pinheiro@@68903188@Rua@S@R Antônio W T Pinheiro
+13521@AP@307@35372@@do Araxá@@68903883@Rua@S@R do Araxá
+13522@AP@307@49302@@Armando Limeira Pontes@@68904030@Avenida@S@Av Armando L Pontes
+13523@AP@307@230@@Armando Tupan Alves de Abreu@@68908560@Avenida@S@Av Armando T A de Abreu
+13524@AP@307@218@@Arthur Roque@@68904350@Avenida@S@Av Arthur Roque
+13525@AP@307@218@@Aureliano Rening@@68904381@Avenida@S@Av Aureliano Rening
+13526@AP@307@230@@Aurino Borges de Oliveira@@68908470@Avenida@S@Av Aurino B de Oliveira
+13527@AP@307@49302@@Avó Guardina@@68904120@Travessa@S@Tv Avó Guardina
+13528@AP@307@226@@Bahia@@68908320@Avenida@S@Av Bahia
+13529@AP@307@229@@Barão de Mauá@- até 70/71@68901350@Rua@S@R Br de Mauá
+13530@AP@307@216@@Barão de Mauá@- de 72/73 ao fim@68902873@Rua@S@R Br de Mauá
+13531@AP@307@217@@Barão do Rio Branco@@68900453@Praça@S@Pç Br do Rio Branco
+13532@AP@307@228@@Beira Rio@@68901470@Rua@S@R Beira Rio
+13534@AP@307@225@@Benedito Malcher@@68901690@Avenida@S@Av Benedito Malcher
+13535@AP@307@220@@BR-156@@68909094@Rodovia@S@Rod BR-156
+13539@AP@307@48601@@Cabo Maurício@@68903250@Avenida@S@Av Cb Maurício
+13541@AP@307@227@@Cândido Mendes@- até 523/524@68905670@Rua@S@R Cândido Mendes
+13542@AP@307@217@@Cândido Mendes@- de 525/526 ao fim@68900100@Rua@S@R Cândido Mendes
+13543@AP@307@215@@Caramuru@- de 60/61 a 411/412@68902100@Avenida@S@Av Caramuru
+13544@AP@307@216@@Caramuru@- de 413/414 ao fim@68902863@Avenida@S@Av Caramuru
+13546@AP@307@221@@Carlos Cantídio Corte@@68903198@Rua@S@R Carlos C Corte
+13547@AP@307@218@@Carlos Drumond de Andrade@@68904376@Rua@S@R Carlos D de Andrade
+13548@AP@307@225@@Celestino Pinheiro@@68901660@Avenida@S@Av Celestino Pinheiro
+13549@AP@307@222@@Chico Noé@@68908114@Praça@S@Pç Chico Noé
+13553@AP@307@225@@Clemência Zagury@@68901670@Avenida@S@Av Clemência Zagury
+13554@AP@307@220@@Clodoaldo da Silva Matias@@68909067@Rua@S@R Clodoaldo da S Matias
+13555@AP@307@231@@Clodóvio Coelho@- até 828/829@68901110@Avenida@S@Av Clodóvio Coelho
+13556@AP@307@216@@Clodóvio Coelho@- de 830/831 ao fim@68902885@Avenida@S@Av Clodóvio Coelho
+13557@AP@307@217@@Coaracy Nunes@@68900010@Avenida@S@Av Coaracy Nunes
+13558@AP@307@218@@Comandante Marapanim@@68904397@Avenida@S@Av Cmte Marapanim
+13559@AP@307@217@@Coriolano Jucá@@68900101@Avenida@S@Av Coriolano Jucá
+13560@AP@307@224@@Creuza Mendes Holanda@- de 618/619 ao fim@68902280@Avenida@S@Av Creuza M Holanda
+13561@AP@307@220@@Curiau@@68909023@Rodovia@S@Rod Curiau
+13562@AP@307@218@@Delegado Antônio Melo@@68904382@Avenida@S@Av Del Antônio Melo
+13564@AP@307@49302@@Dezenove de Julho@(Conj. Hab. Laurindo Banha)@68904800@Rua@S@R Dezenove de Julho
+13565@AP@307@49302@@Dezesseis de Julho@(Conj. Hab. Laurindo Banha)@68904710@Avenida@S@Av Dezesseis de Julho
+13566@AP@307@214@@Dezessete@@68906635@Travessa@S@Tv Dezessete
+13567@AP@307@49302@@Dezessete de Julho@(Conj. Hab. Laurindo Banha)@68904690@Avenida@S@Av Dezessete de Julho
+13568@AP@307@49302@@Dezoito de Julho@(Conj. Hab. Laurindo Banha)@68904620@Avenida@S@Av Dezoito de Julho
+13569@AP@307@231@@Diógenes Silva@- até 1197/1198@68901090@Avenida@S@Av Diógenes Silva
+13571@AP@307@230@@Dirceu Cordeiro Dias@@68908440@Avenida@S@Av Dirceu C Dias
+13572@AP@307@33104@@Dois@@68906790@Rua@S@R Dois
+13576@AP@307@49302@@Dois de Setembro@(conj. Hab. Laurindo Banha)@68904810@Rua@S@R Dois de Setembro
+13577@AP@307@48601@@Dom José Maritano@@68903270@Avenida@S@Av D José Maritano
+13578@AP@307@218@@Doutor Alberto Lima@@68904377@Rua@S@R Dr Alberto Lima
+13580@AP@307@218@@Doutor Manoel Brasil@@68904345@Rua@S@R Dr Manoel Brasil
+13581@AP@307@221@@Doutor Walter da Silva Pacheco@@68903180@Rua@S@R Dr Walter da S Pacheco
+13582@AP@307@49302@@Edilson José Prado Ribeiro@@68904700@Avenida@S@Av Edilson J P Ribeiro
+13583@AP@307@223@@Eliézer Levy@- até 1009/1010@68908183@Rua@S@R Eliézer Levy
+13584@AP@307@217@@Eliézer Levy@- de 1060/1061 a 2574/2575@68900083@Rua@S@R Eliézer Levy
+13585@AP@307@231@@Eliézer Levy@- de 2580/2581 ao fim@68901016@Rua@S@R Eliézer Levy
+13586@AP@307@49302@@Eloy Monteiro Nunes@(Cj. Cuba de Asfalto)@68904272@Rua@S@R Eloy M Nunes
+13587@AP@307@49302@@Manoel Valente dos Santos@@68904150@Travessa@S@Tv Manoel V dos Santos
+13590@AP@307@225@@Engenheiro Joaquim@@68901770@Travessa@S@Tv Eng Joaquim
+13591@AP@307@221@@Equatorial@@68903361@Avenida@S@Av Equatorial
+13595@AP@307@214@@Eufrázio da Silva Gaia@@68906685@Travessa@S@Tv Eufrázio da S Gaia
+13596@AP@307@220@@Eulália Maria de Menezes@@68909018@Rua@S@R Eulália M de Menezes
+13597@AP@307@228@@Eulálio Modesto de Oliveira@@68901530@Avenida@S@Av Eulálio M de Oliveira
+13600@AP@307@230@@Favila Gentil@@68908520@Avenida@S@Av Favila Gentil
+13601@AP@307@231@@Felipe Camarão@- até 618/619@68901111@Avenida@S@Av Felipe Camarão
+13602@AP@307@216@@Felipe Camarão@- de 620/621 ao fim@68902861@Avenida@S@Av Felipe Camarão
+13603@AP@307@221@@Fernando das Neves Dias@@68903357@Rua@S@R Fernando das N Dias
+13604@AP@307@217@@Floriano Peixoto@@68900700@Travessa@S@Tv Floriano Peixoto
+13605@AP@307@217@@Floriano Peixoto@@68900840@Praça@S@Pç Floriano Peixoto
+13608@AP@307@217@@Francisco Azarias da Silva Coelho Neto@@68900080@Rua@S@R Francisco A da S C Neto
+13609@AP@307@49302@@Francisco Furtado@(Cj. Cuba de Asfalto)@68904275@Rua@S@R Francisco Furtado
+13612@AP@307@218@@Francisco Torquato de Araújo@@68904387@Avenida@S@Av Francisco T de Araújo
+13613@AP@307@229@@Francisco Valois Lima@@68901300@Avenida@S@Av Francisco V Lima
+13614@AP@307@220@@Francisco Xavier das Chagas@@68909050@Rua@S@R Francisco X das Chagas
+13615@AP@307@224@@G@@68902313@Avenida@S@Av G
+13616@AP@307@215@@dos Galibis@- até 454/455@68902130@Avenida@S@Av dos Galibis
+13617@AP@307@216@@dos Galibis@- de 456/457 ao fim@68902867@Avenida@S@Av dos Galibis
+13618@AP@307@217@@General Gurjão@@68900050@Avenida@S@Av Gen Gurjão
+13621@AP@307@223@@General Rondon@- até 1133/1134@68908181@Rua@S@R Gen Rondon
+13622@AP@307@217@@General Rondon@- de 1170/1171 a 2619/2620@68900082@Rua@S@R Gen Rondon
+13623@AP@307@231@@General Rondon@- de 2640/2641 ao fim@68901018@Rua@S@R Gen Rondon
+13625@AP@307@230@@Germano Silva Souza@@68908450@Avenida@S@Av Germano S Souza
+13626@AP@307@227@@Gertrudes Saturnino Loureiro@@68905830@Avenida@S@Av Gertrudes S Loureiro
+13627@AP@307@226@@Goiás@@68908340@Rua@S@R Goiás
+13629@AP@307@218@@Guajarina Duarte Mendes@@68904340@Avenida@S@Av Guajarina D Mendes
+13630@AP@307@226@@Guanabara@@68908360@Rua@S@R Guanabara
+13631@AP@307@215@@dos Guaranis@- até 441/442@68902160@Avenida@S@Av dos Guaranis
+13632@AP@307@216@@dos Guaranis@- de 443/444 ao fim@68902871@Avenida@S@Av dos Guaranis
+13633@AP@307@220@@Guilherme Coelho@@68909080@Rua@S@R Guilherme Coelho
+13634@AP@307@222@@Hamilton Silva@- até 753/754@68908130@Rua@S@R Hamilton Silva
+13635@AP@307@217@@Hamilton Silva@- de 794/795 a 2259/2260@68900068@Rua@S@R Hamilton Silva
+13636@AP@307@231@@Hamilton Silva@- de 2272/2273 a 2969/2970@68901140@Rua@S@R Hamilton Silva
+13637@AP@307@215@@Hamilton Silva@- de 2980/2981 ao fim@68902010@Rua@S@R Hamilton Silva
+13638@AP@307@49302@@Heráclito Azevedo Coutinho@@68904140@Travessa@S@Tv Heráclito A Coutinho
+13640@AP@307@222@@Hildemar Maia@- até 586/587@68908119@Rua@S@R Hildemar Maia
+13641@AP@307@216@@Hildemar Maia@- de 2301/2302 a 3548/3549@68902870@Rua@S@R Hildemar Maia
+13642@AP@307@224@@Hildemar Maia@- de 3550/3551 ao fim@68902335@Rua@S@R Hildemar Maia
+13643@AP@307@227@@Hugo Alves Pinto@@68905630@Rua@S@R Hugo A Pinto
+13644@AP@307@217@@Independência@@68900090@Rua@S@R Independência
+13645@AP@307@48601@@Inspetor Aimoré@@68903290@Rua@S@R Insp Aimoré
+13646@AP@307@31040@@Inspetor Marcelino@@68903300@Rua@S@R Insp Marcelino
+13647@AP@307@48601@@Inspetor Orlando Dias@@68903310@Avenida@S@Av Insp Orlando Dias
+13648@AP@307@33104@@Ipiranga@(Conj. Habitacional Cabralzinho)@68906845@Alameda@S@Al Ipiranga
+13649@AP@307@217@@Iracema Carvão Nunes@@68900099@Avenida@S@Av Iracema C Nunes
+13650@AP@307@228@@Iraci Nunes Nadior@@68901380@Rua@S@R Iraci N Nadior
+13651@AP@307@221@@Irineu Lima de Souza@@68903192@Avenida@S@Av Irineu L de Souza
+13652@AP@307@221@@Irmã Augusta Miranda de Alencar@@68903210@Rua@S@R Ima Augusta M de Alencar
+13653@AP@307@217@@Isaac Zagury@@68900800@Praça@S@Pç Isaac Zagury
+13654@AP@307@218@@Janari de Azevedo Costa@@68904378@Avenida@S@Av Janari de A Costa
+13657@AP@307@230@@João Azevedo Tavares@@68908430@Avenida@S@Av João A Tavares
+13658@AP@307@225@@João Gualberto da Silva@@68901710@Avenida@S@Av João G da Silva
+13659@AP@307@218@@João Guerra@@68904360@Avenida@S@Av João Guerra
+13660@AP@307@220@@João Paulo de Souza@@68909030@Rua@S@R João P de Souza
+13661@AP@307@214@@Joaquim Gouveia@@68906620@Travessa@S@Tv Joaquim Gouveia
+13662@AP@307@229@@Joaquim Pinheiro Borges@@68901349@Travessa@S@Tv Joaquim P Borges
+13664@AP@307@230@@José Alves Pessoa@@68908480@Avenida@S@Av José A Pessoa
+13666@AP@307@49302@@José Augusto Façanha@@68904070@Avenida@S@Av José A Façanha
+13667@AP@307@223@@José Bonifácio@@68908210@Passagem@S@Psg José Bonifácio
+13668@AP@307@225@@José Corrêa da Costa@@68901685@Avenida@S@Av José C da Costa
+13669@AP@307@229@@José da Silva Castro@@68901330@Avenida@S@Av José da S Castro
+13672@AP@307@49302@@José de Souza Gomes@@68904060@Avenida@S@Av José de S Gomes
+13673@AP@307@227@@José do Espírito Santo Araújo@@68905627@Avenida@S@Av José do E Sto Araújo
+13674@AP@307@221@@José Domingos dos Santos@@68903182@Rua@S@R José D dos Santos
+13675@AP@307@227@@José dos Santos Furtado@@68905810@Avenida@S@Av José dos Stos Furtado
+13678@AP@307@226@@José Jucá Mont'Alverne@@68908640@Travessa@S@Tv José J Mont'Alverne
+13680@AP@307@221@@José Luís Barata@@68903364@Rua@S@R José L Barata
+13681@AP@307@220@@José Maria Silva Azevedo@@68909060@Rua@S@R José M S Azevedo
+13683@AP@307@230@@José Moacir Banhos de Araújo@@68908550@Avenida@S@Av José M B de Araújo
+13684@AP@307@218@@José Moacir Banhos de Araújo@@68904390@Avenida@S@
+13685@AP@307@48601@@José Nery@@68903320@Avenida@S@Av José Nery
+13686@AP@307@225@@José Praxédio de Mendonça@@68901590@Avenida@S@Av José P de Mendonça
+13687@AP@307@230@@José Pereira Teixeira@@68908510@Avenida@S@Av José P Teixeira
+13689@AP@307@221@@José Rodrigues Leitão@@68903346@Rua@S@R José R Leitão
+13690@AP@307@223@@José Serafim@@68908150@Rua@S@R José Serafim
+13691@AP@307@217@@José Serra e Silva@@68900033@Passagem@S@Psg José S E Silva
+13693@AP@307@49302@@José Valente dos Santos@@68904250@Rua@S@R José V dos Santos
+13695@AP@307@214@@Josefina Silva da Soledade@@68906680@Avenida@S@Av Josefina S da Soledade
+13696@AP@307@222@@Jovino Dinoá@- até 1015/1016@68908121@Rua@S@R Jovino Dinoá
+13697@AP@307@231@@Jovino Dinoá@- de 2620/2621 a 3129/3130@68901120@Rua@S@R Jovino Dinoá
+13698@AP@307@217@@Jovino Dinoá@- de 1094/1095 a 2614/2615@68900075@Rua@S@R Jovino Dinoá
+13699@AP@307@215@@Jovino Dinoá@- de 3141/3142 ao fim@68902030@Rua@S@R Jovino Dinoá
+13700@AP@307@223@@Santa Marta@@68908191@Passagem@S@Psg Sta Marta
+13701@AP@307@225@@Juracy Muniz Coelho@@68901630@Avenida@S@Av Juracy M Coelho
+13703@AP@307@218@@Laudelino Araújo Corrêa@@68904329@Avenida@S@Av Laudelino A Corrêa
+13705@AP@307@222@@Leopoldo Machado@- até 1052/1053@68908120@Rua@S@R Leopoldo Machado
+13706@AP@307@217@@Leopoldo Machado@- de 1091/1092 a 2597/2598@68900067@Rua@S@R Leopoldo Machado
+13707@AP@307@231@@Leopoldo Machado@- de 2600/2601 a 3141/3142@68901130@Rua@S@R Leopoldo Machado
+13708@AP@307@215@@Leopoldo Machado@- de 3147/3148 ao fim@68902020@Rua@S@R Leopoldo Machado
+13712@AP@307@222@@da Manoel Eudóxio Pereira@@68908111@Canal@S@Can da Manoel E Pereira
+13713@AP@307@221@@Lourival dos Santos Furtado@@68903199@Rua@S@R Lourival dos Stos Furtado
+13714@AP@307@221@@Lua@( Conj. Habitacional da Ego)@68903330@Avenida@S@Av Lua
+13716@AP@307@225@@Luís Pires da Costa@@68901695@Avenida@S@Av Luís P da Costa
+13718@AP@307@218@@Luís Alves Cunha@@68904343@Avenida@S@Av Luís A Cunha
+13719@AP@307@31040@@Luís Azarias@@68903350@Rua@S@R Luís Azarias
+13721@AP@307@230@@Luís Lino dos Santos@@68908410@Avenida@S@Av Luís L dos Santos
+13724@AP@307@217@@Machado de Assis@@68900066@Avenida@S@Av Machado de Assis
+13727@AP@307@31040@@Manoel de Souza@@68903411@Avenida@S@Av Manoel de Souza
+13728@AP@307@222@@Manoel Eudóxio Pereira@- até 779/780@68908123@Rua@S@R Manoel E Pereira
+13729@AP@307@217@@Manoel Eudóxio Pereira@- de 820/821 a 2309/2310@68900021@Rua@S@R Manoel E Pereira
+13730@AP@307@231@@Manoel Eudóxio Pereira@- de 2337/2338 a 2897/2898@68901150@Rua@S@R Manoel E Pereira
+13731@AP@307@215@@Manoel Eudóxio Pereira@- de 3190/3191 a 3798/3799@68902000@Rua@S@R Manoel E Pereira
+13732@AP@307@226@@Manoel Pacífico Cantuário@@68908275@Rua@S@R Manoel P Cantuário
+13733@AP@307@49302@@Manoel Quaresma Mendes@@68904130@Travessa@S@Tv Manoel Q Mendes
+13734@AP@307@220@@Marabaixo@@68909017@Rua@S@R Marabaixo
+13735@AP@307@226@@Maranhão@@68908240@Avenida@S@Av Maranhão
+13739@AP@307@227@@Marcílio Dias@@68905735@Passagem@S@Psg Marcílio Dias
+13740@AP@307@228@@Marco Zero@@68901490@Travessa@S@Tv Marco Zero
+13741@AP@307@220@@Maria da Silva Xavier@@68909019@Rua@S@R Maria da S Xavier
+13743@AP@307@49302@@Maria do Carmo Tavares@(Cj. cuba de Asfalto)@68904271@Rua@S@R Maria do C Tavares
+13744@AP@307@48601@@Maria Geovanete Pinheiro Borges da Silva@@68903370@Avenida@S@Av Maria G P B da Silva
+13745@AP@307@228@@Maria José Aragão de Souza@@68901440@Rua@S@R Maria J A de Souza
+13747@AP@307@221@@Maria Marola Gato@@68903200@Rua@S@R Maria M Gato
+13749@AP@307@214@@Maria Torres da Silva@@68906640@Rua@S@R Maria T da Silva
+13750@AP@307@217@@Mário Cruz@@68900740@Avenida@S@Av Mário Cruz
+13751@AP@307@223@@Mateus Azevedo Coutinho@@68908020@Avenida@S@Av Mateus A Coutinho
+13752@AP@307@226@@Mato Grosso@@68908350@Rua@S@R Mato Grosso
+13753@AP@307@227@@Terceira@@68905517@Avenida@S@Av Terceira
+13754@AP@307@49302@@Maximiniano Serra Picanço@@68904090@Avenida@S@Av Maximiniano S Picanço
+13755@AP@307@33104@@Mazagão@(Conj. Habitacional Cabralzinho)@68906841@Alameda@S@Al Mazagão
+13756@AP@307@217@@Mendonça Furtado@- até 2069/2070@68900060@Avenida@S@Av Mendonça Furtado
+13757@AP@307@229@@Mendonça Furtado@- de 2080/2081 ao fim@68901254@Avenida@S@Av Mendonça Furtado
+13758@AP@307@217@@Mendonça Júnior@- até 2309/2310@68900020@Avenida@S@Av Mendonça Júnior
+13759@AP@307@229@@Mendonça Júnior@- de 2320/2321 ao fim@68901282@Avenida@S@Av Mendonça Júnior
+13760@AP@307@49302@@Miguel Faustino Picanço@@68904040@Avenida@S@Av Miguel F Picanço
+13761@AP@307@229@@Minas Gerais@@68901342@Rua@S@R Minas Gerais
+13763@AP@307@230@@Miss Fátima Diniz@@68908573@Avenida@S@Av Miss Fátima Diniz
+13764@AP@307@227@@Moacir Braga Coutinho@@68905820@Avenida@S@Av Moacir B Coutinho
+13766@AP@307@217@@Montese@@68900031@Vila@S@Vl Montese
+13767@AP@307@228@@do Mucajá@@68901420@Canal@S@Can do Mucajá
+13768@AP@307@220@@dos Mulatos@@68909096@Travessa@S@Tv dos Mulatos
+13769@AP@307@227@@Jose Tupinamba de Almeida@- até 249/250@68905570@Avenida@S@Av Jose T de Almeida
+13770@AP@307@223@@Jose Tupinamba de Almeida@- de 251/252 a 1279/1280@68908188@Avenida@S@Av Jose T de Almeida
+13771@AP@307@221@@Netuno@(Conj. Habitacional da Ego)@68903400@Rua@S@R Netuno
+13772@AP@307@49302@@Nilo Coelho@(Cj. Cuba de Asfalto)@68904274@Rua@S@R Nilo Coelho
+13773@AP@307@220@@Nova República@@68909040@Rua@S@R Nova República
+13774@AP@307@228@@Novo Horizonte@@68901510@Rua@S@R Novo Horizonte
+13775@AP@307@223@@Odilardo Silva@- até 1027/1028@68908182@Rua@S@R Odilardo Silva
+13776@AP@307@217@@Odilardo Silva@- de 1060/1061 a 2598/2599@68900151@Rua@S@R Odilardo Silva
+13777@AP@307@231@@Odilardo Silva@- de 2600/2601 a 3352/3353@68901017@Rua@S@R Odilardo Silva
+13779@AP@307@215@@Odilardo Silva@- de 3354/3355 ao fim@68902650@Rua@S@R Odilardo Silva
+13780@AP@307@52761@@das Oliveiras@@68903121@Vila@S@Vl das Oliveiras
+13781@AP@307@228@@Oscar Santos@@68901410@Rua@S@R Oscar Santos
+13782@AP@307@218@@Padre Ângelo Biraghi@@68904384@Avenida@S@Av Pe Ângelo Biraghi
+13783@AP@307@222@@Padre José de Anchieta@@68908112@Avenida@S@Av Pe José de Anchieta
+13784@AP@307@217@@Padre Júlio Maria Lombaerd@- até 2404/2405@68900030@Avenida@S@Av Pe Júlio M Lombaerd
+13785@AP@307@229@@Padre Júlio Maria Lombaerd@- de 2410/2411 a 3629/3630@68901283@Avenida@S@Av Pe Júlio M Lombaerd
+13787@AP@307@225@@Padre Vitório Galiane@@68901600@Rua@S@R Pe Vitório Galiane
+13788@AP@307@230@@Pantaleão Gomes de Oliveira@@68908490@Avenida@S@Av Pantaleão G de Oliveira
+13789@AP@307@226@@Pará@@68908230@Avenida@S@Av Pará
+13790@AP@307@226@@Paraíba@@68908280@Avenida@S@Av Paraíba
+13791@AP@307@220@@do Paraíso@@68909010@Travessa@S@Tv do Paraíso
+13793@AP@307@221@@Pastor Deocleciano Cabralzinho de Assis@@68903189@Rua@S@R Pst Deocleciano C de Assis
+13794@AP@307@221@@Pastor Esdras Pinheiro Torres@@68903191@Travessa@S@Tv Pst Esdras P Torres
+13795@AP@307@220@@Paula Ramos da Fonseca@@68909100@Rua@S@R Paula R da Fonseca
+13797@AP@307@221@@das Pedrinhas@@68903660@Canal@S@Can das Pedrinhas
+13798@AP@307@221@@Pedro Afonso da Silveira@@68903181@Rua@S@R Pedro A da Silveira
+13799@AP@307@227@@Pedro Américo@@68905745@Passagem@S@Psg Pedro Américo
+13801@AP@307@215@@Pedro Lazarino@- de 155/156 a 873/874@68902080@Avenida@S@Av Pedro Lazarino
+13802@AP@307@216@@Pedro Lazarino@- de 875/876 ao fim@68902862@Avenida@S@Av Pedro Lazarino
+13803@AP@307@221@@Pedro Siqueira@@68903363@Rua@S@R Pedro Siqueira
+13805@AP@307@230@@Pedro Wilson de Lima@@68908500@Avenida@S@Av Pedro W de Lima
+13806@AP@307@226@@Pernambuco@@68908290@Avenida@S@Av Pernambuco
+13807@AP@307@226@@Piauí@@68908250@Avenida@S@Av Piauí
+13808@AP@307@221@@Plutão@(Conj. Habitacional da Ego)@68903420@Rua@S@R Plutão
+13809@AP@307@228@@Poços@@68901430@Rua@S@R Poços
+13810@AP@307@225@@Ponciano José Joaquim@@68901650@Avenida@S@Av Ponciano J Joaquim
+13811@AP@307@220@@dos Prazeres@@68909098@Avenida@S@Av dos Prazeres
+13812@AP@307@217@@Presidente Getúlio Vargas@- até 2299/2300@68900070@Avenida@S@Av Pres Getúlio Vargas
+13813@AP@307@229@@Presidente Getúlio Vargas@- de 2310/2311 ao fim@68901262@Avenida@S@Av Pres Getúlio Vargas
+13817@AP@307@231@@Primeiro de Maio@- até 1157/1158@68901100@Avenida@S@Av Primeiro de Maio
+13818@AP@307@216@@Primeiro de Maio@- de 1159/1160 a 2192/2193@68902891@Avenida@S@Av Primeiro de Maio
+13819@AP@307@222@@Princesa Isabel@@68908113@Avenida@S@Av Prca Isabel
+13820@AP@307@48601@@Professor Caramuru@@68903430@Avenida@S@Av Prf Caramuru
+13821@AP@307@222@@Professor Tostes@- até 751/752@68908118@Rua@S@R Prf Tostes
+13822@AP@307@217@@Professor Tostes@- de 780/781 a 2239/2240@68900022@Rua@S@R Prf Tostes
+13823@AP@307@224@@Professor Tostes@- de 3721/3722 ao fim@68902210@Rua@S@R Prf Tostes
+13824@AP@307@217@@Pedro Dantas@@68900016@Passagem@S@Psg Pedro Dantas
+13825@AP@307@217@@Professora Cora de Carvalho@- até 2399/2400@68900040@Avenida@S@Av Prfa Cora de Carvalho
+13826@AP@307@229@@Professora Cora de Carvalho@- de 2410/2411 a 3698/3699@68901335@Avenida@S@Av Prfa Cora de Carvalho
+13830@AP@307@49302@@Quatorze de Julho@(Conj. Hab. Laurindo Banha)@68904730@Avenida@S@Av Quatorze de Julho
+13835@AP@307@227@@Quintino Justo de Almeida@@68905629@Rua@S@R Quintino J de Almeida
+13836@AP@307@49302@@Quinze de Julho@(Conj. Hab. Laurindo Banha)@68904720@Avenida@S@Av Quinze de Julho
+13837@AP@307@220@@da Raça Negra@@68909091@Travessa@S@Tv da Raça Negra
+13838@AP@307@49302@@Raimundo Antônio Machado@@68904043@Avenida@S@Av Raimundo A Machado
+13839@AP@307@214@@Raimundo Banha Corrêa@@68906660@Rua@S@R Raimundo B Corrêa
+13840@AP@307@220@@Raimundo Castro Pontes@@68909090@Rua@S@R Raimundo C Pontes
+13841@AP@307@218@@Raimundo Caxias de Souza@@68904385@Avenida@S@Av Raimundo C de Souza
+13845@AP@307@225@@Raimundo Pequilo Gomes de Almeida@@68901610@Avenida@S@Av Raimundo P G de Almeida
+13846@AP@307@48601@@Raimundo Perais Nunes de Ataíde@@68903440@Avenida@S@Av Raimundo P N de Ataíde
+13847@AP@307@221@@Raimundo Pereira Trindade@@68903186@Rua@S@R Raimundo P Trindade
+13849@AP@307@230@@Raimundo R. Guedes Figueira@@68908580@Avenida@S@Av Raimundo R G Figueira
+13854@AP@307@49302@@Raul Monteiro Valdez@@68904010@Rua@S@R Raul M Valdez
+13855@AP@307@49302@@Reinaldo Damasceno@@68904050@Avenida@S@Av Reinaldo Damasceno
+13856@AP@307@217@@Rio Branco@@68900760@Passagem@S@Psg Rio Branco
+13857@AP@307@228@@Rio Gorijuba@@68901370@Rua@S@R Rio Gorijuba
+13858@AP@307@226@@Rio Grande do Norte@@68908270@Avenida@S@Av Rio G do Norte
+13859@AP@307@226@@Rio Grande do Norte@@68908271@Passagem@S@Psg Rio G do Norte
+13860@AP@307@229@@Rio Grande do Sul@@68901263@Rua@S@R Rio G do Sul
+13861@AP@307@227@@Rio Jari@@68905631@Rua@S@R Rio Jari
+13862@AP@307@227@@Rio Javari@@68905550@Rua@S@R Rio Javari
+13863@AP@307@227@@Rio Madeira@@68905640@Rua@S@R Rio Madeira
+13864@AP@307@227@@Rio Purus@@68905520@Rua@S@R Rio Purus
+13866@AP@307@227@@Rio Xingu@@68905560@Rua@S@R Rio Xingu
+13867@AP@307@229@@Roberto Ferreira da Silva@@68901340@Rua@S@R Roberto F da Silva
+13868@AP@307@229@@Roque de Souza Penafort@@68901290@Avenida@S@Av Roque de S Penafort
+13869@AP@307@227@@Raul Clemente Paulo Collins@@68905626@Rua@S@R Raul C P Collins
+13870@AP@307@221@@Samuel Trajano de Souza@@68903190@Rua@S@R Samuel T de Souza
+13871@AP@307@220@@Sandoval Almeida Sandin@@68909099@Avenida@S@Av Sandoval A Sandin
+13872@AP@307@229@@Santa Catarina@@68901261@Rua@S@R Sta Catarina
+13873@AP@307@227@@Santa Fé@@68905621@Passagem@S@Psg Sta Fé
+13874@AP@307@229@@Santos Dumont@- até 2258/2259@68901270@Rua@S@R Stos Dumont
+13875@AP@307@224@@Santos Dumont@- de 3432/3433 ao fim@68902230@Rua@S@R Stos Dumont
+13876@AP@307@216@@Santos Dumont@- de 2260/2261 a 3430/3431@68902880@Rua@S@R Stos Dumont
+13877@AP@307@214@@São Francisco@@68906630@Travessa@S@Tv S Francisco
+13880@AP@307@226@@São José@@68908272@Rua@S@R S José
+13881@AP@307@223@@São José@- até 1239/1240@68908015@Rua@S@R S José
+13882@AP@307@217@@São José@- de 1241/1242 ao fim@68900110@Rua@S@R S José
+13883@AP@307@226@@São Paulo@@68908370@Rua@S@R S Paulo
+13884@AP@307@49302@@Sarah Roffe Zagury@(Cuba de Asfalto)@68904273@Rua@S@R Sarah R Zagury
+13885@AP@307@221@@Saturno@(Conj. Habitacional da Ego)@68903450@Rua@S@R Saturno
+13886@AP@307@49302@@Saúde Pimentel Canto@@68904033@Avenida@S@Av Saúde P Canto
+13887@AP@307@220@@Sebastião Queiroz Alcântara@@68909092@Avenida@S@Av Sebastião Q Alcântara
+13888@AP@307@225@@Secundino Campos@@68901750@Rua@S@R Secundino Campos
+13889@AP@307@227@@Segunda@@68905516@Travessa@S@Tv Segunda
+13892@AP@307@228@@Seis de Setembro@- de 250/251 ao fim@68901520@Avenida@S@Av Seis de Setembro
+13893@AP@307@226@@Sergipe@@68908310@Avenida@S@Av Sergipe
+13894@AP@307@49302@@Primeiro de Setembro@@68904740@Avenida@S@Av Primeiro de Setembro
+13895@AP@307@220@@do Setentrião@@68909020@Travessa@S@Tv do Setentrião
+13897@AP@307@221@@Sol@(Conj. Habitacional da Ego)@68903460@Rua@S@R Sol
+13898@AP@307@214@@Soldado Deondino dos Santos Coelho@@68906634@Travessa@S@Tv Sd Deondino dos Stos Coelho
+13899@AP@307@215@@dos Tembés@- até 249/250@68902200@Avenida@S@Av dos Tembés
+13900@AP@307@224@@dos Tembés@- de 251/252 ao fim@68902347@Avenida@S@Av dos Tembés
+13901@AP@307@230@@Tancredo Neves@@68908530@Rua@S@R Tancredo Neves
+13902@AP@307@218@@Telemaco Mira Martins@@68904365@Avenida@S@Av Telemaco M Martins
+13907@AP@307@221@@Terra@(Conj. Habitacional da Ego)@68903470@Rua@S@R Terra
+13908@AP@307@225@@Tia Anita@@68901640@Avenida@S@Av Tia Anita
+13909@AP@307@49302@@Tiago Flexa da Costa@@68904260@Rua@S@R Tiago F da Costa
+13910@AP@307@215@@dos Timbiras@- até 477/478@68902170@Avenida@S@Av dos Timbiras
+13911@AP@307@216@@dos Timbiras@- de 479/480 ao fim@68902872@Avenida@S@Av dos Timbiras
+13912@AP@307@214@@Três@@68906800@Rua@S@R Três
+13917@AP@307@49302@@Treze de Setembro@- de 2221/2222 ao fim@68904813@Avenida@S@Av Treze de Setembro
+13918@AP@307@231@@Treze de Setembro@- até 1038/1039@68901112@Avenida@S@Av Treze de Setembro
+13919@AP@307@216@@Treze de Setembro@- de 1050/1051 a 2210/2211@68902865@Avenida@S@Av Treze de Setembro
+13921@AP@307@49302@@Trinta e Um de Julho@(Conj. Hab. Laurindo Banha)@68904405@Travessa@S@Tv Trinta E U de Julho
+13922@AP@307@215@@dos Tupis@- até 430/431@68902190@Avenida@S@Av dos Tupis
+13923@AP@307@224@@dos Tupis@- de 432/433 ao fim@68902346@Avenida@S@Av dos Tupis
+13924@AP@307@227@@Canal do Perpéto Socorro@@68905514@Rua@S@R Canal do P Socorro
+13925@AP@307@33104@@Um@@68906810@Rua@S@R Um
+13926@AP@307@226@@Primeira da Rodovia do Pacoval@@68908277@Travessa@S@Tv Primeira da R do Pacoval
+13929@AP@307@221@@Urano@(Conj. Habitacional da Ego)@68903480@Rua@S@R Urano
+13930@AP@307@220@@Veiga Cabral@@68909093@Avenida@S@Av Veiga Cabral
+13931@AP@307@217@@Veiga Cabral@@68900810@Praça@S@Pç Veiga Cabral
+13933@AP@307@49302@@Vinte de Julho@(Conj. Hab. Laurindo Banha)@68904715@Avenida@S@Av Vinte de Julho
+13934@AP@307@49302@@Vinte e Cinco de Julho@(Conj. Hab. Laurindo Banha)@68904640@Avenida@S@Av Vinte E C de Julho
+13935@AP@307@49302@@Vinte e Dois de Julho@(Conj. Hab. Laurindo Banha)@68904670@Avenida@S@Av Vinte E D de Julho
+13936@AP@307@49302@@Vinte e Nove de Julho@(Conj. Hab. Laurindo Banha)@68904600@Avenida@S@Av Vinte E N de Julho
+13937@AP@307@49302@@Vinte e Oito de Julho@(Conj. Hab. Laurindo Banha)@68904325@Avenida@S@Av Vinte E O de Julho
+13938@AP@307@49302@@Vinte e Quatro de Julho@(Conj. Hab. Laurindo Banha)@68904650@Avenida@S@Av Vinte E Q de Julho
+13939@AP@307@49302@@Vinte e Seis de Julho@(Conj. Hab. Laurindo Banha)@68904630@Avenida@S@Av Vinte E S de Julho
+13940@AP@307@49302@@Vinte e Sete de Julho@(Conj. Hab. Laurindo Banha)@68904590@Avenida@S@
+13941@AP@307@49302@@Vinte e Três de Julho@(Conj. Hab. Laurindo Banha)@68904660@Avenida@S@Av Vinte E T de Julho
+13942@AP@307@49302@@Violeta Mont'Alverne Moreira@@68904044@Avenida@S@Av Violeta M Moreira
+13944@AP@307@221@@Waldomiro Demóstenes Ribeiro@@68903187@Rua@S@R Waldomiro D Ribeiro
+13945@AP@307@48601@@Walter Jucá@@68903740@Avenida@S@Av Walter Jucá
+13947@AP@307@215@@dos Xavantes@- até 629/630@68902110@Avenida@S@Av dos Xavantes
+13948@AP@307@216@@dos Xavantes@- de 631/632 ao fim@68902864@Avenida@S@Av dos Xavantes
+13949@AP@307@220@@Zarah Valente Gentil@@68909022@Avenida@S@Av Zarah V Gentil
+13951@AP@307@227@@Amélia Dias Santos@@68905800@Avenida@S@Av Amélia D Santos
+13952@AP@307@218@@Augusto Santos@@68904379@Avenida@S@Av Augusto Santos
+13954@AP@307@49302@@José Gonçalves Picanço@@68904080@Avenida@S@Av José G Picanço
+13955@AP@307@217@@Raimundo Álvares da Costa@- até 2250/2251@68900074@Avenida@S@Av Raimundo A da Costa
+13957@AP@307@229@@Raimundo Álvares da Costa@- de 2261/2262 ao fim@68901256@Avenida@S@Av Raimundo A da Costa
+13958@AP@307@227@@Rio Japurá@@68905540@Rua@S@R Rio Japurá
+13959@AP@307@223@@Santa Luzia@@68908192@Passagem@S@Psg Sta Luzia
+13960@AP@307@214@@de Duca Serra@- até km 0,003@68906698@Rodovia@S@Rod de Duca Serra
+13961@AP@307@221@@Lucimar Amora Delcastilo@@68903366@Rua@S@R Lucimar A Delcastilo
+13962@AP@307@214@@Sebastião Canúto@@68906670@Rua@S@R Sebastião Canúto
+13963@AP@307@226@@Alagoas@@68908300@Avenida@S@Av Alagoas
+13965@AP@307@230@@Emílio Médici@@68908576@Rua@S@R Emílio Médici
+13966@AP@307@218@@Edite Penafort@@68904374@Avenida@S@Av Edite Penafort
+13967@AP@307@49302@@Fortunato Peres@@68904160@Travessa@S@Tv Fortunato Peres
+13968@AP@307@31040@@Francisco Matos@@68903280@Avenida@S@Av Francisco Matos
+13969@AP@307@230@@João Falconery de Sena@@68908400@Avenida@S@Av João F de Sena
+13970@AP@307@230@@José Ferreira do Amaral@@68908420@Avenida@S@Av José F do Amaral
+13971@AP@307@230@@José Lino Ramos@@68908460@Avenida@S@Av José L Ramos
+13972@AP@307@48601@@Maria Lúcia Brasão@@68903390@Avenida@S@Av Maria L Brasão
+13973@AP@307@225@@Mateus Valente do Couto@@68901720@Rua@S@R Mateus V do Couto
+13974@AP@307@214@@Padre Luis David@@68906650@Rua@S@R Pe Luis David
+13975@AP@307@223@@Pedro Américo@- até 813/814@68908199@Avenida@S@Av Pedro Américo
+13979@AP@307@227@@Rio Negro@@68905530@Rua@S@R Rio Negro
+13981@AP@307@221@@Stephan Houat@@68903193@Avenida@S@Av Stephan Houat
+13982@AP@307@215@@dos Tupiniquins@- até 487/488@68902120@Avenida@S@Av dos Tupiniquins
+13983@AP@307@216@@dos Tupiniquins@- de 489/490 ao fim@68902866@Avenida@S@Av dos Tupiniquins
+13984@AP@307@49302@@Vinte e Um de Julho@(Conj. Hab. Laurindo Banha)@68904680@Avenida@S@Av Vinte E U de Julho
+13985@AP@307@217@@da Bandeira@@68900102@Praça@S@Pç da Bandeira
+13986@AP@307@215@@dos Goitacazes@- até 478/479@68902150@Avenida@S@Av dos Goitacazes
+13987@AP@307@216@@dos Goitacazes@- de 480/481 ao fim@68902869@Avenida@S@Av dos Goitacazes
+13988@AP@307@31027@@Josefa Pelaes da Silva@@68905320@Rua@S@R Josefa P da Silva
+13991@AP@307@225@@Natanair Monteiro da Piedade@- até 699/700@68901860@Avenida@S@Av Natanair M da Piedade
+13994@AP@307@218@@Vigésima Quarta@@68904331@Avenida@S@Av Vigésima Quarta
+13995@AP@307@220@@Antônio Osmar@@68909070@Rua@S@R Antônio Osmar
+13996@AP@307@218@@Cabo Velho@@68904370@Avenida@S@Av Cb Velho
+13997@AP@307@226@@Ceará@@68908260@Avenida@S@Av Ceará
+13998@AP@307@220@@Vereador Julio Maria Pinto Pereira@@68909000@Rua@S@R Ver Julio M P Pereira
+14000@AP@307@229@@José Gomes Bezerra@@68901320@Avenida@S@Av José G Bezerra
+14001@AP@307@48601@@Mario Fortunato Barriga@@68903380@Avenida@S@Av Mario F Barriga
+14002@AP@307@227@@Oscar Santos@@68905624@Rua@S@R Oscar Santos
+14003@AP@307@228@@Rio Araguari@@68901390@Rua@S@R Rio Araguari
+14007@AP@307@30917@@Tribunícia@@68907280@Rua@S@R Tribunícia
+14008@AP@307@30917@@Cartagenezes@@68907270@Avenida@S@Av Cartagenezes
+14009@AP@307@30917@@Centurião@@68907290@Rua@S@R Centurião
+14010@AP@307@30917@@Tucidetes@@68907300@Rua@S@R Tucidetes
+14011@AP@307@30917@@das Elites@@68907310@Avenida@S@Av das Elites
+14012@AP@307@30917@@Socialismo@@68907320@Rua@S@R Socialismo
+14013@AP@307@30917@@Italiota@@68907330@Rua@S@R Italiota
+14014@AP@307@30917@@Grécia@@68907340@Rua@S@R Grécia
+14015@AP@307@30917@@Egito@@68907350@Avenida@S@Av Egito
+14016@AP@307@30917@@Mesopotâmia@@68907360@Rua@S@R Mesopotâmia
+14017@AP@307@30917@@Pereânio@@68907370@Alameda@S@Al Pereânio
+14018@AP@307@30917@@Poloneso@@68907380@Alameda@S@Al Poloneso
+14019@AP@307@30917@@Roma@@68907390@Rua@S@R Roma
+14020@AP@307@30917@@Tróia@@68907400@Alameda@S@Al Tróia
+14021@AP@307@30917@@Corito@@68907410@Alameda@S@Al Corito
+14022@AP@307@30917@@Bizâncio@@68907420@Rua@S@R Bizâncio
+14023@AP@307@30917@@Micenas@@68907430@Alameda@S@Al Micenas
+14024@AP@307@33104@@Oiapoque@(Conj. Habitacional Cabralzinho)@68906848@Alameda@S@Al Oiapoque
+14025@AP@307@221@@Airton Senna@@68903035@Avenida@S@Av Airton Senna
+14027@AP@307@230@@Porcina de Melo@(Cj Infraero)@68908405@Travessa@S@Tv Porcina de Melo
+14028@AP@307@30917@@Creta@@68907010@Rua@S@R Creta
+14029@AP@307@31019@@Alceu Paulo Ramos@@68909800@Rua@S@R Alceu P Ramos
+14030@AP@307@31019@@Antônio Flexa da Costa@@68909810@Rua@S@R Antônio F da Costa
+14031@AP@307@31019@@Antônio Picanço e Silva@@68909820@Avenida@S@Av Antônio P E Silva
+14033@AP@307@31027@@Raimundo de Souza Mesquita@@68905010@Avenida@S@Av Raimundo de S Mesquita
+14034@AP@307@31027@@Nossa Senhora do Carmo@@68905020@Avenida@S@Av N Sra do Carmo
+14035@AP@307@52626@@Doutor André Luís@(Lot Infraero I)@68908850@Travessa@S@Tv Dr André Luís
+14036@AP@307@30917@@Itália@@68907020@Alameda@S@Al Itália
+14037@AP@307@31040@@Antônio Castro Monteiro@@68903750@Avenida@S@Av Antônio C Monteiro
+14038@AP@307@52626@@Porto Alegre@(Lot. Infraero II)@68908005@Rua@S@R Porto Alegre
+14039@AP@307@52626@@Cid Borges de Santana@(Lot. Infraero II)@68908006@Avenida@S@Av Cid B de Santana
+14040@AP@307@48601@@Tenente Amaral@@68903770@Avenida@S@Av Ten Amaral
+14041@AP@307@48601@@Wilson Carvalho@@68903025@Avenida@S@Av Wilson Carvalho
+14042@AP@307@217@@Raimundo Ozanan@@68900065@Rua@S@R Raimundo Ozanan
+14043@AP@307@220@@Amilar Brenha@@68909005@Rua@S@R Amilar Brenha
+14044@AP@307@227@@Nossa Senhora da Conceição@@68905511@Avenida@S@Av N Sra da Conceição
+14045@AP@307@227@@Santa Teresinha@@68905623@Avenida@S@Av Sta Teresinha
+14046@AP@307@227@@Nossa Senhora de Fátima@@68905512@Avenida@S@Av N Sra de Fátima
+14047@AP@307@227@@Nossa Senhora do Perpétuo Socorro@@68905513@Avenida@S@Av N Sra do Perpétuo Socorro
+14048@AP@307@227@@Maestro Miguel@@68905860@Passagem@S@Psg Mto Miguel
+14049@AP@307@230@@José Viana@@68908574@Alameda@S@Al José Viana
+14050@AP@307@31027@@Nossa Senhora das Graças@@68905030@Avenida@S@Av N Sra das Graças
+14051@AP@307@31027@@Nossa Senhora de Nazaré@@68905040@Rua@S@R N Sra de Nazaré
+14052@AP@307@31027@@Manoel Domingos Medina@@68905050@Avenida@S@Av Manoel D Medina
+14053@AP@307@31027@@Nossa Senhora Aparecida@@68905060@Avenida@S@Av N Sra Aparecida
+14054@AP@307@31027@@Juarez Boas Novas@@68905070@Avenida@S@Av Juarez B Novas
+14055@AP@307@31027@@Manoel Cardoso@@68905080@Avenida@S@Av Manoel Cardoso
+14056@AP@307@31027@@Dezenove de Março@@68905090@Avenida@S@Av Dezenove de Março
+14057@AP@307@31027@@Oito de Dezembro@@68905100@Avenida@S@Av Oito de Dezembro
+14058@AP@307@31027@@Quinze de Novembro@@68905110@Avenida@S@Av Quinze de Novembro
+14059@AP@307@31027@@Ariosvaldo Coelho Caxias@@68905120@Rua@S@R Ariosvaldo C Caxias
+14060@AP@307@31027@@Rosa dos Ventos@@68905130@Passagem@S@Psg Rosa dos Ventos
+14061@AP@307@31027@@Orquídeas@@68905140@Passagem@S@Psg Orquídeas
+14062@AP@307@31027@@Flor de Lis@@68905150@Passagem@S@Psg Flor de Lis
+14063@AP@307@31027@@Jasmim@@68905160@Passagem@S@Psg Jasmim
+14064@AP@307@31027@@Santa Maria@@68905170@Rua@S@R Sta Maria
+14065@AP@307@31027@@São Benedito@@68905180@Passagem@S@Psg S Benedito
+14066@AP@307@31027@@São Braz@@68905190@Rua@S@R S Braz
+14067@AP@307@31027@@Santa Cruz@@68905200@Rua@S@R Sta Cruz
+14068@AP@307@30917@@Liberdade@@68907030@Rua@S@R Liberdade
+14069@AP@307@30917@@Pitágoras@@68907040@Avenida@S@Av Pitágoras
+14070@AP@307@30917@@Heródoto@@68907050@Avenida@S@Av Heródoto
+14071@AP@307@30917@@Solidários@@68907060@Avenida@S@Av Solidários
+14072@AP@307@30917@@Fraternidade@@68907070@Avenida@S@Av Fraternidade
+14073@AP@307@30917@@Igualdade@@68907080@Avenida@S@Av Igualdade
+14074@AP@307@30917@@Polis@@68907090@Avenida@S@Av Polis
+14075@AP@307@30917@@Lacônia@@68907100@Avenida@S@Av Lacônia
+14076@AP@307@30917@@Gerusa@@68907110@Avenida@S@Av Gerusa
+14077@AP@307@30917@@Esperimentos@@68907120@Rua@S@R Esperimentos
+14078@AP@307@30917@@Classicismo@@68907130@Avenida@S@Av Classicismo
+14079@AP@307@30917@@Platão@@68907140@Rua@S@R Platão
+14080@AP@307@30917@@Aristóteles@@68907150@Rua@S@R Aristóteles
+14081@AP@307@30917@@Michelângelo@@68907160@Rua@S@R Michelângelo
+14082@AP@307@30917@@Balcans@@68907170@Avenida@S@Av Balcans
+14083@AP@307@30917@@Alexandra Lemos@@68907180@Avenida@S@Av Alexandra Lemos
+14084@AP@307@30917@@Racionalismo@@68907190@Rua@S@R Racionalismo
+14085@AP@307@30917@@Antropocentrismo@@68907200@Rua@S@R Antropocentrismo
+14086@AP@307@30917@@Metecos@@68907210@Avenida@S@Av Metecos
+14087@AP@307@30917@@Mar Tireno@@68907220@Rua@S@R Mar Tireno
+14088@AP@307@30917@@Maiêutica@@68907230@Rua@S@R Maiêutica
+14089@AP@307@30917@@Edi@@68907240@Rua@S@R Edi
+14090@AP@307@30917@@Iluminismo@@68907250@Rua@S@R Iluminismo
+14091@AP@307@30917@@Pretores@@68907260@Rua@S@R Pretores
+14092@AP@307@30917@@Constantinoplas@@68907440@Rua@S@R Constantinoplas
+14093@AP@307@30917@@Ravena@@68907450@Avenida@S@Av Ravena
+14094@AP@307@30917@@Esparta@@68907460@Avenida@S@Av Esparta
+14095@AP@307@30917@@Humanismo@@68907470@Alameda@S@Al Humanismo
+14096@AP@307@30917@@Mar Vermelho@@68907480@Avenida@S@Av Mar Vermelho
+14097@AP@307@30917@@Oséas de Oliveira Pimentel@@68907490@Rua@S@R Oséas de O Pimentel
+14098@AP@307@30917@@Constelação de Dellos@@68907500@Rua@S@R Constelação de Dellos
+14099@AP@307@30917@@das Classes@@68907510@Rua@S@R das Classes
+14100@AP@307@30917@@Espólio@@68907520@Rua@S@R Espólio
+14101@AP@307@30917@@Mar Egeu@@68907530@Avenida@S@Av Mar Egeu
+14102@AP@307@30917@@Monalisa@@68907540@Alameda@S@Al Monalisa
+14103@AP@307@30917@@Rafael Sânsio@@68907550@Avenida@S@Av Rafael Sânsio
+14104@AP@307@30917@@Leonardo Da Vinci@@68907560@Avenida@S@Av Leonardo D Vinci
+14105@AP@307@30917@@Macedônia@@68907570@Avenida@S@Av Macedônia
+14106@AP@307@30917@@Pérsia@@68907580@Avenida@S@Av Pérsia
+14107@AP@307@30917@@Licínias@@68907590@Rua@S@R Licínias
+14108@AP@307@30917@@Eupátridas@@68907600@Travessa@S@Tv Eupátridas
+14109@AP@307@30917@@Elitismo@@68907610@Travessa@S@Tv Elitismo
+14110@AP@307@33114@@Primeira@@68909840@Rua@S@R Primeira
+14111@AP@307@33114@@Segunda@@68909850@Rua@S@R Segunda
+14113@AP@307@33114@@Quarta@@68909870@Rua@S@R Quarta
+14114@AP@307@33114@@Quinta@@68909880@Rua@S@R Quinta
+14115@AP@307@33114@@Sexta@@68909890@Rua@S@R Sexta
+14116@AP@307@33114@@Sétima@@68909845@Rua@S@R Sétima
+14117@AP@307@33114@@Oitava@@68909855@Rua@S@R Oitava
+14118@AP@307@33114@@Primeira@@68909865@Avenida@S@Av Primeira
+14119@AP@307@33114@@Segunda@@68909875@Avenida@S@Av Segunda
+14120@AP@307@33114@@Terceira@@68909885@Avenida@S@Av Terceira
+14121@AP@307@33114@@Quarta@@68909895@Avenida@S@Av Quarta
+14122@AP@307@33114@@Quinta@@68909841@Avenida@S@Av Quinta
+14123@AP@307@33114@@Sexta@@68909842@Avenida@S@Av Sexta
+14124@AP@307@33114@@Sétima@@68909843@Avenida@S@Av Sétima
+14125@AP@307@33114@@Oitava@@68909844@Avenida@S@Av Oitava
+14126@AP@307@33114@@Nona@(Conj.Marabaixo I I)@68909846@Avenida@S@Av Nona
+14127@AP@307@33114@@Décima@@68909847@Avenida@S@Av Décima
+14128@AP@307@33114@@Décima Primeira@@68909848@Avenida@S@Av Décima Primeira
+14129@AP@307@33114@@Décima Segunda@@68909849@Avenida@S@Av Décima Segunda
+14130@AP@307@33114@@Décima Terceira@@68909851@Avenida@S@Av Décima Terceira
+14131@AP@307@33114@@Décima Quarta@@68909852@Avenida@S@Av Décima Quarta
+14132@AP@307@33114@@Décima Quinta@@68909853@Avenida@S@Av Décima Quinta
+14133@AP@307@33114@@Décima Sexta@@68909854@Avenida@S@Av Décima Sexta
+14134@AP@307@33114@@Décima Sétima@@68909856@Avenida@S@Av Décima Sétima
+14135@AP@307@33114@@Décima Oitava@@68909857@Avenida@S@Av Décima Oitava
+14136@AP@307@33114@@Décima Nona@@68909858@Avenida@S@Av Décima Nona
+14137@AP@307@33114@@Décima@@68909859@Rua@S@R Décima
+14138@AP@307@52626@@Tony Tavares@(Lot. Infraero I)@68908860@Rua@S@R Tony Tavares
+14139@AP@307@52626@@Pedro Peticov@(Lot. Infraero I)@68908870@Rua@S@R Pedro Peticov
+14140@AP@307@52626@@Maria Neuza do Carmo@(Lot. Infraero I)@68908880@Rua@S@R Maria N do Carmo
+14141@AP@307@52626@@Jorge Basile@(Lot. infraero I)@68908890@Passagem@S@Psg Jorge Basile
+14142@AP@307@52626@@Hércules@(Lot. Infraero I)@68908855@Passagem@S@Psg Hércules
+14143@AP@307@52626@@Catalina@(Lot. Infraero I)@68908865@Passagem@S@Psg Catalina
+14144@AP@307@52626@@Douglas@(Lot. Infraero I)@68908875@Passagem@S@Psg Douglas
+14145@AP@307@52626@@dos Bandeirantes@(Lot. Infraero I)@68908885@Passagem@S@Psg dos Bandeirantes
+14146@AP@307@52626@@Joaquim Valente@(Lot. Infraero I)@68908895@Passagem@S@Psg Joaquim Valente
+14147@AP@307@52626@@Rio Amazonas@(Lot. Infraero I)@68908851@Rua@S@R Rio Amazonas
+14148@AP@307@52626@@Maria Pereira Cardoso@(Lot.Infraero I)@68908852@Avenida@S@Av Maria P Cardoso
+14149@AP@307@52626@@Tucano@(Lot Infraero I)@68908853@Passagem@S@Psg Tucano
+14150@AP@307@52626@@Búfalo@(Lot.Infraero I)@68908854@Passagem@S@Psg Búfalo
+14151@AP@307@52626@@Quatorze Bis@(Lot. Infraero I)@68908857@Passagem@S@Psg Quatorze Bis
+14152@AP@307@52626@@José Ferreira da Paz@(Lot. Infraero I)@68908858@Passagem@S@Psg José F da Paz
+14153@AP@307@52626@@Pedro Furtado@(Lot. Infraero I)@68908859@Passagem@S@Psg Pedro Furtado
+14154@AP@307@52626@@Josefa Banha@(Lot. Infraero I)@68908861@Passagem@S@Psg Josefa Banha
+14155@AP@307@52626@@Jonatha Bezerra@(Lot. Infraero I)@68908862@Passagem@S@Psg Jonatha Bezerra
+14156@AP@307@52626@@José Barbosa@(Lot. Infraero I)@68908863@Passagem@S@Psg José Barbosa
+14157@AP@307@52626@@Adolfo de Menezes@(Lot Infraero I)@68908864@Avenida@S@Av Adolfo de Menezes
+14158@AP@307@52626@@André Luís@(Lot Infraero I)@68908867@Avenida@S@Av André Luís
+14159@AP@307@52626@@Albatroz@(Lot Infraero I)@68908868@Passagem@S@Psg Albatroz
+14160@AP@307@52626@@Emílio Médici@(Lot. Infraero I)@68908869@Rua@S@R Emílio Médici
+14161@AP@307@52626@@Ananindeua@(Lot Infraero II)@68908007@Rua@S@R Ananindeua
+14162@AP@307@52626@@Boa Vista@(Lot. Infraero II)@68908008@Rua@S@R Boa Vista
+14163@AP@307@52626@@Belém@(lot. Infraero II)@68908009@Rua@S@R Belém
+14164@AP@307@52626@@Campo Grande@(Lot. Infraero II)@68908031@Rua@S@R Campo Grande
+14165@AP@307@52626@@Porto Velho@(Lot. Infraero II)@68908032@Rua@S@R Porto Velho
+14166@AP@307@52626@@Palmas@(Lot. Infraero II)@68908033@Rua@S@R Palmas
+14167@AP@307@52626@@Manaus@(Lot. Infraero II)@68908034@Rua@S@R Manaus
+14168@AP@307@52626@@Aracaju@(Lot Infraero II)@68908036@Rua@S@R Aracaju
+14169@AP@307@52626@@Imperatriz@(Lot. Infraero II)@68908037@Rua@S@R Imperatriz
+14170@AP@307@52626@@Tucuruí@(Lot. Infraero II)@68908038@Rua@S@R Tucuruí
+14171@AP@307@52626@@Rondônia@(Lot. Infraero II)@68908039@Rua@S@R Rondônia
+14172@AP@307@52626@@Caxias do Sul@(Lot. Infraero II)@68908041@Rua@S@R Caxias do Sul
+14174@AP@307@52626@@Niterói@(Lot. Infraero II)@68908044@Rua@S@R Niterói
+14175@AP@307@52626@@Maceió@(Lot. Infraero II)@68908046@Rua@S@R Maceió
+14176@AP@307@52626@@Londrina@(Lot. Infraero II)@68908047@Rua@S@R Londrina
+14177@AP@307@52626@@Rio Branco@(Lot. Infraero II)@68908048@Rua@S@R Rio Branco
+14178@AP@307@52626@@Ouro Preto@(LOt. Infraero II)@68908049@Rua@S@R Ouro Preto
+14179@AP@307@52626@@Roraima@(Lot. Infraero II)@68908051@Rua@S@R Roraima
+14180@AP@307@52626@@Petrolina@(Lot. Infraero II)@68908052@Rua@S@R Petrolina
+14181@AP@307@52626@@Olinda@(Lot. Infraero II)@68908053@Rua@S@R Olinda
+14182@AP@307@52626@@Monte Alegre@(Lot. Infraero II)@68908054@Rua@S@R Monte Alegre
+14185@AP@307@52626@@Tocantins@(Lot. Infraero II)@68908058@Rua@S@R Tocantins
+14189@AP@307@52626@@Santa Maria@(Lot.Infraero II)@68908073@Passagem@S@Psg Sta Maria
+14190@AP@307@52626@@Carlos Lins Cortês@(Lot.Infraero II)@68908074@Avenida@S@Av Carlos L Cortês
+14191@AP@307@31019@@João de Deus@@68909805@Rua@S@R João de Deus
+14192@AP@307@214@@Tawarys@(Cj Buriti)@68906633@Rua@S@R Tawarys
+14193@AP@307@214@@Segunda@(Cj Buriti)@68906632@Rua@S@
+14194@AP@307@214@@Terceira@(Cj Buriti)@68906631@Rua@S@
+14195@AP@307@33104@@Maracá@(Conj. Habitacional Cabrazinho)@68906840@Alameda@S@Al Maracá
+14196@AP@307@33104@@Eli Rodrigues@(Res Cajary)@68906850@Rua@S@R Eli Rodrigues
+14197@AP@307@33104@@Leonor Rodrigues@(Res Cajary)@68906860@Rua@S@R Leonor Rodrigues
+14198@AP@307@33104@@Primeira@(Resd. Lagoa)@68906870@Avenida@S@
+14199@AP@307@33104@@Segunda@(Resd. Lagoa)@68906880@Avenida@S@
+14200@AP@307@33104@@Terceira@(Resd. Lagoa)@68906890@Avenida@S@
+14201@AP@307@33104@@Quarta@(Lot. Parque Irmãos platon)@68906855@Avenida@S@
+14202@AP@307@33104@@Quinta@(Resd. Lagoa)@68906865@Avenida@S@
+14203@AP@307@33104@@Sexta@(ResD. Lagoa)@68906875@Alameda@S@Al Sexta
+14204@AP@307@33104@@Sétima@(Resd. Lagoa)@68906885@Avenida@S@Av Sétima
+14205@AP@307@33104@@Primeira@@68906895@Avenida@S@
+14206@AP@307@33104@@Segunda@(Lot. Parque Irmãos Platon)@68906851@Avenida@S@
+14207@AP@307@33104@@Terceira@(Lot. Parque Irmãos Platon)@68906852@Avenida@S@
+14208@AP@307@33104@@Quarta@(Lot. Parque Irmão Platon)@68906853@Avenida@S@
+14209@AP@307@33104@@Primeira@(Lot. Parque Irmãos Platon)@68906854@Avenida@S@Av Primeira
+14210@AP@307@33104@@Vitoria Regia@(Lot.Goiabal)@68906856@Avenida@S@Av Vitoria Regia
+14211@AP@307@33104@@Terceira@(Lot. Goiabal)@68906857@Avenida@S@Av Terceira
+14212@AP@307@33104@@Quarta@(Lot.Goiabal)@68906858@Avenida@S@Av Quarta
+14213@AP@307@33104@@Quinta@(Lot.Goiabal)@68906859@Avenida@S@Av Quinta
+14214@AP@307@33104@@Sexta@(Resd. Lagoa)@68906861@Avenida@S@Av Sexta
+14215@AP@307@33120@@Paulo Sérgio@(Lot. Sol Nascente)@68909131@Avenida@S@Av Paulo Sérgio
+14216@AP@307@33120@@Gonzaguinha@(Lot. Sol Nascente)@68909132@Avenida@S@Av Gonzaguinha
+14217@AP@307@33120@@João Nogueira@(Lot. Sol Nascente)@68909133@Avenida@S@Av João Nogueira
+14218@AP@307@33120@@Orlando Silva@(Lot. Sol Nascente)@68909134@Avenida@S@Av Orlando Silva
+14219@AP@307@33120@@Machado de Assis@(Lot. Sol Nascente)@68909135@Avenida@S@Av Machado de Assis
+14220@AP@307@33120@@Gregório de Matos@(Lot. Sol Nascente)@68909136@Avenida@S@Av Gregório de Matos
+14221@AP@307@33120@@Leandro@(Lot. Sol Nascente)@68909137@Avenida@S@Av Leandro
+14222@AP@307@33120@@Luís Gonzaga@(Lot. Sol Nascente)@68909138@Avenida@S@Av Luís Gonzaga
+14223@AP@307@33120@@Cartola@(Lot. Sol Nascente)@68909139@Avenida@S@Av Cartola
+14224@AP@307@33120@@Cecília Meireles@(Lot. Sol Nascente)@68909141@Avenida@S@Av Cecília Meireles
+14225@AP@307@33120@@Castro Alves@(Lot. Sol Nascente)@68909142@Avenida@S@Av Castro Alves
+14226@AP@307@33120@@Vinícius de Moraes@(Lot. Sol Nascente)@68909143@Avenida@S@Av Vinícius de Moraes
+14227@AP@307@33120@@Elis Regina@(Lot. Sol Nascente)@68909144@Avenida@S@Av Elis Regina
+14228@AP@307@33120@@Tom Jobim@(Lot. Sol Nascente)@68909145@Rua@S@R Tom Jobim
+14229@AP@307@33120@@Nelson Gonçalves@(Lot. Sol Nascente)@68909146@Rua@S@R Nelson Gonçalves
+14230@AP@307@33120@@Ataulfo Alves@(Lot. Sol Nascente)@68909147@Rua@S@R Ataulfo Alves
+14231@AP@307@33120@@Clara Nunes@(Lot. Sol nascente)@68909148@Rua@S@R Clara Nunes
+14232@AP@307@33120@@Renato Russo@(Lot. Sol Nascente)@68909149@Rua@S@R Renato Russo
+14233@AP@307@33120@@Augusto dos Anjos@(Lot. Sol Nascente)@68909151@Rua@S@R Augusto dos Anjos
+14234@AP@307@33120@@Vicente Celestino@(Lot. Sol Nascente)@68909152@Rua@S@R Vicente Celestino
+14235@AP@307@33120@@Leila Diniz@(Lot. Sol Nascente)@68909153@Rua@S@R Leila Diniz
+14236@AP@307@33120@@Altemar Dutra@(Lot S Nascente)@68909154@Rua@S@R Altemar Dutra
+14237@AP@307@33120@@Pixinguinha@(Lot. SoL Nascente)@68909155@Rua@S@R Pixinguinha
+14238@AP@307@33120@@Cazuza@(Lot. Sol Nascente)@68909156@Rua@S@R Cazuza
+14239@AP@307@33120@@Aluísio Azevedo@(Lot S Nascente)@68909157@Rua@S@R Aluísio Azevedo
+14240@AP@307@33120@@Tim Maria@(Lot.Sol Nascente)@68909158@Rua@S@R Tim Maria
+14241@AP@307@33120@@Antônio Marcos@(Lot S Nascente)@68909159@Rua@S@R Antônio Marcos
+14242@AP@307@33120@@Dalva de Oliveira@(Lot. Sol Nascente)@68909161@Rua@S@R Dalva de Oliveira
+14243@AP@307@33120@@Evaldo Braga@(Lot. Sol Nascente)@68909162@Rua@S@R Evaldo Braga
+14244@AP@307@33120@@João Paulo@(Lot. Sol Nascente)@68909163@Rua@S@R João Paulo
+14245@AP@307@33120@@Raul Seixas@(Lot. Sol Nascente)@68909164@Rua@S@R Raul Seixas
+14246@AP@307@33120@@Rui Barbosa@(Lot. Sol Nascente)@68909165@Rua@S@R Rui Barbosa
+14247@AP@307@33120@@Sérgio Mendes@(Lot. Sol Nascente)@68909166@Rua@S@R Sérgio Mendes
+14248@AP@307@33120@@Abelardo Barbosa@(Lot. Sol Nascente)@68909167@Rua@S@R Abelardo Barbosa
+14249@AP@307@33120@@Armindo Pinto@@68909171@Rua@S@R Armindo Pinto
+14250@AP@307@33120@@Dener@@68909172@Avenida@S@Av Dener
+14251@AP@307@33120@@das Nações@@68909173@Avenida@S@Av das Nações
+14252@AP@307@33120@@Nona@@68909174@Travessa@S@Tv Nona
+14253@AP@307@33120@@Dona Ermínia@@68909175@Rua@S@R Da Ermínia
+14254@AP@307@33121@@Goiabeira@@68909320@Rua@S@R Goiabeira
+14255@AP@307@33121@@Laranjeira@@68909177@Rua@S@R Laranjeira
+14256@AP@307@33121@@Mamoeiro@@68909324@Rua@S@R Mamoeiro
+14257@AP@307@33121@@Tangerinas@@68909334@Rua@S@R Tangerinas
+14258@AP@307@33121@@Cajueiro@@68909312@Rua@S@R Cajueiro
+14259@AP@307@33121@@Bacuris@@68909308@Rua@S@R Bacuris
+14260@AP@307@33121@@Cupuaçus@@68909318@Alameda@S@Al Cupuaçus
+14261@AP@307@52626@@Açai@(Lot. Açai)@68908833@Rua@S@R Açai
+14262@AP@307@52626@@dos Taperebás@(Lot. Açai)@68908898@Rua@S@R dos Taperebás
+14263@AP@307@52626@@das Pupunhas@(Lot. Açai)@68908897@Rua@S@R das Pupunhas
+14264@AP@307@52626@@dos Buritis@(Lot. Açai)@68908838@Rua@S@R dos Buritis
+14265@AP@307@52626@@dos Mucajás@(Lot. Açai)@68908848@Rua@S@R dos Mucajás
+14266@AP@307@52626@@dos Tucumãs@(Lot. Açai)@68908899@Rua@S@R dos Tucumãs
+14267@AP@307@52626@@dos Anajás@(Lot Açai)@68908834@Rua@S@R dos Anajás
+14268@AP@307@52626@@dos Piquiás@(Lot. Açai)@68908896@Rua@S@R dos Piquiás
+14269@AP@307@52626@@dos Mamões@(Lot. Açai)@68908844@Rua@S@R dos Mamões
+14270@AP@307@52626@@dos Jenipapos@(Lot.Açai)@68908843@Rua@S@R dos Jenipapos
+14271@AP@307@52626@@dos Maracujás@(Lot. Açai)@68908845@Rua@S@R dos Maracujás
+14272@AP@307@52626@@dos Abacaxis@(Lot Açai)@68908807@Rua@S@R dos Abacaxis
+14273@AP@307@52626@@dos Murucis@(Lot. Açai)@68908849@Rua@S@R dos Murucis
+14274@AP@307@52626@@dos Araçás@(Lot Açai)@68908835@Rua@S@R dos Araçás
+14275@AP@307@52626@@dos Maris@(Lot. Açai)@68908846@Rua@S@R dos Maris
+14276@AP@307@52626@@dos Abius@(Lot. Açai)@68908832@Rua@S@R dos Abius
+14277@AP@307@52626@@das Jacas@(Lot. Açai)@68908842@Avenida@S@Av das Jacas
+14278@AP@307@52626@@dos Bacuris@(Lot. Açai)@68908837@Avenida@S@Av dos Bacuris
+14279@AP@307@52626@@das Bacabas@(Lot. Açai)@68908836@Avenida@S@Av das Bacabas
+14280@AP@307@52626@@dos Cupuaçus@(Lot. Açai)@68908841@Avenida@S@Av dos Cupuaçus
+14281@AP@307@57941@@Caubi Sérgio Melo@@68907301@Avenida@S@Av Caubi S Melo
+14282@AP@307@57941@@Simplício Caridade@@68907302@Avenida@S@Av Simplício Caridade
+14283@AP@307@57941@@Antônio Carlos Farias de Souza@@68907303@Avenida@S@Av Antônio C F de Souza
+14284@AP@307@57941@@Venina dos Santos Carvalho@@68907304@Avenida@S@Av Venina dos Stos Carvalho
+14285@AP@307@57941@@Pedro Cardoso Quaresma@@68907305@Avenida@S@Av Pedro C Quaresma
+14286@AP@307@57941@@Antônio Serafim dos Santos@@68907306@Avenida@S@Av Antônio S dos Santos
+14287@AP@307@57941@@Nessy Costa da Silva@@68907307@Avenida@S@Av Nessy C da Silva
+14288@AP@307@57941@@Augusto Quaresma Bruno@@68907308@Avenida@S@Av Augusto Q Bruno
+14289@AP@307@57941@@Antônio Rufino da Paixão@@68907309@Avenida@S@Av Antônio R da Paixão
+14290@AP@307@57941@@Cecília Vicente da Paixão@@68907311@Avenida@S@Av Cecília V da Paixão
+14291@AP@307@57941@@Maria Marques da Costa@@68907312@Avenida@S@Av Maria M da Costa
+14292@AP@307@57941@@Marlon Silva Pereira@@68907313@Avenida@S@Av Marlon S Pereira
+14293@AP@307@57941@@Maria Nunes dos Santos@@68907314@Avenida@S@Av Maria N dos Santos
+14294@AP@307@57941@@Nicolau Libório@@68907315@Avenida@S@Av Nicolau Libório
+14295@AP@307@57941@@Euci Rodrigues Farias@@68907316@Rua@S@R Euci R Farias
+14296@AP@307@57941@@João Almeida do Nascimento@@68907317@Rua@S@R João A do Nascimento
+14297@AP@307@57941@@Benedito Rodrigues Ferreira@@68907318@Rua@S@R Benedito R Ferreira
+14298@AP@307@35372@@Raimundo Borges@@68903850@Avenida@S@Av Raimundo Borges
+14302@AP@307@230@@João de Azevedo Tavares@@68908445@Avenida@S@Av João de A Tavares
+14306@AP@307@230@@Floriano Waldek@@68908485@Rua@S@R Floriano Waldek
+14307@AP@307@228@@José Trajano de Souza@@68901480@Rua@S@R José T de Souza
+14308@AP@307@228@@dos Navegantes@@68901500@Avenida@S@Av dos Navegantes
+14309@AP@307@228@@Primeiro de Maio@@68901540@Travessa@S@Tv Primeiro de Maio
+14310@AP@307@228@@Acelino de Leão@@68901550@Travessa@S@Tv Acelino de Leão
+14311@AP@307@228@@Pastor Vicente Rego@@68901560@Travessa@S@Tv Pst Vicente Rego
+14312@AP@307@228@@Professor Zacarias@@68901570@Travessa@S@Tv Prf Zacarias
+14313@AP@307@35372@@Setentrional@@68903771@1ª Travessa@S@1ª Tv Setentrional
+14314@AP@307@35372@@Setentrional@@68903772@2ª Travessa@S@2ª Tv Setentrional
+14315@AP@307@35372@@Setentrional@@68903773@3ª Travessa@S@3ª Tv Setentrional
+14316@AP@307@35372@@Aturiá@@68903781@Avenida@S@Av Aturiá
+14318@AP@307@221@@da Praia do Aturia@@68903055@Rua@S@R da Praia do Aturia
+14319@AP@307@35372@@Setentrional@@68903774@5ª Travessa@S@5ª Tv Setentrional
+14320@AP@307@35372@@Sexts da Setentrional@@68903775@Travessa@S@Tv Sexts da Setentrional
+14321@AP@307@35372@@Setentrional@@68903776@7ª Travessa@S@7ª Tv Setentrional
+14322@AP@307@35372@@Oitava da Setentrional@@68903777@Travessa@S@Tv Oitava da Setentrional
+14323@AP@307@35372@@Setentrional@@68903780@9ª Travessa@S@9ª Tv Setentrional
+14324@AP@307@35372@@Setentrional@@68903778@10ª Travessa@S@10ª Tv Setentrional
+14328@AP@307@52761@@Vila dos Oliveiras@@68903095@1ª Travessa@S@1ª Tv Vila dos Oliveiras
+14329@AP@307@221@@Vila dos Oliveiras@@68903105@2ª Travessa@S@2ª Tv Vila dos Oliveiras
+14330@AP@307@52761@@Vila dos Oliveiras@@68903115@3ª Travessa@S@3ª Tv Vila dos Oliveiras
+14331@AP@307@52761@@Vila dos Oliveiras@@68903125@4ª Travessa@S@4ª Tv Vila dos Oliveiras
+14332@AP@307@52761@@Vila dos Oliveiras@@68903135@5ª Travessa@S@5ª Tv Vila dos Oliveiras
+14333@AP@307@35372@@A@(B A Pedrinhas)@68903882@Travessa@S@Tv A
+14334@AP@307@35372@@B@(Boné Azul das Pedrinhas)@68903884@Travessa@S@Tv B
+14335@AP@307@35372@@C@(Boné Azul das Pedrinhas)@68903886@Travessa@S@Tv C
+14336@AP@307@35372@@D@(Boné Azul das Pedrinhas)@68903887@Travessa@S@Tv D
+14338@AP@307@221@@da Redenção@@68903195@Rua@S@R da Redenção
+14339@AP@307@221@@Rubi@(Cj Redenção)@68903205@Travessa@S@Tv Rubi
+14340@AP@307@221@@Esmeralda@(Cj Redenção)@68903215@Travessa@S@Tv Esmeralda
+14341@AP@307@221@@Pérola@(Cj Redenção)@68903225@Travessa@S@Tv Pérola
+14342@AP@307@221@@Diamante@(Cj Redenção)@68903235@Travessa@S@Tv Diamante
+14343@AP@307@221@@Cristal@(Cj Redenção)@68903245@Travessa@S@Tv Cristal
+14344@AP@307@221@@Quartzo@(Cj Redenção)@68903255@Travessa@S@Tv Quartzo
+14345@AP@307@35372@@Complexo do Araxá@@68903779@Parque@S@Prq Complexo do Araxá
+14346@AP@307@221@@David Nunes de Lima@@68903275@Avenida@S@Av David N de Lima
+14347@AP@307@52761@@Um@(Cj Mônaco)@68903119@Rua@S@R Um
+14348@AP@307@52761@@Dois@(Cj Mônaco)@68903122@Rua@S@R Dois
+14349@AP@307@52761@@Três@(Cj Mônaco)@68903123@Rua@S@R Três
+14350@AP@307@52761@@Quatro@(Cj Mônaco)@68903124@Rua@S@R Quatro
+14351@AP@307@52761@@Cinco@(Cj Mônaco)@68903127@Rua@S@R Cinco
+14352@AP@307@52761@@Seis@(Cj Mônaco)@68903129@Rua@S@R Seis
+14353@AP@307@52761@@A@(Cj Mônaco)@68903134@Rua@S@
+14355@AP@307@215@@Anhangüera@- até 544/545@68902005@Avenida@S@Av Anhangüera
+14356@AP@307@216@@Anhangüera@- de 546/547 ao fim@68902860@Avenida@S@Av Anhangüera
+14359@AP@307@221@@Pedro Souza Silva@(Cj Res Teleamapá)@68903315@Rua@S@R Pedro S Silva
+14361@AP@307@221@@Vícta Mota Dias@(Conj. Resd. Teleamapá)@68903325@Rua@S@R Vícta M Dias
+14363@AP@307@221@@C@(Conj. Resd. Teleamapá)@68903335@Rua@S@R C
+14364@AP@307@221@@Um@(Conj. Resd. Teleamapá)@68903345@Avenida@S@Av Um
+14365@AP@307@221@@Dois@(Conj. Resd. Teleamapá)@68903355@Avenida@S@Av Dois
+14366@AP@307@221@@Luiza Damasceno Soares@( Conj. Resd. Teleamapá)@68903365@Avenida@S@Av Luiza D Soares
+14367@AP@307@221@@Francisco Soares@@68903375@Avenida@S@Av Francisco Soares
+14368@AP@307@221@@Aurora Boreau@@68903385@Avenida@S@Av Aurora Boreau
+14369@AP@307@221@@Independência@(Conj.Habitacional da Ego)@68903395@Passagem@S@Psg Independência
+14370@AP@307@221@@Uirapuru@(Conj. Habitacional da Ego)@68903405@Passagem@S@Psg Uirapuru
+14373@AP@307@229@@Pedro Baião@- de 1890/1891 ao fim@68901265@Avenida@S@Av Pedro Baião
+14374@AP@307@231@@Feliciano Coelho@- até 1749/1750@68901025@Avenida@S@Av Feliciano Coelho
+14375@AP@307@229@@Feliciano Coelho@- de 1760/1761 ao fim@68901285@Avenida@S@Av Feliciano Coelho
+14376@AP@307@231@@Cônego Domingos Maltês@- até 1227/1228@68901050@Avenida@S@Av Con Domingos Maltês
+14377@AP@307@229@@Cônego Domingos Maltês@- de 1229/1230 ao fim@68901295@Avenida@S@Av Con Domingos Maltês
+14378@AP@307@231@@Maria Quitéria@- até 526/527@68901060@Avenida@S@Av Maria Quitéria
+14379@AP@307@229@@Maria Quitéria@- de 540/541 ao fim@68901305@Avenida@S@Av Maria Quitéria
+14380@AP@307@229@@Desidério Antônio Coelho@- de 1250/1251 ao fim@68901325@Avenida@S@Av Desidério A Coelho
+14381@AP@307@229@@Acelino de Leão@- de 1250/1251 ao fim@68901315@Avenida@S@Av Acelino de Leão
+14383@AP@307@229@@Ataíde Teive@- de 2110/2111 ao fim@68901275@Avenida@S@Av Ataíde Teive
+14384@AP@307@215@@dos Tamoios@- até 448/449@68902180@Avenida@S@Av dos Tamoios
+14385@AP@307@224@@dos Tamoios@- de 450/451 ao fim@68902336@Avenida@S@Av dos Tamoios
+14386@AP@307@215@@Francisco Xavier Martins@@68902630@Avenida@S@Av Francisco X Martins
+14387@AP@307@215@@Odete Castelo@@68902640@Avenida@S@Av Odete Castelo
+14388@AP@307@215@@Emílio Rodrigues@@68902660@Avenida@S@Av Emílio Rodrigues
+14389@AP@307@218@@Pompeu Cardoso@@68904327@Avenida@S@Av Pompeu Cardoso
+14390@AP@307@218@@Dois de Moraes@@68904035@Rua@S@R Dois de Moraes
+14391@AP@307@49302@@Trinta de Julho@(Cj Hab L Banha)@68904400@Avenida@S@Av Trinta de Julho
+14392@AP@307@218@@Nilo Almeida@@68904396@Avenida@S@Av Nilo Almeida
+14393@AP@307@218@@José Maria Banhos de Araújo@@68904388@Avenida@S@Av José M B de Araújo
+14394@AP@307@218@@Newton Cardoso@@68904386@Avenida@S@Av Newton Cardoso
+14395@AP@307@218@@Bem-Hur Corrêa Alves@@68904395@Avenida@S@Av Bem-Hur C Alves
+14396@AP@307@49302@@Hely da Silva Oliveira@@68904225@Avenida@S@Av Hely da S Oliveira
+14397@AP@307@31040@@da Universidade@@68903410@1ª Avenida@S@1ª Av da Universidade
+14398@AP@307@31040@@da Universidade@@68903415@2ª Avenida@S@2ª Av da Universidade
+14399@AP@307@31040@@da Universidade@@68903425@3ª Avenida@S@3ª Av da Universidade
+14400@AP@307@31040@@Quinta da universidade@@68903435@Avenida@S@Av Quinta da universidade
+14401@AP@307@31040@@Nona da Universidade@@68903445@Travessa@S@Tv Nona da Universidade
+14402@AP@307@31040@@Jerusalém@@68903455@Travessa@S@Tv Jerusalém
+14403@AP@307@31040@@Joaquim Nabuco@@68903465@Travessa@S@Tv Joaquim Nabuco
+14404@AP@307@31040@@da Paz@@68903475@Travessa@S@Tv da Paz
+14405@AP@307@31040@@Maria Nunes dos Santos@@68903485@Travessa@S@Tv Maria N dos Santos
+14406@AP@307@31040@@Santa Luzia@@68903495@Travessa@S@Tv Sta Luzia
+14407@AP@307@31040@@Bom Jesus@@68903505@Travessa@S@Tv Bom Jesus
+14408@AP@307@31040@@Gonzaguinha@@68903515@Travessa@S@Tv Gonzaguinha
+14410@AP@307@31040@@Edilson Borges@@68903535@Travessa@S@Tv Edilson Borges
+14411@AP@307@31040@@Dulce Estela Ribeiro@@68903545@Travessa@S@Tv Dulce E Ribeiro
+14412@AP@307@31040@@Manoel da Silva@@68903555@Travessa@S@Tv Manoel da Silva
+14413@AP@307@31040@@Tapajós@@68903565@Travessa@S@Tv Tapajós
+14414@AP@307@31040@@Isa Golveia@@68903575@Avenida@S@Av Isa Golveia
+14415@AP@307@31040@@Primeira@(Conj. Habitacional da Embrapa)@68903585@Travessa@S@Tv Primeira
+14416@AP@307@31040@@Segunda@(Conj. Habitacional da Emprapa)@68903595@Travessa@S@Tv Segunda
+14417@AP@307@31040@@José Caetano@@68903605@Travessa@S@Tv José Caetano
+14418@AP@307@31040@@Quarta@(Conj. Habitacional da Embrapa)@68903615@Travessa@S@Tv Quarta
+14419@AP@307@31040@@Quinta@(Conj. Habitacional da Embrapa)@68903625@Travessa@S@Tv Quinta
+14420@AP@307@31040@@Sexta@(Conj. Habitacional da Embrapa)@68903626@Travessa@S@Tv Sexta
+14421@AP@307@31040@@Sétima@(Conj. Habitacional da Embrapa)@68903627@Travessa@S@Tv Sétima
+14422@AP@307@31040@@Oitava@(Conj. Habitacional da Embrapa)@68903628@Travessa@S@Tv Oitava
+14423@AP@307@31040@@Nona@(Conj. Habitacional da Embrapa)@68903629@Travessa@S@Tv Nona
+14424@AP@307@31040@@Décima@(Conj. Habitacional da Embrapa)@68903636@Travessa@S@Tv Décima
+14425@AP@307@48601@@Belas Artes@@68903637@Avenida@S@Av Belas Artes
+14429@AP@307@48601@@Inspetor Antônio Oliveira@@68903642@Rua@S@R Insp Antônio Oliveira
+14431@AP@307@225@@Natanair Monteiro da Piedade@@68901760@Travessa@S@Tv Natanair M da Piedade
+14432@AP@307@225@@Minas Gerais@@68901790@Passagem@S@Psg Minas Gerais
+14433@AP@307@229@@Santa Catarina@@68901264@Passagem@S@Psg Sta Catarina
+14434@AP@307@229@@do Canal@@68901266@Rua@S@R do Canal
+14435@AP@307@49302@@Reinaldo Damasceno@(Cj. Cuba de Asfalto)@68904278@Rua@S@R Reinaldo Damasceno
+14436@AP@307@49302@@Mestre Julio@(Cj. Cuba de Asfalto)@68904279@Rua@S@R Mte Julio
+14437@AP@307@224@@Monteiro Lobato@@68902610@Travessa@S@Tv Monteiro Lobato
+14439@AP@307@224@@Primeira da Tupis@@68902345@Travessa@S@Tv Primeira da Tupis
+14440@AP@307@224@@Rosa dos Ventos@@68902689@Travessa@S@Tv Rosa dos Ventos
+14441@AP@307@224@@Cleonice Santos Azevedo@@68902356@Passagem@S@Psg Cleonice Stos Azevedo
+14442@AP@307@224@@Fagundes Varela@@68902357@Passagem@S@Psg Fagundes Varela
+14443@AP@307@224@@da Amizade@@68902358@Passagem@S@Psg da Amizade
+14444@AP@307@224@@Dias Gomes@@68902359@Passagem@S@Psg Dias Gomes
+14445@AP@307@224@@José de Alencar@@68902465@Passagem@S@Psg José de Alencar
+14446@AP@307@224@@Eça de Queirós@@68902466@Passagem@S@Psg Eça de Queirós
+14447@AP@307@224@@Castro Alves@@68902468@Passagem@S@Psg Castro Alves
+14448@AP@307@224@@Gregório de Matos Guerra@@68902467@Passagem@S@Psg Gregório de M Guerra
+14449@AP@307@224@@Gonçalves Dias@@68902469@Passagem@S@Psg Gonçalves Dias
+14450@AP@307@224@@Segunda da Tupis@@68902285@Travessa@S@Tv Segunda da Tupis
+14451@AP@307@224@@Terceira daTupis@@68902295@Travessa@S@Tv Terceira daTupis
+14452@AP@307@224@@Quarta da Tupis@@68902687@Travessa@S@Tv Quarta da Tupis
+14453@AP@307@224@@Sexta da Tupis@@68902686@Travessa@S@Tv Sexta da Tupis
+14455@AP@307@216@@Cinco@(Conj.Habt.Hospital de Base)@68902874@Travessa@S@Tv Cinco
+14456@AP@307@216@@Quatro@( Conj.Habt.Hospital de Base)@68902876@Travessa@S@Tv Quatro
+14457@AP@307@216@@Dois@( Conj.Habt.Hospital de Base)@68902877@Travessa@S@Tv Dois
+14458@AP@307@216@@Um@(Conj.Habt.Hospital de Base)@68902878@Travessa@S@Tv Um
+14459@AP@307@49302@@João Batista Coutinho@@68904276@Avenida@S@Av João B Coutinho
+14460@AP@307@49302@@Maria de Nazaré Brito de Souza@@68904277@Avenida@S@Av Maria de N B de Souza
+14461@AP@307@49302@@Ernesto Pereira Colares@@68904281@Avenida@S@Av Ernesto P Colares
+14462@AP@307@49302@@Aurora Ferreira da Costa@@68904282@Avenida@S@Av Aurora F da Costa
+14463@AP@307@49302@@Heráclito Juares Filho@@68904283@Avenida@S@Av Heráclito J Filho
+14464@AP@307@49302@@Domingos Amorim@@68904284@Avenida@S@Av Domingos Amorim
+14465@AP@307@49302@@Cleveland Sá Cavalcante@@68904286@Avenida@S@Av Cleveland S Cavalcante
+14466@AP@307@49302@@Municipalista@@68904287@Travessa@S@Tv Municipalista
+14467@AP@307@49302@@Municipalista@@68904288@Passagem@S@Psg Municipalista
+14468@AP@307@33114@@Ranolfo de Souza Gato@@68909891@Rua@S@R Ranolfo de S Gato
+649342@AP@307@231@@Acelino de Leão@- até 1248/1249@68901092@Avenida@S@Av Acelino de Leão
+649343@AP@307@229@@Henrique Galúcio@- de 2380/2381 ao fim@68901255@Avenida@S@Av Henrique Galúcio
+649344@AP@307@217@@Henrique Galúcio@- até 2349/2350@68900115@Avenida@S@Av Henrique Galúcio
+649346@AP@307@217@@Almirante Barroso@- até 1518/1519@68900041@Avenida@S@Av Alm Barroso
+649347@AP@307@229@@Almirante Barroso@- de 1520/1521 a 2838/2839@68901336@Avenida@S@Av Alm Barroso
+649348@AP@307@214@@Almirante Barroso@- de 2840/2841 ao fim@68906535@Avenida@S@Av Alm Barroso
+649349@AP@307@222@@Carlos Gomes@- até 699/700@68908125@Avenida@S@Av Carlos Gomes
+649350@AP@307@229@@Carlos Gomes@- de 890/891 ao fim@68901077@Avenida@S@Av Carlos Gomes
+649351@AP@307@217@@Duque de Caxias@- até 1599/1600@68900071@Avenida@S@Av Dq de Caxias
+649352@AP@307@229@@Duque de Caxias@- de 1601/1602 ao fim@68901258@Avenida@S@Av Dq de Caxias
+649353@AP@307@217@@Procópio Rola@- até 1999/2000@68900081@Avenida@S@Av Procópio Rola
+650412@AP@307@229@@Procópio Rola@- de 2010/2011 ao fim@68901076@Avenida@S@Av Procópio Rola
+650413@AP@307@52626@@Marechal Braga@(Lot. Infraero I)@68908856@Avenida@S@Av Mal Braga
+652465@AP@307@231@@Antonio Gonçalves Tocantins@@68901019@Avenida@S@Av Antonio G Tocantins
+654723@AP@307@217@@Antônio Coelho de Carvalho@- até 2168/2169@68900015@Avenida@S@Av Antônio C de Carvalho
+654724@AP@307@215@@Creuza Mendes Holanda@- até 616/617@68902025@Avenida@S@Av Creuza M Holanda
+654725@AP@307@229@@Diógenes Silva@- de 1199/1200 ao fim@68901326@Avenida@S@Av Diógenes Silva
+654726@AP@307@217@@FAB@- até 2269/2270@68900073@Avenida@S@Av FAB
+654727@AP@307@229@@FAB@- de 2280/2281 ao fim@68901259@Avenida@S@Av FAB
+654728@AP@307@224@@Francisca Praxédio de Mendonça@@68902340@Avenida@S@Av Francisca P de Mendonça
+654729@AP@307@223@@General Osório@- até 1289/1290@68908180@Avenida@S@Av Gen Osório
+654730@AP@307@222@@General Osório@- de 1300/1301 ao fim@68908127@Avenida@S@Av Gen Osório
+654731@AP@307@224@@José de Paula Lobo@@68902305@Avenida@S@Av José de P Lobo
+654732@AP@307@224@@José Mauro S. do Nascimento@@68902350@Avenida@S@Av José M S do Nascimento
+654733@AP@307@223@@Mãe Luzia@- até 1289/1290@68908160@Avenida@S@Av Mãe Luzia
+654734@AP@307@222@@Mãe Luzia@- de 1300/1301 ao fim@68908122@Avenida@S@Av Mãe Luzia
+654735@AP@307@229@@Marcelo Cândia@@68901341@Rua@S@R Marcelo Cândia
+654736@AP@307@223@@Marcílio Dias@- de 160/161 a 1289/1290@68908200@Avenida@S@Av Marcílio Dias
+654737@AP@307@222@@Marcílio Dias@- de 1300/1301 ao fim@68908124@Avenida@S@Av Marcílio Dias
+654738@AP@307@224@@Maria Rosa Tavares de Almeida@@68902460@Avenida@S@Av Maria R T de Almeida
+654739@AP@307@225@@Minas Gerais@@68901730@Rua@S@R Minas Gerais
+654741@AP@307@222@@Jose Tupinamba de Almeida@- de 1300/1301 ao fim@68908126@Avenida@S@Av Jose T de Almeida
+654742@AP@307@214@@Padre Júlio Maria Lombaerd@- de 3650/3651 ao fim@68906645@Avenida@S@Av Pe Júlio M Lombaerd
+654743@AP@307@229@@Paraná@@68901260@Rua@S@R Paraná
+654744@AP@307@216@@Professor Tostes@- de 2610/2611 a 3719/3720@68902892@Rua@S@R Prf Tostes
+654745@AP@307@214@@Professora Cora de Carvalho@- de 3760/3761 ao fim@68906545@Avenida@S@Av Prfa Cora de Carvalho
+654746@AP@307@224@@Quilombo dos Palmares@@68902315@Avenida@S@Av Quilombo dos Palmares
+654747@AP@307@224@@Raimundo Ferreira da Silva@@68902320@Avenida@S@Av Raimundo F da Silva
+654748@AP@307@224@@Raimundo Nonato Banha Corrêa@@68902330@Avenida@S@Av Raimundo N B Corrêa
+654749@AP@307@215@@Seis de Setembro@- até 240/241@68902016@Avenida@S@Av Seis de Setembro
+654750@AP@307@224@@Teresa Maciel Tavares@@68902590@Avenida@S@Av Teresa M Tavares
+654751@AP@307@49302@@Leopoldo Queirós Teixeira@@68904020@Rua@S@R Leopoldo Q Teixeira
+654753@AP@307@221@@Nova das Pedrinhas@@68903185@Rua@S@R Nova das Pedrinhas
+654754@AP@307@52758@@José Chaves Cohen@@68903001@Rua@S@R José C Cohen
+654755@AP@307@231@@Desidério Antônio Coelho@- até 1248/1249@68901080@Avenida@S@Av Desidério A Coelho
+654756@AP@307@217@@Ataíde Teive@- até 2099/2100@68900095@Avenida@S@Av Ataíde Teive
+654757@AP@307@224@@São Januário@@68902680@Avenida@S@Av S Januário
+654758@AP@307@231@@Nossa Senhora da Conceição@@68901045@Praça@S@Pç N Sra da Conceição
+654759@AP@307@31019@@Sebastião Lamarão@@68909815@Avenida@S@Av Sebastião Lamarão
+654760@AP@307@221@@Ivaldo Alves Veras@@68903184@Passagem@S@Psg Ivaldo A Veras
+654761@AP@307@221@@Ivaldo Alves Veras@@68903183@Avenida@S@Av Ivaldo A Veras
+671518@AP@307@33104@@Araguary@(Cj Hab Cabralzinho)@68906842@Alameda@S@Al Araguary
+671519@AP@307@217@@Euclides da Cunha@- até 469/470@68900072@Avenida@S@Av Euclides da Cunha
+671520@AP@307@229@@Euclides da Cunha@- de 480/481 ao fim@68901257@Avenida@S@Av Euclides da Cunha
+674777@AP@307@52626@@Yasmin dos Santos Brito@(Lot. Infraero II)@68908042@Rua@S@
+674778@AP@307@33121@@Floresta@@68909319@Rua@S@R Floresta
+676526@AP@307@52626@@Maria Raucilene Passos do Nascimento@(Lot.Infraero II)@68908075@Rua@S@R Maria Raucilene Passos do Nascimen
+678170@AP@307@229@@Vereador Orlando Pinto@@68901345@Avenida@S@Av Ver Orlando Pinto
+680051@AP@307@226@@do Pacoval@@68908235@1ª Travessa da Rodovia@S@1ª Tv da Rod do Pacoval
+680052@AP@307@33114@@Porto do Céu@(Comunidade do Coração)@68909861@Ramal@S@Ram Porto do Céu
+680053@AP@307@226@@do Pacoval@@68908245@2ª Travessa da Rodovia@S@2ª Tv da Rod do Pacoval
+680055@AP@307@226@@São Benedito@@68908285@Avenida@S@Av S Benedito
+680056@AP@307@226@@Nossa Senhora de Nazaré@@68908295@Passagem@S@Psg N Sra de Nazaré
+680058@AP@307@226@@São Paulo@@68908318@Passagem@S@Psg S Paulo
+680059@AP@307@226@@Maximiano dos Santos Moura@@68908325@Avenida@S@Av Maximiano dos Stos Moura
+688005@AP@307@31019@@da Liberdade@- até 1989/1990@68909828@Avenida@S@Av da Liberdade
+688006@AP@307@220@@da Liberdade@- de 2000/2001 ao fim@68909006@Avenida@S@Av da Liberdade
+688007@AP@307@31019@@Lourenço Araújo de Sá@- até 2249/2250@68909829@Avenida@S@Av Lourenço A de Sá
+688008@AP@307@220@@Lourenço Araújo de Sá@- de 2500/2501 ao fim@68909007@Avenida@S@Av Lourenço A de Sá
+688009@AP@307@31019@@Maria das Graças Picanço@- até 2479/2480@68909831@Avenida@S@Av Maria das G Picanço
+688010@AP@307@220@@Maria das Graças Picanço@- de 2481/2482 a 99997/99998@68909009@Avenida@S@Av Maria das G Picanço
+688011@AP@307@31019@@Pedro Wanderley Fernandes@- até 2194/2195@68909832@Avenida@S@Av Pedro W Fernandes
+688012@AP@307@220@@Pedro Wanderley Fernandes@- de 2555/2556 ao fim@68909011@Avenida@S@Av Pedro W Fernandes
+688013@AP@307@31019@@Ancelmo Paulo Ramos@- até 2579/2580@68909834@Avenida@S@Av Ancelmo P Ramos
+688014@AP@307@220@@Ancelmo Paulo Ramos@- de 2600/2601 ao fim@68909013@Avenida@S@Av Ancelmo P Ramos
+688015@AP@307@31019@@Severino Gomes de Almeida@- até 2549/2550@68909012@Avenida@S@Av Severino G de Almeida
+688016@AP@307@220@@Severino Gomes de Almeida@- de 2555/2556 a 2949/2950@68909833@Avenida@S@Av Severino G de Almeida
+688017@AP@307@48601@@Eurico dos Santos Barbosa@- até 1607/1608@68903026@Rua@S@R Eurico dos Stos Barbosa
+688018@AP@307@31040@@Eurico dos Santos Barbosa@- de 1609/1610 a 99997/99998@68903511@Rua@S@R Eurico dos Stos Barbosa
+688019@AP@307@31019@@Francisco Alves Corrêa@- até 2479/2480@68909021@Avenida@S@Av Francisco A Corrêa
+688020@AP@307@220@@Francisco Alves Corrêa@- de 2517/2518 ao fim@68909075@Avenida@S@Av Francisco A Corrêa
+688021@AP@307@31019@@Hermes Monteiro da Silva@- até 2479/2480@68909823@Avenida@S@Av Hermes M da Silva
+688022@AP@307@31019@@Hermes Monteiro da Silva@- de 2501/2502 ao fim@68909095@Avenida@S@Av Hermes M da Silva
+688023@AP@307@31019@@Joaquim Silva do Amaral@- até 2489/2490@68909824@Avenida@S@Av Joaquim S do Amaral
+688024@AP@307@220@@Joaquim Silva do Amaral@- de 2500/2501 a 3109/3110@68909034@Avenida@S@Av Joaquim S do Amaral
+688025@AP@307@31019@@José Ferreira Chucre@- até 2489/2490@68909826@Avenida@S@Av José F Chucre
+688026@AP@307@220@@José Ferreira Chucre@- de 2495/2496 a 99997/99998@68909115@Avenida@S@Av José F Chucre
+688027@AP@307@31019@@José Loureiro de Sena@- até 2479/2480@68909827@Avenida@S@Av José L de Sena
+688028@AP@307@220@@José Loureiro de Sena@- de 2490/2491 ao fim@68909125@Avenida@S@Av José L de Sena
+688029@AP@307@31019@@Josefa Pelaes da Silva@- até 2399/2400@68909830@Avenida@S@Av Josefa P da Silva
+688030@AP@307@220@@Josefa Pelaes da Silva@- de 2402/2403 ao fim@68909008@Avenida@S@Av Josefa P da Silva
+688031@AP@307@31019@@Alexandre Ferreira da Silva@- até 2433/2434@68909817@Avenida@S@Av Alexandre F da Silva
+688032@AP@307@220@@Alexandre Ferreira da Silva@- de 2500/2501 a 3089/3090@68909045@Avenida@S@Av Alexandre F da Silva
+688033@AP@307@31019@@Ana Maria Gomes da Costa@- até 2479/2480@68909813@Avenida@S@Av Ana M G da Costa
+688034@AP@307@220@@Ana Maria Gomes da Costa@- de 2500/2501 a 3099/3100@68909015@Avenida@S@Av Ana M G da Costa
+688035@AP@307@31019@@Ana Maria das Graças Picanço@- até 2460/2461@68909814@Avenida@S@Av Ana M das G Picanço
+688036@AP@307@220@@Ana Maria das Graças Picanço@- de 2520/2521 a 3009/3010@68909025@Avenida@S@Av Ana M das G Picanço
+688037@AP@307@31019@@Antônio Carlos Reis@- até 2598/2599@68909816@Avenida@S@Av Antônio C Reis
+688038@AP@307@220@@Antônio Carlos Reis@- de 2600/2601 ao fim@68909035@Avenida@S@Av Antônio C Reis
+688039@AP@307@31019@@Carlos Almeida de Souza@- até 2549/2550@68909818@Avenida@S@Av Carlos A de Souza
+688040@AP@307@220@@Carlos Almeida de Souza@- de 2555/2556 a 99997/99998@68909055@Avenida@S@Av Carlos A de Souza
+688041@AP@307@31019@@Deoclides Franco Mont'Alverne@- até 2349/2350@68909819@Avenida@S@Av Deoclides F Mont'Alverne
+688042@AP@307@220@@Deoclides Franco Mont'Alverne@- de 2700/2701 ao fim@68909065@Avenida@S@Av Deoclides F Mont'Alverne
+688043@AP@307@48601@@Doutor Braulino@- até 1545/1546@68903022@Rua@S@R Dr Braulino
+688044@AP@307@31040@@Doutor Braulino@- de 1547/1548 a 99997/99998@68903501@Rua@S@R Dr Braulino
+688049@AP@307@52626@@Janary Nunes@(9Lot. Infraero I)@68908876@Rua@S@R Janary Nunes
+688050@AP@307@52626@@Brigadeiro Helio Costa@(Lot. Infraero I)@68908877@Rua@S@R Brg Helio Costa
+688051@AP@307@52626@@Padre Bartolomeu Gusmão@(Lot. Infraero I)@68908879@Rua@S@R Pe Bartolomeu Gusmão
+688052@AP@307@52626@@Demossele@(Lot. Infraero I)@68908881@Passagem@S@Psg Demossele
+688053@AP@307@52626@@Chico Mendes@(Lot. Infraero I)@68908882@Avenida@S@Av Chico Mendes
+688054@AP@307@52626@@Marechal Eduardo Gomes@(Lot. Infraero I)@68908883@Avenida@S@Av Mal Eduardo Gomes
+688055@AP@307@52626@@Brigadeiro Farias Lima@(Lot. Infraero I)@68908884@Avenida@S@Av Brg Farias Lima
+688056@AP@307@52626@@Karipunas@(Lot. Infraero I)@68908886@Avenida@S@Av Karipunas
+688057@AP@307@52626@@Esquadrão Falção@(Lot. Infraero I)@68908887@Avenida@S@Av Esquadrão Falção
+688059@AP@307@52626@@Zepelim@(Lot. Infraero I)@68908891@Travessa@S@Tv Zepelim
+688060@AP@307@35372@@Setentrional@@68903855@Rua@S@R Setentrional
+688061@AP@307@35372@@Alessandro B. Guerra@@68903865@Rua@S@R Alessandro B Guerra
+688062@AP@307@35372@@Adrião Rocha Oliveira@@68903870@Rua@S@R Adrião R Oliveira
+688063@AP@307@35372@@Primeira@@68903860@Avenida@S@Av Primeira
+688064@AP@307@35372@@Segunda@@68903875@Avenida@S@Av Segunda
+688065@AP@307@35372@@Terceira@@68903880@Avenida@S@Av Terceira
+688066@AP@307@35372@@Quarta@@68903885@Avenida@S@Av Quarta
+688067@AP@307@35372@@Quinta@@68903851@Avenida@S@Av Quinta
+688068@AP@307@35372@@Sexta@@68903852@Avenida@S@Av Sexta
+688069@AP@307@35372@@Sétima@@68903853@Avenida@S@Av Sétima
+688070@AP@307@35372@@Oitava@@68903854@Avenida@S@Av Oitava
+688071@AP@307@35372@@Nona@@68903856@Avenida@S@Av Nona
+688072@AP@307@35372@@Décima do Araxá@@68903857@Avenida@S@Av Décima do Araxá
+688073@AP@307@31019@@Iracema Castro Santos@@68909804@Rua@S@R Iracema C Santos
+688074@AP@307@31019@@Fernando Alves de Oliveira@@68909806@Rua@S@R Fernando A de Oliveira
+688075@AP@307@31019@@Maria da Conceição Santos@@68909807@Rua@S@R Maria da C Santos
+688076@AP@307@31019@@Francisco Cassiano da Costa@@68909808@Rua@S@R Francisco C da Costa
+688077@AP@307@31019@@Maria Nair da Silva@@68909809@Rua@S@R Maria N da Silva
+688078@AP@307@31019@@Raimunda Rodrigues Capiberibe@@68909811@Rua@S@R Raimunda R Capiberibe
+688080@AP@307@33120@@Brasil@@68908641@Avenida@S@Av Brasil
+688081@AP@307@33120@@Raimundo Almeida Costa@@68908642@Avenida@S@Av Raimundo A Costa
+688082@AP@307@33120@@Airton Senna@@68908643@Avenida@S@Av Airton Senna
+688083@AP@307@33120@@Macapá@@68908644@Avenida@S@Av Macapá
+688084@AP@307@33120@@das Flores@@68908645@Avenida@S@Av das Flores
+688085@AP@307@35372@@Bianor@@68903873@Passarela@S@Psa Bianor
+688086@AP@307@35372@@Humberto Góes Pereira@@68903874@Avenida@S@Av Humberto G Pereira
+688088@AP@307@35372@@Décima Primeira@@68903858@Avenida@S@Av Décima Primeira
+688089@AP@307@35372@@Décima Segunda@@68903859@Avenida@S@Av Décima Segunda
+688090@AP@307@35372@@Beira Rio@@68903861@Passarela@S@Psa Beira Rio
+688091@AP@307@35372@@Marisol@@68903862@Passarela@S@Psa Marisol
+688092@AP@307@35372@@Liberdade@@68903863@Passarela@S@Psa Liberdade
+688093@AP@307@35372@@Bom Jesus@@68903864@Passarela@S@Psa Bom Jesus
+688094@AP@307@35372@@Jardim@@68903866@Alameda@S@Al Jardim
+688095@AP@307@35372@@Beco da Saudade@@68903867@Passarela@S@Psa Beco da Saudade
+688096@AP@307@35372@@Santa Clara@@68903868@Passarela@S@Psa Sta Clara
+688097@AP@307@35372@@Santo Antonio@@68903869@Passarela@S@Psa Sto Antonio
+688098@AP@307@221@@Venus@(Coj. Habitacional da Ego)@68903382@Avenida@S@Av Venus
+688099@AP@307@221@@Júpiter@(Coj. Habitacinal da Ego)@68903384@Avenida@S@Av Júpiter
+688100@AP@307@221@@Mercúrio@(Coj. Habitacional da Ego)@68903383@Rua@S@R Mercúrio
+688101@AP@307@221@@Saturno@(Conj. Habitacional da Ego)@68903386@Avenida@S@Av Saturno
+688102@AP@307@221@@Marte@(Conj. Habitacional da Ego)@68903387@Avenida@S@Av Marte
+688103@AP@307@31019@@Maria Silva Xavier@@68909801@Rua@S@R Maria S Xavier
+688105@AP@307@31019@@Cícero Marques de Souza@@68909803@Rua@S@R Cícero M de Souza
+688106@AP@307@48601@@Beira Rio@- até 1897/1898@68903051@Passarela@S@Psa Beira Rio
+688107@AP@307@48601@@Beira Rio@- de 1899/1900 a 99997/99998@68903514@Passarela@S@Psa Beira Rio
+688108@AP@307@48601@@Professora Maria Guita@@68903251@Travessa@S@Tv Prfa Maria Guita
+688109@AP@307@48601@@Albino Pena Alves@@68903252@Travessa@S@Tv Albino P Alves
+688110@AP@307@33120@@Minervina Barcelos@@68908646@Avenida@S@Av Minervina Barcelos
+688111@AP@307@33120@@Anibal Barcelos@@68908647@Avenida@S@Av Anibal Barcelos
+688112@AP@307@31019@@Jose Penha Tavares@@68909791@Rua@S@R Jose P Tavares
+688113@AP@307@31019@@Zelia Cardoso de Melo@- até 2349/2350@68909835@Avenida@S@Av Zelia C de Melo
+688114@AP@307@30917@@Renascimento@@68907620@Rua@S@R Renascimento
+688115@AP@307@31040@@Raimunda Nóbre@@68903751@Travessa@S@Tv Raimunda Nóbre
+688116@AP@307@33104@@Campo Belo@(Conj. Habitacional Cabralzinho)@68906849@Alameda@S@Al Campo Belo
+688117@AP@307@214@@do Bueirinho@@68906533@Ramal@S@Ram do Bueirinho
+688118@AP@307@214@@Ruthenete Pereira Marques@@68906534@Rua@S@R Ruthenete P Marques
+688119@AP@307@33104@@Cajari@(Conj. Habitacional Cabralzinho)@68906843@Alameda@S@Al Cajari
+688120@AP@307@33104@@Bela Vista@(Conj. Habitacional Cabralzinho)@68906844@Alameda@S@Al Bela Vista
+688121@AP@307@33104@@Calçoene@(Conj. Habitacional Cabralzinho)@68906846@Alameda@S@Al Calçoene
+688122@AP@307@52626@@Brigadeiro Araripe Macedo@(Lot. Infraero I)@68908871@Avenida@S@Av Brg Araripe Macedo
+688123@AP@307@52626@@Ururay@(Lot. Infraero I)@68908872@Travessa@S@Tv Ururay
+688124@AP@307@52626@@Doze de Dezembro@(Lot. Infraero I)@68908873@Rua@S@R Doze de Dezembro
+688125@AP@307@52626@@Primeiro de Janeiro@(Lot. Infraero I)@68908874@Rua@S@R Primeiro de Janeiro
+688126@AP@307@31040@@Benjamim Constant.@@68903752@Travessa@S@Tv Benjamim Constant.
+688127@AP@307@31040@@Galileu Galilei@@68903753@Travessa@S@Tv Galileu Galilei
+688128@AP@307@31040@@Ramildo Neves Benicio@@68903754@Avenida@S@Av Ramildo N Benicio
+688129@AP@307@33114@@São Francisco de Assis@(Comunidade do Coração)@68909866@Rua@S@R S Francisco de Assis
+688130@AP@307@33114@@São Raimundo@(Comunidade do Coração)@68909867@Rua@S@R S Raimundo
+688131@AP@307@33114@@Jacira Silva@(Comunidade do Coração)@68909868@Rua@S@R Jacira Silva
+688132@AP@307@33114@@Professora Nelzarina Silva@(Comunidade do Coração)@68909869@Rua@S@R Prfa Nelzarina Silva
+688133@AP@307@33114@@Eugênia Damasceno@(Comunidade do Coração)@68909871@Rua@S@R Eugênia Damasceno
+688134@AP@307@33114@@Goiás@(Comunidade do Coração)@68909872@Travessa@S@Tv Goiás
+688135@AP@307@33114@@Santo Antônio@(Comunidade do Coração)@68909873@Travessa@S@Tv Sto Antônio
+688136@AP@307@33114@@São José@(Comunidade do Coração)@68909874@Travessa@S@Tv S José
+688137@AP@307@33114@@Julio Amaral@(Comunidade do Coração)@68909876@Travessa@S@Tv Julio Amaral
+688138@AP@307@33114@@São Benedito@(Comunidade do Coração)@68909877@Travessa@S@Tv S Benedito
+688139@AP@307@33114@@São Pedro@(Comunidade do Coração)@68909878@Travessa@S@Tv S Pedro
+694409@AP@307@229@@Reinaldo Damasceno@@68901348@Avenida@S@Av Reinaldo Damasceno
+694410@AP@307@52758@@Caripunas@@68903002@Rua@S@R Caripunas
+694411@AP@307@215@@Vasco da Gama@@68902006@Travessa@S@Tv Vasco da Gama
+694412@AP@307@52758@@Emanoel Souza da Silva@@68903003@Avenida@S@Av Emanoel S da Silva
+694413@AP@307@52758@@Graciliano da Silva Trindade@@68903004@Avenida@S@Av Graciliano da S Trindade
+694414@AP@307@52626@@Alice do Nascimento Pimentel@(Lot Prq Buritis)@68908801@Avenida@S@Av Alice do N Pimentel
+694415@AP@307@52626@@Antenor Epifânio Martins@(Lot Prq Buritis)@68908802@Avenida@S@Av Antenor E Martins
+694416@AP@307@52626@@Alzir da Silva Maia@(Lot Prq Buritis)@68908803@Avenida@S@Av Alzir da S Maia
+694417@AP@307@52626@@Uriel Sales Araújo@(Lot. Parque dos Buritis)@68908804@Avenida@S@Av Uriel S Araújo
+694418@AP@307@52626@@Francisco Felipe de Miranda@(Lot. Parque dos Buritis)@68908805@Avenida@S@Av Francisco F de Miranda
+694419@AP@307@52626@@João Candido Soares Filho@(Lot. Parque dos buritis)@68908806@Avenida@S@Av João C S Filho
+694420@AP@307@52626@@Marabá@(Lot.Parque dos Buritis)@68908808@Rua@S@R Marabá
+694421@AP@307@52626@@Santarém@(Lot. Parque dos Buritis)@68908809@Rua@S@R Santarém
+694422@AP@307@52626@@Maria de Fátima Ardase@(Lot. Parque dos Buritis)@68908810@Rua@S@R Maria de F Ardase
+694423@AP@307@52626@@Ubiracy Azevedo Picanço@(Lot.Parque dos Buritis)@68908811@Rua@S@R Ubiracy A Picanço
+694424@AP@307@52626@@Bertoldo Rosa Duarte@(Lot. Parque dos Buritis)@68908812@Rua@S@R Bertoldo R Duarte
+694425@AP@307@52626@@Raimundo Ramos da Silva@(Lot. Parque dos Buritris)@68908813@Rua@S@R Raimundo R da Silva
+694426@AP@307@52626@@Yasmin dos Santos Brito@(Lot. Parque dos Buritis)@68908814@Rua@S@R Yasmin dos Stos Brito
+694427@AP@307@52626@@Antonio Flexa da Costa@(Lot Prq Buritis)@68908815@Rua@S@R Antonio F da Costa
+694428@AP@307@52626@@Elionai Cesa da Silva@(Lot. Parque dos Buritis)@68908816@Rua@S@R Elionai C da Silva
+694429@AP@307@52626@@Pedro Rodrigues de Lima@(Lot.Parque dos Buritis)@68908817@Rua@S@R Pedro R de Lima
+694430@AP@307@229@@Pedro de Oliveira Gomes@@68901291@Avenida@S@Av Pedro de O Gomes
+694431@AP@307@218@@Evandro Carneiro de Melo@@68904328@Avenida@S@Av Evandro C de Melo
+694432@AP@307@229@@Israel Marques Sozinho@@68901347@Avenida@S@Av Israel M Sozinho
+694433@AP@307@230@@A@@68908465@Rua@S@R A
+694434@AP@307@230@@Vale Verde@@68908475@Passagem@S@Psg Vale Verde
+694435@AP@307@52626@@Porcina de Melo@(Lot. Infraero I)@68908892@Travessa@S@Tv Porcina de Melo
+694436@AP@307@52758@@João de Castro Sussuarana@@68903006@Avenida@S@Av João de C Sussuarana
+694437@AP@307@52758@@Maurício Trindade@@68903007@Avenida@S@Av Maurício Trindade
+694438@AP@307@52758@@Luis Carlos de Araújo Monteiro@@68903008@Rua@S@R Luis C de A Monteiro
+694439@AP@307@52758@@Mamedio Amaral da Silva@@68903009@Rua@S@R Mamedio A da Silva
+694440@AP@307@52758@@Antônio Martins da Silva@@68903012@Rua@S@R Antônio M da Silva
+694441@AP@307@215@@Maria José de Nazaré Ferreira Lima@@68902011@Avenida@S@Av Maria J de N F Lima
+694443@AP@307@52626@@Maria Cavalcante de Azevedo Picanço@(Lot. Infraero II)@68908076@Avenida@S@Av Maria C de A Picanço
+694444@AP@307@52626@@Roldão dos Santos Brito@(Lot. Infraero II)@68908077@Rua@S@R Roldão dos Stos Brito
+694445@AP@307@52626@@da Paz@(Lot. Infraero II)@68908078@Rua@S@R da Paz
+694446@AP@307@52626@@Santo Cristo@(Lot. Infraero II)@68908079@Rua@S@R Sto Cristo
+694447@AP@307@230@@Manoel Francisco de Souza@@68908415@Travessa@S@Tv Manoel F de Souza
+694448@AP@307@230@@José Viana@@68908425@Travessa@S@Tv José Viana
+694449@AP@307@230@@Caubi Melo@@68908435@Rua@S@R Caubi Melo
+694450@AP@307@230@@Luis Cezar Picanço@@68908455@Travessa@S@Tv Luis C Picanço
+694451@AP@307@30917@@Conteporânea@@68907015@Avenida@S@Av Conteporânea
+694452@AP@307@52626@@dos Morangos@(Lot. Açai)@68908847@Rua@S@R dos Morangos
+694453@AP@307@52626@@dos Cajus@(Lot. Açai)@68908839@Avenida@S@Av dos Cajus
+694455@AP@307@220@@da Luz@@68909027@Travessa@S@Tv da Luz
+694456@AP@307@220@@Leão Zagury@@68909028@Travessa@S@Tv Leão Zagury
+694457@AP@307@220@@Equatorial@@68909029@Travessa@S@Tv Equatorial
+694458@AP@307@220@@dos Emigrantes@@68909031@Travessa@S@Tv dos Emigrantes
+694459@AP@307@220@@Tricolor@@68909032@Travessa@S@Tv Tricolor
+694460@AP@307@230@@Luisa Picanço@@68908401@Rua@S@R Luisa Picanço
+694462@AP@307@52761@@Segunda das Oliveira@@68903128@Avenida@S@Av Segunda das Oliveira
+694463@AP@307@52626@@Djanira Mendonça Palheta@(Lot. Parque dos Buritis)@68908818@Rua@S@R Djanira M Palheta
+694464@AP@307@52626@@Maria Raucilene Passos do Nascimento@(Lot. Parque dos Buritis)@68908819@Rua@S@R Maria R P do Nascimento
+694465@AP@307@52626@@Francisco Francine Cavalcante@(Lot. Parque dos Buritis)@68908820@Rua@S@R Francisco F Cavalcante
+694466@AP@307@52626@@Agostinho Nogueira de Souza@(Lot Prq Buritis)@68908821@Rua@S@R Agostinho N de Souza
+694467@AP@307@229@@Doutor Silas Salgado@@68901346@Avenida@S@Av Dr Silas Salgado
+694468@AP@307@52758@@Caetes@@68903011@Avenida@S@Av Caetes
+694469@AP@307@225@@Cândido Portinari@@68901591@Travessa@S@Tv Cândido Portinari
+694470@AP@307@218@@Padre Rinaldo Bossi@@68904383@Avenida@S@Av Pe Rinaldo Bossi
+694471@AP@307@31040@@da Unifap@@68903436@Ramal@S@
+694472@AP@307@33121@@do Cupuaçu@@68909317@Rua@S@R do Cupuaçu
+694473@AP@307@52626@@da Biriba@(Lot. Moradas das Palmeiras)@68908784@Rua@S@R da Biriba
+694474@AP@307@52626@@do Cacau@(Lot. Morada das Palmeiras)@68908785@Rua@S@R do Cacau
+694475@AP@307@52626@@do Limão@(Lot. Moradas das Palmeiras)@68908790@Rua@S@R do Limão
+694476@AP@307@52626@@do Muruci@(Lot. Morada das Palmeiras)@68908792@Avenida@S@Av do Muruci
+694477@AP@307@52626@@do Açai@(Lot M Palmeiras)@68908795@Avenida@S@Av do Açai
+694478@AP@307@52626@@do Jabuticaba@(Lot. Moradas das Palmeiras)@68908789@Avenida@S@Av do Jabuticaba
+694479@AP@307@52626@@das Limas@(Lot. Moradas das Palmeiras)@68908791@Avenida@S@Av das Limas
+694480@AP@307@33121@@das Oliveiras@(Lot. Morada das Palmeiras)@68909659@Avenida@S@Av das Oliveiras
+694481@AP@307@52626@@dos Abacates@(Lot M Palmeiras)@68908779@Avenida@S@Av dos Abacates
+694482@AP@307@52626@@das Atas@(Lot. Morada das Palmeiras)@68908783@Avenida@S@Av das Atas
+694483@AP@307@52626@@das Uvas@(Lot. Morada das Palmeiras)@68908794@Avenida@S@Av das Uvas
+694484@AP@307@52626@@das Peras@(Lot. Morada das Palmeiras)@68908793@Avenida@S@Av das Peras
+694485@AP@307@52626@@dos Cajus@(Lot. Morada das Palmeiras)@68908787@Avenida@S@Av dos Cajus
+694486@AP@307@52626@@dos Figos@(Lot. Morada das Palmeiras)@68908788@Avenida@S@Av dos Figos
+694487@AP@307@52626@@Cacau@(Lot.M das Palmeiras)@68908786@Rua@S@R Cacau
+694488@AP@307@33121@@Bacabeira@@68909306@Rua@S@R Bacabeira
+694489@AP@307@33121@@Acerola@@68909305@Rua@S@R Acerola
+694490@AP@307@33121@@Tucumã@@68909335@Alameda@S@Al Tucumã
+694491@AP@307@33121@@Pinhal@@68909329@Avenida@S@Av Pinhal
+694492@AP@307@33121@@Caneleira@@68909313@Avenida@S@Av Caneleira
+694493@AP@307@33121@@Perobal@@68909328@Avenida@S@Av Perobal
+694494@AP@307@33121@@Açai@@68909304@Avenida@S@Av Açai
+694495@AP@307@33121@@Coqueiro@@68909315@Avenida@S@Av Coqueiro
+694496@AP@307@33121@@Jambeiro@@68909322@Avenida@S@Av Jambeiro
+694497@AP@307@33121@@Manga Rosa@@68909326@Avenida@S@Av Manga Rosa
+694498@AP@307@33121@@Cupuaçu@@68909316@Alameda@S@Al Cupuaçu
+694499@AP@307@33121@@Abil@@68909303@Alameda@S@Al Abil
+694500@AP@307@33121@@Graviola@@68909321@Alameda@S@Al Graviola
+694501@AP@307@33121@@Bom Jesus@@68909311@Alameda@S@Al Bom Jesus
+694502@AP@307@33121@@São José@@68909323@Alameda@S@Al S José
+694503@AP@307@33121@@Bacuri@@68909307@Alameda@S@Al Bacuri
+694504@AP@307@33121@@Siriguela@@68909333@Alameda@S@Al Siriguela
+694505@AP@307@33121@@Abacaxi@@68909302@Baixa@S@Bx Abacaxi
+694506@AP@307@33121@@Palmares@@68909327@Travessa@S@Tv Palmares
+694507@AP@307@33121@@Bananeira@@68909309@Avenida@S@Av Bananeira
+694508@AP@307@33121@@Seringal@@68909332@Avenida@S@Av Seringal
+694509@AP@307@33121@@Abacatal@@68909301@Avenida@S@Av Abacatal
+694510@AP@307@221@@Tantalita@(Cj. Redenção)@68903206@Travessa@S@Tv Tantalita
+694511@AP@307@221@@Turmalina@(Cj. Redenção)@68903207@Travessa@S@Tv Turmalina
+694512@AP@307@221@@Ametista@(Cj Redenção)@68903208@Travessa@S@Tv Ametista
+694513@AP@307@221@@Onix@(Cj. Redenção)@68903209@Travessa@S@Tv Onix
+694514@AP@307@218@@José Araguarino de Mont'Alverne@@68904398@Avenida@S@Av José A de Mont'Alverne
+694515@AP@307@31027@@Nossa Senhora das Neves@@68905015@Avenida@S@Av N Sra das Neves
+697799@AP@307@229@@Salgado Filho@- de 705/706 a 99998/99999@68901281@Avenida@S@Av Salgado Filho
+697800@AP@307@226@@José Jucá de Mont Alverne@@68908351@Travessa@S@Tv José J de M Alverne
+697801@AP@307@31027@@Nazaré@@68905450@Passagem@S@Psg Nazaré
+697802@AP@307@226@@São Benedito@@68908317@Rua@S@R S Benedito
+697803@AP@307@226@@Raimundo Souza Mesquita@@68908319@Avenida@S@Av Raimundo S Mesquita
+697804@AP@307@227@@da Maria Silva Chavier@(Conj. Habitacional da Kiár)@68905590@Avenida@S@Av da Maria S Chavier
+697805@AP@307@227@@Quarta@(Conj. Habitacional da Kiár)@68905580@Avenida@S@Av Quarta
+697806@AP@307@227@@Quinta@(Conj. Habitacional da Kiár)@68905620@Avenida@S@Av Quinta
+697807@AP@307@52614@@Mita Cordeiro@(Lot.Amazonas)@68909698@Rua@S@R Mita Cordeiro
+697808@AP@307@52614@@Progresso@(Lot. Amazonas)@68909699@Rua@S@R Progresso
+697809@AP@307@52614@@Figueiredo Teles@(Lot. Amazonas)@68909700@Rua@S@R Figueiredo Teles
+697810@AP@307@33114@@Beija Flores@(Lot. Habitacional Bella Ville)@68909862@Avenida@S@Av Beija Flores
+697811@AP@307@33114@@dos Guarás@(Lot. Habitacional Bella Ville)@68909863@Avenida@S@Av dos Guarás
+697812@AP@307@33114@@dos Tucanos@(Lot. Habitacional Bella Ville)@68909881@Avenida@S@Av dos Tucanos
+697813@AP@307@33114@@dos Papagaios@(Lot. Habitacional Bella Ville)@68909893@Avenida@S@Av dos Papagaios
+697814@AP@307@33114@@dos Pombos@(Lot. Habitacional Bella Ville)@68909894@Avenida@S@Av dos Pombos
+697815@AP@307@33114@@das Andorinhas@(Lot Hab B Ville)@68909896@Avenida@S@Av das Andorinhas
+697816@AP@307@33114@@dos Rouxinos@(Lot. Habitacional Bella Ville)@68909897@Avenida@S@Av dos Rouxinos
+697817@AP@307@33114@@dos Canários@(Lot. Habitacional Bella Ville)@68909898@Avenida@S@Av dos Canários
+697818@AP@307@227@@Primeira@(Conj. Habitacional da Kiár)@68905610@Avenida@S@Av Primeira
+697819@AP@307@227@@Segunda@(Conj. Habitacional da Kiár)@68905600@Avenida@S@Av Segunda
+697820@AP@307@52614@@Sem Denominação Vinte@(Loteamento Amazonas)@68909697@Avenida@S@Av Sem D Vinte
+697821@AP@307@52614@@Santo Espedito@(Lot.Amazonas)@68909701@Rua@S@R Sto Espedito
+697822@AP@307@30917@@Dezessete de Junho@(Lot. Vitoria do Renascer)@68907201@Rua@S@R Dezessete de Junho
+697823@AP@307@30917@@Progresso@(Lot. Vitoria do Renascer)@68907202@Rua@S@R Progresso
+697824@AP@307@30917@@Independência@(Lot. Vitoria do Renascer)@68907203@Rua@S@R Independência
+697825@AP@307@30917@@Liberdade@(Lot. Vitoria do Renascer)@68907204@Rua@S@R
+697826@AP@307@30917@@Sete de Setembro@(Lot. Vitoria do Renascer)@68907205@Rua@S@R Sete de Setembro
+697827@AP@307@30917@@Milagres@(Lot. Vitoria do Renascer)@68907206@Rua@S@R Milagres
+697828@AP@307@30917@@Raimunda Maria Albertina@(Lot. Vitoria do Renascer)@68907207@Avenida@S@Av Raimunda M Albertina
+697829@AP@307@52626@@Imaculada Conceição@(lot. Infraero II)@68908826@Rua@S@R Imac Conceição
+697830@AP@307@52626@@dos Ananais@(Lot Infraero II)@68908827@Rua@S@R dos Ananais
+697831@AP@307@52626@@Natecia Rosa da Silva@(Lot. Infraero II)@68908828@Rua@S@R Natecia R da Silva
+697832@AP@307@52626@@Redenção@(Lot. Infraero II)@68908829@Rua@S@R Redenção
+697833@AP@307@33121@@Cereja@@68909314@Alameda@S@Al Cereja
+697834@AP@307@230@@BR-156@@68908575@Rodovia@S@Rod BR-156
+697835@AP@307@230@@Santo Inácio de Loiola@@68908572@Travessa@S@Tv Sto Inácio de Loiola
+697836@AP@307@221@@das Margaridas@(Lot. Chefe Clodoaldo)@68903378@Avenida@S@Av das Margaridas
+697837@AP@307@221@@das Rosas@(Lot. Chefe Clodoaldo)@68903377@Avenida@S@Av das Rosas
+697838@AP@307@221@@das Orquídeas@(Lot. Chefe Clodoaldo)@68903376@Avenida@S@Av das Orquídeas
+697839@AP@307@221@@das Violetas@(Lot. Chefe Clodoaldo)@68903374@Avenida@S@Av das Violetas
+697840@AP@307@221@@das Ortências@(Lot. Chefe Clodoaldo)@68903373@Avenida@S@Av das Ortências
+697841@AP@307@221@@dos Girassois@(Lot. chefe Clodoaldo)@68903372@Rua@S@R dos Girassois
+697842@AP@307@221@@dos Lirios@(Lot. Chefe Clodoaldo)@68903371@Rua@S@R dos Lirios
+697843@AP@307@221@@dos Jasmins@(Lot. Chefe Clodoaldo)@68903369@Rua@S@R dos Jasmins
+697844@AP@307@221@@Assesap@(KM 05 da Rod. JK.)@68903368@Ramal@S@Ram Assesap
+697846@AP@307@33114@@dos Gaviões@(Lot. Habitacional Bella Ville)@68909879@Avenida@S@Av dos Gaviões
+697847@AP@307@33114@@dos Sabiás@(Lot. Habitacional Bella Ville)@68909864@Avenida@S@Av dos Sabiás
+697848@AP@307@33114@@dos Uirapurus@(Lot. Habitacional Bella Ville)@68909882@Avenida@S@Av dos Uirapurus
+697849@AP@307@33114@@dos Curiós@(Lot. Habitacional Bella Ville)@68909883@Avenida@S@Av dos Curiós
+697850@AP@307@33114@@dos Jaçanãs@(Lot Hab B Ville)@68909884@Avenida@S@Av dos Jaçanãs
+697851@AP@307@33114@@dos Pardais@(Lot. Habitacional Bella Ville)@68909886@Avenida@S@Av dos Pardais
+697852@AP@307@33114@@dos Maracanás@(Lot. Habitacional Bella Ville)@68909887@Avenida@S@Av dos Maracanás
+697853@AP@307@33114@@das Arirambas@(Lot. Habitacional Bella Ville)@68909888@Avenida@S@Av das Arirambas
+697854@AP@307@33114@@dos Juritis@(Lot Habitacional Bella Ville)@68909889@Avenida@S@Av dos Juritis
+697855@AP@307@31040@@do Rurap@(KM 08 da Rod. JK)@68903757@Ramal@S@Ram do Rurap
+697856@AP@307@33114@@dos Bem-te-vis@(Lot.Bella Ville)@68909892@Avenida@S@Av dos Bem-te-vis
+697857@AP@307@52614@@Itaquatiara@(Lot. Amazonas)@68909693@Avenida@S@Av Itaquatiara
+697858@AP@307@52614@@Parintins@(Lot. Amazonas)@68909694@Avenida@S@Av Parintins
+697859@AP@307@52614@@Amazonas@(Lot Amazonas)@68909695@Avenida@S@Av Amazonas
+697860@AP@307@52614@@Amapá@(Loteamento Amazonas)@68909696@Avenida@S@Av Amapá
+697861@AP@307@52614@@Salustiano Alves@(Lot. Amazonas)@68909702@Rua@S@R Salustiano Alves
+697862@AP@307@52614@@Rodrigues de Souza@(Lot. Amazonas)@68909703@Rua@S@R Rodrigues de Souza
+697863@AP@307@52614@@Neves da Luz@(Lot Amazonas)@68909704@Rua@S@R Neves da Luz
+697864@AP@307@33121@@Manacapuru@(Loteamento Amazonas)@68909325@Rua@S@R Manacapuru
+697865@AP@307@52614@@Fabio Cordeiro@(Lot.Amazonas)@68909706@Rua@S@R Fabio Cordeiro
+697866@AP@307@52614@@Manacapuru@(Loteamento Amazonas)@68909707@Rua@S@R Manacapuru
+697867@AP@307@52614@@Sem Denominação Onze@(Loteamento Amazonas)@68909708@Rua@S@R Sem D Onze
+697868@AP@307@52614@@Sem Denominação Doze@(Loteamento Amazonas)@68909709@Rua@S@R Sem D Doze
+697869@AP@307@52614@@Sem Denominação Treze@(Loteamento Amazonas)@68909710@Rua@S@R Sem D Treze
+697870@AP@307@52614@@Sem Denominação Quatorze@(Loteamento Amazonas)@68909711@Rua@S@R Sem D Quatorze
+697871@AP@307@52614@@Sem Denominação Quinze@(Loteamento Amazonas)@68909712@Rua@S@R Sem D Quinze
+697872@AP@307@52614@@Sem Denominação Vinte e Três@(Loteamento Amazonas)@68909713@Rua@S@R Sem D V E Três
+697873@AP@307@52614@@Amazonas@(Lot Amazonas)@68909714@Travessa@S@Tv Amazonas
+697874@AP@307@52614@@Sem Denominação Vinte e Um@(Loteamento Amazonas)@68909715@Travessa@S@Tv Sem D V E Um
+697875@AP@307@52626@@Acesso Um@(Lot M Palmeiras)@68908780@Via@S@V Acesso Um
+697876@AP@307@52626@@Acesso Principal@(Lot M Palmeiras)@68908782@Via@S@V Acesso Principal
+697877@AP@307@33104@@Local Três@(Lot. Parque Irmãos Platon)@68906838@Via@S@V Local Três
+697878@AP@307@49302@@Cinco de Outubro@@68904125@Travessa@S@Tv Cinco de Outubro
+697879@AP@307@231@@Rio Macacoari@@68901020@Rua@S@R Rio Macacoari
+697880@AP@307@231@@Rio Pedreira@@68901021@Rua@S@R Rio Pedreira
+697881@AP@307@231@@Rio Jupati@@68901121@Rua@S@R Rio Jupati
+697882@AP@307@33104@@Jaçanã@(Lot Parque Irmãos Platon)@68906811@Avenida@S@Av Jaçanã
+697883@AP@307@33104@@Bem-te-vi@(Lot.Irmãos Platon)@68906812@Avenida@S@Av Bem-te-vi
+697884@AP@307@33104@@Anabens@(Lot Prq I Platon)@68906813@Avenida@S@Av Anabens
+697885@AP@307@33104@@Norte Sul@(Lot. Parque Irmãos Platon)@68906814@Avenida@S@Av Norte Sul
+697886@AP@307@33104@@Beija Flor@(Lot. Parque Irmãos Platon)@68906815@Rua@S@R Beija Flor
+697887@AP@307@33104@@A.@(Lot Prq I Platon)@68906816@Alameda@S@Al A.
+697888@AP@307@33104@@Arara Azul@(Lot. Parque irmãos Platon)@68906818@Travessa@S@Tv Arara Azul
+697889@AP@307@33104@@B@(Lot. Parque Irmãos Platon)@68906819@Alameda@S@Al B
+697890@AP@307@33104@@dos Guarás@(Lot. Parque Irmãos Platon)@68906820@Travessa@S@Tv dos Guarás
+697891@AP@307@33104@@Segunda@(Lot. Parque Irmãos Platon)@68906821@Rua@S@R Segunda
+697892@AP@307@33104@@C@(Lot Prq I Platon)@68906822@Alameda@S@Al C
+697893@AP@307@33104@@Tucanos@(Lot. Parque Irmãos Platon)@68906823@Travessa@S@Tv Tucanos
+697894@AP@307@33104@@Pavão@(Lot. Parque Irmão Platon)@68906824@Travessa@S@Tv Pavão
+697895@AP@307@33104@@Terceira@(Lot. Parque Irmãos Platon)@68906825@Rua@S@R Terceira
+697896@AP@307@33104@@D@(Lot. Parque Irmãos Platon)@68906826@Alameda@S@Al D
+697897@AP@307@33104@@Terceira@(Lot. Parque Irmãos Platon)@68906827@Travessa@S@Tv Terceira
+697898@AP@307@33104@@Quarta@(Lot. Parque Irmãos Platon)@68906828@Travessa@S@Tv Quarta
+697899@AP@307@33104@@Quarta@(Lot. Parque Irmãos Platon)@68906829@Rua@S@R Quarta
+697900@AP@307@33104@@Quinta@(Lot. Parque Irmãos Platon)@68906830@Travessa@S@Tv Quinta
+697901@AP@307@33104@@Quinta@(Lot. Parque Irmãos Platon)@68906831@Rua@S@R Quinta
+697902@AP@307@33104@@Rio Araguari@(Lot. Parque Irmãos Platon)@68906832@Rua@S@R Rio Araguari
+697903@AP@307@33104@@Sem Denominação 01@(Lot. Parque Irmãos Platon)@68906833@Avenida@S@Av Sem Denominação 01
+697904@AP@307@33104@@Local Um@(Lot. Parque Irmãos Platon)@68906834@Via@S@V Local Um
+697905@AP@307@33104@@Local Dois@(Lot. Parque Irmãos Platon)@68906835@Via@S@V Local Dois
+697906@AP@307@33104@@Local Dez@(Lot. Parque Irmãos Platon)@68906836@Via@S@V Local Dez
+697907@AP@307@33104@@Local Onze@(Lot. Parque Irmãos Platon)@68906837@Via@S@V Local Onze
+697908@AP@307@33104@@Curiau@(Conj. Habitacional Cabrazinho)@68906839@Alameda@S@Al Curiau
+697909@AP@307@33104@@das Araras@(Lot. Parque Irmãos Platon)@68906809@Rua@S@R das Araras
+697910@AP@307@33104@@Local Seis@(Lot. Parque Irmãos Platon)@68906808@Via@S@V Local Seis
+697911@AP@307@33104@@Local Sete@(Lot. Parque Irmãos Platon)@68906807@Via@S@V Local Sete
+697912@AP@307@33104@@Local Oito@(Lot. Parque Irmãos Platon)@68906806@Via@S@V Local Oito
+697913@AP@307@31040@@da Unifap@(KM 02 da Rod,  JK.)@68903758@Ramal@S@Ram da Unifap
+697914@AP@307@31040@@Padre Vitório Galiane@(KM 05 da Rod. JK)@68903759@Ramal@S@Ram Pe Vitório Galiane
+697915@AP@307@221@@JK@( KM 06 da Rod. JK.)@68903367@Ramal@S@Ram JK
+697916@AP@307@221@@das Benções@(km 06 da Rod JK)@68903388@Ramal@S@Ram das Benções
+697917@AP@307@221@@Bom Jesus@@68903389@Ramal@S@Ram Bom Jesus
+697918@AP@307@31040@@Eurico Gaspar@(KM 02 da Rod. JK.)@68903489@Ramal@S@Ram Eurico Gaspar
+697919@AP@307@31040@@dos Promotores@(KM 04 da Rod. JK.)@68903491@Ramal@S@Ram dos Promotores
+701558@AP@307@223@@Padre Manoel da Nóbrega@- até 799/800@68908196@Avenida@S@Av Pe Manoel da Nóbrega
+701559@AP@307@222@@Padre Manoel da Nóbrega@- de 810/811 ao fim@68900062@Avenida@S@Av Pe Manoel da Nóbrega
+701560@AP@307@228@@Pedro Lazarino@- até 151/152@68901541@Avenida@S@Av Pedro Lazarino
+701561@AP@307@49302@@Primeiro de Maio@- de 2200/2201 ao fim@68904814@Avenida@S@Av Primeiro de Maio
+701562@AP@307@229@@Professor Tostes@- de 2250/2251 a 2599/2600@68901316@Rua@S@R Prf Tostes
+701563@AP@307@223@@José Antônio Siqueira@- até 859/860@68908194@Avenida@S@Av José A Siqueira
+701564@AP@307@222@@José Antônio Siqueira@- de 870/871 ao fim@68908193@Avenida@S@Av José A Siqueira
+701565@AP@307@52758@@Juscelino Kubitschek@- de 223 a 1551 - lado ímpar@68903014@Rodovia@S@Rod Juscelino Kubitschek
+701566@AP@307@221@@Juscelino Kubitschek@- até 1660 - lado par@68903197@Rodovia@S@Rod Juscelino Kubitschek
+701567@AP@307@31040@@Juscelino Kubitschek@- de 1670/1671 ao fim@68903419@Rodovia@S@Rod Juscelino Kubitschek
+701568@AP@307@223@@Ana Nery@- de 179/180 a 1297/1298@68908153@Avenida@S@Av Ana Nery
+701569@AP@307@222@@Ana Nery@- de 1299/1300 ao fim@68908129@Avenida@S@Av Ana Nery
+701570@AP@307@228@@Caramuru@- até 55/56@68901542@Avenida@S@Av Caramuru
+701571@AP@307@49302@@Claudomiro de Moraes@- até 1794/1795@68904001@Rua@S@R Claudomiro de Moraes
+701572@AP@307@218@@Claudomiro de Moraes@- de 1796/1797 ao fim@68904326@Rua@S@R Claudomiro de Moraes
+701573@AP@307@223@@Ernestino Borges@- até 1269/1270@68908198@Avenida@S@Av Ernestino Borges
+701574@AP@307@222@@Ernestino Borges@- de 1300/1301 ao fim@68908197@Avenida@S@Av Ernestino Borges
+701575@AP@307@223@@Pedro Américo@- de 820/821 ao fim@68908751@Avenida@S@Av Pedro Américo
+701576@AP@307@217@@Tiradentes@@68900098@Rua@S@R Tiradentes
+701577@AP@307@48601@@Djalma Nascimento@@68903743@Rua@S@R Djalma Nascimento
+701578@AP@307@48601@@Inspetor Miguel Amorim@- até 1558/1559@68903431@Rua@S@R Insp Miguel Amorim
+701579@AP@307@31040@@Inspetor Miguel Amorim@- de 1578/1579 ao fim@68903517@Rua@S@R Insp Miguel Amorim
+701580@AP@307@48601@@Vicente Raimundo Alves@- até 1996/1997@68903432@Rua@S@R Vicente R Alves
+701581@AP@307@31040@@Vicente Raimundo Alves@- de 2002/2003 ao fim@68903518@Rua@S@R Vicente R Alves
+701583@AP@307@217@@Pedro Baião@- até 1869/1870@68900116@Avenida@S@Av Pedro Baião
+701584@AP@307@48601@@Zéca Serra@- até 1515/1516@68903742@Rua@S@R Zéca Serra
+701585@AP@307@31040@@Zéca Serra@- de 1526/1527 ao fim@68903499@Rua@S@R Zéca Serra
+701586@AP@307@217@@Salgado Filho@- até 699/700@68900032@Avenida@S@Av Salgado Filho
+701587@AP@307@31019@@Glicério de Souza Figueredo@@68909821@Avenida@S@Av Glicério de S Figueredo
+701588@AP@307@228@@José Trajano de Souza@@68901543@Travessa@S@Tv José T de Souza
+701589@AP@307@228@@Oscár Santos@@68901544@Travessa@S@Tv Oscár Santos
+701590@AP@307@48601@@Sergio Pinheiro@@68903253@Alameda@S@Al Sergio Pinheiro
+701591@AP@307@48601@@Alexandrina@@68903254@Alameda@S@Al Alexandrina
+701592@AP@307@218@@Manoel Ferreira da Silva@@68904665@Rua@S@R Manoel F da Silva
+701593@AP@307@49302@@Raimundo Antônio Machado@@68904036@Rua@S@R Raimundo A Machado
+701594@AP@307@218@@K. Golveia@@68904037@Travessa@S@Tv K. Golveia
+701595@AP@307@224@@S do Sena@@68902321@Passagem@S@Psg S do Sena
+701596@AP@307@224@@do L@@68902322@Passagem@S@Psg do L
+701597@AP@307@224@@Alvaro de Azevedo@@68902323@Passagem@S@Psg Alvaro de Azevedo
+701598@AP@307@224@@Rui Barbosa@@68902324@Passagem@S@Psg Rui Barbosa
+701599@AP@307@224@@Rosa Cruz@@68902286@Travessa@S@Tv Rosa Cruz
+701600@AP@307@224@@Primeira da Remo Amoras@@68902287@Travessa@S@Tv Primeira da R Amoras
+701601@AP@307@49302@@Segunda de Moraes@@68904031@Travessa@S@Tv Segunda de Moraes
+701602@AP@307@49302@@Primeira de Moraes@@68904032@Travessa@S@Tv Primeira de Moraes
+701603@AP@307@33114@@Nona@@68906514@Rua@S@R Nona
+701604@AP@307@33104@@do Goiabal@@68906711@Travessa@S@Tv do Goiabal
+701605@AP@307@33104@@da Fortaleza@@68906891@Ramal@S@Ram da Fortaleza
+701606@AP@307@33104@@Lagoas das Garças@@68906892@Ramal@S@Ram Lagoas das Garças
+701607@AP@307@33114@@Três@@68906503@Avenida@S@Av Três
+701608@AP@307@214@@Pastor Otoniel Alencar@@68906641@Rua@S@R Pst Otoniel Alencar
+701609@AP@307@214@@Manoel Bezerra Barbosa@@68906642@Rua@S@R Manoel B Barbosa
+701610@AP@307@214@@Maurício Pacifico Cantuária@@68906643@Travessa@S@Tv Maurício P Cantuária
+701611@AP@307@214@@Ilha Mirim@@68906646@Rua@S@R Ilha Mirim
+701612@AP@307@214@@Dezesseis@@68906647@Via@S@V Dezesseis
+701613@AP@307@214@@Alvorada@@68906648@Travessa@S@Tv Alvorada
+701614@AP@307@214@@Padre Luis David@@68906649@Travessa@S@Tv Pe Luis David
+701615@AP@307@35372@@Primavera@@68903782@Passagem@S@Psg Primavera
+701616@AP@307@35372@@Maridiana do Norte@@68903783@Passagem@S@Psg Maridiana do Norte
+701617@AP@307@35372@@Meridional@@68903784@Passagem@S@Psg Meridional
+701618@AP@307@35372@@Adelson@@68903785@Passagem@S@Psg Adelson
+701619@AP@307@35372@@Tiza@@68903786@Passagem@S@Psg Tiza
+701620@AP@307@35372@@Eli Dutra@@68903787@Passagem@S@Psg Eli Dutra
+701621@AP@307@52758@@Grasiliano da Silva Trindade@@68903013@Avenida@S@Av Grasiliano da S Trindade
+701622@AP@307@52761@@da CPA@@68903132@Alameda@S@Al da CPA
+701623@AP@307@52761@@Nova das Pedrinhas@@68903133@Rua@S@R Nova das Pedrinhas
+701624@AP@307@225@@Terceiro Bis@@68901592@Passagem@S@Psg Terceiro Bis
+701625@AP@307@224@@Quinta da Tupis@@68902316@Travessa@S@Tv Quinta da Tupis
+701626@AP@307@224@@Remo Amoras de Oliveira@@68902317@Rua@S@R Remo A de Oliveira
+701627@AP@307@224@@Vila Lobos@@68902318@Passagem@S@Psg Vila Lobos
+701628@AP@307@228@@Elpidio Magalhães Carvalho@@68901511@Avenida@S@Av Elpidio M Carvalho
+701629@AP@307@216@@Terceira@(Conj.Habt.Hospital de Base)@68902756@Rua@S@R Terceira
+701630@AP@307@216@@Sexta@(Conj. Habt. Hospital de Base)@68902757@Rua@S@R Sexta
+701631@AP@307@216@@Tupiniquins@(Conj. Habt. Hospital de Base)@68902758@Avenida@S@Av Tupiniquins
+701632@AP@307@229@@Monteiro Lobato@- até 97/98@68901301@Rua@S@R Monteiro Lobato
+701633@AP@307@216@@Monteiro Lobato@- de 100/101 ao fim@68902759@Rua@S@R Monteiro Lobato
+701634@AP@307@48601@@Inspetor Antõnio de Oliveira@- até 1593/1594@68903744@Rua@S@R Insp Antõnio de Oliveira
+701635@AP@307@31040@@Inspetor Antõnio de Oliveira@- de 1595/1596 ao fim@68903498@Rua@S@R Insp Antõnio de Oliveira
+701636@AP@307@35372@@Castanhal@@68903876@Passagem@S@Psg Castanhal
+701637@AP@307@35372@@das Graças@@68903877@Passagem@S@Psg das Graças
+701638@AP@307@35372@@Marisol@@68903878@Passagem@S@Psg Marisol
+701639@AP@307@35372@@Maridional@@68903879@Alameda@S@Al Maridional
+701640@AP@307@35372@@Meridional do Norte@@68903881@Alameda@S@Al Meridional do Norte
+701641@AP@307@221@@Primeira do Seringal@(Loteamento Seringal)@68903358@Rua@S@R Primeira do Seringal
+701642@AP@307@221@@Segunda do Seringal@(Loteamento Seringal)@68903359@Rua@S@R Segunda do Seringal
+701643@AP@307@33114@@Quatro@@68906502@Avenida@S@Av Quatro
+701644@AP@307@33114@@São Lázaro@(Comunidade do Coração)@68906521@Avenida@S@Av S Lázaro
+701645@AP@307@33114@@Benedito Costa@(Comunidade do Coração.)@68906520@Avenida@S@Av Benedito Costa
+701646@AP@307@33114@@Nove@@68906519@Rua@S@R Nove
+701647@AP@307@33114@@Dez@@68906518@Rua@S@R Dez
+701648@AP@307@31040@@Walter Banho@@68903516@Avenida@S@Av Walter Banho
+701649@AP@307@35372@@Nazaré@@68903788@Passagem@S@Psg Nazaré
+701650@AP@307@35372@@Liberdade@@68903789@Passagem@S@Psg Liberdade
+701651@AP@307@35372@@Marisol II@@68903790@Passagem@S@Psg Marisol II
+701652@AP@307@35372@@Malafaia@@68903791@Passagem@S@Psg Malafaia
+701653@AP@307@35372@@Equatorial@@68903792@Passagem@S@Psg Equatorial
+701654@AP@307@35372@@Graças@@68903793@Passagem@S@Psg Graças
+701655@AP@307@35372@@Santo Antônio@@68903794@Passagem@S@Psg Sto Antônio
+701656@AP@307@221@@Antônia Maria de Souza@(Cj Redenção)@68903256@Rua@S@R Antônia M de Souza
+701657@AP@307@221@@Vicente Duarte@(Cj. Redenção)@68903257@Avenida@S@Av Vicente Duarte
+701658@AP@307@221@@Josefa dos Santos@(CJ. Redenção)@68903258@Avenida@S@Av Josefa dos Santos
+701659@AP@307@221@@Lampião@(Cj. Redenção)@68903259@Avenida@S@Av Lampião
+701660@AP@307@221@@Jacinto Lobato@(Cj. Redenção)@68903261@Avenida@S@Av Jacinto Lobato
+701661@AP@307@217@@Rio Maracá@@68900091@Avenida@S@Av Rio Maracá
+701662@AP@307@217@@Rio Vila Nova@@68900092@Avenida@S@Av Rio V Nova
+701663@AP@307@217@@Rio Matapi@@68900093@Avenida@S@Av Rio Matapi
+701664@AP@307@217@@Rio Tocantins@@68900094@Rua@S@R Rio Tocantins
+701665@AP@307@228@@Oscar Santos@@68901481@Travessa@S@Tv Oscar Santos
+701666@AP@307@228@@Mucajá@@68901482@Rua@S@R Mucajá
+701667@AP@307@228@@do Mucajá@@68901483@Passarela@S@Psa do Mucajá
+701668@AP@307@228@@do Mucajá@@68901484@Passagem@S@Psg do Mucajá
+701669@AP@307@228@@Santa Inês@@68901485@Rua@S@R Sta Inês
+701670@AP@307@228@@José Trajano@@68901486@Travessa@S@Tv José Trajano
+701671@AP@307@228@@Acelino de Leão@@68901487@Passarela@S@Psa Acelino de Leão
+701672@AP@307@222@@Ponte do Axé@@68908128@Passagem@S@Psg Ponte do Axé
+701673@AP@307@221@@Redenção@(Cj.Redenção)@68903204@Rua@S@R Redenção
+701674@AP@307@227@@Rio Tefé@@68905510@Rua@S@R Rio Tefé
+701675@AP@307@227@@Rio Purus@@68905650@Passagem@S@Psg Rio Purus
+701676@AP@307@227@@Rio Parú@@68905660@Passagem@S@Psg Rio Parú
+701677@AP@307@31040@@do Malha@@68903492@Passagem@S@Psg do Malha
+701678@AP@307@31040@@Professora Neuzona@@68903493@Travessa@S@Tv Prfa Neuzona
+701679@AP@307@31040@@Araguaia@@68903494@Travessa@S@Tv Araguaia
+701680@AP@307@31040@@Gruta@@68903496@Passagem@S@Psg Gruta
+701681@AP@307@48601@@Luis Azarias Neto@- até 1541/1542@68903741@Rua@S@R Luis A Neto
+701682@AP@307@31040@@Luis Azarias Neto@- de 1612/1613 ao fim@68903519@Rua@S@R Luis A Neto
+701684@AP@307@49302@@Segunda de Moraes@@68904034@Avenida@S@Av Segunda de Moraes
+701685@AP@307@49302@@Antônio Ferreira de Jesus@(Cj. Cuba de Asfalto)@68904811@Travessa@S@Tv Antônio F de Jesus
+701686@AP@307@49302@@Treze de Setembro@(Cj. Cuba de Asfalto)@68904809@Passagem@S@Psg Treze de Setembro
+701687@AP@307@218@@Manoel Ferreira da Silva@@68904344@Travessa@S@Tv Manoel F da Silva
+701688@AP@307@52761@@D@(Red. San Marino)@68903116@Rua@S@R D
+701689@AP@307@52761@@F@(Res San Marino)@68903117@Rua@S@R F
+701690@AP@307@52761@@E@(Red. San Marino)@68903118@Rua@S@R E
+701691@AP@307@49302@@Trinta de Julho@(Conj. Hab. Laurindo Banha)@68904591@Avenida@S@
+701692@AP@307@49302@@Quinze de Julho@(Coj. Hab. Laurindo Banha)@68904592@Avenida@S@
+701693@AP@307@49302@@K Gouveia@@68904039@Passagem@S@Psg K Gouveia
+701694@AP@307@217@@Francisco Serrano@@68900097@Alameda@S@Al Francisco Serrano
+701695@AP@307@221@@Terceira do Seringal@(Lot. do Seringal)@68903360@Rua@S@R Terceira do Seringal
+701696@AP@307@33114@@das Gaivota@(Lot. Habitacional Bella Ville)@68906529@Rua@S@R das Gaivota
+701697@AP@307@33114@@das Araras@(Lot. Habitacional Bella Ville)@68906528@Rua@S@R das Araras
+701698@AP@307@33114@@das Garças@(Lot. Habitacional Bella Ville)@68906527@Rua@S@R das Garças
+701699@AP@307@33114@@das Marrecos@(Lot. Habitacional Bella Ville)@68906526@Rua@S@R das Marrecos
+701700@AP@307@33114@@dos Picapaus@(Lpt. Habitacional Bella Ville)@68906524@Rua@S@R dos Picapaus
+701701@AP@307@33114@@São Sebastião@(Comunidade do Coração)@68906523@Avenida@S@Av S Sebastião
+701702@AP@307@33114@@São João@(Comunidade do Coração)@68906522@Avenida@S@Av S João
+706281@AP@307@224@@Manoel Eudóxio Pereira@- de 3800/3801 ao fim@68902001@Rua@S@R Manoel E Pereira
+706282@AP@307@227@@Marcílio Dias@- até 158/159@68905592@Avenida@S@Av Marcílio Dias
+706283@AP@307@227@@Raimundo Ramos dos Santos@- até 989/990@68905724@Rua@S@R Raimundo R dos Santos
+706284@AP@307@31027@@Raimundo Ramos dos Santos@- de 1200/1201 ao fim@68905261@Rua@S@R Raimundo R dos Santos
+706285@AP@307@31027@@do Jandiá@- até 3034/3035@68905420@Canal@S@Can do Jandiá
+706286@AP@307@230@@do Jandiá@- de 3040/3041 ao fim@68908481@Canal@S@Can do Jandiá
+706287@AP@307@227@@José Furtado de Oliveira@- até 999/1000@68905751@Rua@S@R José F de Oliveira
+706288@AP@307@31027@@José Furtado de Oliveira@- de 1200/1201 ao fim@68905422@Rua@S@R José F de Oliveira
+706289@AP@307@227@@José Tavares de Almeida@- até 949/950@68905741@Rua@S@R José T de Almeida
+706290@AP@307@31027@@José Tavares de Almeida@- de 1200/1201 ao fim@68905240@Rua@S@R José T de Almeida
+706291@AP@307@227@@Ana Nery@- até 177/178@68905712@Avenida@S@Av Ana Nery
+706292@AP@307@227@@Antônio Pelais de Souza@- até 508/509@68905771@Rua@S@R Antônio P de Souza
+706293@AP@307@31027@@Antônio Pelais de Souza@- de 510/511 ao fim@68905209@Rua@S@R Antônio P de Souza
+706294@AP@307@227@@Raul Clemente Paulo Callins@- até 999/1000@68905761@Rua@S@R Raul C P Callins
+706295@AP@307@31027@@Raul Clemente Paulo Callins@- de 1200/1201 ao fim@68905222@Rua@S@R Raul C P Callins
+706296@AP@307@227@@Santo Agostinho@@68905850@Passagem@S@Psg Sto Agostinho
+706297@AP@307@227@@João Alberto Capiberibe@@68905870@Passagem@S@Psg João A Capiberibe
+706298@AP@307@227@@Santa Marta@@68905880@Passagem@S@Psg Sta Marta
+706299@AP@307@227@@Raimundo Ramos dos Passos@@68905890@Passagem@S@Psg Raimundo R dos Passos
+706300@AP@307@31027@@Sexta da Baixada do Japonês@@68905290@Rua@S@R Sexta da B do Japonês
+706301@AP@307@31027@@Sétima da Baixada do Japonês@@68905300@Rua@S@R Sétima da B do Japonês
+706302@AP@307@31027@@Ulisses Guimarães@@68905350@Passagem@S@Psg Ulisses Guimarães
+706303@AP@307@31027@@Flor do Campo@@68905360@Passagem@S@Psg Flor do Campo
+706304@AP@307@31027@@Girassol@@68905370@Passagem@S@Psg Girassol
+706305@AP@307@31027@@Lirios do Campo@@68905380@Passagem@S@Psg Lirios do Campo
+706306@AP@307@31027@@Margaridas@@68905390@Passagem@S@Psg Margaridas
+706307@AP@307@31027@@das Carmelias@@68905400@Passagem@S@Psg das Carmelias
+706308@AP@307@31027@@São Benedito@@68905460@Travessa@S@Tv S Benedito
+706309@AP@307@31027@@Santa Clara@@68905470@Rua@S@R Sta Clara
+706310@AP@307@31027@@Rosa Menina@@68905440@Passagem@S@Psg Rosa Menina
+706311@AP@307@220@@São Cristovão@@68909076@Travessa@S@Tv S Cristovão
+706312@AP@307@227@@Antonio Pereira da Costa Sousa@@68905515@Rua@S@R Antonio P da C Sousa
+706313@AP@307@227@@Doutor Walter da Silva Pacheco@@68905525@Rua@S@R Dr Walter da S Pacheco
+706314@AP@307@227@@Rio Negro@@68905535@Passagem@S@Psg Rio Negro
+706315@AP@307@227@@Rio Jari@@68905545@Passagem@S@Psg Rio Jari
+706316@AP@307@227@@Rio Xingu@@68905555@Passagem@S@Psg Rio Xingu
+706317@AP@307@227@@Nações Unidas@@68905565@Passagem@S@Psg Nações Unidas
+706318@AP@307@227@@Hugo Alves Pinto@@68905575@Passagem@S@Psg Hugo A Pinto
+706319@AP@307@227@@Ana Nery@@68905585@Passagem@S@Psg Ana Nery
+706320@AP@307@227@@São José@@68905595@Passagem@S@Psg S José
+706321@AP@307@227@@Nossa Senhora do Perpétuo Socorro@@68905605@Passagem@S@Psg N Sra do Perpétuo Socorro
+706322@AP@307@227@@Nossa Senhora de Fátima@@68905615@Passagem@S@Psg N Sra de Fátima
+706323@AP@307@31027@@Primeira da Turibio@@68905410@Passagem@S@Psg Primeira da Turibio
+706324@AP@307@227@@Nossa Senhora da Conceição@@68905625@Passagem@S@Psg N Sra da Conceição
+706325@AP@307@227@@Santa Terezinha@@68905635@Passagem@S@Psg Sta Terezinha
+706326@AP@307@227@@Beira Rio@@68905780@Rua@S@R Beira Rio
+706327@AP@307@31019@@Paulo do Espirito Santo Silva@- até 2349/2350@68909838@Avenida@S@Av Paulo do E Sto Silva
+706328@AP@307@220@@Paulo do Espirito Santo Silva@- de 2480/2481 a 3099/3100@68909066@Avenida@S@Av Paulo do E Sto Silva
+706329@AP@307@220@@Geriba Almeida de Azevedo Costa@- até 1529/1530@68909822@Avenida@S@Av Geriba A de A Costa
+706330@AP@307@220@@Geriba Almeida de Azevedo Costa@- de 2600/2601 ao fim@68909081@Avenida@S@Av Geriba A de A Costa
+706331@AP@307@49587@@Antônio Mota Bastos@@68911135@Rua@S@R Antônio M Bastos
+706332@AP@307@49587@@Raimundo Gomes@@68911145@Rua@S@R Raimundo Gomes
+706333@AP@307@49587@@Vila Operária@@68911153@Rua@S@R Vila Operária
+706334@AP@307@49587@@Vila Operária@@68911150@Passagem@S@Psg Vila Operária
+706335@AP@307@49587@@Dona Márcia@@68911155@Passagem@S@Psg Da Márcia
+706336@AP@307@49587@@Manoel Chaves de Melo@@68911158@Avenida@S@Av Manoel C de Melo
+706337@AP@307@49587@@do Mini Polo@@68911160@Ramal@S@Ram do Mini Polo
+706338@AP@307@49588@@Jose Maria Gonçalves Leão@@68911355@Avenida@S@Av Jose M G Leão
+706339@AP@307@49588@@do Goiaba@@68911360@Travessa@S@Tv do Goiaba
+706340@AP@307@49588@@José Maria da Silva Nunes@@68911365@Avenida@S@Av José M da S Nunes
+706341@AP@307@49588@@Arnaldo de Almeida Rodrigues@@68911370@Travessa@S@Tv Arnaldo de A Rodrigues
+706342@AP@307@49588@@Raimunda Apolinária@@68911380@Avenida@S@Av Raimunda Apolinária
+706343@AP@307@49588@@Sexta@@68911375@Avenida@S@Av Sexta
+706344@AP@307@49588@@Lucio Neves de Almeida@@68911385@Travessa@S@Tv Lucio N de Almeida
+706345@AP@307@49587@@Oitava@(Cj Res alfaville)@68911025@Rua@S@R Oitava
+706346@AP@307@49587@@Nona@(Cj Res Alfaville)@68911030@Rua@S@R Nona
+706347@AP@307@49587@@F@(Cj Res Alfaville)@68911035@Rua@S@R F
+706348@AP@307@49587@@Rio Amazonas@(Cj Res Alfaville)@68911040@Avenida@S@Av Rio Amazonas
+706349@AP@307@49587@@Rio Araguaia@(Cj Res Alfaville)@68911045@Avenida@S@Av Rio Araguaia
+706350@AP@307@49587@@Rio Pedreira@(Cj Res Alfaville)@68911050@Avenida@S@Av Rio Pedreira
+706351@AP@307@49587@@Décima Segunda@(Cj Res Alfaville)@68911071@Avenida@S@Av Décima Segunda
+706352@AP@307@49587@@Rio Bonito@(Cj Res Alfaville)@68911055@Avenida@S@Av Rio Bonito
+706353@AP@307@49587@@Rio Oiapoque@(Cj Res Alfaville)@68911065@Avenida@S@Av Rio Oiapoque
+706354@AP@307@49587@@Décima Nona@(Cj Res Alfaville)@68911070@Avenida@S@Av Décima Nona
+706355@AP@307@49587@@Polo Hortefrute@@68911075@Ramal@S@Ram Polo Hortefrute
+706356@AP@307@49587@@do Matadouro@@68911080@Rua@S@R do Matadouro
+706357@AP@307@49587@@Salvador Diniz@@68911005@Avenida@S@Av Salvador Diniz
+706358@AP@307@49587@@Bela Vista@@68911090@Travessa@S@Tv Bela Vista
+706359@AP@307@49587@@Santa Terezinha@@68911095@Avenida@S@Av Sta Terezinha
+706360@AP@307@49587@@Caetano Dias Tomaz@@68911105@Rua@S@R Caetano D Tomaz
+706361@AP@307@49587@@Catarina Madureira@@68911100@Avenida@S@Av Catarina Madureira
+706362@AP@307@49587@@José Borges dos Santos@@68911165@Avenida@S@Av José B dos Santos
+706363@AP@307@49587@@Sábino Nobre Borges@@68911115@Avenida@S@Av Sábino N Borges
+706364@AP@307@49587@@Maria de Oliveira Santana@@68911120@Avenida@S@Av Maria de O Santana
+706365@AP@307@49587@@da Fazendinha@@68911125@Avenida@S@Av da Fazendinha
+706366@AP@307@49587@@Vicente Brandão@@68911130@Avenida@S@Av Vicente Brandão
+706367@AP@307@222@@Julião Ramos@@68908110@Travessa@S@Tv Julião Ramos
+706368@AP@307@226@@Pará@@68908265@Travessa@S@Tv Pará
+706369@AP@307@226@@Goiás@@68908305@Passagem@S@Psg Goiás
+706370@AP@307@226@@do Jandiá@@68908389@Passagem@S@Psg do Jandiá
+706371@AP@307@30917@@Atenas@@68907611@Alameda@S@Al Atenas
+706372@AP@307@226@@Terceira da Rodovia do Pacoval@@68908276@Travessa@S@Tv Terceira da R do Pacoval
+706373@AP@307@30917@@Pompéia@@68907612@Alameda@S@Al Pompéia
+706374@AP@307@30917@@Pergamo@@68907613@Alameda@S@Al Pergamo
+706375@AP@307@30917@@Samaria@@68907614@Rua@S@R Samaria
+706376@AP@307@31040@@Água Viva@@68903497@Travessa@S@Tv Água Viva
+706377@AP@307@227@@Acesio Guedes@@68905695@Passagem@S@Psg Acesio Guedes
+706378@AP@307@227@@Raimundo Ramos dos Passos@@68905700@Rua@S@R Raimundo R dos Passos
+706379@AP@307@227@@Primeira José do Espírito Santo@@68905705@Passagem@S@Psg Primeira J do E Santo
+706380@AP@307@227@@Acesio Guedes@- até 1147/1148@68905711@Rua@S@R Acesio Guedes
+706381@AP@307@31027@@Acesio Guedes@- de 1200/1201 ao fim@68905271@Rua@S@R Acesio Guedes
+706382@AP@307@227@@Segunda do Espírito Santo@@68905715@Passagem@S@Psg Segunda do E Santo
+706383@AP@307@227@@Terceira José do Espírito Santo@@68905725@Passagem@S@Psg Terceira J do E Santo
+706384@AP@307@227@@Turibio Orivaldo Guimarães@- até 999/1000@68905731@Rua@S@R Turibio O Guimarães
+706385@AP@307@31027@@Turibio Orivaldo Guimarães@- de 1200/1201 ao fim@68905251@Rua@S@R Turibio O Guimarães
+706386@AP@307@221@@Açucenas@@68903379@Rua@S@R Açucenas
+706387@AP@307@221@@Mururema@@68903381@Ramal@S@Ram Mururema
+706388@AP@307@49587@@Rio Jari@(Cj Res Alfaville)@68911020@Avenida@S@Av Rio Jari
+706389@AP@307@49302@@Treze de Julho@(Conj. Hab. Laurindo Banha)@68904731@Avenida@S@Av Treze de Julho
+706390@AP@307@49588@@Nova do Murici@(Distrito de Fazendinha)@68911364@Avenida@S@Av Nova do Murici
+706391@AP@307@49588@@Hubelino Nunes de Almeida@@68911395@Avenida@S@Av Hubelino N de Almeida
+706392@AP@307@49588@@Raimundo Dias Tomaz@@68911400@Avenida@S@Av Raimundo D Tomaz
+706393@AP@307@49588@@Antenor Vaz dos Santos@@68911405@Avenida@S@Av Antenor V dos Santos
+706394@AP@307@49588@@Manoel Soares@@68911410@Alameda@S@Al Manoel Soares
+706395@AP@307@49588@@das Ameixeiras@@68911415@Rua@S@R das Ameixeiras
+706396@AP@307@49588@@Joaquim Procópio de Oliveira@@68911420@Rua@S@R Joaquim P de Oliveira
+706397@AP@307@49588@@Raimunda Apolinária@@68911425@Rua@S@R Raimunda Apolinária
+706398@AP@307@49588@@da Cascalheira@@68911430@Ramal@S@Ram da Cascalheira
+706399@AP@307@221@@Vale das Bençãos@(KM 05 da Rod.JK)@68903326@Ramal@S@Ram Vale das Bençãos
+706400@AP@307@221@@dos Promotores@(KM 05 da Rod.JK)@68903327@Ramal@S@Ram dos Promotores
+706401@AP@307@221@@Padre Vitório Galiane@(KM 03 da Rod.JK)@68903328@Ramal@S@Ram Pe Vitório Galiane
+706402@AP@307@221@@da Unifap@(KM 02 da Rod.JK)@68903329@Ramal@S@Ram da Unifap
+706403@AP@307@221@@Eurico Gaspar@(KM 02 da Rod.JK)@68903331@Ramal@S@Ram Eurico Gaspar
+706404@AP@307@221@@Dois Irmãos@(KM 04 da Rod.JK)@68903332@Ramal@S@Ram Dois Irmãos
+706405@AP@307@221@@da Asel@(KM 03 da Rod.JK)@68903333@Ramal@S@Ram da Asel
+706406@AP@307@49587@@Salvador Diniz@@68911085@Rodovia@S@Rod Salvador Diniz
+706407@AP@307@49587@@Marcelo Ribeiro@@68911015@Avenida@S@Av Marcelo Ribeiro
+706408@AP@307@49587@@Nova Brasilia@@68911010@Avenida@S@Av Nova Brasilia
+706409@AP@307@49587@@Beira Rio@(Distrito de Fazendinha)@68911004@Passarela@S@Psa Beira Rio
+706410@AP@307@220@@Milton de Souza Correia@@68909068@Rua@S@R Milton de S Correia
+706411@AP@307@220@@São Raimundo@(Comunidade do Curiaú)@68909046@Rua@S@R S Raimundo
+706412@AP@307@220@@São Januario@(Comunidade do Curiaú)@68909047@Rua@S@R S Januario
+706413@AP@307@220@@Santa Maria@(Comunidade do Curiaú)@68909048@Rua@S@R Sta Maria
+706414@AP@307@220@@São Joaquim@(Comunidade da Curiaú)@68909049@Avenida@S@Av S Joaquim
+706415@AP@307@220@@Santo Antônio@(Com Curiaú)@68909039@Rua@S@R Sto Antônio
+706416@AP@307@220@@Piauí@(Comunidade do Curiaú)@68909038@Travessa@S@Tv Piauí
+706417@AP@307@30917@@Mar Adriático@@68907025@Rua@S@R Mar Adriático
+706418@AP@307@30917@@Demiurgos@@68907035@Avenida@S@Av Demiurgos
+706419@AP@307@30917@@Sócrates@@68907630@Rua@S@R Sócrates
+706420@AP@307@30917@@Alebeus@@68907640@Rua@S@R Alebeus
+706421@AP@307@30917@@Patrícius@@68907635@Rua@S@R Patrícius
+706422@AP@307@52626@@Joaquim Navegante@(Lot. Infraero I)@68908893@Rua@S@R Joaquim Navegante
+706423@AP@307@33121@@das Melancias@@68909336@Rua@S@R das Melancias
+706424@AP@307@220@@João Alberto Capiberibe@@68909097@Rua@S@R João A Capiberibe
+706425@AP@307@220@@Carlos Almeida de Souza@@68909014@Travessa@S@Tv Carlos A de Souza
+706426@AP@307@220@@Pedro Wanderley Fernandes@@68909061@Travessa@S@Tv Pedro W Fernandes
+706427@AP@307@49588@@Vista Alegre@@68911435@Ramal@S@Ram Vista Alegre
+706428@AP@307@220@@Alvaro Carvalho Barbosa@- de 1200/1201 a 2619/2620@68909033@Avenida@S@Av Alvaro C Barbosa
+706429@AP@307@31019@@Alvaro Carvalho Barbosa@- de 2650/2651 ao fim@68909812@Avenida@S@Av Alvaro C Barbosa
+706430@AP@307@217@@Tapajós@@68900011@Rua@S@R Tapajós
+706431@AP@307@217@@Rio Juruá@@68900012@Rua@S@R Rio Juruá
+706432@AP@307@217@@Amazonas@@68900013@Rua@S@R Amazonas
+706433@AP@307@217@@Isac Alcolumbre@@68900014@Alameda@S@Al Isac Alcolumbre
+706434@AP@307@217@@Abraan Peres@@68900017@Passagem@S@Psg Abraan Peres
+735541@AP@307@49302@@Dionísio Augusto Costa Filho@@68904101@Avenida@S@Av Dionísio A C Filho
+735542@AP@307@218@@Benedito Lino do Carmo@@68904366@Rua@S@R Benedito L do Carmo
+735543@AP@307@31040@@Solimões@@68903502@Travessa@S@Tv Solimões
+735544@AP@307@49587@@Rio Amapá@(Cj. Res. Alfaville)@68911021@Avenida@S@Av Rio Amapá
+735545@AP@307@49587@@Beira Rio@@68911122@Passagem@S@Psg Beira Rio
+735546@AP@307@49587@@Nova da Praia@@68911123@Rua@S@R Nova da Praia
+735547@AP@307@49587@@Estaleiro@@68911126@Ramal@S@Ram Estaleiro
+735548@AP@307@49588@@Constancia Leão Tomaz@@68911411@Travessa@S@Tv Constancia L Tomaz
+735549@AP@307@221@@Guajará@@68903033@Passagem@S@Psg Guajará
+735550@AP@307@31019@@Antônio Vidal Madureira@@68909837@Avenida@S@Av Antônio V Madureira
+740595@AP@307@33104@@Macapá@(Conj. Habitacional Cabralzinho)@68906847@Rua@S@R Macapá
+740596@AP@307@52761@@Vila dos Oliveiras@@68903126@Avenida@S@Av Vila dos Oliveiras
+740597@AP@307@49302@@Maria Raimunda Barros Machado@(Conj. Hab. Laurindo Banha)@68904615@Rua@S@R Maria R B Machado
+799695@AP@307@31019@@Raimundo Nery de Matos@@68909792@Avenida@S@Av Raimundo N de Matos
+799696@AP@307@33114@@AP-20@@68909899@Rodovia@S@Rod AP-20
+845579@AP@307@221@@Jucelino Kubitschek@@68903194@Travessa@S@Tv Jucelino Kubitschek
+845580@AP@307@31019@@São João@@68909802@Rua@S@R S João
+859805@AP@307@33120@@Severino Gomes de Almeida@- de 2960/2961 ao fim@68909547@Avenida@S@Av Severino G de Almeida
+859806@AP@307@33120@@Joaquim Silva do Amaral@- de 3120/3121 ao fim@68909551@Avenida@S@Av Joaquim S do Amaral
+859807@AP@307@229@@Hildemar Maia@- de 600/601 a 2299/2300@68901271@Rua@S@R Hildemar Maia
+859808@AP@307@33120@@Alexandre Ferreira da Silva@- de 3100/3101 ao fim@68909550@Avenida@S@Av Alexandre F da Silva
+859809@AP@307@33120@@Ana Maria Gomes da Costa@- de 3110/3111 ao fim@68909552@Avenida@S@Av Ana M G da Costa
+859810@AP@307@33120@@Ana Maria das Graças Picanço@- de 3012/3013 ao fim@68909548@Avenida@S@Av Ana M das G Picanço
+859811@AP@307@33120@@Paulo do Espirito Santo Silva@- de 3110/3111 ao fim@68909549@Avenida@S@Av Paulo do E Sto Silva
+859812@AP@307@33120@@Alvaro Carvalho Barbosa@- até 1197/1198@68909546@Avenida@S@Av Alvaro C Barbosa
+859813@AP@307@33104@@de Duca Serra@- do km 0,004 ao km 0,006@68906801@Rodovia@S@Rod de Duca Serra
+859814@AP@307@49588@@Onina Vieira dos Santos@@68911356@Avenida@S@Av Onina V dos Santos
+859815@AP@307@49588@@Joaquim de Jesus Picanço@@68911357@Rua@S@R Joaquim de J Picanço
+859816@AP@307@49588@@Floriano Ferreira@@68911358@Travessa@S@Tv Floriano Ferreira
+859817@AP@307@49588@@Constancia Leão Tomaz@@68911359@Rua@S@R Constancia L Tomaz
+859818@AP@307@49588@@Agegerlau Rodrigues das Chagas@@68911361@Rua@S@R Agegerlau R das Chagas
+859819@AP@307@49588@@do Izaque@@68911362@Ramal@S@Ram do Izaque
+859820@AP@307@49587@@Euripedes Afonso Rodrigues@(Cj. Res. Alfaville)@68911022@Avenida@S@Av Euripedes A Rodrigues
+859821@AP@307@30917@@Manoel Francisco de Souza@@68907621@Rua@S@R Manoel F de Souza
+859822@AP@307@30917@@Waldemar José Viana@@68907622@Alameda@S@Al Waldemar J Viana
+859823@AP@307@30917@@Waldemar José Pereira@@68907623@Alameda@S@Al Waldemar J Pereira
+859824@AP@307@52626@@dos Tamarindos@(Lot. Açai)@68908894@Rua@S@R dos Tamarindos
+859825@AP@307@49587@@Rio das Velhas@(Lot. Agrovile)@68911136@Rua@S@R Rio das Velhas
+859826@AP@307@49587@@Rio Branco@(Lot. Agrovile)@68911137@Rua@S@R Rio Branco
+859827@AP@307@49587@@Rio Javari@(Lot. Agrovile)@68911138@Rua@S@R Rio Javari
+859828@AP@307@49587@@Rio Tefé@(Lot. Agrovile)@68911139@Rua@S@R Rio Tefé
+859829@AP@307@49587@@Rio Guama@(Lot. Agrovile)@68911140@Rua@S@R Rio Guama
+859830@AP@307@49587@@Augusto Lobo de Siqueira@(Lot. Agrovile)@68911141@Rua@S@R Augusto L de Siqueira
+859831@AP@307@49587@@Rio Coari@(Lot. Agrovile)@68911142@Rua@S@R Rio Coari
+859832@AP@307@49587@@Rio Parnaiba@(Lot. Agrovile)@68911143@Rua@S@R Rio Parnaiba
+859833@AP@307@49587@@Rio Xapuri@(Lot. Agrovile)@68911144@Rua@S@R Rio Xapuri
+859834@AP@307@49587@@do Matadouro@@68911012@Travessa@S@Tv do Matadouro
+859835@AP@307@49587@@Tia da Dica@@68911016@Ramal@S@Ram Tia da Dica
+859836@AP@307@49587@@Rio Calçoene@(Cj. Res. Alfaville)@68911023@Avenida@S@Av Rio Calçoene
+859837@AP@307@49587@@Rio Madeira@@68911024@Avenida@S@Av Rio Madeira
+859838@AP@307@49587@@Rio Negro@(Cj. Res. Alfaville)@68911026@Avenida@S@Av Rio Negro
+859839@AP@307@49587@@Rio Grande@(Cj. Res. Alfaville)@68911027@Rua@S@R Rio Grande
+859840@AP@307@49587@@Rio da Prata@(Cj. Res. Alfaville)@68911028@Rua@S@R Rio da Prata
+859841@AP@307@49587@@Rio Canoas@(Cj. Res. Alfaville)@68911029@Rua@S@R Rio Canoas
+859842@AP@307@49587@@Rio Gurijuba@(Cj. Res. Alfaville)@68911031@Rua@S@R Rio Gurijuba
+859843@AP@307@49587@@Carmelita Lobo Siqueira@(Cj. Res. Alfaville)@68911032@Rua@S@R Carmelita L Siqueira
+859844@AP@307@49587@@Rio Japurà@(Cj. Res. Alfaville)@68911033@Rua@S@R Rio Japurà
+859845@AP@307@49587@@Rio Içá@(Cj.Res. Alfaville)@68911034@Rua@S@R Rio Içá
+859846@AP@307@49587@@Rio Turvo@(Cj. Res. Alfaville)@68911036@Rua@S@R Rio Turvo
+859847@AP@307@52626@@Shalon@(Lot. Ilha Mirim)@68908081@Rua@S@R Shalon
+859848@AP@307@52626@@Elchadai@(Lot. Ilha Mirim)@68908082@Rua@S@R Elchadai
+859849@AP@307@52626@@Filadélfia@(Lot. Ilha Mirim)@68908083@Rua@S@R Filadélfia
+859850@AP@307@52626@@Jesus de Nazaré@(lot. Ilha Mirim)@68908084@Rua@S@R Jesus de Nazaré
+859851@AP@307@52626@@Nova Canaã@(Lot. Ilha Mirim)@68908085@Rua@S@R Nova Canaã
+859852@AP@307@52626@@Monte Sinai@(Lot. Ilha Mirim)@68908086@Rua@S@R Monte Sinai
+859853@AP@307@52626@@Sheknan@(lot. Ilha Mirim)@68908087@Rua@S@R Sheknan
+859854@AP@307@52626@@Salmo Noventa e Um@(Lot. Ilha Mirim)@68908088@Rua@S@R Salmo N e Um
+859855@AP@307@52626@@Salmo Vinte e Três@(Lot. Ilha Mirim)@68908089@Rua@S@R Salmo V e Três
+859856@AP@307@52626@@Salmo Cinquenta e Um@(Lot. Ilha Mirim)@68908091@Rua@S@R Salmo C e Um
+859857@AP@307@52626@@Salmo Cem@(Lot. Ilha Mirim)@68908092@Rua@S@R Salmo Cem
+859858@AP@307@52626@@Liberdade@(Lot. Ilha Mirim)@68908093@Rua@S@R Liberdade
+859859@AP@307@33120@@Amapá@(Lot Ipê)@68909461@Rua@S@R Amapá
+859860@AP@307@33120@@Eucalipto@(Lot. Ipê)@68909462@Rua@S@R Eucalipto
+859861@AP@307@33120@@Jatoba@(Lot. Ipê)@68909463@Rua@S@R Jatoba
+859862@AP@307@33120@@Jaboradi@(Lot. Ipê)@68909465@Rua@S@R Jaboradi
+859863@AP@307@33120@@Pau Brasil@(Lot. Ipê)@68909464@Rua@S@R Pau Brasil
+859864@AP@307@33120@@Aquariquara@(Lot Ipê)@68909466@Avenida@S@Av Aquariquara
+859865@AP@307@33120@@Angelim@(Lot Ipê)@68909467@Avenida@S@Av Angelim
+859866@AP@307@33120@@Mogno@(Lot.Ipê)@68909468@Avenida@S@Av Mogno
+859867@AP@307@33120@@Ipê@(Lot Ipê)@68909469@Avenida@S@Av Ipê
+859868@AP@307@33120@@Castanheira@(Lot. Ipê)@68909470@Avenida@S@Av Castanheira
+859869@AP@307@33120@@Pau Mulato@(Lot. Ipê)@68909471@Avenida@S@Av Pau Mulato
+859870@AP@307@33120@@Maçaranduba@(Lot. Ipê)@68909472@Avenida@S@Av Maçaranduba
+859871@AP@307@33120@@da Amizade@(Lot Ipê)@68909473@Passagem@S@Psg da Amizade
+859872@AP@307@52758@@da Bacia@@68903015@Rua@S@R da Bacia
+859873@AP@307@31019@@Joaquim Magalhaes dos Santos@@68909793@Rua@S@R Joaquim M dos Santos
+859874@AP@307@226@@Segunda da Rodovia do Pacoval@@68908278@Travessa@S@Tv Segunda da R do Pacoval
+859875@AP@307@33120@@Santo Antonio@@68909512@Rua@S@R Sto Antonio
+859876@AP@307@33120@@São João@@68909513@Rua@S@R S João
+859877@AP@307@33120@@Nossa Senhora Aparecida@@68909514@Rua@S@R N Sra Aparecida
+859878@AP@307@33120@@Central@(Lot. Caranã)@68909515@Rua@S@R Central
+859879@AP@307@33120@@Principal@(Lot. Caranã)@68909516@Avenida@S@Av Principal
+859880@AP@307@33120@@Quinta@(Lot. Caranã)@68909517@Alameda@S@Al Quinta
+859881@AP@307@33120@@Sexta@(Lot. Caranã)@68909518@Alameda@S@Al Sexta
+859882@AP@307@33120@@Setima@(Lot. Caranã)@68909519@Alameda@S@Al Setima
+859883@AP@307@33120@@Oitava@(Lot. Caranã)@68909520@Alameda@S@Al Oitava
+859884@AP@307@33120@@Nona@(Lot. Canarã)@68909521@Alameda@S@Al Nona
+859885@AP@307@33120@@Décima@(Lot. Caranâ)@68909522@Alameda@S@Al Décima
+859886@AP@307@33120@@Décima Primeira@(Lot. Caranâ)@68909523@Alameda@S@Al Décima Primeira
+859887@AP@307@33120@@Décima Segunda@(Lot. Caranâ)@68909524@Alameda@S@Al Décima Segunda
+859888@AP@307@33120@@Décima Terceira@(Lot. Caranâ)@68909525@Alameda@S@Al Décima Terceira
+859889@AP@307@33120@@Décima Quarta@(Lot. Caranâ)@68909526@Alameda@S@Al Décima Quarta
+859890@AP@307@33120@@Décima Quinta@(Lot. Caranã)@68909527@Alameda@S@Al Décima Quinta
+859891@AP@307@33120@@Décima Sexta@(Lot. Caranã)@68909528@Alameda@S@Al Décima Sexta
+859892@AP@307@33120@@Décima Setima@(Lot. Caranã)@68909529@Alameda@S@Al Décima Setima
+859893@AP@307@33120@@Décima Oitava@(lot. Caranã)@68909530@Alameda@S@Al Décima Oitava
+859894@AP@307@33120@@Décima Nona@(Lot. Caranã)@68909531@Alameda@S@Al Décima Nona
+859895@AP@307@33120@@Vigésima@(Lot. Caranâ)@68909532@Alameda@S@Al Vigésima
+859896@AP@307@33120@@Pedro Lima@(Lot. Alencar)@68909543@Rua@S@R Pedro Lima
+859897@AP@307@33120@@José Alencar@(Lot. Alencar)@68909544@Rua@S@R José Alencar
+859898@AP@307@33120@@Magalhães Barata@(Lot. Alencar)@68909545@Rua@S@R Magalhães Barata
+859899@AP@307@33120@@São João@(Lot. São José)@68909511@Rua@S@R S
+859900@AP@307@49587@@Rio Purus@(Cj. Res. Alfaville)@68911037@Rua@S@R Rio Purus
+859901@AP@307@49587@@Rio Juruá@(Cj. Res. Alfaville)@68911038@Rua@S@R Rio Juruá
+859902@AP@307@49587@@Rio Madeira@(Cj. Res. Alfaville)@68911039@Rua@S@R Rio Madeira
+859903@AP@307@49587@@Rio Tapajós@(Cj. Res. Alfaville)@68911041@Rua@S@R Rio Tapajós
+859904@AP@307@49587@@Rio Solimões@(Cj. Res. Alfaville)@68911042@Rua@S@R Rio Solimões
+859905@AP@307@49587@@Rio Xingu@(Cj. Res.Alfaville)@68911043@Rua@S@R Rio Xingu
+859906@AP@307@49587@@Rio Amapari@(Cj. Res. Alfaville)@68911044@Rua@S@R Rio Amapari
+859907@AP@307@49587@@Rio Tocantins@(Cj. Res. Alfaville)@68911046@Rua@S@R Rio Tocantins
+859908@AP@307@49587@@Rio Trombetas@(Cj. Res. Alfaville)@68911047@Rua@S@R Rio Trombetas
+859909@AP@307@49587@@Maria Afonso Rodrigues@(Lot. Agrovile)@68911124@Avenida@S@Av Maria A Rodrigues
+859910@AP@307@49587@@Rio Murici@(Lot. Agrovile)@68911127@Avenida@S@Av Rio Murici
+859911@AP@307@49587@@Rio Capim@(Lot. Agrovile)@68911128@Avenida@S@Av Rio Capim
+859912@AP@307@49587@@Rio Mamoré@(Lot. Agrovile)@68911129@Avenida@S@Av Rio Mamoré
+859913@AP@307@49587@@Rio Muju@(Lot. Agrovile)@68911131@Avenida@S@Av Rio Muju
+859914@AP@307@49587@@Rio Guaporé@(Lot. Agrovile)@68911132@Avenida@S@Av Rio Guaporé
+859915@AP@307@49587@@Rio Acre@(Lot. Agrovile)@68911133@Avenida@S@Av Rio Acre
+859916@AP@307@49587@@Rio Iguaçú@(Lot. Agrovile)@68911134@Rua@S@R Rio Iguaçú
+859917@AP@307@33120@@Cedro@(Lot. Ipê)@68909474@Rua@S@R Cedro
+859918@AP@307@33120@@Acapú@(Lot Ipê)@68909475@Rua@S@R Acapú
+859919@AP@307@33120@@Rio Araguari@(Lot. Amazon Ville)@68909486@Rua@S@R Rio Araguari
+859920@AP@307@33120@@Rio Calçoene@(Lot. Amazon Ville)@68909487@Rua@S@R Rio Calçoene
+859921@AP@307@33120@@Rio Curiau@(Lot. Amazon Ville)@68909488@Rua@S@R Rio Curiau
+859922@AP@307@33120@@Rio Matapi@(Lot. Amazon Ville)@68909489@Rua@S@R Rio Matapi
+859923@AP@307@33120@@Rio Vila Nova@(Lot. Amazon Ville)@68909490@Rua@S@R Rio V Nova
+859924@AP@307@33120@@Rio Amapari@(Lot. Amazon Ville)@68909491@Rua@S@R Rio Amapari
+859925@AP@307@33120@@Rio Tocantins@(Lot. Amazon Ville)@68909492@Rua@S@R Rio Tocantins
+859926@AP@307@33120@@Rio Xingú@(Lot. Amazon Ville)@68909493@Rua@S@R Rio Xingú
+859927@AP@307@33120@@Rio Jari@(Lot. Amazon Ville)@68909494@Rua@S@R Rio Jari
+859928@AP@307@33120@@Rio Tapajós@(Lot. Amazon Ville)@68909495@Rua@S@R Rio Tapajós
+859929@AP@307@33120@@Rio Negro@(Lot. amazon Ville)@68909496@Rua@S@R Rio Negro
+859930@AP@307@33120@@Rio Madeira@@68909497@Rua@S@R Rio Madeira
+859931@AP@307@33120@@Rio Juruá@(Lot. Amazon Ville)@68909498@Rua@S@R Rio Juruá
+859932@AP@307@33120@@Rio Purus@(Lot. Amazon Ville)@68909499@Rua@S@R Rio Purus
+859933@AP@307@33120@@Rio Javari@(Lot. Amazon Ville)@68909500@Rua@S@R Rio Javari
+859934@AP@307@33120@@Rio Amazonas@(Lot. Amazon Ville)@68909501@Avenida@S@Av Rio Amazonas
+859935@AP@307@33120@@Rio Solimões@(Lot. Amazon Ville)@68909502@Avenida@S@Av Rio Solimões
+859936@AP@307@49587@@Rio de Janeiro@(Cj. Res. Alfaville)@68911048@Avenida@S@Av Rio de Janeiro
+859937@AP@307@49587@@Rio Tieté@(Cj. Res. Alfaville)@68911049@Avenida@S@Av Rio Tieté
+859938@AP@307@49587@@Rio Maruanun@(Cj. Res. Alfaville)@68911051@Avenida@S@Av Rio Maruanun
+859939@AP@307@49587@@Rio Vila Nova@(Cj. Res. alfaville)@68911052@Avenida@S@Av Rio V Nova
+859940@AP@307@49587@@Rio Matapi@(Cj. Res. Alfaville)@68911053@Avenida@S@Av Rio Matapi
+859941@AP@307@49587@@Quinta do Matadouro@@68911011@Travessa@S@Tv Quinta do Matadouro
+873375@AP@307@33114@@Linha B da AP-20@(Quilometro nove da AP-20)@68906501@Rua@S@R Linha B da AP-20
+883565@AP@307@214@@Padre Primeira Luis David@@68906661@Alameda@S@Al Pe Primeira L David
+883566@AP@307@214@@Padre Segunda Luis David@@68906662@Alameda@S@Al Pe Segunda L David
+883567@AP@307@214@@Lagoa das Garças@@68906663@Alameda@S@Al Lagoa das Garças
+883568@AP@307@214@@Soldado José dos Santos@@68906664@Travessa@S@Tv Sd José dos Santos
+883569@AP@307@214@@Joaquim Pinheiro Borges@@68906666@Travessa@S@Tv Joaquim P Borges
+910375@AP@307@221@@Estrela@(Conj. Habitacional da Ego)@68903396@Rua@S@R Estrela
+910376@AP@307@53916@@São Lucas@@68906153@Rua@S@R S Lucas
+910377@AP@307@53916@@São Tiago@@68906156@Rua@S@R S Tiago
+910378@AP@307@53916@@São Judas@@68906159@Rua@S@R S Judas
+910379@AP@307@53916@@São Marcos@@68906162@Rua@S@R S Marcos
+910380@AP@307@53916@@do Trilho@@68906165@Rua@S@R do Trilho
+910381@AP@307@53916@@São Mateus@@68906151@Rua@S@R S Mateus
+910382@AP@307@49302@@Clodóvio Coelho@@68904015@Travessa@S@Tv Clodóvio Coelho
+910383@AP@307@49302@@Jardim@@68904016@Passagem@S@Psg Jardim
+910384@AP@307@49302@@Serram@@68904017@Travessa@S@Tv Serram
+910385@AP@307@49302@@Governador Manoel Bernado de Melo Castro@(Cj. Cuba de Asfalto)@68904019@Avenida@S@Av Gov Manoel B de M Castro
+910386@AP@307@215@@Juscelino Kubitschek@- até 221 - lado ímpar@68902026@Rodovia@S@Rod Juscelino Kubitschek
+910387@AP@307@52626@@Terezina@(Lot.Infraero II)@68908060@Rua@S@R Terezina
+919658@AP@307@33121@@BR-210@- até km 0,003@68909398@Rodovia@S@Rod BR-210
+919659@AP@307@52614@@BR-210@- do km 0,004 ao km 0,012@68909788@Rodovia@S@Rod BR-210
+928290@AP@307@49588@@Segunda da Castanheira@(lot.V. Verde)@68911463@Travessa@S@Tv Segunda da Castanheira
+928291@AP@307@49588@@Terceira da Castanheira@(Lot. V. Verde)@68911464@Travessa@S@Tv Terceira da Castanheira
+928292@AP@307@49588@@do Estaleiro@(Lot. V. Verde)@68911465@Rua@S@R do Estaleiro
+928293@AP@307@49588@@Beira Rio@(Lot. V. Verde)@68911466@Rua@S@R Beira Rio
+928294@AP@307@49588@@Japurá@(Lot.V. Verde)@68911467@Avenida@S@Av Japurá
+928295@AP@307@49588@@Primeira da Castanheira@(Lot. V. Verde)@68911462@Travessa@S@Tv Primeira da Castanheira
+928296@AP@307@49588@@da Sapucaia@@68911461@Rua@S@R da Sapucaia
+928297@AP@307@52758@@Tupinambá@@68903016@Passagem@S@Psg Tupinambá
+928298@AP@307@49588@@da Marinha@(Lot.V. Verde)@68911450@Rua@S@R da Marinha
+928299@AP@307@49588@@da Praia@(Lot. V. Verde)@68911451@Rua@S@R da Praia
+928300@AP@307@49588@@da Castanheira@@68911452@Rua@S@R da Castanheira
+928301@AP@307@49588@@Nove de Novembro@(Lot.V.Verde)@68911453@Avenida@S@Av Nove de Novembro
+928302@AP@307@49588@@Rio Amazonas@@68911454@Rua@S@R Rio Amazonas
+928303@AP@307@49588@@Três de Abril@(Lot. V.Verde)@68911455@Avenida@S@Av Três de Abril
+928304@AP@307@49588@@das Hortas@(Lot. V. Verde)@68911456@Travessa@S@Tv das Hortas
+928305@AP@307@49588@@Tucumâ@(Lot. V.Verde)@68911457@Travessa@S@Tv Tucumâ
+928306@AP@307@49588@@dos Buritis@(Lot. V.Verde)@68911458@Travessa@S@Tv dos Buritis
+928307@AP@307@49588@@Primavera@(lot. V.Verde)@68911459@Travessa@S@Tv Primavera
+934540@AP@307@33114@@de Duca Serra@- do km 0,007 ao km 0,013@68906301@Rodovia@S@Rod de Duca Serra
+934541@AP@307@33120@@São Sebastião@(Lot. São José)@68909538@Travessa@S@Tv S Sebastião
+934542@AP@307@33120@@Santo Expedito@(Lot. São José)@68909539@Rua@S@R Sto Expedito
+934543@AP@307@33120@@São Benedito@(Lot. São José)@68909533@Rua@S@R S Benedito
+934544@AP@307@33120@@São Sebastião@(Lot. São José)@68909534@Avenida@S@Av S Sebastião
+934545@AP@307@33120@@São Pedro@(Lot. São José)@68909535@Avenida@S@Av S Pedro
+934546@AP@307@33120@@Santo Antônio@(Lot.São José)@68909536@Avenida@S@Av Sto Antônio
+934547@AP@307@33120@@São João@(Lot. São José)@68909537@Avenida@S@Av S João
+951138@AP@307@52614@@Ilha Redonda@@68909789@Comunidade@S@Com Ilha Redonda
+951139@AP@307@33120@@Araucária@(Lot. Ipê)@68909170@Avenida@S@Av Araucária
+968332@AP@307@49588@@Benoni Peres Ferreira Gomes@@68911431@Travessa@S@Tv Benoni P F Gomes
+968333@AP@307@49588@@Ariosvaldo Viera dos Santos@@68911432@Travessa@S@Tv Ariosvaldo V dos Santos
+968334@AP@307@31040@@Três@(Resd. Vila Tropical)@68903513@Rua@S@R Três
+975223@AP@307@31040@@Francisca Feitosa dos Santos@@68903640@Rua@S@R Francisca F dos Santos
+987493@AP@307@52626@@BR-210@- do km 0,000 ao km 0,001@68908878@Rodovia@S@Rod BR-210
+994348@AP@316@57101@@das Palmeiras@(Prq Laranjeiras)@68928247@Avenida@S@Av das Palmeiras
+994349@AP@316@57089@@Presidente Marechal Humberto de Alencar Castelo Branco@@68925105@Avenida@S@Av Pres Mal Humberto de A C Branco
+994350@AP@316@35439@@Presidente Marechal Humberto de Alencar Castelo Branco@@68925225@Avenida@S@Av Pres Mal Humberto de A C Branco
+994351@AP@316@57100@@Presidente Marechal Humberto de Alencar Castelo Branco@@68928057@Avenida@S@Av Pres Mal Humberto de A C Branco
+994352@AP@316@57101@@Presidente Marechal Humberto de Alencar Castelo Branco@@68928193@Avenida@S@Av Pres Mal Humberto de A C Branco
+994353@AP@316@57090@@Brasilia@@68925165@Avenida@S@Av Brasilia
+994354@AP@316@57098@@Brasilia@@68927296@Avenida@S@Av Brasilia
+994355@AP@316@57099@@Brasilia@@68927441@Avenida@S@Av Brasilia
+994356@AP@316@57100@@Brasilia@@68928078@Avenida@S@Av Brasilia
+994357@AP@316@57101@@Brasilia@@68928316@Avenida@S@Av Brasilia
+994358@AP@316@57102@@do Cajueiro@@68929504@Ramal@S@Ram do Cajueiro
+994359@AP@316@57102@@Macapá-Mazagão@@68929508@Rodovia@S@Rod Macapá-Mazagão
+994360@AP@316@57102@@Dez@@68929512@Rua@S@R Dez
+994361@AP@316@57096@@Francisco de Melo Parente@@68927006@Avenida@S@Av Francisco de M Parente
+994362@AP@316@35439@@Capitão Euclides Rodrigues@@68925192@Rua@S@R Cap Euclides Rodrigues
+994363@AP@316@57098@@Capitão Euclides Rodrigues@@68927293@Rua@S@R Cap Euclides Rodrigues
+994364@AP@316@57099@@Capitão Euclides Rodrigues@@68927447@Rua@S@R Cap Euclides Rodrigues
+994365@AP@316@35439@@Padre Vitório Galiane@@68925195@Rua@S@R Pe Vitório Galiane
+994366@AP@316@57098@@Padre Vitório Galiane@@68927302@Rua@S@R Pe Vitório Galiane
+994367@AP@316@57099@@Padre Vitório Galiane@@68927435@Rua@S@R Pe Vitório Galiane
+994368@AP@316@57100@@Padre Vitório Galiane@@68928000@Rua@S@R Pe Vitório Galiane
+994369@AP@316@35439@@Ministro Rui Barbosa@@68925198@Avenida@S@Av Min Rui Barbosa
+994370@AP@316@57100@@Ministro Rui Barbosa@@68928018@Avenida@S@Av Min Rui Barbosa
+994371@AP@316@35439@@Duca Serra@@68925231@Rodovia@S@Rod Duca Serra
+994372@AP@316@57100@@Duca Serra@@68928084@Rodovia@S@Rod Duca Serra
+994373@AP@316@57101@@Duca Serra@@68928280@Rodovia@S@Rod Duca Serra
+994374@AP@316@57102@@Duca Serra@@68929500@Rodovia@S@Rod Duca Serra
+994375@AP@316@35439@@Oscar Santos@@68925234@Travessa@S@Tv Oscar Santos
+994376@AP@316@57098@@Oscar Santos@@68927353@Travessa@S@Tv Oscar Santos
+994377@AP@316@57098@@S Camilo@@68927320@Travessa@S@Tv S Camilo
+994378@AP@316@57101@@Sem denominação@@68928235@Travessa@S@Tv Sem denominação
+994379@AP@316@57102@@Quatro@@68929556@Rua@S@R Quatro
+994380@AP@316@57089@@Jesus de Nazaré@@68925013@Avenida@S@Av Jesus de Nazaré
+994381@AP@316@57089@@Jesus de Nazaré@@68925016@2ª Travessa@S@2ª Tv Jesus de Nazaré
+994382@AP@316@57089@@Jesus de Nazaré@@68925019@1ª Travessa@S@1ª Tv Jesus de Nazaré
+994383@AP@316@57089@@Santana@@68925076@Avenida@S@Av Santana
+994384@AP@316@35439@@Santana@@68925228@Avenida@S@Av Santana
+994385@AP@316@57100@@Santana@@68928060@Avenida@S@Av Santana
+994386@AP@316@57101@@Santana@@68928196@Avenida@S@Av Santana
+994387@AP@316@57089@@Cláudio Lúcio Monteiro@@68925090@Rua@S@R Cláudio L Monteiro
+994388@AP@316@57090@@Cláudio Lúcio Monteiro@@68925123@Rua@S@R Cláudio L Monteiro
+994389@AP@316@57092@@Cláudio Lúcio Monteiro@@68926000@Rua@S@R Cláudio L Monteiro
+994390@AP@316@57093@@Cláudio Lúcio Monteiro@@68926060@Rua@S@R Cláudio L Monteiro
+994391@AP@316@57096@@Cláudio Lúcio Monteiro@@68927003@Rua@S@R Cláudio L Monteiro
+994392@AP@316@57089@@Poeta Machado de Assis@@68925093@Rua@S@R Poe Machado de Assis
+994393@AP@316@57090@@Poeta Machado de Assis@@68925135@Rua@S@R Poe Machado de Assis
+994394@AP@316@57089@@Presidente John Fitzgerald Kennedy@@68925096@Rua@S@R Pres John F Kennedy
+994395@AP@316@57090@@Presidente John Fitzgerald Kennedy@@68925138@Rua@S@R Pres John F Kennedy
+994396@AP@316@57096@@Presidente John Fitzgerald Kennedy@@68927093@Rua@S@R Pres John F Kennedy
+994397@AP@316@57089@@Presidente Arthur Costa e Silva@@68925099@Rua@S@R Pres Arthur C e Silva
+994398@AP@316@57090@@Presidente Arthur Costa e Silva@@68925174@Rua@S@R Pres Arthur C e Silva
+994399@AP@316@57096@@Presidente Arthur Costa e Silva@@68927075@Rua@S@R Pres Arthur C e Silva
+994400@AP@316@57090@@Pedro Salvador Diniz@@68925177@Rua@S@R Pedro S Diniz
+994401@AP@316@35439@@Pedro Salvador Diniz@@68925180@Rua@S@R Pedro S Diniz
+994402@AP@316@57097@@Pedro Salvador Diniz@@68927194@Rua@S@R Pedro S Diniz
+994403@AP@316@57096@@Pedro Salvador Diniz@@68927027@Rua@S@R Pedro S Diniz
+994404@AP@316@57089@@Pedro Salvador Diniz@@68925102@Rua@S@R Pedro S Diniz
+994405@AP@316@57097@@Comandante Pedro Salvador Diniz@@68927134@Rodovia@S@Rod Cmte Pedro S Diniz
+994406@AP@316@57094@@Comandante Pedro Salvador Diniz@@68926214@Rodovia@S@Rod Cmte Pedro S Diniz
+994407@AP@316@57095@@Comandante Pedro Salvador Diniz@@68926300@Rodovia@S@Rod Cmte Pedro S Diniz
+994408@AP@316@57091@@Dona Maria@@68925282@Travessa@S@Tv Da Maria
+994409@AP@316@57091@@Maria Ignes@@68925286@Travessa@S@Tv Maria Ignes
+994410@AP@316@57091@@Josiel Oliveira Cardoso@@68925290@Travessa@S@Tv Josiel O Cardoso
+994411@AP@316@57091@@do Delta@@68925294@Rua@S@R do Delta
+994412@AP@316@57091@@Manga@@68925298@Travessa@S@Tv Manga
+994413@AP@316@57091@@Tapereba@@68925306@Travessa@S@Tv Tapereba
+994414@AP@316@57091@@Biribá@@68925310@Travessa@S@Tv Biribá
+994415@AP@316@57091@@Acerola@@68925314@Travessa@S@Tv Acerola
+994416@AP@316@57091@@Olaria@@68925318@Ramal@S@Ram Olaria
+994417@AP@316@57091@@do Elesbão@@68925322@1ª Travessa@S@1ª Tv do Elesbão
+994418@AP@316@57091@@do Elesbão@@68925326@2ª Travessa@S@2ª Tv do Elesbão
+994419@AP@316@57091@@do Elesbão@@68925330@3ª Travessa@S@3ª Tv do Elesbão
+994420@AP@316@57091@@do Elesbão@@68925334@4ª Travessa@S@4ª Tv do Elesbão
+994421@AP@316@57091@@do Elesbão@@68925338@5ª Travessa@S@5ª Tv do Elesbão
+994422@AP@316@57091@@do Elesbão@@68925342@6ª Travessa@S@6ª Tv do Elesbão
+994423@AP@316@57092@@Manoel Francisco Guedes@@68926004@Avenida@S@Av Manoel F Guedes
+994424@AP@316@57092@@Raimundo Ferreira Guedes@@68926008@Rua@S@R Raimundo F Guedes
+994425@AP@316@57092@@A@@68926012@Travessa@S@Tv A
+994426@AP@316@57096@@15 de Outubro@@68927081@Avenida@S@Av 15 de Outubro
+994427@AP@316@57096@@Espedito dos Santos@@68927084@Avenida@S@Av Espedito dos Santos
+994428@AP@316@57096@@Feliciana de Silva@@68927087@Avenida@S@Av Feliciana de Silva
+994429@AP@316@57096@@John Fitzgerald Kennedy@@68927096@Travessa@S@Tv John F Kennedy
+994430@AP@316@57094@@D 13@@68926166@Rua@S@R D 13
+994431@AP@316@57094@@D 12@@68926170@Rua@S@R D 12
+994432@AP@316@57094@@D 11@@68926174@Rua@S@R D 11
+994433@AP@316@57094@@D 1@@68926178@Rua@S@R D 1
+994434@AP@316@57094@@D 2@@68926182@Rua@S@R D 2
+994435@AP@316@57094@@D 3@@68926186@Rua@S@R D 3
+994436@AP@316@57094@@D 4@@68926190@Rua@S@R D 4
+994437@AP@316@57094@@D 5A@@68926194@Rua@S@R D 5A
+994438@AP@316@57094@@D 5B@@68926198@Rua@S@R D 5B
+994439@AP@316@57094@@D 6A@@68926202@Rua@S@R D 6A
+994440@AP@316@57094@@D 6B@@68926206@Rua@S@R D 6B
+994441@AP@316@57094@@D 6C@@68926210@Rua@S@R D 6C
+994442@AP@316@57095@@Rio Madeira@@68926305@Travessa@S@Tv Rio Madeira
+994443@AP@316@57095@@Igarapé Sororoca@@68926310@Travessa@S@Tv Igarapé Sororoca
+994444@AP@316@57095@@Rio Matapi Mirim@@68926315@Travessa@S@Tv Rio M Mirim
+994445@AP@316@57095@@Rio Macacoari@@68926320@Travessa@S@Tv Rio Macacoari
+994446@AP@316@57095@@Igarapé do Lago@@68926325@Travessa@S@Tv Igarapé do Lago
+994447@AP@316@57095@@Rio Pirativa@@68926330@Travessa@S@Tv Rio Pirativa
+994448@AP@316@57095@@Igarapé Maruanum@@68926335@Travessa@S@Tv Igarapé Maruanum
+994449@AP@316@57095@@Piauí@@68926340@Rua@S@R Piauí
+994450@AP@316@57095@@Rio Maracá@@68926345@Travessa@S@Tv Rio Maracá
+994451@AP@316@57095@@Rio Tipitinga@@68926350@Travessa@S@Tv Rio Tipitinga
+994452@AP@316@57095@@da Fábrica@@68926355@Rua@S@R da Fábrica
+994453@AP@316@57095@@Rio Tocantins@@68926360@Travessa@S@Tv Rio Tocantins
+994454@AP@316@57095@@Rio Trombetas@@68926365@Travessa@S@Tv Rio Trombetas
+994455@AP@316@57095@@Rio Matapi@@68926370@Travessa@S@Tv Rio Matapi
+994456@AP@316@35439@@São Paulo Apóstolo@@68925240@Avenida@S@Av S Paulo Apóstolo
+994457@AP@316@57100@@São Paulo Apóstolo@@68928063@Avenida@S@Av S Paulo Apóstolo
+994458@AP@316@57101@@São Paulo Apóstolo@@68928232@Avenida@S@Av S Paulo Apóstolo
+994459@AP@316@57102@@São Paulo Apóstolo@@68929564@Avenida@S@Av S Paulo Apóstolo
+994460@AP@316@57090@@Maria de Oliveira Colares@@68925171@Avenida@S@Av Maria de O Colares
+994461@AP@316@57096@@Maria de Oliveira Colares@@68927000@Avenida@S@Av Maria de O Colares
+994462@AP@316@57098@@Maria de Oliveira Colares@@68927299@Avenida@S@Av Maria de O Colares
+994463@AP@316@57099@@Maria de Oliveira Colares@@68927438@Avenida@S@Av Maria de O Colares
+994464@AP@316@57100@@Maria de Oliveira Colares@@68928099@Avenida@S@Av Maria de O Colares
+994465@AP@316@57101@@Maria de Oliveira Colares@@68928325@Avenida@S@Av Maria de O Colares
+994466@AP@316@35439@@São João Apóstolo@@68925243@Avenida@S@Av S João Apóstolo
+994467@AP@316@57100@@São João Apóstolo@@68928075@Avenida@S@Av S João Apóstolo
+994468@AP@316@57101@@São João Apóstolo@@68928334@Avenida@S@Av S João Apóstolo
+994469@AP@316@57102@@São João Apóstolo@@68929568@Avenida@S@Av S João Apóstolo
+994470@AP@316@57091@@Açaí@@68925302@Travessa@S@Tv Açaí
+994471@AP@316@57101@@Açaí@@68928340@Travessa@S@Tv Açaí
+994472@AP@316@57093@@Manoel Moura de Carvalho@- lado par@68926064@Travessa@S@Tv Manoel M de Carvalho
+994473@AP@316@57094@@Manoel Moura de Carvalho@- lado ímpar@68926094@Travessa@S@Tv Manoel M de Carvalho
+994474@AP@316@57093@@Lucena de Azevedo@- lado ímpar@68926084@Avenida@S@Av Lucena de Azevedo
+994475@AP@316@57094@@Lucena de Azevedo@- lado par@68926090@Avenida@S@Av Lucena de Azevedo
+994476@AP@316@57096@@Tocantinópolis@@68927057@Avenida@S@Av Tocantinópolis
+994477@AP@316@57097@@Tocantinópolis@@68927128@Avenida@S@Av Tocantinópolis
+994478@AP@316@57096@@Palmira Miranda Andrade@@68927090@Avenida@S@Av Palmira M Andrade
+994479@AP@316@57097@@Palmira Miranda Andrade@@68927125@Avenida@S@Av Palmira M Andrade
+994480@AP@316@57098@@Palmira Miranda Andrade@@68927287@Avenida@S@Av Palmira M Andrade
+994481@AP@316@57099@@Palmira Miranda Andrade@@68927363@Avenida@S@Av Palmira M Andrade
+994482@AP@316@57097@@L4 do Provedor@@68927218@Travessa@S@Tv L4 do Provedor
+994483@AP@316@57099@@L4 do Provedor@@68927399@Travessa@S@Tv L4 do Provedor
+994484@AP@316@57098@@Nelciana Vasques@@68927260@Travessa@S@Tv Nelciana Vasques
+994485@AP@316@57098@@Walter Lopes da Cruz@@68927275@Avenida@S@Av Walter L da Cruz
+994486@AP@316@57099@@Walter Lopes da Cruz@@68927420@Avenida@S@Av Walter L da Cruz
+994487@AP@316@57098@@Apolônio Gomes@- lado ímpar@68927284@Travessa@S@Tv Apolônio Gomes
+994488@AP@316@57099@@Apolônio Gomes@- lado par@68927360@Travessa@S@Tv Apolônio Gomes
+994489@AP@316@57098@@Osvaldo Cruz@@68927314@Rua@S@R Osvaldo Cruz
+994490@AP@316@57100@@Osvaldo Cruz@@68928003@Rua@S@R Osvaldo Cruz
+994491@AP@316@57098@@Manoel Abreu de Souza@@68927350@Travessa@S@Tv Manoel A de Souza
+994492@AP@316@57099@@Manoel Abreu de Souza@@68927432@Travessa@S@Tv Manoel A de Souza
+994493@AP@316@57100@@Quinze de Novembro@@68928045@Avenida@S@Av Quinze de Novembro
+994494@AP@316@57101@@Quinze de Novembro@@68928172@Avenida@S@Av Quinze de Novembro
+994495@AP@316@57097@@16@@68927197@Travessa@S@Tv 16
+994496@AP@316@57097@@17@@68927200@Travessa@S@Tv 17
+994497@AP@316@57097@@de Abril@@68927203@21ª Travessa@S@21ª Tv de Abril
+994498@AP@316@57097@@Delorizano Monteiro@@68927206@Avenida@S@Av Delorizano Monteiro
+994499@AP@316@57097@@Walter Lopes@@68927209@Avenida@S@Av Walter Lopes
+994500@AP@316@57097@@14 de Janeiro@@68927212@Travessa@S@Tv 14 de Janeiro
+994501@AP@316@57097@@João Moreira@@68927215@Travessa@S@Tv João Moreira
+994502@AP@316@57097@@Manoel Pestana@@68927221@Travessa@S@Tv Manoel Pestana
+994503@AP@316@57097@@Raimundo Vasques@@68927224@Travessa@S@Tv Raimundo Vasques
+994504@AP@316@57097@@Sílvio Camilo@@68927227@Travessa@S@Tv Sílvio Camilo
+994505@AP@316@57099@@L50 do Provedor@@68927369@Travessa@S@Tv L50 do Provedor
+994506@AP@316@57099@@L16 do Provedor@@68927372@Travessa@S@Tv L16 do Provedor
+994507@AP@316@57099@@L13 do Provedor@@68927375@Travessa@S@Tv L13 do Provedor
+994508@AP@316@57099@@L17 do Provedor@@68927378@Travessa@S@Tv L17 do Provedor
+994509@AP@316@57099@@L6 do Provedor@@68927381@Travessa@S@Tv L6 do Provedor
+994510@AP@316@57094@@D 23@@68926126@Rua@S@R D 23
+994511@AP@316@57094@@D 22@@68926130@Rua@S@R D 22
+994512@AP@316@57094@@D 21@@68926134@Rua@S@R D 21
+994513@AP@316@57094@@D 20@@68926138@Rua@S@R D 20
+994514@AP@316@57094@@C 1@@68926142@Rua@S@R C 1
+994515@AP@316@57094@@D 10@@68926146@Rua@S@R D 10
+994516@AP@316@57094@@D 9@@68926150@Rua@S@R D 9
+994517@AP@316@57094@@D 8@@68926154@Rua@S@R D 8
+994518@AP@316@57094@@D 7@@68926158@Rua@S@R D 7
+994519@AP@316@57094@@D 14@@68926162@Rua@S@R D 14
+994520@AP@316@57096@@Senador Teotônio Vilela@@68927069@Travessa@S@Tv Sen Teotônio Vilela
+994521@AP@316@57096@@Veiga Cabral@@68927072@Travessa@S@Tv Veiga Cabral
+994522@AP@316@57096@@Pastor Sozinho@@68927078@Rua@S@R Pst Sozinho
+994523@AP@316@57089@@Souza Mar@@68925001@Avenida@S@Av Souza Mar
+994524@AP@316@57089@@Shallon@@68925004@Avenida@S@Av Shallon
+994525@AP@316@57089@@Shallon@@68925007@1ª Travessa@S@1ª Tv Shallon
+994526@AP@316@57089@@Shallon@@68925010@2ª Travessa@S@2ª Tv Shallon
+994527@AP@316@57101@@Carlos Martel@@68928319@Avenida@S@Av Carlos Martel
+994528@AP@316@57101@@Salmo 23@(Lot F Deus)@68928328@Avenida@S@Av Salmo 23
+994529@AP@316@57101@@Salmo 91@(Lot F Deus)@68928331@Avenida@S@Av Salmo 91
+994530@AP@316@57101@@Antônio Brilho Rodrigues@@68928337@Rua@S@R Antônio B Rodrigues
+994531@AP@316@57101@@Bem-te-vi@@68928343@Travessa@S@Tv Bem-te-vi
+994532@AP@316@57101@@Jasmim@@68928346@Travessa@S@Tv Jasmim
+994533@AP@316@57101@@Maracanã@@68928349@Travessa@S@Tv Maracanã
+994534@AP@316@57098@@Estelio de Oliveira@@68927236@Avenida@S@Av Estelio de Oliveira
+994535@AP@316@57098@@C Martel@@68927242@Travessa@S@Tv C Martel
+994536@AP@316@57098@@C Abreu@@68927245@Travessa@S@Tv C Abreu
+994537@AP@316@57098@@Antonio Nunes@@68927248@Avenida@S@Av Antonio Nunes
+994538@AP@316@57098@@Pedro Teixeira@@68927251@Travessa@S@Tv Pedro Teixeira
+994539@AP@316@57098@@Miguel de Bulhões@@68927254@Travessa@S@Tv Miguel de Bulhões
+994540@AP@316@57098@@Manoel Pereira da Rocha@@68927257@Travessa@S@Tv Manoel P da Rocha
+994541@AP@316@57098@@Stélio de Oliveira@@68927263@Travessa@S@Tv Stélio de Oliveira
+994542@AP@316@57098@@Vicente Conrado@@68927266@Travessa@S@Tv Vicente Conrado
+994543@AP@316@57098@@Geronimo de Albuquerque@@68927269@Travessa@S@Tv Geronimo de Albuquerque
+994544@AP@316@57098@@Bernardo de Melo@@68927272@Travessa@S@Tv Bernardo de Melo
+994545@AP@316@57098@@Delorizano Monteiro@@68927278@Travessa@S@Tv Delorizano Monteiro
+994546@AP@316@57098@@15 de Novembro@@68927281@Beco@S@Bc 15 de Novembro
+994547@AP@316@57098@@1º de Maio@@68927305@Travessa@S@Tv 1º de Maio
+994548@AP@316@57098@@21 de Abril@@68927308@Avenida@S@Av 21 de Abril
+994549@AP@316@57098@@25 de Dezembro@@68927311@Travessa@S@Tv 25 de Dezembro
+994550@AP@316@57098@@Pedro Salvador Diniz@@68927230@Travessa@S@Tv Pedro S Diniz
+994551@AP@316@57098@@Zenóbia Vileta@@68927323@Travessa@S@Tv Zenóbia Vileta
+994552@AP@316@57098@@Amélia Silva@@68927326@Travessa@S@Tv Amélia Silva
+994553@AP@316@57098@@Manoel Pastana@@68927329@Travessa@S@Tv Manoel Pastana
+994554@AP@316@57098@@Antônio Izaias Brandão@@68927332@Travessa@S@Tv Antônio I Brandão
+994555@AP@316@57098@@19 de Maio@@68927335@Ramal@S@Ram 19 de Maio
+994556@AP@316@57098@@Ana Mária Coelho@@68927338@Avenida@S@Av Ana M Coelho
+994557@AP@316@57098@@José Deulino@@68927341@Avenida@S@Av José Deulino
+994558@AP@316@57098@@Pereira de Abreu@@68927344@Avenida@S@Av Pereira de Abreu
+994559@AP@316@57098@@Américo Vespúcio@@68927347@Travessa@S@Tv Américo Vespúcio
+994560@AP@316@57096@@Ângelo de Moraes@@68927018@Travessa@S@Tv Ângelo de Moraes
+994561@AP@316@57096@@Gomes Freire de Andrade@@68927021@Travessa@S@Tv Gomes F de Andrade
+994562@AP@316@57096@@2@@68927024@Travessa@S@Tv 2
+994563@AP@316@57096@@3@@68927030@Travessa@S@Tv 3
+994564@AP@316@57096@@4@@68927033@Travessa@S@Tv 4
+994565@AP@316@57096@@5@@68927036@Travessa@S@Tv 5
+994566@AP@316@57096@@6@@68927039@Travessa@S@Tv 6
+994567@AP@316@57096@@7@@68927042@Travessa@S@Tv 7
+994568@AP@316@57096@@8@@68927045@Travessa@S@Tv 8
+994569@AP@316@57096@@9@@68927048@Travessa@S@Tv 9
+994570@AP@316@57096@@15@@68927051@Travessa@S@Tv 15
+994571@AP@316@57096@@10@@68927054@Travessa@S@Tv 10
+994572@AP@316@57096@@Atlântida@@68927060@Travessa@S@Tv Atlântida
+994573@AP@316@57096@@Mário de Andrade@@68927063@Travessa@S@Tv Mário de Andrade
+994574@AP@316@57096@@Senador Nilo Coelho@@68927066@Travessa@S@Tv Sen Nilo Coelho
+994575@AP@316@57089@@14 de Janeiro@@68925022@Avenida@S@Av 14 de Janeiro
+994576@AP@316@57089@@Beira-mar@@68925025@Rua@S@R Beira-mar
+994577@AP@316@57089@@Beira-mar@@68925028@2ª Travessa@S@2ª Tv Beira-mar
+994578@AP@316@57089@@Beira-mar@@68925031@1ª Travessa@S@1ª Tv Beira-mar
+994579@AP@316@57089@@30 de Novembro@@68925034@Avenida@S@Av 30 de Novembro
+994580@AP@316@57089@@30 de Novembro@@68925037@Travessa@S@Tv 30 de Novembro
+994581@AP@316@57089@@Calçoene@@68925040@Travessa@S@Tv Calçoene
+994582@AP@316@57089@@Esperança@@68925043@Avenida@S@Av Esperança
+994583@AP@316@57089@@Esperança@@68925046@Travessa@S@Tv Esperança
+994584@AP@316@57089@@31 de Março@@68925049@Rua@S@R 31 de Março
+994585@AP@316@57089@@31 de Março@@68925052@Travessa@S@Tv 31 de Março
+994586@AP@316@57089@@Amapá@@68925055@Avenida@S@Av Amapá
+994587@AP@316@57089@@Rio Jari@@68925058@Rua@S@R Rio Jari
+994588@AP@316@57089@@Rio Jari@@68925061@Travessa@S@Tv Rio Jari
+994589@AP@316@57089@@Tartarugalzinho@@68925064@Travessa@S@Tv Tartarugalzinho
+994590@AP@316@57089@@Ferreira Gomes@@68925067@Avenida@S@Av Ferreira Gomes
+994591@AP@316@57089@@Macapá@@68925070@Rua@S@R Macapá
+994592@AP@316@57089@@Calçoene@@68925073@Rua@S@R Calçoene
+994593@AP@316@57089@@Santana@@68925079@Travessa@S@Tv Santana
+994594@AP@316@57100@@Sete de Setembro@@68928054@Avenida@S@Av Sete de Setembro
+994595@AP@316@57101@@Sete de Setembro@@68928187@Avenida@S@Av Sete de Setembro
+994596@AP@316@57101@@A@@68928295@Alameda@S@Al A
+994597@AP@316@57101@@B@@68928298@Alameda@S@Al B
+994598@AP@316@57101@@C@@68928301@Alameda@S@Al C
+994599@AP@316@57101@@D@@68928304@Alameda@S@Al D
+994600@AP@316@57101@@das Rosas@(Prq Laranjeiras)@68928307@Alameda@S@Al das Rosas
+994601@AP@316@57101@@1º de Maio@@68928310@Avenida@S@Av 1º de Maio
+994602@AP@316@57101@@Brasil@(Lot F Deus)@68928313@Avenida@S@Av Brasil
+994603@AP@316@57099@@L7 do Provedor@@68927453@Travessa@S@Tv L7 do Provedor
+994604@AP@316@57099@@L8 do Provedor@@68927456@Travessa@S@Tv L8 do Provedor
+994605@AP@316@57099@@L9 do Provedor@@68927459@Travessa@S@Tv L9 do Provedor
+994606@AP@316@57100@@Um@@68928024@Travessa@S@Tv Um
+994607@AP@316@57100@@Dois@@68928027@Travessa@S@Tv Dois
+994608@AP@316@57100@@Três@@68928030@Travessa@S@Tv Três
+994609@AP@316@57100@@Quatro@@68928033@Travessa@S@Tv Quatro
+994610@AP@316@57100@@Cinco@@68928036@Travessa@S@Tv Cinco
+994611@AP@316@57100@@Presidente Getúlio Vargas@@68928039@Rua@S@R Pres Getúlio Vargas
+994612@AP@316@57100@@Presidente General Emílio Garrastazu Médice@@68928042@Rua@S@R Pres Gen Emílio G Médice
+994613@AP@316@57100@@Doutor Osvaldo Cruz@@68928066@Rua@S@R Dr Osvaldo Cruz
+994614@AP@316@57100@@Presidente Juscelino Kubitschek de Oliveira@@68928069@Rua@S@R Pres Juscelino K de Oliveira
+994615@AP@316@57100@@Presidente Marechal Deodoro da Fonseca@@68928072@Rua@S@R Pres Mal Deodoro da Fonseca
+994616@AP@316@57100@@Presidente Tancredo Neves@@68928081@Rua@S@R Pres Tancredo Neves
+994617@AP@316@57100@@América@@68928087@Travessa@S@Tv América
+994618@AP@316@57100@@Mineira@@68928090@Avenida@S@Av Mineira
+994619@AP@316@57100@@G@@68928105@Travessa@S@Tv G
+994620@AP@316@57100@@H@@68928108@Travessa@S@Tv H
+994621@AP@316@57100@@I@@68928111@Travessa@S@Tv I
+994622@AP@316@57089@@7 de Setembro@@68925108@Avenida@S@Av 7 de Setembro
+994623@AP@316@35439@@7 de Setembro@@68925222@Avenida@S@Av 7 de Setembro
+994624@AP@316@57089@@Poeta Castro Alves@@68925111@Avenida@S@Av Poe Castro Alves
+994625@AP@316@35439@@Poeta Castro Alves@@68925219@Avenida@S@Av Poe Castro Alves
+994626@AP@316@57100@@Poeta Castro Alves@@68928051@Avenida@S@Av Poe Castro Alves
+994627@AP@316@57101@@Poeta Castro Alves@@68928184@Avenida@S@Av Poe Castro Alves
+994628@AP@316@57089@@José de Anchieta@@68925114@Avenida@S@Av José de Anchieta
+994629@AP@316@57090@@José de Anchieta@@68925120@Avenida@S@Av José de Anchieta
+994630@AP@316@57100@@José de Anchieta@@68928048@Avenida@S@Av José de Anchieta
+994631@AP@316@57101@@José de Anchieta@@68928175@Avenida@S@Av José de Anchieta
+994632@AP@316@35439@@José de Anchieta@@68925216@Avenida@S@Av José de Anchieta
+994633@AP@316@57090@@Princesa Izabel@@68925129@Avenida@S@Av Prca Izabel
+994634@AP@316@35439@@Princesa Izabel@@68925210@Avenida@S@Av Prca Izabel
+994635@AP@316@57100@@Princesa Izabel@@68928006@Avenida@S@Av Prca Izabel
+994636@AP@316@57101@@Princesa Izabel@@68928166@Avenida@S@Av Prca Izabel
+994637@AP@316@57100@@J@@68928114@Travessa@S@Tv J
+994638@AP@316@57100@@M@@68928117@Travessa@S@Tv M
+994639@AP@316@57100@@N@@68928120@Travessa@S@Tv N
+994640@AP@316@57102@@Fé em Deus@@68929576@Travessa@S@Tv Fé E Deus
+994641@AP@316@57103@@A@@68933000@Rua@S@R A
+994642@AP@316@57103@@B@@68933005@Rua@S@R B
+994643@AP@316@57103@@C@@68933010@Rua@S@R C
+994644@AP@316@57103@@D@@68933015@Rua@S@R D
+994645@AP@316@57095@@Rio Vila Nova@@68926375@Travessa@S@Tv Rio V Nova
+994646@AP@316@57095@@Rio Solimões@@68926380@Avenida@S@Av Rio Solimões
+994647@AP@316@57095@@Igarapé Anaeurapucu@@68926385@Travessa@S@Tv Igarapé Anaeurapucu
+994648@AP@316@57096@@Osvaldo de Andrade@@68927099@Travessa@S@Tv Osvaldo de Andrade
+994649@AP@316@57096@@Padres Fúvio@@68927102@Travessa@S@Tv Pes Fúvio
+994650@AP@316@57092@@B@@68926016@Travessa@S@Tv B
+994651@AP@316@57092@@C@@68926020@Travessa@S@Tv C
+994652@AP@316@57092@@Raimundo Nunes da Cruz@@68926024@Travessa@S@Tv Raimundo N da Cruz
+994653@AP@316@57092@@Maria Jacira Ferreira de Brito@@68926028@Rua@S@R Maria J F de Brito
+994654@AP@316@57092@@Odecia Marques Pereira@@68926032@Travessa@S@Tv Odecia M Pereira
+994655@AP@316@57092@@José Cesar Braga@@68926036@Travessa@S@Tv José C Braga
+994656@AP@316@57092@@Maria Izabel Pereira da Silva@@68926040@Travessa@S@Tv Maria I P da Silva
+994657@AP@316@57092@@Irmãos Lobato Monteiro@@68926044@Travessa@S@Tv Imos Lobato Monteiro
+994658@AP@316@57092@@Armando Firmino de Matos@@68926048@Travessa@S@Tv Armando F de Matos
+994659@AP@316@57092@@América@@68926052@Travessa@S@Tv América
+994660@AP@316@57092@@Benedito de Jesus Cardoso@@68926056@Travessa@S@Tv Benedito de J Cardoso
+994661@AP@316@57093@@João Bitencourt Muniz@@68926068@Avenida@S@Av João B Muniz
+994662@AP@316@57093@@da Luz@@68926072@Travessa@S@Tv da Luz
+994663@AP@316@57093@@Pedro da Costa Favela@@68926076@Avenida@S@Av Pedro da C Favela
+994664@AP@316@57093@@Manoel Videira@@68926080@Travessa@S@Tv Manoel Videira
+994665@AP@316@57094@@D 29@@68926098@Rua@S@R D 29
+994666@AP@316@57094@@B 1@@68926102@Avenida@S@Av B 1
+994667@AP@316@57094@@D 28@@68926106@Rua@S@R D 28
+994668@AP@316@57094@@D 27@@68926110@Rua@S@R D 27
+994669@AP@316@57094@@D 26@@68926114@Rua@S@R D 26
+994670@AP@316@57094@@D 25@@68926118@Rua@S@R D 25
+994671@AP@316@57094@@D 24@@68926122@Rua@S@R D 24
+994672@AP@316@57095@@Rio Salvador@@68926390@Travessa@S@Tv Rio Salvador
+994673@AP@316@57095@@Rio Araguari@@68926395@Travessa@S@Tv Rio Araguari
+994674@AP@316@57095@@Rio Xingu@@68926400@Travessa@S@Tv Rio Xingu
+994675@AP@316@57095@@Rio Preto@@68926405@Travessa@S@Tv Rio Preto
+994676@AP@316@57096@@Portílio de Melo@@68927009@Avenida@S@Av Portílio de Melo
+994677@AP@316@57096@@Bento Maciel Parente@@68927012@Avenida@S@Av Bento M Parente
+994678@AP@316@57096@@Souza Fundão@@68927015@Travessa@S@Tv Souza Fundão
+994679@AP@316@57090@@A1@@68925126@Rua@S@R A1
+994680@AP@316@57090@@Princesa Izabel@@68925132@Travessa@S@Tv Prca Izabel
+994681@AP@316@57090@@Dom Pedro I@@68925150@Travessa@S@Tv D Pedro I
+994682@AP@316@57090@@Rio Branco@@68925156@Travessa@S@Tv Rio Branco
+994683@AP@316@57090@@Ruy Barbosa@@68925159@Avenida@S@Av Ruy Barbosa
+994684@AP@316@35439@@Nossa Senhora de Fátima@@68925237@Travessa@S@Tv N Sra de Fátima
+994685@AP@316@57091@@da Piçarreira@@68925250@Rua@S@R da Piçarreira
+994686@AP@316@57091@@da Piçarreira@@68925254@1ª Travessa@S@1ª Tv da Piçarreira
+994687@AP@316@57099@@L10 do Provedor@@68927384@Travessa@S@Tv L10 do Provedor
+994688@AP@316@57099@@L11 do Provedor@@68927387@Travessa@S@Tv L11 do Provedor
+994689@AP@316@57099@@L12 do Provedor@@68927390@Travessa@S@Tv L12 do Provedor
+994690@AP@316@57099@@L14 do Provedor@@68927393@Travessa@S@Tv L14 do Provedor
+994691@AP@316@57099@@L15 do Provedor@@68927396@Travessa@S@Tv L15 do Provedor
+994692@AP@316@57099@@L3 do Provedor@@68927402@Travessa@S@Tv L3 do Provedor
+994693@AP@316@57099@@L2 do Provedor@@68927405@Travessa@S@Tv L2 do Provedor
+994694@AP@316@57099@@L1 do Provedor@@68927408@Travessa@S@Tv L1 do Provedor
+994695@AP@316@57099@@Américo Vespúcio@@68927411@Travessa@S@Tv Américo Vespúcio
+994696@AP@316@57099@@Coelho Vasques@@68927414@Travessa@S@Tv Coelho Vasques
+994697@AP@316@57099@@Sem Denominação@@68927417@Passagem@S@Psg Sem Denominação
+994698@AP@316@57099@@12 de Abril@@68927423@Avenida@S@Av 12 de Abril
+994699@AP@316@57099@@Sem Denominação 2@@68927426@Passagem@S@Psg Sem Denominação 2
+994700@AP@316@57099@@25 de Dezembro@@68927429@Avenida@S@Av 25 de Dezembro
+994701@AP@316@57099@@L5 do Provedor@@68927450@Travessa@S@Tv L5 do Provedor
+994702@AP@316@57101@@L4 da Fonte Nova@@68928208@Travessa@S@Tv L4 da F Nova
+994703@AP@316@57101@@L5 da Fonte Nova@@68928211@Travessa@S@Tv L5 da F Nova
+994704@AP@316@57101@@L6 da Fonte Nova@@68928214@Travessa@S@Tv L6 da F Nova
+994705@AP@316@57101@@L7 da Fonte Nova@@68928217@Travessa@S@Tv L7 da F Nova
+994706@AP@316@57101@@L8 da Fonte Nova@@68928220@Travessa@S@Tv L8 da F Nova
+994707@AP@316@57101@@L9 da Fonte Nova@@68928223@Travessa@S@Tv L9 da F Nova
+994708@AP@316@57101@@L10 da Fonte Nova@@68928226@Travessa@S@Tv L10 da F Nova
+994709@AP@316@57101@@dos Jasmins@@68928238@Alameda@S@Al dos Jasmins
+994710@AP@316@57101@@das Rosas@@68928241@Rua@S@R das Rosas
+994711@AP@316@57101@@dos Cocais@(Lot F Deus)@68928244@Avenida@S@Av dos Cocais
+994712@AP@316@57101@@das Acácias@(Prq Laranjeiras)@68928250@Avenida@S@Av das Acácias
+994713@AP@316@57101@@das Açucenas@(Prq Laranjeiras)@68928253@Alameda@S@Al das Açucenas
+994714@AP@316@57101@@das Tulipas@(Prq Laranjeiras)@68928256@Alameda@S@Al das Tulipas
+994715@AP@316@57101@@dos Crisatemos@(Prq Laranjeiras)@68928259@Alameda@S@Al dos Crisatemos
+994716@AP@316@57101@@das Orquídeas@@68928262@Rua@S@R das Orquídeas
+994717@AP@316@57101@@das Margaridas@@68928265@Alameda@S@Al das Margaridas
+994718@AP@316@57101@@das Magnólias@(Prq Laranjeiras)@68928268@Alameda@S@Al das Magnólias
+994719@AP@316@57101@@dos Girassóis@(Prq Laranjeiras)@68928271@Alameda@S@Al dos Girassóis
+994720@AP@316@57101@@das Pampolas@(Prq Laranjeiras)@68928274@Alameda@S@Al das Pampolas
+994721@AP@316@57101@@das Violetas@(Prq Laranjeiras)@68928277@Alameda@S@Al das Violetas
+994722@AP@316@57101@@da São João@@68928283@1ª Travessa@S@1ª Tv da S João
+994723@AP@316@57101@@da São João@@68928286@2ª Travessa@S@2ª Tv da S João
+994724@AP@316@57101@@da São João@@68928289@3ª Travessa@S@3ª Tv da S João
+994725@AP@316@57101@@São João Apóstolo@@68928292@3ª Travessa@S@3ª Tv S João Apóstolo
+994726@AP@316@57090@@Rio Branco@@68925153@Avenida@S@Av Rio Branco
+994727@AP@316@35439@@Rio Branco@@68925201@Avenida@S@Av Rio Branco
+994728@AP@316@57100@@Rio Branco@@68928015@Avenida@S@Av Rio Branco
+994729@AP@316@57101@@Rio Branco@@68928148@Avenida@S@Av Rio Branco
+994730@AP@316@35439@@Coelho Neto@@68925183@Avenida@S@Av Coelho Neto
+994731@AP@316@57098@@Coelho Neto@@68927233@Avenida@S@Av Coelho Neto
+994732@AP@316@57100@@Coelho Neto@@68928021@Avenida@S@Av Coelho Neto
+994733@AP@316@57101@@Coelho Neto@@68928322@Avenida@S@Av Coelho Neto
+994734@AP@316@57090@@Coelho Neto@@68925162@Avenida@S@Av Coelho Neto
+994735@AP@316@57090@@15 de Novembro@@68925141@Avenida@S@Av 15 de Novembro
+994736@AP@316@35439@@15 de Novembro@@68925213@Avenida@S@Av 15 de Novembro
+994737@AP@316@57090@@das Nações@@68925144@Avenida@S@Av das Nações
+994738@AP@316@35439@@das Nações@@68925207@Avenida@S@Av das Nações
+994739@AP@316@57100@@das Nações@@68928009@Avenida@S@Av das Nações
+994740@AP@316@57101@@das Nações@@68928133@Avenida@S@Av das Nações
+994741@AP@316@57090@@Dom Pedro I@@68925147@Avenida@S@Av D Pedro I
+994742@AP@316@35439@@Dom Pedro I@@68925204@Avenida@S@Av D Pedro I
+994743@AP@316@57100@@Dom Pedro I@@68928012@Avenida@S@Av D Pedro I
+994744@AP@316@57101@@Dom Pedro I@@68928163@Avenida@S@Av D Pedro I
+994745@AP@316@57101@@Tambaú@@68928136@Alameda@S@Al Tambaú
+994746@AP@316@57101@@do Poço@@68928139@Alameda@S@Al do Poço
+994747@AP@316@57101@@Cabedelo@@68928142@Alameda@S@Al Cabedelo
+994748@AP@316@57101@@Alídio Rodrigues@@68928145@Rua@S@R Alídio Rodrigues
+994749@AP@316@57101@@Padre Fúlvio@@68928151@Rua@S@R Pe Fúlvio
+994750@AP@316@57101@@14@@68928154@Rua@S@R 14
+994751@AP@316@57101@@Walter Barbosa de Araújo@@68928157@Rua@S@R Walter B de Araújo
+994752@AP@316@57101@@Damião da Cruz Barreto@@68928160@Rua@S@R Damião da C Barreto
+994753@AP@316@57101@@dos Imigrantes@@68928169@Rua@S@R dos Imigrantes
+994754@AP@316@57101@@João Leite Coutinho@@68928178@Rua@S@R João L Coutinho
+994755@AP@316@57101@@Everaldo Vasconcelos@@68928181@Rua@S@R Everaldo Vasconcelos
+994756@AP@316@57101@@L11@@68928190@Travessa@S@Tv L11
+994757@AP@316@57101@@L1 da Fonte Nova@@68928199@Travessa@S@Tv L1 da F Nova
+994758@AP@316@57101@@L2 da Fonte Nova@@68928202@Travessa@S@Tv L2 da F Nova
+994759@AP@316@57101@@L3 da Fonte Nova@@68928205@Travessa@S@Tv L3 da F Nova
+994760@AP@316@57090@@General Ubaldo Figueira@@68925168@Rua@S@R Gen Ubaldo Figueira
+994761@AP@316@35439@@General Ubaldo Figueira@@68925186@Rua@S@R Gen Ubaldo Figueira
+994762@AP@316@57098@@General Ubaldo Figueira@@68927239@Rua@S@R Gen Ubaldo Figueira
+994763@AP@316@57099@@General Ubaldo Figueira@@68927366@Rua@S@R Gen Ubaldo Figueira
+994764@AP@316@35439@@Adálvaro Alves Cavalcanti@@68925189@Rua@S@R Adálvaro A Cavalcanti
+994765@AP@316@57098@@Adálvaro Alves Cavalcanti@@68927290@Rua@S@R Adálvaro A Cavalcanti
+994766@AP@316@57099@@Adálvaro Alves Cavalcanti@@68927444@Rua@S@R Adálvaro A Cavalcanti
+994767@AP@316@57102@@Oito@@68929516@Rua@S@R Oito
+994768@AP@316@57102@@Um@@68929520@Avenida@S@Av Um
+994769@AP@316@57102@@Onze@@68929524@Rua@S@R Onze
+994770@AP@316@57102@@Sete@@68929528@Rua@S@R Sete
+994771@AP@316@57102@@Treze@@68929532@Rua@S@R Treze
+994772@AP@316@57102@@Zero@@68929536@Rua@S@R Zero
+994773@AP@316@57102@@Doze@@68929540@Rua@S@R Doze
+994774@AP@316@57102@@Cinco@@68929544@Rua@S@R Cinco
+994775@AP@316@57102@@Dois@@68929548@Rua@S@R Dois
+994776@AP@316@57102@@Um@@68929552@Rua@S@R Um
+994777@AP@316@57102@@Seis@@68929560@Rua@S@R Seis
+994778@AP@316@57102@@Três@@68929572@Rua@S@R Três
+994779@AP@316@57097@@Pastor Sozinho@@68927110@Rua@S@R Pst Sozinho
+994780@AP@316@57097@@Ana Maria Coelho@@68927113@Travessa@S@Tv Ana M Coelho
+994781@AP@316@57097@@A R Lima@@68927116@Travessa@S@Tv A R Lima
+994782@AP@316@57097@@José Deolindo da Silva@@68927119@Travessa@S@Tv José D da Silva
+994783@AP@316@57097@@Mário Quirino@@68927122@Travessa@S@Tv Mário Quirino
+994784@AP@316@57097@@15@@68927131@Travessa@S@Tv 15
+994785@AP@316@57097@@11@@68927137@Travessa@S@Tv 11
+994786@AP@316@57097@@12@@68927140@Travessa@S@Tv 12
+994787@AP@316@57097@@13@@68927143@Travessa@S@Tv 13
+994788@AP@316@57097@@14@@68927146@Travessa@S@Tv 14
+994789@AP@316@57097@@18@@68927149@Travessa@S@Tv 18
+994790@AP@316@57097@@19@@68927152@Travessa@S@Tv 19
+994791@AP@316@57097@@20@@68927155@Travessa@S@Tv 20
+994792@AP@316@57097@@13@@68927158@Avenida@S@Av 13
+994793@AP@316@57097@@12@@68927161@Avenida@S@Av 12
+994794@AP@316@57097@@11@@68927164@Avenida@S@Av 11
+994795@AP@316@57097@@10@@68927167@Avenida@S@Av 10
+994796@AP@316@57097@@9@@68927170@Avenida@S@Av 9
+994797@AP@316@57097@@8@@68927173@Avenida@S@Av 8
+994798@AP@316@57097@@26@@68927176@Travessa@S@Tv 26
+994799@AP@316@57097@@25@@68927179@Travessa@S@Tv 25
+994800@AP@316@57097@@24@@68927182@Travessa@S@Tv 24
+994801@AP@316@57097@@23@@68927185@Travessa@S@Tv 23
+994802@AP@316@57097@@22@@68927188@Travessa@S@Tv 22
+994803@AP@316@57097@@21@@68927191@Travessa@S@Tv 21
+994804@AP@316@57100@@Presidente Floriano Peixoto@@68928093@Rua@S@R Pres Floriano Peixoto
+994805@AP@316@57101@@Presidente Floriano Peixoto@@68928130@Rua@S@R Pres Floriano Peixoto
+994806@AP@316@57100@@Júlio Cardoso@@68928096@Avenida@S@Av Júlio Cardoso
+994807@AP@316@57101@@Júlio Cardoso@@68928229@Avenida@S@Av Júlio Cardoso
+994808@AP@316@57091@@da Piçarreira@@68925258@2ª Travessa@S@2ª Tv da Piçarreira
+994809@AP@316@57091@@das Mangueiras@@68925262@Travessa@S@Tv das Mangueiras
+994810@AP@316@57091@@Maria Davina@@68925266@Travessa@S@Tv Maria Davina
+994811@AP@316@57091@@Raimundo Carvalho de Azevedo@@68925270@Rua@S@R Raimundo C de Azevedo
+994812@AP@316@57091@@João Moreira@@68925274@Travessa@S@Tv João Moreira
+994813@AP@316@57091@@Passagem do Sistema@@68925278@Travessa@S@Tv Passagem do Sistema
