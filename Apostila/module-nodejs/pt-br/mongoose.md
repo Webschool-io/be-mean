@@ -741,7 +741,158 @@ Interessante que mesmo com mais de 1 erro o objeto `errors` não é convertido p
 
 #### Validação customizada
 
-#Conteúdo da aula 8!!!
+Para criar uma validação customizada é bem simples, basta passar um objeto para o atributo `validate` do seu campo, no *Schema*:
+
+```js
+age: {
+  type: Number,
+  validate: {
+    validator: function(v) {
+      return v >= 18;
+    },
+    message: 'Sua idade({VALUE}) não é permitida!'
+  }
+}
+```
+
+Aposto que você imagina para que essa validação serve né?
+
+![](https://media.giphy.com/media/EGGjIQvuBasLK/giphy.gif)
+
+Validadores sempre recebem o valor para validar como seu primeiro argumento e devem retornar um valor **booleano**. Retornando `false` significa que a validação falhou.
+
+Vamos testar a validação:
+
+```js
+const User = mongoose.model('user', userSchema);
+const u = new User();
+
+u.age = 24;
+console.log(u.validateSync());
+
+u.age = 6;
+console.log(u.validateSync().toString());
+
+u.age = 2;
+console.log(u.validateSync());
+```
+
+Executando essa validação temos:
+
+```
+undefined
+ValidationError: Sua idade(6) não é permitida!
+{ [ValidationError: user validation failed]
+  message: 'user validation failed',
+  name: 'ValidationError',
+  errors: 
+   { age: 
+      { [ValidatorError: Sua idade(2) não é permitida!]
+        properties: [Object],
+        message: 'Sua idade(2) não é permitida!',
+        name: 'ValidatorError',
+        kind: 'user defined',
+        path: 'age',
+        value: 2 } } }
+```
+
+Percebeu então que `undefined` é o retorno de uma validação de sucesso e logo abaixo temos apenas a mensagem de erro que vem de `u.validateSync().toString()` e por último objeto de erro que já conhecemos.
+
+Agora vamos tentar `validateSync().toString()` com um valor maior que 18:
+
+```js
+u.age = 69;
+console.log(u.validateSync().toString());
+```
+
+E o resultado é esse erro:
+
+```
+console.log(u.validateSync().toString());
+                            ^
+TypeError: Cannot read property 'toString' of undefined
+    at Object.<anonymous> (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial/Apostila/module-nodejs/src/mongoose/schemas/teste.js:23:29)
+    at Module._compile (module.js:399:26)
+    at Object.Module._extensions..js (module.js:406:10)
+    at Module.load (module.js:345:32)
+    at Function.Module._load (module.js:302:12)
+    at Function.Module.runMain (module.js:431:10)
+    at startup (node.js:141:18)
+    at node.js:977:3
+```
+
+Com isso conseguimos deduzir que a função `toString` não existe em undefined e podemos provar isso indo no console do node, para isso basta executar `node` no seu terminal:
+
+```js
+➜  ~  node
+> undefined.toString()
+TypeError: Cannot read property 'toString' of undefined
+    at repl:1:10
+    at REPLServer.defaultEval (repl.js:252:27)
+    at bound (domain.js:281:14)
+    at REPLServer.runBound [as eval] (domain.js:294:12)
+    at REPLServer.<anonymous> (repl.js:417:12)
+    at emitOne (events.js:83:20)
+    at REPLServer.emit (events.js:170:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> "Suissa".toString()
+'Suissa'
+```
+
+**Por isso cuidado ao usar essa função, tenha certeza que esteja executando em um erro!**
+
+Vamos criar uma validação um pouco mais complexa agora:
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const userSchema = new Schema({
+  phone: {
+    type: String,
+    validate: {
+      validator: function(v) {
+        return /^[1-9]{2}\-[2-9][0-9]{7,8}$/.test(v);
+      },
+      message: 'Valor {VALUE} não é permitida!'
+    }
+  }
+});
+const User = mongoose.model('user', userSchema);
+const u = new User();
+
+u.email = "11-99990000";
+console.log(u.validateSync());
+```
+
+Também tem a forma simples de testar regex:
+
+```js
+const userSchema = new Schema({
+  phone: {
+    type: String,
+    validate: /^[1-9]{2}\-[2-9][0-9]{7,8}$/
+  }
+});
+```
+
+Existe mais uma forma de utilizar a validação com Mongoose, utilizando o `Model.schema.path('campo')` e uma função para o `validate`:
+
+```js
+var RequisitosSchema = new Schema({
+  name: String
+});
+
+var Requisitos = mongoose.model('Requisitos', RequisitosSchema);
+
+Requisitos.schema.path('name').validate(function (value) {
+  return /js|html|css|angular|node|mongodb/i.test(value);
+}, 'Requisito({VALUE}) inválido!');
+
+var req = new Requisitos({ name: 'php'});
+console.log(req.validateSync());
+```
 
 ## Model
 
@@ -949,3 +1100,9 @@ PokemonModel.findAndModify(query, mod, function (err, data) {
 ## Delete - remove()
 
 ### findOneAndRemove
+
+## Methods e Statics
+
+## Getters e Setters
+
+## Virtuals

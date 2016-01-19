@@ -374,7 +374,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Token
 - Aula 17: **04/01/2016**
     + **[Projeto em aula]**
-        * [ScrumBan - Gerenciador de Projeto com Github](./../../Projects/Scrumban)
+        * [Sistema de Pedidos]()
             - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
 - Aula 18: **05/01/2016**
     + **[Projeto em aula]**
