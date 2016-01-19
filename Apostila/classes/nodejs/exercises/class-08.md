@@ -1,7 +1,7 @@
 # Node.js - Aula 08 - Exercício
 
-1. Insira 5 pokemons novos, na coleção `pokemons`, escolha 3 e os adicione em um array e uma nova coleção chamada `meus-pokemons`, utilizando o `ObjectId`.
-2.Crie um Schema de xemplo com validação para os campos:
+1. Insira 5 pokemons novos, na coleção `pokemons`, escolha 3 e os adicione em um array e uma nova coleção chamada `meus-pokemons`, utilizando o `ObjectId`. Adicione o `required` em campos que ache obrigatório no *Schema* do `Pokemon`.
+2.Crie um Schema de xemplo com validação para os campos (utilizar Arquitetura Atômica):
     - email
     - cpf
     - cnpj

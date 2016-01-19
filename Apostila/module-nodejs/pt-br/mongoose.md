@@ -1106,3 +1106,43 @@ PokemonModel.findAndModify(query, mod, function (err, data) {
 ## Getters e Setters
 
 ## Virtuals
+
+## Embedded Documents
+
+Esse tópico é muito interessante pois diversas vezes iremos colocar um documento dentro de outro(*embedded*). Documentos incorporados desfrutam dos mesmos recursos que os *Models*. Sempre que ocorrer um erro ele irá para o *callback* do `save()`.
+
+Vamos iniciar com um exemplo clássico, de Blog:
+
+```js
+const CommentsSchema = new Schema({
+  title: String,
+  body: String,
+  date: Date
+});
+
+const BlogPostSchema = new Schema({
+  author: ObjectId,
+  title: String,
+  body: String,
+  comments: [CommentsSchema]
+});
+
+const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
+```
+
+O atributo `comments` em `BlogPost` será uma instância de `DocumentArray`, que é um subclasse especial de `Array` que possui métodos específicos para trabalhar co documentos incorporados.
+
+```js
+const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
+
+const BlogPost = new BlogPostModel();
+
+BlogPost.comments.push({ title: 'My comment' });
+
+BlogPost.save(function (err, data) {
+  if (err) return console.log('Erro:', err);
+  return console.log('Sucesso:', data);
+});
+```
+
+
