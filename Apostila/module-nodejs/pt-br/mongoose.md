@@ -1111,6 +1111,8 @@ PokemonModel.findAndModify(query, mod, function (err, data) {
 
 Esse tópico é muito interessante pois diversas vezes iremos colocar um documento dentro de outro(*embedded*). Documentos incorporados desfrutam dos mesmos recursos que os *Models*. Sempre que ocorrer um erro ele irá para o *callback* do `save()`.
 
+### Adicionando
+
 Vamos iniciar com um exemplo clássico, de Blog:
 
 ```js
@@ -1121,7 +1123,6 @@ const CommentsSchema = new Schema({
 });
 
 const BlogPostSchema = new Schema({
-  author: ObjectId,
   title: String,
   body: String,
   comments: [CommentsSchema]
@@ -1130,19 +1131,134 @@ const BlogPostSchema = new Schema({
 const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
 ```
 
-O atributo `comments` em `BlogPost` será uma instância de `DocumentArray`, que é um subclasse especial de `Array` que possui métodos específicos para trabalhar co documentos incorporados.
+O atributo `comments` em `BlogPostSchema` será uma instância de `DocumentArray`, que é um subclasse especial de `Array` que possui métodos específicos para trabalhar co documentos incorporados.
 
 ```js
 const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
-
 const BlogPost = new BlogPostModel();
+const comment = {
+  title: 'Comentei aqui'
+, body: 'Tá comentando meu fiiiii!'
+, date: Date.now()
+};
 
-BlogPost.comments.push({ title: 'My comment' });
-
+BlogPost.comments.push(comment);
 BlogPost.save(function (err, data) {
   if (err) return console.log('Erro:', err);
   return console.log('Sucesso:', data);
 });
+```
+
+Quando executamos esse código recebemos a seguinte mensagem:
+
+```
+Sucesso: { comments:
+   [ { _id: 569e2ef6e17e3736266c9cd7,
+       date: Tue Jan 19 2016 10:41:26 GMT-0200 (BRST),
+       body: 'Tá comentando meu fiiiii!',
+       title: 'Comentei aqui' } ],
+  _id: 569e2ef6e17e3736266c9cd6,
+  __v: 0 }
+```
+
+Não ficou muito claro? Então vamos colocar os valores do *Post*.
+
+```js
+const post = {
+  title: 'Primeiro POST'
+, body: 'Post inicial do blog UEBAAA'
+, date: Date.now()
+}
+const comment = {
+  title: 'Comentei aqui'
+, body: 'Tá comentando meu fiiiii!'
+, date: Date.now()
+};
+const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
+const BlogPost = new BlogPostModel(post);
+
+BlogPost.comments.push(comment);
+BlogPost.save(function (err, data) {
+  if (err) return console.log('Erro:', err);
+  return console.log('Sucesso:', data);
+});
+```
+
+Como resultado recebemos:
+
+```
+Sucesso: { comments: 
+   [ { _id: 569e300ad1455a8326c9aa92,
+       date: Tue Jan 19 2016 10:46:02 GMT-0200 (BRST),
+       body: 'Tá comentando meu fiiiii!',
+       title: 'Outro comentário' } ],
+  _id: 569e300ad1455a8326c9aa91,
+  body: 'Post inicial do blog UEBAAA',
+  title: 'Primeiro POST',
+  __v: 0 }
+```
+
+### Removendo
+
+Para remover um documento incorporado precisamos primeiramente buscar o documento *"pai"*, pelo `_id` de preferência, para depois selecionar qual documento interno deve ser removidoe depois salvar o documento modificado.
+
+```js
+const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
+const BlogPost = new BlogPostModel(post);
+const id = '569e300ad1455a8326c9aa91';
+
+BlogPostModel.findById(id, function (err, post) {
+
+  if (err) return console.log('Erro:', err);
+  console.log('post.comments', post.comments)
+  post.comments[0].remove();
+  post.save(function (err, data) {
+    if (err) return console.log('Erro interno:', err);
+    return console.log('Sucesso:', data);
+  });
+});
+```
+
+Como resultado recebos a seguinte mensagem no terminal:
+
+```
+post.comments [{ title: 'Outro comentário',
+  body: 'Tá comentando meu fiiiii!',
+  date: Tue Jan 19 2016 10:46:02 GMT-0200 (BRST),
+  _id: 569e300ad1455a8326c9aa92 }]
+Sucesso: { comments: [],
+  __v: 1,
+  body: 'Post inicial do blog UEBAAA',
+  title: 'Primeiro POST',
+  _id: 569e300ad1455a8326c9aa91 }
+```
+
+
+### Procurando pelo _id
+
+O tipo `DocumentArray` possui o método especial `id()` o qual filtra os documentos incorporados pelo seu atributo `_id`.
+
+Vamo inserir novamente o comentário e depois buscar pelo seu `_id`. (Execute o exercício `mongoose-embedded-save`)
+
+```js
+const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
+const BlogPost = new BlogPostModel(post);
+const post_id = '569e36b2d6a928b526db9135';
+const comment_id = '569e36b2d6a928b526db9136';
+
+BlogPostModel.findById(post_id, function (err, post) {
+  if (err) return console.log('Erro:', err);
+  console.log('Achou esse comentário: ', post.comments.id(comment_id));
+});
+```
+
+Executando, recebemos:
+
+```
+Achou esse comentário:  { title: 'Outro comentário',
+  body: 'Tá comentando meu fiiiii!',
+  date: Tue Jan 19 2016 11:14:26 GMT-0200 (BRST),
+  _id: 569e36b2d6a928b526db9136 }
 ```
 
 

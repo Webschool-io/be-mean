@@ -57,9 +57,9 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
         * Update
         * Delete
 - Aula 07: **14/12/2015**
-    + [Eventos](./src/) - Prof.: [Itacir](https://github.com/pompeu)
+    + [Eventos](https://github.com/Webschool-io/be-mean-instagram/blob/master/Apostila/module-nodejs/pt-br/events.md) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
-    + [Promises](./src/) - Prof.: [Itacir](https://github.com/pompeu)
+    + [Promises](https://github.com/Webschool-io/be-mean-instagram/blob/master/Apostila/module-nodejs/pt-br/promise.md) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
 - Aula 08: **15/12/2015**
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)

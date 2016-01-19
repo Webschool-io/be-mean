@@ -16,16 +16,35 @@ const BlogPostSchema = new Schema({
 , comments: [CommentsSchema]
 });
 
-const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
-const BlogPost = new BlogPostModel();
-const comment = { 
-  title: 'Comentei aqui'
+const post = {
+  title: 'Primeiro POST'
+, body: 'Post inicial do blog UEBAAA'
+, date: Date.now()
+}
+const comment = {
+  title: 'Outro comentário'
 , body: 'Tá comentando meu fiiiii!'
 , date: Date.now()
 };
 
-BlogPost.comments.push(comment);
-BlogPost.save(function (err, data) {
+const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
+const BlogPost = new BlogPostModel(post);
+const post_id = '569e36b2d6a928b526db9135';
+const comment_id = '569e36b2d6a928b526db9136';
+
+BlogPostModel.findById(post_id, function (err, post) {
+
   if (err) return console.log('Erro:', err);
-  return console.log('Sucesso:', data);
+
+  console.log('Achou esse comentário: ', post.comments.id(comment_id));
+  // post.comments[0].remove();
+  // post.save(function (err, data) {
+  //   if (err) return console.log('Erro interno:', err);
+  //   return console.log('Sucesso:', data);
+  // });
 });
+// BlogPost.comments.push(comment);
+// BlogPost.save(function (err, data) {
+//   if (err) return console.log('Erro:', err);
+//   return console.log('Sucesso:', data);
+// });
