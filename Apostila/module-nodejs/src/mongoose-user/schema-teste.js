@@ -10,7 +10,7 @@ const _schema = {
 // const userSchema = new Schema(_schema);
 console.log('_schema', _schema)
 const _userData = {
-  name: 'J'
+  name: 'Jea S'
 // , password: '1234567'
 // , email: 'suissera@webschool.io'
 };

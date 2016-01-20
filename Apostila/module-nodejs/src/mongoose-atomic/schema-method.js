@@ -13,7 +13,7 @@ const _schema = {
 };
 const PokemonSchema = new Schema(_schema);
 
-PokemonSchema.methods.findSimilarType = function findSimilarType (cb) {
+PokemonSchema.methods.findSimilarType = function (cb) {
   return this.model('Pokemon').find({ type: this.type }, cb);
 };
 
@@ -27,7 +27,7 @@ poke.findSimilarType(function (err, data) {
 
 // poke
 // .findSimilarType()
-// .where('defense').gt(665)
+// .where('attack').gt(9990)
 // .limit(4)
 // .exec(function (err, data) {
 //   if (err) return console.log('Erro:', err);
