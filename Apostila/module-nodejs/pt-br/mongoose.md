@@ -48,7 +48,7 @@ Obviamente precisamos conectar no MongoDb antes de fazermos qualquer coisa com o
 Primeiramente passamos a *string* de conexão para a função `connect`:
 
 ```js
-var dbURI = 'mongodb://localhost/be-mean-instagram';
+const dbURI = 'mongodb://localhost/be-mean-instagram';
 
 mongoose.connect(dbURI);
 ```
@@ -87,7 +87,7 @@ process.on('SIGINT', function() {
 Agora juntando tudo isso temos um arquivo de configuração/conexão com o MongoDb que podde ser re-usado.
 
 ```js
-var dbURI = 'mongodb://localhost/be-mean-instagram';
+const dbURI = 'mongodb://localhost/be-mean-instagram';
 
 mongoose.connect(dbURI);
 
@@ -208,8 +208,8 @@ const pokemonSchema = new Schema(_schema);
 
 const data = {name: {teste: "Suissa"}}
 
-var Model = mongoose.model('testepokemon', pokemonSchema);
-var poke = new Model(data);
+const Model = mongoose.model('testepokemon', pokemonSchema);
+const poke = new Model(data);
 poke.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   console.log('Inseriu: ', data)
@@ -256,8 +256,8 @@ const pokemonSchema = new Schema(_schema);
 
 const data = {name: 1/2}
 
-var Model = mongoose.model('testepokemon', pokemonSchema);
-var poke = new Model(data);
+const Model = mongoose.model('testepokemon', pokemonSchema);
+const poke = new Model(data);
 poke.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   console.log('Inseriu: ', data)
@@ -311,12 +311,12 @@ Agora eu lhe pergunto: por que usamos `Date.now` em vez de `Date.now()` que nos 
 
 #### Buffer
 
-O tipo *Buffer* é muito para salvar arquivos e retorná-los da forma que conhecemos [no Node.js](https://nodejs.org/api/buffer.html), porém o MongoDB converte para [Binary](http://mongodb.github.io/node-mongodb-native/api-bson-generated/binary.html).
+O tipo *Buffer* é muito para salconst arquivos e retorná-los da forma que conhecemos [no Node.js](https://nodejs.org/api/buffer.html), porém o MongoDB converte para [Binary](http://mongodb.github.io/node-mongodb-native/api-bson-generated/binary.html).
 
-*Dica: caso for gravar uma imagem, converta-a para base64*.
+*Dica: caso for graconst uma imagem, converta-a para base64*.
 
 ```js
-var imageSchema = new Schema({
+const imageSchema = new Schema({
     mime: String,
     bin: Buffer
 });
@@ -350,8 +350,8 @@ const pokemonSchema = new Schema(_schema);
 
 const data = {name: 1}
 
-var Model = mongoose.model('testepokemon', pokemonSchema);
-var poke = new Model(data);
+const Model = mongoose.model('testepokemon', pokemonSchema);
+const poke = new Model(data);
 poke.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   console.log('Inseriu: ', data)
@@ -407,8 +407,8 @@ const data = { attacks:
   ]
 };
 
-var Model = mongoose.model('testepokemon', pokemonSchema);
-var poke = new Model(data);
+const Model = mongoose.model('testepokemon', pokemonSchema);
+const poke = new Model(data);
 poke.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   console.log('Inseriu: ', data)
@@ -465,8 +465,8 @@ const data = {
   pokemons: ['5691d60743056d6e1566274e']
 };
 
-var Model = mongoose.model('mypokemons', pokemonSchema);
-var poke = new Model(data);
+const Model = mongoose.model('mypokemons', pokemonSchema);
+const poke = new Model(data);
 poke.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   console.log('Inseriu: ', data)
@@ -532,8 +532,8 @@ const data = {
   pokemons: ['Pikachu', 'Squirtle']
 };
 
-var Model = mongoose.model('mypokemons', pokemonSchema);
-var poke = new Model(data);
+const Model = mongoose.model('mypokemons', pokemonSchema);
+const poke = new Model(data);
 poke.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   console.log('Inseriu: ', data)
@@ -564,8 +564,8 @@ const data = {
   pokemons: ['Pikachu', 'Squirtle']
 };
 
-var Model = mongoose.model('mypokemons', pokemonSchema);
-var poke = new Model(data);
+const Model = mongoose.model('mypokemons', pokemonSchema);
+const poke = new Model(data);
 poke.save(function (err, data) {
   if (err) return console.log('ERRO: ', err);
   console.log('Inseriu: ', data)
@@ -821,7 +821,7 @@ TypeError: Cannot read property 'toString' of undefined
     at node.js:977:3
 ```
 
-Com isso conseguimos deduzir que a função `toString` não existe em undefined e podemos provar isso indo no console do node, para isso basta executar `node` no seu terminal:
+Com isso conseguimos deduzir que a função `toString` não existe em undefined e podemos proconst isso indo no console do node, para isso basta executar `node` no seu terminal:
 
 ```js
 ➜  ~  node
@@ -848,49 +848,64 @@ Vamos criar uma validação um pouco mais complexa agora:
 ```js
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const userSchema = new Schema({
-  phone: {
-    type: String,
-    validate: {
-      validator: function(v) {
-        return /^[1-9]{2}\-[2-9][0-9]{7,8}$/.test(v);
-      },
-      message: 'Valor {VALUE} não é permitida!'
-    }
+const validateEmail = function(email) {
+    const re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    return re.test(email)
+};
+const EmailSchema = new Schema({
+  email: {
+    type: String
+  , trim: true
+  , unique: true
+  , required: 'Email é obrigatório'
+  , validate: [validateEmail, 'Preencha com um email válido']
   }
 });
-const User = mongoose.model('user', userSchema);
-const u = new User();
+const Email = mongoose.model('Email', EmailSchema);
+const mail = new Email({email: "suissera@webschool.io"});
 
-u.email = "11-99990000";
-console.log(u.validateSync());
+console.log(mail.validateSync());
 ```
 
-Também tem a forma simples de testar regex:
+Também tem a forma simples de testar regex com validate:
 
 ```js
 const userSchema = new Schema({
-  phone: {
+  email: {
     type: String,
-    validate: /^[1-9]{2}\-[2-9][0-9]{7,8}$/
+    validate: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
   }
 });
 ```
 
-Existe mais uma forma de utilizar a validação com Mongoose, utilizando o `Model.schema.path('campo')` e uma função para o `validate`:
+Além do `match`:
 
 ```js
-var RequisitosSchema = new Schema({
+const userSchema = new Schema({
+  email: {
+    type: String,
+        match: [
+          /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+        , 'Preencha com um email válido'
+        ]
+  }
+});
+```
+
+Existe mais uma forma de utilizar a validação com Mongoose, utilizando o `Model.schema.path('campo')`, passando uma função e a mensagem de erro para o `validate`:
+
+```js
+const RequisitosSchema = new Schema({
   name: String
 });
 
-var Requisitos = mongoose.model('Requisitos', RequisitosSchema);
+const Requisitos = mongoose.model('Requisitos', RequisitosSchema);
 
 Requisitos.schema.path('name').validate(function (value) {
   return /js|html|css|angular|node|mongodb/i.test(value);
 }, 'Requisito({VALUE}) inválido!');
 
-var req = new Requisitos({ name: 'php'});
+const req = new Requisitos({ name: 'php'});
 console.log(req.validateSync());
 ```
 
@@ -899,7 +914,7 @@ console.log(req.validateSync());
 O *Model* é a implementação do *Schema*, sendo o objeto com o qual trabalhamos.
 
 ```js
-var Model = mongoose.model('Model', schema);
+const Model = mongoose.model('Model', schema);
 ```
 
 Para trabalhar com o *Model* iremos instanciar um documento para isso:
@@ -1101,11 +1116,355 @@ PokemonModel.findAndModify(query, mod, function (err, data) {
 
 ### findOneAndRemove
 
+## Indexes
+
+Quando o aplicativo é iniciado, Mongoose chama automaticamente `ensureIndex` para cada índice definido no seu *Schema*. Mongoose chamará `ensureIndex` sequencialmente para cada índice, e emitem um evento `index` no *Model* quando todas as chamadas de `ensureIndex` sejam sucesso ou quando houver um erro.
+
+```js
+var userSchema = new Schema({
+  name: String,
+  email: String,
+  date_created: { type: Date, , default: Date.now, index: true }
+});
+
+userSchema.index({ name: 1, type: -1 });
+```
+
+Recomenda-se que seja desativado em produção, a criação do índice pode causar um impacto significativo no desempenho. Desativar o comportamento, definindo a opção `autoIndex` do seu *Schema* para `false`, ou globalmente na conexão, definindo a opção `config.autoIndex` como `false`.
+
+```js
+userSchema.set('autoIndex', false);
+// or
+new Schema({..}, { autoIndex: false });
+```
+
+Mas ele só impacta quando você levanta seu sistema, sabendo disso você não precisa seguir essa recomendação de desligar o `autoIndex`, pois ele irá garantir certa integridade dos seus dados.
+
+```js
+const userSchema = new Schema({
+  name: String
+, email: { type: String, unique: true }
+, date_created: { type: Date, default: Date.now, index: true }
+});
+
+userSchema.index({ name: 1, date_created: -1 });
+
+const User = mongoose.model('User', userSchema);
+
+User.create({name: 'suissa', email: 'suissa@webschool.io'}, (err, data) => {
+  if (err) return console.log('Erro:', err);
+  return console.log('Animal: ', data);
+});
+```
+
+Basta pesquisar na *database* `test` e na coleção `system.indexes` que iremos encontrar a seguinte parte da busca:
+
+```js
+test> db.system.indexes.find()
+{
+  "v": 1,
+  "key": {
+    "_id": 1
+  },
+  "name": "_id_",
+  "ns": "test.users"
+}
+{
+  "v": 1,
+  "unique": true,
+  "key": {
+    "email": 1
+  },
+  "name": "email_1",
+  "ns": "test.users",
+  "background": true
+}
+{
+  "v": 1,
+  "key": {
+    "date_created": 1
+  },
+  "name": "date_created_1",
+  "ns": "test.users",
+  "background": true
+}
+```
+
+Para criar um índice composto basta fazê-lo passando o JSON para a função `index` do *Schema*:
+
+```js
+const userSchema = new Schema({
+  name: String
+, email: { type: String, unique: true }
+, date_created: { type: String, default: Date.now, index: true }
+});
+
+userSchema.index({ name: 1, date_created: -1 });
+```
+
+Buscando em `system.indexes` achamos nosso índice:
+
+```js
+{
+  "v": 1,
+  "key": {
+    "name": 1,
+    "date_created": -1
+  },
+  "name": "name_1_date_created_-1",
+  "ns": "test.users",
+  "background": true
+}
+```
+
+
 ## Methods e Statics
+
+No Mongoose podemos definir métodos específicos para um *Schema*, como também métodos *"estáticos"*.
+
+### Methods
+
+Para se definir um método é muito simples, basta criarmos ele no objeto `Schema.methods`:
+
+```js
+const _schema = {
+  name:  String
+, description: String
+, type:   String
+, attack:   Number
+, defense:   Number
+, height:   Number
+};
+const PokemonSchema = new Schema(_schema);
+
+PokemonSchema.methods.findSimilarType = function findSimilarType (cb) {
+  return this.model('Pokemon').find({ type: this.type }, cb);
+};
+
+const Pokemon = mongoose.model('Pokemon', PokemonSchema);
+const poke = new Pokemon({ name: 'Teste', type: 'inseto' });
+
+poke.findSimilarType(function (err, data) {
+  if (err) return console.log('Erro:', err);
+  return data.forEach((pokemon) => console.log('pokemon: ', pokemon));
+})
+```
+
+Como nós retornamos o `find`, que é uma instância de *Query*, na função `findSimilarType` podemos escrever a busca dessa forma:
+
+```js
+poke
+.findSimilarType()
+.where('defense').gt(50)
+.limit(2)
+.exec(function (err, data) {
+  if (err) return console.log('Erro:', err);
+  return data.forEach((pokemon) => console.log('pokemon: ', pokemon));
+});
+```
+
+### Statics
+
+Além dos métodos normais também podemos criar os métodos estáticos, os quais sempre estarão acessíveis no seu *Model*.
+
+```js
+const _schema = {
+  name:  String
+, description: String
+, type:   String
+, attack:   Number
+, defense:   Number
+, height:   Number
+};
+const PokemonSchema = new Schema(_schema);
+
+PokemonSchema.statics.search = function (name, cb) {
+  return this.where('name', new RegExp(name, 'i')).exec(cb);
+};
+
+const Pokemon = mongoose.model('Pokemon', PokemonSchema);
+
+Pokemon.search('caterpie', function (err, data) {
+  if (err) return console.log('Erro:', err);
+  return data.forEach((pokemon) => console.log('pokemon: ', pokemon));
+});
+```
+
+O que fazemos na função `search` é receber um nome e depois retornamos um `find` implícito pois usamos o `where` para testar o valor de `name` com uma expressão regular gerada pela função [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), finalizando com a execução do callback `cb`.
+
 
 ## Getters e Setters
 
+Getters e setters ajudam a mudar a forma como você obtém e/ou define os atributos do documento.
+
+### Setters
+
+*Setters* permitem que você transforme os dados originais antes que cheguem ao documento.
+
+Suponha que você está implementando o registro do usuário para um site. Usuário fornecer um e-mail e senha, que fica guardado no MongoDB. O e-mail é uma seqüência de caracteres que você vai querer normalizar para minúsculas.
+
+Você pode configurar a normalização do e-mail para minúsculas facilmente através de um *setter*.
+
+```js
+function toLower (v) {
+  return v.toLowerCase();
+}
+
+const UserSchema = new Schema({
+  email: { type: String, set: toLower } 
+});
+
+const User = mongoose.model('User', UserSchema);
+const user = new User({email: 'SUISSERA@webschool.io'});
+
+console.log(user.email); // 'suissera@webschool.io'
+```
+
+### Getters
+
+*Getters* permitem que você transforme a representação dos dados, uma vez que é transformado a partir do documento para o valor que você vê.
+
+Suponha que você queira retornar o título do *post* todo em maiúscula.
+
+Você pode fazê-lo através da definição de um *getter*.
+
+```js
+function apenasMaiusculas (v) {
+  return v.toUpperCase();
+};
+const CommentsSchema = new Schema({
+  title: String
+, body: String
+, date: Date
+});
+const BlogPostSchema = new Schema({
+  title: { type: String, get: apenasMaiusculas }
+, body: String
+, comments: [CommentsSchema]
+});
+
+const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
+const post_id = '569e36b2d6a928b526db9135';
+
+BlogPostModel.findById(post_id, function (err, post) {
+  if (err) return console.log('Erro:', err);
+  return console.log('Título: ', post.title);
+});
+```
+
 ## Virtuals
+
+O Mongoose suporta atributos virtuais, que são convenientes em alguns momentos, mas não são armazenados no MongoDB.
+
+Pense no seguinte *Schema*:
+
+```js
+const PersonSchema = new Schema({
+  name: {
+    first: String
+  , last: String
+  }
+});
+```
+
+Se você deseja mostrar os valores dos *virtuals* no cliente deve setar `{ virtuals: true }` para `toObject` e `toJSON` no *Schema*, como mostrado abaixo:
+
+```js
+const PersonSchema = new Schema({
+    name: {
+      first: String
+    , last: String
+    }
+}, {
+  toObject: {
+    virtuals: true
+  },
+  toJSON: {
+    virtuals: true
+  }
+});
+```
+
+Depois defina o nome:
+
+```js
+const Person = mongoose.model('Person', PersonSchema);
+
+const Suissao = new Person({
+    name: { first: 'Jean', last: 'Suissa' }
+});
+```
+
+Se você quiser mostrar o nome completo terá que fazer:
+
+```js
+console.log(Suissao.name.first + ' ' + Suissao.name.last);
+```
+
+É mais conveniente definir um atributo virtual `name.full` e escrever dessa forma:
+
+```js
+console.log(Suissao.name.full); 
+```
+
+Para fazer isso basta passar `'name.full'` para a função `virtual` do *Schema*:
+
+```js
+PersonSchema
+.virtual('name.full')
+.get(function () {
+  return this.name.first + ' ' + this.name.last;
+});
+```
+
+Cadastre uma `Person` nova:
+
+```js
+Person.create({ name: { first: 'Jean', last: 'Suissa' }}, (err, data) => {
+   if (err) return console.log('Erro:', err);
+   return console.log('Cadastrou: ', data);
+});
+```
+
+*ps: Fiz com o `create` para economizar código.*
+
+Agora buscando o `Person` para verificar seu nome completo:
+
+```js
+Person.findById('569e513f7672012c28da89f1', (err, data) => {
+  if (err) return console.log('Erro:', err);
+  return console.log('Nome completo: ', data.name.full);
+});
+```
+
+Retornando:
+
+```
+Nome completo:  Jean Suissa
+```
+
+Vamos fazer um outro campo virtual que irá retornar apenas as iniciais de `Person`:
+
+```js
+PersonSchema
+.virtual('name.initials')
+.get(function () {
+  return this.name.first[0] + this.name.last[0];
+});
+
+const Person = mongoose.model('Person', PersonSchema);
+
+Person.findById('569e513f7672012c28da89f1', (err, data) => {
+  if (err) return console.log('Erro:', err);
+  return console.log('Iniciais: ', data.name.initials);
+});
+```
+
+**E nossa resposta é:**
+
+```
+Iniciais:  JS
+```
 
 ## Embedded Documents
 
@@ -1200,7 +1559,7 @@ Sucesso: { comments:
 
 ### Removendo
 
-Para remover um documento incorporado precisamos primeiramente buscar o documento *"pai"*, pelo `_id` de preferência, para depois selecionar qual documento interno deve ser removidoe depois salvar o documento modificado.
+Para remover um documento incorporado precisamos primeiramente buscar o documento *"pai"*, pelo `_id` de preferência, para depois selecionar qual documento interno deve ser removido e depois salconst o documento modificado.
 
 ```js
 const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
@@ -1238,7 +1597,7 @@ Sucesso: { comments: [],
 
 O tipo `DocumentArray` possui o método especial `id()` o qual filtra os documentos incorporados pelo seu atributo `_id`.
 
-Vamo inserir novamente o comentário e depois buscar pelo seu `_id`. (Execute o exercício `mongoose-embedded-save`)
+Vamo inserir novamente o comentário e depois buscar pelo seu `_id`.
 
 ```js
 const BlogPostModel = mongoose.model('BlogPost', BlogPostSchema);
@@ -1260,5 +1619,100 @@ Achou esse comentário:  { title: 'Outro comentário',
   date: Tue Jan 19 2016 11:14:26 GMT-0200 (BRST),
   _id: 569e36b2d6a928b526db9136 }
 ```
+
+## Juntando tudo
+
+Vamos agora criar um *Schema* mais completo e atômico com o conhecimento adquirido.
+
+Já conhecemos o conceito de **Arquitetura Atômica** para o Mongoose, então vamos criar um *Schema* de usuário, primeiramente da forma simples:
+
+```js
+const userSchema = new Schema({
+  name: String
+, password: String
+, email: String
+, type: String
+, created_at: { type: Date, default: Date.now }
+});
+```
+
+Antes de tudo vamos criar um projeto novo chamado `mongoose-user` via `npm init`, depois instalando localmente o `mongoose` vamos copiar a pasta `fields` do projeto `mongoose-atomic` e colar na pasta do projeto `mongoose-user`, para podermos re-aproveitar o código criado anteriormente.
+
+Agora salve o código abaixo como `schema.js` na pasta do `mongoose-user`:
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+mongoose.connect('mongodb://localhost/mongoose-user-test');
+
+const userSchema = new Schema({
+  name: String
+, password: String
+, email: String
+, type: String
+, created_at: { type: Date, default: Date.now }
+});
+```
+
+Depois disso vamos *atomizar* nosso *Schema* re-usando os *fields*:
+
+```js
+const userSchema = new Schema({
+  name: require('./fields/fields-name')
+, password: String
+, email: String
+, type: require('./fields/fields-type')
+, created_at: { type: Date, default: Date.now }
+});
+```
+
+Agora vamos criar os *fields* faltantes para `password`, `email` e `created_at`, você deve ter percebido que `name`, `password` e `email`
+ são iguais.
+
+> Então para que criar um arquivo para cada se podemos re-aproveitar?
+
+Calma que logo logo você entenderá essa separação, vamos continuar:
+
+```js
+const userSchema = new Schema({
+  name: require('./fields/field-name')
+, password: require('./fields/field-password')
+, email: require('./fields/field-email')
+, type: require('./fields/field-type')
+, created_at: require('./fields/field-created_at')
+});
+```
+
+Pronto agora *atomizamos* nossos *fields* então está na hora de trabalhar em cada campo para definir suas peculiaridades, vamos começar pelo `name` (`fields/field-name`):
+
+```js
+module.exports = { type: String }
+```
+
+Vamos definir para esse *field*:
+
+- *index*;
+- *virtual*;
+- *getter* e *setter*;
+- *validate*.
+
+```js
+const _get = () => {};
+const _set = () => {};
+const _validate = () => {};
+
+module.exports = {
+  type: String
+, index: true
+, get: _get
+, set: _set
+, validate: _validate
+, required: true
+}
+```
+
+
+
 
 

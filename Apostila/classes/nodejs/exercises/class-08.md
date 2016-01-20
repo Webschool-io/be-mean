@@ -1,7 +1,7 @@
 # Node.js - Aula 08 - Exercício
 
 1. Insira 5 pokemons novos, na coleção `pokemons`, escolha 3 e os adicione em um array e uma nova coleção chamada `meus-pokemons`, utilizando o `ObjectId`. Adicione o `required` em campos que ache obrigatório no *Schema* do `Pokemon`.
-2.Crie um Schema de xemplo com validação para os campos (utilizar Arquitetura Atômica):
+2. Crie um Schema de exemplo com validação para os campos (utilizar Arquitetura Atômica, ou seja cada campo sendo um *Schema* separado):
     - email
     - cpf
     - cnpj
@@ -11,31 +11,26 @@
     - findAndModify
     - findOneAndUpdate
     - findOneAndRemove
+4. Crie 1 *Schema* com todo CRUD funcional e métodos especiais, que agrupe:
+    - virtuals
+    - getters & setters
+    - method & static
+    - embedded document
+5. Crie 1 *Schema* para `password` com criptografia e arquitetura atômica.
+    - use SHA256 com SALT como criptografia;
+    - use *middleware* com `pre save`;
+    - use *methods*.
 
 ## Estrutura
 
 ```md
-# Node.js - Aula 08 - Exercício
+# Node.js - Aula 08 - Exercício 
 
 **user:** [SEU Github User](Link para seu Github)
 
 **autor:** SEU NOME COMPLETO
 
-
-## Instale algum gerenciador de versão do Node.js e instale a versão mais atual como padrão, enquanto escrevo é a versão 5.4.0
-
-
-## Inicie um projeto novo para essa aula, com o `npm` e instale, salvando no `package.json`:
-
-
-## Crie e execute um script, via `npm`, que mostre uma mensagem no console com a global, que possui caminho para o diretório atual.
-
-
-## Cite 5 globais do Node.js e pelo menos 1 exemplo de cada.
-
-
-## Explique como funciona e de um exemplo de `process`.
-
+// COLOCAR AQUI TODOS OS EXERCÍCIOS DE TODAS AS PARTES
 ```
 
 
