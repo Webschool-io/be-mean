@@ -1,0 +1,20 @@
+{
+  "name": "pokemons-api",
+  "version": "1.0.0",
+  "description": "Api dos pokemons",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "pokemons",
+    "node.js",
+    "mean"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "dependencies": {
+    "mongoose": "^4.3.3"
+  }
+}
