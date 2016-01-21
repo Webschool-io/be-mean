@@ -71,6 +71,19 @@ let a;
 console.log(a);
 ```
 
+**Pronto!**
+
+```js
+a = 1;
+  ^
+
+ReferenceError: a is not defined
+```
+
+Pronto o erro correto hehehehhe.
+
+Com isso deduzimos que com `let` **sempre** precisamos declarar as variáveis antes e isso faz muito bem para sua sanidade mental e do seu código, vai por mim. #saudadesC
+
 ## const
 
 ## arrow function
