@@ -8,6 +8,13 @@
 3. Crie e execute um script, via `npm`, que mostre uma mensagem no console com a global, que possui caminho para o diretório atual.
 4. Cite 5 globais do Node.js e pelo menos 1 exemplo de cada.
 5. Explique como funciona e de um exemplo de `process`.
+6. Criar um arquivo
+7. Ler um arquivo
+8. Editar conteúdo desse arquivo
+9. Deletar arquivo
+10. Renomear o arquivo
+
+**Desafio: Criar um servidor web de arquivos estáticos: .css, .html, .js e etc...**
 
 ## Estrutura
 
@@ -32,6 +39,25 @@
 
 
 ## Explique como funciona e de um exemplo de `process`.
+
+
+## Criar um arquivo
+
+
+## Ler um arquivo
+
+
+## Editar conteúdo desse arquivo
+
+
+## Deletar arquivo
+
+
+## Renomear o arquivo
+
+
+## Desafio
+
 
 ```
 
