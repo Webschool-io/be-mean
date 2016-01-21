@@ -10,7 +10,7 @@ Depois basta descompactar e rodar.
 
 ### Linux
 
-![Meme do Linux](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/Apostila/module-mongodb/images/meme-linux.jpg)
+![Meme do Linux](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/Apostila/module-mongodb/src/images/meme-linux.jpg)
 
 Quem usa Linux do tipo Ubuntu da vida, como o Debian por exemplo, pode instalar via `apt-get` seguindo esses passos, caso o seu sistema seja 64 bits. Primeiro, para garantir a autenticidade e consistencia dos pacotes do MongoDb:
 
@@ -80,7 +80,7 @@ Caso você use RedHat ou CentOS siga esses passos: [http://docs.mongodb.org/manu
 
 ### Mac
 
-![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/Apostila/module-mongodb/images/meme-mac.jpg)
+![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/Apostila/module-mongodb/src/images/meme-mac.jpg)
 
 Quem usa Mac pode instalar via [brew](http://brew.sh/) e para instalar o brew é bem fácil basta executar esse comando no seu terminal:
 
@@ -104,7 +104,7 @@ Também tem um vídeo muito bom enviado por um aluno: [003 Installing MongoDB on
 
 ### Windows
 
-![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/Apostila/module-mongodb/images/meme-windows.jpg)
+![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/Apostila/module-mongodb/src/images/meme-windows.jpg)
 
 Por incrível que pareça é bem simples no Windows, um aluno meu escreveu esse rtigo que pode lhe ajudar [https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/](https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/).
 
