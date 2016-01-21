@@ -2,7 +2,7 @@
 
 1. Crie um Schema com cada tipo explicado, inserindo tanto um objeto correto, como um objeto que desencadeie erros de validação padrão, criar especificamente:
     1.1. para String: `enum`, `match`, `maxlength` e `minlength`
-    1.2  para Number: `max` e `min`
+    1.2.  para Number: `max` e `min`
 2. Cadastre 3 pokemons **de uma só vez**. (pesquisar)
 3. Busque **todos** os Pokemons com `attack > 50` e `height > 0.5`.
 4. Altere, **inserindo**, o Pokemon `Nerdmon` com `attack` igual a 49 e com os valores dos outros campos a sua escolha.
@@ -18,19 +18,25 @@
 **autor:** SEU NOME COMPLETO
 
 
-## Instale algum gerenciador de versão do Node.js e instale a versão mais atual como padrão, enquanto escrevo é a versão 5.4.0
+## Crie um Schema com cada tipo explicado, inserindo tanto um objeto correto, como um objeto que desencadeie erros de validação padrão, criar especificamente:
+
+* 1.1. para String: `enum`, `match`, `maxlength` e `minlength`
+    
+* 1.2.  para Number: `max` e `min`
 
 
-## Inicie um projeto novo para essa aula, com o `npm` e instale, salvando no `package.json`:
+## Cadastre 3 pokemons **de uma só vez**:
 
 
 ## Crie e execute um script, via `npm`, que mostre uma mensagem no console com a global, que possui caminho para o diretório atual.
 
 
-## Cite 5 globais do Node.js e pelo menos 1 exemplo de cada.
+## Busque **todos** os Pokemons com `attack > 50` e `height > 0.5`:
 
 
-## Explique como funciona e de um exemplo de `process`.
+## Altere, **inserindo**, o Pokemon `Nerdmon` com `attack` igual a 49 e com os valores dos outros campos a sua escolha.
+
+## Remova **todos** os Pokemons com `attack` **acima de 50**.
 
 ```
 

@@ -1,10 +1,9 @@
 # Node.js - Aula 04 - Exercício
 
-1. Criar um arquivo
-2. Ler um arquivo
-3. Editar conteúdo desse arquivo
-4. Deletar arquivo
-5. Renomear o arquivo
+1. Criar uma função com uma entrada para nome e imprimir esta entrada em uma outra função, como continuação da execução da mesma
+2. Criar uma função que calcula a soma de dois valores e passe o resultado em uma outra função e imprima-o, de acordo com o padrão apresentado em aula
+3. Criar uma função que calcula a média de dois valores e imprima essa média em outra função, como continuação da execução da mesma
+4. Explicar a definição de continuação de uma função
 
 **Desafio: Criar um servidor web de arquivos estáticos: .css, .html, .js e etc...**
 
@@ -15,19 +14,16 @@
 **user:** [SEU Github User](Link para seu Github)
 **autor:** SEU NOME COMPLETO
 
-## Criar um arquivo.
+## Criar uma função com uma entrada para nome e imprimir esta entrada em uma outra função, como continuação da execução da mesma
 
 
-## Ler um arquivo.
+## Criar uma função que calcula a soma de dois valores e passe o resultado em uma outra função e imprima-o, de acordo com o padrão apresentado em aula
 
 
-## Editar conteúdo desse arquivo.
+## Criar uma função que calcula a média de dois valores e imprima essa média em outra função, como continuação da execução da mesma
 
 
-## Deletar arquivo.
-
-
-## Renomear o arquivo.
+## Explicar a definição de continuação de uma função
 
 
 ```
