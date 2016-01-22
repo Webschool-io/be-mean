@@ -1,22 +1,4 @@
 # Node.js - Aula 02 - Exercício
-
-1. Quais são os 4 verbos que utilizamos para o CRUD?
-2. Para que foram inventados os Status Codes? Dê exemplo de 1 código por grupo e a imagem do [Cat Status Code](https://http.cat/).
-3. Explique o que é cada parâmetro da função recebida no `createServer`.
-4. O que é e para que serve a Querystring?
-5. Escreva no código do `server.js` uma forma de entregar um JSON de sucesso em 4 rotas diferentes:
-
-- /api/pokemons/create
-- /api/pokemons/read
-- /api/pokemons/update
-- /api/pokemons/delete
-
-**DICA: NÃO USE IF!!!**
-
-## Estrutura
-
-```md
-# Node.js - Aula 02 - Exercício
 **user:** [diegolopesdev](http://github.com/diegolopesdev)
 **autor:** Diego Lopes do Nascimento
 
@@ -99,6 +81,7 @@ http.createServer((req, res) => {
       console.log('O servidor está rodando em localhost:3300.');
 });
 
+```
 
 ## Envio
 
