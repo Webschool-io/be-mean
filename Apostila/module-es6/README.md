@@ -23,11 +23,12 @@
 ## Aulas
 
 - Aula 1
+    + Review let, const, arrow
     + Tail Call Optimization
     + Template String
     + Default Params
-    + Rest Params
 - Aula 2
+    + Rest Params
     + Spread Operator
     + Destructuring
 - Aula 3
