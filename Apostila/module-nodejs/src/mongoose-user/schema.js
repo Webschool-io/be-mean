@@ -12,21 +12,4 @@ const _schema = {
 , created_at: require('./fields/field-created_at')
 }
 const userSchema = new Schema(_schema);
-const _userData = {
-  name: 'Jean Suissa'
-, password: '1234567'
-, email: 'suissera@webschool.io'
-};
-
-const User = mongoose.model('User', new Schema(_schema));
-
-// User.create(_userData, (err, data) => {
-//   if (err) return console.log('Erro:', err);
-//   return console.log('Inserido:', data)
-// });
-const u = new User(_userData);
-console.log(u.validateSync());
-// User.findOne({}, (err, data) => {
-//   if (err) return console.log('Erro:', err);
-//   return console.log('Nome:', data.name)
-// })
+module.exports = userSchema;

@@ -8,7 +8,7 @@ Essa é apenas uma pequena amostra do ES6 para podermos entender os códigos des
 
 **Para deixar o resto para o módulo de ES6 do Be MEAN.**
 
-## let
+## Let
 
 O `let` é o substituto para o `var`, pois futuramente o `var` será descontinuado.
 
@@ -172,7 +172,7 @@ for(let i = 0; i < 10; i ++){}
 console.log(i); // ReferenceError: i is not defined
 ```
 
-## const
+## Const
 
 Esta declaração cria uma constante que pode pertencer ao escopo global ou local de uma função. Constantes são block-scoped. O valor de uma constante não pode ser alterado via re-atribuição, e uma constante não pode ser redeclarada. É obrigatório que um valor seja atribuido à constante em sua declaração. Uma constante não deve compartilhar o nome com uma função ou variável em um mesmo escopo.
 
@@ -207,7 +207,7 @@ myObject = {"otherKey": "value"};
 myObject.key = "otherValue";
 ```
 
-## arrow function
+## Arrow Function
 
 Uma *arrow function* possui uma sintaxe mais curta quando comparada com a função normal, vinculando o valor de `this` de maneira léxica.
 **Arrow functions sempre são anônimas.**
@@ -312,3 +312,28 @@ const square = onPower(2);
 
 *ps: Exemplos de *arrow functions* retirados [daqui](https://medium.com/jedi-js/future-javascript-1-arrow-functions-f44ee4098b30#.ip8yfl7hy), let e const da [MDN](mdn.io)*
 
+## Tail Call Optimization
+
+## Template String
+
+## Default Params
+
+## Rest Params
+
+## Spread Operator
+
+## Destructuring
+
+## Generator
+
+## Iterators
+
+## Module
+
+## Class
+
+## Promise
+
+## Map
+
+## Set
