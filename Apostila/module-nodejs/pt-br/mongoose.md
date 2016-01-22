@@ -1714,6 +1714,97 @@ const Field = {
 module.exports = Field;
 ```
 
+# Escrever aqui o que falta
+
+Agora precisamos refatorar nossa função de `create`:
+
+```js
+create: () => {
+  const obj = {
+    name: 'Jean Suissa'
+  , password: '1234567'
+  , email: 'suissera@webschool.io'
+  };
+  Model.create(obj);
+}
+```
+
+Para receber o objeto a ser inserido, esse objeto vem de onde?
+
+![](https://media.giphy.com/media/xTiTnfCObHbSuutMoU/giphy.gif)
+
+**ISSO MESMO! Do objeto `req`**
+
+Então refatorando nosso código ficará:
+
+```js
+create: (req, res) => {
+  Model.create(req, res);
+}
+```
+
+Se refatoramos essa função agora precisamos refatorar a função `create` do *Model*:
+
+```js
+create: (req, res) => {
+  let queryData = '';
+  req.on('data', function(data) {
+    queryData += data;
+  });
+
+  req.on('end', function() {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => {
+      if (err) return console.log('Erro:', err);
+      return console.log('Inserido:', data);
+    });
+  });
+}
+```
+
+**Caraio mas como que ficou assim!!???**
+
+![](https://media.giphy.com/media/X5xgyBLedf70c/giphy.gif)
+
+Se liga só!
+
+Para recebermos dados no nosso servidor nós *escutaremos* o evento `data` do objeto *Request*(`req`), pois pense que você pode estar enviando um vídeo, logo não tem como o Node.js ter uma função para receber o vídeo inteiro, em vez disso precisamos apenas escutar o evento `data` até o *Request* emitir o evento `end`.
+
+Sei que não é aula sobre `http`, mas o objeto de *Request* é uma instância de [http.IncomingMessage.](https://nodejs.org/api/http.html#http_class_http_incomingmessage) que implementa a interface de [Readable Stream](https://nodejs.org/api/stream.html#stream_class_stream_readable) e uma interface de *Readable stream* é uma abstração para uma fonte de dados que você esteja lendo, em outras palavras os dados são lidos em um fluxo legível, palavras da própria documentação. :p
+
+Ou seja, *(quase)*sempre que você for ler dados com o Node.js poderá utilizar essa interface para leitura de dados.
+
+*ps: O Node.js não verifica se o `Content-Length` e o comprimento do corpo que tenham sido enviados são iguais ou não.*
+
+Vamos voltar para o código, agora que ja o entendemos:
+
+```js
+create: (req, res) => {
+  let queryData = '';
+  req.on('data', function(data) {
+    queryData += data;
+  });
+
+  req.on('end', function() {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => {
+      if (err) return console.log('Erro:', err);
+      return console.log('Inserido:', data);
+    });
+  });
+}
+```
+
+Então entendemos que, enquanto nosso servidor recebe os dados ele vai adicionando em `queryData` para depois esse objeto ser *parseado*, por `querystring.parse`, de *string* para objeto quando executar o evento `end` de *Request*.
+
+Para depois inserirmos com `User.create` e **PIMBA!**
+
+![](https://cldup.com/CqPtMbgXnZ-1200x1200.png)
+
+
+
+
+
 
 
 

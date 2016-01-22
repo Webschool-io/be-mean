@@ -1,15 +1,10 @@
 'use strict';
 const http = require('http');
-const Model = require('./model');
+const Model = require('./model-teste');
 
 const User = {
-  create: () => {
-    const obj = {
-      name: 'Jean Suissa'
-    , password: '1234567'
-    , email: 'suissera@webschool.io'
-    };
-    Model.create(obj);
+  create: (req, res) => {
+    Model.create(req, res);
   }
 , retrieve: () => {
     const query = { name: 'Itacir Pompeu' };
@@ -32,7 +27,13 @@ http.createServer(function(req, res){
   switch(req.url){
     case '/api/user/create':
       msg = 'USUARIO CADASTRADO';
-      User.create();
+      const obj = {
+        name: 'Jean Suissa'
+      , password: '1234567'
+      , email: 'suissera@webschool.io'
+      };
+      const cb = 
+      User.create(req, res);
       break;
     default:
       msg = 'ROTA NAO ENCONTRADA';
