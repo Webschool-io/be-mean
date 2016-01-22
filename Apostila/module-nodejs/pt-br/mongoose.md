@@ -1714,7 +1714,16 @@ const Field = {
 module.exports = Field;
 ```
 
+
+
 # Escrever aqui o que falta
+
+Vamos separar os contextos, perceba que o `app.js` está com muita responsabilidade, por exemplo o objeto de `User` que tende a ser o *Controller*, então vamos refatorar esse código:
+
+
+
+# Escrever aqui o que falta
+
 
 Agora precisamos refatorar nossa função de `create`:
 
@@ -1802,7 +1811,7 @@ Para depois inserirmos com `User.create` e **PIMBA!**
 ![](https://cldup.com/CqPtMbgXnZ-1200x1200.png)
 
 
-
+Vamos para a próxima função, *retrieve*:
 
 
 
