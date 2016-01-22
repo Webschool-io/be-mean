@@ -1,5 +1,7 @@
 #ES6
 
+![](./src/images/es6-proxima-saida.png)
+
 ## Ementa
 
 - Let (feito no módulo Node.js)
