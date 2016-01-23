@@ -16,6 +16,9 @@
         - Título
           + Tamanho: 52
           + Alinhamento: centralizado
+        - Sub-título / pergunta
+          + Tamanho: 48
+          + Alinhamento: centralizado
         - Explicação
           + Tamanho: 24
           + Alinhamento: centralizado ou esquerda
@@ -27,3 +30,12 @@
   3.2 Utilizar pausa (de fala) entre a saída dos slides e o Desktop
   3.3 Utilizar pausa (de fala) entre a saída do Desktop para os slides
       3.3.1 Não esquecer da regra 3.2
+
+## Criar conteúdo na apostila
+
+## Criar slides no Google Slides (Drive)
+
+![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
+
+
+## Gravação da aula
