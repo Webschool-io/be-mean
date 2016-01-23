@@ -1873,7 +1873,7 @@ create: (req, res) => {
       console.log('criando');
       if (err) return console.log('Erro:', err);
       res.writeHead(200, {'Content-Type': 'application/json'});
-      res.end(JSON.stringify(data));
+      return res.end(JSON.stringify(data));
     });
   });
 }
@@ -1883,19 +1883,177 @@ Como estamos criando uma API vamos retornar nossa resposta em forma de JSON, por
 
 ```js
 res.writeHead(200, {'Content-Type': 'application/json'});
-res.end(JSON.stringify(data));
+return res.end(JSON.stringify(data));
 ```
 
-Onde `res.writeHead(200, {'Content-Type': 'application/json'});` escreve o cabeçalho da resposta e `res.end(JSON.stringify(data));` finaliza a conexão enviando os dados em formato de *string*(`JSON.stringify`).
+Onde `res.writeHead(200, {'Content-Type': 'application/json'})` escreve o cabeçalho da resposta e `res.end(JSON.stringify(data));` finaliza a conexão enviando os dados em formato de *string*(`JSON.stringify`).
 
 A função `res.end` finaliza a conexão enviando uma *string* para o cliente, podemos utilizar a função `res.write` que além de *string* também aceita *buffer*, sendo `utf8` sua codificação padrão.
 
 Vamos para a próxima função, *retrieve*. Para isso precisamos adicionar sua rota em `app.js`:
 
+```js
+'use strict';
+
+const http = require('http');
+const Controller = require('./controller-teste');
+
+http.createServer(function(req, res){
+  let msg = '';
+  switch(req.url){
+    case '/api/user/create':
+      Controller.create(req, res);
+      break;
+    case '/api/user':
+      Controller.retrieve(req, res);
+      break;
+    default:
+      msg = 'ROTA NAO ENCONTRADA';
+      break;
+  }
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Agora vamos fazer a listagem dos usuários, então seguimos o mesmo padrão do *Create*, tanto em `app.js` como em `controller.js`, logo vamos refatorar o *Model.*
+
+```js
+retrieve: (req, res) => {
+  const query = {};
+  User.find(query, (err, data) => {
+    if (err) return console.log('Erro:', err);
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.end(JSON.stringify(data));
+  });
+}
+```
+
+
+# Depois refatorar o CREATE para aceitar a mesma URL mas mudar apenas o verbo
+
+Não iremos perder mais tempo com isso pois usaremos o Express futuramente.
+
+Então vamos fazer mais uma função do CRUD, o *Update*, para isso iniciamos adicionando sua rota no `app.js`:
+
+```js
+'use strict';
+
+const http = require('http');
+const url = require('url');
+const Controller = require('./controller-teste');
+
+http.createServer(function(req, res){
+  var url_parts = url.parse(req.url);
+  let msg = '';
+  switch(url_parts.pathname){
+    case '/api/user/create':
+      Controller.create(req, res);
+      break;
+    case '/api/user':
+      Controller.retrieve(req, res);
+      break;
+    case '/api/user/update':
+      Controller.update(req, res);
+      break;
+    default:
+      msg = 'ROTA NAO ENCONTRADA';
+      break;
+  }
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+O *Controller* fica com o padrão:
+
+```js
+update: (req, res) => {
+  Model.update(req, res);
+}
+```
+
+Porém olha como fica o *Model*:
+
+```js
+update: (req, res) => {
+  let queryData = '';
+
+  req.on('data', function(data) {
+    queryData += data;
+  });
+
+  req.on('end', function() {
+    const obj = querystring.parse(queryData);
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.update(query, obj, (err, data) => {
+      if (err) return console.log('Erro:', err);
+      console.log('Alterado:', JSON.stringify(data));
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      return res.end(JSON.stringify(data));
+    });
+  });
+}
+```
+
+Utilizamos a mesma forma de pegar os valor da função `create`, a única diferença é como pegamos o valor da *query* então vamos analisar:
 
 ```js
 
+const obj = querystring.parse(queryData);
+//name=ValorNOVO
+const url_parts = url.parse(req.url);
+/*
+Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?name=valorBUSCADO',
+  query: 'name=valorBUSCADO',
+  pathname: '/api/user/update',
+  path: '/api/user/update?name=valorBUSCADO',
+  href: '/api/user/update?name=valorBUSCADO' }
+*/
+const query = querystring.parse(url_parts.query);
+// { name: 'valorBUSCADO' }
 ```
+
+Primeiramente *parseamos* `queryData` para pegar o conteúdo do envio, para depois utilizar `url.parse` para colocar os dados da *url* requisitada no objeto `url_parts` e depois precisamos apenas pegar o valor do atributo `url_parts.query`(`'name=valorBUSCADO'`), utilizando `querystring.parse` convertemos essa *string* no objeto `query` e **PIMBA!**
+
+![bobeou-pimba](http://geradormemes.com/media/created/e2oh4i.jpg)
+
+
+```
+
+{
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?name=testeeee',
+  query: 'name=testeeee',
+  pathname: '/api/user/update',
+  path: '/api/user/update?name=testeeee',
+  href: '/api/user/update?name=testeeee' }
+```
+
+
+
+
+
+
+
+
+
 
 
 

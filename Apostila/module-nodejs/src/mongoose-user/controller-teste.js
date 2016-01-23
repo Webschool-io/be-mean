@@ -6,9 +6,7 @@ const Controller = {
 , retrieve: (req, res) => {
     Model.retrieve(req, res);
   }
-, update: () => {
-    const query = { name: /jean suissa/i };
-    const mod = {name: 'Itacir Pompeu'};
+, update: (req, res) => {
     Model.update(req, res);
   }
 , delete: () => {
