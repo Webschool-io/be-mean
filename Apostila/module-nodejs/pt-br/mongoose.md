@@ -2026,7 +2026,7 @@ const query = querystring.parse(url_parts.query);
 
 Primeiramente *parseamos* `queryData` para pegar o conteúdo do envio, para depois utilizar `url.parse` para colocar os dados da *url* requisitada no objeto `url_parts` e depois precisamos apenas pegar o valor do atributo `url_parts.query`(`'name=valorBUSCADO'`), utilizando `querystring.parse` convertemos essa *string* no objeto `query` e **PIMBA!**
 
-![bobeou-pimba](http://geradormemes.com/media/created/e2oh4i.jpg)
+![pimba-gorduchinha](https://cldup.com/rvbIMjaIrG-3000x3000.jpeg)
 
 
 ```
