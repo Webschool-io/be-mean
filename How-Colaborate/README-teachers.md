@@ -37,11 +37,18 @@
 
 ## Padrão
 
-### Cor de Fundo
+O padrão utilizado é derivado de um pronto do Google, o ***Simple Dark***, porém eu modifiquei ele para as cores do nosso amado <3 JavaScript.
+
+![](https://cldup.com/9SbHf-ZmW7.png)
+
+Escolha a cor `dark yeallow 1` e clique em `Add to theme`
 
 ![Cor de Fundo](https://cldup.com/49BXepFyT5-2000x2000.png)
+![Add to theme](https://cldup.com/b8vom20NXF-2000x2000.png)
 
 ### Texto
+
+A fonte padrão utilizada é a **Arial**.
 
 #### Cor
 
@@ -51,6 +58,7 @@ Cor do texto **sempre** preto, até em links!!
 
 ##### Link
 
+Cmo o 
 ![Cor do texto em LINK](https://cldup.com/OlEsav9czN.png)
 
 #### Título
