@@ -51,15 +51,17 @@ Cor do texto **sempre** preto, até em links!!
 
 ##### Link
 
-![Cor do texto em LINK](https://cldup.com/OlEsav9czN.thumb.png)
+![Cor do texto em LINK](https://cldup.com/OlEsav9czN.png)
 
 #### Título
 
 Por exemplo os títulos das aulas e de cada tópico (grande) com tamanho `52`
 
-![Título no SLIDE](https://cldup.com/G5MqqfN17J.thumb.png)
+![Título no SLIDE](https://cldup.com/G5MqqfN17J.png)
 
 #### Sub-título / Pergunta
+
+![Sub-título no SLIDE](https://cldup.com/oO7vnSLWBk.png)
 
 #### Explicação
 
