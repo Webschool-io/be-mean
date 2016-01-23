@@ -65,6 +65,15 @@ Por exemplo os títulos das aulas e de cada tópico (grande) com tamanho `52`
 
 #### Explicação
 
+Perceba que existe margem entre os lados do slides.
+
+![Explicação de texto](https://cldup.com/qA_ItkMtBg.png)
+
+Existe também a forma centralizada, que é utilizada para frases pequenas.
+
+![Título do Slide](https://cloudup.com/chzpxVfPtw3)
+![Explicação centralizada em uma frase](https://cldup.com/xnhRe0osKb-2000x2000.png)
+
 #### Código
 
 
