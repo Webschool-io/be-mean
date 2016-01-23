@@ -47,6 +47,10 @@
 
 #### Título
 
+Por exemplo os títulos das aulas e de cada tópico (grande) com tamanho `52`
+
+![Título no SLIDE](https://cldup.com/G5MqqfN17J.thumb.png)
+
 #### Sub-título / Pergunta
 
 #### Explicação
