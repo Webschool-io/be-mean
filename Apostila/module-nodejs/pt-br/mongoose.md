@@ -1721,7 +1721,7 @@ module.exports = Field;
 Vamos separar os contextos, perceba que o `app.js` está com muita responsabilidade, por exemplo o objeto de `User` que tende a ser o *Controller*, então vamos refatorar esse código retirando o objeto `User` de `app.js` para um arquivo novo chamado `controller.js`, contendo o seguinte código:
 
 ```js
-const Model = require('./model-teste');
+const Model = require('./model');
 const Controller = {
   create: (req, res) => {
     Model.create(req, res);
@@ -1746,6 +1746,31 @@ module.exports = Controller;
 Perceba que mudei o nome do objeto de `User` para `Controller` a fim de deixar o código mais genérico, você entenderá o porqueê mais para frente.
 
 ![](https://media.giphy.com/media/bYpgM8bi7QV3i/giphy.gif)
+
+Tendo retirado o código anterior de `app.js` logicamente precisamos importar esse *Controller* para o `app`, ficando assim:
+
+```js
+'use strict';
+
+const http = require('http');
+const Controller = require('./controller');
+
+http.createServer(function(req, res){
+  let msg = '';
+  switch(req.url){
+    case '/api/user/create':
+      msg = 'USUARIO CADASTRADO';
+      Controller.create(req, res);
+      break;
+    default:
+      msg = 'ROTA NAO ENCONTRADA';
+      break;
+  }
+  res.end(msg);
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
 
 
 Agora precisamos refatorar nossa função de `create`:
@@ -1775,7 +1800,7 @@ create: (req, res) => {
 }
 ```
 
-Se refatoramos essa função agora precisamos refatorar a função `create` do *Model*:
+Se refatorarmos essa função agora precisamos refatorar a função `create` do *Model*:
 
 ```js
 create: (req, res) => {
