@@ -1718,11 +1718,34 @@ module.exports = Field;
 
 # Escrever aqui o que falta
 
-Vamos separar os contextos, perceba que o `app.js` está com muita responsabilidade, por exemplo o objeto de `User` que tende a ser o *Controller*, então vamos refatorar esse código:
+Vamos separar os contextos, perceba que o `app.js` está com muita responsabilidade, por exemplo o objeto de `User` que tende a ser o *Controller*, então vamos refatorar esse código retirando o objeto `User` de `app.js` para um arquivo novo chamado `controller.js`, contendo o seguinte código:
 
+```js
+const Model = require('./model-teste');
+const Controller = {
+  create: (req, res) => {
+    Model.create(req, res);
+  }
+, retrieve: (req, res) => {
+    Model.retrieve(req, res);
+  }
+, update: () => {
+    const query = { name: /jean suissa/i };
+    const mod = {name: 'Itacir Pompeu'};
+    Model.update(req, res);
+  }
+, delete: () => {
+    const query = { name: /Itacir Pompeu/i };
+    Model.delete(req, res);
+  }
+};
 
+module.exports = Controller;
+```
 
-# Escrever aqui o que falta
+Perceba que mudei o nome do objeto de `User` para `Controller` a fim de deixar o código mais genérico, você entenderá o porqueê mais para frente.
+
+![](https://media.giphy.com/media/bYpgM8bi7QV3i/giphy.gif)
 
 
 Agora precisamos refatorar nossa função de `create`:
