@@ -1788,7 +1788,7 @@ create: () => {
 
 Para receber o objeto a ser inserido, esse objeto vem de onde?
 
-![](https://media.giphy.com/media/xTiTnfCObHbSuutMoU/giphy.gif)
+![](https://rolling-eyes.gif)
 
 **ISSO MESMO! Do objeto `req`**
 
