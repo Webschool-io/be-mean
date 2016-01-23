@@ -419,6 +419,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 	+ de 23.01 a 31.01
 
 ##  Módulo Frontend - 01.02 a 05.03
+
+Gulp: [guidiego](https://github.comguidiego)
 - **Aula 01 - 01.02**
 - **Aula 02 - 02.02**
 - **Aula 03 - 03.02**
