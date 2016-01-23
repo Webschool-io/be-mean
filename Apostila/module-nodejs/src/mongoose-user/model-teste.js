@@ -13,8 +13,11 @@ const CRUD = {
     req.on('end', function() {
       const obj = querystring.parse(queryData);
       User.create(obj, (err, data) => {
+        console.log('criando');
         if (err) return console.log('Erro:', err);
-        return console.log('Inserido:', data);
+        console.log('Inserido:', JSON.stringify(data));
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        res.end(JSON.stringify(data));
       });
     });
   }

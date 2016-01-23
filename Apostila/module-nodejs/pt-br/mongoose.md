@@ -1792,7 +1792,7 @@ Para receber o objeto a ser inserido, esse objeto vem de onde?
 
 **Como não!??? Do objeto `req`!**
 
-Então refatorando nosso código ficará:
+Então refatorando o código ficará:
 
 ```js
 create: (req, res) => {
@@ -1858,8 +1858,44 @@ Para depois inserirmos com `User.create` e **PIMBA!**
 
 ![](https://cldup.com/CqPtMbgXnZ-1200x1200.png)
 
+Agora que conseguimos chegar no banco precisamos retornar a resposta que retorna para o usuário, para isso precisamos refatorar o *Model*, pois é ele que recebe a resposta do Mongoose.
 
-Vamos para a próxima função, *retrieve*:
+```js
+create: (req, res) => {
+  let queryData = '';
+  req.on('data', function(data) {
+    queryData += data;
+  });
+
+  req.on('end', function() {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => {
+      console.log('criando');
+      if (err) return console.log('Erro:', err);
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      res.end(JSON.stringify(data));
+    });
+  });
+}
+```
+
+Como estamos criando uma API vamos retornar nossa resposta em forma de JSON, por isso esse trecho:
+
+```js
+res.writeHead(200, {'Content-Type': 'application/json'});
+res.end(JSON.stringify(data));
+```
+
+Onde `res.writeHead(200, {'Content-Type': 'application/json'});` escreve o cabeçalho da resposta e `res.end(JSON.stringify(data));` finaliza a conexão enviando os dados em formato de *string*(`JSON.stringify`).
+
+A função `res.end` finaliza a conexão enviando uma *string* para o cliente, podemos utilizar a função `res.write` que além de *string* também aceita *buffer*, sendo `utf8` sua codificação padrão.
+
+Vamos para a próxima função, *retrieve*. Para isso precisamos adicionar sua rota em `app.js`:
+
+
+```js
+
+```
 
 
 
