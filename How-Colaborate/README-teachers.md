@@ -45,6 +45,14 @@
 
 #### Cor
 
+Cor do texto **sempre** preto, até em links!!
+
+![Cor do texto PADRÃO](https://cldup.com/-6zjAcaBvq-1200x1200.png)
+
+##### Link
+
+![Cor do texto em LINK](https://cldup.com/OlEsav9czN.thumb.png)
+
 #### Título
 
 Por exemplo os títulos das aulas e de cada tópico (grande) com tamanho `52`
