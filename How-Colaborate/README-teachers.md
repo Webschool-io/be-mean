@@ -23,7 +23,7 @@
           + Tamanho: 24
           + Alinhamento: centralizado ou esquerda
         - Código
-          + Tamanho: Entre 14 e 18
+          + Tamanho: Entre 12 e 18
 3. Gravação da aula
   - Utilizar Slides em FULLSCREEN
   - Esperar carregar TODOS os slides+5s para iniciar a aula
@@ -76,9 +76,21 @@ Existe também a forma centralizada, que é utilizada para frases pequenas.
 
 #### Código
 
+O **tamanho pode ser 12 ou 14 ou 18** e deve ser escolhido para maio legibilidade, essa escolha ficará a cargo do professor **sempre respeitando as margens**
 
+##### Tamanho 12
+
+![Texto de código tamanho 12](https://cldup.com/9sgLxBEaqu.png)
+##### Tamanho 14
+
+![Texto de código tamanho 14](https://cldup.com/df4hweQaQi.png)
+
+##### Tamanho 18
+
+![Texto de código tamanho 18](https://cldup.com/eD5bp2qGTG.png)
 
 ##### Alinhamento de pergunta
+
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
 
 
