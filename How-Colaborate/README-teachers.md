@@ -3,20 +3,20 @@
 ## Metodologia
 
 1. Criar conteúdo na apostila
-  1.1 Introdução teórica
-  1.2 Códigos/scripts testados
-  1.3 Explicação do porquê das coisas
-  1.4 Criação dos exercícios
-    1.4.1 *De preferência para todos os tópicos*
+  - Introdução teórica
+  - Códigos/scripts testados
+  - Explicação do porquê das coisas
+  - Criação dos exercícios
+    - *De preferência para todos os tópicos*
 2. Criar slides no Google Slides (Drive)
-  2.1 Utilizar mesmo padrão de slides
-    2.1.1 Fundo: amarelo JS
-    2.1.2 Texto
+  - Utilizar mesmo padrão de slides
+    - Cor de Fundo: dark yellow 1
+    - Texto
         - Cor: preto
         - Título
           + Tamanho: 52
           + Alinhamento: centralizado
-        - Sub-título / pergunta
+        - Sub-título / Pergunta
           + Tamanho: 48
           + Alinhamento: centralizado
         - Explicação
@@ -25,17 +25,51 @@
         - Código
           + Tamanho: Entre 14 e 18
 3. Gravação da aula
-  3.1 Utilizar Slides em FULLSCREEN
-  3.2 Esperar carregar TODOS os slides+5s para iniciar a aula
-  3.2 Utilizar pausa (de fala) entre a saída dos slides e o Desktop
-  3.3 Utilizar pausa (de fala) entre a saída do Desktop para os slides
-      3.3.1 Não esquecer da regra 3.2
+  - Utilizar Slides em FULLSCREEN
+  - Esperar carregar TODOS os slides+5s para iniciar a aula
+  - Utilizar pausa (de fala) entre a saída dos slides e o Desktop
+  - Utilizar pausa (de fala) entre a saída do Desktop para os slides
+      - Não esquecer da regra 3.2
 
 ## Criar conteúdo na apostila
 
 ## Criar slides no Google Slides (Drive)
 
+## Padrão
+
+### Cor de Fundo
+
+![Cor de Fundo](https://cldup.com/49BXepFyT5-2000x2000.png)
+
+### Texto
+
+#### Cor
+
+#### Título
+
+#### Sub-título / Pergunta
+
+#### Explicação
+
+#### Código
+
+
+
+##### Alinhamento de pergunta
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
 
 
 ## Gravação da aula
+
+### FULLSCREEN
+
+Utilizar Slides em FULLSCREEN.
+
+### Início dos SLIDES
+
+Esperar carregar TODOS os slides, mais uns 5 segundos, para iniciar sua fala, para que isso não apareça no vídeo:
+
+![Carregamento de Slides](https://cldup.com/PMEDS_5Nug-1200x1200.png)
+
+### Troca entre SLIDES e DESKTOP (vice-versa)
+Utilizar pausa (de fala) entre a saída dos slides e o Desktop e utilizar pausa (de fala) entre a saída do Desktop para os slides para facilitar na edição.
