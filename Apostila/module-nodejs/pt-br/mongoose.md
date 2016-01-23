@@ -1788,7 +1788,7 @@ create: () => {
 
 Para receber o objeto a ser inserido, esse objeto vem de onde?
 
-![](https://rolling-eyes.gif)
+![](https://github.com/Webschool-io/be-mean-instagram/blob/master/Apostila/module-nodejs/src/images/rolling-eyes.gif?raw=true)
 
 **ISSO MESMO! Do objeto `req`**
 
