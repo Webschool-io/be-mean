@@ -1931,8 +1931,6 @@ retrieve: (req, res) => {
 ```
 
 
-# Depois refatorar o CREATE para aceitar a mesma URL mas mudar apenas o verbo
-
 Não iremos perder mais tempo com isso pois usaremos o Express futuramente.
 
 Então vamos fazer mais uma função do CRUD, o *Update*, para isso iniciamos adicionando sua rota no `app.js`:
@@ -1958,7 +1956,7 @@ http.createServer((req, res)=> {
       Controller.update(req, res);
       break;
     default:
-      msg = 'ROTA NAO ENCONTRADA';
+      res.end('ROTA NAO ENCONTRADA');
       break;
   }
 }).listen(3000, ()=> {
@@ -2040,7 +2038,7 @@ User.update(query, mod, (err, data) => {
 });
 ```
 
-Agora para finalizar o CRUD faremos a função *Delete*, iniciando por adicionar sua rota em ``app.js:
+Agora para finalizar o CRUD faremos a função *Delete*, iniciando por adicionar sua rota em `app.js`:
 
 ```js
 'use strict';
@@ -2073,6 +2071,10 @@ http.createServer((req, res)=> {
   console.log('Servidor rodando em localhost:3000');
 });
 ```
+
+**Percebeu essa parte `url_parts = url.parse(req.url)`?**
+
+Pois então, utilizamos ela para separar a *query* da *url* para que a requisição chegue na rota correta, se não a rota `api/users/update?name=valorNOVO` nunca chegará em `case '/api/users/update`.
 
 Refatorando a função `delete` me `controller.js`:
 
@@ -2616,8 +2618,88 @@ const CRUD = {
 module.exports = CRUD;
 ```
 
-## Conclusão
+## Atomic Design
 
-Com isso finalizamos a parte básica do Mongoose, mas não se preocupe que veremos muito dele ainda pois o usaremos durante quase todo o curso.
+Esse estrutura que eu utilizo é baseada no [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) que utilizo no *front-end*, porém eu modifiquei um pouco essa metodologia para adicionar a parte de **Comportamento** para que eu pudesse extender ela com novas funcionalidades.
+
+Nesse caso cada átomo possuirá um comportamento padrão que pode ser sobrescrito quando adicionado em uma molécula, também podendo mudar quando adicionado em um organismo.
+
+Então vamos entender quais são suas partes.
+
+### Átomo
+
+Como visto anteriormente a parte *indivisível* da nossa arquitetura é o *field* o qual possui seus atributos, os quais podem ser [quarks](http://nomadev.com.br/atomic-design-b%C3%B3sons-e-quarks-extended/).
+
+#### Quarks
+
+Levando isso em consideração podemos dizer que as partes que formam nosso átomo são os quarks:
+
+- type
+- get
+- set
+- validate
+- required
+- index
+
+Vamos refatorar o seguinte código:
+
+```js
+const _get = (v) => v.toUpperCase();
+const _set = (v) => v.toLowerCase();
+const _validate = (v) => v.length > 3;
+
+const Field = {
+    type: String
+  , get: _get
+  , set: _set
+  , validate: [_validate, 'Nome precisa ser maior que 3 caracteres']
+  , required: true
+  , index: true
+}
+```
+
+Para re-organizar em, refatorando o `validate` para objeto também:
+
+```js
+// quarks
+const quark_get = (v) => v.toUpperCase();
+const quark_set = (v) => v.toLowerCase();
+const quark_validate = {
+        validator: function(v) {
+          return v >= 18;
+        }
+      , message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
+      };
+
+const Atom = {
+  type: String
+, get: quark_get
+, set: quark_set
+, validate: quark_validate
+, required: true
+, index: true
+}
+
+module.exports = Atom;
+```
+
+Se quisermos podemos separar em arquivos os quarks que são funções ou objetos, pois podeos re-aproveitá-las futuramente:
+
+```js
+// quark-toUpper.js
+module.exports = (v) => v.toUpperCase();
+```
+
+```js
+// quark-toLower.js
+module.exports = (v) => v.toLowerCase();
+```
+
+```js
+```
+
+### Molécula
+
+### Organismo
 
 

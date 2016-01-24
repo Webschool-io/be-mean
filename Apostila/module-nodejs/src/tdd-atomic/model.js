@@ -1,4 +1,5 @@
 'use strict';
+
 const mongoose = require('mongoose');
 const url = require('url');
 const querystring = require('querystring');
@@ -68,4 +69,3 @@ const CRUD = {
 };
 
 module.exports = CRUD;
-

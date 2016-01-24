@@ -7,7 +7,7 @@
     - cnpj
     - url
     - ip
-3. Dê exemplos utilizando as funções:
+3. Dê 3 exemplos **diferentes**, de cada, utilizando as funções:
     - findAndModify
     - findOneAndUpdate
     - findOneAndRemove
@@ -16,6 +16,8 @@
     - getters & setters
     - method & static
     - embedded document
+    - plugins
+    - middlewares
 5. Crie 1 *Schema* para `password` com criptografia e arquitetura atômica.
     - use SHA256 com SALT como criptografia;
     - use *middleware* com `pre save`;

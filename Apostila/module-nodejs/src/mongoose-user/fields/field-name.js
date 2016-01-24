@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const _get = (v) => v.toUpperCase();
 const _set = (v) => v.toLowerCase();
-const _validate = (v) => v.length > 3
+const _validate = (v) => v.length > 3;
 
 const Field = {
     type: String
