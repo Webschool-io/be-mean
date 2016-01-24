@@ -9,8 +9,7 @@ const Controller = {
 , update: (req, res) => {
     Model.update(req, res);
   }
-, delete: () => {
-    const query = { name: /Itacir Pompeu/i };
+, delete: (req, res) => {
     Model.delete(req, res);
   }
 };

@@ -1923,6 +1923,7 @@ retrieve: (req, res) => {
   const query = {};
   User.find(query, (err, data) => {
     if (err) return console.log('Erro:', err);
+
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(data));
   });
@@ -1984,13 +1985,13 @@ update: (req, res) => {
   });
 
   req.on('end', function() {
-    const obj = querystring.parse(queryData);
+    const mod = querystring.parse(queryData);
     const url_parts = url.parse(req.url);
     const query = querystring.parse(url_parts.query);
 
-    User.update(query, obj, (err, data) => {
+    User.update(query, mod, (err, data) => {
       if (err) return console.log('Erro:', err);
-      console.log('Alterado:', JSON.stringify(data));
+
       res.writeHead(200, {'Content-Type': 'application/json'});
       return res.end(JSON.stringify(data));
     });
@@ -2002,7 +2003,7 @@ Utilizamos a mesma forma de pegar os valor da função `create`, a única difere
 
 ```js
 
-const obj = querystring.parse(queryData);
+const mod = querystring.parse(queryData);
 //name=ValorNOVO
 const url_parts = url.parse(req.url);
 /*
@@ -2028,31 +2029,95 @@ Primeiramente *parseamos* `queryData` para pegar o conteúdo do envio, para depo
 
 ![pimba-gorduchinha](https://cldup.com/rvbIMjaIrG-3000x3000.jpeg)
 
+Depois alteramos com `User.update` passando os objetos `query` e `mod` como parâmetros
 
+```js
+User.update(query, mod, (err, data) => {
+  if (err) return console.log('Erro:', err);
+  console.log('Alterado:', JSON.stringify(data));
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+});
 ```
 
-{
-  protocol: null,
-  slashes: null,
-  auth: null,
-  host: null,
-  port: null,
-  hostname: null,
-  hash: null,
-  search: '?name=testeeee',
-  query: 'name=testeeee',
-  pathname: '/api/user/update',
-  path: '/api/user/update?name=testeeee',
-  href: '/api/user/update?name=testeeee' }
+Agora para finalizar o CRUD faremos a função *Delete*, iniciando por adicionar sua rota em ``app.js:
+
+```js
+'use strict';
+
+const http = require('http');
+const url = require('url');
+const Controller = require('./controller-teste');
+
+http.createServer(function(req, res){
+  var url_parts = url.parse(req.url);
+  let msg = '';
+  switch(url_parts.pathname){
+    case '/api/user/create':
+      Controller.create(req, res);
+      break;
+    case '/api/user':
+      Controller.retrieve(req, res);
+      break;
+    case '/api/user/update':
+      Controller.update(req, res);
+      break;
+    case '/api/user/delete':
+      Controller.delete(req, res);
+      break;
+    default:
+      msg = 'ROTA NAO ENCONTRADA';
+      break;
+  }
+}).listen(3000, function(){
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Refatorando a função `delete` me `controller.js`:
+
+```js
+const Model = require('./model-teste');
+const Controller = {
+  create: (req, res) => {
+    Model.create(req, res);
+  }
+, retrieve: (req, res) => {
+    Model.retrieve(req, res);
+  }
+, update: (req, res) => {
+    Model.update(req, res);
+  }
+, delete: (req, res) => {
+    Model.delete(req, res);
+  }
+};
+
+module.exports = Controller;
 ```
 
 
+```js
+delete: (req, res) => {
+  const url_parts = url.parse(req.url);
+  const query = querystring.parse(url_parts.query);
 
+  User.remove(query, (err, data) => {
+    if (err) return console.log('Erro:', err);
 
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    return res.end(JSON.stringify(data));
+  });
+}
+```
 
+Ahhhhh agora você entendeu como pegar os valores da requisição na URL, vamos refatorar a função *Retrieve* para que ela aceite valores para buscar.
 
+**Percebeu algum padrão nesse código?**
 
+![jogador de futebol fazendo sim com a cabeça](https://media.giphy.com/media/QWOKV8ERAshJm/giphy.gif)
 
+# REFATORAR CRUD PARA ACEITAR NA MESMA ROTA, VERBO DIFERENTES!!!
 
 
 

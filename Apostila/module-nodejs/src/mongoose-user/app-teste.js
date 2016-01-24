@@ -17,6 +17,9 @@ http.createServer(function(req, res){
     case '/api/user/update':
       Controller.update(req, res);
       break;
+    case '/api/user/delete':
+      Controller.delete(req, res);
+      break;
     default:
       msg = 'ROTA NAO ENCONTRADA';
       break;

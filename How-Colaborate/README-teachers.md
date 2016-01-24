@@ -33,9 +33,11 @@
 
 ## Criar conteúdo na apostila
 
+O primeiro passo para criar o conteúdo é escrevê-lo na apostila
+
 ## Criar slides no Google Slides (Drive)
 
-## Padrão
+### Padrão
 
 O padrão utilizado é derivado de um pronto do Google, o ***Simple Dark***, porém eu modifiquei ele para as cores do nosso amado <3 JavaScript.
 
@@ -46,32 +48,32 @@ Escolha a cor `dark yeallow 1` e clique em `Add to theme`
 ![Cor de Fundo](https://cldup.com/49BXepFyT5-2000x2000.png)
 ![Add to theme](https://cldup.com/b8vom20NXF-2000x2000.png)
 
-### Texto
+#### Texto
 
 A fonte padrão utilizada é a **Arial**.
 
-#### Cor
+##### Cor
 
 Cor do texto **sempre** preto, até em links!!
 
 ![Cor do texto PADRÃO](https://cldup.com/-6zjAcaBvq-1200x1200.png)
 
-##### Link
+###### Link
 
 Cmo o 
 ![Cor do texto em LINK](https://cldup.com/OlEsav9czN.png)
 
-#### Título
+##### Título
 
 Por exemplo os títulos das aulas e de cada tópico (grande) com tamanho `52`
 
 ![Título no SLIDE](https://cldup.com/G5MqqfN17J.png)
 
-#### Sub-título / Pergunta
+##### Sub-título / Pergunta
 
 ![Sub-título no SLIDE](https://cldup.com/oO7vnSLWBk.png)
 
-#### Explicação
+##### Explicação
 
 Perceba que existe margem entre os lados do slides.
 
@@ -82,22 +84,22 @@ Existe também a forma centralizada, que é utilizada para frases pequenas.
 ![Título do Slide](https://cloudup.com/chzpxVfPtw3)
 ![Explicação centralizada em uma frase](https://cldup.com/xnhRe0osKb-2000x2000.png)
 
-#### Código
+##### Código
 
 O **tamanho pode ser 12 ou 14 ou 18** e deve ser escolhido para maio legibilidade, essa escolha ficará a cargo do professor **sempre respeitando as margens**
 
-##### Tamanho 12
+###### Tamanho 12
 
 ![Texto de código tamanho 12](https://cldup.com/9sgLxBEaqu.png)
-##### Tamanho 14
+###### Tamanho 14
 
 ![Texto de código tamanho 14](https://cldup.com/df4hweQaQi.png)
 
-##### Tamanho 18
+###### Tamanho 18
 
 ![Texto de código tamanho 18](https://cldup.com/eD5bp2qGTG.png)
 
-##### Alinhamento de pergunta
+###### Alinhamento de pergunta
 
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
 

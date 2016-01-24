@@ -42,24 +42,27 @@ const CRUD = {
     });
 
     req.on('end', function() {
-      const obj = querystring.parse(queryData);
+      const mod = querystring.parse(queryData);
       const url_parts = url.parse(req.url);
       const query = querystring.parse(url_parts.query);
-      console.log('queryData', queryData)
-      console.log('url_parts', url_parts)
-      console.log('query', query)
-      // User.update(query, obj, (err, data) => {
-      //   if (err) return console.log('Erro:', err);
-      //   console.log('Alterado:', JSON.stringify(data));
-      //   res.writeHead(200, {'Content-Type': 'application/json'});
-      //   return res.end(JSON.stringify(data));
-      // });
+
+      User.update(query, mod, (err, data) => {
+        if (err) return console.log('Erro:', err);
+        console.log('Alterado:', JSON.stringify(data));
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        return res.end(JSON.stringify(data));
+      });
     });
   }
-, delete: (query) => {
+, delete: (req, res) => {
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
     User.remove(query, (err, data) => {
       if (err) return console.log('Erro:', err);
-      return console.log('Deletou:', data)
+      console.log('Deletou:', JSON.stringify(data));
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      return res.end(JSON.stringify(data));
     });
   }
 };

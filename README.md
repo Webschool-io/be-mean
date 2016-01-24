@@ -398,8 +398,10 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * [EAD](./../../Projects/EAD)
             - Prof.: [Bruno Marinho](https://github.com/bmsrox)
 
-##  Módulo Angular - 04.01 a 31.01
-2
+##  Módulo ES6
+
+##  Módulo Angular
+
 - **Aula 01 - 04.01**
 - **Aula 02 - 05.01**
 - **Aula 03 - 06.01**
@@ -418,7 +420,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **PROJETO**
 	+ de 23.01 a 31.01
 
-##  Módulo Frontend - 01.02 a 05.03
+##  Módulo Frontend
 
 Gulp: [guidiego](https://github.comguidiego)
 - **Aula 01 - 01.02**
@@ -439,7 +441,7 @@ Gulp: [guidiego](https://github.comguidiego)
 - **PROJETO**
 	+ de 27.02 a 05.03
 
-##  Módulo Segurança - 07.03 a 22.03
+##  Módulo Segurança
 - **Aula 01 - 07.03**
 - **Aula 02 - 08.03**
 - **Aula 03 - 09.03**
@@ -448,7 +450,7 @@ Gulp: [guidiego](https://github.comguidiego)
 - **Aula 06 - 21.03**
 - **Aula 07 - 22.03**
 
-##  Módulo UX & Animations - 10.03 a 27.03
+##  Módulo UX & Animations
 - **Aula 01 - 10.03**
 - **Aula 02 - 11.03**
 - **Aula 03 - 14.03**
