@@ -4,26 +4,32 @@ const http = require('http');
 const url = require('url');
 const Controller = require('./controller-teste');
 
-http.createServer(function(req, res){
+http.createServer((req, res) => {
   var url_parts = url.parse(req.url);
-  let msg = '';
-  switch(url_parts.pathname){
-    case '/api/user/create':
-      Controller.create(req, res);
+  switch (url_parts.pathname) {
+    case '/api/users':
+      switch (req.method.toLowerCase()) {
+        case 'get':
+          Controller.retrieve(req, res);
+          break;
+        case 'post':
+          Controller.create(req, res);
+          break;
+        case 'put':
+          Controller.update(req, res);
+          break;
+        case 'delete':
+          Controller.delete(req, res);
+          break;
+      }
       break;
-    case '/api/user':
-      Controller.retrieve(req, res);
-      break;
-    case '/api/user/update':
-      Controller.update(req, res);
-      break;
-    case '/api/user/delete':
-      Controller.delete(req, res);
+    case '/api/users/get':
+      Controller.get(req, res);
       break;
     default:
-      msg = 'ROTA NAO ENCONTRADA';
+      res.end('ROTA NAO ENCONTRADA');
       break;
   }
-}).listen(3000, function(){
+}).listen(3000, () => {
   console.log('Servidor rodando em localhost:3000');
 });

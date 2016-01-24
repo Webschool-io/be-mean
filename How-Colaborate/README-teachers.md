@@ -43,10 +43,14 @@ O padrão utilizado é derivado de um pronto do Google, o ***Simple Dark***, por
 
 ![](https://cldup.com/9SbHf-ZmW7.png)
 
-Escolha a cor `dark yeallow 1` e clique em `Add to theme`
+Escolha a cor `dark yeallow 1` e clique em `Add to theme` para que ele mdue o fundo de todos os slides.
 
-![Cor de Fundo](https://cldup.com/49BXepFyT5-2000x2000.png)
+![Cor de Fundo](https://cldup.com/WhlOhSr5N5-1200x1200.png)
 ![Add to theme](https://cldup.com/b8vom20NXF-2000x2000.png)
+
+Depois mude a cor do texto do título para preto, selecione o texto e click com o botao direito, onde você deverá clickar em `Update in theme` para que ele mude de cor todos os textos.
+
+![Update in theme](https://cldup.com/srCGk1I1Kd.png)
 
 #### Texto
 

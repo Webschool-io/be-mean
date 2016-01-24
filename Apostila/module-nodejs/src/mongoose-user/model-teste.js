@@ -1,69 +1,62 @@
 'use strict';
+
 const url = require('url');
 const querystring = require('querystring');
 const mongoose = require('mongoose');
 const Schema = require('./schema-teste');
 const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+  if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const getQuery = (req) => {
+  return querystring.parse(url.parse(req.url).query);
+};
+
 const CRUD = {
   create: (req, res) => {
     let queryData = '';
-    req.on('data', function(data) {
+    req.on('data', (data) => {
       queryData += data;
     });
 
-    req.on('end', function() {
+    req.on('end', () => {
       const obj = querystring.parse(queryData);
-      User.create(obj, (err, data) => {
-        if (err) return console.log('Erro:', err);
-        console.log('Inserido:', JSON.stringify(data));
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        return res.end(JSON.stringify(data));
-      });
+      User.create(obj, (err, data) => callback(err, data, res));
     });
   }
 , retrieve: (req, res) => {
-    User.find({}, (err, data) => {
-      if (err) return console.log('Erro:', err);
-      res.writeHead(200, {'Content-Type': 'application/json'});
-      res.end(JSON.stringify(data));
-    });
+    const query = getQuery(req);
+
+    User.find(query, (err, data) => callback(err, data, res));
   }
-, get: (query) => {
-    User.findOne(query, (err, data) => {
-      if (err) return console.log('Erro:', err);
-      return console.log('Achou:', data)
-    });
+, get: (req, res) => {
+    const query = getQuery(req);
+
+    User.findOne(query, (err, data) => callback(err, data, res));
   }
 , update: (req, res) => {
     let queryData = '';
 
-    req.on('data', function(data) {
+    req.on('data', (data) => {
       queryData += data;
     });
 
-    req.on('end', function() {
+    req.on('end', () => {
+      const query = getQuery(req);
       const mod = querystring.parse(queryData);
-      const url_parts = url.parse(req.url);
-      const query = querystring.parse(url_parts.query);
 
-      User.update(query, mod, (err, data) => {
-        if (err) return console.log('Erro:', err);
-        console.log('Alterado:', JSON.stringify(data));
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        return res.end(JSON.stringify(data));
-      });
+      User.update(query, mod, (err, data) => callback(err, data, res));
     });
   }
 , delete: (req, res) => {
-    const url_parts = url.parse(req.url);
-    const query = querystring.parse(url_parts.query);
+    const query = getQuery(req);
 
-    User.remove(query, (err, data) => {
-      if (err) return console.log('Erro:', err);
-      console.log('Deletou:', JSON.stringify(data));
-      res.writeHead(200, {'Content-Type': 'application/json'});
-      return res.end(JSON.stringify(data));
-    });
+    User.remove(query, (err, data) => callback(err, data, res));
   }
 };
 

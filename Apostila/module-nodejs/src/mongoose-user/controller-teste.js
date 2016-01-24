@@ -6,6 +6,9 @@ const Controller = {
 , retrieve: (req, res) => {
     Model.retrieve(req, res);
   }
+, get: (req, res) => {
+    Model.get(req, res);
+  }
 , update: (req, res) => {
     Model.update(req, res);
   }
