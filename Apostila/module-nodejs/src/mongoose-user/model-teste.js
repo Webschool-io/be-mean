@@ -17,47 +17,57 @@ const getQuery = (req) => {
   return querystring.parse(url.parse(req.url).query);
 };
 
+const create = (req, res) => {
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => callback(err, data, res));
+  });
+};
+
+const find = (req, res) => {
+  const query = getQuery(req);
+
+  User.find(query, (err, data) => callback(err, data, res));
+};
+
+const findOne = (req, res) => {
+  const query = getQuery(req);
+
+  User.findOne(query, (err, data) => callback(err, data, res));
+};
+
+const update = (req, res) => {
+  let queryData = '';
+
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const query = getQuery(req);
+    const mod = querystring.parse(queryData);
+
+    User.update(query, mod, (err, data) => callback(err, data, res));
+  });
+};
+
+const remove = (req, res) => {
+  const query = getQuery(req);
+
+  User.remove(query, (err, data) => callback(err, data, res));
+};
+
 const CRUD = {
-  create: (req, res) => {
-    let queryData = '';
-    req.on('data', (data) => {
-      queryData += data;
-    });
-
-    req.on('end', () => {
-      const obj = querystring.parse(queryData);
-      User.create(obj, (err, data) => callback(err, data, res));
-    });
-  }
-, retrieve: (req, res) => {
-    const query = getQuery(req);
-
-    User.find(query, (err, data) => callback(err, data, res));
-  }
-, get: (req, res) => {
-    const query = getQuery(req);
-
-    User.findOne(query, (err, data) => callback(err, data, res));
-  }
-, update: (req, res) => {
-    let queryData = '';
-
-    req.on('data', (data) => {
-      queryData += data;
-    });
-
-    req.on('end', () => {
-      const query = getQuery(req);
-      const mod = querystring.parse(queryData);
-
-      User.update(query, mod, (err, data) => callback(err, data, res));
-    });
-  }
-, delete: (req, res) => {
-    const query = getQuery(req);
-
-    User.remove(query, (err, data) => callback(err, data, res));
-  }
+  create
+, find
+, findOne
+, update
+, remove
 };
 
 module.exports = CRUD;

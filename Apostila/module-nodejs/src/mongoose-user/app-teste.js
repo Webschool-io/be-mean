@@ -10,7 +10,7 @@ http.createServer((req, res) => {
     case '/api/users':
       switch (req.method.toLowerCase()) {
         case 'get':
-          Controller.retrieve(req, res);
+          Controller.find(req, res);
           break;
         case 'post':
           Controller.create(req, res);
@@ -19,12 +19,12 @@ http.createServer((req, res) => {
           Controller.update(req, res);
           break;
         case 'delete':
-          Controller.delete(req, res);
+          Controller.remove(req, res);
           break;
       }
       break;
     case '/api/users/get':
-      Controller.get(req, res);
+      Controller.findOne(req, res);
       break;
     default:
       res.end('ROTA NAO ENCONTRADA');

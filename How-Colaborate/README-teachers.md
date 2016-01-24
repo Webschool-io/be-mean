@@ -33,7 +33,9 @@
 
 ## Criar conteúdo na apostila
 
-O primeiro passo para criar o conteúdo é escrevê-lo na apostila
+O primeiro passo para criar o conteúdo é escrevê-lo na apostila.
+
+Dica: palavras em outro idioma devem ser colocadas em *itálico*.
 
 ## Criar slides no Google Slides (Drive)
 

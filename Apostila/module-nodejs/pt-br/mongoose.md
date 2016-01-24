@@ -1896,7 +1896,7 @@ Vamos para a próxima função, *retrieve*. Para isso precisamos adicionar sua r
 'use strict';
 
 const http = require('http');
-const Controller = require('./controller-teste');
+const Controller = require('./controller');
 
 http.createServer((req, res)=> {
   let msg = '';
@@ -1942,7 +1942,7 @@ Então vamos fazer mais uma função do CRUD, o *Update*, para isso iniciamos ad
 
 const http = require('http');
 const url = require('url');
-const Controller = require('./controller-teste');
+const Controller = require('./controller');
 
 http.createServer((req, res)=> {
   var url_parts = url.parse(req.url);
@@ -2047,7 +2047,7 @@ Agora para finalizar o CRUD faremos a função *Delete*, iniciando por adicionar
 
 const http = require('http');
 const url = require('url');
-const Controller = require('./controller-teste');
+const Controller = require('./controller');
 
 http.createServer((req, res)=> {
   var url_parts = url.parse(req.url);
@@ -2077,7 +2077,7 @@ http.createServer((req, res)=> {
 Refatorando a função `delete` me `controller.js`:
 
 ```js
-const Model = require('./model-teste');
+const Model = require('./model');
 const Controller = {
   create: (req, res) => {
     Model.create(req, res);
@@ -2156,7 +2156,7 @@ Vamos então analisar o código de `model.js`:
 const url = require('url');
 const querystring = require('querystring');
 const mongoose = require('mongoose');
-const Schema = require('./schema-teste');
+const Schema = require('./schema');
 const User = mongoose.model('User', Schema);
 const CRUD = {
   create: (req, res) => {
@@ -2263,7 +2263,7 @@ Deixando assim o código de `model.js`:
 const url = require('url');
 const querystring = require('querystring');
 const mongoose = require('mongoose');
-const Schema = require('./schema-teste');
+const Schema = require('./schema');
 const User = mongoose.model('User', Schema);
 
 const callback = (err, data, res) => {
@@ -2358,7 +2358,7 @@ Finalmente nosso código refatorado é esse:
 const url = require('url');
 const querystring = require('querystring');
 const mongoose = require('mongoose');
-const Schema = require('./schema-teste');
+const Schema = require('./schema');
 const User = mongoose.model('User', Schema);
 
 const callback = (err, data, res) => {
@@ -2418,6 +2418,22 @@ const CRUD = {
 module.exports = CRUD;
 ```
 
+Aproveitando o ensejo vamos ajeitar o `controller.js` para:
+
+```js
+const Model = require('./model');
+const Controller = {
+  create: Model.create
+, retrieve: Model.retrieve
+, get: Model.get
+, update: Model.update
+, delete: Model.delete
+};
+
+module.exports = Controller;
+```
+
+
 **Mais refatoração**
 
 Dessa vez iremos refatorar algo muito importante em uma API REST, é a aceitação de diferentes verbos do HTTP na mesma rota, então vamos começar refatorando a rota `/api/users` para receber os verbos:
@@ -2460,6 +2476,145 @@ switch (url_parts.pathname) {
 **Notou de onde vem o verbo?**
 
 No *Request* há o atributo `method` que nos fornece essa informação, depois bastou criar um `switch` para testar qual o verbo é e chamar sua função correta.
+
+Para finalizar essa refatoração vamos mudar o nome das funções:
+
+- `retrieve` para `find`
+- `get` para `findOne`
+- `delete` para `remove`
+
+Em `app.js`:
+
+```js
+'use strict';
+
+const http = require('http');
+const url = require('url');
+const Controller = require('./controller-teste');
+
+http.createServer((req, res) => {
+  var url_parts = url.parse(req.url);
+  switch (url_parts.pathname) {
+    case '/api/users':
+      switch (req.method.toLowerCase()) {
+        case 'get':
+          Controller.find(req, res);
+          break;
+        case 'post':
+          Controller.create(req, res);
+          break;
+        case 'put':
+          Controller.update(req, res);
+          break;
+        case 'delete':
+          Controller.remove(req, res);
+          break;
+      }
+      break;
+    case '/api/users/get':
+      Controller.findOne(req, res);
+      break;
+    default:
+      res.end('ROTA NAO ENCONTRADA');
+      break;
+  }
+}).listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Em `controller.js`:
+
+```js
+const Model = require('./model-teste');
+const Controller = {
+  create: Model.create
+, find: Model.find
+, findOne: Model.findOne
+, update: Model.update
+, remove: Model.remove
+};
+
+module.exports = Controller;
+```
+
+E para finalizar em `model`:
+
+```js
+'use strict';
+
+const url = require('url');
+const querystring = require('querystring');
+const mongoose = require('mongoose');
+const Schema = require('./schema-teste');
+const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+  if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const getQuery = (req) => {
+  return querystring.parse(url.parse(req.url).query);
+};
+
+const create = (req, res) => {
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => callback(err, data, res));
+  });
+};
+
+const find = (req, res) => {
+  const query = getQuery(req);
+
+  User.find(query, (err, data) => callback(err, data, res));
+};
+
+const findOne = (req, res) => {
+  const query = getQuery(req);
+
+  User.findOne(query, (err, data) => callback(err, data, res));
+};
+
+const update = (req, res) => {
+  let queryData = '';
+
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const query = getQuery(req);
+    const mod = querystring.parse(queryData);
+
+    User.update(query, mod, (err, data) => callback(err, data, res));
+  });
+};
+
+const remove = (req, res) => {
+  const query = getQuery(req);
+
+  User.remove(query, (err, data) => callback(err, data, res));
+};
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
 
 ## Conclusão
 

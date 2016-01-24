@@ -1,20 +1,10 @@
 const Model = require('./model-teste');
 const Controller = {
-  create: (req, res) => {
-    Model.create(req, res);
-  }
-, retrieve: (req, res) => {
-    Model.retrieve(req, res);
-  }
-, get: (req, res) => {
-    Model.get(req, res);
-  }
-, update: (req, res) => {
-    Model.update(req, res);
-  }
-, delete: (req, res) => {
-    Model.delete(req, res);
-  }
+  create: Model.create
+, find: Model.find
+, findOne: Model.findOne
+, update: Model.update
+, remove: Model.remove
 };
 
 module.exports = Controller;
