@@ -1,4 +1,4 @@
-const Atom = {
+module.exports = {
   type: String
 , get: require('./../quarks/quark-toUpper')
 , set: require('./../quarks/quark-toLower')
@@ -6,5 +6,3 @@ const Atom = {
 , required: true
 , index: true
 }
-
-module.exports = Atom;

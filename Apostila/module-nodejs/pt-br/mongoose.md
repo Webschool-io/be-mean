@@ -1075,7 +1075,7 @@ Para alterarmos um documento iremos seguir a mesma lógica do `update` do client
 
 ![](https://media.giphy.com/media/NQr9CR7KooV7G/giphy.gif)
 
-Vamos então re-aproveitar a *query* passada e mudar o `attack` do `Pikachu` para `666`:
+Vamos então reaproveitar a *query* passada e mudar o `attack` do `Pikachu` para `666`:
 
 ```js
 const pokemonSchema = new Schema(_schema);
@@ -1636,7 +1636,7 @@ const userSchema = new Schema({
 });
 ```
 
-Antes de tudo vamos criar um projeto novo chamado `mongoose-user` via `npm init`, depois instalando localmente o `mongoose` vamos copiar a pasta `fields` do projeto `mongoose-atomic` e colar na pasta do projeto `mongoose-user`, para podermos re-aproveitar o código criado anteriormente.
+Antes de tudo vamos criar um projeto novo chamado `mongoose-user` via `npm init`, depois instalando localmente o `mongoose` vamos copiar a pasta `fields` do projeto `mongoose-atomic` e colar na pasta do projeto `mongoose-user`, para podermos reaproveitar o código criado anteriormente.
 
 Agora salve o código abaixo como `schema.js` na pasta do `mongoose-user`:
 
@@ -1670,7 +1670,7 @@ const userSchema = new Schema({
 Agora vamos criar os *fields* faltantes para `password`, `email` e `created_at`, você deve ter percebido que `name`, `password` e `email`
  são iguais.
 
-> Então para que criar um arquivo para cada se podemos re-aproveitar?
+> Então para que criar um arquivo para cada se podemos reaproveitar?
 
 Calma que logo logo você entenderá essa separação, vamos continuar:
 
@@ -2620,7 +2620,9 @@ module.exports = CRUD;
 
 ## Atomic Design
 
-Esse estrutura que eu utilizo é baseada no [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) que utilizo no *front-end*, porém eu modifiquei um pouco essa metodologia para adicionar a parte de **Comportamento** para que eu pudesse extender ela com novas funcionalidades.
+Essa estrutura que eu utilizo é baseada no [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) que utilizo no *front-end*, porém eu modifiquei um pouco essa metodologia para adicionar a parte de **Comportamento** para que eu pudesse extender ela com novas funcionalidades.
+
+[Essa palestra está gravada aqui na InfoQ](http://www.infoq.com/br/presentations/atomic-design-behavior).
 
 Nesse caso cada átomo possuirá um comportamento padrão que pode ser sobrescrito quando adicionado em uma molécula, também podendo mudar quando adicionado em um organismo.
 
@@ -2628,20 +2630,15 @@ Então vamos entender quais são suas partes.
 
 ### Átomo
 
+O Átomo é a menor parte indivisível do Mongoose.
+
+**Sabe qual é?**
+
+![](https://media.giphy.com/media/uwZhzLqlV0cZq/giphy.gif)
+
 Como visto anteriormente a parte *indivisível* da nossa arquitetura é o *Field* o qual possui seus atributos, os quais podem ser [quarks](http://nomadev.com.br/atomic-design-b%C3%B3sons-e-quarks-extended/).
 
-#### Quarks
-
-Levando isso em consideração podemos dizer que as partes que formam nosso átomo são os quarks:
-
-- type
-- get
-- set
-- validate
-- required
-- index
-
-Vamos refatorar o seguinte código:
+Vamos analisar o *Field* `name`:
 
 ```js
 const _get = (v) => v.toUpperCase();
@@ -2656,18 +2653,29 @@ const Field = {
   , required: true
   , index: true
 }
+
+module.exports = Field;
 ```
 
-Para re-organizar em, refatorando o `validate` para objeto também:
+#### Quarks
+
+Levando isso em consideração podemos dizer que as partes que formam nosso átomo são os quarks:
+
+- type
+- get
+- set
+- validate
+- required
+- index
+
+Vamos refatorar o código, para reorganizar e refatorar o `validate` para objeto:
 
 ```js
 // quarks
 const quark_get = (v) => v.toUpperCase();
 const quark_set = (v) => v.toLowerCase();
 const quark_validate = {
-        validator: function(v) {
-          return v >= 18;
-        }
+        validator: (v) => v >= 3
       , message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
       };
 
@@ -2683,7 +2691,7 @@ const Atom = {
 module.exports = Atom;
 ```
 
-Se quisermos podemos separar em arquivos os quarks que são funções ou objetos, pois podeos re-aproveitá-las futuramente:
+Vamos separar em arquivos os quarks que são funções ou objetos, pois podemos reaproveitá-las futuramente:
 
 ```js
 // quark-toUpper.js
@@ -2698,9 +2706,7 @@ module.exports = (v) => v.toLowerCase();
 ```js
 // quark-validate-string-lengthGTE3
 module.exports = {
-  validator: function(v) {
-    return v.length >= 3;
-  }
+  validator: (v) => v >= 18
 , message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
 };
 ```
@@ -2708,8 +2714,6 @@ module.exports = {
 Com isso o arquivo do átomo ficou assim:
 
 ```js
-const mongoose = require('mongoose');
-
 const Atom = {
   type: String
 , get: require('./../quarks/quark-toUpper')
@@ -2822,7 +2826,12 @@ const querystring = require('querystring');
 const Schema = require('./schema');
 const User = mongoose.model('User', Schema);
 
-const callback = 
+const callback = (err, data, res) => {
+    if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
 
 const getQuery = (_url) => {
   const url_parts = url.parse(_url);
@@ -2948,9 +2957,9 @@ module.exports = (Model) => {
 };
 ```
 
-Logo atomizamos as 4 funções do CRUD para que possa ser re-aproveitado em todos nossos futuros sistemas.
+Logo atomizamos as 4 funções do CRUD para que possa ser reaproveitado em todos nossos futuros sistemas.
 
-Agora nosso Organismo ficou assim:
+Agora o Organismo ficou assim:
 
 ```js
 require('./db/config');
@@ -2978,3 +2987,4 @@ module.exports = CRUD;
 
 **Muito melhor não?**
 
+![](https://media.giphy.com/media/LYDNZAzOqrez6/giphy.gif)

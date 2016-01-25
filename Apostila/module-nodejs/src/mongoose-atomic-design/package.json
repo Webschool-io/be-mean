@@ -1,0 +1,21 @@
+{
+  "name": "mongoose-atomic-design",
+  "version": "0.0.1",
+  "description": "Mongoose utilizando Atomic Design",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Atomic",
+    "Design",
+    "Node.js",
+    "Mongoose",
+    "Mongodb"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "dependencies": {
+    "mongoose": "^4.3.7"
+  }
+}
