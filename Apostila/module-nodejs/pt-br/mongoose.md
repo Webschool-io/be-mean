@@ -2914,19 +2914,6 @@ module.exports = (Model) => {
 ```
 
 ```js
-// action-remove
-const callback = require('./action-response-200-json');
-const getQuery = require('./action-get-query-http');
-
-module.exports = (Model) => {
-  return (req, res) => {
-    const query = getQuery(req.url);
-    User.remove(query, (err, data) => callback(err, data, res));
-  };
-};
-```
-
-```js
 // action-update
 const callback = require('./action-response-200-json');
 const getQuery = require('./action-get-query-http');
@@ -2948,5 +2935,46 @@ module.exports = (Model) => {
 };
 ```
 
+```js
+// action-remove
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
 
+module.exports = (Model) => {
+  return (req, res) => {
+    const query = getQuery(req.url);
+    User.remove(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+Logo atomizamos as 4 funções do CRUD para que possa ser re-aproveitado em todos nossos futuros sistemas.
+
+Agora nosso Organismo ficou assim:
+
+```js
+require('./db/config');
+const mongoose = require('mongoose');
+const Schema = require('./schema');
+const Model = mongoose.model('User', Schema);
+
+// Precisa passar o Model para as ações
+const create = require('./actions/action-create')(Model);
+const find = require('./actions/action-find')(Model);
+const findOne = require('./actions/action-findOne')(Model);
+const update = require('./actions/action-update')(Model);
+const remove = require('./actions/action-remove')(Model);
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+**Muito melhor não?**
 
