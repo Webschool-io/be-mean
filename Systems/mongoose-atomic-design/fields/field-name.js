@@ -1,15 +1,10 @@
 const mongoose = require('mongoose');
 
-// quarks
-const quark_get = require('./../quarks/quark-toUpper');
-const quark_set = require('./../quarks/quark-toUpper');
-const quark_validate = require('./../quarks/quark-validate-string-lengthGTE3');
-
 const Atom = {
   type: String
-, get: quark_get
-, set: quark_set
-, validate: quark_validate
+, get: require('./../quarks/quark-toUpper')
+, set: require('./../quarks/quark-toLower')
+, validate: require('./../quarks/quark-validate-string-lengthGTE3')
 , required: true
 , index: true
 }

@@ -1690,7 +1690,7 @@ Pronto agora *atomizamos* nossos *fields* então está na hora de trabalhar em c
 module.exports = { type: String }
 ```
 
-Vamos definir para esse *field*:
+Vamos definir para esse *Field*:
 
 - *index*;
 - *virtual*;
@@ -2628,7 +2628,7 @@ Então vamos entender quais são suas partes.
 
 ### Átomo
 
-Como visto anteriormente a parte *indivisível* da nossa arquitetura é o *field* o qual possui seus atributos, os quais podem ser [quarks](http://nomadev.com.br/atomic-design-b%C3%B3sons-e-quarks-extended/).
+Como visto anteriormente a parte *indivisível* da nossa arquitetura é o *Field* o qual possui seus atributos, os quais podem ser [quarks](http://nomadev.com.br/atomic-design-b%C3%B3sons-e-quarks-extended/).
 
 #### Quarks
 
@@ -2696,10 +2696,257 @@ module.exports = (v) => v.toLowerCase();
 ```
 
 ```js
+// quark-validate-string-lengthGTE3
+module.exports = {
+  validator: function(v) {
+    return v.length >= 3;
+  }
+, message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
+};
+```
+
+Com isso o arquivo do átomo ficou assim:
+
+```js
+const mongoose = require('mongoose');
+
+const Atom = {
+  type: String
+, get: require('./../quarks/quark-toUpper')
+, set: require('./../quarks/quark-toLower')
+, validate: require('./../quarks/quark-validate-string-lengthGTE3')
+, required: true
+, index: true
+}
+
+module.exports = Atom;
 ```
 
 ### Molécula
 
+Sabendo que o *Field* é o Átomo logicamente a Molécula será o *Schema*, então vamos utilizar o seguinte *Schema*:
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const Molecule = {
+  name: require('./fields/field-name')
+}
+
+module.exports = new Schema(Molecule);
+```
+
 ### Organismo
+
+Para finalizar esse conceito o o Organismo será o *Model*:
+
+```js
+const url = require('url');
+const querystring = require('querystring');
+const Schema = require('./schema');
+const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+    if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const getQuery = (_url) => {
+  const url_parts = url.parse(_url);
+  return querystring.parse(url_parts.query);
+};
+
+const create = (req, res) => {
+
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => callback(err, data, res));
+  });
+};
+
+const find = (req, res) => {
+  const query = getQuery(req.url);
+  User.find(query, (err, data) => callback(err, data, res));
+};
+
+const findOne = (req, res) => {
+  const query = getQuery(req.url);
+  User.findOne(query, (err, data) => callback(err, data, res));
+};
+
+const update = (req, res) => {
+  let queryData = '';
+
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const mod = querystring.parse(queryData);
+    const query = getQuery(req.url);
+    User.update(query, mod, (err, data) => callback(err, data, res));
+  });
+};
+
+const remove = (req, res) => {
+  const query = getQuery(req.url);
+  User.remove(query, (err, data) => callback(err, data, res));
+};
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+Como o Organismo possui seu próprio comportamento(*Behavior*), podemos separar suas funções desse arquivo ficando:
+
+```js
+'use strict';
+
+const mongoose = require('mongoose');
+const url = require('url');
+const querystring = require('querystring');
+const Schema = require('./schema');
+const User = mongoose.model('User', Schema);
+
+const callback = 
+
+const getQuery = (_url) => {
+  const url_parts = url.parse(_url);
+  return querystring.parse(url_parts.query);
+};
+
+const create = require('./actions/action-create');
+const find = require('./actions/action-find');
+const findOne = require('./actions/action-findOne');
+const update = require('./actions/action-update');
+const remove = require('./actions/action-remove');
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+Porém perceba que as *Actions* necessitam do `callback`e do `getQuery`, por isso vamos separá-los também:
+
+```js
+// action-get-query-http.js
+module.exports = (_url) => {
+  return require('querystring').parse(require('url').parse(_url).query);
+};
+```
+
+```js
+// action-response-200-json.js
+module.exports = (err, data, res) => {
+    if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+```
+
+Agora as *Actions* do *Field* ficam assim:
+
+```js
+// action-create.js
+const callback = require('./action-response-200-json');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    let queryData = '';
+
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const obj = require('querystring').parse(queryData);
+      Model.create(obj, (err, data) => callback(err, data, res));
+    });
+  };
+};
+```
+
+```js
+// action-find.js
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    const query = getQuery(req.url);
+    Model.find(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+```js
+// action-findOne
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    const query = getQuery(req.url);
+    Model.findOne(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+```js
+// action-remove
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    const query = getQuery(req.url);
+    User.remove(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+```js
+// action-update
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    let queryData = '';
+
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const mod = require('querystring').parse(queryData);
+      const query = getQuery(req.url);
+      Model.update(query, mod, (err, data) => callback(err, data, res));
+    });
+  };
+};
+```
+
 
 
