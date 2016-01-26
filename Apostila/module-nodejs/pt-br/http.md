@@ -742,17 +742,6 @@ E o cabeçalho `'Content-Length': postData.length` fala qual é o tamanho, em by
 
 # FIM
 
-## Módulo request
-
-Além da função `request` do módulo `http` também temos um módulo **apenas** de *request* que facilita ainda mais nossas vidas.
-
-Para utilizarmos esse módulo externo precisamos anteriormente instalá-lo localmente.
-
-```
-npm install --save request
-```
-
-Falaremos mais sobre o [npm](https://www.npmjs.com/) mais adiante.
-
+Dica: [https://github.com/floatdrop/debug-http](https://github.com/floatdrop/debug-http)
 
 
