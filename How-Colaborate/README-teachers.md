@@ -116,6 +116,13 @@ Como usamos Markdown para escrever, utiliamos essa `formatação` para códigos 
 
 ![](https://cldup.com/2svMUUgKgh-3000x3000.png)
 
+##### Negrito
+
+Caso você tenha uma palavra que deve ser **negrito** e outra que deve ser `coódigo` **no slides as 2 serão negrito**.
+![](https://cldup.com/dQUbwIeQYx-3000x3000.png)
+
+##### Itálico
+
 ###### Alinhamento de pergunta
 
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
