@@ -124,11 +124,25 @@ Como usamos Markdown para escrever, utiliamos essa `formatação` para códigos 
 
 ##### GIF
 
+Coloque a cor preta como fundo para imagens animadas(gifs).
+
+![](https://cloudup.com/cUHzt3hQ7cM)
+
 ##### JPG/PNG
+
+Coloque a cor preta como fundo para imagens estáticas.
+
+![](https://cldup.com/SU9voqTv6b-3000x3000.png)
+
+###### Fundo Transparente
+
+![](https://cldup.com/z7D3X4cbYt-1200x1200.png)
+
 
 ###### Fundo Branco
 
-Apenas quando a imagem tiver fundo branco
+Apenas quando a imagem tiver fundo branco...
+
 ![](https://cldup.com/9UTaiGv-ER-2000x2000.png)
 
 
