@@ -126,7 +126,7 @@ Como usamos Markdown para escrever, utiliamos essa `formatação` para códigos 
 
 Coloque a cor preta como fundo para imagens animadas(gifs).
 
-![](https://cloudup.com/cUHzt3hQ7cM)
+![](https://cldup.com/QYxpvIMWl9-3000x3000.png)
 
 ##### JPG/PNG
 
