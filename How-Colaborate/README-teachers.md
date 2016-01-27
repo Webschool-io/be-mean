@@ -120,6 +120,22 @@ Como usamos Markdown para escrever, utiliamos essa `formatação` para códigos 
 
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
 
+#### Imagem
+
+##### GIF
+
+##### JPG/PNG
+
+###### Fundo Branco
+
+Apenas quando a imagem tiver fundo branco
+![](https://cldup.com/9UTaiGv-ER-2000x2000.png)
+
+
+**Você muda o fundo DESSE SLIDE para branco.**
+
+![](https://cldup.com/B--XU5ss08-1200x1200.png)
+![](https://cldup.com/R-QFx6D7CR-1200x1200.png)
 
 ## Gravação da aula
 
