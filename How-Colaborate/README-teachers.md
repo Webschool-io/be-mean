@@ -136,6 +136,8 @@ Coloque a cor preta como fundo para imagens estáticas.
 
 ###### Fundo Transparente
 
+**A única vez que vpcê não mudará o fundo do slide será quando a imagem tiver fundo transparente.**
+
 ![](https://cldup.com/z7D3X4cbYt-1200x1200.png)
 
 
