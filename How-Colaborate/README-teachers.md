@@ -123,6 +123,10 @@ Caso você tenha uma palavra que deve ser **negrito** e outra que deve ser `coó
 
 ##### Itálico
 
+O *itálico* é utilizado pem palavras estrageiras.
+
+![](https://cldup.com/xVD-V0hbg6-3000x3000.png)
+
 Usamos *ítálico* em palavras estrangeiras, porém quando essa palavra é um `código` não se deve mudar.
 
 ![](https://cldup.com/QkrWqvCGCN-1200x1200.png)
