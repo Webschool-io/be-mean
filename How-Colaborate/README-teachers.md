@@ -86,9 +86,7 @@ Perceba que existe margem entre os lados do slides.
 
 ![Explicação de texto](https://cldup.com/qA_ItkMtBg.png)
 
-Existe também a forma centralizada, que é utilizada para frases pequenas.
-
-![Título do Slide](https://cldup.com/xnhRe0osKb-3000x3000.png)
+Existe também a forma centralizada, que é utilizada para frases pequenas
 ![Explicação centralizada em uma frase](https://cldup.com/xnhRe0osKb-2000x2000.png)
 
 ##### Código
