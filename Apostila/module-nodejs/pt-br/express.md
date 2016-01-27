@@ -72,12 +72,13 @@ app.listen(3000, function () {
 
 Antes de iniciarmos nossa API propriamente dita, vamos aprender mais sobre algumas partes do Express.
 
-## Response
+## Response - res
 
+O objeto *Response*(`req`) representa a resposta HTTP que o Express envia quando chega uma requisição HTTP, ou seja, será o objeto utilizado para responder para o *client*, vamos conhecer algumas de suas funções.
 
 ### res.send
 
-Esse método realiza uma infinidade de tarefas úteis para respostas não-streaming simples como atribuir automaticamente o Content-Length, a menos que previamente definindo e provendo o HEAD automático e limpeza de cache HTTP.
+Esse método realiza uma infinidade de tarefas úteis para respostas não-streaming simples como atribuir automaticamente o `Content-Length`, a menos que previamente definindo e provendo o cabeçalho automaticamente.
 
 ```js
 res.send(new Buffer('bufferinggggg'));
@@ -98,7 +99,7 @@ res.send(new Buffer('<h1>algum html</h1>'));
 
 ### res.json([status|body], [body])
 
-Envia uma resposta JSON. Este método é idêntico ao `res.send` quando um objeto ou array é passado, pode converter valores como `null`, `undefined` como JSON, no entanto estes não são tecnicamente JSON válido.
+Envia uma resposta JSON. Este método é idêntico ao `res.send` quando um objeto ou *array* é passado, pode converter valores como `null`, `undefined` como JSON, **no entanto estes não são tecnicamente JSON válido**.
 
 ```js
 res.json(null)
@@ -154,7 +155,7 @@ Nós não usaremos JSONP pois usarmos [CORS](https://pt.wikipedia.org/wiki/Cross
 
 ### Methods
 
-## Request
+## Request - req
 
 O objeto req representa a solicitação HTTP e tem propriedades para a cadeia de consulta do pedido, parâmetros, corpo, cabeçalhos HTTP, e assim por diante. Nesta documentação e, por convenção, o objeto é sempre referido como req (ea resposta HTTP é res), mas seu nome real é determinada pelos parâmetros para a função de retorno de chamada na qual você está trabalhando.
 
