@@ -123,6 +123,10 @@ Caso você tenha uma palavra que deve ser **negrito** e outra que deve ser `coó
 
 ##### Itálico
 
+Usamos *ítálico* em palavras estrangeiras, porém quando essa palavra é um `código` não se deve mudar.
+
+![](https://cldup.com/QkrWqvCGCN-1200x1200.png)
+
 ###### Alinhamento de pergunta
 
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
