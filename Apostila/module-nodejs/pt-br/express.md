@@ -4,7 +4,7 @@ O Express será o *framework* para rotas e views da nossa arquitetura, para quem
 
 O *Front Controller* é um padrão arquitetural que se comporta como um controlador tratando todas as solicitações para API e então roteia para uma ação (ou comando), utilizando o padrão *[Command](https://en.wikipedia.org/wiki/Command_pattern)* para executar as ações necessárias em cada rota.
 
-Veremos como isso desacopla o código e nos facilita a manutenção futura, apoveitaremos para criar um criador de rotas baseado em uma configuração de JSON, **que deverá ser reutilizada no Angular**.
+Veremos como isso desacopla o código e nos facilita a manutenção futura, aproveitaremos para criar um gerador de rotas baseado em uma configuração de JSON, **que deverá ser reutilizada no Angular**.
 
 Será com o Express que construiremos nossa API então vamos pelo início, crie uma pasta chamada `aula-express` e dentro dela execute o `npm init` para gerar o seguinte `package.json`:
 
@@ -70,7 +70,22 @@ app.listen(3000, function () {
 });
 ```
 
-Antes de iniciarmos nossa API propriamente dita, vamos aprender mais sobre algumas partes do Express.
+Acesse o endereço `http://localhost:3000/` com o POSTMAN via `GET` e entre na aba  `Headers`.
+
+![](https://cldup.com/zNrPy9XMLR-3000x3000.png)
+
+```
+Connection → keep-alive
+Content-Length → 21
+Content-Type → text/html; charset=utf-8
+Date → Wed, 27 Jan 2016 19:21:56 GMT
+ETag → W/"15-otHLJPJLMip9rVIEFMUj6Q"
+X-Powered-By → Express
+```
+
+Com isso você percebeu que o Express cuidou de toda a formatação da resposta apenas com a função `send`.
+
+Então antes de iniciarmos nossa API propriamente dita, vamos aprender mais sobre algumas partes do Express.
 
 ## Response - res
 

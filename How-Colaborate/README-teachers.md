@@ -106,6 +106,16 @@ O **tamanho pode ser 12 ou 14 ou 18** e deve ser escolhido para maio legibilidad
 
 ![Texto de código tamanho 18](https://cldup.com/eD5bp2qGTG.png)
 
+###### Código *inline*
+
+Como usamos Markdown para escrever, utiliamos essa `formatação` para códigos menores de 1 linha, porém quando você copiar esse texto para os slides, deverá colocar esses termos em **NEGRITO**.
+
+![](https://cldup.com/leVXS5OACk-1200x1200.png)
+
+**E depois remover TODOS os ` ` do texto!!**
+
+![](https://cldup.com/2svMUUgKgh-3000x3000.png)
+
 ###### Alinhamento de pergunta
 
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
