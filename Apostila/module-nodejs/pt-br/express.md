@@ -83,9 +83,9 @@ ETag → W/"15-otHLJPJLMip9rVIEFMUj6Q"
 X-Powered-By → Express
 ```
 
-Com isso você percebeu que o Express cuidou de toda a formatação da resposta apenas com a função `send`.
+    Com isso você percebeu que o Express cuidou de toda a formatação da resposta apenas com a função `send`.
 
-Então antes de iniciarmos nossa API propriamente dita, vamos aprender mais sobre algumas partes do Express.
+    Então antes de iniciarmos nossa API propriamente dita, vamos aprender mais sobre algumas partes do Express.
 
 ## Response - res
 
