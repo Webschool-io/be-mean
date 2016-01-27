@@ -1,18 +1,21 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/be-mean-instagram');
 const Schema = mongoose.Schema;
-const _schema = {
-  name:  String,
-  age: Number
-}
-// Criação do Schema
-const pokemonSchema = new Schema(_schema);
 
-const data = {name: {teste: "Suissa"}, age: "bazinga"}
+mongoose.connect('mongodb://localhost/test');
 
-var Model = mongoose.model('testepokemon', pokemonSchema);
-var poke = new Model(data);
-poke.save(function (err, data) {
-  if (err) return console.log('ERRO: ', err);
-  console.log('Inseriu: ', data)
-})
+
+const userSchema = new Schema({
+  name: String
+, email: { type: String, unique: true }
+, date_created: { type: Date, default: Date.now, index: true }
+});
+
+userSchema.index({ name: 1, date_created: -1 }); // schema level
+
+const User = mongoose.model('User', userSchema);
+
+User.create({name: 'itacir', email: 'itacir@webschool.io'}, (err, data) => {
+  if (err) return console.log('Erro:', err);
+  return console.log('Animal: ', data);
+});
+
