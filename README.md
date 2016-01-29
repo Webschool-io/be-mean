@@ -356,6 +356,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
 - Aula 12
     + [Express](./src/)
+    	* Internacionalization [Suissa](https://github.com/suissa) http://ejohn.org/blog/a-strategy-for-i18n-and-node/
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
     + [Socket.io](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
