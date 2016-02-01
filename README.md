@@ -1,3 +1,9 @@
+# [Slack da Webschool](https://webschool-slack.herokuapp.com/)
+- Coloque um email para login( hotmail não funciona )
+- Após isso, clique em Webschool para entrar no link do slack
+- Coloque o email que você digitou antes e crie uma senha
+- Entre no channel `be-mean-instagram`
+
 # Sobre os brindes
 
 O fornecedor de camiseta foi pago em Dezembro, porém só irá começar a fazer as camisetas **HOJE(18/Janeiro)** um mês depois de pago.
