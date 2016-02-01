@@ -1075,7 +1075,7 @@ Para alterarmos um documento iremos seguir a mesma lógica do `update` do client
 
 ![](https://media.giphy.com/media/NQr9CR7KooV7G/giphy.gif)
 
-Vamos então re-aproveitar a *query* passada e mudar o `attack` do `Pikachu` para `666`:
+Vamos então reaproveitar a *query* passada e mudar o `attack` do `Pikachu` para `666`:
 
 ```js
 const pokemonSchema = new Schema(_schema);
@@ -1636,7 +1636,7 @@ const userSchema = new Schema({
 });
 ```
 
-Antes de tudo vamos criar um projeto novo chamado `mongoose-user` via `npm init`, depois instalando localmente o `mongoose` vamos copiar a pasta `fields` do projeto `mongoose-atomic` e colar na pasta do projeto `mongoose-user`, para podermos re-aproveitar o código criado anteriormente.
+Antes de tudo vamos criar um projeto novo chamado `mongoose-user` via `npm init`, depois instalando localmente o `mongoose` vamos copiar a pasta `fields` do projeto `mongoose-atomic` e colar na pasta do projeto `mongoose-user`, para podermos reaproveitar o código criado anteriormente.
 
 Agora salve o código abaixo como `schema.js` na pasta do `mongoose-user`:
 
@@ -1670,7 +1670,7 @@ const userSchema = new Schema({
 Agora vamos criar os *fields* faltantes para `password`, `email` e `created_at`, você deve ter percebido que `name`, `password` e `email`
  são iguais.
 
-> Então para que criar um arquivo para cada se podemos re-aproveitar?
+> Então para que criar um arquivo para cada se podemos reaproveitar?
 
 Calma que logo logo você entenderá essa separação, vamos continuar:
 
@@ -1690,7 +1690,7 @@ Pronto agora *atomizamos* nossos *fields* então está na hora de trabalhar em c
 module.exports = { type: String }
 ```
 
-Vamos definir para esse *field*:
+Vamos definir para esse *Field*:
 
 - *index*;
 - *virtual*;
@@ -1698,21 +1698,1293 @@ Vamos definir para esse *field*:
 - *validate*.
 
 ```js
-const _get = () => {};
-const _set = () => {};
-const _validate = () => {};
+const _get = (v) => v.toUpperCase();
+const _set = (v) => v.toLowerCase();
+const _validate = (v) => v.length > 3
 
-module.exports = {
-  type: String
-, index: true
-, get: _get
-, set: _set
-, validate: _validate
-, required: true
+const Field = {
+    type: String
+  , get: _get
+  , set: _set
+  , validate: [_validate, 'Nome precisa ser maior que 3 caracteres']
+  , required: true
+  , index: true
 }
+
+module.exports = Field;
 ```
 
 
 
+# Escrever aqui o que falta
+
+Vamos separar os contextos, perceba que o `app.js` está com muita responsabilidade, por exemplo o objeto de `User` que tende a ser o *Controller*, então vamos refatorar esse código retirando o objeto `User` de `app.js` para um arquivo novo chamado `controller.js`, contendo o seguinte código:
+
+```js
+const Model = require('./model');
+const Controller = {
+  create: (req, res) => {
+    Model.create(req, res);
+  }
+, retrieve: (req, res) => {
+    Model.retrieve(req, res);
+  }
+, update: () => {
+    const query = { name: /jean suissa/i };
+    const mod = {name: 'Itacir Pompeu'};
+    Model.update(req, res);
+  }
+, delete: () => {
+    const query = { name: /Itacir Pompeu/i };
+    Model.delete(req, res);
+  }
+};
+
+module.exports = Controller;
+```
+
+Perceba que mudei o nome do objeto de `User` para `Controller` a fim de deixar o código mais genérico, você entenderá o porqueê mais para frente.
+
+![](https://media.giphy.com/media/bYpgM8bi7QV3i/giphy.gif)
+
+Tendo retirado o código anterior de `app.js` logicamente precisamos importar esse *Controller* para o `app`, ficando assim:
+
+```js
+'use strict';
+
+const http = require('http');
+const Controller = require('./controller');
+
+http.createServer((req, res) => {
+  let msg = '';
+  switch(req.url){
+    case '/api/users/create':
+      msg = 'USUARIO CADASTRADO';
+      Controller.create(req, res);
+      break;
+    default:
+      msg = 'ROTA NAO ENCONTRADA';
+      break;
+  }
+  res.end(msg);
+}).listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
 
 
+Agora precisamos refatorar nossa função de `create`:
+
+```js
+create: () => {
+  const obj = {
+    name: 'Jean Suissa'
+  , password: '1234567'
+  , email: 'suissera@webschool.io'
+  };
+  Model.create(obj);
+}
+```
+
+Para receber o objeto a ser inserido, esse objeto vem de onde?
+
+![](https://github.com/Webschool-io/be-mean-instagram/blob/master/Apostila/module-nodejs/src/images/rolling-eyes.gif?raw=true)
+
+**Como não!??? Do objeto `req`!**
+
+Então refatorando o código ficará:
+
+```js
+create: (req, res) => {
+  Model.create(req, res);
+}
+```
+
+Se refatorarmos essa função agora precisamos refatorar a função `create` do *Model*:
+
+```js
+create: (req, res) => {
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => {
+      if (err) return console.log('Erro:', err);
+      return console.log('Inserido:', data);
+    });
+  });
+}
+```
+
+**Caraio mas como que ficou assim!!???**
+
+![](https://media.giphy.com/media/X5xgyBLedf70c/giphy.gif)
+
+Se liga só!
+
+Para recebermos dados no nosso servidor nós *escutaremos* o evento `data` do objeto *Request*(`req`), pois pense que você pode estar enviando um vídeo, logo não tem como o Node.js ter uma função para receber o vídeo inteiro, em vez disso precisamos apenas escutar o evento `data` até o *Request* emitir o evento `end`.
+
+Sei que não é aula sobre `http`, mas o objeto de *Request* é uma instância de [http.IncomingMessage.](https://nodejs.org/api/http.html#http_class_http_incomingmessage) que implementa a interface de [Readable Stream](https://nodejs.org/api/stream.html#stream_class_stream_readable) e uma interface de *Readable stream* é uma abstração para uma fonte de dados que você esteja lendo, em outras palavras os dados são lidos em um fluxo legível, palavras da própria documentação. :p
+
+Ou seja, *(quase)*sempre que você for ler dados com o Node.js poderá utilizar essa interface para leitura de dados.
+
+*ps: O Node.js não verifica se o `Content-Length` e o comprimento do corpo que tenham sido enviados são iguais ou não.*
+
+Vamos voltar para o código, agora que ja o entendemos:
+
+```js
+create: (req, res) => {
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => {
+      if (err) return console.log('Erro:', err);
+      return console.log('Inserido:', data);
+    });
+  });
+}
+```
+
+Então entendemos que, enquanto nosso servidor recebe os dados ele vai adicionando em `queryData` para depois esse objeto ser *parseado*, por `querystring.parse`, de *string* para objeto quando executar o evento `end` de *Request*.
+
+Para depois inserirmos com `User.create` e **PIMBA!**
+
+![](https://cldup.com/CqPtMbgXnZ-1200x1200.png)
+
+Agora que conseguimos chegar no banco precisamos retornar a resposta que retorna para o usuário, para isso precisamos refatorar o *Model*, pois é ele que recebe a resposta do Mongoose.
+
+```js
+create: (req, res) => {
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => {
+      console.log('criando');
+      if (err) return console.log('Erro:', err);
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      return res.end(JSON.stringify(data));
+    });
+  });
+}
+```
+
+Como estamos criando uma API vamos retornar nossa resposta em forma de JSON, por isso esse trecho:
+
+```js
+res.writeHead(200, {'Content-Type': 'application/json'});
+return res.end(JSON.stringify(data));
+```
+
+Onde `res.writeHead(200, {'Content-Type': 'application/json'})` escreve o cabeçalho da resposta e `res.end(JSON.stringify(data));` finaliza a conexão enviando os dados em formato de *string*(`JSON.stringify`).
+
+A função `res.end` finaliza a conexão enviando uma *string* para o cliente, podemos utilizar a função `res.write` que além de *string* também aceita *buffer*, sendo `utf8` sua codificação padrão.
+
+Vamos para a próxima função, *retrieve*. Para isso precisamos adicionar sua rota em `app.js`:
+
+```js
+'use strict';
+
+const http = require('http');
+const Controller = require('./controller');
+
+http.createServer((req, res)=> {
+  let msg = '';
+  switch(req.url){
+    case '/api/users/create':
+      Controller.create(req, res);
+      break;
+    case '/api/users':
+      Controller.retrieve(req, res);
+      break;
+    default:
+      msg = 'ROTA NAO ENCONTRADA';
+      break;
+  }
+}).listen(3000, ()=> {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Agora vamos fazer a listagem dos usuários, então seguimos o mesmo padrão do *Create*, tanto em `app.js` como em `controller.js`, logo vamos refatorar o *Model.*
+
+```js
+retrieve: (req, res) => {
+  const query = {};
+  User.find(query, (err, data) => {
+    if (err) return console.log('Erro:', err);
+
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.end(JSON.stringify(data));
+  });
+}
+```
+
+
+Não iremos perder mais tempo com isso pois usaremos o Express futuramente.
+
+Então vamos fazer mais uma função do CRUD, o *Update*, para isso iniciamos adicionando sua rota no `app.js`:
+
+```js
+'use strict';
+
+const http = require('http');
+const url = require('url');
+const Controller = require('./controller');
+
+http.createServer((req, res)=> {
+  var url_parts = url.parse(req.url);
+  let msg = '';
+  switch(url_parts.pathname){
+    case '/api/users/create':
+      Controller.create(req, res);
+      break;
+    case '/api/users':
+      Controller.retrieve(req, res);
+      break;
+    case '/api/users/update':
+      Controller.update(req, res);
+      break;
+    default:
+      res.end('ROTA NAO ENCONTRADA');
+      break;
+  }
+}).listen(3000, ()=> {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+O *Controller* fica com o padrão:
+
+```js
+update: (req, res) => {
+  Model.update(req, res);
+}
+```
+
+Porém olha como fica o *Model*:
+
+```js
+update: (req, res) => {
+  let queryData = '';
+
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const mod = querystring.parse(queryData);
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.update(query, mod, (err, data) => {
+      if (err) return console.log('Erro:', err);
+
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      return res.end(JSON.stringify(data));
+    });
+  });
+}
+```
+
+Utilizamos a mesma forma de pegar os valor da função `create`, a única diferença é como pegamos o valor da *query* então vamos analisar:
+
+```js
+
+const mod = querystring.parse(queryData);
+//name=ValorNOVO
+const url_parts = url.parse(req.url);
+/*
+Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?name=valorBUSCADO',
+  query: 'name=valorBUSCADO',
+  pathname: '/api/users/update',
+  path: '/api/users/update?name=valorBUSCADO',
+  href: '/api/users/update?name=valorBUSCADO' }
+*/
+const query = querystring.parse(url_parts.query);
+// { name: 'valorBUSCADO' }
+```
+
+Primeiramente *parseamos* `queryData` para pegar o conteúdo do envio, para depois utilizar `url.parse` para colocar os dados da *url* requisitada no objeto `url_parts` e depois precisamos apenas pegar o valor do atributo `url_parts.query`(`'name=valorBUSCADO'`), utilizando `querystring.parse` convertemos essa *string* no objeto `query` e **PIMBA!**
+
+![pimba-gorduchinha](https://cldup.com/rvbIMjaIrG-3000x3000.jpeg)
+
+Depois alteramos com `User.update` passando os objetos `query` e `mod` como parâmetros
+
+```js
+User.update(query, mod, (err, data) => {
+  if (err) return console.log('Erro:', err);
+  console.log('Alterado:', JSON.stringify(data));
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+});
+```
+
+Agora para finalizar o CRUD faremos a função *Delete*, iniciando por adicionar sua rota em `app.js`:
+
+```js
+'use strict';
+
+const http = require('http');
+const url = require('url');
+const Controller = require('./controller');
+
+http.createServer((req, res)=> {
+  var url_parts = url.parse(req.url);
+  let msg = '';
+  switch(url_parts.pathname){
+    case '/api/users/create':
+      Controller.create(req, res);
+      break;
+    case '/api/users':
+      Controller.retrieve(req, res);
+      break;
+    case '/api/users/update':
+      Controller.update(req, res);
+      break;
+    case '/api/users/delete':
+      Controller.delete(req, res);
+      break;
+    default:
+      msg = 'ROTA NAO ENCONTRADA';
+      break;
+  }
+}).listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+**Percebeu essa parte `url_parts = url.parse(req.url)`?**
+
+Pois então, utilizamos ela para separar a *query* da *url* para que a requisição chegue na rota correta, se não a rota `api/users/update?name=valorNOVO` nunca chegará em `case '/api/users/update`.
+
+Refatorando a função `delete` me `controller.js`:
+
+```js
+const Model = require('./model');
+const Controller = {
+  create: (req, res) => {
+    Model.create(req, res);
+  }
+, retrieve: (req, res) => {
+    Model.retrieve(req, res);
+  }
+, update: (req, res) => {
+    Model.update(req, res);
+  }
+, delete: (req, res) => {
+    Model.delete(req, res);
+  }
+};
+
+module.exports = Controller;
+```
+
+
+```js
+delete: (req, res) => {
+  const url_parts = url.parse(req.url);
+  const query = querystring.parse(url_parts.query);
+
+  User.remove(query, (err, data) => {
+    if (err) return console.log('Erro:', err);
+
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    return res.end(JSON.stringify(data));
+  });
+}
+```
+
+Ahhhhh agora você entendeu como pegar os valores da requisição na URL, vamos refatorar a função *Retrieve* para que ela aceite valores para buscar.
+
+```js
+retrieve: (req, res) => {
+  const url_parts = url.parse(req.url);
+  const query = querystring.parse(url_parts.query);
+
+  User.find(query, (err, data) => {
+    if (err) return console.log('Erro:', err);
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.end(JSON.stringify(data));
+  });
+}
+```
+
+Agora para fazer a função `get` usando `User.findOne` ficou bem fácil:
+
+
+```js
+get: (req, res) => {
+  const url_parts = url.parse(req.url);
+  const query = querystring.parse(url_parts.query);
+
+  User.findOne(query, (err, data) => {
+    if (err) return console.log('Erro:', err);
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.end(JSON.stringify(data));
+  });
+}
+```
+
+Então usaremos a função `retrieve` para listagem dos usuários e `get` para consultar 1 usuário, não esqueça de adicionar a rota em `app.js` e a função `controller.js`.
+
+**Percebeu algum padrão nesse CRUD?**
+
+![jogador de futebol fazendo sim com a cabeça](https://media.giphy.com/media/QWOKV8ERAshJm/giphy.gif)
+
+Vamos então analisar o código de `model.js`:
+
+```js
+'use strict';
+
+const url = require('url');
+const querystring = require('querystring');
+const mongoose = require('mongoose');
+const Schema = require('./schema');
+const User = mongoose.model('User', Schema);
+const CRUD = {
+  create: (req, res) => {
+    let queryData = '';
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const obj = querystring.parse(queryData);
+      User.create(obj, (err, data) => {
+        if (err) return console.log('Erro:', err);
+        console.log('Inserido:', JSON.stringify(data));
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        return res.end(JSON.stringify(data));
+      });
+    });
+  }
+, retrieve: (req, res) => {
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.find(query, (err, data) => {
+      if (err) return console.log('Erro:', err);
+
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      res.end(JSON.stringify(data));
+    });
+  }
+, get: (req, res) => {
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.findOne(query, (err, data) => {
+      if (err) return console.log('Erro:', err);
+
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      res.end(JSON.stringify(data));
+    });
+  }
+, update: (req, res) => {
+    let queryData = '';
+
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const mod = querystring.parse(queryData);
+      const url_parts = url.parse(req.url);
+      const query = querystring.parse(url_parts.query);
+
+      User.update(query, mod, (err, data) => {
+        if (err) return console.log('Erro:', err);
+
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        return res.end(JSON.stringify(data));
+      });
+    });
+  }
+, delete: (req, res) => {
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.remove(query, (err, data) => {
+      if (err) return console.log('Erro:', err);
+
+      res.writeHead(200, {'Content-Type': 'application/json'});
+      return res.end(JSON.stringify(data));
+    });
+  }
+};
+
+module.exports = CRUD;
+```
+
+Perceba que o callback em cada função é o mesmo:
+
+```js
+(err, data) => {
+  if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+}
+```
+
+Logo podemos encapsular sua lógica em uma função:
+
+```js
+const callback = (err, data) => {
+  if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+}
+```
+
+Deixando assim o código de `model.js`:
+
+```js
+'use strict';
+
+const url = require('url');
+const querystring = require('querystring');
+const mongoose = require('mongoose');
+const Schema = require('./schema');
+const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+  if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const CRUD = {
+  create: (req, res) => {
+    let queryData = '';
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const obj = querystring.parse(queryData);
+      User.create(obj, (err, data) => callback(err, data, res));
+    });
+  }
+, retrieve: (req, res) => {
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.find(query, (err, data) => callback(err, data, res));
+  }
+, get: (req, res) => {
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.findOne(query, (err, data) => callback(err, data, res));
+  }
+, update: (req, res) => {
+    let queryData = '';
+
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const mod = querystring.parse(queryData);
+      const url_parts = url.parse(req.url);
+      const query = querystring.parse(url_parts.query);
+
+      User.update(query, mod, (err, data) => callback(err, data, res));
+    });
+  }
+, delete: (req, res) => {
+    const url_parts = url.parse(req.url);
+    const query = querystring.parse(url_parts.query);
+
+    User.remove(query, (err, data) => callback(err, data, res));
+  }
+};
+
+module.exports = CRUD;
+```
+
+Nesse caso não podemos fazer apenas:
+
+```js
+User.create(obj, callback);
+```
+
+Pois para isso nosso callback deveria ter os mesmo parâmetros e como é nele que estamos devolvendo a resposta com `res.end(JSON.stringify(data))` precisamos então fazer a chamada da função para passar o *Request* como último parâmetro:
+
+```js
+(err, data) => callback(err, data, res)
+```
+
+Vamos refatorar essa parte:
+
+```js
+const url_parts = url.parse(req.url);
+const query = querystring.parse(url_parts.query);
+```
+
+Pois ela também é usada em mais de 1 lugar, ficando assim:
+
+```js
+const getQuery = (req) => {
+  return querystring.parse(url.parse(req.url).query);
+};
+```
+
+Finalmente nosso código refatorado é esse:
+
+```js
+'use strict';
+
+const url = require('url');
+const querystring = require('querystring');
+const mongoose = require('mongoose');
+const Schema = require('./schema');
+const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+  if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const getQuery = (req) => {
+  return querystring.parse(url.parse(req.url).query);
+};
+
+const CRUD = {
+  create: (req, res) => {
+    let queryData = '';
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const obj = querystring.parse(queryData);
+      User.create(obj, (err, data) => callback(err, data, res));
+    });
+  }
+, retrieve: (req, res) => {
+    const query = getQuery(req);
+
+    User.find(query, (err, data) => callback(err, data, res));
+  }
+, get: (req, res) => {
+    const query = getQuery(req);
+
+    User.findOne(query, (err, data) => callback(err, data, res));
+  }
+, update: (req, res) => {
+    let queryData = '';
+
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const query = getQuery(req);
+      const mod = querystring.parse(queryData);
+
+      User.update(query, mod, (err, data) => callback(err, data, res));
+    });
+  }
+, delete: (req, res) => {
+    const query = getQuery(req);
+
+    User.remove(query, (err, data) => callback(err, data, res));
+  }
+};
+
+module.exports = CRUD;
+```
+
+Aproveitando o ensejo vamos ajeitar o `controller.js` para:
+
+```js
+const Model = require('./model');
+const Controller = {
+  create: Model.create
+, retrieve: Model.retrieve
+, get: Model.get
+, update: Model.update
+, delete: Model.delete
+};
+
+module.exports = Controller;
+```
+
+
+**Mais refatoração**
+
+Dessa vez iremos refatorar algo muito importante em uma API REST, é a aceitação de diferentes verbos do HTTP na mesma rota, então vamos começar refatorando a rota `/api/users` para receber os verbos:
+
+- `GET`
+- `POST`
+- `PUT`
+- `DELETE`
+
+Então veja como ficou o `swicth` das rotas em `app.js`:
+
+```js
+var url_parts = url.parse(req.url);
+switch (url_parts.pathname) {
+  case '/api/users':
+    switch (req.method.toLowerCase()) {
+      case 'get':
+        Controller.retrieve(req, res);
+        break;
+      case 'post':
+        Controller.create(req, res);
+        break;
+      case 'put':
+        Controller.update(req, res);
+        break;
+      case 'delete':
+        Controller.delete(req, res);
+        break;
+    }
+    break;
+  case '/api/users/get':
+    Controller.get(req, res);
+    break;
+  default:
+    res.end('ROTA NAO ENCONTRADA');
+    break;
+}
+```
+
+**Notou de onde vem o verbo?**
+
+No *Request* há o atributo `method` que nos fornece essa informação, depois bastou criar um `switch` para testar qual o verbo é e chamar sua função correta.
+
+Para finalizar essa refatoração vamos mudar o nome das funções:
+
+- `retrieve` para `find`
+- `get` para `findOne`
+- `delete` para `remove`
+
+Em `app.js`:
+
+```js
+'use strict';
+
+const http = require('http');
+const url = require('url');
+const Controller = require('./controller-teste');
+
+http.createServer((req, res) => {
+  var url_parts = url.parse(req.url);
+  switch (url_parts.pathname) {
+    case '/api/users':
+      switch (req.method.toLowerCase()) {
+        case 'get':
+          Controller.find(req, res);
+          break;
+        case 'post':
+          Controller.create(req, res);
+          break;
+        case 'put':
+          Controller.update(req, res);
+          break;
+        case 'delete':
+          Controller.remove(req, res);
+          break;
+      }
+      break;
+    case '/api/users/get':
+      Controller.findOne(req, res);
+      break;
+    default:
+      res.end('ROTA NAO ENCONTRADA');
+      break;
+  }
+}).listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Em `controller.js`:
+
+```js
+const Model = require('./model-teste');
+const Controller = {
+  create: Model.create
+, find: Model.find
+, findOne: Model.findOne
+, update: Model.update
+, remove: Model.remove
+};
+
+module.exports = Controller;
+```
+
+E para finalizar em `model`:
+
+```js
+'use strict';
+
+const url = require('url');
+const querystring = require('querystring');
+const mongoose = require('mongoose');
+const Schema = require('./schema-teste');
+const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+  if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const getQuery = (req) => {
+  return querystring.parse(url.parse(req.url).query);
+};
+
+const create = (req, res) => {
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => callback(err, data, res));
+  });
+};
+
+const find = (req, res) => {
+  const query = getQuery(req);
+
+  User.find(query, (err, data) => callback(err, data, res));
+};
+
+const findOne = (req, res) => {
+  const query = getQuery(req);
+
+  User.findOne(query, (err, data) => callback(err, data, res));
+};
+
+const update = (req, res) => {
+  let queryData = '';
+
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const query = getQuery(req);
+    const mod = querystring.parse(queryData);
+
+    User.update(query, mod, (err, data) => callback(err, data, res));
+  });
+};
+
+const remove = (req, res) => {
+  const query = getQuery(req);
+
+  User.remove(query, (err, data) => callback(err, data, res));
+};
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+## Atomic Design
+
+Essa estrutura que eu utilizo é baseada no [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) que utilizo no *front-end*, porém eu modifiquei um pouco essa metodologia para adicionar a parte de **Comportamento** para que eu pudesse extender ela com novas funcionalidades.
+
+[Essa palestra está gravada aqui na InfoQ](http://www.infoq.com/br/presentations/atomic-design-behavior).
+
+Nesse caso cada átomo possuirá um comportamento padrão que pode ser sobrescrito quando adicionado em uma molécula, também podendo mudar quando adicionado em um organismo.
+
+Então vamos entender quais são suas partes.
+
+### Átomo
+
+O Átomo é a menor parte indivisível do Mongoose.
+
+**Sabe qual é?**
+
+![](https://media.giphy.com/media/uwZhzLqlV0cZq/giphy.gif)
+
+Como visto anteriormente a parte *indivisível* da nossa arquitetura é o *Field* o qual possui seus atributos, os quais podem ser [quarks](http://nomadev.com.br/atomic-design-b%C3%B3sons-e-quarks-extended/).
+
+Vamos analisar o *Field* `name`:
+
+```js
+const _get = (v) => v.toUpperCase();
+const _set = (v) => v.toLowerCase();
+const _validate = (v) => v.length > 3;
+
+const Field = {
+    type: String
+  , get: _get
+  , set: _set
+  , validate: [_validate, 'Nome precisa ser maior que 3 caracteres']
+  , required: true
+  , index: true
+}
+
+module.exports = Field;
+```
+
+#### Quarks
+
+Levando isso em consideração podemos dizer que as partes que formam nosso átomo são os quarks:
+
+- type
+- get
+- set
+- validate
+- required
+- index
+
+Vamos refatorar o código, para reorganizar e refatorar o `validate` para objeto:
+
+```js
+// quarks
+const quark_get = (v) => v.toUpperCase();
+const quark_set = (v) => v.toLowerCase();
+const quark_validate = {
+        validator: (v) => v >= 3
+      , message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
+      };
+
+const Atom = {
+  type: String
+, get: quark_get
+, set: quark_set
+, validate: quark_validate
+, required: true
+, index: true
+}
+
+module.exports = Atom;
+```
+
+Vamos separar em arquivos os quarks que são funções ou objetos, pois podemos reaproveitá-las futuramente:
+
+```js
+// quark-toUpper.js
+module.exports = (v) => v.toUpperCase();
+```
+
+```js
+// quark-toLower.js
+module.exports = (v) => v.toLowerCase();
+```
+
+```js
+// quark-validate-string-lengthGTE3
+module.exports = {
+  validator: (v) => v >= 18
+, message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
+};
+```
+
+Com isso o arquivo do átomo ficou assim:
+
+```js
+const Atom = {
+  type: String
+, get: require('./../quarks/quark-toUpper')
+, set: require('./../quarks/quark-toLower')
+, validate: require('./../quarks/quark-validate-string-lengthGTE3')
+, required: true
+, index: true
+}
+
+module.exports = Atom;
+```
+
+### Molécula
+
+Sabendo que o *Field* é o Átomo logicamente a Molécula será o *Schema*, então vamos utilizar o seguinte *Schema*:
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const Molecule = {
+  name: require('./fields/field-name')
+}
+
+module.exports = new Schema(Molecule);
+```
+
+### Organismo
+
+Para finalizar esse conceito o o Organismo será o *Model*:
+
+```js
+const url = require('url');
+const querystring = require('querystring');
+const Schema = require('./schema');
+const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+    if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const getQuery = (_url) => {
+  const url_parts = url.parse(_url);
+  return querystring.parse(url_parts.query);
+};
+
+const create = (req, res) => {
+
+  let queryData = '';
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const obj = querystring.parse(queryData);
+    User.create(obj, (err, data) => callback(err, data, res));
+  });
+};
+
+const find = (req, res) => {
+  const query = getQuery(req.url);
+  User.find(query, (err, data) => callback(err, data, res));
+};
+
+const findOne = (req, res) => {
+  const query = getQuery(req.url);
+  User.findOne(query, (err, data) => callback(err, data, res));
+};
+
+const update = (req, res) => {
+  let queryData = '';
+
+  req.on('data', (data) => {
+    queryData += data;
+  });
+
+  req.on('end', () => {
+    const mod = querystring.parse(queryData);
+    const query = getQuery(req.url);
+    User.update(query, mod, (err, data) => callback(err, data, res));
+  });
+};
+
+const remove = (req, res) => {
+  const query = getQuery(req.url);
+  User.remove(query, (err, data) => callback(err, data, res));
+};
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+Como o Organismo possui seu próprio comportamento(*Behavior*), podemos separar suas funções desse arquivo ficando:
+
+```js
+'use strict';
+
+const mongoose = require('mongoose');
+const url = require('url');
+const querystring = require('querystring');
+const Schema = require('./schema');
+const User = mongoose.model('User', Schema);
+
+const callback = (err, data, res) => {
+    if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+
+const getQuery = (_url) => {
+  const url_parts = url.parse(_url);
+  return querystring.parse(url_parts.query);
+};
+
+const create = require('./actions/action-create');
+const find = require('./actions/action-find');
+const findOne = require('./actions/action-findOne');
+const update = require('./actions/action-update');
+const remove = require('./actions/action-remove');
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+Porém perceba que as *Actions* necessitam do `callback`e do `getQuery`, por isso vamos separá-los também:
+
+```js
+// action-get-query-http.js
+module.exports = (_url) => {
+  return require('querystring').parse(require('url').parse(_url).query);
+};
+```
+
+```js
+// action-response-200-json.js
+module.exports = (err, data, res) => {
+    if (err) return console.log('Erro:', err);
+
+  res.writeHead(200, {'Content-Type': 'application/json'});
+  return res.end(JSON.stringify(data));
+};
+```
+
+Agora as *Actions* do *Field* ficam assim:
+
+```js
+// action-create.js
+const callback = require('./action-response-200-json');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    let queryData = '';
+
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const obj = require('querystring').parse(queryData);
+      Model.create(obj, (err, data) => callback(err, data, res));
+    });
+  };
+};
+```
+
+```js
+// action-find.js
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    const query = getQuery(req.url);
+    Model.find(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+```js
+// action-findOne
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    const query = getQuery(req.url);
+    Model.findOne(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+```js
+// action-update
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    let queryData = '';
+
+    req.on('data', (data) => {
+      queryData += data;
+    });
+
+    req.on('end', () => {
+      const mod = require('querystring').parse(queryData);
+      const query = getQuery(req.url);
+      Model.update(query, mod, (err, data) => callback(err, data, res));
+    });
+  };
+};
+```
+
+```js
+// action-remove
+const callback = require('./action-response-200-json');
+const getQuery = require('./action-get-query-http');
+
+module.exports = (Model) => {
+  return (req, res) => {
+    const query = getQuery(req.url);
+    User.remove(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+Logo atomizamos as 4 funções do CRUD para que possa ser reaproveitado em todos nossos futuros sistemas.
+
+Agora o Organismo ficou assim:
+
+```js
+require('./db/config');
+const mongoose = require('mongoose');
+const Schema = require('./schema');
+const Model = mongoose.model('User', Schema);
+
+// Precisa passar o Model para as ações
+const create = require('./actions/action-create')(Model);
+const find = require('./actions/action-find')(Model);
+const findOne = require('./actions/action-findOne')(Model);
+const update = require('./actions/action-update')(Model);
+const remove = require('./actions/action-remove')(Model);
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+**Muito melhor não?**
+
+![](https://media.giphy.com/media/LYDNZAzOqrez6/giphy.gif)

@@ -19,7 +19,7 @@ PokemonSchema.statics.search = function (name, cb) {
 
 const Pokemon = mongoose.model('Pokemon', PokemonSchema);
 
-Pokemon.search('caterpie', function (err, data) {
+Pokemon.search('pikachu', function (err, data) {
   if (err) return console.log('Erro:', err);
   return data.forEach((pokemon) => console.log('pokemon: ', pokemon));
 });
