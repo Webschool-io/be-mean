@@ -1,0 +1,13 @@
+{
+  "name": "testes-mongoose",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mongodb-core": "^1.2.32",
+    "mongoose": "^4.2.9"
+  }
+}
