@@ -1,6 +1,6 @@
 # Node.js - Aula 02 - Exercício
 
-1. Quais são os 4 verbos que utilizamos para o CRUD?
+1. Quais são os 4 verbos do **HTML** que utilizamos para o CRUD?
 2. Para que foram inventados os Status Codes? Dê exemplo de 1 código por grupo e a imagem do [Cat Status Code](https://http.cat/).
 3. Explique o que é cada parâmetro da função recebida no `createServer`.
 4. O que é e para que serve a Querystring?
