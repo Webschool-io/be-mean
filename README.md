@@ -1,3 +1,9 @@
+# [Slack da Webschool](https://webschool-slack.herokuapp.com/)
+- Coloque um email para login( hotmail não funciona )
+- Após isso, clique em Webschool para entrar no link do slack
+- Coloque o email que você digitou antes e crie uma senha
+- Entre no channel `be-mean-instagram`
+
 # Sobre os brindes
 
 O fornecedor de camiseta foi pago em Dezembro, porém só irá começar a fazer as camisetas **HOJE(18/Janeiro)** um mês depois de pago.
@@ -356,7 +362,10 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
 - Aula 12
     + [Express](./src/)
-        * TDD - Prof.: [Itacir](https://github.com/pompeu)
+    	* Internacionalization [Suissa](https://github.com/suissa) 
+    		- http://ejohn.org/blog/a-strategy-for-i18n-and-node/
+    		- https://github.com/jeresig/i18n-node-2
+      * TDD - Prof.: [Itacir](https://github.com/pompeu)
     + [Socket.io](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * TDD - Prof.: [Itacir](https://github.com/pompeu)
 - Aula 13
