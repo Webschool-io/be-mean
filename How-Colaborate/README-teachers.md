@@ -1,5 +1,19 @@
 # Como colaborar como professor
 
+## Vídeo
+
+### Tamanho
+
+Padrão da gravação deve ser 1280x800.
+
+### Marca d'água
+
+Esse é a imagem padrão utilizada.
+![](https://cldup.com/rrUdgoDvag-3000x3000.png)
+
+Colocar no canto superior direito deixando margens em cima e ao lado.
+![](https://cldup.com/3Acg1zVUrD.png)
+
 ## Metodologia
 
 1. Criar conteúdo na apostila
