@@ -1,5 +1,25 @@
 # Como colaborar como professor
 
+## Vídeo
+
+### Tamanho
+
+Padrão da gravação deve ser 1280x800.
+
+### Marca d'água
+
+Esse é a imagem padrão utilizada.
+![](https://cldup.com/rrUdgoDvag-3000x3000.png)
+
+Colocar no canto superior direito deixando margens em cima e ao lado.
+![](https://cldup.com/3Acg1zVUrD.png)
+
+### Transição
+
+Para fazer a transição entre slides e o desktop dê uma pausa de  3 segundos de fala e aplique um efeito de transição de *melt*.
+
+![](https://media.giphy.com/media/4g6LsbHQf6cOQ/giphy.gif)
+
 ## Metodologia
 
 1. Criar conteúdo na apostila
