@@ -1,24 +1,22 @@
-## Instalação
+## Installation
 
-Instalar o MongoDb é mais fácil que mijar deitado. LOL
+Install MongoDb is easier than pee lying down. LOL
 
-![Mijando deitado](https://cldup.com/N1L5PkCDOq-3000x3000.jpeg)
+![pee lying](https://cldup.com/N1L5PkCDOq-3000x3000.jpeg)
 
-Primeiramente entre na página de download [https://www.mongodb.org/downloads#production](https://www.mongodb.org/downloads#production) e escolha lá embaixo o seu Sistema Operacional correto.
-
-Depois basta descompactar e rodar.
+Firstly go to download page [https://www.mongodb.org/downloads#production](https://www.mongodb.org/downloads#production) and choose your Operational System.
+then you just need to unpack and run.
 
 ### Linux
 
-![Meme do Linux](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/module-mongodb/images/meme-linux.jpg)
-
-Quem usa Linux do tipo Ubuntu da vida, como o Debian por exemplo, pode instalar via `apt-get` seguindo esses passos, caso o seu sistema seja 64 bits. Primeiro, para garantir a autenticidade e consistencia dos pacotes do MongoDb:
+![Meme do Linux](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-linux.jpg)
+Who uses Linux like ubuntu, can install by `apt-get` following these steps, first of all ,  ensure authenticity and consitency of the MongoDb packages
 
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 ```
 
-Depois precisa criar uma lista de arquivos para o MongoDB, no Ubuntu 12:
+Then you should create a files list to MongoDB, in Ubuntu 12:
 
 ```
 echo "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
@@ -36,104 +34,84 @@ Ubuntu 15:
 echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list"
 ```
 
-Por fim, rodar o comando:
-
-```
-sudo apt-get update
-sudo apt-get install -y mongodb-org
-```
-Se o teu OS for um Debian ou Ubuntu 32 bits, siga estes passos: [Install MongoDB on Ubuntu - Docs MongoDB](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
-
-Caso você use RedHat ou CentOS siga esses passos: [http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/)
+If you use RedHat or CentOS follow these steps: [http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/)
 
 ### Mac
 
-![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/module-mongodb/images/meme-mac.jpg)
+![Meme do Mac](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-mac.jpg)
 
-Quem usa Mac pode instalar via [brew](http://brew.sh/) e para instalar o brew é bem fácil basta executar esse comando no seu terminal:
+Who uses Mac can install via [brew](http://brew.sh/) . To install **brew** is easy. 
+simply run this command in the terminal:
 
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Depois basta executar o comando de `update` do `brew`:
 
-```
-brew update
-```
-
-Depois mandar ele instalar o `mongodb`:
-
-```
-brew install mongodb
-```
-
-Também tem um vídeo muito bom enviado por um aluno: [003 Installing MongoDB on a Mac](https://www.youtube.com/watch?v=DhKYGa7K20k).
 
 ### Windows
 
-![Meme do Mac](https://raw.githubusercontent.com/Webschool-io/be-mean-instagram/master/apostila/module-mongodb/images/meme-windows.jpg)
+![Meme do Mac](https://github.com/Webschool-io/be-mean-instagram/raw/master/apostila/mongodb/images/meme-windows.jpg)
 
-Por incrível que pareça é bem simples no Windows, um aluno meu escreveu esse rtigo que pode lhe ajudar [https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/](https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/).
+It is very simple on windows, one of my pupils wrote this article that can help you [https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/](https://pablojuancruz.wordpress.com/2014/09/03/configurando-ambiente-mongodb-no-windows/).
 
-## MongoDB Servidor
+## MongoDB Server
 
-Caso você não tenha instalado ele com `apt-get` ou `brew` da vida você terá que executar ele diretamente da pasta onde ele foi descompactado, por isso de preferência descompacte em uma pasta chamada `mongodb` na sua raíz, sendo ela `/` ou `C:\`.
+If you didn't have installed it by `apt-get` or `brew` you'll have to execute it directly from where it was unpacked, so preferably unpack it in a folder named `mongodb` in the root, it can be `/` or `C:\`.
 
-Caso você esteja usando Windows por favor use o `PowerShell`, vai no Executar e escreve `PowerShell`, ele roda comandos de **Linux** no Windows e é melhor que aquele lixo do `Console`.
+If you are using Windows, please use `PowerShell`. Go to **Execute** and type  `PowerShell`, it runs  **Linux** commands on Windows and is better than `Console`.
 
-Depois que entrar na pasta basta executar o binário `mongod` que é nosso **servidor**:
+After entering the folder you'll have just to run the binary `mongod` which is our **server**:
 
 ```
 ./mongod
 ```
 
-Ou no `PowerShell`:
+or on `PowerShell`:
 
 ```
 .\mongod
 ```
 
-Caso ele de um erro falando sobre o `dbpath` é **muito simples** de resolver, basta criarmos uma pasta na sua raíz, C:\, com o nome `data` e dentro dela `db`, se usar Linux/Mac não esqueça de dar as permissões corretas, caso queira liberar geral basta um:
+If it display an error about `dbpath` it is  **very simple** to solve. simply create a folder on the root C:\, named `data` and inside of it , create the `db` folder. If you use Linux/Mac don't forget to give the right permissions, if you want to give all permissions just run the command below :
 
 ```
 sudo chmod 777 -R /data
 ```
 
-**ps: *por favor nunca faça isso em produção*!**
+**ps: *please , never do it in production !***
 
-Acredito que depois ele não dará mais problema.
+Probably it will have no more problem.
 
-## MongoDB Cliente
+## MongoDB Client
 
-Depois de utilizarmos o MongoDB precisamos rodar seu cliente para que possamos integragir com ele via linha de comando, para isso basta executar o comando `mongo` no seu terminal:
+After using MongoDB we need run its client to interact with it by command line. to do it just run `mongo` command on your command line:
 
 ```
 mongo
 ```
 
-Executando dessa forma ele irá se conectar em uma *database* chamada `test`, para que você execute o cliente diretamente em uma *database* específica, basta passar o nome dela logo após o comando:
+So it will connect to a *database* called `test`. To you execute the client directly in a specific *database* , just pass its name after the command:
 
 ```
 mongo be-mean-instagram
 ```
 
-Nesse caso já entramos com a *database* `be-mean-instagram` que será a base utilizada em nosso *workshop*.
+in this case we have already entered the *database* `be-mean-instagram` that will be the used database in our *workshop*.
 
-## Versão
+## Version
 
-Para você garantir que a verão 3 está instalada basta executar o seguinte comando:
+To you ensure the version 3 is installed just run the command below:
 
 ```
 mongod --version
 db version v3.0.6
 ```
-
-E para o seu cliente:
+ On client:
 
 ```
 mongo --version
 MongoDB shell version: 3.0.6
 ```
 
-Agora estamos prontos para iniciar.
+Now we are ready to start.
