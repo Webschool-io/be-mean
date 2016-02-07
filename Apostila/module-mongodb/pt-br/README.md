@@ -19,7 +19,7 @@ O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. E
     + [update](./update.md)
     + [remove](./remove.md)
     + [drop](./drop.md)
-    + [Paginação](./paggination.md)
+    + [Paginação](./pagination.md)
 - [Aggregation](./aggregation.md)
 - [Group](./group.md)
 - [Replica](./replica.md)
