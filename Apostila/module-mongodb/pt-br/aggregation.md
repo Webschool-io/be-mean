@@ -1,11 +1,41 @@
 ## Aggregation
 
-No MongoDb podemos utilizar o [Aggregation Framework](https://docs.mongodb.org/manual/core/aggregation-pipeline/) para conseguirmos agrupar valores para alguma finalidade, por exemplo fazer uma query que retorne a média salarial dos seus funcionários.
+No MongoDb podemos utilizar o [Aggregation Framework](https://docs.mongodb.org/manual/core/aggregation-pipeline/) para agruparmos valores para alguma finalidade, por exemplo fazer uma query que retorne a média salarial dos seus funcionários.
 
-Um agrupamento pode ser:
+Um agrupamento pode ser feito com um [operador aritimético](https://docs.mongodb.org/manual/reference/operator/aggregation-arithmetic/):
+* Valor absoluto `$abs`
+* Adição `$add`
+* Arredondamento "para baixo" `$ceil`
+* Arredondamento "para cima" `$floor`
+* Truncar para inteiro `$trunc` sem arredondar
+* dentre outros
+
+Com um [acumulador](https://docs.mongodb.org/manual/reference/operator/aggregation-group/):
 * Soma `$sum`
 * Média `$avg`
-* 
+* Mínimo `$min`
+* Máximo `$max`
+* Desvio padrão `$stdDevPop`
+* dentre outros
+
+Com [strings](https://docs.mongodb.org/manual/reference/operator/aggregation-string/)
+* Concatenação `$concat`
+* Retornar parte de uma string `$substr`
+* Converter para minúsculas `$toLower`
+* Converter para maiúsculas `$toUpper`
+* Comparar `$strcasecmp`
+
+Com [arrays](https://docs.mongodb.org/manual/reference/operator/aggregation-array/):
+* Junta arrays e retorna um novo com todos os elementos `$concatArrays`
+* Retornar o número de elementos de um array `$size`
+* Reparte um array, retirando um pedaço dele `$slice`
+* dentre outros
+
+Com [datas](https://docs.mongodb.org/manual/reference/operator/aggregation-date/):
+* Dia do ano de uma data (de 1 a 366) `$dayOfYear`
+* Número de milisegundos (de 0 a 999) `$millisecond`
+* dentre outros
+
 Vamos dar uma olhada na sintaxe geral do método **aggregate**:
 
 ### pipeline
@@ -46,3 +76,6 @@ E os options (argumento opcional que não precisa ser enviado):
   readConcern: boolean
 }
 ```
+
+
+Basicamente, agregações mais simples podem ser feitas utilizando o método `.group()`, com uma sintaxe bem diferente, e um pouco mais manualmente, já que no group, recorremos a estratégia de map/reduce, em vez de termos operadores prontos que fazem o trabalho de média por exemplo para nós.
