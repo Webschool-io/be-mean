@@ -665,6 +665,7 @@ const postData = querystring.stringify({
 const options = {
         host: 'webschool-io.herokuapp.com'
       , path: '/api/pokemons'
+      , method: 'POST'
       , headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         , 'Content-Length': postData.length
@@ -743,5 +744,3 @@ E o cabeçalho `'Content-Length': postData.length` fala qual é o tamanho, em by
 # FIM
 
 Dica: [https://github.com/floatdrop/debug-http](https://github.com/floatdrop/debug-http)
-
-
