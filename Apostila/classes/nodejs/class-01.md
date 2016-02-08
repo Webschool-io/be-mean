@@ -1,6 +1,6 @@
 # Node.js
 
-Nessa aula falamos sobre a [Teoria](./../../module-nodejs/theory.md) acerca do Node.js, englobando:
+Nessa aula falamos sobre a [Teoria](./../../module-nodejs/pt-br/theory.md) acerca do Node.js, englobando:
 
 - V8
 - Libuv
