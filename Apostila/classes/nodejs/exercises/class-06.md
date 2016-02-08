@@ -27,12 +27,7 @@
 
 ## Cadastre 3 pokemons **de uma só vez**:
 
-
-## Crie e execute um script, via `npm`, que mostre uma mensagem no console com a global, que possui caminho para o diretório atual.
-
-
 ## Busque **todos** os Pokemons com `attack > 50` e `height > 0.5`:
-
 
 ## Altere, **inserindo**, o Pokemon `Nerdmon` com `attack` igual a 49 e com os valores dos outros campos a sua escolha.
 
