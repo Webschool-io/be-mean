@@ -6,6 +6,10 @@ Nessa primeira aula veremos um pouco sobre a teoria do MongoDb e sobre os bancos
 
 [https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
 
+## Arquivos necessário
+
+[https://github.com/Webschool-io/MongoDb-ebook/tree/6e4007d73d5b25b7218ef0b9c4f8eb700bb5f104/src/data](https://github.com/Webschool-io/MongoDb-ebook/tree/6e4007d73d5b25b7218ef0b9c4f8eb700bb5f104/src/data)
+
 ## Teoria
 
 ### NoSQL
