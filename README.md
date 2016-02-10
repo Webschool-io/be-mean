@@ -4,11 +4,19 @@
 - Coloque o email que você digitou antes e crie uma senha
 - Entre no channel `be-mean-instagram`
 
-# Sobre os brindes
+# Sobre
+
+## Brindes
 
 O fornecedor de camiseta foi pago em Dezembro, porém só irá começar a fazer as camisetas **HOJE(18/Janeiro)** um mês depois de pago.
 
-Então podem ficar sossegados que os brindes irão chegar até o próximo mês, os adesivos já estão OK, aguardando as camisetas para irem juntos.
+Então podem ficar sossegados que os brindes irão chegar até final de fevereiro/Março, os adesivos já estão OK, aguardando as camisetas para irem juntos.
+
+## Aulas
+
+Sairão *2 aulas** por semana, podendo sair mais, mas não menos.
+
+
 
 # APOIE
 
