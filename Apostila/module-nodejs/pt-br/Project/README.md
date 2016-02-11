@@ -173,6 +173,8 @@ oplog = {
 
 Para entender um pouco melhor sobre o `oplog` recomendo [essa leitura do meu blog](http://nomadev.com.br/fullstack-offline-api-first/).
 
+**Bonus: implementar a funcionalidade de ROLLBACK com isso.**
+
 ## Internacionalização
 
 **TODAS AS MENSAGENS E TEXTOS DEVERÃO ESTAR SEPARADOS EM UM ARQUIVO DE DICIONÁRIO.**
