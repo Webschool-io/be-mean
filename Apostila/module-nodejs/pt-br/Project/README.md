@@ -31,17 +31,41 @@ Requisitos técnicos:
 - Módulo Atômico
   + JSON de configuração
     * Rotas
-    * Ações (Eventos)
+    * Actions (Eventos)
   - Schemas Atômicos
   - Model
-  - Actions (antigo Controller)
+  - Actions
       + Middlewares (Express)
   - Routes
       + Gerar as rotas do Express a partir do JSON de config
 
 ## JSON de configuração
 
-### Ações
+### Rotas
+
+As rotas deverão ser configuradas no JSON do módulo, onde cada rota pode ser um arquivo separado contendo apenas as informações daquela rota:
+
+```js
+// route.create.config.js
+{
+    action: 'user:create'
+  , method: 'post'
+  , url: '/'
+  , callback: ''
+}
+```
+
+- action: evento emitido nessa rota
+- method: método do HTTP
+- url: o caminho a partir do nome do módulo
+  + não é necessário colocar `http://localhost:3000/api/users`
+- callback: caso não deseje usar eventos.
+
+### Actions
+
+O módulos de *Actions* deverá ser uma **API de eventos** que já terá por padrão os eventos do CRUD e qualquer outro evento deverá ser **adicionado a esse módulo** pois ele deverá apenas escutar e emitir eventos pré-cadastrados nele.
+
+**Deve ser uma instância de EventEmitter.**
 
 As ações deverão ser atreladas as funções da rota.
 
@@ -55,7 +79,7 @@ Seu sistema deverá receber uma requisição em uma rota e essa deve emitir o ev
 
 ```
 
-Nesse caso a ação é `user:create` que deverá ser escutada no módulo de Ações e esse chamar a função ou emitir o evento correto.
+Nesse caso a ação é `user:create` que deverá ser escutada no módulo de Actions e esse chamar a função ou emitir o evento correto.
 
 ## API
 
