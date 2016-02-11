@@ -30,8 +30,9 @@ Requisitos técnicos:
 
 - Schemas Atômicos
 - Model
-- Actions
-- 
+- Actions (antigo Controller)
+- Routes
+    + Gerar as rotas do Express a partir de um JSON
 
 ## API
 
