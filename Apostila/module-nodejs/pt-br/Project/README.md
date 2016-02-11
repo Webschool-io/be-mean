@@ -57,7 +57,7 @@ Requisitos técnicos:
 
 > Uma *Action* pode chamar outras *Actions* se necessário, por isso deve-se criar um padrão para a API de eventos.
 
-
+Vamos nos basear no one-way data flow para não colocarmos mais responsabilidade em nosso módulos do que o necessário, por isso a arquitetura será **bem atômica**.
 
 
 ## JSON de configuração
