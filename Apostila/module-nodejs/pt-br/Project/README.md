@@ -148,7 +148,30 @@ Nesse caso a ação é `user:create` que deverá ser escutada no módulo de Acti
 
 ### Model
 
-Será no Model 
+Será no Model que colocaremos as regras de negócio.
+
+**Todo *Model* deve possuir um atributo `state` que armazenará o nome da ultima função executada.**
+
+**Todo *Model* deve possuir um array de tamanho 5 onde armazenará as últimas ações feitas no Banco.**
+
+Por exemplo:
+
+```js
+oplog = {
+  model: 'User'
+  [
+    {
+      ts: Date.now,
+      action: 'insert',
+      query: '*',
+      val_new: 'objeto do User a ser inserido',
+      val_old: null,
+    }
+  ]
+}
+```
+
+Para entender um pouco melhor sobre o `oplog` recomendo [essa leitura do meu blog](http://nomadev.com.br/fullstack-offline-api-first/).
 
 ## Internacionalização
 
