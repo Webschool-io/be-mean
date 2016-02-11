@@ -48,11 +48,14 @@ Requisitos técnicos:
 2. Rota emite evento para o *Dispatcher*
 3. *Dispatcher* emite evento para a *Action* correta
 4. *Action* ouve e executa a função requisitada
-5. Provavelmente chamará uma função do *Model*
+5. Provavelmente chamará uma função/evento do *Model*
 6. Que por conseguinte interage com o Banco
   6.1. Retorna um JSON padrão de resposta
-7. Model retorna o JSON para a Action
-  7.1. Essa podendo retornar a resposta ou entregar para outro módulo específico para isso
+7. Model retorna o JSON para o *Dispatcher*
+8. *Dispatcher* envia o JSON para a *Action* correta
+  8.1. Não será a mesma *Action* que enviou os dados para o Model
+
+
 
 
 ## JSON de configuração
@@ -104,6 +107,14 @@ module.exports = RouteConfig;
 ```
 
 **Só não esqueça de validar os parâmetros.**
+
+Deverá ser injetado o objeto `Router` do framework utilizado, nele você adicionará as rotas geradas e retornará-o.
+
+No app.js deverá ficar apenas a chamada do módulo:
+
+```js
+app.use('/users', UserRouter);
+```
 
 ### Dispatcher
 
