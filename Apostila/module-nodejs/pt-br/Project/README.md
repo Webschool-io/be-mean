@@ -109,6 +109,14 @@ Seu sistema deverá receber uma requisição em uma rota e essa deve emitir o ev
 
 Nesse caso a ação é `user:create` que deverá ser escutada no módulo de Actions e esse chamar a função ou emitir o evento correto.
 
+## Internacionalização
+
+**TODAS AS MENSAGENS E TEXTOS DEVERÃO ESTAR SEPARADOS EM UM ARQUIVO DE DICIONÁRIO.**
+
+Tanto as mensagens de validação, por isso nossas validações são separadas em módulos atômicos, pois devem poder funcionar para qualquer outro *Schema* de banco de dados ou em qualquer outro módulo que necessite validação.
+
+Deverá ser gerado automaticamente o idioma Inglês, fazendo um crawler para isso.
+
 ## API
 
 ### Create
@@ -182,7 +190,7 @@ Após a criação do usuário deverá ser enviado um email com um link para ele 
 
 Validar todos os campos já ensinados e os demais que você achar necessário, **não esqueça de criar as validações em módulos atômicos
 
-#### Password
+### Password
 
 Utilizar criptografia de mão única adicionando um ***SALT*** à senha criptografada.
 
