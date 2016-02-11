@@ -34,10 +34,19 @@ Requisitos técnicos:
     * Actions (Eventos)
   - Schemas Atômicos
   - Model
+  - Dispatcher
   - Actions
       + Middlewares (Express)
   - Routes
       + Gerar as rotas do Express a partir do JSON de config
+
+
+### Workflow
+
+1. Requisição chega no Express
+  1.1. Passa pelos middlewares
+2. Rota emite evento para o *Dispatcher*
+
 
 ## JSON de configuração
 
@@ -89,25 +98,50 @@ module.exports = RouteConfig;
 
 **Só não esqueça de validar os parâmetros.**
 
-### Actions
+### Dispatcher
 
-O módulos de *Actions* deverá ser uma **API de eventos** que já terá por padrão os eventos do CRUD e qualquer outro evento deverá ser **adicionado a esse módulo** pois ele deverá apenas escutar e emitir eventos pré-cadastrados nele.
+O módulos de *Dispatcher* deverá ser uma **API de eventos** que já terá por padrão os eventos do CRUD, quando enviado o nome do módulo ele deverá criar os eventos padrões, e qualquer outro evento deverá ser **adicionado a esse módulo** pois ele deverá apenas escutar e emitir eventos pré-cadastrados nele.
 
 **Deve ser uma instância de EventEmitter.**
 
-As ações deverão ser atreladas as funções da rota.
+Exemplo:
+
+```js
+[
+  {
+    module: 'User'
+    events: [
+      {
+        in: 'user:create',
+        out: 'user:create', //será chamada na Action
+        action: 'UserAction'
+      }
+    ]
+  }
+];
+```
+
+### Actions
+
+As ações deverão ser atreladas as funções da rota por meio do seu evento pré-cadastrado no *Dispatcher*.
+
+Cada módulo deverá conter um atributo `state` que deverá receber sempre o último evento emitido.
 
 Seu sistema deverá receber uma requisição em uma rota e essa deve emitir o evento descrito no JSON, exemplo:
 
 ```js
 
 {
-  create: 'user:create'
+  action: 'user:create'
 }
 
 ```
 
 Nesse caso a ação é `user:create` que deverá ser escutada no módulo de Actions e esse chamar a função ou emitir o evento correto.
+
+### Model
+
+Será no Model 
 
 ## Internacionalização
 
@@ -118,6 +152,8 @@ Tanto as mensagens de validação, por isso nossas validações são separadas e
 Deverá ser gerado automaticamente o idioma Inglês, fazendo um crawler para isso.
 
 ## API
+
+As rotas da API devem ser geradas a partir da configuração do módulo.
 
 ### Create
 
