@@ -28,11 +28,34 @@ Requisitos técnicos:
 
 ## Arquitetura
 
-- Schemas Atômicos
-- Model
-- Actions (antigo Controller)
-- Routes
-    + Gerar as rotas do Express a partir de um JSON
+- Módulo Atômico
+  + JSON de configuração
+    * Rotas
+    * Ações (Eventos)
+  - Schemas Atômicos
+  - Model
+  - Actions (antigo Controller)
+      + Middlewares (Express)
+  - Routes
+      + Gerar as rotas do Express a partir do JSON de config
+
+## JSON de configuração
+
+### Ações
+
+As ações deverão ser atreladas as funções da rota.
+
+Seu sistema deverá receber uma requisição em uma rota e essa deve emitir o evento descrito no JSON, exemplo:
+
+```js
+
+{
+  create: 'user:create'
+}
+
+```
+
+Nesse caso a ação é `user:create` que deverá ser escutada no módulo de Ações e esse chamar a função ou emitir o evento correto.
 
 ## API
 
