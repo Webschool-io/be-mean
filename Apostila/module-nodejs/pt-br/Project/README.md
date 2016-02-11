@@ -175,6 +175,12 @@ Para entender um pouco melhor sobre o `oplog` recomendo [essa leitura do meu blo
 
 **Bonus: implementar a funcionalidade de ROLLBACK com isso.**
 
+Esse *Model* também funcionará dessa forma mesmo se os dados utilizados vierem de uma API externa, nesse caso só mudará o acesso aos dados.
+
+#### Service
+
+Quando o *Model* necessitar consumir dados externos deverá fazê-lo através de um *Service* específico para gerenciar as requisições e deve retornar uma *Promise*, assim como no Angular.
+
 ## Internacionalização
 
 **TODAS AS MENSAGENS E TEXTOS DEVERÃO ESTAR SEPARADOS EM UM ARQUIVO DE DICIONÁRIO.**
