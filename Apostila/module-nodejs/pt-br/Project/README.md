@@ -181,6 +181,19 @@ Esse *Model* também funcionará dessa forma mesmo se os dados utilizados vierem
 
 Quando o *Model* necessitar consumir dados externos deverá fazê-lo através de um *Service* específico para gerenciar as requisições e deve retornar uma *Promise*, assim como no Angular.
 
+Quando usarmos o MongoDb o próprio Mongoose fará o papel de *Service*.
+
+Se usado um *Service* para consumo externo você deverá sobrescrever as funções nativas do Mongoose, como:
+
+- find
+- findOne
+- update
+- remove
+
+Para que funcionem normalmente com o *Model* já criado.
+
+
+
 ## Internacionalização
 
 **TODAS AS MENSAGENS E TEXTOS DEVERÃO ESTAR SEPARADOS EM UM ARQUIVO DE DICIONÁRIO.**
