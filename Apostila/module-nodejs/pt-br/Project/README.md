@@ -52,8 +52,10 @@ Requisitos técnicos:
 6. Que por conseguinte interage com o Banco
   6.1. Retorna um JSON padrão de resposta
 7. Model retorna o JSON para o *Dispatcher*
-8. *Dispatcher* envia o JSON para a *Action* correta
-  8.1. Não será a mesma *Action* que enviou os dados para o Model
+8. *Dispatcher* envia o JSON para a *Action* que formata a resposta e a traduz
+  8.1. Depois do JSON formatado ele é enviado para a *Action* de render, sendo essa responsável tanto por renderizar uma view como responder o JSON.
+
+> Uma *Action* pode chamar outras *Actions* se necessário, por isso deve-se criar um padrão para a API de eventos.
 
 
 
