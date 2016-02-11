@@ -46,6 +46,13 @@ Requisitos técnicos:
 1. Requisição chega no Express
   1.1. Passa pelos middlewares
 2. Rota emite evento para o *Dispatcher*
+3. *Dispatcher* emite evento para a *Action* correta
+4. *Action* ouve e executa a função requisitada
+5. Provavelmente chamará uma função do *Model*
+6. Que por conseguinte interage com o Banco
+  6.1. Retorna um JSON padrão de resposta
+7. Model retorna o JSON para a Action
+  7.1. Essa podendo retornar a resposta ou entregar para outro módulo específico para isso
 
 
 ## JSON de configuração
