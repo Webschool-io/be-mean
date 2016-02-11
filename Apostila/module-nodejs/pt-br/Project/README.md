@@ -46,12 +46,12 @@ Requisitos técnicos:
 As rotas deverão ser configuradas no JSON do módulo, onde cada rota pode ser um arquivo separado contendo apenas as informações daquela rota:
 
 ```js
-// route.create.config.js
+// route.create.config.json
 {
     action: 'user:create'
   , method: 'post'
   , url: '/'
-  , callback: ''
+  , callback: null
 }
 ```
 
@@ -59,7 +59,35 @@ As rotas deverão ser configuradas no JSON do módulo, onde cada rota pode ser u
 - method: método do HTTP
 - url: o caminho a partir do nome do módulo
   + não é necessário colocar `http://localhost:3000/api/users`
-- callback: caso não deseje usar eventos.
+- callback: caso não deseje usar eventos, passe a função a ser executada.
+
+Caso prefira criar um módulo em vez de um JSON, pode aproveitar pra deixar mais genérico, por exemplo: 
+
+```js
+const module_name = 'user';
+const RouteConfig = {
+    action: module_name+':create'
+  , method: 'post'
+  , url: '/'
+  , callback: null
+};
+module.exports = RouteConfig;
+```
+
+Ou até pode criar uma *Factory*:
+
+```js
+const RouteConfig = function(module_name, action, method, url, callback)
+  return {
+      action: module_name+':'+action
+    , method: method
+    , url: url
+    , callback: callback
+  };
+module.exports = RouteConfig;
+```
+
+**Só não esqueça de validar os parâmetros.**
 
 ### Actions
 
