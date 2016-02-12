@@ -4,6 +4,10 @@
 - Coloque o email que você digitou antes e crie uma senha
 - Entre no channel `be-mean-instagram`
 
+#Grupo do Telegram
+
+Para entrar no grupo oficial do Be mean no Telegram basta seguir o link https://telegram.me/joinchat/BrNpzgcUpmFajfA66NWoDA lembrando que só é permitido postagens e discussões sobre duvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
+
 # Sobre
 
 ## Brindes
@@ -370,7 +374,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
 - Aula 12
     + [Express](./src/)
-    	* Internacionalization [Suissa](https://github.com/suissa) 
+    	* Internacionalization [Suissa](https://github.com/suissa)
     		- http://ejohn.org/blog/a-strategy-for-i18n-and-node/
     		- https://github.com/jeresig/i18n-node-2
       * TDD - Prof.: [Itacir](https://github.com/pompeu)
@@ -427,8 +431,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 ##  Módulo UX & Animations
 
-##  Módulo NoSQL 
+##  Módulo NoSQL
 
 ##  Módulo Desktop
 
-##  Módulo Deploy 
+##  Módulo Deploy
