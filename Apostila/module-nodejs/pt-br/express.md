@@ -263,6 +263,33 @@ res.sendStatus(500); // equivalente a res.status(500).send('Internal Server Erro
 
 Ou seja ele já nos poupa trabalho e **é por isso que você usará ele para criar um módulo de respostas para sua API retornando o código de *status* correto**.
 
+Vamos criar o retorno padrão quando a entidade não é encontrada, **o famoso 404**.
+
+Para isso criamos uma rota para qualquer valor que vier e que não entre em nehuma rota anterior, algo bem simples assim:
+
+```js
+const express = require('express');
+const app = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.get('*', function (req, res) {
+  res.sendStatus(404);
+});
+
+app.listen(3000, function () {
+  console.log('Servidor rodando em locahost:3000');
+});
+```
+
+Depois com o Postman execute um `GET` em `http://localhost:3000/` e depois em `http://localhost:3000/teste`, retornando nesse último:
+
+![](https://cldup.com/69QvbmTbbI-3000x3000.png)
+
+
+
 ### res.set(field [, value])
 
 ### res.status(code)
