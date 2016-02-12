@@ -59,6 +59,20 @@ Requisitos técnicos:
 
 Vamos nos basear no one-way data flow para não colocarmos mais responsabilidade em nosso módulos do que o necessário, por isso a arquitetura será **bem atômica**.
 
+Trocando por miúdos:
+
+```js
+A Requisição bate no Express e chama seus middlewares pra depois entregar para o módulo de Rotas.
+A Rota entrega o req e res para o Dispatcher.
+O Dispatcher entrega os mesmos para a Action correta, essa retira os dados necessários para enviar para o Model.
+A ActionIN irá entregar o objeto de response para a ActionOutResponse setando qual a forma de retorno, essa só executará quando receber o evento do Model.
+O Model irá entregar a resposta crua para a ActionOutFormatMongoose que irá formatar o JSON, para depois entregar para a ActionOutResponse.
+Sendo a ActionOutResponse que irá retornar o objeto corretamente.
+```
+
+Essa Arquitetura já está sendo pensada no Microserviços Reativos que faremos, logo nós podemos ter facilmente o Banco em um serviço rodando apenas o Model, enquanto que em outro serviço está rodando apenas as *Actions* de saída e em outro serviço o sistema em si que vai se preocupar apenas com as entradas de dados.
+
+
 
 ## JSON de configuração
 
@@ -142,6 +156,16 @@ Exemplo:
 ```
 
 ### Actions
+
+Primeiramente separamos as *Actions* em duas categorias:
+
+- in: entrada de dados
+- out: saída/resposta de dados
+
+Como assim?
+
+Quando os dados entrarem no sistema de qualquer forma, **apenas as *Actions in* podem ser usadas**, enquanto que para **qualquer tipo de resposta**  utilizamos as *Actions out*.
+
 
 As ações deverão ser atreladas as funções da rota por meio do seu evento pré-cadastrado no *Dispatcher*.
 
