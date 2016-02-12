@@ -93,7 +93,7 @@ O objeto *Response*(`req`) representa a resposta HTTP que o Express envia quando
 
 ### res.send([status|body], [body])
 
-Esse método realiza uma infinidade de tarefas úteis para respostas não-streaming simples como atribuir automaticamente o `Content-Length`, a menos que previamente definindo e provendo o cabeçalho automaticamente.
+Esse método realiza uma infinidade de tarefas úteis para respostas como atribuir automaticamente o `Content-Length`, a menos que previamente definindo, e provendo o cabeçalho automaticamente.
 
 ```js
 res.send(new Buffer('bufferinggggg'));
@@ -415,8 +415,6 @@ Adicionar o retorno correto para os seguinte códigos:
 - 500
 
 
-
-
 ### res.type(type)
 
 ### res.links(links)
@@ -443,15 +441,16 @@ Isso é muito importante para a navegabilidade de uma API REST.
 
 Criar uma busca com o Mongoose que pagine o resultado retornando os links corretamente.
 
-## Router
-
-### Methods
 
 ## Request - req
 
 O objeto req representa a solicitação HTTP e tem propriedades para a cadeia de consulta do pedido, parâmetros, corpo, cabeçalhos HTTP, e assim por diante. Nesta documentação e, por convenção, o objeto é sempre referido como req (ea resposta HTTP é res), mas seu nome real é determinada pelos parâmetros para a função de retorno de chamada na qual você está trabalhando.
 
-The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on. In this documentation and by convention, the object is always referred to as req (and the HTTP response is res) but its actual name is determined by the parameters to the callback function in which you’re working.
+
+
+## Router
+
+### Methods
 
 
 ## Express Generator
