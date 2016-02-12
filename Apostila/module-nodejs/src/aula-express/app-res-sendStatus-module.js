@@ -6,7 +6,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('*', function (req, res) {
-  res.sendStatus(404);
+  const type = { 'Not-Found': true };
+  return require('./modules/http/HTTPStatusCode')(res,type);
 });
 
 app.listen(3000, function () {

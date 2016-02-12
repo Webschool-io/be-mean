@@ -288,7 +288,33 @@ Depois com o Postman execute um `GET` em `http://localhost:3000/` e depois em `h
 
 ![](https://cldup.com/69QvbmTbbI-3000x3000.png)
 
+Beleza agora basta passarmos essa lógica para um módulo separado:
 
+```js
+module.exports = function(res, type) {
+  if(!type || type['Not-Found']) res.sendStatus(404);
+}
+```
+
+Ficando assim no `app`:
+
+```js
+const express = require('express');
+const app = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.get('*', function (req, res) {
+  const type = { 'Not-Found': true };
+  return require('./modules/http/HTTPStatusCode')(res,type);
+});
+
+app.listen(3000, function () {
+  console.log('Servidor rodando em locahost:3000');
+});
+```
 
 ### res.set(field [, value])
 
