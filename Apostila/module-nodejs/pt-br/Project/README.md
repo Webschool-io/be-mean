@@ -10,6 +10,7 @@ Requisitos técnicos:
 
 - API REST
 - TDD
+- API de Eventos
 - Envio de email
 - Upload de imagem (avatar do user)
     + Formidable
@@ -26,6 +27,8 @@ Requisitos técnicos:
     + Mongoose
     + Express
 
+**Ainda vou pensar se usamos apenas *Streams* para os dados**
+
 ## Arquitetura
 
 - Módulo Atômico
@@ -34,6 +37,7 @@ Requisitos técnicos:
     * Actions (Eventos)
   - Schemas Atômicos
   - Model
+  - Store
   - Dispatcher
   - Actions
       + Middlewares (Express)
@@ -70,7 +74,7 @@ O Model irá entregar a resposta crua para a ActionOutFormatMongoose que irá fo
 Sendo a ActionOutResponse que irá retornar o objeto corretamente.
 ```
 
-Essa Arquitetura já está sendo pensada no Microserviços Reativos que faremos, logo nós podemos ter facilmente o Banco em um serviço rodando apenas o Model, enquanto que em outro serviço está rodando apenas as *Actions* de saída e em outro serviço o sistema em si que vai se preocupar apenas com as entradas de dados.
+Essa Arquitetura já está sendo pensada no Microserviços Reativos que faremos, logo nós podemos ter facilmente o Banco em um serviço rodando apenas o Model, enquanto que em outro serviço está rodando apenas as *Actions* de saída e em outro serviço o sistema em si que vai se preocupar apenas com as entradas de dados. Mas nossos serviços serão mais atômicos que isso, aguardem...
 
 
 
@@ -132,7 +136,15 @@ No app.js deverá ficar apenas a chamada do módulo:
 app.use('/users', UserRouter);
 ```
 
+### Stores
+
+A *Store* irá armazenar todas os eventos para o Módulo, e qual o estado dele, aplicar o oplog aqui para no máximo 5 estados.
+
+
+
 ### Dispatcher
+
+(pensando em separar em 2, IN e OUT)
 
 O módulos de *Dispatcher* deverá ser uma **API de eventos** que já terá por padrão os eventos do CRUD, quando enviado o nome do módulo ele deverá criar os eventos padrões, e qualquer outro evento deverá ser **adicionado a esse módulo** pois ele deverá apenas escutar e emitir eventos pré-cadastrados nele.
 
@@ -155,6 +167,8 @@ Exemplo:
 ];
 ```
 
+Cada módulo adicionado 
+
 ### Actions
 
 Primeiramente separamos as *Actions* em duas categorias:
@@ -166,6 +180,40 @@ Como assim?
 
 Quando os dados entrarem no sistema de qualquer forma, **apenas as *Actions in* podem ser usadas**, enquanto que para **qualquer tipo de resposta**  utilizamos as *Actions out*.
 
+#### Padrão
+
+Teremos **sempre** pelo menos 2 *ActionsOut*:
+
+- Response
+- Format
+
+##### ActionOutResponse
+
+Essa só receberá o objeto de `response` do seu framework e qual tipo de resposta: html, json, xml, etc 
+
+E responderá o JSON recebido de `ActionOutFormat` com o tipo de resposta injetado.
+
+```js
+// API
+ActionOutResponse.out(response, type)
+
+ActionOutResponse.out(res, 'json');
+```
+
+E obviamente possui uma API de eventos:
+
+```js
+ActionOutResponse.on('data', addToResponse)
+```
+
+Sendo a função `addToResponse` que receberá o JSON formatado de `ActionOutFormat`, onde `ActionOutResponse` só pode receber esse JSON de `ActionOutFormat`, forçando assim que os dados sempre sejam padronizados antes de ser respondido.
+
+Ou seja, o evento `data` de `ActionOutResponse` só pode ser ouvido de `ActionOutFormat`.
+
+
+
+
+##### ActionOutFormat
 
 As ações deverão ser atreladas as funções da rota por meio do seu evento pré-cadastrado no *Dispatcher*.
 
