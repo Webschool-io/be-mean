@@ -248,6 +248,18 @@ Transfere o arquivo para o caminho determinado. Define a resposta do campo de ca
 
 ### res.sendStatus(statusCode)
 
+Define o código de *status* HTTP e envia sua representação de seqüência como o corpo da resposta.
+
+![Black-Guy-Meme-Question-Marks-Que](http://memesvault.com/wp-content/uploads/Black-Guy-Meme-Question-Marks-Que-02.jpg)
+
+
+```js
+res.sendStatus(200); // equivalente a res.status(200).send('OK')
+res.sendStatus(403); // equivalente a res.status(403).send('Forbidden')
+res.sendStatus(404); // equivalente a res.status(404).send('Not Found')
+res.sendStatus(500); // equivalente a res.status(500).send('Internal Server Error')
+```
+
 ### res.set(field [, value])
 
 ### res.status(code)
