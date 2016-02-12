@@ -189,26 +189,34 @@ O redirecionamento pode ser relativo à raiz do nome do host. Por exemplo, se o 
 res.redirect('/admin');
 ```
 
-
 O redirecionamento pode ser relativo para a URL atual. Por exemplo, de `http://example.com/blog/admin/` (observe a barra à direita), o seguinte seria redirecionar para a URL `http://example.com/blog/admin/post/new`.
 
 ```js
 res.redirect('post/new');
 ```
-Redirecting to post/new from http://example.com/blog/admin (no trailing slash), will redirect to http://example.com/blog/post/new.
 
-If you found the above behavior confusing, think of path segments as directories (with trailing slashes) and files, it will start to make sense.
+Redirecionando para `post/new` a partir de `http://example.com/blog/admin` (sem barra à direita), irá redirecionar para `http://example.com/blog/post/new`.
 
-Path-relative redirects are also possible. If you were on http://example.com/admin/post/new, the following would redirect to http//example.com/admin/post:
+**Se você encontrou o comportamento acima confuso, pense em segmentos de caminho como diretórios (com barra ao final) e arquivos, ele vai começar a fazer sentido.**
+
+Se você não colocar a `/` no início ele irá inferir que você deseja continuar em `http://example.com/blog/admin/` e só concatenará seu caminho.
+
+Redirecionamentos relativos também são possíveis. Se você estivesse em `http://example.com/admin/post/new`, o seguinte iria redirecionar para `http//example.com/admin/post`
 
 ```js
 res.redirect('..');
 ```
-A back redirection redirects the request back to the referer, defaulting to / when the referer is missing.
+
+Visto que o `.` significa o diretório atual e `..` significa o diretório acima(pai).
+
+Um redirecionamento volta redirecciona o pedido de volta para o *referer*, o padrão quando o `REFERER` é a  `/`.
 
 ```js
 res.redirect('back');
 ```
+
+
+### res.set(field [, value])
 
 ### res.render(view [, locals] [, callback])
 
@@ -407,9 +415,9 @@ Adicionar o retorno correto para os seguinte códigos:
 - 500
 
 
-### res.set(field [, value])
-
 ### res.status(code)
+
+
 
 ### res.type(type)
 
