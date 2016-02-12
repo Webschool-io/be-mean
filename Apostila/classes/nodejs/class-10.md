@@ -13,7 +13,7 @@ Aula 02:
 
 - res.render
 - res.sendFile
-- res.sendStatus
 - res.status
+- res.sendStatus
 - res.type
 

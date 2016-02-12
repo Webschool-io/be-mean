@@ -150,26 +150,6 @@ Nós não usaremos JSONP pois usarmos [CORS](https://pt.wikipedia.org/wiki/Cross
 *fonte: [https://pt.wikipedia.org/wiki/Cross-origin_resource_sharing](https://pt.wikipedia.org/wiki/Cross-origin_resource_sharing)*
 
 
-### res.links(links)
-
-Junta-se os links fornecidos para preencher o campo Link do cabeçalho de resposta do HTTP.
-
-```Js
-res.links({
-  next: 'http://api.example.com/users?page=2',
-  last: 'http://api.example.com/users?page=5'
-});
-```
-
-Retornando:
-
-```html
-Link: <http://api.example.com/users?page=2>; rel="next",
-      <http://api.example.com/users?page=5>; rel="last"
-```
-
-
-Isso é muito importante para a navegabilidade de uma API REST.
 
 ### res.redirect([status,] path)
 
@@ -216,7 +196,17 @@ res.redirect('back');
 ```
 
 
+#### Exercício
+
+Criar um módulo de redirecionamento para quando não encontrar a rota redirecionar para `url/404`.
+
+
 ### res.set(field [, value])
+
+
+### Exercício
+
+Criar um módulo onde seja passado o retorno, podendo ser *String* ou *Buffer*, caso seja *String* definir cabeçalho correto mesmo usando `res.send`.
 
 ### res.render(view [, locals] [, callback])
 
@@ -331,6 +321,16 @@ app.listen(3000, function () {
 ```
 
 
+### res.status(code)
+
+Utilize este método para definir o status HTTP para a resposta. É um apelido encadeável de [Response.Status](http://nodejs.org/api/http.html#http_response_statuscode).
+
+```js
+res.status(403).end();
+res.status(400).send('Bad Request');
+res.status(404).sendFile('/absolute/path/to/404.png');
+```
+
 ### res.sendStatus(statusCode)
 
 Define o código de *status* HTTP e envia sua representação de seqüência como o corpo da resposta.
@@ -415,11 +415,33 @@ Adicionar o retorno correto para os seguinte códigos:
 - 500
 
 
-### res.status(code)
-
 
 
 ### res.type(type)
+
+### res.links(links)
+
+Junta-se os links fornecidos para preencher o campo Link do cabeçalho de resposta do HTTP.
+
+```Js
+res.links({
+  next: 'http://api.example.com/users?page=2',
+  last: 'http://api.example.com/users?page=5'
+});
+```
+
+Retornando:
+
+```html
+Link: <http://api.example.com/users?page=2>; rel="next",
+      <http://api.example.com/users?page=5>; rel="last"
+```
+
+Isso é muito importante para a navegabilidade de uma API REST.
+
+#### Exercício
+
+Criar uma busca com o Mongoose que pagine o resultado retornando os links corretamente.
 
 ## Router
 
