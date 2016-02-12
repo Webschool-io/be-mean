@@ -52,7 +52,8 @@ Requisitos técnicos:
 2. Rota emite evento para o *Dispatcher*
 3. *Dispatcher* emite evento para a *Action* correta
 4. *Action* ouve e executa a função requisitada
-5. Provavelmente chamará uma função/evento do *Model*
+5. Chamará uma função/evento da *Store*
+5. Que enviará os dados para o *Model*
 6. Que por conseguinte interage com o Banco
   6.1. Retorna um JSON padrão de resposta
 7. Model retorna o JSON para o *Dispatcher*
@@ -138,13 +139,25 @@ app.use('/users', UserRouter);
 
 ### Stores
 
-A *Store* irá armazenar todas os eventos para o Módulo, e qual o estado dele, aplicar o oplog aqui para no máximo 5 estados.
+A *Store* irá armazenar todas os eventos para o Módulo, e qual o estado do Módulo, aplicar o oplog aqui para no máximo 5 estados.
 
+O único módulo que será acessado tanto no IN como no OUT.
+
+Ele é o módulo que vem antes do *Model*, receberá o valor e a ação, armazenará em seu oplog e enviará para o *Model*, esse por sua vez irá interagir com o Banco e retornará o JSON para a *Store*
 
 
 ### Dispatcher
 
 (pensando em separar em 2, IN e OUT)
+
+Como estamos trabalhando com um conceito diferente, separando a entrada da saída dos dados, acredito que criar todo um caminho de entrada e outro de saída que possam ser usados separadamente.
+
+Logo vamos criar 2 *Dispatchers*
+
+#### DispatcherIN
+
+#### DispatcherOUT
+
 
 O módulos de *Dispatcher* deverá ser uma **API de eventos** que já terá por padrão os eventos do CRUD, quando enviado o nome do módulo ele deverá criar os eventos padrões, e qualquer outro evento deverá ser **adicionado a esse módulo** pois ele deverá apenas escutar e emitir eventos pré-cadastrados nele.
 
@@ -209,8 +222,6 @@ ActionOutResponse.on('data', addToResponse)
 Sendo a função `addToResponse` que receberá o JSON formatado de `ActionOutFormat`, onde `ActionOutResponse` só pode receber esse JSON de `ActionOutFormat`, forçando assim que os dados sempre sejam padronizados antes de ser respondido.
 
 Ou seja, o evento `data` de `ActionOutResponse` só pode ser ouvido de `ActionOutFormat`.
-
-
 
 
 ##### ActionOutFormat
