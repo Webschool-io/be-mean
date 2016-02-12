@@ -246,6 +246,83 @@ Transfere o arquivo para o caminho determinado. Define a resposta do campo de ca
 - ***headers***: objeto contendo cabeçalhos HTTP para servir com o arquivo.
 - ***dotfiles***:  Opção para servir `dotfiles`. Os valores possíveis são "allow", "deny" e "ignore". Valor padrão: "ignore"
 
+```js
+app.get('/file/:name', function (req, res, next) {
+
+  var options = {
+    root: __dirname + '/public/',
+    dotfiles: 'deny',
+    headers: {
+        'x-timestamp': Date.now(),
+        'x-sent': true
+    }
+  };
+
+  var fileName = req.params.name;
+  res.sendFile(fileName, options, function (err) {
+    if (err) {
+      console.log(err);
+      res.status(err.status).end();
+    }
+    else {
+      console.log('Sent:', fileName);
+    }
+  });
+
+});
+```
+
+Adicionei na pasta `public` o logo da Webschool para conseguirmos requisitar no servidor pela URL: `http://localhost:3000/file/logo-webschool.png`
+
+![](https://cldup.com/Ef1yJWMFWf.png)
+
+E podemos confirmar o retorno dos cabeçalhos:
+
+![](https://cldup.com/WIb9DdfEX_-2000x2000.png)
+
+Agora vamos modularizar esse código criando um módulo retornar apenas arquivos, para isso vamos mudar nossa lógica para o arquivo `modules/files/SendFiles.js`:
+
+```js
+module.exports = function(req, res) {
+  const options = {
+    root: __dirname + '/public/',
+    dotfiles: 'deny',
+    headers: {
+        'x-timestamp': Date.now(),
+        'x-sent': true
+    }
+  };
+
+  const fileName = req.params.name;
+  res.sendFile(fileName, options, function (err) {
+    if (err) {
+      console.log(err);
+      res.status(err.status).end();
+    }
+    else {
+      console.log('Sent:', fileName);
+    }
+  });
+};
+```
+
+Deixando o `app` assim:
+
+```js
+const express = require('express');
+const app = express();
+const SendFiles = require('./modules/files/SendFiles');
+
+app.get('/file/:name', function (req, res, next) {
+  return SendFiles(req, res);
+});
+
+app.listen(3000, function () {
+  console.log('Servidor rodando em locahost:3000');
+});
+```
+
+
 ### res.sendStatus(statusCode)
 
 Define o código de *status* HTTP e envia sua representação de seqüência como o corpo da resposta.
@@ -296,6 +373,8 @@ module.exports = function(res, type) {
 }
 ```
 
+Nesse caso se o `type` não for enviado irá **sempre** retornar `404`.
+
 Ficando assim no `app`:
 
 ```js
@@ -315,6 +394,18 @@ app.listen(3000, function () {
   console.log('Servidor rodando em locahost:3000');
 });
 ```
+
+
+#### Exercício
+
+Adicionar o retorno correto para os seguinte códigos:
+
+- 200
+- 201
+- 202
+- 405
+- 500
+
 
 ### res.set(field [, value])
 
