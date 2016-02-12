@@ -252,6 +252,7 @@ Define o código de *status* HTTP e envia sua representação de seqüência com
 
 ![Black-Guy-Meme-Question-Marks-Que](http://memesvault.com/wp-content/uploads/Black-Guy-Meme-Question-Marks-Que-02.jpg)
 
+Bem mais fácil mostrar com código né? Então toma!
 
 ```js
 res.sendStatus(200); // equivalente a res.status(200).send('OK')
@@ -259,6 +260,8 @@ res.sendStatus(403); // equivalente a res.status(403).send('Forbidden')
 res.sendStatus(404); // equivalente a res.status(404).send('Not Found')
 res.sendStatus(500); // equivalente a res.status(500).send('Internal Server Error')
 ```
+
+Ou seja ele já nos poupa trabalho e **é por isso que você usará ele para criar um módulo de respostas para sua API retornando o código de *status* correto**.
 
 ### res.set(field [, value])
 
