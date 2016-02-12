@@ -91,7 +91,7 @@ X-Powered-By → Express
 
 O objeto *Response*(`req`) representa a resposta HTTP que o Express envia quando chega uma requisição HTTP, ou seja, será o objeto utilizado para responder para o *client*, vamos conhecer algumas de suas funções.
 
-### res.send
+### res.send([status|body], [body])
 
 Esse método realiza uma infinidade de tarefas úteis para respostas não-streaming simples como atribuir automaticamente o `Content-Length`, a menos que previamente definindo e provendo o cabeçalho automaticamente.
 
@@ -152,11 +152,99 @@ Nós não usaremos JSONP pois usarmos [CORS](https://pt.wikipedia.org/wiki/Cross
 
 ### res.links(links)
 
+Junta-se os links fornecidos para preencher o campo Link do cabeçalho de resposta do HTTP.
+
+```Js
+res.links({
+  next: 'http://api.example.com/users?page=2',
+  last: 'http://api.example.com/users?page=5'
+});
+```
+
+Retornando:
+
+```html
+Link: <http://api.example.com/users?page=2>; rel="next",
+      <http://api.example.com/users?page=5>; rel="last"
+```
+
+
+Isso é muito importante para a navegabilidade de uma API REST.
+
 ### res.redirect([status,] path)
+
+Redireciona para a URL definida no parâmetro, com um código HTTP de *status*. Se você não especificar um, o código de *status* padrão é `302 "Found"`.
+
+```js
+res.redirect('/foo/bar');
+res.redirect('http://example.com');
+res.redirect(301, 'http://example.com');
+res.redirect('../login');
+res.redirect('http://google.com');
+```
+
+O redirecionamento pode ser relativo à raiz do nome do host. Por exemplo, se o aplicativo estiver em `http://example.com/admin/post/new`, o seguinte seria redirecionar para a `http://example.com/admin` URL:
+
+```js
+res.redirect('/admin');
+```
+
+
+O redirecionamento pode ser relativo para a URL atual. Por exemplo, de `http://example.com/blog/admin/` (observe a barra à direita), o seguinte seria redirecionar para a URL `http://example.com/blog/admin/post/new`.
+
+```js
+res.redirect('post/new');
+```
+Redirecting to post/new from http://example.com/blog/admin (no trailing slash), will redirect to http://example.com/blog/post/new.
+
+If you found the above behavior confusing, think of path segments as directories (with trailing slashes) and files, it will start to make sense.
+
+Path-relative redirects are also possible. If you were on http://example.com/admin/post/new, the following would redirect to http//example.com/admin/post:
+
+```js
+res.redirect('..');
+```
+A back redirection redirects the request back to the referer, defaulting to / when the referer is missing.
+
+```js
+res.redirect('back');
+```
 
 ### res.render(view [, locals] [, callback])
 
+Renderizar uma *view* e envia o HTML gerado para o cliente. 
+
+Parâmetros opcionais:
+
+- ***locals***: um objeto cujas propriedades define variáveis locais para a *view;
+- ***callback***: uma função de retorno. Se fornecida, a função retorna tanto o possível erro e a *string* renderizada, mas não executa uma resposta automática. Quando ocorre um erro, ele vem no primeiro parâmetro (err).
+
+**Isso é importante SEMPRE saber!**
+
+> A assinatura de um *callback* no Node.js, tanto no Mongoose como no Express, é a seguinte: `function(erro, retorno)`.
+
+Por isso é de praxe sempre testarmos se vem algo no primeiro parâmetro para depois continuar, exemplo:
+
+```js
+function (err, data) {
+  if(err) return ErrorHandler(err);
+  rerturn Action(data);
+}
+```
+
+Perceba que não usamos o `else` pois se já temos um `if` antes obviamente o que vier a seguir é o `else` e como **todas nossas funções devem rerornar algo** só executará o `return` fora do `if` se não existir erro.
+
 ### res.sendFile(path [, options] [, fn])
+
+> `res.sendFile()` é suportado por Express v4.8.0 em diante
+
+Transfere o arquivo para o caminho determinado. Define a resposta do campo de cabeçalho HTTP `Content-Type` com base na extensão do arquivo. A menos que a opção de raiz esteja definido no objeto de opções, o caminho deve ser um caminho absoluto para o arquivo.
+
+- ***maxAge***:  Define a propriedade `maxAge` do cabeçalho `Cache-Control` em milissegundos ou uma string no [formato ms](https://www.npmjs.com/package/ms). Valor padrão: 0
+- ***root***:  Diretório raiz para nomes de arquivos relativos.
+- ***lastModified***:  Define o cabeçalho `Last-Modified` para a data da última modificação do arquivo no sistema operacional. Defina false para desativá-lo. Valor padrão: "Enabled". Apenas em Express >= 4.9.0
+- ***headers***: objeto contendo cabeçalhos HTTP para servir com o arquivo.
+- ***dotfiles***:  Opção para servir `dotfiles`. Os valores possíveis são "allow", "deny" e "ignore". Valor padrão: "ignore"
 
 ### res.sendStatus(statusCode)
 
@@ -235,22 +323,22 @@ Node apps crash when they encounter an uncaught exception. Not handling exceptio
 
 Use try-catch
 Use promises
-Before diving into these topics, you should have a basic understanding of Node/Express error handling: using error-first callbacks, and propagating errors in middleware. Node uses an “error-first callback” convention for returning errors from asynchronous functions, where the first parameter to the callback function is the error object, followed by result data in succeeding parameters. To indicate no error, pass null as the first parameter. The callback function must correspondingly follow the error-first callback convention to meaningfully handle the error. And in Express, the best practice is to use the next() function to propagate errors through the middleware chain.
+Before diving into these topics, you should have a basic understanding of Node/Express error handling: using error-first callbacks, and propagating errors in middleware. Node uses an "error-first callback" convention for returning errors from asynchronous functions, where the first parameter to the callback function is the error object, followed by result data in succeeding parameters. To indicate no error, pass null as the first parameter. The callback function must correspondingly follow the error-first callback convention to meaningfully handle the error. And in Express, the best practice is to use the next() function to propagate errors through the middleware chain.
 
 
 ### Things to do in your environment / setup
 Here are some things you can do in your system environment to improve your app’s performance:
 
-Set NODE_ENV to “production”
+Set NODE_ENV to "production"
 Ensure your app automatically restarts
 Run your app in a cluster
 Cache request results
 Use a load balancer
 Use a reverse proxy
-Set NODE_ENV to “production”
-The NODE_ENV environment variable specifies the environment in which an application is running (usually, development or production). One of the simplest things you can do to improve performance is to set NODE_ENV to “production.”
+Set NODE_ENV to "production"
+The NODE_ENV environment variable specifies the environment in which an application is running (usually, development or production). One of the simplest things you can do to improve performance is to set NODE_ENV to "production."
 
-Setting NODE_ENV to “production” makes Express:
+Setting NODE_ENV to "production" makes Express:
 
 ### Cache view templates.
 Cache CSS files generated from CSS extensions.
