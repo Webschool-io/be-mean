@@ -89,7 +89,7 @@ X-Powered-By → Express
 
 ## Response - res
 
-O objeto *Response*(`req`) representa a resposta HTTP que o Express envia quando chega uma requisição HTTP, ou seja, será o objeto utilizado para responder para o *client*, vamos conhecer algumas de suas funções.
+O objeto *Response*(`res`) representa a resposta HTTP que o Express envia quando chega uma requisição HTTP, ou seja, será o objeto utilizado para responder para o *client*, vamos conhecer algumas de suas funções.
 
 ### res.send([status|body], [body])
 
