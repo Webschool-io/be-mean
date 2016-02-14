@@ -2,9 +2,13 @@
 
 const express = require('express');
 const app = express();
+const arr = [
+  {name : 'Pompeu'},
+  {name : 'Jean'}
+];
 
 app.get('/', function (req, res) {
-  res.send('<h1>Hello World!</h1>');
+  res.status(202).jsonp(arr);
 });
 
 app.listen(3000, function () {
