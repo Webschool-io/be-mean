@@ -9,8 +9,8 @@ app.get('/file/:name', function (req, res, next) {
     root: __dirname + '/public/',
     dotfiles: 'deny',
     headers: {
-        'x-timestamp': Date.now(),
-        'x-sent': true
+      'x-timestamp': Date.now(),
+      'x-sent': true
     }
   };
 
@@ -24,8 +24,8 @@ app.get('/file/:name', function (req, res, next) {
       console.log('Sent:', fileName);
     }
   });
-
 });
+
 app.listen(3000, function () {
   console.log('Servidor rodando em locahost:3000');
 });
