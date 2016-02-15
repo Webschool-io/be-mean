@@ -375,6 +375,81 @@ html
         li= user.name
 ```
 
+Antes de tudo vamos analisar essa linha: 
+
+```jade
+each user in users
+```
+
+Ela assemelha-se muito à uma instrução muito usada no JavaScript, **sabe qual?**
+
+**É CLARO QUE ESTAMOS FALANDO DO `forEach`!**
+
+Obviamente qualquer instrução nomeada com `each` significa que ela irá iterar sobre cada elemento da coleção, nesse caso um *Array*. 
+
+Logo precisamos criar um *Array* para passar para a *view*, deixando nosso `app` assim:
+
+```js
+'use strict';
+
+const path = require('path');
+const express = require('express');
+const app = express();
+
+app.set('views', path.join(__dirname, 'modules'));
+app.set('view engine', 'jade');
+
+app.get('/users', function (req, res) {
+  const users = [
+    { name: 'Suissa' }
+  , { name: 'Itacir' }
+  , { name: 'Caio' }
+  ];
+  res.render('users/views/list', {users} );
+});
+
+app.listen(3000, function () {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Logicamente esse *Array* de usuários virá do Mongoose, mas isso é assunto para outra aula.
+
+Beleza eu mostrei a renderização usando um *template engine* pois o mesmo provê poderes que o HTML sozinho não possui, para ilustrar isso vamos renderizar uma *view* com HTML:
+
+```js
+'use strict';
+
+const path = require('path');
+const express = require('express');
+const app = express();
+
+app.get('/users', function (req, res) {
+  res.sendFile(path.join(__dirname, 'modules/users/views/list.html'));
+});
+
+app.listen(3000, function () {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Criando a *view* `modules/users/views/list.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Listagem via HTML</title>
+</head>
+<body>
+  <h1>Listagem via HTML</h1>
+</body>
+</html>
+```
+
+Você notou que enviando apenas o HTML não conseguimos adicionar nenhum tipo de lógica em cima, muito menos enviar dados para ela. Por isso quase sempre utilizamos um *template engine* para criar nossas views e isso é muito importante para seu futuro como desenvolvedor FullStack.
+
 
 
 ### res.sendFile(path [, options] [, fn])
