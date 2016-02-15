@@ -204,17 +204,17 @@ Criar um módulo de redirecionamento para quando não encontrar a rota redirecio
 ### res.set(field [, value])
 
 
-### Exercício
+#### Exercício
 
 Criar um módulo onde seja passado o retorno, podendo ser *String* ou *Buffer*, caso seja *String* definir cabeçalho correto mesmo usando `res.send`.
 
 ### res.render(view [, locals] [, callback])
 
-Renderizar uma *view* e envia o HTML gerado para o cliente. 
+Renderiza uma *view* e envia o HTML gerado para o cliente.
 
 Parâmetros opcionais:
 
-- ***locals***: um objeto cujas propriedades define variáveis locais para a *view;
+- ***locals***: um objeto cujas propriedades define variáveis locais para a *view*;
 - ***callback***: uma função de retorno. Se fornecida, a função retorna tanto o possível erro e a *string* renderizada, mas não executa uma resposta automática. Quando ocorre um erro, ele vem no primeiro parâmetro (err).
 
 **Isso é importante SEMPRE saber!**
@@ -230,7 +230,152 @@ function (err, data) {
 }
 ```
 
-Perceba que não usamos o `else` pois se já temos um `if` antes obviamente o que vier a seguir é o `else` e como **todas nossas funções devem rerornar algo** só executará o `return` fora do `if` se não existir erro.
+Perceba que não usamos o `else` pois se já temos um `if` antes obviamente o que vier a seguir é o `else`.
+
+Vamos então criar a primeira *view*, `index.jade`, usando [Jade](http://jade-lang.com/) que é um *template engine*, logo inciamos definindo qual é nossa `view engine` dessa forma:
+
+```js
+'use strict';
+
+const express = require('express');
+const app = express();
+
+// Definição do template engine
+app.set('view engine', 'jade');
+
+app.get('/', function (req, res) {
+  // Renderiza views/idex.jade
+  res.render('index', { title: 'Be MEAN', message: 'Bem vindo ao Be MEAN' });
+});
+
+app.listen(3000, function () {
+  console.log('Servidor rodando em localhost:3000');
+});
+
+```
+
+Porém para conseguirmos renderizar uma *view* em Jade precisamos instalar esse módulo anteriormente:
+
+```
+npm i --save jade
+```
+
+Para depois criar a *view* `views/index.jade`:
+
+```jade
+html
+  head
+    title= title
+  body
+    h1= message
+```
+
+![Resultado da view renderizada](https://cldup.com/lY71LwBVUi-2000x2000.png)
+
+**Percebeu que não definimos a pasta onde nossa *view* se encontra?**
+
+Então o Express usou o padrão que é da pasta `views`, nesse caso essa é a configuração implícita:
+
+```js
+app.set('views', path.join(__dirname, 'views'));
+```
+
+## path
+
+Você deve se perguntar: **e esse *path* de onde vem?**
+
+Essa é uma ótima pergunta pois o módulo [path](https://nodejs.org/api/path.html) é muito útil para [criarmos sistemas multiplataformas](http://shapeshed.com/writing-cross-platform-node/).
+
+![](https://media.giphy.com/media/vh9isNb4S2Spa/giphy.gif)
+
+Traduzindo a documentação:
+
+> Este módulo contém utilitários para a manipulação e transformação de caminhos de arquivo. Quase todos estes métodos executam apenas transformações de *String*. O sistema de arquivos não é consultado para verificar se os caminhos são válidos.
+
+Basicamente o que ele faz é converter caminhos do formato Linux para outros, vamos entender melhor com esse exemplo:
+
+```js
+var foo = 'foo';
+var bar = 'bar';
+var filePath = foo + '/' + bar + '/';
+```
+
+Se você usar o caminho de `filePath` no Windows dará **MERDA**, pois ele utiliza `\\` em vez de `/`, para resolver isso automaticamente fazemos:
+
+```js
+var filePath = path.join(foo, bar);
+// 'foo/bar' no OSX e Linux
+// 'foo\\bar' no Windows
+```
+
+Para você entender melhor, imagine executar o seguinte código na sua pasta pessoal `cd ~`:
+
+```js
+path.resolve('../');
+```
+
+O resultado desse comando é diferente para os 3 sistemas operacionais:
+
+- `'/home'` no Linux
+- `'/Users'` no OSX
+- `'C:\\Users'` no Windows
+
+**Beleza Suissa e se quisermos mudar o caminho das *views*?**
+
+Para ilustrar esse exemplo vamos definir a pasta das *views* como sendo nossa *modules* pois definiremos a *view* a partir dela, assim:
+
+```js
+'use strict';
+
+const path = require('path');
+const express = require('express');
+const app = express();
+
+app.set('views', path.join(__dirname, 'modules'));
+app.set('view engine', 'jade');
+
+app.get('/users', function (req, res) {
+  res.render('users/views/index');
+});
+
+app.listen(3000, function () {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Para esse código funcionar crie a *view* `modules/users/views/index.jade`:
+
+```jade
+html
+  head
+    title= 'Listagem dos usuários'
+  body
+    h1= 'Listagem dos usuários'
+```
+
+E entre na url `http://localhost:3000/users`:
+
+![View renderizada de users](https://cldup.com/Ax6UW1_-OH-3000x3000.png)
+
+
+**Ótimo Suissa mas eu quero passar a lista dos usuários para essa *view* e agora?**
+
+![Muito fácil manda outra](https://cldup.com/_IpnF6U9DT-1200x1200.jpeg)
+
+Vamos inicialmente criar a *view* `modules/users/views/list.jade`:
+
+```jade
+html
+  head
+    title= 'Listagem dos usuários'
+  body
+    h1= 'Listagem dos usuários'
+    ul
+      each user in users
+        li= user.name
+```
+
+
 
 ### res.sendFile(path [, options] [, fn])
 
