@@ -46,3 +46,4 @@ Claro que não precisamos doar para Angular, React, MySQL e outros que são mant
 ## Arquitetura
 
 ## Equipe
+<a href="https://github.com/hc3">Eliel - Hc3</a>
