@@ -47,4 +47,5 @@ Claro que não precisamos doar para Angular, React, MySQL e outros que são mant
 
 ## Equipe
 
-[Carlos Machel](https://github.com/carlosmachel)
+[Carlos Machel](https://github.com/carlosmachel)  
+[Ednilson Amaral](https://github.com/ednilsonamaral)
