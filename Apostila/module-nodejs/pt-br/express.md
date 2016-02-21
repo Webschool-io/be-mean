@@ -208,6 +208,8 @@ Criar um módulo de redirecionamento para quando não encontrar a rota redirecio
 
 Criar um módulo onde seja passado o retorno, podendo ser *String* ou *Buffer*, caso seja *String* definir cabeçalho correto mesmo usando `res.send`.
 
+
+
 ### res.render(view [, locals] [, callback])
 
 Renderiza uma *view* e envia o HTML gerado para o cliente.
@@ -255,6 +257,7 @@ app.listen(3000, function () {
 ```
 
 Porém para conseguirmos renderizar uma *view* em Jade precisamos instalar esse módulo anteriormente:
+
 
 ```
 npm i --save jade
@@ -467,7 +470,7 @@ Transfere o arquivo para o caminho determinado. Define a resposta do campo de ca
 ```js
 app.get('/file/:name', function (req, res, next) {
 
-  var options = {
+  let options = {
     root: __dirname + '/public/',
     dotfiles: 'deny',
     headers: {
@@ -476,7 +479,7 @@ app.get('/file/:name', function (req, res, next) {
     }
   };
 
-  var fileName = req.params.name;
+  let fileName = req.params.name;
   res.sendFile(fileName, options, function (err) {
     if (err) {
       console.log(err);
@@ -596,7 +599,7 @@ Depois com o Postman execute um `GET` em `http://localhost:3000/` e depois em `h
 Beleza agora basta passarmos essa lógica para um módulo separado:
 
 ```js
-module.exports = function(res, type) {
+module.exports = (res, type) => {
   if(!type || type['Not-Found']) res.sendStatus(404);
 }
 ```
@@ -622,6 +625,8 @@ app.listen(3000, function () {
   console.log('Servidor rodando em locahost:3000');
 });
 ```
+
+Esse é apenas um exemplo simples, pois será seu exercício incrementá-lo.
 
 
 #### Exercício
