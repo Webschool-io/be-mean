@@ -62,14 +62,24 @@ Arquitetura modular atômica utilizando Eventos.
 3. Sistema envia para votação dos professores.
 4. Sendo aceito ele inicia a criação de sua apostila.
 5. Após a criação do: 
-	5.1 conteúdo escrito da aula
-	5.2 dos slides
-	5.3 do vídeo gravado
-	5.4 dos exercícios
-	5.5 dos testes dos exercícios
+	- conteúdo escrito da aula
+	- dos slides
+	- do vídeo gravado
+	- dos exercícios
+	- dos testes dos exercícios
 6. Submete para o sistema a aula
 	6.1 O sistema precisa validar todos os dados
 7. Após a aula aceita, uma notificação é enviada a todos os alunos daquele curso.
+8. Quando o aluno assiste a aula 
+	8.1 O sistema deve armazenar:
+		- horário de inicio
+		- quantidade de pausas no vídeo (se possível)
+		- horário de finalização
+		- quais slides acompanhados
+	8.2 O aluno pode enviar uma pergunta diretamente
+		8.2.1 Podendo ser quando dá um pause no vídeo
+		8.2.2 A pergunta irá para um fórum onde todos alunos acessam
+			8.2.2.1 Pode ir também diretamente para o Slack / Telegram / Facebook
 
 #### O Curso
 
