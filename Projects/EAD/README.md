@@ -39,3 +39,15 @@ Arquitetura modular atômica utilizando Eventos.
 ### Frontend
 
 ## Equipe
+
+## Planejamento
+
+### Etapa 1
+
+- criação da arquitetura de Banco e Backend;
+- criação dos *Models* do MongoDB;
+- criação da API REST com autenticação
+
+### Etapa 2
+
+- adição do Frontend.
