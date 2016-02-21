@@ -55,6 +55,32 @@ Arquitetura modular atômica utilizando Eventos.
   - linka conteúdo da apostila
   - aba com exercícios
 
+#### O Curso
+
+Um curso pode ser criado diretamente pelo sistema onde o professor deverá enviar o link do repositório do mesmo o qual contenha no seu `README.md` a seguinte estrutura:
+
+```markdown
+
+# Nome do Curso
+
+Descrição do curso.
+
+## Ementa
+
+- Módulo 1
+	- Tópico 1
+	- Tópico 2
+	- Tópico 3
+- Módulo 2
+	- Tópico 1
+	- Tópico 2
+
+``` 
+
+O sistema deverá pegar esses dados, armazenar e mostrar em uma lista para avaliação dos diretores de conteúdo (que serão os professores da Webschool.io) que votarão se esse curso deve ser aceito ou não e caso a resposta do profesor seja negativa o mesmo deverá comentar o porquê acha que não.
+
+**Só assim um curso será aceito na Webschool.io ou via convite.**
+
 #### A Aula
 
 Quando o aluno entrar em alguma aula essa *view* deve mostrar:
