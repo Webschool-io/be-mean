@@ -46,7 +46,35 @@ Arquitetura modular atômica utilizando Eventos.
 
 - criação da arquitetura de Banco e Backend;
 - criação dos *Models* do MongoDB;
-- criação da API REST com autenticação
+- criação da API REST com autenticação;
+- criação da tradução para Inglês;
+- exercícios com testes integrados ao Github;
+- A aula 
+  - busca o vídeo do Youtube
+  - mostra slides do Google Slides
+  - linka conteúdo da apostila
+  - aba com exercícios
+
+#### A Aula
+
+Quando o aluno entrar em alguma aula essa *view* deve mostrar:
+
+- O vídeo do Youtube;
+- Os slides do Google Slides;
+- O conteúdo escrito do Github;
+- Os exercícios (em outra aba);
+
+#### O Professor
+
+Esse deve cadastrar os links de:
+
+- O vídeo do Youtube;
+- Os slides do Google Slides;
+- O conteúdo escrito do Github;
+
+E para cada aula ele deve subir o código de **teste** para validar os exercícios, para um exercício ser aceito o professor **necessita enviar tanto o teste como o código para validar o exercício**, para que o sistema valide e aceite o mesmo. 
+
+#### Gameficação
 
 ### Etapa 2
 
