@@ -41,6 +41,7 @@ Arquitetura modular atômica utilizando Eventos.
 ### Frontend
 
 ## Equipe
+- [Michel Ferreira Souza](https://github.com/souzacristsf)
 
 ## Planejamento
 
