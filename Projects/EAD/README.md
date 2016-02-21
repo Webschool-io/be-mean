@@ -81,6 +81,8 @@ Arquitetura modular atômica utilizando Eventos.
 		8.2.2 A pergunta irá para um fórum onde todos alunos acessam
 			8.2.2.1 Pode ir também diretamente para o Slack / Telegram / Facebook
 
+**Como na primeira etapa teremos apenas a API os exercícios e testes devem ser enviados via link do Githib ou Gist.**
+
 #### O Curso
 
 Um curso pode ser criado diretamente pelo sistema onde o professor deverá enviar o link do repositório do mesmo o qual contenha no seu `README.md` a seguinte estrutura:
