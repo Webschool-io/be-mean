@@ -22,6 +22,8 @@ Um sistema gameficado que integre com o Github onde o aluno possa escrever a res
 
 ### Admin
 
+O Admin é o único com superoderes.
+
 ### Aluno
 
 ### Professor
