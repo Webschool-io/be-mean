@@ -138,23 +138,13 @@ const CorrectErrorFile = () => {};
 const SaveErrorFile = () => {};
 const RestartServer = () => {};
 
-module.exports = (error) => {
-  ReadErrorMessage
-, ReadErrorType
-, ReadErrorObject
-, ReadErrorFile
-, OpenErrorFile
-, CorrectErrorFile
-, SaveErrorFile
-, RestartServer
-};
-
 ```
 
 Então o que fizemos foi converter o algoritmo em funções, agora basta implementá-las.
 
 Uma coisa interessante sobre esse objeto que ele é basicamente a API que precisamos para resolver qualquer erro, pois toda mágica acontecerá realmente no `CorrectErrorFile`.
 
+Criei uma [prova de conceito aqui.]()
 
 ## Requisitos
 
