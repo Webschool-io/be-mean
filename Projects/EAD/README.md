@@ -55,6 +55,22 @@ Arquitetura modular atômica utilizando Eventos.
   - linka conteúdo da apostila
   - aba com exercícios
 
+### Workflow
+
+1. O professor cria a ementa e o repositório do seu curso.
+2. Submete o curso no sistema.
+3. Sistema envia para votação dos professores.
+4. Sendo aceito ele inicia a criação de sua apostila.
+5. Após a criação do: 
+	5.1 conteúdo escrito da aula
+	5.2 dos slides
+	5.3 do vídeo gravado
+	5.4 dos exercícios
+	5.5 dos testes dos exercícios
+6. Submete para o sistema a aula
+	6.1 O sistema precisa validar todos os dados
+7. Após a aula aceita, uma notificação é enviada a todos os alunos daquele curso.
+
 #### O Curso
 
 Um curso pode ser criado diretamente pelo sistema onde o professor deverá enviar o link do repositório do mesmo o qual contenha no seu `README.md` a seguinte estrutura:
@@ -101,6 +117,9 @@ Esse deve cadastrar os links de:
 E para cada aula ele deve subir o código de **teste** para validar os exercícios, para um exercício ser aceito o professor **necessita enviar tanto o teste como o código para validar o exercício**, para que o sistema valide e aceite o mesmo. 
 
 #### Gameficação
+
+
+
 
 ### Etapa 2
 
