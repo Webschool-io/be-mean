@@ -20,6 +20,12 @@ Um sistema gameficado que integre com o Github onde o aluno possa escrever a res
 - Autenticação com Github
 - Gameficação
 
+### Admin
+
+### Aluno
+
+### Professor
+
 ## Arquitetura
 
 ### Banco
