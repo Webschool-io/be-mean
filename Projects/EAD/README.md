@@ -80,6 +80,12 @@ Arquitetura modular atômica utilizando Eventos.
 		8.2.1 Podendo ser quando dá um pause no vídeo
 		8.2.2 A pergunta irá para um fórum onde todos alunos acessam
 			8.2.2.1 Pode ir também diretamente para o Slack / Telegram / Facebook
+	8.3 O aluno pode fazer anotações em cima do conteúdo escrito (like Medium)
+	8.4 Só libera a próxima aula após o envio/validação dos exercícios
+9. O projeto final além de submetido também deverá estar ONLINE
+	9.1 Para o MongoDb o aluno pode usar o MongoLab
+	9.2 Para o Node.js pesquisar
+10. Após a finalização / validação do projeto final o sistema emite o Certificado.
 
 **Como na primeira etapa teremos apenas a API os exercícios e testes devem ser enviados via link do Githib ou Gist.**
 
@@ -136,3 +142,4 @@ E para cada aula ele deve subir o código de **teste** para validar os exercíci
 ### Etapa 2
 
 - adição do Frontend.
+- O aluno pode criar ou entrar em grupos de estudo (etapa 2)
