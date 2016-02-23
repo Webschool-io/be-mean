@@ -4,9 +4,9 @@
 - Coloque o email que você digitou antes e crie uma senha
 - Entre no channel `be-mean-instagram`
 
-#Grupo do Telegram
+# [Grupo do Telegram](https://telegram.me/joinchat/BrNpzgcUpmFajfA66NWoDA )
 
-Para entrar no grupo oficial do Be mean no Telegram basta seguir o link https://telegram.me/joinchat/BrNpzgcUpmFajfA66NWoDA lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
+Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https://telegram.me/joinchat/BrNpzgcUpmFajfA66NWoDA](https://telegram.me/joinchat/BrNpzgcUpmFajfA66NWoDA), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
 
 # Sobre
 
@@ -19,7 +19,6 @@ Então podem ficar sossegados que os brindes irão chegar até final de fevereir
 ## Aulas
 
 Sairão *2 aulas** por semana, podendo sair mais, mas não menos.
-
 
 
 # APOIE
@@ -54,6 +53,12 @@ Certificados:
 - UX & Animations (7 horas)
 - ES6 (5 horas)
 - Deploy e Servidores (5 horas)
+- CSS (10 horas)
+  - Animações (2 horas)
+  - Less (2 horas)
+  - Sass (2 horas)
+  - Stylus (2 horas)
+  - PostCSS (2 horas)
 
 **Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
 

@@ -544,6 +544,7 @@ app.listen(3000, function () {
 ```
 
 
+
 ### res.status(code)
 
 Utilize este método para definir o status HTTP para a resposta. É um apelido encadeável de [Response.Status](http://nodejs.org/api/http.html#http_response_statuscode).
