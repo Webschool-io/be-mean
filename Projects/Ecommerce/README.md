@@ -302,6 +302,12 @@ Se a promoção sair do período ou a quantidade limite de todos os produtos for
 
 #### Controle de Entrega
 
+Esse módulo terá duas visões: do lojista e cliente. Na visão do lojista, ele irá ter acesso a todos os produtos em fase de entrega [1]. Em cada pedido na fase de entrega, o lojista também poderá ver o acompanhamento do pacote, e caso houver problemas e o usuário notificar, ele pode visualizar e interagir para resolver o problema nos detalhes desse pedido.
+
+Na visão do cliente será na sua lista de compras efetuadas, em que ele recebe o código de rastreamento e assim acompanhar o seu pedido. Qualquer tipo de problema, ele poderá nos detalhes do pedido, descrevar sua situação e o lojista fazer o mesmo, em tempo real.
+
+[1] - Essa fase pode ser relativa, mas vamos considerar o momento em que o pagamento foi aprovado e que foi despachado para empresa responsável. Normalmente o mais usado são os correios, então inicialmente podemos focar nele somente.
+
 #### Gerenciamento de taxas
 
 #### Gerenciamento de Pedidos (carrinho de compras)
