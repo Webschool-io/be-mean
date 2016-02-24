@@ -71,8 +71,6 @@ Então o próprio sistema iria juntar essas informações e enviar para as empre
 
 Depois das empresas enviarem seus valores, o sistema envia-os para os usuários para q eles escolham de qual empresa vão comprar.
 
-
-
 ### O Vendedor
 
 Uma coisa que não existe é vendedor para ecommerce correto?
@@ -163,10 +161,37 @@ Bom na minha concepção não, por quê?
 
 Porque eu acredito que com os valores parecidos, o comércio irá ganhar o cliente com o **atendimento** dele e nem tanto pelo preço já que a diferença entre eles seria pequena, você como cliente irá escolher o comércio que você é melhor atendido, lembrando que todas empresas do sistema precisam ter uma loja física.
 
-### Fornecedores
+#### Fornecedores
+
+### Requisitos
+
+#### Registro de Usuários
+
+#### Cadastro de Fornecedores
+
+#### Gerenciamento de Produtos
+
+#### Controle de Estoque
+
+#### Gerenciamento de Promoções
+
+#### Controle de Entrega
+
+#### Gerenciamento de taxas
+
+#### Gerenciamento de Pedidos (carrinho de compras)
+
+#### SEO
+
+#### Integração a gateways de pagamento
+
+#### Integração a redes sociais
+
+#### Feedback do cliente
+
+#### Migração de plataformas conhecidas (Magento e outros)
 
 
-## Requisitos
 
 ## Arquitetura
 
@@ -174,4 +199,4 @@ Cada produto é um nó no grafo e cada característica dele também, assim como 
 
 ## Equipe
 
-Gilson Filho <me@gilsondev.in>
+Gilson Filho - <me@gilsondev.in>
