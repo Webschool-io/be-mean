@@ -230,8 +230,9 @@ Aqui vamos inserir todos os produtos da loja, e nele que teremos todas as inform
  - Foto de Capa;
  - Fotos da galeria;
  - Preço de Custo;
- - Margem de Lucro[1];
- - Taxas[1];
+ - Unidade de Medida;
+ - Margem de Lucro [1];
+ - Taxas [1];
  - Tags.
 
 [1] - As taxas e a margem de lucro que vão incidir no preço de custo, serão definidas na categoria por padrão. Mas caso queria fazer individualmente, poderá inserir no produto em questão.
@@ -247,6 +248,35 @@ Todos os produtos estarão relacionados a uma categoria. Para facilitar, cada ca
 Caso algum produto definir essas taxas e margens no seu cadastro, ele será usado. Caso contrário, o padrão será os valores da categoria em que ele se insere.
 
 #### Controle de Estoque
+
+Aqui que começa o fluxo de um comércio, quando os produtos chegam depois de efetuar o pedido com o fornecedor. O sistema precisa lidar com isso, oferecendo um módulo em que o usuário poderá inserir os produtos que veio para alimentar o estoque, além de definir impostos que acompanham no preço deles. Os dados serão coletados da nota fiscal vinda do fornecedor:
+
+**Dados da Nota Fiscal**
+ - Número da Nota Fiscal;
+ - Razão Social da empresa;
+ - Data da Compra;
+ - Data da Entrega;
+
+**Dados dos Produtos**
+ - Nome do Produto;
+ - Unidade de Medida;
+ - Quantidade;
+ - Preço Unitário;
+ - Preço Total [1];
+ - Taxas e Impostos;
+
+[1] - Dependendo da unidade de medida por exemplo, na entrada veio um produto X em uma caixa de 20 unidades. Assim registra o valor unitário e o valor total conforme é especificado na nota fiscal;
+
+Ele precisa ter a inteligência de oferecer informações para que o lojista possa saber tudo o que está acontecendo no estoque, da entrada de produtos até sua saída (depois de fechar a compra e iniciar o processo de entrega). Os dados em comum que ele precisa em um estoque são:
+
+**Por produto**
+ - Nome do Produto;
+ - Quantidade no estoque (Quantidade de Entrada);
+ - Quantidade que foi vendida (Quantidade de Saída);
+ - Preço de custo;
+ - Preço de venda;
+
+A partir de um parâmetro na quantidade no estoque, se algum produto chegar a esse mínimo disponível, o sistema deverá notificar o responsável pela compra, para iniciar uma cotação e assim efetuar um pedido.
 
 #### Gerenciamento de Promoções
 
