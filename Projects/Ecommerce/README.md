@@ -280,6 +280,26 @@ A partir de um parâmetro na quantidade no estoque, se algum produto chegar a es
 
 #### Gerenciamento de Promoções
 
+O lojista precisa de definir promoções para atrair mais venda e criar uma fidelidade aos seus clientes. Para uma loja virtual, o sistema precisa oferecer algo em que ele possa criar uma promoção e associar os produtos participantes. Os dados que podem ser interessantes são:
+
+**Dados da Promoção**
+ - Nome da Promoção;
+ - Período (Data de inicio e encerramento);
+ - Banners da Promoção;
+ - Termos da promoção (opcional).
+
+**Redes Sociais**
+ - Descrição da Promoção;
+ - Link da Promoção ou produto;
+
+**Produtos Participantes**
+ - Produto selecionado;
+ - Taxa de Desconto;
+ - Taxa da Entrega (se for gratis, será 0%);
+ - Quantidade limite.
+
+Se a promoção sair do período ou a quantidade limite de todos os produtos forem alcançados, ele deve desaparecer do site para evitar problemas. Se um produto alcançou seu limite, precisa mostrar ao cliente que ele está esgotado **para a promoção em que quer participar**. 
+
 #### Controle de Entrega
 
 #### Gerenciamento de taxas
@@ -287,6 +307,8 @@ A partir de um parâmetro na quantidade no estoque, se algum produto chegar a es
 #### Gerenciamento de Pedidos (carrinho de compras)
 
 #### SEO
+
+#### Integração ao Google Analytics
 
 #### Integração a gateways de pagamento
 
