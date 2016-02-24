@@ -308,7 +308,12 @@ Na visão do cliente será na sua lista de compras efetuadas, em que ele recebe 
 
 [1] - Essa fase pode ser relativa, mas vamos considerar o momento em que o pagamento foi aprovado e que foi despachado para empresa responsável. Normalmente o mais usado são os correios, então inicialmente podemos focar nele somente.
 
-#### Gerenciamento de taxas
+#### Gerenciamento de taxas e impostos
+
+Como vemos nos módulos de estoque, categoria e produtos, já descrevemos situações em que as taxas e impostos são inseridos. Nesse módulo poderiamos gerenciar essas informações que afetam de forma geral e que não mudam frequentemente, além de cadastrar impostos que são obrigatórios e que precisam ser separados corretamente, como impostos estaduais e federais. Inicialmente os dados para inserir essas taxas são:
+
+ - Nome do Imposto;
+ - Porcentagem;
 
 #### Gerenciamento de Pedidos (carrinho de compras)
 
