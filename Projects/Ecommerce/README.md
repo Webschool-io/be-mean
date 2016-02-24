@@ -173,3 +173,6 @@ Porque eu acredito que com os valores parecidos, o comércio irá ganhar o clien
 Cada produto é um nó no grafo e cada característica dele também, assim como suas palavras-chave
 
 ## Equipe
+
+Gilson Filho <me@gilsondev.in>
+- [Igor Luíz](https://github.com/Halfeld)

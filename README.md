@@ -4,9 +4,9 @@
 - Coloque o email que você digitou antes e crie uma senha
 - Entre no channel `be-mean-instagram`
 
-#Grupo do Telegram
+# [Grupo do Telegram](https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw)
 
-Para entrar no grupo oficial do Be mean no Telegram basta seguir o link https://telegram.me/joinchat/BrNpzgcUpmFajfA66NWoDA lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
+Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw](https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
 
 # Sobre
 
@@ -19,7 +19,6 @@ Então podem ficar sossegados que os brindes irão chegar até final de fevereir
 ## Aulas
 
 Sairão *2 aulas** por semana, podendo sair mais, mas não menos.
-
 
 
 # APOIE
@@ -54,6 +53,12 @@ Certificados:
 - UX & Animations (7 horas)
 - ES6 (5 horas)
 - Deploy e Servidores (5 horas)
+- CSS (10 horas)
+  - Animações (2 horas)
+  - Less (2 horas)
+  - Sass (2 horas)
+  - Stylus (2 horas)
+  - PostCSS (2 horas)
 
 **Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
 
@@ -283,9 +288,9 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js - 07.12 a 27.12
+##  Módulo Node.js - 07.12 a 15.03
 
-## Roteiro - 30 horas
+## Roteiro - 50 horas
 
 [Slides](https://docs.google.com/presentation/d/1_CHh_fTkzgxAnxB3MlZ5WRhTqMLViMk__jkCZiZ3IMA/edit?usp=sharing)
 
@@ -425,7 +430,16 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 ##  Módulo Frontend
 
-- Adicional Gulp: [guidiego](https://github.comguidiego)
+- Atomic Design: [Suissa](https://github.com/suissa)
+- Offline-first: [Suissa](https://github.com/suissa)
+- Mobile-first: [Suissa](https://github.com/suissa)
+- Frontend Driven Development: [Suissa](https://github.com/suissa)
+- Less: [Caio Norder](https://github.com/caionorder)
+- Sass: [Amanda Vilela](https://github.com/amandavilela)
+- Stylus: [Marcos Felipe](https://github.com/omarkdev/)
+- PostCSS: [Fernando Fleury](https://github.com/fernandofleury)
+- Gulp: [Guilherme Diego](https://github.com/guidiego)
+- Acessibilidade: [Jorge Rafael](https://github.com/kurybr)
 
 ##  Módulo Segurança
 
