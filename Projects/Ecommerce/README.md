@@ -349,9 +349,24 @@ Aqui no módulo o lojista pode cadastrar sua página e seus perfis nas redes soc
 
 #### Feedback do cliente
 
-#### Migração de plataformas conhecidas (Magento e outros)
+Esse módulo será disponibilizar canais de comunicação depois da entrega dos produtos aos clientes, na fase de pós-venda. Esses canais podem ser:
 
+ - E-mail;
+ - Chat.
 
+#### E-mail Template
+
+O sistema deve oferecer uma forma de editar o template dos e-mails enviados ao cliente como:
+
+ - Detalhes da compra efetuada;
+ - Promoções disponíveis;
+ - Feedback do cliente na pós-compra.
+
+#### Migração de plataformas conhecidas
+
+Esse recurso é para facilitar a mudança de tecnologia para a loja virtual. Quem usar uma das tecnologias abaixo, poderá usar o processo de migração de dados:
+
+ - Magento;
 
 ## Arquitetura
 
