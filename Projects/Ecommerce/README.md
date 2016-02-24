@@ -222,6 +222,30 @@ Toda a descrição das cotações, é descrito na funcionalidade de **Cotações
 
 #### Gerenciamento de Produtos
 
+Aqui vamos inserir todos os produtos da loja, e nele que teremos todas as informações do produto para visão do usuário, e dados de taxa, desconto e promoção no lado do lojista. Os dados são:
+
+ - Nome do Produto;
+ - Descrição do Produto;
+ - Categoria;
+ - Foto de Capa;
+ - Fotos da galeria;
+ - Preço de Custo;
+ - Margem de Lucro[1];
+ - Taxas[1];
+ - Tags.
+
+[1] - As taxas e a margem de lucro que vão incidir no preço de custo, serão definidas na categoria por padrão. Mas caso queria fazer individualmente, poderá inserir no produto em questão.
+
+#### Categorias
+
+Todos os produtos estarão relacionados a uma categoria. Para facilitar, cada categoria poderá definir informações acerca do preço dos produtos. Os dados para criar uma categoria serão:
+
+ - Nome da Categoria;
+ - Margem de Lucro;
+ - Taxas.
+
+Caso algum produto definir essas taxas e margens no seu cadastro, ele será usado. Caso contrário, o padrão será os valores da categoria em que ele se insere.
+
 #### Controle de Estoque
 
 #### Gerenciamento de Promoções
