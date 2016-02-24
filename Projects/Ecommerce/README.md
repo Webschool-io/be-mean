@@ -345,6 +345,8 @@ Essa integração poderia ser feito, de forma que cada gateway seja um módulo p
 
 #### Integração a redes sociais
 
+Aqui no módulo o lojista pode cadastrar sua página e seus perfis nas redes sociais, para que possa ter uma melhor integração, como por exemplo, postar as promoções geradas no sistema na página do facebook ou colocar no Twitter.
+
 #### Feedback do cliente
 
 #### Migração de plataformas conhecidas (Magento e outros)
