@@ -167,6 +167,39 @@ Porque eu acredito que com os valores parecidos, o comércio irá ganhar o clien
 
 #### Registro de Usuários
 
+O usuário que deseja ter uma conta no e-commerce, vai acessar a página de cadastro. Ele pode ter as seguintes opções de login:
+
+ - Google (Gmail);
+ - Facebook;
+
+Caso não escolher nenhum desses, ele vai seguir com o registro convencional do site. Os modos de autenticação citados normalmente oferece alguns dos dados necessário para o registro como nome completo e e-mail.
+
+No registro convencional, ele precisa preencher:
+
+ - E-mail;
+ - Senha;
+
+Durante o acesso do site, vamos precisar de outras informações, mas que podem ser solicitados mais tarde:
+
+ - No fechamento de uma compra:
+  - Dados pessoais:
+    - Nome completo;
+    - CPF (para alguma verificação, caso contrário, não precisa);
+  - Dados da Entrega:
+    - Descrição do Endereço (colocar algo como "Casa", "Trabalho", "Casa dos Pais", etc);
+    - Endereço;
+    - Número;
+    - CEP;
+    - Bairro;
+    - Cidade;
+    - Estado.
+  - Dados do Pagamento (Cartão de Crédito, já que o boleto é só imprimir):
+    - Número do Cartão;
+    - Nome impresso no cartão;
+    - Código de Segurança.
+
+O mesmo pode fazer a edição dessas informações na sua página de perfil. No registro convencional do site, ele poderá alterar sua senha e e-mail.
+
 #### Cadastro de Fornecedores
 
 #### Gerenciamento de Produtos
