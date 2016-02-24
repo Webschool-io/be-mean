@@ -317,6 +317,17 @@ Como vemos nos módulos de estoque, categoria e produtos, já descrevemos situa�
 
 #### Gerenciamento de Pedidos (carrinho de compras)
 
+Esse módulo vai controlar os pedidos da loja. O usuário vai escolher os produtos que deseja comprar, e eles vão estar agrupados em um carrinho de compras fictícia. Os dados que esse carrinho precisa guardar é:
+
+ - Lista dos produtos;
+ - Quantidade a ser comprada de cada um;
+ - Preço unitário;
+ - Preço total.
+
+Fechando o pedido, ele precisa agrupar também os dados do pagamento. Ele vai trabalhar juntamente com os gateways de pagamento, já que o status desse pedido vai ser definido de acordo com a aprovação ou reprovação do pagamento por meio deste.
+
+Na visão do lojista, ele poderá acompanhar os pedidos a serem aprovados pelo gateway em tempo real, para que os responsáveis pela fase de empacotamento e entrega possa iniciar seus trabalhos. Da mesma forma na entrega, no pedido, toda e qualquer problema que o cliente tiver será feito nos detalhes do mesmo.
+
 #### SEO
 
 #### Integração ao Google Analytics
