@@ -5,16 +5,17 @@ const app = express();
 
 app.get('/file/:name', function (req, res, next) {
 
-  var options = {
+  let options = {
     root: __dirname + '/public/',
     dotfiles: 'deny',
     headers: {
       'x-timestamp': Date.now(),
-      'x-sent': true
+      'x-sent': true,
+      'Webschool.io': 'FODA'
     }
   };
 
-  var fileName = req.params.name;
+  let fileName = req.params.name;
   res.sendFile(fileName, options, function (err) {
     if (err) {
       console.log(err);

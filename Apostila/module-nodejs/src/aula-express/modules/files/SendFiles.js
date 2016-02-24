@@ -5,8 +5,9 @@ module.exports = function(req, res) {
     root: __dirname + '/public/',
     dotfiles: 'deny',
     headers: {
-        'x-timestamp': Date.now(),
-        'x-sent': true
+      'x-timestamp': Date.now(),
+      'x-sent': true,
+      'Webschool.io': 'FODA'
     }
   };
 
