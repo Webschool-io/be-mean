@@ -332,7 +332,16 @@ Na visão do lojista, ele poderá acompanhar os pedidos a serem aprovados pelo g
 
 #### Integração ao Google Analytics
 
+O sistema pode trazer além do registro ID do analytics, oferecer uma página contendo as informações básicas, usando o Google API Console.
+
 #### Integração a gateways de pagamento
+
+Essa integração poderia ser feito, de forma que cada gateway seja um módulo plugável ao sistema. Nesse caso o e-commerce teria que disponibilizar uma interface de comunicação, e que cada módulo consumiria isso. Dessa forma, quem usar o projeto poderia escolhar o que achar melhor. Mas por recomendação, o projeto poderia implementar:
+
+ - PagSeguro;
+ - PayPal;
+ - Moip;
+ - Boleto.
 
 #### Integração a redes sociais
 
