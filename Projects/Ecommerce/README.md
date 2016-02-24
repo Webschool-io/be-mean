@@ -202,6 +202,24 @@ O mesmo pode fazer a edição dessas informações na sua página de perfil. No 
 
 #### Cadastro de Fornecedores
 
+Nesse módulo vamos cadastrar todas as informações necessárias para os nossos fornecedores. Os dados que podemos precisar são:
+
+ - Nome da Empresa;
+ - Razão Social;
+ - CNPJ;
+ - Inscrição Estadual;
+ - E-mail;
+ - Telefone.
+
+Boa parte das empresas possuem representantes que fazem as vendas diretamente ao dono do comércio. Nesse caso, é interessante guardar esses dados para automatizar a cotação de produtos:
+
+ - Nome do Representante;
+ - Empresa que representa;
+ - E-mail;
+ - Telefone.
+
+Toda a descrição das cotações, é descrito na funcionalidade de **Cotações**.
+
 #### Gerenciamento de Produtos
 
 #### Controle de Estoque
