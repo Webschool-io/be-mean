@@ -175,3 +175,4 @@ Cada produto é um nó no grafo e cada característica dele também, assim como 
 ## Equipe
 
 Gilson Filho <me@gilsondev.in>
+- [Igor Luíz](https://github.com/Halfeld)
