@@ -752,6 +752,8 @@ Para entendermos melhor como esse roteador funciona iremos ver quais são seus p
 
 Vamos conhecer na prática alguns dos seu principais métodos.
 
+> Dica: a ordem das rotas **IMPORTA**.
+
 #### router.all(path, [callback, ...] callback)
 
 Este método é extremamente útil para o mapeamento lógico "global" para prefixos de caminho específicos ou combinações arbitrários. 
@@ -810,10 +812,265 @@ Logicamente você percebeu que não importa qual o `METHOD` da requisição ele 
 
 #### router.METHOD(path, [callback, ...] callback)
 
-Os métodos router.METHOD() fornecem funcionalidade de roteamento a partir do método do HTTP requisitado, onde método é um dos métodos HTTP em letras minúsculas. Assim, os métodos atuais são `router.get()`, `router.post()`, `router.put()`, e assim por diante.
+Os métodos `router.METHOD()` fornecem funcionalidade de roteamento a partir do método do HTTP requisitado, onde método é um dos métodos HTTP em letras minúsculas. Assim, os métodos atuais são `router.get()`, `router.post()`, `router.put()`, e assim por diante.
 
-The router.METHOD() methods provide the routing functionality in Express, where METHOD is one of the HTTP methods, such as GET, PUT, POST, and so on, in lowercase. Thus, the actual methods are router.get(), router.post(), router.put(), and so on.
+Ficará mais fácil mostrando esse exemplo de `GET`:
 
+```js
+router.get('/', (req, res) => {
+  res.send('hello world');
+});
+```
+
+Vamos adicioná-lo então no exemplo anterior:
+
+```js
+router.all('*', (req, res, next) => {
+  res.send('Hello World');
+  console.log('Hello World');
+});
+
+router.get('/', (req, res) => {
+  res.send('Listagem');
+  console.log('Listagem');
+});
+
+// Passa o módulo para a URL /hello
+app.use('/hello', router);
+
+app.listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Quando você entrar na rota `http://localhost:3000/hello` verá isso:
+
+![Requisição GET em localhost:3000/hello](https://cldup.com/Gq_KWA_-_q-1200x1200.png)
+
+E no terminal também verá **apenas** o `Hello World`.
+
+Agora eu lhe pergunto:
+
+> Por quê?
+
+Você percebeu quais são os parâmetros do callback de `router.all`??
+
+São eles:
+
+- req
+- res
+- next
+
+Bom o `req` e o `res` você já conhece né? Então sobrou o `next`.
+
+Essa função `next` é um padrão do Node.js para você chamar o próximo 
+processo do Event Loop, pois se ele não for chamado sua função finaliza e não da sequência no fluxo.
+
+**Já percebeu o que temos que fazer agora?**
+
+SIM! Chamar `next()` no `router.all`!
+
+```js
+router.all('*', (req, res, next) => {
+  res.send('Hello World');
+  console.log('Hello World');
+  next();
+});
+
+router.get('/', (req, res) => {
+  res.send('Listagem');
+  console.log('Listagem');
+});
+
+// Passa o módulo para a URL /hello
+app.use('/hello', router);
+
+app.listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Simples não?!
+
+Agora entre na rota `http://localhost:3000/hello` e confira seu retorno, tanto no POSTMAN como no terminal.
+
+![](https://cldup.com/eVntZgsI37-1200x1200.png)
+
+Nessa imagem você já percebeu que o `res.send('Listagem')` não veio, né?
+
+Então vamos conferir o que aconteceu no terminal:
+
+```
+Servidor rodando em localhost:3000
+Hello World
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:345:11)
+    at ServerResponse.header (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/response.js:718:10)
+    at ServerResponse.send (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/response.js:163:12)
+    at /Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/app-router-get-next.js:15:7
+    at Layer.handle [as handle_request] (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/jeancarlonascimento/www/projetos/webschool/cursos/be-mean-instagram/repo-oficial-ATUAL/Apostila/module-nodejs/src/aula-express/node_modules/express/lib/router/index.js:330:12)
+```
+
+Pela mensagem de erro já conseguimos entender o que aconteceu:
+
+```
+Error: Can't set headers after they are sent.
+```
+
+Traduzindo:
+
+```
+Erro: Não é possível definir cabeçalhos após o seu envio
+```
+
+**Entendeu? Ainda não?**
+
+Então vamos analisar nosso código:
+
+```js
+router.all('*', (req, res, next) => {
+  res.send('Hello World');
+  console.log('Hello World');
+  next();
+});
+
+router.get('/', (req, res) => {
+  res.send('Listagem');
+  console.log('Listagem');
+});
+```
+
+Como sabemos o `router.all` irá executar antes pois ele está antes da outra rota, e dentro dele nós chamamos `res.send('Hello World')`.
+
+Agora eu lhe pergunto:
+
+> O que a função `res.send` faz?
+
+Como já visto anteriormente, ela além de enviar a resposta **também define os cabeçalhos**!
+
+Voltando ao nosso erro, ele diz que não é possível definir cabeçalhos após o seu envio, sabendo disso onde você acha que está o problema?
+
+![Pensando...](https://media.giphy.com/media/lELRD773cY7Sg/giphy.gif)
+
+Obviamente está em `res.send('Listagem')` pois o mesmo está tentando definir **novamente** os cabeçalhos sendo que eles já foram enviados anteriormente e claramente você não pode modificar eles após o envio.
+
+Então como resolveremos isso?
+
+Primeiramete que nunca utilizaremos o `router.all` para responder com nossa API, ele vai servir para aplicação de lógicas em cima do `req` ou `res`, entre outras funcionalidades.
+ 
+Então vamos eliminar o `res.send` e adicionar apenas um cabeçalho novo:
+
+```js
+const express = require('express');
+const app = express();
+const router = express.Router();
+
+// Cria o módulo de roteamento
+router.all('*', (req, res, next) => {
+  res.setHeader('Webschool', 'FODA');
+  console.log('Hello World');
+  next();
+});
+
+router.get('/', (req, res) => {
+  res.send('Listagem');
+  console.log('Listagem');
+});
+
+// Passa o módulo para a URL /hello
+app.use('/hello', router);
+
+app.listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+![GET em localhost:3000/hello](https://cldup.com/VtH4W4VzYC-3000x3000.png)
+
+![cabeçalhos do GET em localhost:3000/hello](https://cldup.com/Z0J4yScviF-3000x3000.png)
+
+Para dar um exemplo mais prático agora iremos listar os pokemons, do módulo de MongoDB e retornar como JSON.
+
+```js
+require('./db/config');
+
+const express = require('express');
+const app = express();
+const router = express.Router();
+
+
+// Cria o módulo de roteamento
+router.all('*', (req, res, next) => {
+  res.setHeader('Webschool', 'FODA');
+  console.log('Hello World');
+  next();
+});
+
+router.get('/', (req, res) => {
+  require('./modules/pokemons/models/model-pokemon-list')(req, res);
+});
+
+// Passa o módulo para a URL /hello
+app.use('/hello', router);
+
+app.listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Você deve estar se perguntando:
+
+> Mas o porquê você está chamando apenas o `require`?
+
+Vamos olhar o arquivo `/modules/pokemons/models/model-pokemon-list`:
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const _schema = {
+  name:  String
+}
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+module.exports = (req, res) => {
+  PokemonModel.find({}, function (err, data) {
+    if (err) return console.log('ERRO: ', err);
+    res.send(data);
+  });
+};
+```
+
+Então aqui eu fiz um módulo **super simples** que irá apenas listar todos os *Pokemons* e já responder eles como JSON.
+
+> Como assim já vai responder eles?
+
+**Sim**, será nesse módulo que será enviado o retorno da resposta via `res.send(data)`, pois **as rotas nunca devem ser responsáveis pela resposta diretamente** visto que esse não é o trabalho delas.
+
+> **Uma rota deverá apenas receber `req` e `res`  entregar eles para a função/módulo correto.**
+
+O mais correto ainda é termos um módulo que seja responsável apenas pela resposta do nosso sistema, mas não se preocupe que nós ainda iremos fazer.
+
+Depois de entender tudo isso iremos agora para nosso exercício.
+
+### Exercícios
+
+1. Criar as 4 rotas para o CRUD.
+2. Criar a arquitetura atômica do Mongoose
+  - Organismo
+  - Ações
+  - Molécula
+  - Átomos
+  - Quarks
+3. Integrar as funções do CRUD do Mongoose com o Express.
+  - Com todas as funções do CRUD funcionando via API
+4. Criar um módulo responsável pelas respostas do sistema.
+5. Criar um módulo responsável por tratar os erros, primeiro parâmetro do *callbacks* 
 
 ## Express Generator
 
