@@ -676,8 +676,122 @@ O objeto req representa a solicitação HTTP e tem propriedades para a cadeia de
 
 ## Router
 
+O objeto *Router* é um exemplo isolado de *middleware* e rotas. Você pode pensar nisso como um "mini-aplicativo", capaz apenas de realizar funções de *middleware* e de roteamento.
+
+O roteador se comporta como um *middleware*, para que possa usá-lo como um argumento em `app.use()` ou como o argumento para o uso de outro roteador.
+
+O objeto do Express tem um método `Router()` que cria um novo objeto roteador.
+
+Depois de criar o objeto roteador, você pode adicionar *middleware* e rotas com método HTTP (como GET, PUT, POST e assim por diante) a ele apenas como uma aplicação. Por exemplo:
+
+```js
+// chamado para qualquer requisição passada para esse roteador
+router.use(function(req, res, next) {
+  // aqui vc faz sua mágica
+  next();
+});
+
+// gerencia todas as requisições que terminam em /events
+router.get('/events', function(req, res, next) {
+  // ..
+});
+```
+
+Então você pode usar um roteador para uma determinada URL raiz, desta forma separando suas rotas em arquivos/módulos.
+
+```js
+// todas requisições para /calendar/* serão enviadas para o "router"
+app.use('/calendar', router);
+```
+
+Vamos ver um exemplo bem simples:
+
+```js
+const express = require('express');
+const app = express();
+const router = express.Router();
+
+// Cria o módulo de roteamento
+router.use( (req, res, next) => {
+  res.end('Hello World');
+});
+
+// Passa o módulo para a URL /hello
+app.use('/hello', router);
+
+app.listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Então como visto, criamos o roteador com `express.Router()`:
+
+```js
+const router = express.Router();
+```
+
+Para depois criarmos a função que será usada na requisição:
+
+```js
+router.use(function(req, res, next) {
+  res.send('Hello World');
+});
+```
+
+E simplesmente usar na rota desejada:
+
+```js
+app.use('/hello', router);
+```
+
+Fácil não?!
+
+Para entendermos melhor como esse roteador funciona iremos ver quais são seus principais métodos.
+
 ### Methods
 
+Vamos conhecer na prática alguns dos seu principais métodos.
+
+####  router.all(path, [callback, ...] callback)
+
+Este método é extremamente útil para o mapeamento lógico "global" para prefixos de caminho específicos ou combinações arbitrários. 
+
+Por exemplo, se você colocou a seguinte rota no topo de todas as outras definições de rotas, seria necessário que todas as rotas a partir desse ponto exijam autenticação e carreguem automaticamente um usuário.
+
+```js
+router.all('*', requireAuthentication, loadUser);
+```
+
+Tenha em mente que esses *callbacks* não precisam agir como *endpoints*; `loadUser` pode executar uma tarefa, em seguida, chamar `next()` para continuar combinando rotas subseqüentes.
+
+Vamos executar um exemplo mais simples, pois ainda não chegamos em autenticação:
+
+```js
+const express = require('express');
+const app = express();
+const router = express.Router();
+
+// Cria o módulo de roteamento
+router.all('*', (req, res, next) => {
+  res.send('Hello World');
+  console.log('Hello World');
+});
+
+// Passa o módulo para a URL /hello
+app.use('/hello', router);
+
+app.listen(3000, () => {
+  console.log('Servidor rodando em localhost:3000');
+});
+```
+
+Agora execute com o POSTMAN uma requisição `GET` em `http://localhost:3000/hello`:
+
+![requisição GET em http://localhost:3000/hello](https://cldup.com/KwN-Lv96CN-1200x1200.png)
+
+E agora uma requisição `POST` na mesma rota:
+
+![requisição POST em http://localhost:3000/hello](https://cldup.com/GDJNae-ML1-1200x1200.png)
 
 ## Express Generator
 
