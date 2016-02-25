@@ -762,6 +762,13 @@ Por exemplo, se você colocou a seguinte rota no topo de todas as outras defini�
 router.all('*', requireAuthentication, loadUser);
 ```
 
+O código abaixo também é equivalente:
+
+```js
+router.all('*', requireAuthentication)
+router.all('*', loadUser);
+```
+
 Tenha em mente que esses *callbacks* não precisam agir como *endpoints*; `loadUser` pode executar uma tarefa, em seguida, chamar `next()` para continuar combinando rotas subseqüentes.
 
 Vamos executar um exemplo mais simples, pois ainda não chegamos em autenticação:
@@ -792,6 +799,8 @@ Agora execute com o POSTMAN uma requisição `GET` em `http://localhost:3000/hel
 E agora uma requisição `POST` na mesma rota:
 
 ![requisição POST em http://localhost:3000/hello](https://cldup.com/GDJNae-ML1-1200x1200.png)
+
+
 
 ## Express Generator
 
