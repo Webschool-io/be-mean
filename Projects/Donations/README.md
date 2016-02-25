@@ -46,3 +46,7 @@ Claro que não precisamos doar para Angular, React, MySQL e outros que são mant
 ## Arquitetura
 
 ## Equipe
+
+- [Carlos Machel](https://github.com/carlosmachel)
+- [Ednilson Amaral](https://github.com/ednilsonamaral)
+- [Eliel - Hc3](https://github.com/hc3)

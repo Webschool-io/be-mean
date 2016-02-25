@@ -71,8 +71,6 @@ Então o próprio sistema iria juntar essas informações e enviar para as empre
 
 Depois das empresas enviarem seus valores, o sistema envia-os para os usuários para q eles escolham de qual empresa vão comprar.
 
-
-
 ### O Vendedor
 
 Uma coisa que não existe é vendedor para ecommerce correto?
@@ -163,13 +161,219 @@ Bom na minha concepção não, por quê?
 
 Porque eu acredito que com os valores parecidos, o comércio irá ganhar o cliente com o **atendimento** dele e nem tanto pelo preço já que a diferença entre eles seria pequena, você como cliente irá escolher o comércio que você é melhor atendido, lembrando que todas empresas do sistema precisam ter uma loja física.
 
-### Fornecedores
+#### Fornecedores
 
+### Requisitos
 
-## Requisitos
+#### Registro de Usuários
+
+O usuário que deseja ter uma conta no e-commerce, vai acessar a página de cadastro. Ele pode ter as seguintes opções de login:
+
+ - Google (Gmail);
+ - Facebook;
+
+Caso não escolher nenhum desses, ele vai seguir com o registro convencional do site. Os modos de autenticação citados normalmente oferece alguns dos dados necessário para o registro como nome completo e e-mail.
+
+No registro convencional, ele precisa preencher:
+
+ - E-mail;
+ - Senha;
+
+Durante o acesso do site, vamos precisar de outras informações, mas que podem ser solicitados mais tarde:
+
+ - No fechamento de uma compra:
+  - Dados pessoais:
+    - Nome completo;
+    - CPF (para alguma verificação, caso contrário, não precisa);
+  - Dados da Entrega:
+    - Descrição do Endereço (colocar algo como "Casa", "Trabalho", "Casa dos Pais", etc);
+    - Endereço;
+    - Número;
+    - CEP;
+    - Bairro;
+    - Cidade;
+    - Estado.
+  - Dados do Pagamento (Cartão de Crédito, já que o boleto é só imprimir):
+    - Número do Cartão;
+    - Nome impresso no cartão;
+    - Código de Segurança.
+
+O mesmo pode fazer a edição dessas informações na sua página de perfil. No registro convencional do site, ele poderá alterar sua senha e e-mail.
+
+#### Cadastro de Fornecedores
+
+Nesse módulo vamos cadastrar todas as informações necessárias para os nossos fornecedores. Os dados que podemos precisar são:
+
+ - Nome da Empresa;
+ - Razão Social;
+ - CNPJ;
+ - Inscrição Estadual;
+ - E-mail;
+ - Telefone.
+
+Boa parte das empresas possuem representantes que fazem as vendas diretamente ao dono do comércio. Nesse caso, é interessante guardar esses dados para automatizar a cotação de produtos:
+
+ - Nome do Representante;
+ - Empresa que representa;
+ - E-mail;
+ - Telefone.
+
+Toda a descrição das cotações, é descrito na funcionalidade de **Cotações**.
+
+#### Gerenciamento de Produtos
+
+Aqui vamos inserir todos os produtos da loja, e nele que teremos todas as informações do produto para visão do usuário, e dados de taxa, desconto e promoção no lado do lojista. Os dados são:
+
+ - Nome do Produto;
+ - Descrição do Produto;
+ - Categoria;
+ - Foto de Capa;
+ - Fotos da galeria;
+ - Preço de Custo;
+ - Unidade de Medida;
+ - Margem de Lucro [1];
+ - Taxas [1];
+ - Tags.
+
+[1] - As taxas e a margem de lucro que vão incidir no preço de custo, serão definidas na categoria por padrão. Mas caso queria fazer individualmente, poderá inserir no produto em questão.
+
+#### Categorias
+
+Todos os produtos estarão relacionados a uma categoria. Para facilitar, cada categoria poderá definir informações acerca do preço dos produtos. Os dados para criar uma categoria serão:
+
+ - Nome da Categoria;
+ - Margem de Lucro;
+ - Taxas.
+
+Caso algum produto definir essas taxas e margens no seu cadastro, ele será usado. Caso contrário, o padrão será os valores da categoria em que ele se insere.
+
+#### Controle de Estoque
+
+Aqui que começa o fluxo de um comércio, quando os produtos chegam depois de efetuar o pedido com o fornecedor. O sistema precisa lidar com isso, oferecendo um módulo em que o usuário poderá inserir os produtos que veio para alimentar o estoque, além de definir impostos que acompanham no preço deles. Os dados serão coletados da nota fiscal vinda do fornecedor:
+
+**Dados da Nota Fiscal**
+ - Número da Nota Fiscal;
+ - Razão Social da empresa;
+ - Data da Compra;
+ - Data da Entrega;
+
+**Dados dos Produtos**
+ - Nome do Produto;
+ - Unidade de Medida;
+ - Quantidade;
+ - Preço Unitário;
+ - Preço Total [1];
+ - Taxas e Impostos;
+
+[1] - Dependendo da unidade de medida por exemplo, na entrada veio um produto X em uma caixa de 20 unidades. Assim registra o valor unitário e o valor total conforme é especificado na nota fiscal;
+
+Ele precisa ter a inteligência de oferecer informações para que o lojista possa saber tudo o que está acontecendo no estoque, da entrada de produtos até sua saída (depois de fechar a compra e iniciar o processo de entrega). Os dados em comum que ele precisa em um estoque são:
+
+**Por produto**
+ - Nome do Produto;
+ - Quantidade no estoque (Quantidade de Entrada);
+ - Quantidade que foi vendida (Quantidade de Saída);
+ - Preço de custo;
+ - Preço de venda;
+
+A partir de um parâmetro na quantidade no estoque, se algum produto chegar a esse mínimo disponível, o sistema deverá notificar o responsável pela compra, para iniciar uma cotação e assim efetuar um pedido.
+
+#### Gerenciamento de Promoções
+
+O lojista precisa de definir promoções para atrair mais venda e criar uma fidelidade aos seus clientes. Para uma loja virtual, o sistema precisa oferecer algo em que ele possa criar uma promoção e associar os produtos participantes. Os dados que podem ser interessantes são:
+
+**Dados da Promoção**
+ - Nome da Promoção;
+ - Período (Data de inicio e encerramento);
+ - Banners da Promoção;
+ - Termos da promoção (opcional).
+
+**Redes Sociais**
+ - Descrição da Promoção;
+ - Link da Promoção ou produto;
+
+**Produtos Participantes**
+ - Produto selecionado;
+ - Taxa de Desconto;
+ - Taxa da Entrega (se for gratis, será 0%);
+ - Quantidade limite.
+
+Se a promoção sair do período ou a quantidade limite de todos os produtos forem alcançados, ele deve desaparecer do site para evitar problemas. Se um produto alcançou seu limite, precisa mostrar ao cliente que ele está esgotado **para a promoção em que quer participar**. 
+
+#### Controle de Entrega
+
+Esse módulo terá duas visões: do lojista e cliente. Na visão do lojista, ele irá ter acesso a todos os produtos em fase de entrega [1]. Em cada pedido na fase de entrega, o lojista também poderá ver o acompanhamento do pacote, e caso houver problemas e o usuário notificar, ele pode visualizar e interagir para resolver o problema nos detalhes desse pedido.
+
+Na visão do cliente será na sua lista de compras efetuadas, em que ele recebe o código de rastreamento e assim acompanhar o seu pedido. Qualquer tipo de problema, ele poderá nos detalhes do pedido, descrevar sua situação e o lojista fazer o mesmo, em tempo real.
+
+[1] - Essa fase pode ser relativa, mas vamos considerar o momento em que o pagamento foi aprovado e que foi despachado para empresa responsável. Normalmente o mais usado são os correios, então inicialmente podemos focar nele somente.
+
+#### Gerenciamento de taxas e impostos
+
+Como vemos nos módulos de estoque, categoria e produtos, já descrevemos situações em que as taxas e impostos são inseridos. Nesse módulo poderiamos gerenciar essas informações que afetam de forma geral e que não mudam frequentemente, além de cadastrar impostos que são obrigatórios e que precisam ser separados corretamente, como impostos estaduais e federais. Inicialmente os dados para inserir essas taxas são:
+
+ - Nome do Imposto;
+ - Porcentagem;
+
+#### Gerenciamento de Pedidos (carrinho de compras)
+
+Esse módulo vai controlar os pedidos da loja. O usuário vai escolher os produtos que deseja comprar, e eles vão estar agrupados em um carrinho de compras fictícia. Os dados que esse carrinho precisa guardar é:
+
+ - Lista dos produtos;
+ - Quantidade a ser comprada de cada um;
+ - Preço unitário;
+ - Preço total.
+
+Fechando o pedido, ele precisa agrupar também os dados do pagamento. Ele vai trabalhar juntamente com os gateways de pagamento, já que o status desse pedido vai ser definido de acordo com a aprovação ou reprovação do pagamento por meio deste.
+
+Na visão do lojista, ele poderá acompanhar os pedidos a serem aprovados pelo gateway em tempo real, para que os responsáveis pela fase de empacotamento e entrega possa iniciar seus trabalhos. Da mesma forma na entrega, no pedido, toda e qualquer problema que o cliente tiver será feito nos detalhes do mesmo.
+
+#### SEO
+
+#### Integração ao Google Analytics
+
+O sistema pode trazer além do registro ID do analytics, oferecer uma página contendo as informações básicas, usando o Google API Console.
+
+#### Integração a gateways de pagamento
+
+Essa integração poderia ser feito, de forma que cada gateway seja um módulo plugável ao sistema. Nesse caso o e-commerce teria que disponibilizar uma interface de comunicação, e que cada módulo consumiria isso. Dessa forma, quem usar o projeto poderia escolhar o que achar melhor. Mas por recomendação, o projeto poderia implementar:
+
+ - PagSeguro;
+ - PayPal;
+ - Moip;
+ - Boleto.
+
+#### Integração a redes sociais
+
+Aqui no módulo o lojista pode cadastrar sua página e seus perfis nas redes sociais, para que possa ter uma melhor integração, como por exemplo, postar as promoções geradas no sistema na página do facebook ou colocar no Twitter.
+
+#### Feedback do cliente
+
+Esse módulo será disponibilizar canais de comunicação depois da entrega dos produtos aos clientes, na fase de pós-venda. Esses canais podem ser:
+
+ - E-mail;
+ - Chat.
+
+#### E-mail Template
+
+O sistema deve oferecer uma forma de editar o template dos e-mails enviados ao cliente como:
+
+ - Detalhes da compra efetuada;
+ - Promoções disponíveis;
+ - Feedback do cliente na pós-compra.
+
+#### Migração de plataformas conhecidas
+
+Esse recurso é para facilitar a mudança de tecnologia para a loja virtual. Quem usar uma das tecnologias abaixo, poderá usar o processo de migração de dados:
+
+ - Magento;
 
 ## Arquitetura
 
 Cada produto é um nó no grafo e cada característica dele também, assim como suas palavras-chave
 
 ## Equipe
+
+- Gilson Filho <me@gilsondev.in> // ERRADO
+- **Igor Luíz** - [Github](https://github.com/Halfeld)
+- **Hélio Marcondes** - [Github](https://github.com/heliomsolivas "GitHub")

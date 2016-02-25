@@ -1,39 +1,34 @@
-// define version como uma constante e atribui o valor 7
 const version = 7;
-
-// isto falha mas não emite erros
 version = 20;
-console.log("Versão: " + version); // 7
-
 const version = 20; // TypeError: Identifier 'version' has already been declared
 
 // não modifica o valor
-var version = 20; // undefined
-console.log("Versão: " + version); // 7
+// var version = 20; // undefined
+// console.log("Versão: " + version); // 7
 
-// Atribuir valores a uma variável const é um erro de sintaxe
-const a = 1; a = 2;
+// // Atribuir valores a uma variável const é um erro de sintaxe
+// const a = 1; a = 2;
 
-// const também funciona com objetos
-const user = {name: "Suissa"};
+// // const também funciona com objetos
+// const user = {name: "Suissa"};
 
-user = {name: "Itacir"};
-console.log(user); //Suissa
+// user = {name: "Itacir"};
+// console.log(user); //Suissa
 
-// Entretando, atributos de objetos não estão protegidos,
-// logo a seguinte instrução é executada sem problemas 
-user.name = "Caio";
-console.log(user); //Caio
+// // Entretando, atributos de objetos não estão protegidos,
+// // logo a seguinte instrução é executada sem problemas 
+// user.name = "Caio";
+// console.log(user); //Caio
 
-function pimba() {
-  const naGorduchinha = true;
-  console.log(naGorduchinha); //true
-}
+// function pimba() {
+//   const naGorduchinha = true;
+//   console.log(naGorduchinha); //true
+// }
 
-pimba();
+// pimba();
 
-const naGorduchinha = false;
-console.log(naGorduchinha); //false
+// const naGorduchinha = false;
+// console.log(naGorduchinha); //false
 
 
 

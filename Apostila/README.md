@@ -4,7 +4,7 @@ Link para a apostila de cada módulo.
 
 ## Módulos
 
-- **[MongoDb](./module-mongodb)**
+- **[MongoDb](https://github.com/Webschool-io/MongoDb-ebook)**
 - **[Node.js](./module-nodejs)**
 - [AngularJs]()
 - [Frontend]()

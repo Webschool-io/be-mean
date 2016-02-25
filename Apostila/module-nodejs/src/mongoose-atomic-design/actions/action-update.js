@@ -15,7 +15,7 @@ module.exports = (Organism) => {
       const query = getQuery(req);
       const mod = querystring.parse(queryData);
 
-      User.update(query, mod, (err, data) => callback(err, data, res));
+      Organism.update(query, mod, (err, data) => callback(err, data, res));
     });
   };
 };

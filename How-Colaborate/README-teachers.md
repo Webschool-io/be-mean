@@ -1,5 +1,25 @@
 # Como colaborar como professor
 
+## Vídeo
+
+### Tamanho
+
+Padrão da gravação deve ser 1280x800.
+
+### Marca d'água
+
+Esse é a imagem padrão utilizada.
+![](https://cldup.com/rrUdgoDvag-3000x3000.png)
+
+Colocar no canto superior direito deixando margens em cima e ao lado.
+![](https://cldup.com/3Acg1zVUrD.png)
+
+### Transição
+
+Para fazer a transição entre slides e o desktop dê uma pausa de  3 segundos de fala e aplique um efeito de transição de *melt*.
+
+![](https://media.giphy.com/media/4g6LsbHQf6cOQ/giphy.gif)
+
 ## Metodologia
 
 1. Criar conteúdo na apostila
@@ -86,9 +106,7 @@ Perceba que existe margem entre os lados do slides.
 
 ![Explicação de texto](https://cldup.com/qA_ItkMtBg.png)
 
-Existe também a forma centralizada, que é utilizada para frases pequenas.
-
-![Título do Slide](https://cloudup.com/chzpxVfPtw3)
+Existe também a forma centralizada, que é utilizada para frases pequenas
 ![Explicação centralizada em uma frase](https://cldup.com/xnhRe0osKb-2000x2000.png)
 
 ##### Código
@@ -106,10 +124,69 @@ O **tamanho pode ser 12 ou 14 ou 18** e deve ser escolhido para maio legibilidad
 
 ![Texto de código tamanho 18](https://cldup.com/eD5bp2qGTG.png)
 
+###### Código *inline*
+
+Como usamos Markdown para escrever, utiliamos essa `formatação` para códigos menores de 1 linha, porém quando você copiar esse texto para os slides, deverá colocar esses termos em **NEGRITO**.
+
+![](https://cldup.com/leVXS5OACk-1200x1200.png)
+
+**E depois remover TODOS os ` ` do texto!!**
+
+![](https://cldup.com/2svMUUgKgh-3000x3000.png)
+
+##### Negrito
+
+Caso você tenha uma palavra que deve ser **negrito** e outra que deve ser `coódigo` **no slides as 2 serão negrito**.
+
+![](https://cldup.com/dQUbwIeQYx-3000x3000.png)
+![](https://cldup.com/LfuIpyeweY-2000x2000.png)
+
+##### Itálico
+
+O *itálico* é utilizado pem palavras estrageiras.
+
+![](https://cldup.com/xVD-V0hbg6-3000x3000.png)
+
+Usamos *ítálico* em palavras estrangeiras, porém quando essa palavra é um `código` não se deve mudar.
+
+![](https://cldup.com/QkrWqvCGCN-1200x1200.png)
+
 ###### Alinhamento de pergunta
 
 ![Alinhamento de pergunta](https://cldup.com/7vRzLIbvSX-2000x2000.png)
 
+#### Imagem
+
+##### GIF
+
+Coloque a cor preta como fundo para imagens animadas(gifs).
+
+![](https://cldup.com/QYxpvIMWl9-3000x3000.png)
+
+##### JPG/PNG
+
+Coloque a cor preta como fundo para imagens estáticas.
+
+![](https://cldup.com/SU9voqTv6b-3000x3000.png)
+
+###### Fundo Transparente
+
+**A única vez que vpcê não mudará o fundo do slide será quando a imagem tiver fundo transparente.**
+
+![](https://cldup.com/z7D3X4cbYt-1200x1200.png)
+
+
+###### Fundo Branco
+
+Apenas quando a imagem tiver fundo branco...
+
+![](https://cldup.com/9UTaiGv-ER-2000x2000.png)
+
+
+**Você muda o fundo DESSE SLIDE para branco.**
+
+![](https://cldup.com/B--XU5ss08-1200x1200.png)
+![](https://cldup.com/R-QFx6D7CR-1200x1200.png)
 
 ## Gravação da aula
 

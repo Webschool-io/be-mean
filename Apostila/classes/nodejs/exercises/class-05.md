@@ -14,7 +14,7 @@
 9. Deletar arquivo
 10. Renomear o arquivo
 
-**Desafio: Criar um servidor web de arquivos estáticos: .css, .html, .js e etc...**
+**Desafio: Criar um servidor web de arquivos estáticos: .css, .html, .js e etc... UTILIZANDO SOMENTE `fs` E `http`**
 
 ## Estrutura
 

@@ -21,3 +21,9 @@ Fazer parceria com editoras para sortearmos 1 livro por mês, o mais procurado. 
 ## Arquitetura
 
 ## Equipe
+
+- [Tiago Emerick](https://github.com/tiagoeborsanyi)
+- [Alan Siqueira](https://github.com/alannsiqueira)
+- [Edimar Barros](https://github.com/BarrosEdimar)
+- [Michel Ferreira Souza](https://github.com/souzacristsf)
+- [Márcio Dias](https://github.com/spaceonline)
