@@ -752,7 +752,7 @@ Para entendermos melhor como esse roteador funciona iremos ver quais são seus p
 
 Vamos conhecer na prática alguns dos seu principais métodos.
 
-####  router.all(path, [callback, ...] callback)
+#### router.all(path, [callback, ...] callback)
 
 Este método é extremamente útil para o mapeamento lógico "global" para prefixos de caminho específicos ou combinações arbitrários. 
 
@@ -771,7 +771,13 @@ router.all('*', loadUser);
 
 Tenha em mente que esses *callbacks* não precisam agir como *endpoints*; `loadUser` pode executar uma tarefa, em seguida, chamar `next()` para continuar combinando rotas subseqüentes.
 
-Vamos executar um exemplo mais simples, pois ainda não chegamos em autenticação:
+E caso deseje definir uma rota raiz, faça assim:
+
+```js
+router.all('/api/*', requireAuthentication);
+```
+
+Agora vamos executar um exemplo bem simples, pois ainda não chegamos em autenticação:
 
 ```js
 const express = require('express');
@@ -800,6 +806,13 @@ E agora uma requisição `POST` na mesma rota:
 
 ![requisição POST em http://localhost:3000/hello](https://cldup.com/GDJNae-ML1-1200x1200.png)
 
+Logicamente você percebeu que não importa qual o `METHOD` da requisição ele sempre irá executar aquela lógica.
+
+#### router.METHOD(path, [callback, ...] callback)
+
+Os métodos router.METHOD() fornecem funcionalidade de roteamento a partir do método do HTTP requisitado, onde método é um dos métodos HTTP em letras minúsculas. Assim, os métodos atuais são `router.get()`, `router.post()`, `router.put()`, e assim por diante.
+
+The router.METHOD() methods provide the routing functionality in Express, where METHOD is one of the HTTP methods, such as GET, PUT, POST, and so on, in lowercase. Thus, the actual methods are router.get(), router.post(), router.put(), and so on.
 
 
 ## Express Generator
