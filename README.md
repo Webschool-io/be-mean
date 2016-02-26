@@ -395,13 +395,15 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * [github](https://developer.github.com/v3/) - Prof.: [William Bruno](https://github.com/wbruno)
         * [redtube](http://api.redtube.com/docs/) - Prof.: [Suissa](https://github.com/suissa)
         * [instagram](https://www.instagram.com/developer/) - Prof.: [Suissa](https://github.com/suissa)
+- Aula X parte 1 e 2
+    + [Socket.io]() - Prof.: [Guilherme Paixão](guilhermeepaixaoo)
 - Aula 15
-    + [Autenticação](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
+    + [Autenticação](./src/) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
         * Session
             - Express
             - Mongoose/MongoDB
 - Aula 16
-    + [Autenticação](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
+    + [Autenticação](./src/) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
         * Token
 - Aula 17
     + **[Projeto em aula]**
