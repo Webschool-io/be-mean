@@ -1,5 +1,7 @@
 'use strict';
 
+const querystring = require('querystring');
+
 module.exports = (Organism) => {
   return (req, res) => {
     let queryData = '';

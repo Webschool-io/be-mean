@@ -8,7 +8,7 @@ const find = require('./../actions/action-find')(Organism);
 const findOne = require('./../actions/action-findOne')(Organism);
 const update = require('./../actions/action-update')(Organism);
 const remove = require('./../actions/action-remove')(Organism);
-
+// console.log('find', find)
 const CRUD = {
   create
 , find
@@ -16,5 +16,6 @@ const CRUD = {
 , update
 , remove
 , Model: Organism
+, test: () => { console.log('rodei'); }
 };
 module.exports = CRUD;

@@ -1,8 +1,8 @@
 'use strict';
 
-const express = require('express');
-const router = express.Router();
+require('./db/config');
 
+const express = require('express');
 const path = require('path');
 const favicon = require('static-favicon');
 const logger = require('morgan');
@@ -13,7 +13,7 @@ const routes = require('./routes/index');
 const users = require('./routes/users');
 
 // API
-const UserAPI = require('./modules/User/routes')(router);
+const UserAPI = require('./modules/User/routes');
 
 const app = express();
 
