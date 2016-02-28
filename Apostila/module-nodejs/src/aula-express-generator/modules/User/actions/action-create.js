@@ -1,18 +1,14 @@
 'use strict';
 
 const querystring = require('querystring');
+const callback = require('./action-callback-http-200');
 
 module.exports = (Organism) => {
   return (req, res) => {
-    let queryData = '';
-    req.on('data', (data) => {
-      queryData += data;
+    Organism.create(req.body, (err, data) => {
+      callback(err, data, res);
     });
-
-    req.on('end', () => {
-      const obj = querystring.parse(queryData);
-      Organism.create(obj, (err, data) => callback(err, data, res));
-    });
-  };
+  }
 };
+
 
