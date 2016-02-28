@@ -6,7 +6,8 @@ const callback = require('./action-callback-http-200');
 module.exports = (Organism) => {
   return (req, res) => {
     const query = getQuery(req);
-
-    User.findOne(query, (err, data) => callback(err, data, res));
+    Organism.findOne(query, (err, data) => {
+      callback(err, data, res);
+    });
   };
-};
+}

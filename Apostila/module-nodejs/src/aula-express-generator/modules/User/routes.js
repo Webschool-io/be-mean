@@ -18,12 +18,12 @@ const routes = [
     , path: '/'
     , callback: Controller.find
     }
-  // , {
-  //     action: 'get'
-  //   , method: 'get'
-  //   , path: '/:id'
-  //   , callback: Controller.find
-  // }
+  , {
+      action: 'get'
+    , method: 'get'
+    , path: '/:id'
+    , callback: Controller.findOne
+  }
   , {
       action: 'update'
     , method: 'put'
@@ -38,14 +38,8 @@ const routes = [
   }
 ];
 
-// routes.forEach( (route, index) => {
-//   // console.log('Route', Router[route.method](route.path, route.callback))
-//   Router[route.method](route.path, route.callback);
-// });
-console.log('routes[1].method', routes[1].method);
-
-Router[routes[1].method](routes[1].path, (req, res) => {
-  Controller.find(req, res);
+routes.forEach( (route, index) => {
+  Router[route.method](route.path, route.callback);
 });
 
 module.exports = Router;
