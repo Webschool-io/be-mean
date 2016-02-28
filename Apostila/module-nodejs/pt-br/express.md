@@ -1080,8 +1080,14 @@ Para facilitar o início de um projeto com Express iremos utilizar o `express-ge
 npm i --save express-generator
 ```
 
-## Performance
 
+### Express Atomic Design
+
+Mas é claro que iremos atomizar o Express também, eu não seria nem louco de não ensinar uma maravilha dessas.
+
+Como já temos a parte do Mongoose atomizada, agora basta que integremos ela com as rotas, para isso iremos criar um JSON com a config das rotas para melhor reuso delas.
+
+## Performance
 
 
 ### gzip

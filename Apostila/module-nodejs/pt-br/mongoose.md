@@ -2988,3 +2988,37 @@ module.exports = CRUD;
 **Muito melhor não?**
 
 ![](https://media.giphy.com/media/LYDNZAzOqrez6/giphy.gif)
+
+**UM ADENDO MUITO IMPORTANTE!!!**
+
+Quando estava trabalhando com TDD nesse modelo senti falta de exportar o *Model* no *Organism* para facilitar nossa vida nos testes.
+
+Por exemplo nesse teste:
+
+```js
+'use strict';
+
+const Doador = require('./../Organisms/doadorOrganism');
+const expect = require('chai').expect;
+
+describe('Setter Schema doadorSchema', () => {
+  // body...
+  describe('setter to uppercase', () => {
+    // body...
+    it('primeiro nome ONLY lower case save in mongo', () => {
+      const d = new Doador.Organism();
+      const fieldTestName = 'primeiroNome';
+      const fieldTestValue = 'ERNI';
+      d[fieldTestName] = fieldTestValue;
+      d.save((Doador) => {
+        expect(Doador[fieldTestName]).to.be.equal('erni');
+      });
+    });
+  });
+});
+```
+
+
+
+
+
