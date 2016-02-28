@@ -1080,12 +1080,57 @@ Para facilitar o início de um projeto com Express iremos utilizar o `express-ge
 npm i --save express-generator
 ```
 
+Ensinar a porra toda antes do Atomic
 
 ### Express Atomic Design
 
 Mas é claro que iremos atomizar o Express também, eu não seria nem louco de não ensinar uma maravilha dessas.
 
 Como já temos a parte do Mongoose atomizada, agora basta que integremos ela com as rotas, para isso iremos criar um JSON com a config das rotas para melhor reuso delas.
+
+```js
+const Controller = require('./organisms/organism-crud-user');
+const routes = [{
+      action: 'create'
+    , method: 'post'
+    , url: '/'
+    , callback: Controller.create
+    }
+  , {
+      action: 'retrieve'
+    , method: 'get'
+    , url: '/'
+    , callback: Controller.retrieve
+  }
+  , {
+      action: 'get'
+    , method: 'get'
+    , url: '/:id'
+    , callback: Controller.get
+  }
+  , {
+      action: 'update'
+    , method: 'put'
+    , url: '/:id'
+    , callback: Controller.update
+  }
+  , {
+      action: 'delete'
+    , method: 'delete'
+    , url: '/:id'
+    , callback: Controller.delete
+  }
+];
+
+module.exports = (Router) => {
+  routes.forEach( (element, index) => {
+    Router[element.method](element.url, (req, res) => {
+      res.send(element);
+    })
+  });
+  return Router;
+};
+```
 
 ## Performance
 
