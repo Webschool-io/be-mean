@@ -1409,6 +1409,46 @@ const MOLECULE = require(MOLECULE_PATH);
 module.exports = require('./organism-factory')(ORGANISM_NAME, MOLECULE);
 ```
 
+Deixando ainda mais genérico e dependente apenas do nome do Organismo que basicamente é o nosso módulo:
+
+```js
+const ORGANISM_NAME = 'User';
+const MOLECULE_BASE = './../molecules/molecule-';
+const MOLECULE_PATH = MOLECULE_BASE+ORGANISM_NAME.toLowerCase();
+const MOLECULE = require(MOLECULE_PATH);
+
+module.exports = require('./organism-factory')(ORGANISM_NAME, MOLECULE);
+```
+
+Desse jeito podemos definir nossa estrutura padrão para cada módulo e que o mesmo funcione com todo o CRUD genérico passando apenas seu nome.
+
+Com isso vemos um padrão que irá se repetir em todos nossos módulos então para facilitar nossa vida e generalizar ainda mais nosso código vamos passar essas informações para o arquivo `config.js` que deverá ficar na raíz do nosso módulo *User*:
+
+```js
+module.exports = {
+  MODULE_NAME: 'User'
+, MOLECULE_PATH_BASE: './../molecules/molecule-'
+, MOLECULE_PATH: this.MOLECULE_PATH_BASE+this.MODULE_NAME.toLowerCase();
+, ORGANISM_FACTORY: './organism-factory'
+};
+```
+
+Deixando assim o `organism.js`:
+
+```js
+'use strict';
+
+const CONFIG = require('./../config');
+const ORGANISM_NAME = 'User';
+const MOLECULE_PATH_BASE = CONFIG.MOLECULE_PATH_BASE;
+const MOLECULE_PATH = MOLECULE_PATH_BASE+ORGANISM_NAME.toLowerCase();
+const MOLECULE = require(MOLECULE_PATH);
+
+module.exports = require(CONFIG.ORGANISM_FACTORY)(ORGANISM_NAME, MOLECULE);
+```
+
+**PS: TODOS OS ARQUIVOS DEVEM OBRIGATORIAMENTE COMEÇAR COM 'use strict';** eu só não coloquei em todos exemplos aqui para poupar texto.
+
 
 ## Performance
 
