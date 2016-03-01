@@ -8,12 +8,10 @@ const findOne = require('./../actions/action-findOne')(Organism);
 const update = require('./../actions/action-update')(Organism);
 const remove = require('./../actions/action-remove')(Organism);
 
-const CRUD = {
+module.exports = {
   create
 , find
 , findOne
 , update
 , remove
 };
-
-module.exports = CRUD;

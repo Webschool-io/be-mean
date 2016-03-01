@@ -1303,11 +1303,43 @@ module.exports = mongoose.model('User', Molecule);
 
 Separando dessa forma ficará muito mais fácil de reusar e também de testar.
 
-Podemos ainda criar um gerador de Organismos genéricos dessa forma:
+Podemos ainda criar um gerador de Organismos genéricos dessa forma, crie esse código em `organism-factory`:
 
 ```js
+const mongoose = require('mongoose');
 
+module.exports = (Name, Molecule) => {
+  return mongoose.model(Name, Molecule);
+};
+```
 
+Criamos assim um módulo que irá receber `Name` e `Molecule` como parâmetros e irá retornar o *Model* criado pelo *Mongoose*, refatorando o `organism-user`:
+
+```js
+const ORGANISM_NAME = 'User';
+const Molecule = require('./../molecules/molecule-user');
+
+module.exports = require('./organism-factory')(ORGANISM_NAME, Molecule);
+```
+
+Deixando o `organism-crud-user` assim:
+
+```js
+const mongoose = require('mongoose');
+const Organism = require('./organism-user');
+const create = require('./../actions/action-create')(Organism);
+const find = require('./../actions/action-find')(Organism);
+const findOne = require('./../actions/action-findOne')(Organism);
+const update = require('./../actions/action-update')(Organism);
+const remove = require('./../actions/action-remove')(Organism);
+
+module.exports = {
+  create
+, find
+, findOne
+, update
+, remove
+};
 ```
 
 
