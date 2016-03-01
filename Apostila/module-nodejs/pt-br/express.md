@@ -1088,48 +1088,157 @@ Mas é claro que iremos atomizar o Express também, eu não seria nem louco de n
 
 Como já temos a parte do Mongoose atomizada, agora basta que integremos ela com as rotas, para isso iremos criar um JSON com a config das rotas para melhor reuso delas.
 
+Para isso vamos definir quais são as informações necessárias definirmos em uma rota:
+
+- *method*: método HTTP;
+- *path*: url da rota;
+- *callback*: ação a ser executada.
+
+Vou apenas adicionar um "nome" para rota no atributo *action*:
+
 ```js
-const Controller = require('./organisms/organism-crud-user');
-const routes = [{
+const routes = [
+    {
       action: 'create'
     , method: 'post'
-    , url: '/'
+    , path: '/'
     , callback: Controller.create
     }
   , {
       action: 'retrieve'
     , method: 'get'
-    , url: '/'
-    , callback: Controller.retrieve
-  }
+    , path: '/'
+    , callback: Controller.find
+    }
   , {
       action: 'get'
     , method: 'get'
-    , url: '/:id'
-    , callback: Controller.get
+    , path: '/:id'
+    , callback: Controller.findOne
   }
   , {
       action: 'update'
     , method: 'put'
-    , url: '/:id'
+    , path: '/:id'
     , callback: Controller.update
   }
   , {
       action: 'delete'
     , method: 'delete'
-    , url: '/:id'
-    , callback: Controller.delete
+    , path: '/:id'
+    , callback: Controller.remove
+  }
+];
+```
+
+Claramente você percebeu que não definimos a função de *callback* diretamente na rota para melhor reuso da mesma.
+
+Após definirmos suas informações necessitaremos criar uma função que possa gerar elas automaticamente para o Express, então como fazer isso?
+
+Vamos lembrar da aula que aprendemos os métodos do *Router*:
+
+```js
+router.get('/', (req, res) => {});
+router.post('/', (req, res) => {});
+router.put('/', (req, res) => {});
+router.delete('/', (req, res) => {});
+```
+
+Com os métodos acima podemos criar nossa API REST, sabendo disso vamos analisar a estrutura dessa função:
+
+```js
+router.get('/', (req, res) => {});
+router['get']('/', (req, res) => {});
+
+const METHOD = 'get';
+
+router[METHOD]('/', (req, res) => {});
+```
+
+Agora ficou fácil separarmos as outras partes, não?
+
+```js
+router.get('/', (req, res) => {});
+router['get']('/', (req, res) => {});
+
+const METHOD = 'get';
+const PATH = '/';
+const CALLBACK = (req, res) => {};
+
+router[METHOD](PATH, CALLBACK);
+```
+
+Ótimo agora precisamos usar essa função genérica com os dados do nosso *Array* de rotas, se possuimos uma coleção de rotas e precisamos criar uma rota nova com cada item dessaa coleção, qual a melhor forma de fazer isso?
+
+> forEach
+
+Exatamente! Com a função `forEach` que é específica para isso.
+
+```js
+routes.forEach( route => {
+  Router[route.method](route.path, route.callback);
+});
+```
+
+Após definirmos todas as rotas basta exportarmos o *Router* para que nossa aplicação possa utilizar, deixando nosso código final assim:
+
+```js
+'use strict';
+
+const express = require('express');
+const Router = express.Router();
+
+const Controller = require('./organisms/organism-crud-user');
+const routes = [
+    {
+      action: 'create'
+    , method: 'post'
+    , path: '/'
+    , callback: Controller.create
+    }
+  , {
+      action: 'retrieve'
+    , method: 'get'
+    , path: '/'
+    , callback: Controller.find
+    }
+  , {
+      action: 'get'
+    , method: 'get'
+    , path: '/:id'
+    , callback: Controller.findOne
+  }
+  , {
+      action: 'update'
+    , method: 'put'
+    , path: '/:id'
+    , callback: Controller.update
+  }
+  , {
+      action: 'delete'
+    , method: 'delete'
+    , path: '/:id'
+    , callback: Controller.remove
   }
 ];
 
-module.exports = (Router) => {
-  routes.forEach( (element, index) => {
-    Router[element.method](element.url, (req, res) => {
-      res.send(element);
-    })
-  });
-  return Router;
-};
+routes.forEach( route => {
+  Router[route.method](route.path, route.callback);
+});
+
+module.exports = Router;
+```
+
+Depois basta importar esse módulo em `app.js`:
+
+```js
+const UserAPI = require('./modules/User/routes');
+```
+
+E depois utilizá-lo na rota desejada:
+
+```js
+app.use('/api/users', UserAPI);
 ```
 
 ## Performance

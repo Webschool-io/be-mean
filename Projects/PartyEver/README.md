@@ -4,7 +4,7 @@ Sistema para criação, gerenciamento e logística de festas.
 
 ## MVP
 
-Sistema para criação, gerenciamento e logística de raves e festiv--ais.
+Sistema para criação, gerenciamento e logística de raves e festivais.
 
 ## O Problema
 
@@ -49,21 +49,11 @@ O dj terá esse perfil separadamente da festa onde conterá:
 
 Compra antecipada do estacionamento enviando modelo do carro e placa para que o sistema possa gerenciar a quantidade de vagas e mostrar em tempo real quantas ainda estão livres.
 
+### Site
+
 ## Requisitos
 
 ## Arquitetura
 
 ## Equipe
 
-
-
-- Venda de ingressos
-- Venda de consumação
-- Estacionamento
-- Combos
-- Sistema de pré venda, talvez com cpf
-- Gerenciamento de clientes
-- Gerenciamento de Djs
-- Gerenciamento do bar
-- Gerenciamento das entradas
-- Gerenciamento do site/page no Facebook

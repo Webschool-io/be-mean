@@ -1,6 +1,5 @@
 'use strict';
 
-
 const express = require('express');
 const Router = express.Router();
 
@@ -38,7 +37,7 @@ const routes = [
   }
 ];
 
-routes.forEach( (route, index) => {
+routes.forEach( route => {
   Router[route.method](route.path, route.callback);
 });
 
