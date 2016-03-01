@@ -1,6 +1,5 @@
 'use strict';
 
-const querystring = require('querystring');
 const callback = require('./action-callback-http-200');
 
 module.exports = (Organism) => {

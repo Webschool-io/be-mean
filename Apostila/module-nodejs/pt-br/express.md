@@ -1080,7 +1080,134 @@ Para facilitar o início de um projeto com Express iremos utilizar o `express-ge
 npm i --save express-generator
 ```
 
-Ensinar a porra toda antes do Atomic
+Agora basta executar `express nome-do-projeto`:
+
+```
+express aula-express-generator
+
+   create : aula-express-generator
+   create : aula-express-generator/package.json
+   create : aula-express-generator/app.js
+   create : aula-express-generator/public
+   create : aula-express-generator/public/javascripts
+   create : aula-express-generator/public/images
+   create : aula-express-generator/public/stylesheets
+   create : aula-express-generator/public/stylesheets/style.css
+   create : aula-express-generator/routes
+   create : aula-express-generator/routes/index.js
+   create : aula-express-generator/routes/users.js
+   create : aula-express-generator/views
+   create : aula-express-generator/views/index.jade
+   create : aula-express-generator/views/layout.jade
+   create : aula-express-generator/views/error.jade
+   create : aula-express-generator/bin
+   create : aula-express-generator/bin/www
+
+   install dependencies:
+     $ cd aula-express-generator && npm install
+
+   run the app:
+     $ DEBUG=aula-express-generator ./bin/www
+```
+
+Que ele irá criar toda a estrutura inicial de um projeto com Express, depois basta entrar na pasta criada e executar `npm install` para instalar sua dependências pré-definidas no `package.json`:
+
+```js
+{
+  "name": "aula-express-generator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0"
+  }
+}
+```
+
+Perceba que ele não vem com o Mongoose como padrão, então vamos instalá-lo:
+
+```
+npm i --save mongoose
+```
+
+Pronto agora você pode iniciar o projeto executando:
+
+```
+npm start
+```
+
+Como você deve ter notado o objeto `scripts` no `package.json`:
+
+```js
+  "scripts": {
+    "start": "node ./bin/www"
+  }
+```
+
+É nele que definimos o comando para iniciar, como já trabalhamos com o `nodemon` mude de `node` para `nodemon`:
+
+```js
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  }
+```
+
+Você deve estar estranhando esse arquivo `./bin/www` não? Pois normalmente iniciamos o projeto com `nodemon app.js`, então de onde vem esse `www`??
+
+Abra o arquivo `./bin/www`:
+
+```js
+#!/usr/bin/env node
+var debug = require('debug')('aula-express-generator');
+var app = require('../app');
+
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
+```
+
+Na primeira linha esse código `#!/usr/bin/env node` nos possibilita executar esse arquivo como se fosse um shell script, por exemplo:
+
+```
+./bin/www
+```
+
+Já na segunda linha chamamos o módulo de [*debug*](https://www.npmjs.com/package/debug) passando para ele o nome do módulo que estamos debugando e logo após importo o módulo principal do nosso sistema:
+
+```js
+var debug = require('debug')('aula-express-generator');
+var app = require('../app');
+```
+
+Tendo o módulo da nossa aplicação, `app`, agora basta definirmos sua porta padrão caso nenhuma seja passada na hora da inicialização do projeto.
+
+```js
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
+```
+
+Para passar um outro valor para porta basta adicionar `PORT=666` na hora de iniciar:
+
+```
+PORT=666 ./bin/www
+// ou
+PORT=8080 npm start
+```
+
+
 
 ### Express Atomic Design
 
@@ -1451,6 +1578,8 @@ module.exports = require(CONFIG.ORGANISM_FACTORY)(ORGANISM_NAME, MOLECULE);
 
 Agora vamos mudar o nome da Molécula `molecule-user` para apenas `molecule`, pois mesmo se o *Schema* agregar outras moléculas, essa sempre será a molécula que define nosso módulo.
 
+Refatorando ficará assim:
+
 ```js
 // config.js
 module.exports = {
@@ -1474,7 +1603,13 @@ Então mudamos nossa arquitetura para isso:
 Routes -> organism-actions -> organism-user -> organism-factory -> molecule -> atoms
 ```
 
-Agora nós encapsulamos as ações do Organismo em `organism-actions` que para ser gerado necessita do `organism-user` que por sua vez é gerado pelo `organism-factory` que cria o *Model* do Mongoose a partir de sua Molécula.
+Dessa forma nós encapsulamos as ações do Organismo em `organism-actions` que para ser gerado necessita do `organism-user` que por sua vez é gerado pelo `organism-factory` que cria o *Model* do Mongoose a partir de sua Molécula.
+
+Assim deixando nossa arquitetura bem modular e reusável.
+
+### Exercícios
+
+- Criar 1 módulo completo na arquitetura ensinada
 
 
 ## Performance
