@@ -1449,6 +1449,32 @@ module.exports = require(CONFIG.ORGANISM_FACTORY)(ORGANISM_NAME, MOLECULE);
 
 **PS: TODOS OS ARQUIVOS DEVEM OBRIGATORIAMENTE COMEÇAR COM 'use strict';** eu só não coloquei em todos exemplos aqui para poupar texto.
 
+Agora vamos mudar o nome da Molécula `molecule-user` para apenas `molecule`, pois mesmo se o *Schema* agregar outras moléculas, essa sempre será a molécula que define nosso módulo.
+
+```js
+// config.js
+module.exports = {
+  MODULE_NAME: 'User'
+, MOLECULE_PATH: './../molecules/molecule'
+, ORGANISM_FACTORY: './organism-factory'
+};
+
+// organism.js
+const CONFIG = require('./../config');
+const ORGANISM_NAME = CONFIG.MODULE_NAME;
+const MOLECULE_PATH = CONFIG.MOLECULE_PATH;
+const MOLECULE = require(MOLECULE_PATH);
+
+module.exports = require(CONFIG.ORGANISM_FACTORY)(ORGANISM_NAME, MOLECULE);
+```
+
+Então mudamos nossa arquitetura para isso:
+
+```
+Routes -> organism-actions -> organism-user -> organism-factory -> molecule -> atoms
+```
+
+Agora nós encapsulamos as ações do Organismo em `organism-actions` que para ser gerado necessita do `organism-user` que por sua vez é gerado pelo `organism-factory` que cria o *Model* do Mongoose a partir de sua Molécula.
 
 ## Performance
 
