@@ -1476,6 +1476,7 @@ Routes -> organism-actions -> organism-user -> organism-factory -> molecule -> a
 
 Agora nós encapsulamos as ações do Organismo em `organism-actions` que para ser gerado necessita do `organism-user` que por sua vez é gerado pelo `organism-factory` que cria o *Model* do Mongoose a partir de sua Molécula.
 
+
 ## Performance
 
 
