@@ -1342,6 +1342,73 @@ module.exports = {
 };
 ```
 
+Vamos refatorar o arquivo `routes` mudando de `Controller` para `Actions`, tirando assim um pouco do MVC para que possamos criar arquiteturas diferentes para nossos projetos:
+
+```js
+const Actions = require('./organisms/organism-actions');
+const routes = [
+    {
+      action: 'create'
+    , method: 'post'
+    , path: '/'
+    , callback: Actions.create
+    }
+  , {
+      action: 'retrieve'
+    , method: 'get'
+    , path: '/'
+    , callback: Actions.find
+    }
+  , {
+      action: 'get'
+    , method: 'get'
+    , path: '/:id'
+    , callback: Actions.findOne
+  }
+  , {
+      action: 'update'
+    , method: 'put'
+    , path: '/:id'
+    , callback: Actions.update
+  }
+  , {
+      action: 'delete'
+    , method: 'delete'
+    , path: '/:id'
+    , callback: Actions.remove
+  }
+];
+```
+
+Como você notou nós importamos o arquivo `organism-actions`, então precisamos criá-lo, basicamente é o mesmo `organism-crud-user` porém mais genérico:
+
+```js
+const Organism = require('./organism');
+const create = require('./../actions/action-create')(Organism);
+const find = require('./../actions/action-find')(Organism);
+const findOne = require('./../actions/action-findOne')(Organism);
+const update = require('./../actions/action-update')(Organism);
+const remove = require('./../actions/action-remove')(Organism);
+
+module.exports = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+```
+
+Perceba que também mudei o nome de `organism-user` para `organism` para deixar nosso código mais genérico já que esse Organismo existe apenas dentro do módulo de *User*, deixando o `organism.js` assim:
+
+```js
+const ORGANISM_NAME = 'User';
+const MOLECULE_PATH = './../molecules/molecule-user';
+const MOLECULE = require(MOLECULE_PATH);
+
+module.exports = require('./organism-factory')(ORGANISM_NAME, MOLECULE);
+```
+
 
 ## Performance
 

@@ -3,37 +3,37 @@
 const express = require('express');
 const Router = express.Router();
 
-const Controller = require('./organisms/organism-crud-user');
+const Actions = require('./organisms/organism-actions');
 const routes = [
     {
       action: 'create'
     , method: 'post'
     , path: '/'
-    , callback: Controller.create
+    , callback: Actions.create
     }
   , {
       action: 'retrieve'
     , method: 'get'
     , path: '/'
-    , callback: Controller.find
+    , callback: Actions.find
     }
   , {
       action: 'get'
     , method: 'get'
     , path: '/:id'
-    , callback: Controller.findOne
+    , callback: Actions.findOne
   }
   , {
       action: 'update'
     , method: 'put'
     , path: '/:id'
-    , callback: Controller.update
+    , callback: Actions.update
   }
   , {
       action: 'delete'
     , method: 'delete'
     , path: '/:id'
-    , callback: Controller.remove
+    , callback: Actions.remove
   }
 ];
 
