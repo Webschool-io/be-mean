@@ -1088,6 +1088,8 @@ Mas é claro que iremos atomizar o Express também, eu não seria nem louco de n
 
 Como já temos a parte do Mongoose atomizada, agora basta que integremos ela com as rotas, para isso iremos criar um JSON com a config das rotas para melhor reuso delas.
 
+#### Routes
+
 Para isso vamos definir quais são as informações necessárias definirmos em uma rota:
 
 - *method*: método HTTP;
@@ -1240,6 +1242,74 @@ E depois utilizá-lo na rota desejada:
 ```js
 app.use('/api/users', UserAPI);
 ```
+
+**Pronto!**
+
+Vamos testar o CRUD:
+
+**CREATE**
+
+![](https://cldup.com/xlnW6HboE8-3000x3000.png)
+
+**RETRIEVE**
+
+![](https://cldup.com/65xxQyL-MQ-1200x1200.png)
+![](https://cldup.com/C6CX86NwpX-3000x3000.png)
+
+**UPDATE**
+
+![](https://cldup.com/xPKgzOUe8z-1200x1200.png)
+![](https://cldup.com/-AQOBrmfMO.png)
+
+**DELETE**
+
+![](https://cldup.com/belgreycsL.png)
+![](https://cldup.com/PTfhA412Ad-1200x1200.png)
+
+#### Organisms
+
+Agora iremos refatorar nossos Organismos, para isso abra o arquivo `organism-crud-user.js`:
+
+```js
+const mongoose = require('mongoose');
+const Molecule = require('./../molecules/molecule-user');
+const Organism = mongoose.model('User', Molecule);
+const create = require('./../actions/action-create')(Organism);
+const find = require('./../actions/action-find')(Organism);
+const findOne = require('./../actions/action-findOne')(Organism);
+const update = require('./../actions/action-update')(Organism);
+const remove = require('./../actions/action-remove')(Organism);
+
+const CRUD = {
+  create
+, find
+, findOne
+, update
+, remove
+};
+
+module.exports = CRUD;
+```
+
+Vamos separar o Organismo do *User* do seu CRUD:
+
+```js
+// organism-user.js
+const mongoose = require('mongoose');
+const Molecule = require('./../molecules/molecule-user');
+
+module.exports = mongoose.model('User', Molecule);
+```
+
+Separando dessa forma ficará muito mais fácil de reusar e também de testar.
+
+Podemos ainda criar um gerador de Organismos genéricos dessa forma:
+
+```js
+
+
+```
+
 
 ## Performance
 
