@@ -1207,7 +1207,314 @@ PORT=666 ./bin/www
 PORT=8080 npm start
 ```
 
+Depois disso que iremos iniciar nosso servidor com a função `app.listen()`, a qual recebe 2 parâmetros:
 
+- porta
+- callback
+
+```js
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
+```
+
+Perceba que o valor da porta é retornado por `app.get('port')`, pois como já vimos em aulas passadas:
+
+- app.set(variavel, valor): define um valor para a variavel
+- app.get(variavel): retorna o valor da variavel
+
+**MUITO CUIDADO com o get!!!**
+
+Pois como sabemos `app.get` também é um método de roteamento, mas então como podemos usar a mesma função para coisas diferentes?
+
+**Pela interface da função.**
+
+Como assim????
+
+Perceba que quando desejamos buscar o valor de uma variável passamos para o `app.get` apenas o nome dessa variável e para utilizarmos a rota com o método `GET` usamos:
+
+```js
+app.get(URL, CALLBACK);
+```
+
+Então sempre tenha isso em mente!
+
+Com isso sabemos como inicia nosso projeto, então é hora de analisarmos o módulo principal, o `app.js`:
+
+Nas primeiras linhas tempos a importação dos módulos necessário, onde a maioria é um *Middleware*, como:
+
+```js
+const favicon = require('static-favicon');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+```
+
+Logo após vemos a importação de 2 módulos locais gerados pelo `express-generator`:
+
+```js
+const routes = require('./routes/index');
+const users = require('./routes/users');
+```
+
+Então abra o arquivo `./routes/index` para analisarmos:
+
+```js
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res) {
+  res.render('index', { title: 'Express' });
+});
+
+module.exports = router;
+```
+
+Ele tem nada mais que a definição da rota `/` que irá renderizar a *view* `views/index.jade`, passando o objeto `{ title: 'Express' }` para ela.
+
+Como você deve ter iniciado o projeto e entrado na URL definida, deve ter visto que a página inicial mostra exatamente esse valor, `Express`, como título.
+
+Para confirmar isso basta abrir a *view* `views/index.jade`:
+
+```jade
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+```
+
+Inicialmente vimos que essa *view* está importando a *view* `layout`, então abra-a:
+
+```jade
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+```
+
+Você deve ter percebido que as *views* com Jade são orientadas a identação, logo você deverá escolher entre TAB e Espaços, como também seu tamanho. **E isso não poderá mudar entre as *views* se não ela não renderizará!**
+
+Essa *view* é a base para todas as outras pois ela define o início do HTML com seus cabeçalhos e logo após em `body` ela cria um bloco de conteúdo com `block content`.
+
+Voltando para a *view* `index` notamos então que logo após o `extend layout`, criamos o `block content` que tem o mesmo nome do `block` definido em `layout` para que o conteúdo de `index` entre exatamente no espaço definido para ele.
+
+```jade
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+```
+
+Dentro do `block content` possuimos 2 *tags*:
+
+- h1
+- p
+
+Em `h1= title` estamos pegando o conteúdo da variável `title` que foi passada no `res.render` e atribuindo diretamente para o título `h1`, ficando assim:
+
+```html
+<h1>Express</h1>
+```
+
+E em `p Welcome to #{title}` estamos interpolando o valor de `title`, colocando-o dentro da *String* `Welcome to #{title}`, renderizando dessa forma:
+
+```html
+<p>Welcome to Express</p>
+```
+
+Logo você deve ter percebido que se eu usar `tag= variavel` eu estarei atribuindo o valor da variavel no texto da *tag*, enquanto que se eu quiser colocar esse valor dentro de outra *String* basta utilizar `#{variavel}`.
+
+Depois de entendermos o básico dessas *views* vamos voltar para o `./routes/index`:
+
+```js
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res) {
+  res.render('index', { title: 'Express' });
+});
+
+module.exports = router;
+```
+
+Perceba que em vez de definirmos a rota diretamente no `app.js` agora criamos um módulo para encapsular todas as rotas de um módulo, assim como em `./routes/users`:
+
+```js
+var express = require('express');
+var router = express.Router();
+
+/* GET users listing. */
+router.get('/', function(req, res) {
+  res.send('respond with a resource');
+});
+
+module.exports = router;
+```
+
+Vamos voltar para o `app.js`, já conhecemos muito bem a parte de definição das *views* e do uso dos *Middlewares*, logo não preciso explicar novamente.
+
+```js
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
+
+app.use(favicon());
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+```
+
+O que nos interessa é o que vem após:
+
+```js
+app.use('/', routes);
+app.use('/users', users);
+```
+
+É nessa parte onde definimos nossas rotas e qual módulo de rotas usado, perceba que utilizamos `app.use` e como você sabe essa é a função para executar *Middlewares*.
+
+Logo todas as rotas que iniciarem em `/` irão chamar o módulo `routes`, para visualizarmos isso melhor adicione a seguinte rota no módulo `routes/index`:
+
+```js
+router.get('/nois', function(req, res) {
+  res.render('index', { title: 'que voa' });
+});
+```
+
+E entre na url `http://localhost:3000/nois` que você verá a *view* renderizada com esse valor.
+
+**Mas pera aí se todas irão cair na `/` então ela não chegará nas outras rotas?**
+
+Ótima pergunta!
+
+Para visualizarmos melhor adicione mais uma rota nesse arquivo:
+
+```js
+router.get('/users', function(req, res) {
+  res.render('index', { title: 'USERS' });
+});
+```
+
+E entre na url `http://localhost:3000/users`, você verá a *view* `index` renderizada com esse valor.
+
+**E agora como irá chegar no módulo `app.use('/users', users)`?**
+
+Nesse caso ela **NUNCA** chegará nessa linha pois você definiu a mesma rota no módulo anterior e no Express **a ordem das rotas IMPORTA**.
+
+Pois quando uma requisição chegar ela será entregue primeiramente para o módulo `routes`, caso não encontre a rota nesse módulo ele irá para o próximo que possui essa rota, no caso `app.use('/users', users)`.
+
+Logo eu não posso criar rotas que possam ser utilizadas em outros módulos no módulo `routes`, então retire essa última rota criada.
+
+Analisando o módulo `users`:
+
+```js
+var express = require('express');
+var router = express.Router();
+
+/* GET users listing. */
+router.get('/', function(req, res) {
+  res.send('respond with a resource');
+});
+
+module.exports = router;
+```
+
+Percebemos que a rota definida internamente é a mesma do módulo `routes`: `router.get('/', ...)`.
+
+**Então como isso funciona?**
+
+Ela funciona pois na verdade essa rota é baseada na rota definida no `app.js`:
+
+```js
+app.use('/users', users);
+```
+
+Nesse caso ele só entrará nesse módulo quando a url iniciar em `/users`, adicione essa rota como exemplo:
+
+```js
+var express = require('express');
+var router = express.Router();
+
+/* GET users listing. */
+router.get('/', function(req, res) {
+  res.send('respond with a resource');
+});
+
+router.get('/json', function(req, res) {
+  res.json({name: 'Suissa'});
+});
+
+module.exports = router;
+```
+
+E entre na url `http://localhost:3000/users/json`, pronto agora você verá o retorno desse JSON.
+
+Voltando para o `app.js`, logo após a definição das rotas temos uma função que irá pegar qualquer rota que não exista, pois para chegar nesse ponto ele não pode ter entrado em nenhuma rota pré-definida acima:
+
+```js
+/// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+    var err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+});
+```
+
+E logo abaixo é definido as funções de manipulação de erros:
+
+```js
+/// error handlers
+
+// development error handler
+// will print stacktrace
+if (app.get('env') === 'development') {
+    app.use(function(err, req, res, next) {
+        res.status(err.status || 500);
+        res.render('error', {
+            message: err.message,
+            error: err
+        });
+    });
+}
+
+// production error handler
+// no stacktraces leaked to user
+app.use(function(err, req, res, next) {
+    res.status(err.status || 500);
+    res.render('error', {
+        message: err.message,
+        error: {}
+    });
+});
+```
+
+Quando o ambiente for definido como `'development'`, `app.get('env') === 'development'`, o erro será renderizado na *view* `error.jade` com seu *stacktrace*:
+
+```js
+res.render('error', {
+    message: err.message,
+    error: err
+});
+```
+
+Enquanto que no ambiente de produção só será renderizada a mensagem de erro:
+
+```js
+res.render('error', {
+    message: err.message,
+    error: {}
+});
+```
+
+Fechando assim nosso módulo com `module.exports = app` para que possamos importar no script que inicia o servidor.
 
 ### Express Atomic Design
 
