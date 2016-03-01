@@ -1,9 +1,9 @@
 'use strict';
 
-const getQuery = require('./action-get-query-http');
 const callback = require('./action-callback-http-200');
 
 module.exports = (Organism) => {
+  console.log('update');
   return (req, res) => {
     const query = {_id: req.params.id};
     const mod = req.body

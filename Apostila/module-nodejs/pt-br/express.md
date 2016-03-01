@@ -1539,6 +1539,8 @@ var users = require('./routes/users');
 var UserAPI = require('./modules/User/routes');
 ```
 
+E depois usamos ele na rota `/api/users`:
+
 ```js
 app.use('/', routes);
 app.use('/users', users);
@@ -1546,6 +1548,158 @@ app.use('/users', users);
 // API Routes
 app.use('/api/users', UserAPI);
 ```
+
+Pronto agora entrando em `localhost:3000/api/users` você verá apenas a mensagem da `index.jade` com o valor `User`, **depois de iniciarmos esse módulo precisamos fazer o que?**
+
+Integrar ele com nosso módulo do Mongoose, para isso vamos primeiramente instalar localmente o Mongoose com `npm i --save mongoose` para depois copiarmos as pasta do `mongoose-atomic-design`, que são:
+
+```
+actions
+atoms
+molecules
+organisms
+quarks
+```
+
+E colá-las no pasta do nosso módulo `modules/User` que tinha apenas `routes.js`.
+
+Antes de começarmos a integração, devemos criar a configuração do nosso banco em `db/config.js`:
+
+```js
+const mongoose = require('mongoose');
+const dbURI = 'mongodb://localhost/be-mean-instagram';
+
+mongoose.connect(dbURI);
+
+mongoose.connection.on('connected', function () {
+  console.log('Mongoose default connection connected to ' + dbURI);
+});
+mongoose.connection.on('error',function (err) {
+  console.log('Mongoose default connection error: ' + err);
+});
+mongoose.connection.on('disconnected', function () {
+  console.log('Mongoose default connection disconnected');
+});
+mongoose.connection.on('open', function () {
+  console.log('Mongoose default connection is open');
+});
+
+process.on('SIGINT', function() {
+  mongoose.connection.close(function () {
+    console.log('Mongoose default connection disconnected through app termination');
+    process.exit(0);
+  });
+});
+```
+
+Chamando essa configuração no início do `app.js`:
+
+```js
+require('./db/config');
+
+var express = require('express');
+```
+
+Agora sim podemos começar a integração pela listagem dos usuários em `modules/User/routes`:
+
+```js
+router.get('/', function(req, res) {
+  const listagem = [{name: 'Suissa'}];
+  res.json(listagem);
+});
+```
+
+Então sabemos que nessa rota iremos buscar os usuários no MongoDb e depois retornar como JSON, para isso importaremos o `organisms/organism-user` que possui todas as funcionalidades desse módulo e chamamos a função `find()`:
+
+```js
+const express = require('express');
+const router = express.Router();
+
+const User = require('./organisms/organism-user');
+
+router.get('/', function(req, res) {
+  User.find(req, res);
+});
+
+module.exports = router;
+```
+
+Porém como já manjamos de JavaScript, sabemos que podemos escrever assim:
+
+```js
+router.get('/', User.find);
+```
+
+A função `find` se encontra em `actions/action-find.js`:
+
+```js
+const callback = require('./action-callback-http-200');
+
+module.exports = (Organism) => {
+  return (req, res) => {
+    const query = {};
+    Organism.find(query, (err, data) => callback(err, data, res));
+  };
+}
+```
+
+**Agora ficou fácil fazer o resto do CRUD não?**
+
+```js
+router.get('/', User.find);
+router.post('/', User.create);
+router.put('/:id', User.update);
+router.delete('/:id', User.remove);
+```
+
+Essas são as ações utilizadas:
+
+```js
+// action-create
+'use strict';
+
+const callback = require('./action-callback-http-200');
+
+module.exports = (Organism) => {
+  return (req, res) => {
+    Organism.create(req.body, (err, data) => {
+      callback(err, data, res);
+    });
+  }
+};
+```
+
+
+```js
+// action-update
+'use strict';
+
+const callback = require('./action-callback-http-200');
+
+module.exports = (Organism) => {
+  return (req, res) => {
+    const query = {_id: req.params.id};
+    const mod = req.body
+    Organism.update(query, mod, (err, data) => callback(err, data, res));
+  };
+};
+```
+
+
+```js
+// action-remove
+'use strict';
+
+const callback = require('./action-callback-http-200');
+
+module.exports = (Organism) => {
+  return (req, res) => {
+    const query = {_id: req.params.id};
+    Organism.remove(query, (err, data) => callback(err, data, res));
+  };
+};
+```
+
 
 ### Express Atomic Design
 
