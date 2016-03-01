@@ -1070,7 +1070,7 @@ Depois de entender tudo isso iremos agora para nosso exercício.
 3. Integrar as funções do CRUD do Mongoose com o Express.
   - Com todas as funções do CRUD funcionando via API
 4. Criar um módulo responsável pelas respostas do sistema.
-5. Criar um módulo responsável por tratar os erros, primeiro parâmetro do *callbacks* 
+5. Criar um módulo responsável por tratar os erros, primeiro parâmetro do *callbacks*
 
 ## Express Generator
 
@@ -1137,7 +1137,7 @@ Claramente você percebeu que não definimos a função de *callback* diretament
 
 Após definirmos suas informações necessitaremos criar uma função que possa gerar elas automaticamente para o Express, então como fazer isso?
 
-Vamos lembrar da aula que aprendemos os métodos do *Router*:
+Vamos lembrar da [aula que aprendemos os métodos do *Router*](https://github.com/Webschool-io/be-mean-instagram/blob/master/Apostila/module-nodejs/pt-br/express.md#routermethodpath-callback--callback):
 
 ```js
 router.get('/', (req, res) => {});
