@@ -1516,6 +1516,37 @@ res.render('error', {
 
 Fechando assim nosso módulo com `module.exports = app` para que possamos importar no script que inicia o servidor.
 
+Agora que conhecemos o básico vamos iniciar criando um módulo novo em `modules/User` com o arquivo `routes.js` dentro dele.
+
+```js
+var express = require('express');
+var router = express.Router();
+
+router.get('/', function(req, res) {
+  res.render('index', { title: 'User' });
+});
+
+module.exports = router;
+```
+
+Onde importaremos esse módulo no `app.js`:
+
+```js
+var routes = require('./routes/index');
+var users = require('./routes/users');
+
+// API Modules
+var UserAPI = require('./modules/User/routes');
+```
+
+```js
+app.use('/', routes);
+app.use('/users', users);
+
+// API Routes
+app.use('/api/users', UserAPI);
+```
+
 ### Express Atomic Design
 
 Mas é claro que iremos atomizar o Express também, eu não seria nem louco de não ensinar uma maravilha dessas.
