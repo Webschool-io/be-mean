@@ -58,3 +58,79 @@ Sistemas que já existem mas podemos fazer melhor:
 ## Mapa Mental
 
 ![](mindmap.png)
+
+## Metodologia
+
+Como estamos utilizando a metodologia do Atomic Design a primeira coisa que precisamos fazer é definir seus Átomos.
+
+Obviamente fica bem difícil sabermos quais os campos necessários sem conhecer as entidades, Moléculas.
+
+Vamos pegar de exemplo o projeto de Doações, podemos dizer que usas entidades/moléculas são:
+
+- Usuário
+- Doador
+- Projeto
+- Doação
+- Fornecedor
+
+Após a definição dessas entidades já podemos começar a definir os Átomos, porém ainda não estamos atrelando os Átomos às Moléculas.
+
+Vou listar apenas alguns para dar ideia:
+
+- nome
+- email
+- password
+- telefones: ddd, numero
+- endereço: 
+  - logradouro
+  - nome
+  - numero
+  - complemento
+  - cep
+  - estado
+  - pais
+- cpf
+- cnpj
+- razao_social
+
+Após definirmos quais os átomos precisamos agora definir os quarks de cada átomo.
+
+Vamos pegar como exemplo o Átomo `nome`:
+
+```js
+const Atom = {
+  type: String
+, get: require('./../quarks/quark-toUpper')
+, set: require('./../quarks/quark-toLower')
+, validate: require('./../quarks/quark-validate-string-lengthGTE3')
+, required: true
+, index: true
+}
+
+module.exports = Atom;
+```
+
+Sabemos que a estrutura acima é a estrutura padrão para qualquer Átomo do Mongoose, onde cada atributo do Átomo é um Quark.
+
+Vamos ver como será alguns de seus Quarks:
+
+```js
+// quark-toUpper.js
+module.exports = (v) => v.toUpperCase();
+
+```
+
+```js
+// quark-toLower.js
+module.exports = (v) => v.toLowerCase();
+```
+
+```js
+// quark-validate-string-lengthGTE3
+module.exports = {
+  validator: (v) => v >= 18
+, message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
+};
+```
+
+

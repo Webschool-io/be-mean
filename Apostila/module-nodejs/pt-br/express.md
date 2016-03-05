@@ -1709,7 +1709,7 @@ Como já temos a parte do Mongoose atomizada, agora basta que integremos ela com
 
 #### Routes
 
-Para isso vamos definir quais são as informações necessárias definirmos em uma rota:
+Para isso vamos analisar quais são as informações necessárias definirmos em uma rota:
 
 - *method*: método HTTP;
 - *path*: url da rota;
@@ -2102,6 +2102,7 @@ Assim deixando nossa arquitetura bem modular e reusável.
 ### Exercícios
 
 - Criar 1 módulo completo na arquitetura ensinada
+
 
 
 ## Performance

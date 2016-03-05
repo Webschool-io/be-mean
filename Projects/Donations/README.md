@@ -45,8 +45,40 @@ Claro que não precisamos doar para Angular, React, MySQL e outros que são mant
 
 ## Arquitetura
 
+## Entidades
+
+- Projeto
+  + Orçamento
+  + Equipe
+- Doador
+  + Pessoa Física
+  + Pessoa Jurídica
+- Fornecedor
+- Doação
+
+
+### Projeto
+
+A entidade Projeto representa qualquer projeto social que necessite de doações.
+
+
 ## Equipe
 
 - [Carlos Machel](https://github.com/carlosmachel)
 - [Ednilson Amaral](https://github.com/ednilsonamaral)
 - [Eliel - Hc3](https://github.com/hc3)
+
+## Modelagem
+
+
+## Planejamento
+
+O planejamento é separado em etapas mensais.
+
+### Etapa 1
+
+Na primeira etapa criaremos a API REST do CRUD das entidades com integração com Pagseguro.
+
+[https://github.com/Webschool-io/Project-Donations](https://github.com/Webschool-io/Project-Donations)
+
+
