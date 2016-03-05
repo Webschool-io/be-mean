@@ -62,12 +62,14 @@ git branch -D nomedobranch
 Exemplo:
 ```
 git checkout master
-git merge upstream/master master
+git merge corrigindo-link master
 git branch -D corrigindo-link
 ```
 
 ### 4º passo - envie as alterações para o seu fork
 ```
+git fetch upstream
+git rebase upstream/master
 git push origin master
 
 ```
