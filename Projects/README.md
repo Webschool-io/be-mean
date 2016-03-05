@@ -100,9 +100,9 @@ Vamos pegar como exemplo o Átomo `nome`:
 ```js
 const Atom = {
   type: String
-, get: require('./../quarks/quark-toUpper')
-, set: require('./../quarks/quark-toLower')
-, validate: require('./../quarks/quark-validate-string-lengthGTE3')
+, get: require('./../quarks/toUpper')
+, set: require('./../quarks/toLower')
+, validate: require('./../quarks/notEmptyStringMongoose')
 , required: true
 , index: true
 }
@@ -115,22 +115,68 @@ Sabemos que a estrutura acima é a estrutura padrão para qualquer Átomo do Mon
 Vamos ver como será alguns de seus Quarks:
 
 ```js
-// quark-toUpper.js
+// toUpper.js
 module.exports = (v) => v.toUpperCase();
 
 ```
 
 ```js
-// quark-toLower.js
+// toLower.js
 module.exports = (v) => v.toLowerCase();
 ```
 
 ```js
-// quark-validate-string-lengthGTE3
+// notEmptyStringMongoose
+'use strict';
+
+const notEmpty = require('./notEmptyString');
+
 module.exports = {
-  validator: (v) => v >= 18
-, message: 'Nome {VALUE} precisa ser maior que 3 caracteres'
+  validator: (value) => {
+    return notEmpty.validate(value);
+  }
+, message: 'O valor {VALUE} para o campo nome não pode ser vazio!'
 };
 ```
+
+Para facilitar o reuso eu separei os Quarks puros dos especificos para o Mongoose, pois o Quark do Mongose tem uma estrutura diferente do Quarks básico, os nossos Quarks não possuem o campo de mensagem, por exemplo.
+
+Então no caso eu uso o Quark base `notEmptyStringMongoose` que utiliza o Quark `notEmptyBASE`:
+
+```js
+// notEmptyString
+'use strict';
+
+const notEmpty = require('./notEmptyBASE');
+
+module.exports = {
+  validate: (value) => {
+    const validated = notEmpty.validate(value);
+    if (!validated) return false;
+
+    const isOnlyLetters = require('./isOnlyLetters')(value);
+    if (!isOnlyLetters) return false;
+
+    return true;
+  }
+};
+```
+
+```js
+// notEmpty
+'use strict';
+
+module.exports = {
+  validate: (value) => {
+    if (value === null || value === undefined) return false;
+    return true;
+  }
+};
+```
+
+Dessa forma podemos criar Quarks mais complexos apenas agregando Quarks menores.
+
+Com isso nós montamos 1 Átomo, agora basta fazer a mesma coisa para todos os Átomos, não esquecendo de **SEMPRE** criar os Quarks antes de tudo.
+
 
 
