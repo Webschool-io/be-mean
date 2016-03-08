@@ -4,7 +4,7 @@
 - Coloque o email que você digitou antes e crie uma senha
 - Entre no channel `be-mean-instagram`
 
-# [Grupo do Telegram](https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw)
+# [Grupo do Telegram](https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A)
 
 Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw](https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
 
