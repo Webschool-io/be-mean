@@ -6,7 +6,7 @@
 
 # [Grupo do Telegram](https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A)
 
-Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw](https://telegram.me/joinchat/BJ_gtwdXoK18LvFTTBxDKw), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
+Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A](https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A), lembrando que só é permitido postagens e discussões sobre dúvidas e/ou assuntos pertinentes ao curso, aquele que não respeitar essas regras será banido.
 
 # Sobre
 
