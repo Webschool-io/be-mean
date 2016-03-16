@@ -34,7 +34,7 @@ Certificados:
 - AngularJs (15 horas)
 
 
-**Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
+**Acesse [http://webschool.io/bemean](Webschool.io/bemean) para apoiar.**
 
 
 ## R$100
@@ -60,7 +60,7 @@ Certificados:
   - Stylus (2 horas)
   - PostCSS (2 horas)
 
-**Acesse [http://dagora.net/be-mean/](http://dagora.net/be-mean/) para apoiar.**
+**Acesse [http://webschool.io/bemean](Webschool.io/bemean) para apoiar.**
 
 
 # Certificado
@@ -68,12 +68,12 @@ Certificados:
 Para tirar o certificado você precisa entregar 3 coisas:
 
 - **Todos os exercícios;**
-- **O Artigo e Projeto final;**
+- **O Artigo;**
+- **O Projeto final;**
 - **Um resumo em forma de blog/github-pages.**
 
 Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
 
-**ps: Ganhe adesivos trazendo amigos para o curso!**
 
 ## Prazo
 
@@ -82,7 +82,7 @@ Esse resumo pode ser apenas um README.md em um repositório que vire um site com
 
 # O Professor
 
-Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 3 apenas com JavaScript.
+Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favor me chame assim, já trabalho com Web uns 10 anos profissionalmente e há mais de 4 apenas com JavaScript.
 
 Criei o Be MEAN há mais de 2 anos, sendo o único curso presencial até início de 2015 e o único **AO VIVO** quase bimensalmente.
 
@@ -99,15 +99,13 @@ Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados 
 
 A aula segue um grande *workflow* até ser divulgada:
 
-1. Resolução do exercício da aula anterior;
-2. Gravação da resolução do exercício;
-3. Criação do material na apostila;
-4. Execução dos códigos para confirmação;
-5. Criação do conteúdo dos slides;
-6. Gravação da aula;
-7. Edição da aula;
-8. Upload da aula;
-9. Divulgação do link.
+1. Criação do material na apostila;
+2. Execução dos códigos para confirmação;
+3. Criação do conteúdo dos slides;
+4. Gravação da aula;
+5. Edição da aula;
+6. Upload da aula;
+7. Divulgação do link.
 
 ## Início
 
