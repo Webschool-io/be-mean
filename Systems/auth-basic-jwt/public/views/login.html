@@ -1,31 +1,31 @@
 <div class="container">
-	<h1 class="text-center">Entrar no sistema</h1>
+  <h1 class="text-center">Entrar no sistema</h1>
 
-	<div ng-show="message" class="alert {{message.type}}" role="alert">
-		<h2 class="text-center"><i class="fa fa-thumbs-o-down"></i> {{message.status}} {{message.text}}</h2>
-	</div>
-	
-	<form ng-submit="userCtrl.loginUser()" role="navigation">
-		<div class="col-sm-4 col-sm-offset-4">
-			<div class="form-group has-feedback">
-				<label class="control-label" for="inputGroupSuccess1">Login:</label>
-				<input ng-model="userCtrl.userLogin.username" type="text" class="form-control" placeholder="nome da sua conta">
-				<span class="glyphicon glyphicon-user form-control-feedback" aria-hidden="true"></span>
-			</div>
-		</div>
-		<div class="col-sm-4 col-sm-offset-4">
-			<div class="form-group has-feedback">
-				<label class="control-label" for="inputGroupSuccess1">Senha:</label>
-				<input ng-model="userCtrl.userLogin.password" type="password" class="form-control" placeholder="sua senha">
-				<span class="glyphicon glyphicon-asterisk form-control-feedback" aria-hidden="true"></span>
-			</div>
-		</div>
-		<div class="col-sm-4 col-sm-offset-4">
-			<div class="form-group">
-				<div class="btn-group">
-					<button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i> Entrar</button>
-				</div>
-			</div>
-		</div>
-	</form>
+  <div ng-show="message" class="alert {{message.type}}" role="alert">
+    <h2 class="text-center"><i class="fa fa-thumbs-o-down"></i> {{message.status}} {{message.text}}</h2>
+  </div>
+
+  <form ng-submit="userCtrl.loginUser()" role="navigation">
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="form-group has-feedback">
+        <label class="control-label" for="inputGroupSuccess1"> Login:</label>
+        <input ng-model="userCtrl.userLogin.username" type="text" class="form-control" placeholder="nome da sua conta">
+        <span class="glyphicon glyphicon-user form-control-feedback" aria-hidden="true"></span>
+      </div>
+    </div>
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="form-group has-feedback">
+        <label class="control-label" for="inputGroupSuccess1"> Senha:</label>
+        <input ng-model="userCtrl.userLogin.password" type="password" class="form-control" placeholder="sua senha">
+        <span class="glyphicon glyphicon-asterisk form-control-feedback" aria-hidden="true"></span>
+      </div>
+    </div>
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="form-group">
+        <div class="btn-group">
+          <button class="btn btn-primary btn-lg"><i class="fa fa-sign-in"></i> Entrar</button>
+        </div>
+      </div>
+    </div>
+  </form>
 </div>
