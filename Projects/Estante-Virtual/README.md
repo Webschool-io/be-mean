@@ -14,7 +14,11 @@ Fazer parceria com editoras para sortearmos 1 livro por mês, o mais procurado. 
 
 ## O Problema
 
+As plataformas atuais no mercado não passam confiança aos usuários. Não se sabe se os livros realmente chegarão ao destino, e se o usuário que emprestar terá algum retorno desse empréstimo, seja com outro livro ou com o reconhecimento de que ajudou alguém.
+
 ## A Solução
+
+Construir uma plataforma confiável que possibilite a interação e troca de conhecimento.
 
 ## Requisitos
 
