@@ -26,8 +26,8 @@ Construir uma plataforma confiável que possibilite a interação e troca de con
 
 ## Equipe
 
-- [Tiago Emerick](https://github.com/tiagoeborsanyi)
 - [Alan Siqueira](https://github.com/alannsiqueira)
 - [Edimar Barros](https://github.com/BarrosEdimar)
 - [Michel Ferreira Souza](https://github.com/souzacristsf)
 - [Márcio Dias](https://github.com/spaceonline)
+- [Ronaldo Paggi](https://github.com/rpaggi)
