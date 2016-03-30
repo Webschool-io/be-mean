@@ -318,6 +318,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             * post
             * put
 - Aula 04
+   + Vídeo: [https://www.youtube.com/watch?v=f9SE7Y0qYEg](https://www.youtube.com/watch?v=f9SE7Y0qYEg)
     + [Callbacks](./Apostila/module-nodejs/pt-br/callback.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
     + [FileSystem](./Apostila/module-nodejs/pt-br/fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
         * mkdir
@@ -326,7 +327,13 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * readFile
         * rename
         * writeFile
+
+- Aula ESPECIAL
+   + Vídeo: [https://www.youtube.com/watch?v=sw7kPzkIN4g](https://www.youtube.com/watch?v=sw7kPzkIN4g)
+    + [ES6](./Apostila/module-es6/README.md) - Prof.: [Suissa](https://github.com/suissa)
+
 - Aula 05
+   + Vídeo: [https://www.youtube.com/watch?v=Kg4RovUQWeg](https://www.youtube.com/watch?v=Kg4RovUQWeg)
     + [npm](./Apostila/module-nodejs/pt-br/npm.md) - Prof.: [Suissa](https://github.com/suissa)
         * init
         * install --global ou -g
@@ -334,21 +341,38 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * install --save-dev
         * install --optional
         * run
+
+   + Vídeo: [https://www.youtube.com/watch?v=DD1XKyaq9NE](https://www.youtube.com/watch?v=DD1XKyaq9NE)
     + [Globals](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
         * CommonJS
     + [Process](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
+    
 - Aula 06
+   + Vídeo: [https://www.youtube.com/watch?v=O8odFa3dl-k](Parte 1/3)
+   + Vídeo: [https://www.youtube.com/watch?v=02a_lo_KLwU](Parte 2/3)
+   + Vídeo: [https://www.youtube.com/watch?v=XeLRYhrcKJo](Parte 3/3)
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
         * Update
         * Delete
+        * Validação
+        
 - Aula 07
+   + Vídeo: [https://www.youtube.com/watch?v=i6h1A-l11-k](https://www.youtube.com/watch?v=i6h1A-l11-k)
     + [Eventos](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
     + [Promises](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
 - Aula 08
+
+   + Vídeo: [https://www.youtube.com/watch?v=tscqqhVQje8](Parte 1/6) 
+   + Vídeo: [https://www.youtube.com/watch?v=_wj0y_77CYs](Parte 2/6)
+   + Vídeo: [https://www.youtube.com/watch?v=8M4pN64BsnU](Parte 3/6)
+   + Vídeo: [https://www.youtube.com/watch?v=xR3ex_YjQyc](Parte 4/6)
+   + Vídeo: [https://www.youtube.com/watch?v=VRGI-R_PxpQ](Parte 5/6)
+   + Vídeo: [https://www.youtube.com/watch?v=3Hq7O7TeXjw](Parte 6/6)
+   
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
         * Getters & Setters
@@ -360,6 +384,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Plugins
         * Middlewares
 - Aula 09
+   + Vídeo: [https://www.youtube.com/watch?v=dHeb_Gs4zzo](Parte 1/3)
+   + Vídeo: [https://www.youtube.com/watch?v=OCB7jMZBIas](Parte 2/3)
     + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
