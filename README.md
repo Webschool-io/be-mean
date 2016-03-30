@@ -348,9 +348,9 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     + [Process](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
     
 - Aula 06
-   + Vídeo: [https://www.youtube.com/watch?v=O8odFa3dl-k](Parte 1/3)
-   + Vídeo: [https://www.youtube.com/watch?v=02a_lo_KLwU](Parte 2/3)
-   + Vídeo: [https://www.youtube.com/watch?v=XeLRYhrcKJo](Parte 3/3)
+   + Vídeo: [Parte 1/3](https://www.youtube.com/watch?v=O8odFa3dl-k)
+   + Vídeo: [Parte 2/3](https://www.youtube.com/watch?v=02a_lo_KLwU)
+   + Vídeo: [Parte 3/3](https://www.youtube.com/watch?v=XeLRYhrcKJo)
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
@@ -366,12 +366,12 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Mongoose
 - Aula 08
 
-   + Vídeo: [https://www.youtube.com/watch?v=tscqqhVQje8](Parte 1/6) 
-   + Vídeo: [https://www.youtube.com/watch?v=_wj0y_77CYs](Parte 2/6)
-   + Vídeo: [https://www.youtube.com/watch?v=8M4pN64BsnU](Parte 3/6)
-   + Vídeo: [https://www.youtube.com/watch?v=xR3ex_YjQyc](Parte 4/6)
-   + Vídeo: [https://www.youtube.com/watch?v=VRGI-R_PxpQ](Parte 5/6)
-   + Vídeo: [https://www.youtube.com/watch?v=3Hq7O7TeXjw](Parte 6/6)
+   + Vídeo: [Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8) 
+   + Vídeo: [Parte 2/6](https://www.youtube.com/watch?v=_wj0y_77CYs)
+   + Vídeo: [Parte 3/6](https://www.youtube.com/watch?v=8M4pN64BsnU)
+   + Vídeo: [Parte 4/6](https://www.youtube.com/watch?v=xR3ex_YjQyc)
+   + Vídeo: [Parte 5/6](https://www.youtube.com/watch?v=VRGI-R_PxpQ)
+   + Vídeo: [Parte 6/6](https://www.youtube.com/watch?v=3Hq7O7TeXjw)
    
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
@@ -384,8 +384,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Plugins
         * Middlewares
 - Aula 09
-   + Vídeo: [https://www.youtube.com/watch?v=dHeb_Gs4zzo](Parte 1/3)
-   + Vídeo: [https://www.youtube.com/watch?v=OCB7jMZBIas](Parte 2/3)
+   + Vídeo: [Parte 1/3](https://www.youtube.com/watch?v=dHeb_Gs4zzo)
+   + Vídeo: [Parte 2/3](https://www.youtube.com/watch?v=OCB7jMZBIas)
     + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
