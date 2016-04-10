@@ -1,0 +1,22 @@
+{
+  "name": "quarks-testes",
+  "version": "1.0.0",
+  "description": "Testes dos quarks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "tdd",
+    "atomic",
+    "design",
+    "quarks"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}

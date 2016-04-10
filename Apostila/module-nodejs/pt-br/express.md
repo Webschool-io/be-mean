@@ -201,12 +201,6 @@ res.redirect('back');
 Criar um módulo de redirecionamento para quando não encontrar a rota redirecionar para `url/404`.
 
 
-### res.set(field [, value])
-
-
-#### Exercício
-
-Criar um módulo onde seja passado o retorno, podendo ser *String* ou *Buffer*, caso seja *String* definir cabeçalho correto mesmo usando `res.send`.
 
 
 
@@ -542,6 +536,56 @@ app.listen(3000, function () {
   console.log('Servidor rodando em locahost:3000');
 });
 ```
+
+### res.format(object)
+
+Executa *content-negotiation* sobre o cabeçalho `Accept` do HTTP no objeto `request`, quando presente. Ele usa `req.accepts()` para selecionar um manipulador para o `request`, com base nos tipos aceitáveis ordenados por seus valores de qualidade. Se o cabeçalho não for especificado, o primeiro *callback* é invocado. Quando não for encontrada nenhuma correspondência, o servidor responde com 406 `Not Acceptable`, ou chama o *callback* padrão.
+
+O cabeçalho de resposta `Content-Type` é definido quando uma chamada de retorno é selecionado. No entanto, você pode alterar isso dentro do *callback* usando métodos como `res.set()` ou `res.type()`.
+
+O exemplo a seguir iria responder com `{ "message": "hey"}` quando o campo Aceitar cabeçalho é definido como `application/json` ou `*/json` (no entanto, se ele é `*/*`, então a resposta será `hey`).
+
+```js
+res.format({
+  'text/plain': function(){
+    res.send('hey');
+  },
+
+  'text/html': function(){
+    res.send('<p>hey</p>');
+  },
+
+  'application/json': function(){
+    res.send({ message: 'hey' });
+  },
+
+  'default': function() {
+    // log the request and respond with 406
+    res.status(406).send('Not Acceptable');
+  }
+});
+```
+
+### res.get(field)
+
+Retorna o cabeçalho de resposta HTTP especificado pelo campo, é case-insensitive.
+
+```js
+res.get('Content-Type');
+// => "text/plain"
+```
+
+### res.set(field [, value])
+Sets the response’s HTTP header field to value. To set multiple fields at once, pass an object as the parameter.
+
+res.set('Content-Type', 'text/plain');
+
+res.set({
+  'Content-Type': 'text/plain',
+  'Content-Length': '123',
+  'ETag': '12345'
+});
+Aliased as res.header(field [, value]).
 
 
 
