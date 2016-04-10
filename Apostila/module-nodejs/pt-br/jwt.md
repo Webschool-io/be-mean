@@ -1,6 +1,16 @@
-### JWT
+# JWT - JSON Web Token
 
-Nós vamos entender pro míúdos como essa tecnologia funciona. O JWT é uma tecnologia frequentemente usada para **transmissão de dedados** e **autenticação**.
+Antes de começar a falar de *tokens* precisamos entender melhor os sistemas de autenticação tradicionais primeiro, **basicamente** é isso:
+
+1. Quando o usuário for fazer login irá preencher seu email e senha.
+2. Chagando no backend seus dados são validados consultando sua existência no banco de dados.
+3. Caso encontre esse usuário o sistema cria uma sessão e retorna o ID dessa sessão no cabeçalho de resposta para ser usado no Frontend.
+
+![](./images/traditional-authentication-system-png.png)
+
+
+
+Nós vamos entender por míúdos como essa tecnologia funciona. O JWT é uma tecnologia frequentemente usada para **transmissão de dedados** e **autenticação**.
 
 A definição do mesmo trás duas palavras chaves que estão destacadas, vamos dá uma lida juntos:
 
