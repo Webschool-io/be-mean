@@ -1,6 +1,5 @@
 // Karma configuration
 // Generated on Mon Sep 07 2015 14:20:30 GMT-0300 (BRT)
-
 module.exports = function(config) {
   config.set({
 
@@ -15,17 +14,17 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-			"../public/libs/angular/angular.js",
-			"../public/libs/angular-resource/angular-resource.js",
-			"../public/libs/angular-route/angular-route.js",
-			"../public/libs/angular-bootstrap/ui-bootstrap.js",
-			"../public/libs/ngstorage/ngStorage.js",
-			"../public/libs/angular-mocks/angular-mocks.js",
-			"../public/src/modules/*.js",
-			"../public/src/services/*.js",
-			"../public/src/controllers/*.js",
-			"../public/src/routes/*.js",
-			"../test/spec/**/*Spec.js"
+      "../public/libs/angular/angular.js",
+      "../public/libs/angular-resource/angular-resource.js",
+      "../public/libs/angular-route/angular-route.js",
+      "../public/libs/angular-bootstrap/ui-bootstrap.js",
+      "../public/libs/ngstorage/ngStorage.js",
+      "../public/libs/angular-mocks/angular-mocks.js",
+      "../public/src/modules/*.js",
+      "../public/src/services/*.js",
+      "../public/src/controllers/*.js",
+      "../public/src/routes/*.js",
+      "../test/spec/**/*Spec.js"
     ],
 
 

@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br" ng-app="rschool">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title>RSCHOOL</title>
-		<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css" type="text/css" />
-		<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" type="text/css" />
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-	</head>
-	<body>
-		<navbar-top></navbar-top>
-		<ng-view></ng-view>
-		<!-- ./vendor -->
-		<script src="libs/angular/angular.js"></script>
-		<script src="libs/angular-bootstrap/ui-bootstrap.js"></script>
-		<script src="libs/angular-route/angular-route.js"></script>
-		<script src="libs/angular-resource/angular-resource.js"></script>
-		<script src="libs/ngstorage/ngStorage.js"></script>
-		<!-- own scripts -->
-		<script src="src/modules/users.js"></script>
-		<script src="src/modules/components.js"></script>
-		<script src="src/modules/students.js"></script>
-		<script src="src/modules/routes.js"></script>
-		<script src="src/modules/main.js"></script>
-		<script src="src/services/students.js"></script>
-		<script src="src/services/users.js"></script>
-		<script src="src/controllers/studentctrl.js"></script>
-		<script src="src/controllers/userctrl.js"></script>
-		<script src="src/controllers/logoutCtrl.js"></script>
-		<script src="src/controllers/lessonctrl.js"></script>
-		<script src="src/directives/navbarTop.js"></script>
-		<script src="src/routes/routes.js"></script>
-		<!-- ./own scripts -->
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RSCHOOL</title>
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <navbar-top></navbar-top>
+    <ng-view></ng-view>
+
+    <!-- vendor scripts -->
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="libs/angular-route/angular-route.js"></script>
+    <script src="libs/angular-resource/angular-resource.js"></script>
+    <script src="libs/ngstorage/ngStorage.js"></script>
+    <!-- ./vendor scripts -->
+    <!-- own scripts -->
+    <script src="src/modules/main.js"></script>
+    <script src="src/services/students.js"></script>
+    <script src="src/services/users.js"></script>
+    <script src="src/controllers/studentctrl.js"></script>
+    <script src="src/controllers/userctrl.js"></script>
+    <script src="src/controllers/logoutCtrl.js"></script>
+    <script src="src/controllers/lessonctrl.js"></script>
+    <script src="src/directives/navbarTop.js"></script>
+    <script src="src/routes/routes.js"></script>
+    <!-- ./own scripts -->
+  </body>
 </html>
