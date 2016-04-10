@@ -9,8 +9,7 @@ Antes de começar a falar de *tokens* precisamos entender melhor os sistemas de 
 ![](./images/traditional-authentication-system-png.png)
 
 
-
-Nós vamos entender por míúdos como essa tecnologia funciona. O JWT é uma tecnologia frequentemente usada para **transmissão de dedados** e **autenticação**.
+O JWT é uma tecnologia frequentemente usada para **transmissão de dados** e **autenticação**.
 
 A definição do mesmo trás duas palavras chaves que estão destacadas, vamos dá uma lida juntos:
 
@@ -24,14 +23,16 @@ Bom... após uma breve risada dessa imagem, vamos para as definições:
 ***autocontida***: O definicão trás um termo chamado **payload** que contém os dados do usuário, por exemplo:
 ```json
 {
-  "name":"Caio Cutrim",
-  "apelido":"Sunga velha deu cupim",
+  "name":"Jean Mestre da Treta Nascimento",
+  "nick":"suissa",
   "admin":true
 }
 ```
+
 Outro termo usado no payload são as *claims* (ou reenvidicações) que são usadas para autorizar o envio de mensagem atráves do token, as *claims* são os dados do usuário, por isso o termo usado no payload é autocontido, porque contém por si só os dados que precisam ser usados.
 
-A estrutura de jwt web token é semelhante a essa 
+A estrutura de jwt web token é semelhante a essa:
+
 ```
 xxxxx.yyyyy.zzzzz
 ```
@@ -42,9 +43,10 @@ Essa estrutura é basicamente separada por ponts "." (como uma chamada de objeto
     payload-->yyyyy;
     signature-->zzzzz;
 ```
+
 E assinatura? o que ela significa pra gente?
-Beleza, vamos lá:
-A assinatura é um agoritmo baseado no secret(eu gosto de chamar de palavra-chave) que é definido seguramente no *server-side* da sua aplicação e criptografado randomicamente em base-64, com surpa-citado, você pode usar outra forma de criptografar essa assinatura, como HMAC-SHA256, inclusive. A grande importância da assinatura é que ela permite que o token seja imodificável durante sua transmissão pela rede, legal né?
+
+A assinatura é um agoritmo baseado no *secret* que é definido seguramente no *Backend* da sua aplicação e criptografado randomicamente em base-64, com surpa-citado, você pode usar outra forma de criptografar essa assinatura, como HMAC-SHA256, inclusive. A grande importância da assinatura é que ela permite que o token seja imodificável durante sua transmissão pela rede, legal né?
 ![hue](http://cdn.meme.am/instances/37690835.jpg)  
 
 ```javascript
