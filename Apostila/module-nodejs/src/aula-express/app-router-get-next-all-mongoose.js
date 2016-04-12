@@ -18,8 +18,8 @@ router.get('/', (req, res) => {
   require('./modules/pokemons/models/model-pokemon-list')(req, res);
 });
 
-// Passa o módulo para a URL /hello
-app.use('/hello', router);
+// Passa o módulo para a URL /api/pokemons
+app.use('/api/pokemons', router);
 
 app.listen(3000, () => {
   console.log('Servidor rodando em localhost:3000');

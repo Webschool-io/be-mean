@@ -537,57 +537,6 @@ app.listen(3000, function () {
 });
 ```
 
-### res.format(object)
-
-Executa *content-negotiation* sobre o cabeçalho `Accept` do HTTP no objeto `request`, quando presente. Ele usa `req.accepts()` para selecionar um manipulador para o `request`, com base nos tipos aceitáveis ordenados por seus valores de qualidade. Se o cabeçalho não for especificado, o primeiro *callback* é invocado. Quando não for encontrada nenhuma correspondência, o servidor responde com 406 `Not Acceptable`, ou chama o *callback* padrão.
-
-O cabeçalho de resposta `Content-Type` é definido quando uma chamada de retorno é selecionado. No entanto, você pode alterar isso dentro do *callback* usando métodos como `res.set()` ou `res.type()`.
-
-O exemplo a seguir iria responder com `{ "message": "hey"}` quando o campo Aceitar cabeçalho é definido como `application/json` ou `*/json` (no entanto, se ele é `*/*`, então a resposta será `hey`).
-
-```js
-res.format({
-  'text/plain': function(){
-    res.send('hey');
-  },
-
-  'text/html': function(){
-    res.send('<p>hey</p>');
-  },
-
-  'application/json': function(){
-    res.send({ message: 'hey' });
-  },
-
-  'default': function() {
-    // log the request and respond with 406
-    res.status(406).send('Not Acceptable');
-  }
-});
-```
-
-### res.get(field)
-
-Retorna o cabeçalho de resposta HTTP especificado pelo campo, é case-insensitive.
-
-```js
-res.get('Content-Type');
-// => "text/plain"
-```
-
-### res.set(field [, value])
-Sets the response’s HTTP header field to value. To set multiple fields at once, pass an object as the parameter.
-
-res.set('Content-Type', 'text/plain');
-
-res.set({
-  'Content-Type': 'text/plain',
-  'Content-Length': '123',
-  'ETag': '12345'
-});
-Aliased as res.header(field [, value]).
-
-
 
 ### res.status(code)
 
@@ -685,13 +634,76 @@ Adicionar o retorno correto para os seguinte códigos:
 - 500
 
 
+### res.set(field [, value])
+
+Define campo de cabeçalho do HTTP da resposta. Para definir vários campos de uma só vez, passar um objeto como o parâmetro.
+
+```js
+res.set('Content-Type', 'text/plain');
+
+res.set({
+  'Content-Type': 'text/plain',
+  'Content-Length': '123',
+  'ETag': '12345'
+});
+```
+
+É um atalho para `res.header(field [, value])`.
+
+### res.get(field)
+
+Retorna o cabeçalho de resposta HTTP especificado pelo campo, é case-insensitive.
+
+```js
+res.get('Content-Type');
+// => "text/plain"
+```
+
+
 ### res.type(type)
+
+Define o cabeçalho `Content-Type` do HTTP para o tipo do da resposta.
+
+```js
+res.type('.html');              // => 'text/html'
+res.type('html');               // => 'text/html'
+res.type('json');               // => 'application/json'
+res.type('application/json');   // => 'application/json'
+res.type('png');                // => image/png:
+```
+
+
+### res.format(object)
+
+Executa *content-negotiation* sobre o cabeçalho `Accept` do HTTP no objeto `request`, quando presente. Ele usa `req.accepts()` para selecionar um manipulador para o `request`, com base nos tipos aceitáveis. Se o cabeçalho não for especificado, o primeiro *callback* é invocado. Quando não for encontrada nenhuma correspondência, o servidor responde com 406 `Not Acceptable`, ou chama o *callback* padrão.
+
+O cabeçalho de resposta `Content-Type` é definido quando um *callback* é selecionado. No entanto, você pode alterar isso dentro do *callback* usando métodos como `res.set()` ou `res.type()`.
+
+O exemplo a seguir iria responder com `{ "message": "hey"}` quando o cabeçalho `Accept` é definido como `application/json` ou `*/json` (no entanto, se ele é `*/*`, então a resposta será `hey`).
+
+```js
+res.format({
+  'text/plain': function(){
+    res.send('hey');
+  },
+  'text/html': function(){
+    res.send('<p>hey</p>');
+  },
+  'application/json': function(){
+    res.send({ message: 'hey' });
+  },
+  'default': function() {
+    res.status(406).send('Not Acceptable');
+  }
+});
+```
+
 
 ### res.links(links)
 
 Junta-se os links fornecidos para preencher o campo Link do cabeçalho de resposta do HTTP.
 
-```Js
+```js
 res.links({
   next: 'http://api.example.com/users?page=2',
   last: 'http://api.example.com/users?page=5'
@@ -709,13 +721,16 @@ Isso é muito importante para a navegabilidade de uma API REST.
 
 #### Exercício
 
-Criar uma busca com o Mongoose que pagine o resultado retornando os links corretamente.
+Criar uma busca, dos Pokemons, com o Mongoose que pagine o resultado retornando os links corretamente e que essa busca seja retornada como:
 
+- html
+- json
+
+*ps: Não esquecer do link para `previous` e `first` quando necessários.*
 
 ## Request - req
 
 O objeto req representa a solicitação HTTP e tem propriedades para a cadeia de consulta do pedido, parâmetros, corpo, cabeçalhos HTTP, e assim por diante. Nesta documentação e, por convenção, o objeto é sempre referido como req (ea resposta HTTP é res), mas seu nome real é determinada pelos parâmetros para a função de retorno de chamada na qual você está trabalhando.
-
 
 
 ## Router
@@ -800,7 +815,7 @@ Vamos conhecer na prática alguns dos seu principais métodos.
 
 #### router.all(path, [callback, ...] callback)
 
-Este método é extremamente útil para o mapeamento lógico "global" para prefixos de caminho específicos ou combinações arbitrários. 
+Este método é extremamente útil para o mapeamento lógico "global" para prefixos de caminho específicos ou combinações arbitrários.
 
 Por exemplo, se você colocou a seguinte rota no topo de todas as outras definições de rotas, seria necessário que todas as rotas a partir desse ponto exijam autenticação e carreguem automaticamente um usuário.
 
