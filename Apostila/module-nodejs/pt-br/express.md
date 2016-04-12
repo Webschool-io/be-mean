@@ -1765,9 +1765,7 @@ router.get('/:id', ...)
 
 ## Express Generator - continuação
 
-Pronto agora entrando em `localhost:3000/api/users` você verá apenas a mensagem da `index.jade` com o valor `User`, **depois de iniciarmos esse módulo precisamos fazer o que?**
-
-Integrar ele com nosso módulo do Mongoose, para isso vamos primeiramente instalar localmente o Mongoose com `npm i --save mongoose` para depois copiarmos as pasta do `mongoose-atomic-design`, que são:
+Depois de integrarmos o *Mongoose* iremos mudar nosso módulo de `Users` para nosso formato atômico, logo basta copiarmos o conteúdo da pasta do `mongoose-atomic-design`(aula 12), que são:
 
 ```
 actions
@@ -1777,53 +1775,7 @@ organisms
 quarks
 ```
 
-E colá-las no pasta do nosso módulo `modules/User` que tinha apenas `routes.js`.
-
-Antes de começarmos a integração, devemos criar a configuração do nosso banco em `db/config.js`:
-
-```js
-const mongoose = require('mongoose');
-const dbURI = 'mongodb://localhost/be-mean-instagram';
-
-mongoose.connect(dbURI);
-
-mongoose.connection.on('connected', function () {
-  console.log('Mongoose default connection connected to ' + dbURI);
-});
-mongoose.connection.on('error',function (err) {
-  console.log('Mongoose default connection error: ' + err);
-});
-mongoose.connection.on('disconnected', function () {
-  console.log('Mongoose default connection disconnected');
-});
-mongoose.connection.on('open', function () {
-  console.log('Mongoose default connection is open');
-});
-
-process.on('SIGINT', function() {
-  mongoose.connection.close(function () {
-    console.log('Mongoose default connection disconnected through app termination');
-    process.exit(0);
-  });
-});
-```
-
-Chamando essa configuração no início do `app.js`:
-
-```js
-require('./db/config');
-
-var express = require('express');
-```
-
-Agora sim podemos começar a integração pela listagem dos usuários em `modules/User/routes`:
-
-```js
-router.get('/', function(req, res) {
-  const listagem = [{name: 'Suissa'}];
-  res.json(listagem);
-});
-```
+E colá-las no pasta do nosso módulo `modules/Users` que tinha apenas `routes.js` e `model.js`.
 
 Então sabemos que nessa rota iremos buscar os usuários no MongoDb e depois retornar como JSON, para isso importaremos o `organisms/organism-user` que possui todas as funcionalidades desse módulo e chamamos a função `find()`:
 
@@ -1915,7 +1867,6 @@ module.exports = (Organism) => {
   };
 };
 ```
-
 
 ### Express Atomic Design
 
