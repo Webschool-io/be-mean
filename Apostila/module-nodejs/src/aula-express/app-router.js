@@ -6,7 +6,7 @@ const router = express.Router();
 
 // Cria o módulo de roteamento
 router.use((req, res, next) => {
-  res.end('Hello World');
+  res.send('Hello World');
 });
 
 // Passa o módulo para a URL /hello

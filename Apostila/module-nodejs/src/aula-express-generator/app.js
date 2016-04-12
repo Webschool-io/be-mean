@@ -1,7 +1,6 @@
 'use strict';
 
 require('./db/config');
-
 const express = require('express');
 const path = require('path');
 const favicon = require('static-favicon');
@@ -11,9 +10,7 @@ const bodyParser = require('body-parser');
 
 const routes = require('./routes/index');
 const users = require('./routes/users');
-
-// API
-const UserAPI = require('./modules/User/routes');
+const UsersAPI = require('./modules/Users/routes');
 
 const app = express();
 
@@ -31,12 +28,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
-// API
-app.use('/api/users', UserAPI);
+// API JSON
+app.use('/api/users', UsersAPI);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
-    const err = new Error('Not Found');
+    var err = new Error('Not Found');
     err.status = 404;
     next(err);
 });

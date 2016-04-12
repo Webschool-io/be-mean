@@ -1,5 +1,3 @@
-'use strict';
-
 const mongoose = require('mongoose');
 const dbURI = 'mongodb://localhost/be-mean-instagram';
 
@@ -24,5 +22,3 @@ process.on('SIGINT', function() {
     process.exit(0);
   });
 });
-
-module.exports = mongoose;

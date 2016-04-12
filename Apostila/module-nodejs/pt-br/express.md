@@ -1136,7 +1136,7 @@ Depois de entender tudo isso iremos agora para nosso exercício.
 Para facilitar o início de um projeto com Express iremos utilizar o `express-generator` instalando-o globalmente:
 
 ```js
-npm i --save express-generator
+npm i -g express-generator
 ```
 
 Agora basta executar `express nome-do-projeto`:
@@ -1169,7 +1169,7 @@ express aula-express-generator
      $ DEBUG=aula-express-generator ./bin/www
 ```
 
-Que ele irá criar toda a estrutura inicial de um projeto com Express, depois basta entrar na pasta criada e executar `npm install` para instalar sua dependências pré-definidas no `package.json`:
+Ele irá criar toda a estrutura inicial de um projeto com Express, depois basta entrar na pasta criada e executar `npm install` para instalar sua dependências pré-definidas no `package.json`:
 
 ```js
 {
@@ -1595,7 +1595,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 // API Modules
-var UserAPI = require('./modules/User/routes');
+var UsersAPI = require('./modules/Users/routes');
 ```
 
 E depois usamos ele na rota `/api/users`:
@@ -1605,8 +1605,165 @@ app.use('/', routes);
 app.use('/users', users);
 
 // API Routes
-app.use('/api/users', UserAPI);
+app.use('/api/users', UsersAPI);
 ```
+
+Por hora ela não faz nada de interessante então bora integrar ela com o *Mongoose*, utilizando os *Pokemons* por hora:
+
+```js
+'use strict';
+
+const express = require('express');
+const router = express.Router();
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const _schema = {
+  name:  String
+}
+const pokemonSchema = new Schema(_schema);
+const PokemonModel = mongoose.model('Pokemon', pokemonSchema);
+
+const callback = function (err, data, res) {
+  if (err) return console.log('ERRO: ', err);
+  return res.json(data);
+};
+
+router.get('/', function(req, res) {
+  const query = {};
+  PokemonModel.find(query, (err, data) => {
+    callback(err, data, res);
+  });
+});
+```
+
+Antes de executar precisamos criar o `db/config.js` para adicionarmos no `app` e termos a conexão inicializada diretamente:
+
+```js
+const mongoose = require('mongoose');
+const dbURI = 'mongodb://localhost/be-mean-instagram';
+
+mongoose.connect(dbURI);
+
+mongoose.connection.on('connected', function () {
+  console.log('Mongoose default connection connected to ' + dbURI);
+});
+mongoose.connection.on('error',function (err) {
+  console.log('Mongoose default connection error: ' + err);
+});
+mongoose.connection.on('disconnected', function () {
+  console.log('Mongoose default connection disconnected');
+});
+mongoose.connection.on('open', function () {
+  console.log('Mongoose default connection is open');
+});
+
+process.on('SIGINT', function() {
+  mongoose.connection.close(function () {
+    console.log('Mongoose default connection disconnected through app termination');
+    process.exit(0);
+  });
+});
+```
+
+Pronto! Basta adicionarmos esse arquivo no `app.js` dessa forma:
+
+```js
+'use strict';
+
+require('./db/config');
+const express = require('express');
+const path = require('path');
+const favicon = require('static-favicon');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+
+const routes = require('./routes/index');
+const users = require('./routes/users');
+const UsersAPI = require('./modules/Users/routes');
+
+...
+```
+
+Depois disso vamos criar a rota do ***Create***:
+
+```js
+router.post('/', function(req, res) {
+  const body = req.body;
+  const poke = new PokemonModel(body);
+  poke.save((err, data) => {
+    callback(err, data, res);
+  });
+});
+```
+
+Percebeu que os valores enviados na requisição se encontram em `req.body`?
+
+Isso graças ao *middleware* `body-parser`!
+
+Para finalizar essa parte precisamos refatorar o `routes.js` pois o mesmo está com a responsabilidade de trabalhar com o *Mongoose* coisa que não é da sua alçada.
+
+Logo vamos passar esse código para o arquivo `model.js` que criaremos na pasta `modules/Users`:
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const _schema = {
+  name:  String
+}
+const pokemonSchema = new Schema(_schema);
+module.exports = mongoose.model('Pokemon', pokemonSchema);
+```
+
+Deixando nosso `routes.js` assim:
+
+```js
+'use strict';
+
+const express = require('express');
+const router = express.Router();
+const PokemonModel = require('./model');
+
+const callback = function (err, data, res) {
+  if (err) return console.log('ERRO: ', err);
+  return res.json(data);
+};
+
+router.get('/', function(req, res) {
+  const query = {};
+  PokemonModel.find(query, (err, data) => {
+    callback(err, data, res);
+  });
+});
+
+router.post('/', function(req, res) {
+  const body = req.body;
+  const poke = new PokemonModel(body);
+  poke.save((err, data) => {
+    callback(err, data, res);
+  });
+});
+
+module.exports = router;
+```
+
+### Exercício aula 11 parte 3
+
+Criar um CRUD para User, o qual deve possuir os seguintes campos:
+
+- email: String
+- password: String
+- createdAt: Date
+
+As rotas de `UPDATE` e `DELETE` devem ser definidas utilizando a variável `:id` para que suas ações executem diretamente no `User` desejado.
+
+Criar uma rota que deverá retornar **APENAS** 1 usuário, utilizando o seguinte padrão:
+
+```
+router.get('/:id', ...)
+```
+
+## Express Generator - continuação
 
 Pronto agora entrando em `localhost:3000/api/users` você verá apenas a mensagem da `index.jade` com o valor `User`, **depois de iniciarmos esse módulo precisamos fazer o que?**
 
