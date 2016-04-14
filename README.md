@@ -12,26 +12,25 @@ Para entrar no grupo oficial do Be mean no Telegram basta seguir o link [https:/
 
 ## Brindes
 
-O fornecedor de camiseta foi pago em Dezembro, porém só irá começar a fazer as camisetas **HOJE(18/Janeiro)** um mês depois de pago.
+Os brindes estão sendo enviados e **apenas quem apoiou no CROWDFUNDING**, que finalizou 27/10/2015, porém logo mais teremos os mesmos brindes sendo vendidos na nossa Lujinha!
 
-Então podem ficar sossegados que os brindes irão chegar até final de fevereiro/Março, os adesivos já estão OK, aguardando as camisetas para irem juntos.
 
 ## Aulas
 
-Sairão *2 aulas** por semana, podendo sair mais, mas não menos.
+Sairão em média *2 aulas** por semana.
 
 
 # APOIE
 
 ## R$50
 
-Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 49 horas ao total.
+Recebe os três primeiros certificados (MongoDB, Node.js e AngularJs) com 160 horas ao total.
 
 Certificados:
 
-- MongoDB (9 horas)
-- Node.js (25 horas)
-- AngularJs (15 horas)
+- MongoDB (20 horas)
+- Node.js (100 horas)
+- AngularJs (40 horas)
 
 
 **Acesse [http://webschool.io/bemean](Webschool.io/bemean) para apoiar.**
@@ -39,13 +38,13 @@ Certificados:
 
 ## R$100
 
-Recebe **TODOS OS 10,  pode aumentar**, certificados com **mais de 109 horas ao total!!!**
+Recebe **TODOS OS 12,  pode aumentar**, certificados com **mais de 240 horas ao total!!!**
 
 Certificados:
 
-- MongoDB (9 horas)
-- Node.js (25 horas)
-- AngularJs (15 horas)
+- MongoDB (20 horas)
+- Node.js (100 horas)
+- AngularJs (40 horas)
 - Frontend (15 horas)
 - NoSQL (13 horas)
 - Segurança (3 horas)
@@ -74,11 +73,15 @@ Para tirar o certificado você precisa entregar 3 coisas:
 
 Esse resumo pode ser apenas um README.md em um repositório que vire um site com Github Pages ou usando qualquer outro sistema de blog.
 
+## R$500
+
+Recebe TODOS OS 12, pode aumentar, certificados com mais de 240 horas ao total!!!
+
+Ganha 1 camiseta do Be MEAN, 10 adesivos, a escolher, e pode requisitar um Hangout, de 2 horas, sobre um assunto específico do MEAN para a sua empresa!!!
 
 ## Prazo
 
 **Não tem data limite para se retirar o certificado.**
-
 
 # O Professor
 
@@ -86,14 +89,9 @@ Olá meu nome é Jean Carlo Nascimento, mais conhecido como **Suissa**, por favo
 
 Criei o Be MEAN há mais de 2 anos, sendo o único curso presencial até início de 2015 e o único **AO VIVO** quase bimensalmente.
 
-Por incrível que pareça eu sou professor há mais de 5 anos, onde minha primeira aula foi em uma **faculdade**, [FAFIT](http://www.fafit.com.br/), quando eu estava iniciando minha pós em Desenvolvimento Web em Ponta Grossa, Paraná.
+Por incrível que pareça sou professor há mais de 5 anos, onde minha primeira aula foi em uma **faculdade**, [FAFIT](http://www.fafit.com.br/), quando eu estava iniciando minha pós em Desenvolvimento Web em Ponta Grossa, Paraná.
 
-Hoje dou aula em pós-graduações e nem tenho minha pós finalizada, louco né?
-
-Mas já avisando será a última pós que darei aula será a da minha cidade onde ministrarei a disciplina de NoSQL <3.
-
-Nas outras era sempre HTML5/CSS3 e JavaScript, só faltava um de Banco de Dados NoSQL que eu amo, acho que fecharei com chave de ouro e me focarei única exclusivamente à faculdade web que desejo criar **para a Webschool.io**
-
+Hoje dou aula em **algumas** pós-graduações e nem tenho minha pós finalizada, louco né?
 
 # A Aula
 
