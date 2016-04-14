@@ -327,12 +327,12 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * writeFile
 
 - Aula ESPECIAL
-   + Vídeo: [https://www.youtube.com/watch?v=sw7kPzkIN4g](https://www.youtube.com/watch?v=sw7kPzkIN4g)
-    + [ES6](./Apostila/module-es6/README.md) - Prof.: [Suissa](https://github.com/suissa)
+   + [ES6 - Vídeo](https://www.youtube.com/watch?v=sw7kPzkIN4g)
+    + [ES6 - Apostila](./Apostila/module-es6/README.md) - Prof.: [Suissa](https://github.com/suissa)
 
 - Aula 05
-   + Vídeo: [https://www.youtube.com/watch?v=Kg4RovUQWeg](https://www.youtube.com/watch?v=Kg4RovUQWeg)
-    + [npm](./Apostila/module-nodejs/pt-br/npm.md) - Prof.: [Suissa](https://github.com/suissa)
+   + [npm - Vídeo](https://www.youtube.com/watch?v=Kg4RovUQWeg)
+    + [npm - Apostila](./Apostila/module-nodejs/pt-br/npm.md) - Prof.: [Suissa](https://github.com/suissa)
         * init
         * install --global ou -g
         * install --save
@@ -344,18 +344,16 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     + [Globals](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
         * CommonJS
     + [Process](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
-    
 - Aula 06
-   + Vídeo: [Parte 1/3](https://www.youtube.com/watch?v=O8odFa3dl-k)
-   + Vídeo: [Parte 2/3](https://www.youtube.com/watch?v=02a_lo_KLwU)
-   + Vídeo: [Parte 3/3](https://www.youtube.com/watch?v=XeLRYhrcKJo)
-    + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
+  + [Mongoose - Parte 1/3](https://www.youtube.com/watch?v=O8odFa3dl-k)
+  + [Mongoose - Parte 2/3](https://www.youtube.com/watch?v=02a_lo_KLwU)
+  + [Mongoose - Parte 3/3](https://www.youtube.com/watch?v=XeLRYhrcKJo)
+  + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
         * Update
         * Delete
         * Validação
-        
 - Aula 07
    + Vídeo: [https://www.youtube.com/watch?v=i6h1A-l11-k](https://www.youtube.com/watch?v=i6h1A-l11-k)
     + [Eventos](./src/) - Prof.: [Itacir](https://github.com/pompeu)
@@ -364,12 +362,12 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Mongoose
 - Aula 08
 
-   + Vídeo: [Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8) 
-   + Vídeo: [Parte 2/6](https://www.youtube.com/watch?v=_wj0y_77CYs)
-   + Vídeo: [Parte 3/6](https://www.youtube.com/watch?v=8M4pN64BsnU)
-   + Vídeo: [Parte 4/6](https://www.youtube.com/watch?v=xR3ex_YjQyc)
-   + Vídeo: [Parte 5/6](https://www.youtube.com/watch?v=VRGI-R_PxpQ)
-   + Vídeo: [Parte 6/6](https://www.youtube.com/watch?v=3Hq7O7TeXjw)
+   + [Mongoose - Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8) 
+   + [Mongoose - Parte 2/6](https://www.youtube.com/watch?v=_wj0y_77CYs)
+   + [Mongoose - Parte 3/6](https://www.youtube.com/watch?v=8M4pN64BsnU)
+   + [Mongoose - Parte 4/6](https://www.youtube.com/watch?v=xR3ex_YjQyc)
+   + [Mongoose - Parte 5/6](https://www.youtube.com/watch?v=VRGI-R_PxpQ)
+   + [Mongoose - Parte 6/6](https://www.youtube.com/watch?v=3Hq7O7TeXjw)
    
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
@@ -382,9 +380,9 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Plugins
         * Middlewares
 - Aula 09
-   + Vídeo: [Parte 1/3](https://www.youtube.com/watch?v=dHeb_Gs4zzo)
-   + Vídeo: [Parte 2/3](https://www.youtube.com/watch?v=OCB7jMZBIas)
-    + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
+  + [TDD - Parte 1/3](https://www.youtube.com/watch?v=dHeb_Gs4zzo)
+  + [TDD - Parte 2/3](https://www.youtube.com/watch?v=OCB7jMZBIas)
+  + [TDD](./src/) - Prof.: [Itacir](https://github.com/pompeu)
         * assert
         * chai
         * mocha
