@@ -396,6 +396,8 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     + [Express - Router - Parte 2/3](https://www.youtube.com/watch?v=aSesEKO5uw8&index=24&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
     + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=25&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
 - Aula 12
+  + [Mongoose - Atomic - Parte 1/3](https://www.youtube.com/watch?v=2lml_4kOhgU&index=26&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+  + [Mongoose - Atomic - Parte 2/3](https://www.youtube.com/watch?v=-1BFew5Kmn0&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=27)
 - Aula 13
     + [REPL](./src/) - Prof.: [Suissa](https://github.com/suissa)
     + [Crawler](./src/) - Prof.: [Suissa](https://github.com/suissa)
