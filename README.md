@@ -390,63 +390,31 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * mocha
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
 - Aula 10
-    + [Express](./src/) - Prof.: [Suissa](https://github.com/suissa)
-        * Model
-        * Controller
-        * Routes
+    + [Express - Introdução - Parte 1/3](https://www.youtube.com/watch?v=ZRUuBfoYlxs&index=20&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+    + [Express - Response - Parte 2/3](https://www.youtube.com/watch?v=CcFxvOBohvM&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=21)
+    + [Express - Response - Parte 3/3](https://www.youtube.com/watch?v=0TnThWFlvhs&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=22)
 - Aula 11
-    + [Express](./src/)
-        * Events - Prof.: [Itacir](https://github.com/pompeu)
-        * Promises - Prof.: [Itacir](https://github.com/pompeu)
-        * Middlewares - Prof.: [Caio](https://github.com/caiocutrim/)
+    + [Express - Request - Parte 1/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=23&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+    + [Express - Router - Parte 2/3](https://www.youtube.com/watch?v=aSesEKO5uw8&index=24&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+    + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=25&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
 - Aula 12
-    + [Express](./src/)
-    	* Internacionalization [Suissa](https://github.com/suissa)
-    		- http://ejohn.org/blog/a-strategy-for-i18n-and-node/
-    		- https://github.com/jeresig/i18n-node-2
-      * TDD - Prof.: [Itacir](https://github.com/pompeu)
-    + [Socket.io](./src/) - Prof.: [Suissa](https://github.com/suissa)
-        * TDD - Prof.: [Itacir](https://github.com/pompeu)
 - Aula 13
     + [REPL](./src/) - Prof.: [Suissa](https://github.com/suissa)
     + [Crawler](./src/) - Prof.: [Suissa](https://github.com/suissa)
     + [Buffer](./http.md) - Prof.: [Caio](https://github.com/caiocutrim)
 - Aula 14
-    + [Utilizando APIs externas](./src/) - Prof.: [Suissa](https://github.com/suissa)
-        * [pokemons](http://pokeapi.co/) - Prof.: [William Bruno](https://github.com/wbruno)
-        * [github](https://developer.github.com/v3/) - Prof.: [William Bruno](https://github.com/wbruno)
-        * [redtube](http://api.redtube.com/docs/) - Prof.: [Suissa](https://github.com/suissa)
-        * [instagram](https://www.instagram.com/developer/) - Prof.: [Suissa](https://github.com/suissa)
-- Aula X parte 1 e 2
     + [Socket.io]() - Prof.: [Guilherme Paixão](guilhermeepaixaoo)
 - Aula 15
-    + [Autenticação](./src/) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
-        * Session
-            - Express
-            - Mongoose/MongoDB
+    + [Autenticação - JWT](./src/)
 - Aula 16
-    + [Autenticação](./src/) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
-        * Token
+    + [Autenticação - Passport](./src/)
+
+**[Junto com o módulos: Angular e Frontend]**
 - Aula 17
-    + **[Projeto em aula]**
-        * [Sistema de Pedidos](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Ecommerce)
-            - Prof.: [Elton Pereira](eltondev)
-- Aula 18
-    + **[Projeto em aula]**
-        * [Estante Virtual](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Estante-Virtual)
-            - Prof.: [William Bruno](https://github.com/wbruno)
-- Aula 19
-    + **[Projeto em aula]**
-        * [Gerenciador de Doações](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Donations)
-            - Prof.: [Suissa](https://github.com/suissa)
-- Aula 20
-    + **[Projeto em aula]**
-        * [Jobs - Gerenciador de Vagas de Trabalho](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/Jobs)
-            - Prof.: [Itacir Pompeu](https://github.com/pompeu)
-- Aula 21
-    + **[Projeto em aula]**
-        * [EAD](https://github.com/Webschool-io/be-mean-instagram/tree/master/Projects/EAD)
-            - Prof.: [Caio Cutrim](https://github.com/caiocutrim)
+    + [Express](./src/)
+        * Interncionalização [Suissa](https://github.com/suissa)
+            - http://ejohn.org/blog/a-strategy-for-i18n-and-node/
+            - https://github.com/jeresig/i18n-node-2
 
 ##  Módulo ES6
 
