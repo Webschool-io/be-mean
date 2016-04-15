@@ -49,9 +49,9 @@ signature-->zzzzz;
 
 E assinatura? O que ela significa?
 
-A assinatura é um agoritmo baseado no *secret* que é definido no *Backend* da sua aplicação e criptografado randomicamente em base-64, você pode usar outra forma de criptografar essa assinatura, como HMAC-SHA256, inclusive. A grande importância da assinatura é que ela permite que o *token* seja imodificável durante sua transmissão pela rede, legal né?
+A assinatura é um agoritmo baseado no *secret* que é definido no *Backend* da sua aplicação e criptografado randomicamente em base-64, você pode usar outra forma de criptografar essa assinatura, como HMAC-SHA256, inclusive. A grande importância da assinatura é que ela permite que o *token* seja imodificável durante sua transmissão pela rede.
 
-![hue](http://cdn.meme.am/instances/37690835.jpg)  
+![hue](http://cdn.meme.am/instances/37690835.jpg)
 
 ```js
 HMACSHA256(
@@ -61,3 +61,5 @@ HMACSHA256(
 ```
 
 *Esse trecho mostra como fazer uma assinatura baseado na secret e no sha-256*
+
+![](./images/jwt-schema-png.png)
