@@ -399,15 +399,13 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
   + [Mongoose - Atomic - Parte 1/3](https://www.youtube.com/watch?v=2lml_4kOhgU&index=26&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
   + [Mongoose - Atomic - Parte 2/3](https://www.youtube.com/watch?v=-1BFew5Kmn0&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=27)
 - Aula 13
-    + [REPL](./src/) - Prof.: [Suissa](https://github.com/suissa)
-    + [Crawler](./src/) - Prof.: [Suissa](https://github.com/suissa)
-    + [Buffer](./http.md) - Prof.: [Caio](https://github.com/caiocutrim)
+    + [REPL] - Prof.: [Suissa](https://github.com/suissa)
+    + [Crawler] - Prof.: [Suissa](https://github.com/suissa)
 - Aula 14
-    + [Socket.io]() - Prof.: [Guilherme Paixão](guilhermeepaixaoo)
+    + [Socket.io] - Prof.: [Guilherme Paixão](guilhermeepaixaoo)
 - Aula 15
-    + [Autenticação - JWT](./src/)
-- Aula 16
-    + [Autenticação - Passport](./src/)
+    + [Autenticação - JWT - Parte 1/2]
+    + [Autenticação - Passport - Parte 2/2]
 
 **[Junto com o módulos: Angular e Frontend]**
 - Aula 17
