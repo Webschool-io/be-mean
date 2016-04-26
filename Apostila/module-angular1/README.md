@@ -2,9 +2,6 @@
 
 Nesse curso abordarei a versão 1.5 acima do [Angular](https://angularjs.org/).
 
-O MongoDb é um
-## Índice
-
 ## Roteiro
 
 - Aula 01
