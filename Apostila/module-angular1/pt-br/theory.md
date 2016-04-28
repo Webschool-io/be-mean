@@ -14,6 +14,8 @@ Como vimos anteriormente o Angular é um framework, mas o que isso significa?
 
 *fonte: [https://pt.wikipedia.org/wiki/Framework](https://pt.wikipedia.org/wiki/Framework)*
 
+
+
 framework
 suporte
 numeros sobre uso/devs
