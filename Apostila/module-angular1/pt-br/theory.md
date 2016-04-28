@@ -1,5 +1,7 @@
 # Angular
 
+![](https://github.com/Webschool-io/be-mean-instagram/tree/master/Apostila/module-angular1/pt-br/imgs/angularjs-logo.png)
+  
 O Angular é um framework JavaScript, criado pelo Google, no estilo MVC/MVVW e usa o conceito de SPA (Single Page Application). No SPA, apenas uma parte da *view* muda e a outra permanece fixa. Isso traz melhoras na experiência do usuário e diminuição no tráfego de dados por não precisar renderizar tudo toda vez.
 
 Ele foi desenvolvido por Miško Hevery e Adam Abrons, em 2009, como um [SaaS](https://pt.wikipedia.org/wiki/Software_como_servi%C3%A7o) de armazenamento de JSON online, que teria seu preço estimado por megabyte, para aplicações pré-construídas (easy-to-make) para as empresas.
@@ -14,7 +16,7 @@ Como vimos anteriormente o Angular é um framework, mas o que isso significa?
 
 *fonte: [https://pt.wikipedia.org/wiki/Framework](https://pt.wikipedia.org/wiki/Framework)*
 
-
+![](https://github.com/Webschool-io/be-mean-instagram/tree/master/Apostila/module-angular1/pt-br/imgs/framework-structure.png)
 
 framework
 suporte
