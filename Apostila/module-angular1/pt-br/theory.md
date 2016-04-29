@@ -18,8 +18,51 @@ Como vimos anteriormente o Angular é um framework, mas o que isso significa?
 
 ![](./imgs/framework-structure.png)
 
-framework
-suporte
+Isso significa que ele nos dá uma estrutura pronta onde precisamos apenas criar códigos, de preferência modular, da forma que o framewokr nos pede.
+
+Essa é a maior diferença entre uma biblioteca e um framework
+
+## MVC? MVVM? MVP? MVW? WTF?!
+
+Essa sopinha de letras têm um significado, vamos começar pelo **MVC**.
+
+![](./imgs/mvc.png)
+
+Sim esse é nosso tão conhecidp MVC porém largamente utilizado erroneamente, por quê?
+
+Vamos a sua definição da [Wikipedia](https://pt.wikipedia.org/wiki/MVC)
+
+> Model-view-controller (MVC), em português modelo-visão-controlador, é um padrão de arquitetura de software (design pattern) que separa a representação da informação da interação do usuário com ele. O modelo (model) consiste nos dados da aplicação, regras de negócios, lógica e funções. Uma visão (view) pode ser qualquer saída de representação dos dados, como uma tabela ou um diagrama. É possível ter várias visões do mesmo dado, como um gráfico de barras para gerenciamento e uma visão tabular para contadores. O controlador (controller) faz a mediação da entrada, convertendo-a em comandos para o modelo ou visão. 
+
+Bom você deve ter percebido que a *View* é uma **representação dos dados** nesse caso, conceitualmente, ela é um espelho do *Model* pois é nele que se encontram os dados.
+
+> Logo, não seria lógico que **QUALQUER** alteração no *Model* fosse automaticamente mostrada na *View*?
+
+Pois é!
+
+E pelo menos isso o Angular faz, automaticamente, por utilizar o *two-way data binding* que veremos mais adiante.
+
+**- Beleza Suissa mas e o resto das siglas?**
+
+Ahhhhh! Agora sim chegamos em um ponto altamente conceitual.
+
+**-Por quê?**
+
+Porque simplesmente não faz a menor diferença para nós, pois **MVVW** que significa *Model, View, View-Model* é a mesma coisa que o **MVP** que significa *Model, View, Presenter*. Sendo assim o Angular adotou a nomenclatura **MVW** que significa *Model, View, Whatever* pois todas conceituam a mesma coisa.
+
+Temos o *Model* com nossos dados e a *View* que os mostra, agora a integração deles pode ser tanto chamado como *View-Model* ou *Presenter* pois basicamente trabalham com as informações entre a *View* e o *Model* e isso para nós não fará nenhuma diferença, mas é interessante que você saiba essas nomenclaturas para não ficar perdido no meio de tantos conceitos novos que vemos aparecer no *Frontend*.
+
+Nisso chegamos em um questionamento muito pertinente sobre o Angular:
+
+> Qual o suporte do Angular para navegadores?
+
+Falemos apenas dessa última versão, 1.5.x, ela possui suporte para a maioria dos navegadores porém para Internet Explorer apenas para maior que a versão 8.
+
+**Agora eu que lhe digo: PARE DE DAR SUPORTE PARA IE MENOR QUE O 8!!!**
+
+Pense que o IE jpá está na versão 11 e se não formos nós a forçar os usuários a se atualizarem eles ainda continuariam no Windpows XP com IE 7!
+
+
 numeros sobre uso/devs
 arquitetura
 modularização
