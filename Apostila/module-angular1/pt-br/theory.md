@@ -62,6 +62,14 @@ Falemos apenas dessa última versão, 1.5.x, ela possui suporte para a maioria d
 
 Pense que o IE jpá está na versão 11 e se não formos nós a forçar os usuários a se atualizarem eles ainda continuariam no Windpows XP com IE 7!
 
+Porém acredito que para se tomar a decisão de qual *framework* utilizar o desenvolvedor precisa conhecer alguns dados sobre ele e acredito que atualmente um dos maiores divisores de água é o *tamanho da sua comunidade* e também a *requisição do mesmo no mercado de trabalho*.
+
+Beleza então abordemos esse assunto.
+
+O Angular é um dos *framework*, se não o, mais utilizado no mercado
+
+
+![](./imgs/comparacao-fws.png)
 
 numeros sobre uso/devs
 arquitetura
