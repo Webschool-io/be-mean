@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ titulo }}</title>
+</head>
+<body>
+  <label for="nome">Seu nome:
+    <input type="text" data-ng-model="nome">
+  </label>
+
+  <!-- Utilizamos o valor de nome que está no nosso escopo local -->
+  Olá mundo, {{ nome }}
+
+  <label for="nome">Título:
+    <input type="text" data-ng-model="titulo">
+  </label>
+
+  <script src="angular.min.js"></script>
+  <script>
+    angular.module('BeMEAN', [])
+  </script>
+</body>
+</html>
