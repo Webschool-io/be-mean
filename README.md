@@ -410,13 +410,20 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 **[Junto com o módulos: Angular e Frontend]**
 - Aula 17
     + [Express](./src/)
-        * Interncionalização [Suissa](https://github.com/suissa)
+        * Internacionalização [Suissa](https://github.com/suissa)
             - http://ejohn.org/blog/a-strategy-for-i18n-and-node/
             - https://github.com/jeresig/i18n-node-2
 
 ##  Módulo ES6
 
 ##  Módulo Angular
+
+[Slides](https://docs.google.com/presentation/d/1kybcrCOtDuSRzK8C-lxgomqe-JOd8aoCYOBYw-gN2nE/edit?usp=sharing)
+
+- Aula 1
+    + [Introdução](https://www.youtube.com/watch?v=Zz2Mtq1MD4s)
+- Aula 2
+    + [Filtros]()
 
 ##  Módulo Frontend
 
