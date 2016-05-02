@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+</head>
+<body data-ng-controller="UserController as User">
+  <div data-ng-controller="CursoController as Curso">
+    <label>Busca: <input ng-model="searchUser"></label>
+    <button data-ng-click="User.addUser()">ADD USER</button>
+    <h1>{{ User.titulo }}</h1>
+    <ul>
+      <li data-ng-repeat="user in User.users | orderBy:'name' | filter:searchUser">
+        {{ user.name }} - {{ user.email }}
+      </li>
+    </ul>
+    <h3>{{ Curso.titulo }}</h3>
+    <table>
+      <tr data-ng-repeat="curso in Curso.cursos">
+        <td data-ng-repeat="info in curso">
+          {{ info }}
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="./../angular.min.js"></script>
+  <script>
+    angular.module('BeMEAN', [])
+      .controller('UserController', UserController)
+      .controller('CursoController', CursoController);
+
+    function UserController() {
+      var vm = this;
+      vm.reverse = false;
+      vm.predicate = 'name';
+      vm.titulo = "Be MEAN - Listagem dos usuários";
+      vm.users = [
+        {name: 'Suissa', email: 'suissera@manoveio.com'}
+      , {name: 'João', email: 'joao@macioesedoso.com'}
+      , {name: 'Franciele', email: 'fran@quimica.com'}
+      ];
+
+      vm.addUser = addUser;
+      function addUser() {
+        console.log('vm.users', vm.users)
+        vm.users.push({name: 'Exemplo', email: 'exe@mplo.com'})
+      }
+    }
+
+    function CursoController() {
+      var vm = this;
+      vm.titulo = "Be MEAN - Listagem dos cursos";
+      vm.cursos = [
+        {name: 'Be MEAN', teacher: 'Suissa'}
+      , {name: 'Learning Machine', teacher: 'Ivan Gustavo'}
+      , {name: 'Laravel', teacher: 'Michael Douglas'}
+      ];
+    }
+  </script>
+</body>
+</html>

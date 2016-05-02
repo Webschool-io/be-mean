@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+</head>
+<body data-ng-controller="UserController">
+  <div data-ng-controller="CursoController">
+    <label>Busca: <input ng-model="searchUser"></label>
+    <button data-ng-click="add()">ADD USER</button>
+    <h1>{{ titulo }}</h1>
+    <ul>
+      <li data-ng-repeat="user in users | orderBy:'name' | filter:searchUser">
+        {{ user.name }} - {{ user.email }}
+      </li>
+    </ul>
+    <h3>{{ titulo }}</h3>
+    <button data-ng-click="add()">ADD CURSO</button>
+    <table>
+      <tr data-ng-repeat="curso in cursos">
+        <td data-ng-repeat="info in curso">
+          {{ info }}
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="./../angular.min.js"></script>
+  <script>
+    angular.module('BeMEAN', [])
+      .controller('UserController', UserController)
+      .controller('CursoController', CursoController);
+
+    function UserController($scope) {
+      var vm = this;
+      $scope.reverse = false;
+      $scope.predicate = 'name';
+      $scope.titulo = "Be MEAN - Listagem dos usuários";
+      $scope.users = [
+        {name: 'Suissa', email: 'suissera@manoveio.com'}
+      , {name: 'João', email: 'joao@macioesedoso.com'}
+      , {name: 'Franciele', email: 'fran@quimica.com'}
+      ];
+
+      $scope.add = add;
+      function add() {
+        $scope.users.push({name: 'Exemplo', email: 'exe@mplo.com'})
+      }
+    }
+    UserController.$inject = ['$scope'];
+
+    function CursoController($scope) {
+      var vm = this;
+      $scope.titulo = "Be MEAN - Listagem dos cursos";
+      $scope.cursos = [
+        {name: 'Be MEAN', teacher: 'Suissa'}
+      , {name: 'Learning Machine', teacher: 'Ivan Gustavo'}
+      , {name: 'Laravel', teacher: 'Michael Douglas'}
+      ];
+
+      $scope.add = add;
+      function add() {
+        $scope.cursos.push({name: 'Exemplo', teacher: 'Exeeemplooooo'})
+      }
+    }
+
+    CursoController.$inject = ['$scope'];
+  </script>
+</body>
+</html>

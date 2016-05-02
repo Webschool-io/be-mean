@@ -1,6 +1,6 @@
 # Controller
 
-O *Controller* bem importante do Angular pois ele é quem recebe ações do Usuário a partir da *View* e também é automaticamente executado quando definido em uma rota, porém veremos isso mais para frente.
+O *Controller* é uma parte bem importante do Angular pois ele é quem recebe ações do Usuário a partir da *View* e também é automaticamente executado quando definido em uma rota, porém veremos isso mais para frente.
 
 Vamos iniciar criando nosso primeiro *Controller* e para utilizaremos a função `controller()` atrelada a algum módulo, como visto no código abaixo:
 
@@ -13,7 +13,7 @@ Você deve se perguntar:
 
 > WTF is that []?
 
-E eu lhe respondo: 
+E eu lhe respondo:
 
 **- É o *Array* de dependências do *Controller***.
 
@@ -33,9 +33,9 @@ angular.module('BeMEAN', [])
   ]);
 ```
 
-Como isso é utilizado na *View*??
+> E como usaremos isso na *View*??
 
-Após definirmos o `ng-app` precisamos definir **onde** o *Controller* irá executar, porque sim nós podemos ter mais de 1 por *View*, e para isso usaremos a diretiva `ng-controller`:
+Fácil, após definirmos o `ng-app` precisamos definir **onde** o *Controller* irá executar, porque nós podemos ter mais de 1 por *View*, e para isso usaremos a diretiva `ng-controller`:
 
 ```html
 <!doctype html>
@@ -62,7 +62,7 @@ Entretanto essa forma de escrever é a **ERRADA!!! Por favor NUNCA FAÇA ISSO!!!
 
 > Ué! Então como é a forma certa?
 
-Agora chegamos em um ponto **MUITO IMPORTANTE** pois utilizaremos como base para nosso padrão nesse curso o [styleguide do John Papa](https://github.com/johnpapa/angular-styleguide).
+Agora chegamos em um ponto **MUITO IMPORTANTE** pois utilizaremos como base para nosso padrão nesse curso o [styleguide do John Papa](https://github.com/johnpapa/angular-styleguide/tree/master/a1).
 
 Bom ele nos diz que em vez de passarmos esse *Array* com as dependências nós façamos assim:
 
