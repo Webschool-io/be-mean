@@ -2,11 +2,30 @@
 
 Nesse curso abordarei a versão 1.5 acima do [Angular](https://angularjs.org/).
 
+## Ementa
+
+- two-way
+- ng-model
+- controller
+  + *nunca ler dados, apenas escrever
+- ng-repeat
+- ng-click
+- ng-disable
+- ng-filter
+- ng-sort
+- ng-options
+  + as, for, group by
+- ng-class
+- crud
+
 ## Roteiro
 
 - Aula 01
+  + Introdução
 - Aula 02
+  + Filtros
 - Aula 03
+  + Controller
 - Aula 04
 - Aula 05
 - Aula 06
