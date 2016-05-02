@@ -71,4 +71,41 @@ angular.module('BeMEAN', [])
 
 Nesse caso a variável `text` é transformada em *Array*, com `split("")`, para depois ser invertida, com `reverse()`, para finalizar juntando tudo em uma *String*, com `join("")`. Isso porque o JavaScript não possui uma função nativa para inverter *Strings*.
 
+Finalmente nosso código ficou assim:
+
+```html
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+</head>
+<body>
+  <label for="nome">Seu nome:
+    <input type="text" data-ng-model="nome">
+  </label>
+
+  Olá, {{ nome | reverseString }}
+
+  <script src="angular.min.js"></script>
+  <script>
+    angular.module('BeMEAN', [])
+      .filter('reverseString', function() {
+        return function(text) {
+          if(text) return text.split("").reverse().join("");
+        }
+      });
+  </script>
+</body>
+</html>
+```
+
+O mais interessante ainda é que podemos utilizar mais de 1 filtro por vez, por exemplo:
+
+```html
+  Olá, {{ nome | reverseString | uppercase}}
+```
+
+Com isso podemos criar pequenos filtros e ir compondo eles na *View* dependendo da sua necessidade.
+
 
