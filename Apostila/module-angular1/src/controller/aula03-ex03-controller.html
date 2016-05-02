@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+</head>
+<body data-ng-controller="UserController as User">
+  <h1>{{ User.titulo }}</h1>
+  <code>{{ User.users }}</code>
+  <ul>
+    <li data-ng-repeat="user in User.users">
+      {{ user.name }} - {{ user.email }}
+    </li>
+  </ul>
+
+  <script src="./../angular.min.js"></script>
+  <script>
+    angular.module('BeMEAN', [])
+      .controller('UserController', UserController);
+
+    function UserController() {
+      this.titulo = "Be MEAN - Listagem dos usuários";
+      this.users = [
+        {name: 'Suissa', email: 'suissera@manoveio.com'}
+      , {name: 'João', email: 'joao@macioesedoso.com'}
+      , {name: 'Franciele', email: 'fran@quimica.com'}
+      ];
+    }
+  </script>
+</body>
+</html>
