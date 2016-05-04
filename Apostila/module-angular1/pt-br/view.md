@@ -4,15 +4,15 @@ Aprenderemos a usar algumas funcionalidades no Angular para melhorar a exibiçã
 
 ## ng-repeat
 
-Como já havíamos usado rapidamente o `ng-repeat` na [aula sobre *Controllers*] vamos iniciar por ele.
+Como já havíamos usado rapidamente o `ng-repeat` na [aula sobre *Controllers*]() vamos iniciar por ele.
 
 Creio que ficou claro o que ele faz já na aula passada, porém vamos reforçar.
 
 O `ng-repeat` é a diretiva responsável por iterar em um *Array* ou Objeto existente no escopo.
 
-> Em *Array* e Objeto também?
+> Em Objeto também?
 
-**- Exatamente!**
+**- Sim em Objeto também!**
 
 Logo veremos as duas formas, contudo iniciaremos pelo *Array* que já conhecemos, para isso vamos usar o exemplo da aula passada:
 
@@ -181,7 +181,7 @@ Essa equipe do Angular é foda né? Criam um filtro chamado `filter`! --'
 
 Sorte que ele é deveras poderoso, por isso nem vou apavorar.
 
-Para utilizá-lo é muito simples, basta usar o `filter` passando como parâmetro o nome do `ng-model` que receberá o texto a ser pesquisado.
+Para utilizá-lo é muito simples, basta usar o `filter` passando como parâmetro o nome do `ng-model` que receberá o valor a ser pesquisado.
 
 ```html
 <label>Busca: <input ng-model="searchUser"></label>
@@ -194,6 +194,12 @@ Para utilizá-lo é muito simples, basta usar o `filter` passando como parâmetr
 ```
 
 Agora ele automagicamente irá atualizar sua lista do `ng-repeat` deixando apenas os objetos que possuam aquele texto buscado.
+
+### Exercícios
+
+1) Adicionar mais 1 campo em todos os *Controllers* e utilizar ele em `orderBy`.
+2) Utilizar esse valor adicional no `ng-init` para cada `ng-repeat` da *View*.
+3) Criar um campo de **filtro** para cada `ng-repeat`.
 
 // aula 4
 ## ng-click

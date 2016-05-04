@@ -6,13 +6,6 @@
 </head>
 <body data-ng-controller="UserController">
   <h1>{{ titulo }}</h1>
-
-  <ul>
-    <li data-ng-repeat="user in users">
-      {{ user.name }} - {{ user.email }}
-    </li>
-  </ul>
-
   <script src="./../angular.min.js"></script>
   <script>
     angular.module('BeMEAN', [])
@@ -20,25 +13,8 @@
 
     function UserController($scope) {
       $scope.titulo = "Be MEAN";
-      $scope.users = [
-        {name: 'Suissa', email: 'suissera@manoveio.com'}
-      , {name: 'João', email: 'joao@macioesedoso.com'}
-      , {name: 'Franciele', email: 'fran@quimica.com'}
-      ];
     }
-    UserController['$inject'] = ['$scope'];  </script>
+    UserController['$inject'] = ['$scope'];
+  </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
