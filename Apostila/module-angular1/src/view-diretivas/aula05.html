@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+</head>
+<body data-ng-controller="UserController as User">
+  <h1>{{ User.titulo }}</h1>
+  <label>Busca: <input ng-model="searchUser"></label>
+
+  <p>
+    <label>Name:
+      <input type="text" data-ng-model="form.User.name">
+    </label>
+    <br>
+    <label>Email:
+      <input type="email" data-ng-model="form.User.email">
+    </label>
+  </p>
+
+  <button data-ng-click="User.add(form.User)">ADD USER</button>
+  <span data-ng-init="predicate = 'name'; reverse = true; "></span>
+  <table>
+      <thead>
+        <tr>
+          <th data-ng-repeat="(key, value) in User.users[0]">{{ key }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-ng-repeat="user in User.users | orderBy:predicate:reverse | filter:searchUser ">
+          <td data-ng-repeat="(key, value) in user">{{ value }}</td>
+        </tr>
+      </tbody>
+    </thead>
+  </table>
+
+
+  <div data-ng-controller="CursoController as Curso">
+    <h2>{{ Curso.titulo }}</h2>
+    <button data-ng-click="User.add()">ADD USER</button>
+    <ul>
+      <li data-ng-repeat="curso in Curso.cursos">
+        {{ curso.name }} - {{ curso.teacher }}
+      </li>
+    </ul>
+  </div>
+
+  <script src="./../angular.min.js"></script>
+  <script>
+    angular.module('BeMEAN', [])
+      .controller('UserController', UserController)
+      .controller('CursoController', CursoController);
+
+    function UserController() {
+      var vm = this;
+      vm.titulo = "Be MEAN - Usuários";
+      vm.users = [
+        {name: 'Suissa', email: 'suissera@manoveio.com'}
+      , {name: 'João', email: 'joao@macioesedoso.com'}
+      , {name: 'Franciele', email: 'fran@quimica.com'}
+      ];
+
+      vm.add = add;
+      function add(user) {
+        vm.users.push(angular.copy(user));
+      }
+    }
+
+    function CursoController() {
+      var vm = this;
+      vm.titulo = "Be MEAN - Cursos";
+      vm.cursos = [
+        {name: 'Be MEAN', teacher: 'Suissa'}
+      , {name: 'Learning Machine', teacher: 'Ivan Gustavo'}
+      , {name: 'Laravel', teacher: 'Michael Douglas'}
+      ];
+
+      vm.add = add;
+      function add() {
+        vm.cursos.push({name: 'Curso Exemplo', teacher: 'Prof Exemplo'})
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

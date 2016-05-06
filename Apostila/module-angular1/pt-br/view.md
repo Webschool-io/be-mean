@@ -201,7 +201,7 @@ Agora ele automagicamente irá atualizar sua lista do `ng-repeat` deixando apena
 2) Utilizar esse valor adicional no `ng-init` para cada `ng-repeat` da *View*.
 3) Criar um campo de **filtro** para cada `ng-repeat`.
 
-// aula 4
+// aula 5
 ## ng-click
 
 Chegamos agora no tão importante `ng-click`, isso porque com ele podemos chamar funções do *Controller*. Então vamos iniciar criando uma função no *UserController* para adicionar 1 usuário de exemplo:
@@ -209,7 +209,6 @@ Chegamos agora no tão importante `ng-click`, isso porque com ele podemos chamar
 ```js
 vm.addUser = addUser;
 function addUser() {
-  console.log('vm.users', vm.users)
   vm.users.push({name: 'Exemplo', email: 'exe@mplo.com'})
 }
 ```
@@ -254,8 +253,6 @@ Para exemplificar isso vamos mudar o nome da função para `add` e criar ela no 
 
     function UserController() {
       var vm = this;
-      vm.reverse = false;
-      vm.predicate = 'name';
       vm.titulo = "Be MEAN - Listagem dos usuários";
       vm.users = [
         {name: 'Suissa', email: 'suissera@manoveio.com'}
@@ -289,8 +286,6 @@ Para exemplificar isso vamos mudar o nome da função para `add` e criar ela no 
 
 Agora imagine se você não estiver utilizando `Controller as` as chamadas das funções seriam apenas `add()`.
 
-// MOSTRAR O QUE ACONTECE usando o $scope
-
 Vamos melhorar nossa função de adicionar um usuário, dessa vez iremos passar o usuário a ser adicionado.
 
 Primeiramente vamos criar os `inputs` com nome de cada campo no seu `ng-model`:
@@ -305,7 +300,7 @@ Primeiramente vamos criar os `inputs` com nome de cada campo no seu `ng-model`:
   <button data-ng-click="User.add(form)">ADD USER</button>
 ```
 
-Nesse exemplo ainda não estou usando `form` pois ele é assunto da próxima aula. ;)
+Nesse exemplo ainda não estou usando `<form>` pois ele é assunto da próxima aula. ;)
 
 Note que defini os nome como: `form.campo`.
 
@@ -324,7 +319,20 @@ Bem simples, não?!
 
 ## Exercícios
 
-1 - Criar uma função que para ordenar uma tabela a partir de uma coluna, clickando na sua `th>td`.
-2 - Criar mais 1 *Controller* para *Teachers* com seu form para adição, listagem (defina um *Array* inicial) com a ordenação do exercício anterior, filtro filter e também use o seu filtro criado na segunda aula.
+1) Criar uma função que para ordenar uma tabela a partir de uma coluna, clickando na sua `th>td`, ordenando pelo campo da coluna.
+2) Criar mais 1 *Controller* para *Teachers* com seu form para adição, listagem (defina um *Array* inicial) com a ordenação do exercício anterior, filtro filter e também use o seu filtro criado na segunda aula.
 
+// aula 6
+# CRUD - Delete
 
+Na aula passada vimos apenas como adicionar e buscar um elemento, agora iremos aprender a deletar e alterar ele.
+
+Mas antes disso vamos deixar nossa *View* mais ajeitada para facilitar nossa visualização e interação, para isso vaos adicionar o [MaterializeCSS](http://materializecss.com/).
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+```
+
+## Exercício
+
+1) Criar a função de `delete` utilizando `splice` em vez de `filter`.

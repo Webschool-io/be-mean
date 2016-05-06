@@ -37,5 +37,12 @@ Nesse curso abordarei a versão 1.5 acima do [Angular](https://angularjs.org/).
 - Aula 15
 - Aula 16
 
-
+one time binding
+scopes
+events
+directives
+config
+ng-route
+ui-router
+interceptor
 
