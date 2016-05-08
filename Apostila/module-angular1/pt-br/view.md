@@ -333,6 +333,90 @@ Mas antes disso vamos deixar nossa *View* mais ajeitada para facilitar nossa vis
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 ```
 
+Agora iremos aprender a deletar nossos usuários a partr de um `button` na sua listagem
+
+...
+
 ## Exercício
 
 1) Criar a função de `delete` utilizando `splice` em vez de `filter`.
+
+//aula 7
+# CRUD - Update
+
+Chegando nos finalmente do CRUD vamos atualizar nossos usuários e para isso utilizaremos bastante conhecimento das aulas passadas.
+
+Primeiramente vamos adicionar um `button` lateral para que o usuário possa clickar e seus dados serem mostrados nos seus campos para edição, após a edição ele deverá clickar em outro botão, SAVE, *irmão* ao de adicionar.
+
+```html
+<p class="col s12">
+  <label>
+    <input type="text" data-ng-model="User.form.name" placeholder="Name">
+  </label>
+  <br>
+  <label>
+    <input type="email" data-ng-model="User.form.email" placeholder="Email">
+  </label>
+</p>
+<button data-ng-click="User.add(User.form)" class="btn btn-large green waves-effect waves-light col s6" type="submit" name="action">Add</button>
+<button data-ng-click="User.save(User.form)" class="btn btn-large blue waves-effect waves-light col s6" type="submit" name="action">Save</button>
+```
+
+Perceba que inverti o nome do `ng-model` que na aula anterior era `form.User` e agora é `User.form`, pois dessa forma o objeto `form` está dentro do escopo do *UserController* facilitando a manipulação dos seus dados.
+
+Agora vejamos como ficará a listagem dos usuários e o botão para editar:
+
+```html
+<tr data-ng-repeat="user in User.users | orderBy:predicate:reverse | filter:searchUser ">
+  <td>
+    <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
+    <label for="user-{{$index}}"></label>
+  </td>
+  <td>{{ user.name }}</td>
+  <td>{{ user.email }}</td>
+  <td>
+    <button data-ng-click="User.edit(user, $index)" class="btn blue waves-effect waves-light col s12" type="submit" name="action">Edit
+    </button>
+  </td>
+</tr>
+```
+
+Note a chamada da função `User.edit(user, $index)`, estou passando o `$index` que é o contador do `ng-repeat` para ter uma referência de qual objeto da listagem será editado, isso não será necessário quando nossos registros vierem com o `_id` do MongoDB.
+
+Chegando agora na função do botão da listagem onde o mesmo deve receber os dados e colocá-los nos campos, desta forma:
+
+```js
+vm.edit = edit;
+function edit(user, index) {
+  vm.form = angular.copy(user);
+  vm.form.index = index;
+}
+```
+
+Necessitamos utilizar o `angular.copy` para que quando modificado no `ng-model` ele não mude diretamente no `ng-repeat` e adicionamos o valor de `index` no `form` pois é ele que será salvo posteriormente.
+
+Logo vamos fazer a função de salvar:
+
+```js
+vm.save = save;
+function save(user) {
+  function saveUser(el, i){
+    if(i === user.index) {
+      delete user.index;
+      return user;
+    }
+    return el;
+  }
+  var users = vm.users.map(saveUser);
+  vm.users = users;
+}
+```
+
+Nessa função eu só preciso testar se o contador do `map` é o mesmo do `index` para daí sobrescrever esse objeto com `return user;`, enquanto que o resto continua a mesma coisa `return el;`.
+
+**Facílimo não?!**
+
+## Exerício
+
+1) Fazer a função do `save` o *Controller* de Professores e utilizar o `forEach` em vez do `map`.
+

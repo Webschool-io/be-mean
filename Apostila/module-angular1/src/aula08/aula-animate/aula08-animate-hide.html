@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <style>
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .message {
+      transition: all linear 0.5s;
+      background-color: #666;
+      height: 100px;
+    }
+    .ng-hide {
+      height: 0;
+    }
+
+  </style>
+</head>
+<body data-ng-controller="UserController as User" class="wrapper">
+
+  <h1>{{ User.titulo }}</h1>
+  <section class="row">
+    <input type="checkbox" id="esconder" ng-model="myCheck" />
+    <label for="esconder">Esconder</label>
+    <p>Valor de myCheck: {{myCheck}}</p>
+    <div class="message" ng-hide="myCheck">
+      Alguma mensagem.
+    </div>
+  </section>
+
+  <script src="./../../angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.js"></script>
+  <script>
+    angular.module('BeMEAN', ['ngAnimate'])
+      .controller('UserController', UserController);
+
+    function UserController() {
+      var vm = this;
+      vm.titulo = "Be MEAN - Animações";
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

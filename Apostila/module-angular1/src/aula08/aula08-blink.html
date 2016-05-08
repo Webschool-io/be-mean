@@ -1,0 +1,253 @@
+<!doctype html>
+<html ng-app="BeMEAN">
+<head>
+  <meta charset="utf-8">
+  <title>Top Animation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <script>document.write('<base href="' + document.location + '" />');</script>
+  <style>
+    html {
+      width: 800px;
+      margin: 0 auto;
+    }
+    tr {
+      display: list-item;
+    }
+    td:nth-child(2) {
+      min-width: 100px;
+    }
+
+    td:nth-child(3) {
+      min-width: 200px;
+    }
+
+    .box-one {
+    margin:10px 0 20px 0;
+    padding:10px;
+    border:1px solid rgba(0,0,0,0.2);
+    background:#f00;
+    color:#fff;
+    border-radius:4px;
+
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 1s;
+    }
+
+    .box-one.ng-hide {
+        opacity:0;
+        /* transform: scale(0.8); */
+    }
+
+  .animate-enter { 
+    -webkit-animation: enter 600ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    animation: enter 600ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    display: block;
+    position: relative;
+  } 
+  @-webkit-keyframes enter {
+      from {
+          opacity: 0;
+          height: 0px;
+      }
+      20% {
+          opacity: .5;
+      }
+      40% {
+          opacity: .15;        
+          color: red;            }
+      60% {
+          opacity: .75;        
+      }
+      80% {
+          opacity: .3;        
+      }
+      to {
+          opacity: 1;
+          height: 30px;
+      }
+  }
+  @keyframes enter {
+      from {
+          opacity: 0;
+          height: 0px;
+      }
+      20% {
+          opacity: .5;
+      }
+      40% {
+          opacity: .15;        
+          color: red;            }
+      60% {
+          opacity: .75;        
+      }
+      80% {
+          opacity: .3;        
+      }
+      to {
+          opacity: 1;
+          height: 30px;
+      }
+  }
+   
+  .animate-leave { 
+      -webkit-animation: leave 600ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      animation: leave 600ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+      display: block;
+      position: relative;
+  } 
+  @-webkit-keyframes leave {
+      to {
+          opacity: 0;
+          height: 0px;
+      }
+      80% {
+          opacity: .25;
+      }
+      60% {
+          opacity: .10;        
+          color: red;            }
+      40% {
+          opacity: .5;        
+      }
+      20% {
+          opacity: .30;        
+      }
+      from {
+          opacity: 1;
+          height: 30px;
+      }
+  }
+  @keyframes leave {
+      to {
+          opacity: 0;
+          height: 0px;
+      }
+      80% {
+          opacity: .25;
+      }
+      60% {
+          opacity: .10;        
+          color: red;            }
+      40% {
+          opacity: .5;        
+      }
+      20% {
+          opacity: .30;        
+      }
+      from {
+          opacity: 1;
+          height: 30px;
+      }
+  }
+  </style>
+    <script src="./../angular.min.js"></script>
+    <script src="animate/angular-animate.js"></script>
+    
+</head>
+<body >
+  <section class="row wrapper" data-ng-controller="UserController as User">
+    <h1>{{ User.titulo }}</h1>
+
+    <button ng-click="testController.showBoxOne = !testController.showBoxOne">Toggle Box One</button>
+    
+    <div class="box-one" ng-show="testController.showBoxOne">
+        Hello! I am <b>box one</b>.
+    </div>
+    <p class="col s12">
+      <label>
+        <input type="text" data-ng-model="User.form.name" placeholder="Name">
+      </label>
+      <br>
+      <label>
+        <input type="email" data-ng-model="User.form.email" placeholder="Email">
+      </label>
+    </p>
+    <button data-ng-click="User.add(User.form)" class="btn btn-large green waves-effect waves-light col s6" type="submit" name="action">Add</button>
+    <button data-ng-click="User.save(User.form)" class="btn btn-large blue waves-effect waves-light col s6" type="submit" name="action">Save</button>
+    <span data-ng-init="predicate = 'name'; reverse = true; "></span>
+    <table style="margin-top: 30px; width: 200px; overflow: hidden;">
+      <thead>
+        <tr>
+          <th colspan="4">
+            <label>
+              <input ng-model="searchUser" placeholder="Search">
+            </label>
+          </th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Email</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-animate="'animate'" data-ng-repeat="user in User.users | filter:searchUser ">
+          <td>
+            <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
+            <label for="user-{{$index}}"></label>
+          </td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+          <td>
+            <button data-ng-click="User.edit(user, $index)" class="btn blue waves-effect waves-light col s12" type="submit" name="action">Edit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button data-ng-click="User.remove(User.users)" class="btn btn-large red waves-effect waves-light col s12" type="submit" name="action">Remove
+    </button>
+  </section>
+  <script>
+    angular.module('BeMEAN', [])
+      .controller('UserController', UserController);
+
+    function UserController() {
+      var vm = this;
+
+      vm.showBoxOne = false;
+      vm.showBoxTwo = false;
+      vm.titulo = "Be MEAN - Usuários";
+      vm.users = [
+        {name: 'Suissa', email: 'suissera@manoveio.com'}
+      , {name: 'João', email: 'joao@macioesedoso.com'}
+      , {name: 'Franciele', email: 'fran@quimica.com'}
+      ];
+
+      function getKeyLength() {
+        return Object.keys(angular.copy(vm.users[0])).length;
+      }
+      vm.keysLength = getKeyLength();
+
+      vm.add = add;
+      function add(user) {
+        vm.users.push(angular.copy(user));
+      }
+
+      vm.remove = remove;
+      function remove(users) {
+        vm.users = users.filter(function(el){ return !el.selecionado });
+      }
+
+      vm.edit = edit;
+      function edit(user, index) {
+        vm.form = angular.copy(user);
+        vm.form.index = index;
+      }
+
+      vm.save = save;
+      function save(user) {
+        var users = vm.users.map(function(el, i) {
+          if(i === user.index) {
+            delete user.index;
+            return user;
+          }
+          return el;
+        });
+        vm.users = users;
+      }
+    }
+  </script>
+</body>
+</html>
+  

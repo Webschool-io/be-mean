@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <style>
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .box-one {
+      margin:10px 0 20px 0;
+      padding:10px;
+      border:1px solid rgba(0,0,0,0.2);
+      background:#f00;
+      color:#fff;
+      border-radius:4px;
+
+      -webkit-transition:all linear 0.5s;
+      transition:all linear 1s;
+    }
+    .box-one.ng-hide {
+      opacity:0;
+      transform: scale(0.8);
+    }
+  </style>
+</head>
+<body data-ng-controller="UserController as User" class="wrapper">
+  <h1>{{ User.titulo }}</h1>
+
+  <button class="btn blue" ng-click="User.showBoxOne = !User.showBoxOne">Toggle</button>
+  <div class="box-one" ng-show="User.showBoxOne">
+      Alguma mensagem.
+  </div>
+  <script src="./../../angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.js"></script>
+  <script>
+    angular.module('BeMEAN', ['ngAnimate'])
+      .controller('UserController', UserController);
+
+    function UserController() {
+      var vm = this;
+      vm.titulo = "Be MEAN - Animações";
+
+      vm.showBoxOne = false;
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

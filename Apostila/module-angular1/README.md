@@ -12,30 +12,51 @@ Nesse curso abordarei a versão 1.5 acima do [Angular](https://angularjs.org/).
 - Aula 03
   + Controller
 - Aula 04
-    + ng-repeat
-    + orderBy
-    + filter
+  - CRUD - READ/RETRIEVE
+  - ng-repeat
+  - orderBy
+  - filter
 - Aula 05
-    + ng-click
-    + Forms
-        * ng-class
-        * ng-options
+  - CRUD - CREATE
+  - ng-click
 - Aula 06
-    + Forms
-        * pristine, etc
-    + ng-disable
+  + CRUD - DELETE
 - Aula 07
-    + $http
-    + Service
+  + CRUD - UPDATE
 - Aula 08
+  + Animate
+    + ng-hide
 - Aula 09
+  + Animate
+    + ng-move
+    + ng-enter
+    + ng-leave
 - Aula 10
+  - ng-if
+  - ng-class
+  - ng-style
 - Aula 11
+  - ng-options
+  - pristine/dirty
 - Aula 12
+  - ng-messages
+  - ng-disable
 - Aula 13
 - Aula 14
 - Aula 15
 - Aula 16
+
+### Animate
+
+Refêrencias:
+
+- [Angular Docs - Animations](https://docs.angularjs.org/guide/animations)
+- [ng-repeat animations](http://codepen.io/EricSimons/pen/VYGQwX)
+- [ng-show/hide and ng-animate](http://jsfiddle.net/raving/hgjrmoru/)
+- [Toggle simples](http://plnkr.co/edit/EGkylQ?p=preview)
+- [Animating Angular Apps: ngShow and ngHide](https://scotch.io/tutorials/animating-angular-apps-ngshow-and-nghide)
+- [Animating AngularJS Apps: ngView](https://scotch.io/tutorials/animating-angularjs-apps-ngview)
+
 
 one time binding
 scopes
@@ -45,4 +66,5 @@ config
 ng-route
 ui-router
 interceptor
+ng-animate
 
