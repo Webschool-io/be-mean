@@ -56,7 +56,11 @@ Refêrencias:
 - [Toggle simples](http://plnkr.co/edit/EGkylQ?p=preview)
 - [Animating Angular Apps: ngShow and ngHide](https://scotch.io/tutorials/animating-angular-apps-ngshow-and-nghide)
 - [Animating AngularJS Apps: ngView](https://scotch.io/tutorials/animating-angularjs-apps-ngview)
+- [Shuffle Example](http://jsfiddle.net/yfajy/3/)
 
+### ng-class
+
+- [The Many Ways To Use ngClass](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
 
 one time binding
 scopes

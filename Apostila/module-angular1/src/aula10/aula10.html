@@ -52,12 +52,23 @@
       font-size: 1.2rem;
       opacity:1;
     }
+    .atom-titulo {
+      color : #D0BB00;
+      font-size : 80px;
+      text-align : center;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
   </style>
 </head>
 <body data-ng-controller="UserController as User">
 
   <section class="row wrapper">
-    <h1>{{ User.titulo }}</h1>
+    <h1 data-ng-class="User.getTituloStyle()">{{ User.titulo }}</h1>
     <p class="col s12">
       <label>
         <input type="text" data-ng-model="User.form.name" placeholder="Name">
@@ -68,7 +79,7 @@
       </label>
     </p>
     <button data-ng-click="User.add(User.form)" class="btn btn-large green waves-effect waves-light col s12" type="submit" name="action">Add</button>
-    <button data-ng-hide="!User.editing" data-ng-click="User.save(User.form)" class="btn btn-large animate blue waves-effect waves-light col s12" type="submit" name="action">Save</button>
+    <button data-ng-if="User.editing" data-ng-click="User.save(User.form)" class="btn btn-large animate blue waves-effect waves-light col s12" type="submit" name="action">Save</button>
     <table>
       <thead>
         <tr>
@@ -86,7 +97,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
+        <tr data-ng-class="{bold: !user.selecionado, strike: user.selecionado}" class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
           <td>
             <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
             <label for="user-{{$index}}"></label>
@@ -113,9 +124,10 @@
 
     function UserController() {
       var vm = this;
-      vm.titulo = "Be MEAN - Usuários";
+      vm.titulo = "Be MEAN Usuários";
       vm.editing = false;
       vm.reverse = false;
+      vm.getTituloStyle = function(){ return "atom-titulo"; };
       vm.users = [
         {name: 'Suissa', email: 'suissera@manoveio.com'}
       , {name: 'João', email: 'joao@macioesedoso.com'}

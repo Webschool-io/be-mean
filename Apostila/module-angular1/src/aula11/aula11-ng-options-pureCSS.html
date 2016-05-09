@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <style>
+    .wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .animate {
+      transition: all linear 0.5s;
+    }
+    .ng-hide {
+      height: 0;
+    }
+    .item.ng-enter {
+      -webkit-transition:all linear 0.5s;
+      transition:all linear 0.5s;
+    }
+    .item.ng-leave {
+      -webkit-transition:all linear 0.5s;
+      transition:all linear 0.5s;
+    }
+    .item.ng-move {
+      -webkit-transition:all linear 1s;
+      transition:all linear 1s;
+    }
+    .item.ng-enter {
+      opacity:0;
+    }
+    .item.ng-leave {
+      opacity:1;
+      height: 100px;
+    }
+    .item.ng-leave.ng-leave-active {
+      opacity:0;
+      height: 0;
+    }
+
+    .item.ng-move {
+      opacity: 0;
+    }
+    .item.ng-move.ng-move-active  {
+      opacity: 1;
+    }
+
+    .item.ng-enter.ng-enter-active {
+      color: #4CAF50;  /* .green */
+      font-weight: bold;
+      font-size: 1.2rem;
+      opacity:1;
+    }
+    .atom-titulo {
+      color : #D0BB00;
+      font-size : 80px;
+      text-align : center;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body data-ng-controller="UserController as User" class="wrapper">
+
+  <section class="row">
+    <h1 data-ng-class="User.getTituloStyle()">{{ User.titulo }}</h1>
+    <form class="pure-form pure-form-stacked">
+      <select class="pure-input-1" ng-model="User.users1" ng-options="user.name for user in User.users">
+        <option value="">Usuários</option>
+      </select>
+      <select class="pure-input-1" ng-model="User.users2" ng-options="user.name for user in User.users track by user.email">
+        <option value="">Usuários com valor inicial</option>
+      </select>
+      <select class="pure-input-1" ng-model="User.users3" ng-options="user.name group by user.type for user in User.users">
+        <option value="">Usuários agrupados por type</option>
+      </select>
+      <select class="pure-input-1" ng-model="User.users4" ng-options="user.name group by user.type disable when !user.active for user in User.users">
+        <option value="">Usuários agrupados por type e desabilitados por !user.active</option>
+      </select>
+    </form>
+  </section>
+
+  <script src="./../angular.min.js"></script>
+  <script src="./..//angular-animate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+  <script src="https://gitcdn.link/repo/angular/bower-material/master/angular-material.js"></script>
+
+  <script>
+    angular.module('BeMEAN', ['ngAnimate', 'ngMaterial'])
+      .controller('UserController', UserController);
+
+    function UserController() {
+      var vm = this;
+      vm.titulo = "Be MEAN Usuários";
+      vm.editing = false;
+      vm.reverse = false;
+      vm.getTituloStyle = function(){ return "atom-titulo"; };
+      vm.users = [
+        {name: 'Suissa', email: 'suissera@manoveio.com', type: 'teacher', active: true}
+      , {name: 'João', email: 'joao@macioesedoso.com', type: 'student', active: false}
+      , {name: 'Franciele', email: 'fran@quimica.com', type: 'teacher', active: false}
+      , {name: 'Maria', email: 'm@gmail.com', type: 'student', active: true}
+      , {name: 'José', email: 'js@gmail.com', type: 'student', active: true}
+      ];
+      vm.users2 = vm.users[0];
+
+      function getKeyLength() {
+        return Object.keys(angular.copy(vm.users[0])).length;
+      }
+      vm.keysLength = getKeyLength();
+
+      vm.orderByName = orderByName;
+      function orderByName() {
+        vm.predicate = 'name';
+        vm.reverse = !vm.reverse;
+      }
+      vm.orderByEmail = orderByEmail;
+      function orderByEmail() {
+        vm.predicate = 'email';
+        vm.reverse = !vm.reverse;
+      }
+
+      vm.add = add;
+      function add(user) {
+        vm.users.push(angular.copy(user));
+        vm.form = {};
+      }
+      vm.remove = remove;
+      function remove(users) {
+        vm.users = users.filter(function(el){ return !el.selecionado });
+      }
+
+      vm.edit = edit;
+      function edit(user, index) {
+        vm.form = angular.copy(user);
+        vm.form.index = index;
+        vm.editing = true;
+      }
+
+      vm.save = save;
+      function save(user) {
+        var users = vm.users.map(function(el, i) {
+          if(i === user.index) {
+            delete user.index;
+            return user;
+          }
+          return el;
+        });
+        vm.users = users;
+        vm.editing = false;
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

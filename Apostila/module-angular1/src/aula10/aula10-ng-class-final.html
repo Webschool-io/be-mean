@@ -8,6 +8,7 @@
     .wrapper {
       max-width: 600px;
       margin: 0 auto;
+      background-color: #fff;
     }
     .animate {
       transition: all linear 0.5s;
@@ -52,12 +53,52 @@
       font-size: 1.2rem;
       opacity:1;
     }
+    .atom-titulo {
+      color : #D0BB00;
+      font-size : 80px;
+      text-align : center;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .red {
+      color: red;
+    }
+    .has-error {
+      color: red;
+      background-color: yellow;
+    }
+    .orange {
+      color: orange;
+    }
+    .selected {
+      font-weight: bold;
+      text-decoration: line-through;
+    }
+
   </style>
 </head>
 <body data-ng-controller="UserController as User">
 
   <section class="row wrapper">
-    <h1>{{ User.titulo }}</h1>
+    <!-- map syntax -->
+    <h1 ng-class="{strike: deleted, bold: important, 'has-error': error}" class="atom-titulo">{{ User.titulo }}</h1>
+    <label>
+       <input type="checkbox" id="deleted" ng-model="deleted">
+       <label for="deleted">deleted (apply "strike" class)</label>
+    </label><br>
+    <label>
+       <input type="checkbox" id="important" ng-model="important">
+       <label for="important">important (apply "bold" class)</label>
+    </label><br>
+    <label>
+       <input type="checkbox" id="error" ng-model="error">
+       <label for="error">error (apply "has-error" class)</label>
+    </label>
+
     <p class="col s12">
       <label>
         <input type="text" data-ng-model="User.form.name" placeholder="Name">
@@ -86,7 +127,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
+        <tr ng-class="{selected: user.selecionado}" class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
           <td>
             <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
             <label for="user-{{$index}}"></label>
@@ -106,16 +147,18 @@
   </section>
 
   <script src="./../angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.js"></script>
+  <script src="./../angular-animate.js"></script>
   <script>
     angular.module('BeMEAN', ['ngAnimate'])
       .controller('UserController', UserController);
 
     function UserController() {
       var vm = this;
-      vm.titulo = "Be MEAN - Usuários";
+      vm.titulo = "Be MEAN Usuários";
       vm.editing = false;
       vm.reverse = false;
+      vm.marcadoStyle ={ "background-color" : "coral", "font-weight": "bold" };
+      vm.tituloStyle = "atom-titulo";
       vm.users = [
         {name: 'Suissa', email: 'suissera@manoveio.com'}
       , {name: 'João', email: 'joao@macioesedoso.com'}

@@ -1,0 +1,7 @@
+# Forms
+
+Vamos iniciar uma série para aprender a trabalhar com algumas funcionalidades específicas para `forms` no Angular.
+
+Uma das coisas que ainda não fizemos é criar um `select` para ser mostrado a partir dos valores do *Controller*.
+
+## ng-options

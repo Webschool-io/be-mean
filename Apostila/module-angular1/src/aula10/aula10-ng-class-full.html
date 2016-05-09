@@ -8,6 +8,7 @@
     .wrapper {
       max-width: 600px;
       margin: 0 auto;
+      background-color: #fff;
     }
     .animate {
       transition: all linear 0.5s;
@@ -52,12 +53,69 @@
       font-size: 1.2rem;
       opacity:1;
     }
+    .atom-titulo {
+      color : #D0BB00;
+      font-size : 80px;
+      text-align : center;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .red {
+      color: red;
+    }
+    .has-error {
+      color: red;
+      background-color: yellow;
+    }
+    .orange {
+      color: orange;
+    }
+
   </style>
 </head>
 <body data-ng-controller="UserController as User">
 
   <section class="row wrapper">
-    <h1>{{ User.titulo }}</h1>
+    <!-- map syntax -->
+    <p class="atom-titulo" ng-class="{strike: deleted, bold: important, 'has-error': error}">{{ User.titulo }}</p>
+    <label>
+       <input type="checkbox" id="deleted" ng-model="deleted">
+       <label for="deleted">deleted (apply "strike" class)</label>
+    </label><br>
+    <label>
+       <input type="checkbox" id="important" ng-model="important">
+       <label for="important">important (apply "bold" class)</label>
+    </label><br>
+    <label>
+       <input type="checkbox" id="error" ng-model="error">
+       <label for="error">error (apply "has-error" class)</label>
+    </label>
+    <hr>
+    <!-- string syntax -->
+    <p class="atom-titulo" ng-class="style">{{ User.titulo }}</p>
+    <input type="text" id="style" ng-model="style"
+           placeholder="Type: bold strike red" aria-label="Type: bold strike red">
+    <label for="style"></label>
+    <hr>
+    <!-- array syntax -->
+    <p class="atom-titulo" ng-class="[style1, style2, style3]">{{ User.titulo }}</p>
+    <input ng-model="style1"
+           placeholder="Type: bold, strike or red" aria-label="Type: bold, strike or red"><br>
+    <input ng-model="style2"
+           placeholder="Type: bold, strike or red" aria-label="Type: bold, strike or red 2"><br>
+    <input ng-model="style3"
+           placeholder="Type: bold, strike or red" aria-label="Type: bold, strike or red 3"><br>
+    <hr>
+    <!-- array e map syntax -->
+    <p class="atom-titulo" ng-class="[style4, {orange: warning}]">{{ User.titulo }}</p>
+    <input ng-model="style4" placeholder="Type: bold, strike" aria-label="Type: bold, strike"><br>
+    <label><input type="checkbox" ng-model="warning"> warning (apply "orange" class)</label>
+
+    <h1 data-ng-class="User.tituloStyle">{{ User.titulo }}</h1>
     <p class="col s12">
       <label>
         <input type="text" data-ng-model="User.form.name" placeholder="Name">
@@ -106,16 +164,18 @@
   </section>
 
   <script src="./../angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.js"></script>
+  <script src="./../angular-animate.js"></script>
   <script>
     angular.module('BeMEAN', ['ngAnimate'])
       .controller('UserController', UserController);
 
     function UserController() {
       var vm = this;
-      vm.titulo = "Be MEAN - Usuários";
+      vm.titulo = "Be MEAN Usuários";
       vm.editing = false;
       vm.reverse = false;
+      vm.marcadoStyle ={ "background-color" : "coral", "font-weight": "bold" };
+      vm.tituloStyle = "atom-titulo";
       vm.users = [
         {name: 'Suissa', email: 'suissera@manoveio.com'}
       , {name: 'João', email: 'joao@macioesedoso.com'}

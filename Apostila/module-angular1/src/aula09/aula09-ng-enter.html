@@ -15,41 +15,15 @@
     .ng-hide {
       height: 0;
     }
+
     .item.ng-enter {
       -webkit-transition:all linear 0.5s;
       transition:all linear 0.5s;
     }
-    .item.ng-leave {
-      -webkit-transition:all linear 0.5s;
-      transition:all linear 0.5s;
-    }
-    .item.ng-move {
-      -webkit-transition:all linear 1s;
-      transition:all linear 1s;
-    }
     .item.ng-enter {
       opacity:0;
     }
-    .item.ng-leave {
-      opacity:1;
-      height: 100px;
-    }
-    .item.ng-leave.ng-leave-active {
-      opacity:0;
-      height: 0;
-    }
-
-    .item.ng-move {
-      opacity: 0;
-    }
-    .item.ng-move.ng-move-active  {
-      opacity: 1;
-    }
-
     .item.ng-enter.ng-enter-active {
-      color: #4CAF50;  /* .green */
-      font-weight: bold;
-      font-size: 1.2rem;
       opacity:1;
     }
   </style>
@@ -86,7 +60,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
+        <tr class="item" data-ng-repeat="user in User.users | filter:searchUser ">
           <td>
             <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
             <label for="user-{{$index}}"></label>
@@ -99,8 +73,6 @@
         </tr>
       </tbody>
     </table>
-    <button data-ng-click="User.orderByName()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Name</button>
-    <button data-ng-click="User.orderByEmail()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Email</button>
     <button data-ng-click="User.remove(User.users)" class="btn btn-large red waves-effect waves-light col s12" type="submit" name="action">Remove
     </button>
   </section>
@@ -115,7 +87,6 @@
       var vm = this;
       vm.titulo = "Be MEAN - Usuários";
       vm.editing = false;
-      vm.reverse = false;
       vm.users = [
         {name: 'Suissa', email: 'suissera@manoveio.com'}
       , {name: 'João', email: 'joao@macioesedoso.com'}
@@ -127,22 +98,11 @@
       }
       vm.keysLength = getKeyLength();
 
-      vm.orderByName = orderByName;
-      function orderByName() {
-        vm.predicate = 'name';
-        vm.reverse = !vm.reverse;
-      }
-      vm.orderByEmail = orderByEmail;
-      function orderByEmail() {
-        vm.predicate = 'email';
-        vm.reverse = !vm.reverse;
-      }
-
       vm.add = add;
       function add(user) {
         vm.users.push(angular.copy(user));
-        vm.form = {};
       }
+
       vm.remove = remove;
       function remove(users) {
         vm.users = users.filter(function(el){ return !el.selecionado });

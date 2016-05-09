@@ -1,4 +1,4 @@
-//aula8
+//aula s8
 # ng-animate - CSS e Animações
 
 > O que CSS e Animações tem a ver com o com Angular??
@@ -50,7 +50,6 @@ Vaos ver um exemplo bem simples:
 <div class="message" ng-hide="myCheck"></div>
 ```
 
-
 ## Classes
 
 Vamos conhecer melhor algumas dessas animações pelas classes mais utilizadas:
@@ -82,7 +81,6 @@ Esconder: <input type="checkbox" ng-model="myCheck">
 }
 ```
 
-
 Para acontecer a animação o Angular irá adicionar e remover várias classes, por exemplo na animação da diretiva `ng-hide`:
 
 - ng-animate
@@ -96,64 +94,64 @@ Para acontecer a animação o Angular irá adicionar e remover várias classes, 
 
 1) Criar a mesma lógica de animação do botão `SAVE` para o botão `EDIT`, porém **utilizando uma animação, de CSS, DIFERENTE**.
 
+// aula 9
+
+### .ng-enter
+
+Essa classe é adicionada quando um novo elemento entra no DOM.
+Usada no `ng-repeat`, `ng-view`, `ng-include`, `ng-switch`, `ng-if`.
+
+Para exemplificar essa classe iremos estilizar o elemento quando um usuário novo é adicionado.
+
+Antes de iniciarmos preciso explicar que para as animações ocorrerem precisaremos utilizar mais uma claasse: `.ng-{ação}-active`, vamos ver o seguinte exemplo:
+
+```css
+.item.ng-enter {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+.item.ng-enter {
+  opacity:0;
+}
+.item.ng-enter.ng-enter-active {
+  opacity:1;
+}
+```
+
+Perceba então que quando queremos que um elemento entre com `opacity:1` utilizaremos a classe `active` na ação do `enter`, por isso a classe é `ng-enter-active`.
+
+Como precisamos que ele tenha um valor inicial para que sua animação possa ocorrer, definimos `opacity:0` em `ng-enter` pois esse é seu estado antes de entrar em `active`.
+
+E quem faz toda a mágica acontecer é esse código:
+
+```css
+.item.ng-enter {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+```
+
+Onde podemos definir o tipo e a duração dessa animação.
+
+#### Exercício
+
+1) Criar uma animação melhor com `keyframes` para entrada do usuário na lista.
+
+### .ng-leave
+
+Essa classe é adicionada quando um novo elemento removido no DOM.
+Usada no `ng-repeat`, `ng-view`, `ng-include`, `ng-switch`, `ng-if`.
+
+#### Exercício
+
+1) Criar uma animação melhor com `keyframes` para saída do usuário na lista.
+
 ### .ng-move
 
 Essa classe é adicionada quando um elemento é movido de sua posição.
 Usada no `ng-repeat`.
 
-### .ng-enter
+#### Exercício
 
-Essa classe é adicionada quando um novo elemento entra no DOM.
-Usada no `ng-repeat`, `ng-view`, `ng-include`, `ng-switch`, `ng-if` .
-
-#### .ng-enter-active
-
-### .ng-leave
-
-Essa classe é adicionada quando um novo elemento removido no DOM.
-Usada no `ng-repeat`, `ng-view`, `ng-include`, `ng-switch`, `ng-if` .
-
-
-### .ng-active
-
-## Animação
-
-
-## Exercícios
-
-1) Fazer a mesma animação do `ng-hide` utilizando `ng-show`.s
-
-Usaremos o CSS para animarmos, vamos adicionar uma `class` no elemento onde está o `ng-repeat`:
-
-```html
-<tr class="item" data-ng-repeat="user in User.users | filter:searchUser ">
-```
-
-
-```css
-  .item.ng-move,
-  .item.ng-enter,
-  .item.ng-leave {
-    -webkit-transition:all linear 0.5s;
-    transition:all linear 0.5s;
-  }
-
-  .item.ng-leave.ng-leave-active,
-  .item.ng-move,
-  .item.ng-enter {
-    opacity:0;
-  }
-
-  .item.ng-leave,
-  .item.ng-move.ng-move-active,
-  .item.ng-enter.ng-enter-active {
-    opacity:1;
-  }
-  ```
-
-
-
-
-
-
+1) Criar uma animação melhor com `keyframes` para a busca do usuário na lista.
 
