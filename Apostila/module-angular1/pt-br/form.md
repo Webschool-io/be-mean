@@ -88,7 +88,28 @@ Forma utilizada para agrupar, com `<optgroup>`, baseada no valor de `group by us
 
 Funcionalidade para desabilitar as opções, utilizando `disabled`.
 
+## ng-disabled
+
+Anteriormente vimos como desabilitar uma opção do `<select>` agora, para exemplificar, iremos desabilitar um `<button>`.
+
+Vamos criar uma lógica para desabilitar o botão de `ADD` enquanto estiver editando um usuário, para isso basta adicionar `ng-disabled="User.editing"` no botão:
+
+```html
+<button data-ng-disabled="User.editing" data-ng-click="User.add(User.form)" class="btn btn-large green waves-effect waves-light col s12" type="submit" name="action">Add</button>
+```
+
+E precisamos modificar uma regrar CSS quando o atributo `disabled` é adicionado, infelizmente teremos que usar o `!important` assim:
+
+```css
+[disabled] {
+  background-color: #ccc !important;
+}
+```
+
+![](http://i.imgur.com/iM0BHMS.png)
 
 ## Exercícios
 
-1) Recriar o `ng-options` e suas funcionalidades com `ng-repeat`.
+
+
+

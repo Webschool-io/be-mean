@@ -37,10 +37,10 @@ Nesse curso abordarei a versão 1.5 acima do [Angular](https://angularjs.org/).
   - ng-style
 - Aula 11
   - ng-options
-  - pristine/dirty
-- Aula 12
-  - ng-messages
   - ng-disable
+- Aula 12
+  - pristine/dirty
+  - ng-messages
 - Aula 13
 - Aula 14
 - Aula 15
