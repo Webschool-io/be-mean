@@ -110,6 +110,28 @@ E precisamos modificar uma regrar CSS quando o atributo `disabled` é adicionado
 
 ## Exercícios
 
+1) Adicionar ordenação no `ng-options`.
+2) Criar lógica para desabilitar a linha do usuário quando ele está sendo editado.
+
+//aula 12
+# ng-form
+
+Possuimos uma diretiva para o `<form>` pois o Angular provê diversas funcionalidades, principalmente de validação, para melhorar a experiência do usuário e ele não deixa você submeter um `form` caso ele não tenha uma `action` definida.
+
+- ng-valid: é definido se o formulário é válido.
+- ng-invalid: é definido se o formulário é inválido.
+- ng-pending: é definido se o formulário é pendente.
+- ng-pristine: é definido se o formulário é puro ou seja não foi modificado.
+- ng-dirty: é definido se o formulário é sujo pu seja foi modificado.
+- ng-submitted: é definido se o formulário foi enviado(subimitted).
+- ng-touched: é definido se o formulário foi tocado.
+- ng-untouched: é definido se o formulário foi não tocado.
+
+Antes de tudo precisamos modificar nosso código anterior trocando o `<p>` por `<form>`
+
+Cuidado ao estilizar o `ng-invalid` se você utiliza `required` nos seus `inputs`, caso utilize seu `form` inicia como inválido até ter todos os campos obrigatórios.
 
 
 
+
+novalidate
