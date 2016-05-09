@@ -5,6 +5,9 @@
   <title>Be MEAN</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
   <style>
+    body select {
+      display: inline-block;
+    }
     .wrapper {
       max-width: 600px;
       margin: 0 auto;
@@ -65,32 +68,64 @@
     }
   </style>
 </head>
-<body data-ng-controller="UserController as User" class="wrapper">
+<body data-ng-controller="UserController as User">
 
-  <section class="row">
+  <section class="row wrapper">
     <h1 data-ng-class="User.getTituloStyle()">{{ User.titulo }}</h1>
-
-      <select class="pure-input-1" ng-model="User.users1" ng-options="user.name for user in User.users">
-        <option value="">Usuários</option>
-      </select>
-      <select class="pure-input-1" ng-model="User.users2" ng-options="user.name for user in User.users track by user.email">
-        <option value="">Usuários com valor inicial</option>
-      </select>
-      <select class="pure-input-1" ng-model="User.users3" ng-options="user.name group by user.type for user in User.users">
-        <option value="">Usuários agrupados por type</option>
-      </select>
-      <select class="pure-input-1" ng-model="User.users4" ng-options="user.name group by user.type disable when !user.active for user in User.users">
-        <option value="">Usuários agrupados por type e desabilitados por !user.active</option>
-      </select>
+    <select name="" id="">
+      <option value="{{ user.email }}" data-ng-repeat="user in User.users">{{ user.name }}</option>
+    </select>
+    <p class="col s12">
+      <label>
+        <input type="text" data-ng-model="User.form.name" placeholder="Name">
+      </label>
+      <br>
+      <label>
+        <input type="email" data-ng-model="User.form.email" placeholder="Email">
+      </label>
+    </p>
+    <button data-ng-click="User.add(User.form)" class="btn btn-large green waves-effect waves-light col s12" type="submit" name="action">Add</button>
+    <button data-ng-if="User.editing" data-ng-click="User.save(User.form)" class="btn btn-large animate blue waves-effect waves-light col s12" type="submit" name="action">Save</button>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4">
+            <label>
+              <input ng-model="searchUser" placeholder="Search">
+            </label>
+          </th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Email</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-ng-class="{bold: !user.selecionado, strike: user.selecionado}" class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
+          <td>
+            <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
+            <label for="user-{{$index}}"></label>
+          </td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+          <td>
+            <button data-ng-click="User.edit(user, $index)" class="btn blue waves-effect waves-light col s12" type="submit" name="action">Edit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button data-ng-click="User.orderByName()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Name</button>
+    <button data-ng-click="User.orderByEmail()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Email</button>
+    <button data-ng-click="User.remove(User.users)" class="btn btn-large red waves-effect waves-light col s12" type="submit" name="action">Remove
+    </button>
   </section>
 
   <script src="./../angular.min.js"></script>
-  <script src="./..//angular-animate.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
-  <script src="https://gitcdn.link/repo/angular/bower-material/master/angular-material.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.js"></script>
   <script>
-    angular.module('BeMEAN', ['ngAnimate', 'ngMaterial'])
+    angular.module('BeMEAN', ['ngAnimate'])
       .controller('UserController', UserController);
 
     function UserController() {
@@ -100,17 +135,12 @@
       vm.reverse = false;
       vm.getTituloStyle = function(){ return "atom-titulo"; };
       vm.users = [
-        {name: 'Suissa', email: 'suissera@manoveio.com'}
-      , {name: 'João', email: 'joao@macioesedoso.com'}
-      , {name: 'Franciele', email: 'fran@quimica.com'}
+        {name: 'Suissa', email: 'suissera@manoveio.com', type: 'teacher', active: true}
+      , {name: 'João', email: 'joao@macioesedoso.com', type: 'student', active: false}
+      , {name: 'Franciele', email: 'fran@quimica.com', type: 'teacher', active: false}
+      , {name: 'Maria', email: 'm@gmail.com', type: 'student', active: true}
+      , {name: 'José', email: 'js@gmail.com', type: 'student', active: true}
       ];
-      vm.colors = [
-        {name:'black', shade:'dark'}
-      , {name:'white', shade:'light', notAnOption: true}
-      , {name:'red', shade:'dark'}
-      , {name:'blue', shade:'dark', notAnOption: true}
-      , {name:'yellow', shade:'light', notAnOption: false}
-    ];
 
       function getKeyLength() {
         return Object.keys(angular.copy(vm.users[0])).length;
