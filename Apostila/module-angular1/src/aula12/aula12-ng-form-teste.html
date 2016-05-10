@@ -87,25 +87,15 @@
   <section class="row wrapper">
     <img class="atom-logo" src="./../bemean-logo.png" alt="Logo do Be MEAN">
     <div class="col s12">
-      <form name="userForm" ng-submit="submitForm()" novalidate>
-          <!-- NAME -->
+      <form name="userForm" ng-submit="submitForm()">
           <div class="form-group" ng-class="{ 'card-panel' : userForm.name.$invalid && !userForm.name.$pristine }">
-              <label>Name</label>
-              <input type="text" name="name" class="form-control" ng-model="user.name" required>
-              <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">You name is required.</p>
+              <input type="text" name="name" class="form-control" ng-model="user.name" placeholder="Name" required>
           </div>
-          <!-- USERNAME -->
           <div class="form-group" ng-class="{ 'card-panel' : userForm.username.$invalid && !userForm.username.$pristine }">
-              <label>Username</label>
-              <input type="text" name="username" class="form-control" ng-model="user.username" ng-minlength="3" ng-maxlength="8">
-              <p ng-show="userForm.username.$error.minlength" class="help-block">Username is too short.</p>
-              <p ng-show="userForm.username.$error.maxlength" class="help-block">Username is too long.</p>
+              <input type="text" name="username" class="form-control" ng-model="user.username" ng-minlength="3" ng-maxlength="8" placeholder="Username">
           </div>
-          <!-- EMAIL -->
           <div class="form-group" ng-class="{ 'card-panel' : userForm.email.$invalid && !userForm.email.$pristine }">
-              <label>Email</label>
-              <input type="email" name="email" class="form-control" ng-model="user.email">
-              <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Enter a valid email.</p>
+              <input type="email" name="email" class="form-control" ng-model="user.email" placeholder="Email">
           </div>
       </form>
     </div>

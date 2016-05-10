@@ -8,6 +8,9 @@
     body select {
       display: inline-block;
     }
+    [disabled] {
+      background-color: #ccc !important;
+    }
     .wrapper {
       max-width: 600px;
       margin: 0 auto;
@@ -71,49 +74,47 @@
     .strike {
       text-decoration: line-through;
     }
+    .success {
+      background-color: #A4E567;
+    }
+    .danger {
+      background-color: #E56759;
+    }
+/*    .valid {
+      background-color: #ccc;
+    }
+    .ng-invalid {
+      background-color: red;
+    }*/
+
+    .ng-valid {
+      background-color: #B4E5C4;
+    }
+    .invalid {
+      background-color: red;
+    }
+  </style>
   </style>
 </head>
 <body data-ng-controller="UserController as User">
 
   <section class="row wrapper">
     <img class="atom-logo" src="./../bemean-logo.png" alt="Logo do Be MEAN">
-
-    <form>
-      <select ng-model="User.lista_comum" ng-options="user.name for user in User.users">
-        <option value="">Usuários</option>
-      </select>
-      <p>
-        Model: {{ User.lista_comum }}
-      </p>
-
-      <select ng-model="User.lista_comum_com_valor" ng-options="user.email as user.name for user in User.users">
-        <option value="">Usuários</option>
-      </select>
-      <p>
-        Model: {{ User.lista_comum_com_valor }}
-      </p>
-
-      <select ng-model="User.lista_com_valor_inicial" ng-options="user.email as user.name for user in User.users">
-        <option value="">Usuários com valor inicial</option>
-      </select>
-      <p>
-        Model: {{ User.lista_com_valor_inicial }}
-      </p>
-
-      <select ng-model="User.lista_agrupada" ng-options="user.name group by user.type for user in User.users">
-        <option value="">Usuários agrupados por type</option>
-      </select>
-      <p>
-        Model: {{ User.lista_agrupada }}
-      </p>
-
-      <select ng-model="User.lista_agrupada_desabilitada" ng-options="user.name group by user.type disable when !user.active for user in User.users">
-        <option value="">Usuários agrupados por type e desabilitados por !user.active</option>
-      </select>
-      <p>
-        Model: {{ User.lista_agrupada_desabilitada }}
-      </p>
-    </form>
+    <div class="col s12">
+      <form name="userForm">
+        <div data-ng-class="{'invalid' : userForm.name.$invalid}">
+          <label>Name</label>
+          <input type="text" name="name" data-ng-model="user.name" required>
+         <!--  <p data-ng-show="userForm.name.$invalid && !userForm.name.$pristine">Seu nome é obrigatório.</p> -->
+        </div>
+        <div data-ng-class="{'invalid' : userForm.email.$invalid}">
+          <label>Email</label>
+          <input type="email" name="email" data-ng-model="user.email">
+          <!-- <p data-ng-show="userForm.email.$invalid && !userForm.email.$pristine">Entre um email válido.</p> -->
+        </div>
+        <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
+      </form>
+    </div>
   </section>
 
   <script src="./../angular.min.js"></script>
@@ -135,7 +136,6 @@
       , {name: 'Maria', email: 'm@gmail.com', type: 'student', active: true}
       , {name: 'José', email: 'js@gmail.com', type: 'student', active: true}
       ];
-      vm.lista_com_valor_inicial = vm.users[3].email;
 
       function getKeyLength() {
         return Object.keys(angular.copy(vm.users[0])).length;
@@ -181,6 +181,7 @@
         });
         vm.users = users;
         vm.editing = false;
+        vm.form = {};
       }
     }
   </script>

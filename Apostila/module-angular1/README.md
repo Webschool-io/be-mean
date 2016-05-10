@@ -62,6 +62,7 @@ Refêrencias:
 
 - [The Many Ways To Use ngClass](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
 
+ngModelOptions
 one time binding
 scopes
 events

@@ -55,7 +55,7 @@ Forma mais simples onde o valor mostrado no `<option>` é o `user.name` e o valo
 
 ```js
  {"name":"Suissa","email":"suissera@manoveio.com","type":"teacher","active":true}
- ```
+```
 
 - select as label for value in array
 
@@ -114,24 +114,147 @@ E precisamos modificar uma regrar CSS quando o atributo `disabled` é adicionado
 2) Criar lógica para desabilitar a linha do usuário quando ele está sendo editado.
 
 //aula 12
-# ng-form
+## ng-form
 
 Possuimos uma diretiva para o `<form>` pois o Angular provê diversas funcionalidades, principalmente de validação, para melhorar a experiência do usuário e ele não deixa você submeter um `form` caso ele não tenha uma `action` definida.
 
-- ng-valid: é definido se o formulário é válido.
-- ng-invalid: é definido se o formulário é inválido.
-- ng-pending: é definido se o formulário é pendente.
-- ng-pristine: é definido se o formulário é puro ou seja não foi modificado.
-- ng-dirty: é definido se o formulário é sujo pu seja foi modificado.
-- ng-submitted: é definido se o formulário foi enviado(subimitted).
-- ng-touched: é definido se o formulário foi tocado.
+- ng-valid: é definido se o formulário é válido,
+- ng-invalid: é definido se o formulário é inválido,
+- ng-pending: é definido se o formulário é pendente,
+- ng-pristine: é definido se o formulário é puro ou seja não foi modificado,
+- ng-dirty: é definido se o formulário é sujo pu seja foi modificado,
+- ng-submitted: é definido se o formulário foi enviado(subimitted),
+- ng-touched: é definido se o formulário foi tocado,
 - ng-untouched: é definido se o formulário foi não tocado.
-
-Antes de tudo precisamos modificar nosso código anterior trocando o `<p>` por `<form>`
 
 Cuidado ao estilizar o `ng-invalid` se você utiliza `required` nos seus `inputs`, caso utilize seu `form` inicia como inválido até ter todos os campos obrigatórios.
 
+[mostrar aula12/aula12-ng-invalid-required.html]
 
+O Angular nos provê duas formas de utilizarmos os valores que mencionei acima, então vamos fazer esse exemplo utilizando `ng-valid` e `ng-invalid` cada um de uma forma:
 
+- via classe automática
+- via expressão com `ng-class`
+
+Vamos inicialmente criar os estilos para os estados de válido e inválido:
+
+```css
+.ng-valid {
+  background-color: #B4E5C4;
+}
+.invalid {
+  background-color: red;
+}
+```
+
+Nesse caso a classe `ng-valid` ela é atribuída automaticamente e a classe `invalid` será definida via expressão assim:
+
+```html
+<div ng-class="{'invalid' : userForm.name.$invalid}">
+  <input type="text" name="name" ng-model="user.name" placeholder="Name" required>
+</div>
+```
+
+Agora criando o `form` preciamos definir **SEMPRE** seu `name`:
+
+```html
+<form name="userForm">
+  <div data-ng-class="{'invalid' : userForm.name.$invalid}">
+    <input type="text" name="name" data-ng-model="user.name" placeholder="Name" required>
+  </div>
+  <div data-ng-class="{'invalid' : userForm.email.$invalid}">
+    <input type="email" name="email" data-ng-model="user.email" placeholder="Email">
+  </div>
+</form>
+```
+
+Logo notamos que para acessarmos o valor booleano de `ng-valid` utilizamos o valor `$valid` e esse é o padrão para entendermos essas duas formas.
+
+```
+{form}.{campo}.${classe}
+```
+
+Sendo:
+
+- {form}: objeto do form definido em `name="userForm"`,
+- {campo}: objeto do campo, do `input`, definido em `name="name"`,
+- {classe}: nome da classe definida automaticamente.
+
+Como você deve ter percebido o campo do *email* inicia como `valid` porque ele não é `required`, nesse caso ele só começa a validar quando você começa a modificar seu valor.
+
+Por isso precisamos utilizar essa técnica em conjunto a classe `ng-pristine`
+
+```html
+<form name="userForm">
+  <div data-ng-class="{'invalid' : userForm.name.$valid  && !userForm.name.$pristine}">
+    <label>Name</label>
+    <input type="text" name="name" data-ng-model="user.name" required>
+  </div>
+  <div data-ng-class="{'invalid' : userForm.emaile.$valid  && !userForm.name.$pristine}">
+    <label>Email</label>
+    <input type="email" name="emaile" data-ng-model="user.email">
+  </div>
+</form>
+```
+
+Agora podemos fazer adicionar o botão `ADD` onde ele tem que ficar desabilitado até a validação correta dos campos.
+
+// mais
+Basicamente qualquer elemento controlado pelo form inicia com essas 2 classes:
+
+- ng-pristine
+- ng-untouched
+
+Pois elas dizem que os campos não foram modificados de nenhuma forma ou seja estão no seu estado inicial.
+
+Agora precisamos criar a função que será chamada quando o formulário for submetido, para isso definimos `ng-submit="User.submitForm(User.form)"` no `form`, onde mudei o `name` dele para `User.form` para possuirmos ele dentro do escopo do Controller para trabalharmos futuramente.
+
+E o botão de `ADD` virou um `type="submit"`.
+
+### Exercício
+
+1) Não deixar adicionar um usuário que seja inválido. (via *Controller*)
+
+//aula 13
+[Mostrar aquela tabela de validações]
+## Validações
+
+Para acessarmos o valor de uma validação via seu objeto utilizamos o seguinte padrão:
+
+{form}.{campo}.$error.{validação}
+
+Vamos conhecer um pouco mais sobre as diretivas de validação dos *inputs*, mais especificamente do `type="text"`:
+
+- ng-minlength
+- ng-maxength
+- ng-pattern
+
+Iniciamos com um exemplo do `ng-minlength`:
+
+```html
+<input type="text" name="name" data-ng-minlength="3" data-ng-model="User.form.name" placeholder="Name" required>
+<p>
+  error: {{ User.userForm.name.$error }}
+</p>
+```
+
+Com esse exemeplo vemos que inicialmente ele irá mostrar `error: {"required":true}`, quando você não digitou nada ainda, depois que você digitar 1 letra ele irá virar `error: {"minlength":true}` pois a validação do `required` já verdadeira, porém a validação do `minlength` é pelo menos 3 caracteres. Então depois de digitat `Ana` ele irá ficar sem erro `error: {}`.
+
+Já notou qual o padrão para acessarmos o erro dessa validação?
+
+Se não notou é esse aqui:
+
+```
+{form}.{campo}.$error
+```
+
+Onde:
+
+- {form}: é o nome do `form`, por exemplo: `<form name="User.userForm">`
+- {form}: é o nome do `input`, por exemplo: `<input name="email" ...`
+
+## Mensagens de Erro
+
+A partir do 1.3/1.4 tivemos a melhoria do `ng-messages` que é a diretiva responsável por escolher qual `ng-message` de erro será mostrada, ela lembra a lógica de um `switch`
 
 novalidate
