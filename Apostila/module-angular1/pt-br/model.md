@@ -1,7 +1,7 @@
 # Model
 
 //aula 14
-## ngModelOptions
+## ng-model-options
 
 Permite o ajuste como as atualizações do *Model* será feito. Usando `ngModelOptions` você pode especificar uma lista personalizada de eventos que irão desencadear uma atualização do *Model* e/ou um atraso, *debouncing*,  para que a atualização real só ocorra quando um *timer* expirar.
 
@@ -9,9 +9,7 @@ Dada a natureza do `ngModelOptions`, o valor exibido nos `inputs` na *View* pode
 
 ### updateOn
 
-Vamos atualizar o *Model* com `updateOn`
-
-we want our model to be updated only after the user removed the focus of our input element, we can simply do so by applying the ngModelOptions with the following configuration:
+Vamos atualizar o *Model* com `updateOn`, queremos que o nosso modelo seja atualizado somente depois que o usuário remover o foco do `input`, então iremos definir `ng-model-options="{ updateOn: 'blur' }"`:
 
 ```html
 <input
@@ -20,6 +18,8 @@ we want our model to be updated only after the user removed the focus of our inp
   ng-model-options="{ updateOn: 'blur' }">
 <p>Olá {{nome}}!</p>
 ```
+
+Isso faz com que o modelo não atualize imediatamente após cada tecla pressionada, ele só deve atualizar quando o `input` dispara um evento `onBlur`.
 
 
 ### $rollbackViewValue
