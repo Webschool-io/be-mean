@@ -304,8 +304,3 @@ Agora podemos refatorar nosso HTML para:
 ## Mensagens de Erro
 
 A partir do 1.3/1.4 tivemos a melhoria do `ng-messages` que é a diretiva responsável por escolher qual `ng-message` de erro será mostrada, ela lembra a lógica de um `switch`
-
-//aula 14
-## ngModelOptions
-
-Allows tuning how model updates are done. Using ngModelOptions you can specify a custom list of events that will trigger a model update and/or a debouncing delay so that the actual update only takes place when a timer expires; this timer will be reset after another change takes place.
