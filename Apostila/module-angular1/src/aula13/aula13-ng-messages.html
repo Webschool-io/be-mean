@@ -89,7 +89,6 @@
   </style>
 </head>
 <body data-ng-controller="UserController as User">
-
   <section class="row wrapper">
     <img class="atom-logo" src="./../bemean-logo.png" alt="Logo do Be MEAN">
     <p>
@@ -102,13 +101,14 @@
     <form name="User.userForm" data-ng-submit="User.submitForm(User.form)">
 
       <div>
-        <input type="text" name="name" minlength="3" data-ng-model="User.form.name" placeholder="Name" required>
-        <p data-ng-show="User.userForm.name.$error.required">
-          Nome é obrigatório.
+        <input type="text" name="phone" data-ng-pattern="User.regexPhone" data-ng-model="User.form.phone" placeholder="Phone" required>
+        <p>
+          User.userForm.phone.$error: {{ User.userForm.phone.$error }}
         </p>
-        <p data-ng-show="User.userForm.name.$error.minlength">
-          Nome precisa ser maior ou igual a 3 letras.
-        </p>
+        <div data-ng-messages="User.userForm.phone.$error">
+          <p data-ng-message="required">Telefone é obrigatório.</p>
+          <p data-ng-message="pattern">O telefone não está no padrão correto.</p>
+        </div>
       </div>
 
     </form>
@@ -150,9 +150,10 @@
   </section>
 
   <script src="./../angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.js"></script>
   <script>
-    angular.module('BeMEAN', ['ngAnimate'])
+    angular.module('BeMEAN', ['ngAnimate', 'ngMessages'])
       .controller('UserController', UserController);
 
     function UserController() {
@@ -160,6 +161,7 @@
       vm.titulo = "Be MEAN Usuários";
       vm.editing = false;
       vm.reverse = false;
+      vm.regexPhone = /9?([0-9]{4})-?([0-9]{4})/;
       vm.users = [
         {name: 'Suissa', email: 'suissera@manoveio.com', type: 'teacher', active: true}
       , {name: 'João', email: 'joao@macioesedoso.com', type: 'student', active: false}

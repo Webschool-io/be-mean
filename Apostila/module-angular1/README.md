@@ -72,4 +72,5 @@ ng-route
 ui-router
 interceptor
 ng-animate
-
+$broadcast
+$emit

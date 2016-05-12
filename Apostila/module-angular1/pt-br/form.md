@@ -223,10 +223,16 @@ Para acessarmos o valor de uma validação via seu objeto utilizamos o seguinte 
 
 {form}.{campo}.$error.{validação}
 
+Onde:
+
+- {form}: é o nome do `form`, por exemplo: `<form name="User.userForm">`
+- {form}: é o nome do `input`, por exemplo: `<input name="email" ...`
+- {validação}: validação definida no `input`, por exemplo: `ng-minlength=3`
+
 Vamos conhecer um pouco mais sobre as diretivas de validação dos *inputs*, mais especificamente do `type="text"`:
 
 - ng-minlength
-- ng-maxength
+- ng-maxlength
 - ng-pattern
 
 Iniciamos com um exemplo do `ng-minlength`:
@@ -238,23 +244,68 @@ Iniciamos com um exemplo do `ng-minlength`:
 </p>
 ```
 
-Com esse exemeplo vemos que inicialmente ele irá mostrar `error: {"required":true}`, quando você não digitou nada ainda, depois que você digitar 1 letra ele irá virar `error: {"minlength":true}` pois a validação do `required` já verdadeira, porém a validação do `minlength` é pelo menos 3 caracteres. Então depois de digitat `Ana` ele irá ficar sem erro `error: {}`.
+Com esse exemplo vemos que inicialmente ele irá mostrar `error: {"required":true}`, quando você não digitou nada ainda, depois que você digitar 1 letra ele irá virar `error: {"minlength":true}` pois a validação do `required` já verdadeira, porém a validação do `minlength` é pelo menos 3 caracteres. Então depois de digitar `Ana` ele irá ficar sem erro `error: {}`.
 
-Já notou qual o padrão para acessarmos o erro dessa validação?
+Como o `ng-maxlength` é igual ao `ng-minlength` iremos ver agora o `ng-pattern`, ele serve para validar expressões regulares assim como o `pattern` do HTML5 já faz, aliás *minlength* e `maxlength` também são do HTML5.
 
-Se não notou é esse aqui:
-
+```html
+<input type="text" name="phone" data-ng-pattern="/9?([0-9]{4})-?([0-9]{4})/" data-ng-model="User.form.phone" placeholder="Phone">
+<p>
+  error: {{ User.userForm.phone.$error }}
+</p>
 ```
-{form}.{campo}.$error
+
+Mas podemos definir no assim `ng-pattern="phoneRegex"` precisando definir o valor de `regex` no *Controller*, vamos fazer uma REGEX bem simples que teste se o telefone possui 8 dígitos numéricos:
+
+```js
+vm.phoneRegex = "9?([0-9]{4})-?([0-9]{4})";
 ```
 
-Onde:
+Só para deixar claro que como o `input` é uma diretiva do Angular você pode usar apenas essas validações como no HTML5, sem o `ng-`, que ela irá funcionar. \o/
 
-- {form}: é o nome do `form`, por exemplo: `<form name="User.userForm">`
-- {form}: é o nome do `input`, por exemplo: `<input name="email" ...`
+A diferença para o `pattern` comum e o `ng-pattern` é que esse último testa uma REGEX que está no *Controller*
+
+Com isso conseguimos ter maior controle nas nossas mensagens de erro.
+
+Porém o Angular possui mais uma forma de gerenciar essas mensagens de erro, com o `ng-messages` que é um módulo separado por isso precisamos importar ele com:
+
+```html
+script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.js"></script>
+```
+
+E injetar como dependência no nosso módulo:
+
+```js
+angular.module('BeMEAN', ['ngAnimate', 'ngMessages'])
+```
+
+Agora podemos refatorar nosso HTML para:
+
+```html
+<div>
+  <input type="text" name="phone" data-ng-pattern="User.regexPhone" data-ng-model="User.form.phone" placeholder="Phone" required>
+  <p>
+    User.userForm.phone.$error: {{ User.userForm.phone.$error }}
+  </p>
+  <div ng-messages="User.userForm.phone.$error">
+    <p ng-message="required">Telefone é obrigatório.</p>
+    <p ng-message="pattern">O telefone não está no padrão correto.</p>
+  </div>
+</div>
+```
+
+### Exercícios
+
+1) Criar um input do tipo `date`, sua validação e mensagem desta validação.
+2) Criar um input do tipo `number`, sua validação e mensagem desta validação.
+3) Criar um input do tipo `password`, sua validação e mensagem desta validação.
+4) Passe todas as mensagens para `ng-meassages`.
 
 ## Mensagens de Erro
 
 A partir do 1.3/1.4 tivemos a melhoria do `ng-messages` que é a diretiva responsável por escolher qual `ng-message` de erro será mostrada, ela lembra a lógica de um `switch`
 
-novalidate
+//aula 14
+## ngModelOptions
+
+Allows tuning how model updates are done. Using ngModelOptions you can specify a custom list of events that will trigger a model update and/or a debouncing delay so that the actual update only takes place when a timer expires; this timer will be reset after another change takes place.
