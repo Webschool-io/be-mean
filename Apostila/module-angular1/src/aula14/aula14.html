@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <style>
+    html body select {
+      display: inline-block;
+    }
+    [disabled] {
+      background-color: #ccc !important;
+    }
+    .wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .animate {
+      transition: all linear 0.5s;
+    }
+    .ng-hide {
+      height: 0;
+    }
+    .item.ng-enter {
+      -webkit-transition:all linear 0.5s;
+      transition:all linear 0.5s;
+    }
+    .item.ng-leave {
+      -webkit-transition:all linear 0.5s;
+      transition:all linear 0.5s;
+    }
+    .item.ng-move {
+      -webkit-transition:all linear 1s;
+      transition:all linear 1s;
+    }
+    .item.ng-enter {
+      opacity:0;
+    }
+    .item.ng-leave {
+      opacity:1;
+      height: 100px;
+    }
+    .item.ng-leave.ng-leave-active {
+      opacity:0;
+      height: 0;
+    }
+
+    .item.ng-move {
+      opacity: 0;
+    }
+    .item.ng-move.ng-move-active  {
+      opacity: 1;
+    }
+
+    .item.ng-enter.ng-enter-active {
+      color: #4CAF50;  /* .green */
+      font-weight: bold;
+      font-size: 1.2rem;
+      opacity:1;
+    }
+    .atom-titulo {
+      color : #D0BB00;
+      font-size : 80px;
+      text-align : center;
+    }
+    .atom-logo {
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body data-ng-controller="UserController as User">
+
+  <section class="row wrapper">
+    <img class="atom-logo" src="./../bemean-logo.png" alt="Logo do Be MEAN">
+    <p>
+      {{User.selected}}
+    </p>
+    <select data-ng-options="user.email as user.name for user in User.users" data-ng-model="User.selected">
+      <option value="">Escolha um usuário</option>
+    </select>
+
+    <p class="col s12">
+      <label>
+        <input type="text" data-ng-model="User.form.name" placeholder="Name">
+      </label>
+      <br>
+      <label>
+        <input type="email" data-ng-model="User.form.email" placeholder="Email">
+      </label>
+    </p>
+    <button data-ng-disabled="User.editing" data-ng-click="User.add(User.form)" class="btn btn-large green waves-effect waves-light col s12" type="submit" name="action">Add</button>
+    <button data-ng-disabled="!User.editing" data-ng-click="User.save(User.form)" class="btn btn-large animate blue waves-effect waves-light col s12" type="submit" name="action">Save</button>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="4">
+            <label>
+              <input data-ng-model="searchUser" data-ng-model-options="User.modelOptions" placeholder="Search">
+            </label>
+          </th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Email</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-ng-class="{bold: !user.selecionado, strike: user.selecionado}" class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
+          <td>
+            <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
+            <label for="user-{{$index}}"></label>
+          </td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+          <td>
+            <button data-ng-click="User.edit(user, $index)" class="btn blue waves-effect waves-light col s12" type="submit" name="action">Edit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button data-ng-click="User.orderByName()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Name</button>
+    <button data-ng-click="User.orderByEmail()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Email</button>
+    <button data-ng-click="User.remove(User.users)" class="btn btn-large red waves-effect waves-light col s12" type="submit" name="action">Remove
+    </button>
+  </section>
+
+  <script src="./../angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-animate.js"></script>
+  <script>
+    angular.module('BeMEAN', ['ngAnimate'])
+      .controller('UserController', UserController);
+
+    function UserController() {
+      var vm = this;
+      vm.titulo = "Be MEAN Usuários";
+      vm.editing = false;
+      vm.reverse = false;
+      vm.modelOptions = {
+        updateOn: 'blur default'
+      , debounce: {
+          default: 1000
+        , blur: 0
+        }
+      }
+      vm.users = [
+        {name: 'Suissa', email: 'suissera@manoveio.com', type: 'teacher', active: true}
+      , {name: 'João', email: 'joao@macioesedoso.com', type: 'student', active: false}
+      , {name: 'Franciele', email: 'fran@quimica.com', type: 'teacher', active: false}
+      , {name: 'Maria', email: 'm@gmail.com', type: 'student', active: true}
+      , {name: 'José', email: 'js@gmail.com', type: 'student', active: true}
+      ];
+
+      function getKeyLength() {
+        return Object.keys(angular.copy(vm.users[0])).length;
+      }
+      vm.keysLength = getKeyLength();
+
+      vm.orderByName = orderByName;
+      function orderByName() {
+        vm.predicate = 'name';
+        vm.reverse = !vm.reverse;
+      }
+      vm.orderByEmail = orderByEmail;
+      function orderByEmail() {
+        vm.predicate = 'email';
+        vm.reverse = !vm.reverse;
+      }
+
+      vm.add = add;
+      function add(user) {
+        vm.users.push(angular.copy(user));
+        vm.form = {};
+      }
+      vm.remove = remove;
+      function remove(users) {
+        vm.users = users.filter(function(el){ return !el.selecionado });
+      }
+
+      vm.edit = edit;
+      function edit(user, index) {
+        vm.form = angular.copy(user);
+        vm.form.index = index;
+        vm.editing = true;
+      }
+
+      vm.save = save;
+      function save(user) {
+        var users = vm.users.map(function(el, i) {
+          if(i === user.index) {
+            delete user.index;
+            return user;
+          }
+          return el;
+        });
+        vm.users = users;
+        vm.editing = false;
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

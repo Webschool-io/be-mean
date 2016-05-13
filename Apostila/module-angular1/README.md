@@ -37,12 +37,24 @@ Nesse curso abordarei a versão 1.5 acima do [Angular](https://angularjs.org/).
   - ng-style
 - Aula 11
   - ng-options
-  - ng-disable
 - Aula 12
-  - pristine/dirty
-  - ng-messages
+  + Form e Validações
+    * ng-valid
+    * ng-invalid
+    * ng-pristine
+    * ng-drty
+    * ng-disabled
 - Aula 13
+  + Validações e Mensagens de Erro
+    * $error
+      - minlength
+      - patterns
+    * ng-messages
 - Aula 14
+  + ng-model-option
+    * updateOne
+    * debounce
+    * default
 - Aula 15
 - Aula 16
 
@@ -65,12 +77,12 @@ Refêrencias:
 ngModelOptions
 one time binding
 scopes
-events
 directives
 config
 ng-route
 ui-router
 interceptor
 ng-animate
+events
 $broadcast
 $emit

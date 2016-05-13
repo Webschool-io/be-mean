@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <style>
+    html body select {
+      display: inline-block;
+    }
+    [disabled] {
+      background-color: #ccc !important;
+    }
+    .wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body data-ng-controller="UserController as User">
+  <section class="row wrapper">
+    <img class="atom-logo" src="./../bemean-logo.png" alt="Logo do Be MEAN">
+
+    <form name="searchForm">
+      <div>
+        <input type="text" name="name" ng-model-options="{ updateOn: 'blur default', debounce: { default: 3000, blur: 0 }}" data-ng-model="search" placeholder="Busca">
+      </div>
+    </form>
+
+    <article>
+      <p>
+        Busca: {{ search }}
+      </p>
+    </article>
+  </section>
+
+  <script src="./../angular.min.js"></script>
+  <script>
+    angular.module('BeMEAN', [])
+      .controller('UserController', UserController);
+
+    function UserController() {
+      var vm = this;
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
