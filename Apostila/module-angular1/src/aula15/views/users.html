@@ -1,0 +1,35 @@
+<h2>Listagem dos usuários</h2>
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">
+        <label>
+          <input data-ng-model="searchUser" data-ng-model-options="User.modelOptions" placeholder="Search">
+        </label>
+      </th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Email</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-ng-class="{bold: !user.selecionado, strike: user.selecionado}" class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
+      <td>
+        <input type="checkbox" id="user-{{$index}}" ng-model="user.selecionado" />
+        <label for="user-{{$index}}"></label>
+      </td>
+      <td><a href="#/users/{{$index}}">{{ user.name }}</a></td>
+      <td>{{ user.email }}</td>
+      <td>
+        <button data-ng-click="User.edit(user, $index)" class="btn blue waves-effect waves-light col s12" type="submit" name="action">Edit</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<button data-ng-click="User.orderByName()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Name</button>
+<button data-ng-click="User.orderByEmail()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Email</button>
+<button data-ng-click="User.remove(User.users)" class="btn btn-large red waves-effect waves-light col s12" type="submit" name="action">Remove
+</button>

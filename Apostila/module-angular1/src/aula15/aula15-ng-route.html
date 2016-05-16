@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en" data-ng-app="BeMEAN">
+<head>
+  <meta charset="UTF-8">
+  <title>Be MEAN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <style>
+    html body select {
+      display: inline-block;
+    }
+    [disabled] {
+      background-color: #ccc !important;
+    }
+    .wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .animate {
+      transition: all linear 0.5s;
+    }
+    .ng-hide {
+      height: 0;
+    }
+    .item.ng-enter {
+      -webkit-transition:all linear 0.5s;
+      transition:all linear 0.5s;
+    }
+    .item.ng-leave {
+      -webkit-transition:all linear 0.5s;
+      transition:all linear 0.5s;
+    }
+    .item.ng-move {
+      -webkit-transition:all linear 1s;
+      transition:all linear 1s;
+    }
+    .item.ng-enter {
+      opacity:0;
+    }
+    .item.ng-leave {
+      opacity:1;
+      height: 100px;
+    }
+    .item.ng-leave.ng-leave-active {
+      opacity:0;
+      height: 0;
+    }
+
+    .item.ng-move {
+      opacity: 0;
+    }
+    .item.ng-move.ng-move-active  {
+      opacity: 1;
+    }
+
+    .item.ng-enter.ng-enter-active {
+      color: #4CAF50;  /* .green */
+      font-weight: bold;
+      font-size: 1.2rem;
+      opacity:1;
+    }
+    .atom-titulo {
+      color : #D0BB00;
+      font-size : 80px;
+      text-align : center;
+    }
+    .atom-logo {
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body data-ng-controller="UserController as User">
+
+  <section class="row wrapper">
+    <div ng-view></div>
+    <img class="atom-logo" src="./../bemean-logo.png" alt="Logo do Be MEAN">
+    <div>
+      <p><b>Vamos ver o que está acontecendo?</b></p>
+      <pre>Path ($location.path()) = {{$location.path()}}</pre>
+      <pre>Template ($route.current.templateUrl) = {{$route.current.templateUrl}}</pre>
+      <pre>Controlador ($route.current.controller) = {{$route.current.controller}}</pre>
+      <pre>Titulo da Página ($route.current.scope.titulo) = {{$route.current.scope.titulo}}</pre>
+      <pre>Parâmetros da URL ($routeParams) = {{$routeParams}}</pre>
+    </div>
+  </section>
+
+  <script src="./../angular.min.js"></script>
+  <script src="//code.angularjs.org/1.5.4/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-animate.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

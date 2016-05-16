@@ -56,7 +56,17 @@ Nesse curso abordarei a versão 1.5 acima do [Angular](https://angularjs.org/).
     * debounce
     * default
 - Aula 15
+  + Rotas
+    * ng-route
 - Aula 16
+  + Rotas
+    * ui-route
+- Aula 17
+  + Service
+    * $http
+- Aula 18
+- Aula 19
+- Aula 20
 
 ### Animate
 
@@ -74,13 +84,10 @@ Refêrencias:
 
 - [The Many Ways To Use ngClass](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
 
-ngModelOptions
 one time binding
 scopes
 directives
 config
-ng-route
-ui-router
 interceptor
 ng-animate
 events

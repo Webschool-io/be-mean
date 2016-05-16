@@ -1,0 +1,7 @@
+<h2>Dados do usuário</h2>
+<p> Buscar o user pelo id: {{ UserDetails.routeParams.id }}</p>
+<p class="card-panel">
+  Nome: {{ UserDetails.users[UserDetails.routeParams.id].name}}
+  <br>
+  Email: {{ UserDetails.users[UserDetails.routeParams.id].email}}
+</p>
