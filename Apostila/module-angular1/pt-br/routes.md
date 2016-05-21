@@ -169,7 +169,7 @@ Esse é o tal do *Hashbang* e caso você prefira não utilizar as rotas com ele 
     $locationProvider.html5Mode(true);
 ```
 
-E para que ele funcione você também **precisa adicionar o `base` no `head` do `index.html` assim:
+E para que ele funcione você também **precisa** adicionar o `base` no `head` do `index.html` assim:
 
 ```html
 <base href="/">
@@ -241,7 +241,9 @@ Agora quando você entrar em `localhost:8080/users` verá nossa listagem (está 
 #### Exercícios
 
 1) Refatorar o código para deixar no padrão que utilizamos do John Papa.
-2) Criar a rota e dus funcionalidads para a **edição** de um usuário.
+2) Criar a rota para a **edição** de um usuário, onde mesmo irá ter que clickar em botão na *View* dos detalhes do usuário onde o levará para:
+
+/users/INDEX/edit
 
 ## Events
 
