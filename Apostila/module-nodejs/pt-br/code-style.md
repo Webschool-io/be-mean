@@ -268,9 +268,9 @@ const obj = {
 
 // bom
 const obj = {
-, lukeSkywalker
+  lukeSkywalker
 , anakinSkywalker
-  episodeOne: 1
+, episodeOne: 1
 , twoJediWalkIntoACantina: 2
 , episodeThree: 3
 , mayTheFourth: 4
