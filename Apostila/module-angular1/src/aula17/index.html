@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-ng-app="BeMEAN">
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Be MEAN - EAD</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <section class="row wrapper">
+    <img class="atom-logo" src="/assets/images/bemean-logo.png" alt="Logo do Be MEAN">
+    <h1>Be MEAN - EAD</h1>
+    <ul class="menu">
+      <li><a href="/users">Listar</a></li>
+      <li><a href="/users/create">Cadastrar</a></li>
+      <li><a href="/users/github">Github</a></li>
+    </ul>
+    <div data-ng-view></div>
+  </section>
+
+  <script src="https://code.angularjs.org/1.5.4/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.4/angular-route.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.4/angular-animate.min.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/user.js"></script>
+</body>
+</html>

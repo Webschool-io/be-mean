@@ -1,0 +1,12 @@
+<!-- código da aula 12 -->
+<h2>Cadastro de usuário</h2>
+<form name="User.userForm" data-ng-submit="User.submitForm(User.form)">
+  <div data-ng-class="{'invalid': User.form.name.$invalid && !User.form.name.$pristine, 'dirty': User.form.name.$dirty}">
+    <input type="text" name="name" data-ng-model="User.form.name" placeholder="Name" required>
+  </div>
+  <div data-ng-class="{'invalid' : User.form.email.$invalid && !User.form.name.$pristine}">
+    <input type="email" name="email" data-ng-model="User.form.email" placeholder="Email">
+  </div>
+  <button data-ng-disabled="User.editing || User.form.name.$pristine" class="btn btn-large green waves-effect waves-light col s12" type="submit" name="action">Add</button>
+  <button data-ng-disabled="!User.editing" data-ng-click="User.save(User.form)" class="btn btn-large animate blue waves-effect waves-light col s12" type="submit" name="action">Save</button>
+</form>
