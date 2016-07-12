@@ -154,7 +154,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **Docker (4 horas)**
 - **Ionic (10 horas)**
 
-##  Módulo MongoDB - 09.11 a 22.11
+##  Módulo MongoDB
 
 [Slides](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
 
@@ -278,7 +278,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js - 07.12 a 15.03
+##  Módulo Node.js
 
 ## Roteiro - 50 horas
 
