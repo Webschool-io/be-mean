@@ -149,7 +149,13 @@ function UserDetailsController($http, $routeParams) {
 UserController.$inject = ['$http', '$routeParams'];
 
 
-
+const helloWorld = function () {
+  return {
+    restrict: 'AECM',
+    replace: 'true',
+    template: '<h3>Hello World!!</h3>'
+  };
+};
 
 angular.module('User', [])
   .config(['$routeProvider', function($routeProvider) {
@@ -176,6 +182,7 @@ angular.module('User', [])
       });
   }])
   .service('UserService', UserService)
+  .directive('helloWorld', helloWorld)
   .controller('UserController', ['UserService', UserController])
   .controller('UserCreateController', ['UserService', UserCreateController])
   .controller('UserDetailsController', UserDetailsController)

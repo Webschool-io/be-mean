@@ -3,6 +3,7 @@
 angular.module('BeMEAN', [
   'ngRoute'
 , 'User'
+// , 'Diretivas'
 ])
   .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     // $locationProvider.html5Mode(true);
