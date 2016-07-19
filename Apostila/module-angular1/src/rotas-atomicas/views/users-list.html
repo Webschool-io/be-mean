@@ -1,0 +1,30 @@
+<h2>Listagem dos usuários</h2>
+<table>
+  <thead>
+    <tr>
+      <th colspan="4">
+        <label>
+          <input data-ng-model="searchUser" data-ng-model-options="User.modelOptions" placeholder="Search">
+        </label>
+      </th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Email</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-ng-class="{bold: !user.selecionado, strike: user.selecionado}" class="item" data-ng-repeat="user in User.users | filter:searchUser | orderBy:User.predicate:User.reverse ">
+      <td></td>
+      <td><a href="/users/{{user._id}}">{{ user.name }}</a></td>
+      <td>{{ user.email }}</td>
+      <td>
+        <button data-ng-click="User.remove(user)" class="btn red waves-effect waves-light col s12" type="submit" name="action">Remover</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<button data-ng-click="User.orderByName()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Name</button>
+<button data-ng-click="User.orderByEmail()" class="btn btn-large animate black waves-effect waves-light col s12" type="submit" name="action">Order Email</button>
