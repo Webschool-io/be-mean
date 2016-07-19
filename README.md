@@ -27,7 +27,7 @@ Certificados:
 - AngularJs (40 horas)
 
 
-**Acesse [http://webschool.io/bemean](Webschool.io/bemean) para apoiar.**
+**Acesse [webschool.io/bemean](http://webschool.io/bemean) para apoiar.**
 
 
 ## R$100
@@ -53,7 +53,7 @@ Certificados:
   - Stylus (2 horas)
   - PostCSS (2 horas)
 
-**Acesse [http://webschool.io/bemean](Webschool.io/bemean) para apoiar.**
+**Acesse [webschool.io/bemean](http://webschool.io/bemean) para apoiar.**
 
 
 # Certificado
@@ -154,7 +154,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **Docker (4 horas)**
 - **Ionic (10 horas)**
 
-##  Módulo MongoDB - 09.11 a 22.11
+##  Módulo MongoDB
 
 [Slides](https://docs.google.com/presentation/d/1KXxmcwd47x4v2SymyiBPK7ucn80PruSvcw4mZ5S3nWc/edit?usp=sharing)
 
@@ -278,7 +278,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - **PROJETO**
 	+ **de 20.11 a 30.11**
 
-##  Módulo Node.js - 07.12 a 15.03
+##  Módulo Node.js
 
 ## Roteiro - 50 horas
 
@@ -286,7 +286,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 - Aula 01
    + Vídeo: [https://www.youtube.com/watch?v=OgfO37F6mdg](https://www.youtube.com/watch?v=OgfO37F6mdg)
-    + [Teoria](./src/theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio](https://github.com/caiocutrim)
+    + [Teoria](./Apostila/module-nodejs/pt-br/theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio](https://github.com/caiocutrim)
         * V8
         * Single thread
         * Event Loop
@@ -342,7 +342,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
   + [Mongoose - Parte 1/3](https://www.youtube.com/watch?v=O8odFa3dl-k)
   + [Mongoose - Parte 2/3](https://www.youtube.com/watch?v=02a_lo_KLwU)
   + [Mongoose - Parte 3/3](https://www.youtube.com/watch?v=XeLRYhrcKJo)
-  + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa)
+  + [Mongoose](./Apostila/module-nodejs/pt-br/mongoose.md) - Prof.: [Suissa](https://github.com/suissa)
         * Create
         * Retrieve
         * Update
@@ -350,19 +350,19 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Validação
 - Aula 07
    + Vídeo: [https://www.youtube.com/watch?v=i6h1A-l11-k](https://www.youtube.com/watch?v=i6h1A-l11-k)
-    + [Eventos](./src/) - Prof.: [Itacir](https://github.com/pompeu)
+    + [Eventos](./Apostila/module-nodejs/pt-br/events.md) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
-    + [Promises](./src/) - Prof.: [Itacir](https://github.com/pompeu)
+    + [Promises](./Apostila/module-nodejs/pt-br/promise.md) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
 - Aula 08
 
-   + [Mongoose - Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8) 
+   + [Mongoose - Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8)
    + [Mongoose - Parte 2/6](https://www.youtube.com/watch?v=_wj0y_77CYs)
    + [Mongoose - Parte 3/6](https://www.youtube.com/watch?v=8M4pN64BsnU)
    + [Mongoose - Parte 4/6](https://www.youtube.com/watch?v=xR3ex_YjQyc)
    + [Mongoose - Parte 5/6](https://www.youtube.com/watch?v=VRGI-R_PxpQ)
    + [Mongoose - Parte 6/6](https://www.youtube.com/watch?v=3Hq7O7TeXjw)
-   
+
     + [Mongoose](./src/) - Prof.: [Suissa](https://github.com/suissa) & Prof.: [Itacir](https://github.com/pompeu)
         * Arquitetura Atômica
         * Getters & Setters
