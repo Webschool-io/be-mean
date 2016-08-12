@@ -1,21 +1,20 @@
 # MongoDB - Aula 01 - Exercício
-autor: SEU NOME
+autor: Eve Montalvão
 
 ## Importando os restaurantes
 
     ```
-     mongoimport [AQUI VEM O COMANDO]
-    2015-10-29T23:34:49.494-0200    connected to: 127.0.0.1:27017
-    2015-10-29T23:34:49.495-0200    dropping: be-mean.restaurantes
-    2015-10-29T23:34:52.487-0200    [##########..............] be-mean.restaurantes   5.2 MB/11.3 MB (45.5%)
-    2015-10-29T23:34:54.732-0200    imported X documents
+     mongoimport --db be-mean --collection restaurantes --drop --file restaurantes.json
+     2016-08-11T22:50:45.655-0300   connected to: localhost
+     2016-08-11T22:50:45.656-0300   dropping: be-mean.restaurantes
+     2016-08-11T22:50:46.980-0300   imported 25359 documents
 
     ```
 
 ## Contando os restaurantes
 
     ```
-    suissacorp(mongod-3.0.6) be-mean> db.restaurantes.find({}).count()
-    X
+    db.restaurantes.find({}).count()
+    25359
 
     ```
