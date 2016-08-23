@@ -1,4 +1,4 @@
-##  Módulo Node.js | 07.12.15 a 20.12.15
+##  Módulo Node.js
 
 - **Aula 01 | 23.11** Vídeo: [https://www.youtube.com/watch?v=OgfO37F6mdg](https://www.youtube.com/watch?v=OgfO37F6mdg)
   * O Node.js

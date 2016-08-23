@@ -1,4 +1,4 @@
-##  Módulo MongoDB | 08.11.15 a 01.12.15
+##  Módulo MongoDB 
 
 - **Aula 00 | 08.11.15** Vídeo: [https://www.youtube.com/watch?v=-ccU_-OIka4](https://www.youtube.com/watch?v=-ccU_-OIka4)
   + Apresentação do Be MEAN
