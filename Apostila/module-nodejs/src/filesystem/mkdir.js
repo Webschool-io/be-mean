@@ -1,10 +1,8 @@
-/**
- * async, sync
- */
+'use strict'
 
-var fs = require('fs');
+const fs = require('fs');
 
-
+// async
 fs.mkdir('./eufuiCriadoComNode', function (err, result) {
   if (err) throw err;
   console.log(result);

@@ -1,11 +1,8 @@
-/**
- * rename
- */
- 
+'use strict'
 
-var fs = require('fs');
+const fs = require('fs');
 
 
-fs.rename('./eufuiCriadoComNode/', './eufuiRenomeadoComNode', function (err) {
+fs.rename('./eufuiCriadoComNode/', './eufuiRenomeadoComNode', (err) => {
   if (err) throw err;
 });

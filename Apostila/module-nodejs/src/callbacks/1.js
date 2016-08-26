@@ -6,12 +6,12 @@ function sayName (name, callback) {
   if (typeof name === 'string') {
     return callback(null, name);
   } else {
-    var err = new Error("Opah, cara cê tem quem uma string parceiro, aqui o bagulho é louco");
+    var err = new Error("Vish! Deu ZICA porque você precisa passar uma STRING para name!");
     return callback(err, null);
   }
 }
 
-sayName("Caio Cutrim", function (err, name) {
+sayName("Suissa", function (err, name) {
   if (err) {
     console.log(err);
   } else {

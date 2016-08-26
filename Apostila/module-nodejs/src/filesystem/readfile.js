@@ -1,16 +1,17 @@
+'use strict'
 /**
  * async, sync
  */
 
-var fs = require('fs');
+const fs = require('fs');
 
 
-fs.readFile('./meusArquivos/helloworld.txt', 'utf8',function (err, data) {
+fs.readFile('./meusArquivos/helloworld.txt', 'utf8', (err, data) => {
   if (err) throw err;
   console.log(data);
 });
 
 
-var dataSync = fs.readFileSync('./meusArquivos/hiworld.txt', 'utf8');
+const dataSync = fs.readFileSync('./meusArquivos/hiworld.txt', 'utf8');
 
 console.log(dataSync);
