@@ -383,6 +383,15 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
 - Aula 10
     + [Express - Introdução - Parte 1/3](https://www.youtube.com/watch?v=ZRUuBfoYlxs&index=20&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+	* Introdução - 0:0
+	* Hello Word - 3:22
+	* HTTP Headers - 9:36
+	* res.send - 11:50
+	* res.json - 18:57
+	* res.jsonp - 25:22
+	* res.redirect - 30:42
+	* res.set - 35:19
+	* Exercicios - 39:55
     + [Express - Response - Parte 2/3](https://www.youtube.com/watch?v=CcFxvOBohvM&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=21)
     + [Express - Response - Parte 3/3](https://www.youtube.com/watch?v=0TnThWFlvhs&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=22)
 - Aula 11
