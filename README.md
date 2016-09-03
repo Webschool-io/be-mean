@@ -391,7 +391,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 	* res.jsonp - 25:22
 	* res.redirect - 30:42
 	* res.set - 35:19
-	* Exercicios - 39:55
+	* Exercícios - 39:55
     + [Express - Response - Parte 2/3](https://www.youtube.com/watch?v=CcFxvOBohvM&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=21)
 	* res.render - 0:0
 	* function (error, data) - 3:14
@@ -401,10 +401,16 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 		- each - 16:04
 	* res.sendFile - 25:00
 	* Exercícios - 36:14
-	
-	
+
     + [Express - Response - Parte 3/3](https://www.youtube.com/watch?v=0TnThWFlvhs&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=22)
 - Aula 11
+	* res.set - 1:12
+	* res.get - 5:32
+	* res.type - 9:00
+	* res.format - 12:26
+	* res.links - 20:04
+	* Exercícios - 24:34
+
     + [Express - Request - Parte 1/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=23&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
     + [Express - Router - Parte 2/3](https://www.youtube.com/watch?v=aSesEKO5uw8&index=24&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
     + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=25&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
