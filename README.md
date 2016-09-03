@@ -393,6 +393,16 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 	* res.set - 35:19
 	* Exercicios - 39:55
     + [Express - Response - Parte 2/3](https://www.youtube.com/watch?v=CcFxvOBohvM&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=21)
+	* res.render - 0:0
+	* function (error, data) - 3:14
+	* jade engine
+		- view - 4:02
+		- path - 11:24
+		- each - 16:04
+	* res.sendFile - 25:00
+	* Exercícios - 36:14
+	
+	
     + [Express - Response - Parte 3/3](https://www.youtube.com/watch?v=0TnThWFlvhs&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=22)
 - Aula 11
     + [Express - Request - Parte 1/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=23&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
