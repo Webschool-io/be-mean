@@ -409,6 +409,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 	* res.format - 12:26
 	* res.links - 20:04
 	* Exercícios - 24:34
+
 - Aula 11
     + [Express - Request - Parte 1/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=23&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
 	* Introdução - 0:0
@@ -418,8 +419,15 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 	* req.body - 21:46
 	* req.file - 26:30
 	* Exercícios - 37:37
-
     + [Express - Router - Parte 2/3](https://www.youtube.com/watch?v=aSesEKO5uw8&index=24&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+	* Introdução - 0:0
+	* Router - 0:47
+	* router.all - 6:52
+	* router.{METHOD} - 11:35
+	* next () - 13:13
+	* Router in Module - 21:50
+	* Exercícios - 26:00
+
     + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=25&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
 - Aula 12
   + [Mongoose - Atomic - Parte 1/3](https://www.youtube.com/watch?v=2lml_4kOhgU&index=26&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
