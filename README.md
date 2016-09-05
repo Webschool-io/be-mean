@@ -428,7 +428,12 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Router in Module - 21:50
         * Exercícios - 26:00
 
-    + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=25&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+    + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=yWiupCEVbjU&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=25)
+        * Express Generator - 0:30
+        * Jade View (Dicas) - 9:26
+        * Integração com Mongoose - 17:30
+        * Exercícios - 30:19
+
 - Aula 12
   + [Mongoose - Atomic - Parte 1/3](https://www.youtube.com/watch?v=2lml_4kOhgU&index=26&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
   + [Mongoose - Atomic - Parte 2/3](https://www.youtube.com/watch?v=-1BFew5Kmn0&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=27)
