@@ -356,13 +356,11 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             - time:event / mod:three - 3:18
             - Extend (Herança) EventEmitter - 8:27
             - Eventos + Mongoose - 15:50
+    + [Promises](./Apostila/module-nodejs/pt-br/promise.md) - Prof.: [Itacir](https://github.com/pompeu)
         * Promise - 24:30
         * Promise.all - 39:43
 
-    + [Promises](./Apostila/module-nodejs/pt-br/promise.md) - Prof.: [Itacir](https://github.com/pompeu)
-        * Mongoose
 - Aula 08
-
    + [Mongoose - Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8)
    + [Mongoose - Parte 2/6](https://www.youtube.com/watch?v=_wj0y_77CYs)
    + [Mongoose - Parte 3/6](https://www.youtube.com/watch?v=8M4pN64BsnU)
