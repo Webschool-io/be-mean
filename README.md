@@ -351,7 +351,14 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - Aula 07
    + Vídeo: [https://www.youtube.com/watch?v=i6h1A-l11-k](https://www.youtube.com/watch?v=i6h1A-l11-k)
     + [Eventos](./Apostila/module-nodejs/pt-br/events.md) - Prof.: [Itacir](https://github.com/pompeu)
-        * Mongoose
+        * Introdução - 0:0
+        * EventEmitter
+            - time:event / mod:three - 3:18
+            - Extend (Herança) EventEmitter - 8:27
+            - Eventos + Mongoose - 15:50
+        * Promise - 24:30
+        * Promise.all - 39:43
+
     + [Promises](./Apostila/module-nodejs/pt-br/promise.md) - Prof.: [Itacir](https://github.com/pompeu)
         * Mongoose
 - Aula 08
