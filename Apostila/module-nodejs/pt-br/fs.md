@@ -6,32 +6,11 @@ Módulo para utilização do sistema de arquivos do seu Sistema Operacional.
 
 ## Arquivos
 
-### readFile
-
-Logicamente essa função serve para **ler** o conteúdo de um arquivo.
-
-```js
-const fs = require("fs")
-
-// Async
-fs.readFile('webschool.txt', function (err, data) {
-  if (err) return console.error(err)
-  console.log("Leitura async: " + data.toString())
-})
-
-// Sync
-const data = fs.readFileSync('webschool.txt')
-console.log("Leitura sync: " + data.toString())
-
-console.log('Final da execução')
-```
-
-Documentação: [https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_writefile_file_data_options_callback](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_writefile_file_data_options_callback)
+Nessa parte da aula falaremos apenas sobre a manipulação de arquivos.
 
 ### writeFile
 
-
-Logo essa função serve para **escrever** o conteúdo de um arquivo.
+Obviamente essa função serve para **escrever** o conteúdo de um arquivo.
 
 ```js
 const fs = require("fs")
@@ -78,9 +57,31 @@ fs.appendFile(file, data, encoding, callback)
 fs.appendFileSync(file, data, encoding, callback)
 
 console.log('Final da execução')
-``
+```
 
 Documentação: [https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_appendfile_file_data_options_callback](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_appendfile_file_data_options_callback)
+
+### readFile
+
+Logicamente essa função serve para **ler** o conteúdo de um arquivo.
+
+```js
+const fs = require("fs")
+
+// Async
+fs.readFile('webschool.txt', function (err, data) {
+  if (err) return console.error(err)
+  console.log("Leitura async: " + data.toString())
+})
+
+// Sync
+const data = fs.readFileSync('webschool.txt')
+console.log("Leitura sync: " + data.toString())
+
+console.log('Final da execução')
+```
+
+Documentação: [https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_writefile_file_data_options_callback](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_writefile_file_data_options_callback)
 
 ### watchFile
 
@@ -98,6 +99,8 @@ fs.watchFile('webschool.txt', (curr, prev) => {
 
 ## Diretórios
 
+Agora partiremos para a manipulação de pastas/diretórios!
+
 ### readdir
 
 ### mkdir
@@ -106,3 +109,20 @@ fs.watchFile('webschool.txt', (curr, prev) => {
 
 ### rmdir
 
+## Stats
+
+```js
+const fs = require('fs')
+
+fs.stat('./fs.stats.js', (err, stats) => console.log('stats', stats.isFile()))
+
+/**
+stats.isFile()
+stats.isDirectory()
+stats.isBlockDevice()
+stats.isCharacterDevice()
+stats.isSymbolicLink() (only valid with fs.lstat())
+stats.isFIFO()
+stats.isSocket()
+*/
+```
