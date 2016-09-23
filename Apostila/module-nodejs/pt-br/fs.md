@@ -78,11 +78,23 @@ fs.appendFile(file, data, encoding, callback)
 fs.appendFileSync(file, data, encoding, callback)
 
 console.log('Final da execução')
-```
+``
 
 Documentação: [https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_appendfile_file_data_options_callback](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_appendfile_file_data_options_callback)
 
 ### watchFile
+
+Essa é uma dica rápida para caso você queira saber quando um arquivo é modificado.
+
+```js
+const fs = require("fs")
+
+// Async
+fs.watchFile('webschool.txt', (curr, prev) => {
+  console.log(`the current mtime is: ${curr.mtime}`, curr)
+  console.log(`the previous mtime was: ${prev.mtime}`, prev)
+})
+```
 
 ## Diretórios
 
