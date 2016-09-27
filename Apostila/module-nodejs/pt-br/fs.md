@@ -103,6 +103,7 @@ Agora partiremos para a manipulação de pastas/diretórios!
 
 ### readdir
 
+
 ### mkdir
 
 ## rename
@@ -111,10 +112,21 @@ Agora partiremos para a manipulação de pastas/diretórios!
 
 ## Stats
 
+Uma dica sapeca é utilizarmos o `stat` para saber o estado de algo, por exemplo:
+
+- se é um arquivo;
+- se é um dirtório;
+- se é um link simbólico;
+- se é um socket;
+- etc.
+
+E para isso fazer isso é bem simples, apenas passamos o que queremos testar e o seu *callback*, por exemplo:
+
 ```js
 const fs = require('fs')
 
-fs.stat('./fs.stats.js', (err, stats) => console.log('stats', stats.isFile()))
+fs.stat('./fs.stats.js', (err, stats) => console.log('É arquivo?', stats.isFile()))
+// É arquivo? true
 
 /**
 stats.isFile()

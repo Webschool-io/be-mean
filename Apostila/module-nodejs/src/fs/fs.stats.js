@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-fs.stat('./fs.stats.js', (err, stats) => console.log('stats', stats.isFile()))
+fs.stat('./fs.stats.js', (err, stats) => console.log('É arquivo?', stats.isFile()))
 
 /**
 stats.isFile()
