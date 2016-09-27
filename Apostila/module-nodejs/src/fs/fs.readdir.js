@@ -1,6 +1,10 @@
 const fs = require('fs')
-fs.readdir( process.argv[2], (err, files) => (err) 
-  ? throw err 
-  : console.log(files)
+const dir = process.argv[2] || '.'
+
+fs.readdir( dir, (err, files) => { 
+  if (err) throw err
+  console.log(files)
 })
-console.log("Fired callback.")
+
+// const files = fs.readdirSync(dir)
+// console.log(files)

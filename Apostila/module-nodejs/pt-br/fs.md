@@ -103,8 +103,38 @@ Agora partiremos para a manipulação de pastas/diretórios!
 
 ### readdir
 
+Lê o conteúdo de um diretório ecluindo `.` e `..`.
+
+```js
+const fs = require('fs')
+const dir = process.argv[2] || '.'
+
+// Async
+fs.readdir( dir, (err, files) => { 
+  if (err) throw err
+  console.log(files)
+})
+
+// Sync
+// const files = fs.readdirSync(dir)
+// console.log(files)
+```
+
+Documentação [https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback](https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback)
 
 ### mkdir
+
+```js
+const fs = require('fs')
+const dir = process.argv[2] || 'nova pasta'
+
+
+fs.mkdir(dir, 0777, (err) => { 
+  if (err) throw err
+  console.log(`Diretório '${dir}' criado!`)
+})
+```
+
 
 ## rename
 
