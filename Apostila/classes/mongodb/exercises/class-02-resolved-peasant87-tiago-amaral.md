@@ -3,71 +3,70 @@ autor: Tiago Amaral
 
 ## Criando DB
 
-    ```
-    mongo be-mean-pokemons
+	```
+	mongo be-mean-pokemons
 
-    ```
-
+	```
 ## Listando DBs
 
-    ```
-    show dbs
+	```
+	show dbs
 	be-mean           → 0.078GB
 	be-mean-instagram → 0.078GB
 	local             → 0.078GB
 
-    ```
+	```
 
 ## Listando Collections
 
-    ```
-   show collections
+	```
+	show collections
 	*nenhuma coleção criada ainda
 
 	```
 ## Inserir 5 pokemons
 
-    ```
-   var pokemon = {'name':'Sandshrew','description':'tatu lutador', attack: 40, defense: 40, height: 0.6 }
-   db.pokemons.save(pokemon)
-   Inserted 1 record(s) in 229ms
+	```
+	var pokemon = {'name':'Sandshrew','description':'tatu lutador', attack: 40, defense: 40, height: 0.6 }
+	db.pokemons.save(pokemon)
+	Inserted 1 record(s) in 229ms
 		WriteResult({
-  		"nInserted": 1
+			"nInserted": 1
 	})
 
-   var pokemon = {'name':'Clefairy','description':'fada lutadora', attack: 20, defense: 20, height: 0.6 }
-   db.pokemons.save(pokemon)
-   Inserted 1 record(s) in 4ms
+	var pokemon = {'name':'Clefairy','description':'fada lutadora', attack: 20, defense: 20, height: 0.6 }
+	db.pokemons.save(pokemon)
+	Inserted 1 record(s) in 4ms
 		WriteResult({
-  		"nInserted": 1
+			"nInserted": 1
 	})
 
-   var pokemon = {'name':'Diglett','description':'esconde esconde',attack: 30, defense: 10, height: 0.2 }
-   db.pokemons.save(pokemon)
-   Inserted 1 record(s) in 4ms
+	var pokemon = {'name':'Diglett','description':'esconde esconde',attack: 30, defense: 10, height: 0.2 }
+	db.pokemons.save(pokemon)
+	Inserted 1 record(s) in 4ms
 		WriteResult({
-  		"nInserted": 1
+			"nInserted": 1
 	})
 
-   var pokemon = {'name':'Abra','description':'dorminhoco teletransportador', attack: 10, defense: 10,  height: 0.9 }
-   db.pokemons.save(pokemon)
-   Inserted 1 record(s) in 4ms
+	var pokemon = {'name':'Abra','description':'dorminhoco teletransportador', attack: 10, defense: 10,  height: 0.9 }
+	db.pokemons.save(pokemon)
+	Inserted 1 record(s) in 4ms
 		WriteResult({
-  		"nInserted": 1
+			"nInserted": 1
 	})
 
-   var pokemon = {'name':'Tentacool','description':'polvo lutador',attack: 20, defense: 20,  height: 0.9 }
-   db.pokemons.save(pokemon)
-   Inserted 1 record(s) in 4ms
+	var pokemon = {'name':'Tentacool','description':'polvo lutador',attack: 20, defense: 20,  height: 0.9 }
+	db.pokemons.save(pokemon)
+	Inserted 1 record(s) in 4ms
 		WriteResult({
-  		"nInserted": 1
+			"nInserted": 1
 	})
 
 	```
 
 ## Listar collection
 
-    ```
+	```
 	db.pokemons.find()
 
 	{
@@ -116,11 +115,11 @@ autor: Tiago Amaral
 
 ## Buscar pokemon
 
-    ```
-    var query = {name: 'Abra'}
-    var poke = db.pokemons.findOne(query)
-    poke
-    {
+	```
+	var query = {name: 'Abra'}
+	var poke = db.pokemons.findOne(query)
+	poke
+	{
 	  "_id": ObjectId("580fc41fa881fd5358291b7b"),
 	  "name": "Abra",
 	  "description": "dorminhoco teletransportador",
@@ -128,8 +127,8 @@ autor: Tiago Amaral
 	  "defense": 10,
 	  "height": 0.9
 	}
-    poke.description = "foge-foge da estrela"
-    {
+	poke.description = "foge-foge da estrela"
+	{
 	  "_id": ObjectId("580fc41fa881fd5358291b7b"),
 	  "name": "Abra",
 	  "description": "foge-foge da estrela",
@@ -145,5 +144,4 @@ autor: Tiago Amaral
 	  "nModified": 1
 	})
 
-
-
+	```
