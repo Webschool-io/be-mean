@@ -286,7 +286,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 - Aula 01
    + Vídeo: [https://www.youtube.com/watch?v=OgfO37F6mdg](https://www.youtube.com/watch?v=OgfO37F6mdg)
-    + [Teoria](./Apostila/module-nodejs/pt-br/theory.md) - Profs.: [Suissa](https://github.com/suissa) e [Caio](https://github.com/caiocutrim)
+    + [Teoria](./Apostila/module-nodejs/pt-br/theory.md) - Profs.: [Suissa](https://github.com/suissa)
         * V8
         * Single thread
         * Event Loop
@@ -310,9 +310,6 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
             * post
             * put
 - Aula 04
-   + Vídeo: [https://www.youtube.com/watch?v=f9SE7Y0qYEg](https://www.youtube.com/watch?v=f9SE7Y0qYEg)
-    + [Callbacks](./Apostila/module-nodejs/pt-br/callback.md) - Prof.: [Caio Cutrim](https://github.com/caiocutrim/)
-    + [FileSystem](./Apostila/module-nodejs/pt-br/fs.md) - Prof.: [William Bruno](https://github.com/wbruno)
         * mkdir
         * open
         * readdir
@@ -335,9 +332,9 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * run
 
    + Vídeo: [https://www.youtube.com/watch?v=DD1XKyaq9NE](https://www.youtube.com/watch?v=DD1XKyaq9NE)
-    + [Globals](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
+    + [Globals](./src/)
         * CommonJS
-    + [Process](./src/) - Prof.: [Caio](https://github.com/caiocutrim/)
+    + [Process](./src/)
 - Aula 06
   + [Mongoose - Parte 1/3](https://www.youtube.com/watch?v=O8odFa3dl-k)
   + [Mongoose - Parte 2/3](https://www.youtube.com/watch?v=02a_lo_KLwU)
