@@ -348,11 +348,16 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 - Aula 07
    + Vídeo: [https://www.youtube.com/watch?v=i6h1A-l11-k](https://www.youtube.com/watch?v=i6h1A-l11-k)
     + [Eventos](./Apostila/module-nodejs/pt-br/events.md) - Prof.: [Itacir](https://github.com/pompeu)
-        * Mongoose
+        * Introdução - 0:0
+        * EventEmitter
+            - time:event / mod:three - 3:18
+            - Extend (Herança) EventEmitter - 8:27
+            - Eventos + Mongoose - 15:50
     + [Promises](./Apostila/module-nodejs/pt-br/promise.md) - Prof.: [Itacir](https://github.com/pompeu)
-        * Mongoose
-- Aula 08
+        * Promise - 24:30
+        * Promise.all - 39:43
 
+- Aula 08
    + [Mongoose - Parte 1/6](https://www.youtube.com/watch?v=tscqqhVQje8)
    + [Mongoose - Parte 2/6](https://www.youtube.com/watch?v=_wj0y_77CYs)
    + [Mongoose - Parte 3/6](https://www.youtube.com/watch?v=8M4pN64BsnU)
@@ -380,12 +385,57 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
     - Teste Atômicos  - Prof.: [Suissa](https://github.com/suissa)
 - Aula 10
     + [Express - Introdução - Parte 1/3](https://www.youtube.com/watch?v=ZRUuBfoYlxs&index=20&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+	   * Introdução - 0:0
+	   * Hello Word - 3:22
+	   * HTTP Headers - 9:36
+	   * res.send - 11:50
+	   * res.json - 18:57
+	   * res.jsonp - 25:22
+	   * res.redirect - 30:42
+	   * res.set - 35:19
+	   * Exercícios - 39:55
     + [Express - Response - Parte 2/3](https://www.youtube.com/watch?v=CcFxvOBohvM&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=21)
+	   * res.render - 0:0
+	   * function (error, data) - 3:14
+	   * jade engine
+	       - view - 4:02
+           - path - 11:24
+           - each - 16:04
+	   * res.sendFile - 25:00
+	   * Exercícios - 36:14
+
     + [Express - Response - Parte 3/3](https://www.youtube.com/watch?v=0TnThWFlvhs&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=22)
+        * res.set - 1:12
+        * res.get - 5:32
+        * res.type - 9:00
+        * res.format - 12:26
+        * res.links - 20:04
+        * Exercícios - 24:34
+
 - Aula 11
     + [Express - Request - Parte 1/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=23&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+        * Introdução - 0:0
+        * req.params - 2:50
+        * req.query - 10:25
+        * req.get - 17:15
+        * req.body - 21:46
+        * req.file - 26:30
+        * Exercícios - 37:37
     + [Express - Router - Parte 2/3](https://www.youtube.com/watch?v=aSesEKO5uw8&index=24&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
-    + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=chCB2hFmnoQ&index=25&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
+        * Introdução - 0:0
+        * Router - 0:47
+        * router.all - 6:52
+        * router.{METHOD} - 11:35
+        * next () - 13:13
+        * Router in Module - 21:50
+        * Exercícios - 26:00
+
+    + [Express - Generator - Parte 3/3](https://www.youtube.com/watch?v=yWiupCEVbjU&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=25)
+        * Express Generator - 0:30
+        * Jade View (Dicas) - 9:26
+        * Integração com Mongoose - 17:30
+        * Exercícios - 30:19
+
 - Aula 12
   + [Mongoose - Atomic - Parte 1/3](https://www.youtube.com/watch?v=2lml_4kOhgU&index=26&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ)
   + [Mongoose - Atomic - Parte 2/3](https://www.youtube.com/watch?v=-1BFew5Kmn0&list=PL77JVjKTJT2hP_lxL88oDo2rJvOskpGfJ&index=27)
