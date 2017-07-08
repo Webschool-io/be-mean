@@ -124,7 +124,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
 
 # Roteiro
 
-##**CUIDADO!!! Alterações podem ser feitas sem aviso prévio, por isso SEMPRE LEIA AQUI!!!!**
+## **CUIDADO!!! Alterações podem ser feitas sem aviso prévio, por isso SEMPRE LEIA AQUI!!!!**
 
 ## Duração
 - **Be MEAN (104 horas) e aumentando**
