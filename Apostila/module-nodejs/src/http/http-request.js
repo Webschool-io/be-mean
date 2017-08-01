@@ -1,6 +1,6 @@
 'use strict';
 
-const http = require('http');
+const http = require('https'); //mudou para httpS
 
 const options = {
   host: 'api.redtube.com'
