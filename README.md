@@ -137,7 +137,7 @@ Após fazer isso você receberá seu certificado gratuitamente além de ajudar m
         * Stylus (1 hora)
         * Gulp (1 hora)
         * Mobile-first (5 horas)
-        * Offile-first (3 horas)
+        * Offline-first (3 horas)
     + **NoSQL (13 horas)**
         * Redis (3 horas)
         * Neo4J (4 horas)
