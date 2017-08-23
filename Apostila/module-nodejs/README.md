@@ -2,7 +2,7 @@
 
 Nesse curso abordarei a versão 5 do Node.js.
 
-O MongoDb é um banco e dados NoSQL open-source e orientado a documentos JSON. Ele foi criado para ser escalado horizontalmente, conceito que veremos mais a frente.
+Node.js é um runtime baseado na tecnologia V8 javascript engine. O Node.js é orientado a eventos e non-blocking I/O que o torna leve e eficiente.
 
 ## Roteiro - 20 horas
 
@@ -134,6 +134,3 @@ Cada **Projeto em aula** iniciado terá um professor diferente como gerente e de
 Para mantermos um mínimo padrão entre nossos códigos vamos adotar o seguinte padrão, caso você não o use, não tem problema, começe agora nem que seja para esse projeto apenas.
 
 .[Nosso CODE STYLE aqui.](./code-style.md)
-
-
-
